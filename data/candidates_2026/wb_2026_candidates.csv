@@ -1,0 +1,206 @@
+constituency_id,constituency_name,district,sno,candidate,party,criminal_cases,education,age,total_assets,liabilities
+1,MEKLIGANJ (SC),COOCHBEHAR,1,Adhikary Paresh Chandra,AITC,1,10th Pass,74,"Rs 4,36,50,807 ~ 4 Crore+","Rs 29,09,249 ~ 29 Lacs+"
+1,MEKLIGANJ (SC),COOCHBEHAR,2,Dadhiram Ray,BJP,16,12th Pass,43,"Rs 63,37,495 ~ 63 Lacs+","Rs 2,43,406 ~ 2 Lacs+"
+1,MEKLIGANJ (SC),COOCHBEHAR,3,Golapi Roy,IND,0,5th Pass,39,,
+1,MEKLIGANJ (SC),COOCHBEHAR,4,Hiranmay Deb Singha,IND,1,10th Pass,33,"Rs 8,27,100 ~ 8 Lacs+",Rs 0 ~
+1,MEKLIGANJ (SC),COOCHBEHAR,5,Hiten Barman,SUCI(C),0,Graduate,57,"Rs 10,21,356 ~ 10 Lacs+",Rs 0 ~
+1,MEKLIGANJ (SC),COOCHBEHAR,6,Ila Rani Roy,INC,0,10th Pass,55,,
+1,MEKLIGANJ (SC),COOCHBEHAR,7,Kamal Kumar Roy,All India Forward Bloc,0,Graduate,61,"Rs 64,30,576 ~ 64 Lacs+","Rs 3,00,000 ~ 3 Lacs+"
+1,MEKLIGANJ (SC),COOCHBEHAR,8,Kirttiram Barman,IND,1,10th Pass,33,"Rs 8,68,000 ~ 8 Lacs+",Rs 0 ~
+1,MEKLIGANJ (SC),COOCHBEHAR,10,Manoj Kumar Ray,IND,0,Graduate,35,"Rs 40,627 ~ 40 Thou+",Rs 0 ~
+1,MEKLIGANJ (SC),COOCHBEHAR,11,Purnendu Roy,IND,0,10th Pass,48,"Rs 74,85,900 ~ 74 Lacs+","Rs 75,000 ~ 75 Thou+"
+10,KUMARGRAM (ST),ALIPURDUAR,1,Abkari Kujur,IND,0,8th Pass,57,"Rs 27,76,562 ~ 27 Lacs+",Rs 0 ~
+10,KUMARGRAM (ST),ALIPURDUAR,2,Amit Chompramari,IND,0,12th Pass,34,"Rs 6,58,298 ~ 6 Lacs+",Rs 0 ~
+10,KUMARGRAM (ST),ALIPURDUAR,3,Bikash Oraon,IND,0,10th Pass,28,,
+10,KUMARGRAM (ST),ALIPURDUAR,4,Kishor Minj,Revolutionary Socialist Party,0,Graduate Professional,42,"Rs 4,88,841 ~ 4 Lacs+",Rs 0 ~
+10,KUMARGRAM (ST),ALIPURDUAR,5,Manoj Kumar Oraon,BJP,2,Graduate Professional,46,"Rs 57,06,289 ~ 57 Lacs+",Rs 0 ~
+10,KUMARGRAM (ST),ALIPURDUAR,6,Paulus Tudu,IND,0,5th Pass,37,,
+10,KUMARGRAM (ST),ALIPURDUAR,7,Rajeev Tirkey,AITC,0,Graduate,41,"Rs 4,10,10,400 ~ 4 Crore+",Rs 0 ~
+10,KUMARGRAM (ST),ALIPURDUAR,8,Ram Oraon,SUCI(C),0,10th Pass,60,"Rs 16,13,659 ~ 16 Lacs+",Rs 0 ~
+10,KUMARGRAM (ST),ALIPURDUAR,10,Sushil Minz,Gana Suraksha Party,0,8th Pass,49,"Rs 7,82,704 ~ 7 Lacs+",Rs 0 ~
+10,KUMARGRAM (ST),ALIPURDUAR,11,Unilish Mochari,Aam Janata Unnayan party,0,8th Pass,32,"Rs 8,536 ~ 8 Thou+","Rs 12,999 ~ 12 Thou+"
+11,KALCHINI (ST),ALIPURDUAR,1,Anjan Chik Baraik,INC,0,10th Pass,53,"Rs 38,94,677 ~ 38 Lacs+","Rs 20,743 ~ 20 Thou+"
+11,KALCHINI (ST),ALIPURDUAR,2,Arjun Indwar,Mulnibasi Party of India,0,Graduate,63,"Rs 74,32,000 ~ 74 Lacs+",Rs 0 ~
+11,KALCHINI (ST),ALIPURDUAR,3,Birendra Bara (Oraon),AITC,0,Post Graduate,43,,
+11,KALCHINI (ST),ALIPURDUAR,4,Bishal Lama,BJP,6,Graduate,44,"Rs 27,71,281 ~ 27 Lacs+","Rs 7,00,000 ~ 7 Lacs+"
+11,KALCHINI (ST),ALIPURDUAR,5,Narayan Lama,IND,0,10th Pass,37,"Rs 2,28,000 ~ 2 Lacs+",Rs 0 ~
+11,KALCHINI (ST),ALIPURDUAR,6,Passang Sherpa,Revolutionary Socialist Party,1,Others,55,,
+11,KALCHINI (ST),ALIPURDUAR,7,Ranajit Rabha,IND,0,10th Pass,49,"Rs 5,11,500 ~ 5 Lacs+","Rs 12,000 ~ 12 Thou+"
+12,ALIPURDUARS,ALIPURDUAR,1,Abdul Latif Choudhury,Aam Janata Unnayan party,0,10th Pass,48,"Rs 94,74,349 ~ 94 Lacs+","Rs 3,90,000 ~ 3 Lacs+"
+12,ALIPURDUARS,ALIPURDUAR,2,Abhijit Saha,IND,0,Graduate,49,"Rs 92,190 ~ 92 Thou+",Rs 0 ~
+12,ALIPURDUARS,ALIPURDUAR,3,Abinash Das,IND,0,Illiterate,63,,
+12,ALIPURDUARS,ALIPURDUAR,4,Bhupesh Das,IND,0,10th Pass,52,"Rs 18,275 ~ 18 Thou+",Rs 0 ~
+12,ALIPURDUARS,ALIPURDUAR,5,Manik Barman,Kamatapur Peoples Party (United),0,Post Graduate,26,"Rs 21,276 ~ 21 Thou+","Rs 5,160 ~ 5 Thou+"
+12,ALIPURDUARS,ALIPURDUAR,6,Mrinmoy Sarkar (Papan),INC,1,10th Pass,49,,
+12,ALIPURDUARS,ALIPURDUAR,7,Paritosh Das,BJP,0,Graduate,60,"Rs 4,31,31,570 ~ 4 Crore+","Rs 2,55,64,142 ~ 2 Crore+"
+12,ALIPURDUARS,ALIPURDUAR,8,Pijush Kanti Sarma,SUCI(C),0,Graduate,60,"Rs 64,486 ~ 64 Thou+",Rs 0 ~
+12,ALIPURDUARS,ALIPURDUAR,10,Suman Kanjilal,AITC,12,Graduate Professional,55,"Rs 80,98,777 ~ 80 Lacs+","Rs 1,41,223 ~ 1 Lacs+"
+13,FALAKATA (SC),ALIPURDUAR,1,Akshoy Kumar Barman,INC,0,Post Graduate,59,"Rs 90,09,292 ~ 90 Lacs+","Rs 23,02,580 ~ 23 Lacs+"
+13,FALAKATA (SC),ALIPURDUAR,2,Dilip Barman,IND,1,8th Pass,37,"Rs 27,66,304 ~ 27 Lacs+","Rs 1,04,054 ~ 1 Lacs+"
+13,FALAKATA (SC),ALIPURDUAR,3,Dipak Barman,BJP,7,Post Graduate,52,,
+13,FALAKATA (SC),ALIPURDUAR,4,Dipankar Barman,Kamatapur Peoples Party (United),0,Graduate,28,"Rs 2,87,754 ~ 2 Lacs+",Rs 0 ~
+13,FALAKATA (SC),ALIPURDUAR,5,Kamal Kishor Roy,CPI(M),0,Graduate,53,"Rs 4,38,307 ~ 4 Lacs+","Rs 1,76,633 ~ 1 Lacs+"
+13,FALAKATA (SC),ALIPURDUAR,6,Subhash Chandra Roy,AITC,0,10th Pass,54,,
+13,FALAKATA (SC),ALIPURDUAR,7,Tarun Barman,IND,0,10th Pass,42,"Rs 7,54,460 ~ 7 Lacs+","Rs 45,165 ~ 45 Thou+"
+13,FALAKATA (SC),ALIPURDUAR,8,Ukil Chandra Bhuimali,SUCI(C),0,8th Pass,60,"Rs 2,95,781 ~ 2 Lacs+",Rs 0 ~
+14,MADARIHAT (ST),ALIPURDUAR,1,Babita Bara Tirkey,Gana Suraksha Party,0,12th Pass,41,"Rs 5,44,936 ~ 5 Lacs+",Rs 0 ~
+14,MADARIHAT (ST),ALIPURDUAR,2,Haren Rabha,Mulnibasi Party of India,0,8th Pass,50,"Rs 7,300 ~ 7 Thou+",Rs 0 ~
+14,MADARIHAT (ST),ALIPURDUAR,3,Ishak Rabha,BSP,0,12th Pass,25,,
+14,MADARIHAT (ST),ALIPURDUAR,4,Jayprakash Toppo,AITC,0,Graduate,50,"Rs 1,15,47,010 ~ 1 Crore+","Rs 6,35,244 ~ 6 Lacs+"
+14,MADARIHAT (ST),ALIPURDUAR,5,Joy Prafful Lakra,INC,4,Doctorate,41,"Rs 9,00,143 ~ 9 Lacs+",Rs 0 ~
+14,MADARIHAT (ST),ALIPURDUAR,6,Laxuman Limbu,BJP,1,10th Pass,53,,
+14,MADARIHAT (ST),ALIPURDUAR,7,Saradip Narjeenary,IND,0,Graduate,45,"Rs 1,02,66,407 ~ 1 Crore+","Rs 71,50,000 ~ 71 Lacs+"
+14,MADARIHAT (ST),ALIPURDUAR,8,Subhash Lohar,Revolutionary Socialist Party,0,8th Pass,53,"Rs 78,688 ~ 78 Thou+",Rs 0 ~
+15,DHUPGURI (SC),JALPAIGURI,1,Adyanath Roy,Kamatapur Peoples Party (United),0,Graduate,29,"Rs 1,50,000 ~ 1 Lacs+",Rs 0 ~
+15,DHUPGURI (SC),JALPAIGURI,2,Alok Roy,IND,0,12th Pass,28,"Rs 3,20,000 ~ 3 Lacs+",Rs 0 ~
+15,DHUPGURI (SC),JALPAIGURI,3,Ganesh Mahato,IND,0,8th Pass,43,,
+15,DHUPGURI (SC),JALPAIGURI,4,Harish Chandra Roy,INC,2,10th Pass,44,"Rs 23,96,000 ~ 23 Lacs+","Rs 3,10,000 ~ 3 Lacs+"
+15,DHUPGURI (SC),JALPAIGURI,5,Hrishikesh Adhikari,IND,0,Post Graduate,30,"Rs 11,50,049 ~ 11 Lacs+",Rs 0 ~
+15,DHUPGURI (SC),JALPAIGURI,6,Jayanti Roy Oraon,Gana Suraksha Party,0,12th Pass,32,,
+15,DHUPGURI (SC),JALPAIGURI,7,Jiban Mitra,BSP,0,8th Pass,55,"Rs 16,00,000 ~ 16 Lacs+","Rs 66,000 ~ 66 Thou+"
+15,DHUPGURI (SC),JALPAIGURI,8,Kalyan Roy,IND,0,Others,49,"Rs 42,60,000 ~ 42 Lacs+","Rs 14,00,000 ~ 14 Lacs+"
+15,DHUPGURI (SC),JALPAIGURI,10,Naresh Roy,BJP,1,10th Pass,49,"Rs 92,33,086 ~ 92 Lacs+","Rs 3,50,000 ~ 3 Lacs+"
+15,DHUPGURI (SC),JALPAIGURI,11,Niranjan Roy,CPI(M),0,10th Pass,53,"Rs 46,07,892 ~ 46 Lacs+","Rs 11,61,802 ~ 11 Lacs+"
+15,DHUPGURI (SC),JALPAIGURI,12,Nirmal Chandra Roy,AITC,0,Doctorate,63,,
+15,DHUPGURI (SC),JALPAIGURI,13,Priya Roy,SUCI(C),0,Post Graduate,30,"Rs 32,08,253 ~ 32 Lacs+","Rs 7,833 ~ 7 Thou+"
+15,DHUPGURI (SC),JALPAIGURI,14,Tapas Chandra Sarkar,IND,1,8th Pass,52,"Rs 1,82,095 ~ 1 Lacs+",Rs 0 ~
+16,MAYNAGURI (SC),JALPAIGURI,1,Adhir Chandra Barman,Mulnibasi Party of India,0,10th Pass,47,"Rs 46,75,000 ~ 46 Lacs+",Rs 0 ~
+16,MAYNAGURI (SC),JALPAIGURI,2,Bishnu Das,IND,0,Graduate,42,"Rs 28,93,220 ~ 28 Lacs+","Rs 1,46,500 ~ 1 Lacs+"
+16,MAYNAGURI (SC),JALPAIGURI,3,Dalim Chandra Roy,BJP,1,12th Pass,66,,
+16,MAYNAGURI (SC),JALPAIGURI,4,Dipak Roy,Kamatapur Peoples Party (United),0,Illiterate,53,"Rs 10,70,000 ~ 10 Lacs+",Rs 0 ~
+16,MAYNAGURI (SC),JALPAIGURI,5,Jogen Sarkar,INC,1,Graduate,48,"Rs 19,63,695 ~ 19 Lacs+","Rs 7,00,000 ~ 7 Lacs+"
+16,MAYNAGURI (SC),JALPAIGURI,6,Priyanka Sarkar,BSP,0,Post Graduate,27,,
+16,MAYNAGURI (SC),JALPAIGURI,7,Ramchandra Roy,IND,0,Graduate,32,"Rs 7,19,986 ~ 7 Lacs+",Rs 0 ~
+16,MAYNAGURI (SC),JALPAIGURI,8,Rammohan Ray,AITC,0,Graduate,35,"Rs 1,33,06,856 ~ 1 Crore+","Rs 12,29,209 ~ 12 Lacs+"
+16,MAYNAGURI (SC),JALPAIGURI,10,Shyamal Ray,SUCI(C),0,Graduate,42,"Rs 10,47,447 ~ 10 Lacs+","Rs 4,66,157 ~ 4 Lacs+"
+16,MAYNAGURI (SC),JALPAIGURI,11,Sudeb Ray,Revolutionary Socialist Party,0,10th Pass,50,"Rs 20,10,000 ~ 20 Lacs+","Rs 90,000 ~ 90 Thou+"
+16,MAYNAGURI (SC),JALPAIGURI,12,Sujan Mandal,IND,0,8th Pass,37,,
+16,MAYNAGURI (SC),JALPAIGURI,13,Suparna Sarkar,Amra Bangalee,0,8th Pass,50,"Rs 10,500 ~ 10 Thou+",Rs 0 ~
+16,MAYNAGURI (SC),JALPAIGURI,14,Tapati Roy Mallick,IND,0,Post Graduate,72,"Rs 5,00,000 ~ 5 Lacs+",Rs 0 ~
+17,JALPAIGURI (SC),JALPAIGURI,1,Ambalika Roy,IND,0,Graduate Professional,28,"Rs 29,99,778 ~ 29 Lacs+","Rs 27,674 ~ 27 Thou+"
+17,JALPAIGURI (SC),JALPAIGURI,2,Ananta Deb Adhikary,BJP,1,Graduate Professional,53,"Rs 93,78,283 ~ 93 Lacs+","Rs 17,34,000 ~ 17 Lacs+"
+17,JALPAIGURI (SC),JALPAIGURI,3,Bedodyuti Roy,BSP,0,12th Pass,57,,
+17,JALPAIGURI (SC),JALPAIGURI,4,Bilash Sarkar,Guruchand Sena Dal,0,Post Graduate,37,"Rs 40,05,423 ~ 40 Lacs+","Rs 3,50,000 ~ 3 Lacs+"
+17,JALPAIGURI (SC),JALPAIGURI,5,Debendranath Roy,IND,0,Post Graduate,56,"Rs 13,01,000 ~ 13 Lacs+",Rs 0 ~
+17,JALPAIGURI (SC),JALPAIGURI,6,Debraj Barman,CPI(M),3,Post Graduate,38,,
+17,JALPAIGURI (SC),JALPAIGURI,7,Iswar Barai,Amra Bangalee,0,Graduate,35,"Rs 1,75,000 ~ 1 Lacs+",Rs 0 ~
+17,JALPAIGURI (SC),JALPAIGURI,8,Jashoda Barman,SUCI(C),0,Graduate,51,Rs 924 ~ 9 Hund+,Rs 0 ~
+17,JALPAIGURI (SC),JALPAIGURI,10,Manabendra Roy,Kamatapur Peoples Party (United),0,Post Graduate,49,"Rs 60,67,240 ~ 60 Lacs+","Rs 21,17,000 ~ 21 Lacs+"
+17,JALPAIGURI (SC),JALPAIGURI,11,Sudipta Mohanta,INC,0,Graduate Professional,50,"Rs 64,14,377 ~ 64 Lacs+","Rs 20,53,821 ~ 20 Lacs+"
+17,JALPAIGURI (SC),JALPAIGURI,12,Sujit Mandal,IND,0,12th Pass,35,,
+17,JALPAIGURI (SC),JALPAIGURI,13,Tumpa Das,IND,0,12th Pass,41,"Rs 1,29,556 ~ 1 Lacs+",Rs 0 ~
+17,JALPAIGURI (SC),JALPAIGURI,14,Ujjal Sarkar,IND,0,12th Pass,32,"Rs 1,73,680 ~ 1 Lacs+",Rs 0 ~
+18,RAJGANJ (SC),JALPAIGURI,1,Ananta Kumar Roy,SUCI(C),0,Graduate,57,"Rs 12,32,252 ~ 12 Lacs+",Rs 0 ~
+18,RAJGANJ (SC),JALPAIGURI,2,Bapi Roy,IND,0,Graduate,33,"Rs 73,90,629 ~ 73 Lacs+","Rs 11,44,221 ~ 11 Lacs+"
+18,RAJGANJ (SC),JALPAIGURI,3,Dinesh Sarkar,BJP,2,10th Pass,61,,
+18,RAJGANJ (SC),JALPAIGURI,4,Harendranath Roy,Amra Bangalee,0,Literate,73,"Rs 1,76,000 ~ 1 Lacs+",Rs 0 ~
+18,RAJGANJ (SC),JALPAIGURI,5,Jagadish Chandra Roy,Kamatapur Peoples Party (United),0,10th Pass,51,"Rs 28,10,000 ~ 28 Lacs+",Rs 0 ~
+18,RAJGANJ (SC),JALPAIGURI,6,Kharendra Nath Roy,CPI(M),0,8th Pass,67,,
+18,RAJGANJ (SC),JALPAIGURI,7,Kunal Roy,IND,0,Graduate,31,"Rs 25,50,710 ~ 25 Lacs+",Rs 0 ~
+18,RAJGANJ (SC),JALPAIGURI,8,Prakash Chandra Roy,IND,0,Graduate Professional,39,"Rs 36,97,500 ~ 36 Lacs+",Rs 0 ~
+18,RAJGANJ (SC),JALPAIGURI,10,Sanjib Roy,IND,0,8th Pass,51,"Rs 13,00,000 ~ 13 Lacs+",Rs 0 ~
+18,RAJGANJ (SC),JALPAIGURI,11,Swapna Barman,IND,0,Graduate,37,"Rs 4,97,180 ~ 4 Lacs+",Rs 0 ~
+18,RAJGANJ (SC),JALPAIGURI,12,Swapna Barman,AITC,0,Post Graduate,29,,
+18,RAJGANJ (SC),JALPAIGURI,13,Tushar Kanti Roy,INC,0,Graduate Professional,56,"Rs 57,14,000 ~ 57 Lacs+",Rs 0 ~
+19,DABGRAM-FULBARI,JALPAIGURI,1,Alok Sen,IND,2,Graduate,55,"Rs 6,66,217 ~ 6 Lacs+",Rs 0 ~
+19,DABGRAM-FULBARI,JALPAIGURI,2,Astami Roy,IND,0,Post Graduate,38,"Rs 14,80,000 ~ 14 Lacs+",Rs 0 ~
+19,DABGRAM-FULBARI,JALPAIGURI,3,Biraj Sarkar,BSP,0,12th Pass,49,,
+19,DABGRAM-FULBARI,JALPAIGURI,4,Dhanabala Roy,IND,0,10th Pass,37,"Rs 3,64,000 ~ 3 Lacs+",Rs 0 ~
+19,DABGRAM-FULBARI,JALPAIGURI,5,Dilip Singh,CPI(M),5,Graduate,59,"Rs 95,41,208 ~ 95 Lacs+",Rs 0 ~
+19,DABGRAM-FULBARI,JALPAIGURI,6,Dipali Aditya,IND,0,12th Pass,44,,
+19,DABGRAM-FULBARI,JALPAIGURI,7,Krishnadev Adhikary,IND,0,10th Pass,60,"Rs 14,58,409 ~ 14 Lacs+","Rs 80,884 ~ 80 Thou+"
+19,DABGRAM-FULBARI,JALPAIGURI,8,Mousumi Aich,Amra Bangalee,0,10th Pass,56,"Rs 10,000 ~ 10 Thou+",Rs 0 ~
+19,DABGRAM-FULBARI,JALPAIGURI,10,Ranjan Sil Sharma,AITC,3,Others,61,"Rs 7,13,55,677 ~ 7 Crore+",Rs 0 ~
+19,DABGRAM-FULBARI,JALPAIGURI,11,Renuka Roy,SUCI(C),0,8th Pass,42,"Rs 27,72,687 ~ 27 Lacs+",Rs 0 ~
+19,DABGRAM-FULBARI,JALPAIGURI,12,Rohit Sing (Guddu),INC,0,10th Pass,49,,
+19,DABGRAM-FULBARI,JALPAIGURI,13,Sikha Chatterjee,BJP,6,10th Pass,71,"Rs 1,05,26,160 ~ 1 Crore+","Rs 9,54,500 ~ 9 Lacs+"
+19,DABGRAM-FULBARI,JALPAIGURI,14,Uttam Das,North Bengal Peoples Party,0,Graduate,27,"Rs 1,35,943 ~ 1 Lacs+","Rs 1,08,010 ~ 1 Lacs+"
+2,MATHABHANGA (SC),COOCHBEHAR,1,Bikash Barman,SUCI(C),0,Graduate,40,"Rs 4,80,961 ~ 4 Lacs+",Rs 0 ~
+2,MATHABHANGA (SC),COOCHBEHAR,2,Dr. Harekrishna Sarkar,IND,0,Doctorate,54,"Rs 1,19,56,715 ~ 1 Crore+","Rs 45,50,000 ~ 45 Lacs+"
+2,MATHABHANGA (SC),COOCHBEHAR,3,Dr. Sablu Barman,AITC,2,Doctorate,42,,
+2,MATHABHANGA (SC),COOCHBEHAR,4,Goutam Barman,IND,0,Graduate,39,"Rs 5,25,300 ~ 5 Lacs+",Rs 0 ~
+2,MATHABHANGA (SC),COOCHBEHAR,5,Haradhan Roy,IND,0,Graduate Professional,39,"Rs 1,47,500 ~ 1 Lacs+",Rs 0 ~
+2,MATHABHANGA (SC),COOCHBEHAR,6,Kangsa Raj Barman,IND,0,12th Pass,58,,
+2,MATHABHANGA (SC),COOCHBEHAR,7,Khagen Chandra Barman,CPI(M),0,Post Graduate,62,"Rs 1,34,13,513 ~ 1 Crore+","Rs 36,96,644 ~ 36 Lacs+"
+2,MATHABHANGA (SC),COOCHBEHAR,8,Kshitendra Nath Barman,INC,0,10th Pass,69,"Rs 29,56,917 ~ 29 Lacs+",Rs 0 ~
+2,MATHABHANGA (SC),COOCHBEHAR,10,Mritunjoy Biswas,BSP,0,12th Pass,36,"Rs 1,20,000 ~ 1 Lacs+",Rs 0 ~
+2,MATHABHANGA (SC),COOCHBEHAR,11,Nishith Pramanik,BJP,16,10th Pass,40,"Rs 92,95,849 ~ 92 Lacs+",Rs 0 ~
+2,MATHABHANGA (SC),COOCHBEHAR,12,Premananda Barman,Kamatapur People,0,10th Pass,54,,
+2,MATHABHANGA (SC),COOCHBEHAR,13,Provakar Roy,IND,0,12th Pass,29,"Rs 1,30,500 ~ 1 Lacs+",Rs 0 ~
+2,MATHABHANGA (SC),COOCHBEHAR,14,Subodh Barman,Amra Bangalee,0,8th Pass,69,"Rs 36,61,500 ~ 36 Lacs+",Rs 0 ~
+20,MAL (ST),JALPAIGURI,1,Bulu Chik Baraik,AITC,0,8th Pass,65,"Rs 34,58,429 ~ 34 Lacs+",Rs 0 ~
+20,MAL (ST),JALPAIGURI,2,Chandan Lohara,IND,0,8th Pass,50,"Rs 6,51,471 ~ 6 Lacs+",Rs 0 ~
+20,MAL (ST),JALPAIGURI,3,Dipika Sabar,IND,0,Graduate,37,,
+20,MAL (ST),JALPAIGURI,4,Manju Kerketta (Baraik),IND,0,12th Pass,39,"Rs 1,83,311 ~ 1 Lacs+",Rs 0 ~
+20,MAL (ST),JALPAIGURI,5,Manu Oraon,CPI(M),0,Graduate,44,"Rs 41,461 ~ 41 Thou+","Rs 59,843 ~ 59 Thou+"
+20,MAL (ST),JALPAIGURI,6,Rakesh Kujur,INC,0,Graduate,41,,
+20,MAL (ST),JALPAIGURI,7,Shibnath Oraon,SUCI(C),0,5th Pass,39,"Rs 6,500 ~ 6 Thou+","Rs 22,000 ~ 22 Thou+"
+20,MAL (ST),JALPAIGURI,8,Sukra Munda,BJP,1,12th Pass,54,"Rs 71,70,993 ~ 71 Lacs+",Rs 0 ~
+3,COOCHBEHAR UTTAR (SC),COOCHBEHAR,1,Naresh Chandra Roy,IND,0,Post Graduate,53,"Rs 80,50,000 ~ 80 Lacs+",Rs 0 ~
+3,COOCHBEHAR UTTAR (SC),COOCHBEHAR,2,Nirmal Kumar Roy,Kamatapur Peoples Party (United),0,12th Pass,71,"Rs 45,15,000 ~ 45 Lacs+",Rs 0 ~
+3,COOCHBEHAR UTTAR (SC),COOCHBEHAR,3,Panchanan Roy,IND,0,12th Pass,69,,
+3,COOCHBEHAR UTTAR (SC),COOCHBEHAR,4,Partha Pratim Ishor,INC,0,Graduate,59,"Rs 94,03,905 ~ 94 Lacs+","Rs 8,85,925 ~ 8 Lacs+"
+3,COOCHBEHAR UTTAR (SC),COOCHBEHAR,5,Partha Pratim Ray,AITC,0,Post Graduate,44,"Rs 4,42,14,884 ~ 4 Crore+","Rs 37,82,891 ~ 37 Lacs+"
+3,COOCHBEHAR UTTAR (SC),COOCHBEHAR,6,Pranay Karjee,CPI(M),1,12th Pass,31,,
+3,COOCHBEHAR UTTAR (SC),COOCHBEHAR,7,Sukumar Ray,BJP,9,8th Pass,57,"Rs 2,05,24,682 ~ 2 Crore+","Rs 5,25,275 ~ 5 Lacs+"
+3,COOCHBEHAR UTTAR (SC),COOCHBEHAR,8,Sukumar Roy S/O Jogendra Nath Roy,IND,0,Post Graduate,43,"Rs 27,91,017 ~ 27 Lacs+","Rs 77,357 ~ 77 Thou+"
+3,COOCHBEHAR UTTAR (SC),COOCHBEHAR,10,Swapan Kumar Barman,SUCI(C),0,Graduate,46,"Rs 2,52,341 ~ 2 Lacs+","Rs 50,000 ~ 50 Thou+"
+3,COOCHBEHAR UTTAR (SC),COOCHBEHAR,11,Upendra Nath Basunia,Amra Bangalee,0,10th Pass,67,"Rs 36,79,000 ~ 36 Lacs+",Rs 0 ~
+3,COOCHBEHAR UTTAR (SC),COOCHBEHAR,12,Uttam Barman,IND,0,12th Pass,37,,
+4,COOCHBEHAR DAKSHIN,COOCHBEHAR,1,Abhijit Dey,IND,0,Graduate,42,"Rs 70,947 ~ 70 Thou+",Rs 0 ~
+4,COOCHBEHAR DAKSHIN,COOCHBEHAR,2,Ananta Barman,IND,0,Graduate,29,"Rs 4,63,971 ~ 4 Lacs+","Rs 2,79,431 ~ 2 Lacs+"
+4,COOCHBEHAR DAKSHIN,COOCHBEHAR,3,Avijit De Bhowmik,AITC,11,Graduate Professional,51,,
+4,COOCHBEHAR DAKSHIN,COOCHBEHAR,4,Bhaskar Jyoti Dutta,BSP,0,Graduate,51,"Rs 9,79,847 ~ 9 Lacs+",Rs 0 ~
+4,COOCHBEHAR DAKSHIN,COOCHBEHAR,5,Bidhan Barma,Kamatapur Peoples Party (United),0,8th Pass,45,"Rs 4,35,000 ~ 4 Lacs+",Rs 0 ~
+4,COOCHBEHAR DAKSHIN,COOCHBEHAR,6,Haridas Modak,Amra Bangalee,0,Graduate,67,,
+4,COOCHBEHAR DAKSHIN,COOCHBEHAR,7,Khokan Miah,INC,4,8th Pass,52,"Rs 1,06,65,450 ~ 1 Crore+","Rs 10,12,000 ~ 10 Lacs+"
+4,COOCHBEHAR DAKSHIN,COOCHBEHAR,8,Koushik Bhattacharjee,IND,0,Post Graduate,43,"Rs 47,27,561 ~ 47 Lacs+","Rs 21,12,426 ~ 21 Lacs+"
+4,COOCHBEHAR DAKSHIN,COOCHBEHAR,10,Ranjit Sarkar,IND,0,Post Graduate,36,"Rs 50,75,383 ~ 50 Lacs+","Rs 56,42,000 ~ 56 Lacs+"
+4,COOCHBEHAR DAKSHIN,COOCHBEHAR,11,Rashidul Alam,IND,0,Post Graduate,40,"Rs 52,795 ~ 52 Thou+",Rs 0 ~
+4,COOCHBEHAR DAKSHIN,COOCHBEHAR,12,Rathindra Bose,BJP,1,Graduate Professional,65,,
+4,COOCHBEHAR DAKSHIN,COOCHBEHAR,13,Santosh Barman,IND,0,10th Pass,33,"Rs 12,500 ~ 12 Thou+","Rs 2,00,000 ~ 2 Lacs+"
+4,COOCHBEHAR DAKSHIN,COOCHBEHAR,14,Suman Pandit,SUCI(C),0,Post Graduate,47,"Rs 5,21,988 ~ 5 Lacs+",Rs 0 ~
+4,COOCHBEHAR DAKSHIN,COOCHBEHAR,15,Surath Kumar Hom Roy,IND,0,Post Graduate,42,,
+5,SITALKUCHI (SC),COOCHBEHAR,1,Gajendra Barman,IND,2,12th Pass,72,"Rs 9,69,500 ~ 9 Lacs+",Rs 0 ~
+5,SITALKUCHI (SC),COOCHBEHAR,2,Harekrishna Sarkar,IND,0,Doctorate,54,"Rs 1,19,56,715 ~ 1 Crore+","Rs 45,50,000 ~ 45 Lacs+"
+5,SITALKUCHI (SC),COOCHBEHAR,3,Harihar Das,AITC,0,Post Graduate,41,,
+5,SITALKUCHI (SC),COOCHBEHAR,4,Jagadish Adhikari,SUCI(C),0,8th Pass,59,"Rs 6,81,647 ~ 6 Lacs+","Rs 1,00,000 ~ 1 Lacs+"
+5,SITALKUCHI (SC),COOCHBEHAR,5,Kamal Barman,Amra Bangalee,0,8th Pass,58,"Rs 20,37,000 ~ 20 Lacs+",Rs 0 ~
+5,SITALKUCHI (SC),COOCHBEHAR,6,Manik Chandra Barman,Kamatapur Peoples Party (United),0,10th Pass,44,,
+5,SITALKUCHI (SC),COOCHBEHAR,7,Namadipti Roy Adhikary,CPI(M),0,Graduate Professional,55,"Rs 1,42,32,484 ~ 1 Crore+","Rs 31,91,915 ~ 31 Lacs+"
+5,SITALKUCHI (SC),COOCHBEHAR,8,Paresh Chandra Manta,IND,0,10th Pass,39,"Rs 5,71,000 ~ 5 Lacs+",Rs 0 ~
+5,SITALKUCHI (SC),COOCHBEHAR,10,Shyamsundar Ray,BSP,0,10th Pass,44,"Rs 2,31,000 ~ 2 Lacs+",Rs 0 ~
+5,SITALKUCHI (SC),COOCHBEHAR,11,Sukamal Barman,INC,0,Graduate,37,"Rs 13,00,605 ~ 13 Lacs+",Rs 0 ~
+6,SITAI (SC),COOCHBEHAR,1,Arun Kumar Barma,All India Forward Bloc,0,Graduate,54,"Rs 1,49,18,750 ~ 1 Crore+",Rs 0 ~
+6,SITAI (SC),COOCHBEHAR,2,Ashutosh Barma,BJP,1,Graduate,63,"Rs 45,87,772 ~ 45 Lacs+","Rs 1,13,443 ~ 1 Lacs+"
+6,SITAI (SC),COOCHBEHAR,3,Binapani Ray,SUCI(C),0,12th Pass,51,,
+6,SITAI (SC),COOCHBEHAR,4,Goutam Roy,IND,0,8th Pass,44,"Rs 3,29,000 ~ 3 Lacs+",Rs 0 ~
+6,SITAI (SC),COOCHBEHAR,5,Manik Roy,Aam Janata Unnayan party,0,8th Pass,48,"Rs 38,20,000 ~ 38 Lacs+",Rs 0 ~
+6,SITAI (SC),COOCHBEHAR,6,Rabin Roy,INC,2,12th Pass,72,,
+6,SITAI (SC),COOCHBEHAR,7,Sangita Roy,AITC,0,12th Pass,54,"Rs 77,45,825 ~ 77 Lacs+",Rs 0 ~
+6,SITAI (SC),COOCHBEHAR,8,Sunil Chandra Mahanta,IND,0,12th Pass,57,"Rs 34,60,000 ~ 34 Lacs+",Rs 0 ~
+7,DINHATA,COOCHBEHAR,1,Ajay Ray,BJP,20,10th Pass,48,"Rs 3,85,47,499 ~ 3 Crore+","Rs 9,71,669 ~ 9 Lacs+"
+7,DINHATA,COOCHBEHAR,2,Ajijul Hoque,SUCI(C),0,Graduate,46,"Rs 76,286 ~ 76 Thou+",Rs 0 ~
+7,DINHATA,COOCHBEHAR,3,Animesh Barman,IND,0,12th Pass,32,,
+7,DINHATA,COOCHBEHAR,4,Bikas Mandal,All India Forward Bloc,1,Graduate,72,"Rs 63,31,465 ~ 63 Lacs+",Rs 0 ~
+7,DINHATA,COOCHBEHAR,5,Harihar Roy Singha,INC,0,Graduate Professional,69,"Rs 1,70,17,780 ~ 1 Crore+",Rs 0 ~
+7,DINHATA,COOCHBEHAR,6,Pampa Ray Barman,IND,0,Graduate,34,,
+7,DINHATA,COOCHBEHAR,7,Prabir Kumar Roy Sarkar,IND,0,Graduate,35,"Rs 12,02,421 ~ 12 Lacs+",Rs 0 ~
+7,DINHATA,COOCHBEHAR,8,Udayan Guha,AITC,2,Graduate,71,"Rs 7,97,06,640 ~ 7 Crore+","Rs 9,27,959 ~ 9 Lacs+"
+8,NATABARI,COOCHBEHAR,1,Abdus Salam,SUCI(C),0,Graduate,46,"Rs 3,29,847 ~ 3 Lacs+",Rs 0 ~
+8,NATABARI,COOCHBEHAR,2,Akik Hassan,CPI(M),3,Post Graduate,36,"Rs 7,83,410 ~ 7 Lacs+",Rs 0 ~
+8,NATABARI,COOCHBEHAR,3,Biswajit Sarkar,INC,0,Graduate Professional,53,,
+8,NATABARI,COOCHBEHAR,4,Girija Shankar Ray,BJP,3,Graduate,54,"Rs 49,95,259 ~ 49 Lacs+",Rs 0 ~
+8,NATABARI,COOCHBEHAR,5,Md. Sakowat Ali,Aam Janata Unnayan party,0,Graduate,49,"Rs 1,44,000 ~ 1 Lacs+","Rs 1,20,000 ~ 1 Lacs+"
+8,NATABARI,COOCHBEHAR,6,Mrinal Kanti Saha,IND,0,10th Pass,60,,
+8,NATABARI,COOCHBEHAR,7,Raghunath Biswas,IND,0,Post Graduate,47,"Rs 46,80,581 ~ 46 Lacs+","Rs 63,40,542 ~ 63 Lacs+"
+8,NATABARI,COOCHBEHAR,8,Sahidul Hossain,IND,0,Graduate,50,"Rs 24,86,815 ~ 24 Lacs+","Rs 4,70,000 ~ 4 Lacs+"
+9,TUFANGANJ,COOCHBEHAR,1,Bhola Saha,SUCI(C),0,10th Pass,63,"Rs 83,782 ~ 83 Thou+",Rs 0 ~
+9,TUFANGANJ,COOCHBEHAR,2,Bibhas Dakua,IND,0,12th Pass,29,"Rs 26,47,400 ~ 26 Lacs+","Rs 8,00,000 ~ 8 Lacs+"
+9,TUFANGANJ,COOCHBEHAR,3,Debendranath Barma,INC,0,Others,71,,
+9,TUFANGANJ,COOCHBEHAR,4,Dhananjoy Rava,CPI(M),0,Others,64,"Rs 24,49,215 ~ 24 Lacs+","Rs 3,79,250 ~ 3 Lacs+"
+9,TUFANGANJ,COOCHBEHAR,5,Kabir Hossain,Aam Janata Unnayan party,0,12th Pass,36,"Rs 12,59,030 ~ 12 Lacs+",Rs 0 ~
+9,TUFANGANJ,COOCHBEHAR,6,Maheswar Gayen,Kamatapur Peoples Party (United),0,Post Graduate,55,,
+9,TUFANGANJ,COOCHBEHAR,7,Malati Rava Roy,BJP,12,Graduate,62,"Rs 1,07,57,668 ~ 1 Crore+","Rs 1,17,806 ~ 1 Lacs+"
+9,TUFANGANJ,COOCHBEHAR,8,Prafulla Prodhan,IND,0,Illiterate,57,"Rs 19,44,212 ~ 19 Lacs+",Rs 0 ~
+9,TUFANGANJ,COOCHBEHAR,10,Shibsankar Paul,AITC,0,10th Pass,46,"Rs 2,18,37,040 ~ 2 Crore+","Rs 87,53,748 ~ 87 Lacs+"

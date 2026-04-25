@@ -1,0 +1,28 @@
+1.0,No. of Constituencies,,,,,,,,
+,Type Of Constituency,GEN,SC,ST,Total,,,,
+,No Of Constituencies,210,68,16,294,,,,
+2.0,NO. of Contestants,,,,,,,,
+,NO. of Contestants in a Constituency,1,2,3,4,5,6-10,11-15,Above 15
+,NO Of Such CONSTITUENCIES,0,0,3,21,55,187,28,0
+,Total Contestants in a Fray,,,,,,,,2132
+,Average Contestants Per Constituency,,,,,,,,7
+,Minimum Contestants in a Constituency,,,,,,,,3
+,Maximum Contestants in a Constituency,,,,,,,,15
+3.0,Electors,Male,Female,Third Gender,Total,,,,
+i.,NO. OF ELECTORS(Including Service Electors),37477580,35935622,1544,73414746,,,,
+ii.,No. of Electors Who Voted(Excluding Postal Votes),30495781,29377608,380,59873769,,,,
+iii.,Polling Percentage(Excluding Postal Ballots),81.37,81.75,24.61,81.56,,,,
+4.0,No. Of valid VOTES(EVM Valid+postat Valid),,,,,,,59668385,
+5.0,NO. OF VOTES REJECTED (postal),,,,,,,73237,
+6.0,"NO. OF TEST VOTES,
+REJECTED VOTES DUE TO:
+OTHER REASON AND NOTA VOTES",,,,,,,678069,
+7.0,NO. OF POLLING STATIONS,,,,,,,101916,
+8.0,"AVERAGE NO. OF ELECTORS
+PER POLLING STATION",,,,,,,720,
+9.0,Performance of Contesting Candidates,Male,Female,Third Gender,Total,,,,
+i.,No. Of Contestants,1892,240,0,2132,,,,
+ii.,Elected,254,40,0,294,,,,
+iii.,Forfeited Deposits,1354,154,0,1508,,,,
+Disclaimer,,,,,,,,,
+"This report is based on Index Cards data made available by concerned Returning Officers on the basis of Statutory data maintained in the forms. In case of any dispute, the data maintained in the Statutory Forms by the concerned Returning Officers shall prevail.",,,,,,,,,

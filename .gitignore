@@ -1,0 +1,50 @@
+# --- macOS / editor / Python noise ---
+.DS_Store
+.idea/
+.vscode/
+*.swp
+*~
+__pycache__/
+*.pyc
+.venv/
+venv/
+.env
+
+# --- Big raw data files (over GitHub's 100MB single-file limit or close to it) ---
+# Re-acquire via DATA_SOURCES.md
+data/census_2011/village_pca/2011-IndiaStateDistSbDistVill-0000.xlsx
+data/shrug/shrid_frag_con07_key.csv
+data/shrug/shrid_frag_con08_key.csv
+data/shrug/*.zip
+
+# --- Bulky scanned PDFs (115MB total, re-acquirable from CEO WB) ---
+data/sir_2026/rolls/*.pdf
+
+# --- Raw HTML scrapes (24MB+, parsed CSVs are checked in) ---
+data/candidates_2026/myneta/
+data/candidates_2026/myneta_2021/
+
+# --- Cloned upstream repos (would create nested .git issues; re-clone via DATA_SOURCES.md) ---
+data/census_2011/.git/
+data/census_2011/houselisting/
+data/census_2011/houselisting-old/
+data/census_2011/pca/0[1-9].csv
+data/census_2011/pca/1[0-8].csv
+data/census_2011/pca/2*.csv
+data/census_2011/pca/3*.csv
+data/census_2011/hlpca-full.csv
+data/census_2011/hlpca-total.csv
+data/secc_2011/
+data/nfhs_5/.git/
+data/electoral_history/Constituency-Data/
+data/electoral_history/Lokdhaba-API-dj/
+
+# Keep important small Census files
+!data/census_2011/pca/19.csv
+!data/census_2011/houselisting-old/19.csv
+
+# --- Raw downloaded HTTP artifacts ---
+data/raw/
+
+# --- The 290-byte SECC error JSON (was never a real archive) ---
+data/secc_2011/secc_19_clean.7z
