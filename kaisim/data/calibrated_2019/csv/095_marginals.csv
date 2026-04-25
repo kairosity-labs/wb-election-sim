@@ -1,0 +1,100 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,85.45,E,"Bangaon CDB+Muni 2011 weighted, projected 2011→2019 (Hindu +1.0%/yr)",no
+religion,Muslim,13.58,E,"2011 weighted, projected (+1.3%/yr — slight relative gain ~0.3pp over 8yr)",no
+religion,Christian,0.30,E,Bangaon sub-division 2011,no
+religion,Sarna-ORP,0.10,E,Tribal religion fringe,no
+religion,Other (Sikh/Jain/Buddhist),0.57,E,Residual,no
+caste,SC total,43.0,B,Weighted: Muni ~40% SC + CDB-rural 46.60% (Census 2011),no
+caste,Namasudra / Matua,39.5,C,~92% of SC pool in Bangaon (Outlook: ~40% of Bangaon LS electorate is Matua),yes
+caste,Bagdi,1.5,E,~3% of SC pool (state pattern under-weighted in Matua belt),yes
+caste,Poundra,0.7,E,~1.6% of SC pool,yes
+caste,Other SC (Rajbanshi/Bauri/Hari etc.),1.3,E,Residual,yes
+caste,ST total,3.6,A,Bangaon CDB Census 2011; rural pockets,no
+caste,UC bhadralok (Brahmin/Kayastha/Baidya),10.0,E,Refugee SC-heavy AC; bhadralok concentrated in Muni,no
+caste,OBC specific (Mahishya / Sadgop / Kurmi / Teli),2.0,E,Not salient in this AC,no
+caste,Other Hindu middle castes (Goala / Sutradhar / Tanti / unclassified),26.85,E,Residual within Hindu (85.45 − 43 SC − 3.6 ST − 10 UC − 2 OBC),no
+caste,Muslim (all sub-castes pooled),13.58,E,See C.1; sub-structure in joint table D.2,no
+caste,Christian + Sarna + Other,0.97,E,See C.1,no
+age_cohort,0–4,7.5,E,Projected from Census 2011 N24P age pyramid,no
+age_cohort,5–9,8.0,E,,no
+age_cohort,10–14,8.5,E,,no
+age_cohort,15–17 (pre-voter),5.5,E,,no
+age_cohort,18–22 (first-time voters at 2019),9.0,E,,no
+age_cohort,23–27,9.5,E,,no
+age_cohort,28–32,9.5,E,,no
+age_cohort,33–37,8.5,E,,no
+age_cohort,38–42,7.5,E,,no
+age_cohort,43–47,7.0,E,,no
+age_cohort,48–52,6.0,E,,no
+age_cohort,53–57,5.0,E,,no
+age_cohort,58–62,4.0,E,,no
+age_cohort,63–67,2.5,E,,no
+age_cohort,68+,2.0,E,,no
+gender,Male,51.31,E,N24P 2011 sex ratio 949 (~51.31% M / 48.68% F); projected stable to 2019,no
+gender,Female,48.68,E,,no
+gender,Third gender,0.01,E,"2021 SIR had 25 / 241,337 = 0.01%",no
+mother_tongue,Bengali,98.80,E,Bangaon CDB 2011: 99.19% Bengali; Muni slightly lower; projected stable,no
+mother_tongue,Hindi,0.70,E,Muni Marwari/Bihari trader fringe,no
+mother_tongue,Urdu,0.30,E,Small Muslim urban pocket,no
+mother_tongue,Other (Santhali/Sadri/Punjabi etc.),0.20,E,Residual,no
+education,Illiterate,14.0,E,"CDB Bangaon literacy 79.71% (2011, A), Muni higher; AC 2019 ~86% literate after +5pp/8yr trend → 14% illiterate",no
+education,Primary (Class 1–5),23.0,E,Census 2011 education distribution scaled,no
+education,Middle (Class 6–8),22.0,E,,no
+education,Secondary (Class 9–10),18.0,E,,no
+education,Higher Secondary (Class 11–12),11.0,E,,no
+education,Graduate,9.0,E,,no
+education,Postgraduate,3.0,E,,no
+workforce_status,Main worker,31.0,E,Census 2011 CDB Bangaon main-worker share ~31%; stable trend,no
+workforce_status,Marginal worker,11.0,E,,no
+workforce_status,Non-worker (housewife / elderly / retired),38.0,E,Includes housewife share heavy in rural,no
+workforce_status,"Student (18–22 only, in education)",12.0,E,,no
+workforce_status,"Unemployed (educated, actively seeking)",8.0,E,Educated unemployment salience; rural job-aspirant pool,no
+occupation,Cultivator,18.0,E,Bangaon CDB 2011: 23.80% (rural); Muni dilution → 18% AC weighted,no
+occupation,Agricultural labourer,28.0,E,CDB 2011: 38.09% rural; Muni dilution,no
+occupation,Household industry,4.0,E,CDB 2011: 5.22%,no
+occupation,Manufacturing (organised),4.0,E,Limited in Bangaon,no
+occupation,Construction,6.0,E,Includes out-migrants returning,no
+occupation,Trade / retail,12.0,E,Bangaon Muni hub for sub-division retail,no
+occupation,Transport (incl. land-port logistics),6.0,E,Petrapole port economy,no
+occupation,Services (private),12.0,E,,no
+occupation,Government services / teachers,4.0,E,,no
+occupation,Out-migrant worker (working outside WB),6.0,D,Matua men to Kerala/TN/Maharashtra; PMC-Springer pattern,no
+class_of_worker,Employer,2.0,E,Census B-04 WB rural pattern,no
+class_of_worker,Employee (regular wage),28.0,E,Govt + organised + retail employees,no
+class_of_worker,Single worker (own-account),50.0,E,Cultivator + own-account artisan + small trader,no
+class_of_worker,Family worker (unpaid),20.0,E,Within agri-household helping family farm,no
+economic_status,BPL household,22.0,C,Census 2001 CDB Bangaon BPL 27.7%; WB poverty fell ~6pp 2011-19 → ~22%,no
+economic_status,"Above-Poverty-Line, low-income",38.0,E,,no
+economic_status,Lower-middle,25.0,E,,no
+economic_status,Middle,12.0,E,,no
+economic_status,Upper-middle / well-off,3.0,E,Bangaon Muni small affluent fringe,no
+gp_location,U1: Bangaon Municipality (urban),54.5,E,"2011: Muni 108,864 / AC 199,792 = 54.5% — held stable to 2019",no
+gp_location,U2: CDB-Bangaon rural share (7 GPs of CDB Bangaon),45.5,E,Remainder; v0 collapses 7 GPs into one cell — refine when DCHB Part-A available,no
+household_composition,Avg HH size,4.4 persons,E,WB 2011: 4.3; minor projection,no
+household_composition,Nuclear HH,70.0,E,NFHS-4 WB rural pattern,no
+household_composition,Joint HH,24.0,E,,no
+household_composition,Extended / multi-generation,6.0,E,,no
+marital_status,Never married,28.0,E,Census 2011 N24P pattern; first-time-voter cohort,no
+marital_status,Currently married,64.0,E,,no
+marital_status,Widowed,7.0,E,"Concentrated in 60+, female-skewed",no
+marital_status,Separated / divorced,1.0,E,,no
+asset_media,Television,80.0,C,"NFHS-4 WB (2015-16): rural 60%, urban 89%; +5pp/yr → 2019 AC ~80%",no
+asset_media,Radio,5.0,C,Declining nationally,no
+asset_media,Mobile phone (any),88.0,C,"NFHS-4 WB ~78%, +growth → ~88% by 2019",no
+asset_media,Smartphone with internet,50.0,C,NFHS-4 baseline + Jio rollout 2016-19 (rapid),no
+asset_media,Computer,12.0,C,"NFHS-4 WB rural 4%, urban 27%; AC weighted ~12%",no
+asset_media,Two-wheeler,35.0,C,"NFHS-4 WB rural 18%, urban 41%; +growth",no
+asset_media,Four-wheeler,8.0,C,Limited,no
+asset_media,Banking access (any),88.0,B,PMJDY 2014- saturation; NFHS-4 WB baseline + rollout,no
+amenities,Improved drinking water source,86.0,C,"NFHS-4 WB rural 84%, urban 93%; AC weighted",no
+amenities,Improved sanitation (latrine),75.0,C,"NFHS-4 WB rural 51%, urban 84%; +Swachh Bharat 2014-19 (+15pp rural)",no
+amenities,LPG / clean cooking fuel,50.0,C,"NFHS-4 WB rural 24%, urban 81%; +Ujjwala 2016-19 (+15pp rural)",no
+amenities,Wood / biomass fuel,45.0,C,Declining as LPG rises,no
+amenities,"Other fuel (kerosene, dung, etc.)",5.0,C,,no
+amenities,Electricity,97.0,A,Census 2011 + Saubhagya 2017-19 saturation,no
+migration,Native (born in N24P or in same village/town),64.0,D,Estimate from Matua refugee history + N24P D-series patterns,no
+migration,WB other district (in-migrant),9.0,D,Some Kolkata service-class migrants in Muni,no
+migration,Other Indian state,3.0,D,Marwari/Bihari trader fringe in Muni,no
+migration,"Bangladesh-origin (refugee Hindu, mostly Namasudra-Matua)",23.0,D,"Load-bearing: Matua community is largely descended from East Pakistan / Bangladesh refugees (pre-1947 migration, 1947 partition, 1971 war, post-1971 trickle)",no
+migration,Outside India (other than Bangladesh),0.5,E,Negligible,no
+migration,"Out-migrant (currently living/working outside, registered here)",0.5,E,Census reverse — a fraction registered here but absent,no

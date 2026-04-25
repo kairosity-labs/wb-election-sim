@@ -1,0 +1,295 @@
+ac_no,ac_name,district,reservation
+1,Mekliganj,Cooch Behar,SC
+2,Mathabhanga,Cooch Behar,SC
+3,Cooch Behar Uttar,Cooch Behar,SC
+4,Cooch Behar Dakshin,Cooch Behar,GEN
+5,Sitalkuchi,Cooch Behar,SC
+6,Sitai,Cooch Behar,SC
+7,Dinhata,Cooch Behar,GEN
+8,Natabari,Cooch Behar,GEN
+9,Tufanganj,Cooch Behar,GEN
+10,Kumargram,Alipurduar,ST
+11,Kalchini,Alipurduar,ST
+12,Alipurduars,Alipurduar,GEN
+13,Falakata,Alipurduar,SC
+14,Madarihat,Alipurduar,ST
+15,Dhupguri,Jalpaiguri,SC
+16,Maynaguri,Jalpaiguri,SC
+17,Jalpaiguri,Jalpaiguri,SC
+18,Rajganj,Jalpaiguri,SC
+19,Dabgram-Phulbari,Jalpaiguri,GEN
+20,Mal,Jalpaiguri,ST
+21,Nagrakata,Jalpaiguri,ST
+22,Kalimpong,Kalimpong,GEN
+23,Darjeeling,Darjeeling,GEN
+24,Kurseong,Darjeeling,GEN
+25,Matigara-Naxalbari,Darjeeling,SC
+26,Siliguri,Darjeeling,GEN
+27,Phansidewa,Darjeeling,ST
+28,Chopra,Uttar Dinajpur,GEN
+29,Islampur,Uttar Dinajpur,GEN
+30,Goalpokhar,Uttar Dinajpur,GEN
+31,Chakulia,Uttar Dinajpur,GEN
+32,Karandighi,Uttar Dinajpur,GEN
+33,Hemtabad,Uttar Dinajpur,SC
+34,Kaliaganj,Uttar Dinajpur,SC
+35,Raiganj,Uttar Dinajpur,GEN
+36,Itahar,Dakshin Dinajpur,GEN
+37,Kushmandi,Dakshin Dinajpur,SC
+38,Kumarganj,Dakshin Dinajpur,GEN
+39,Balurghat,Dakshin Dinajpur,GEN
+40,Tapan,Dakshin Dinajpur,ST
+41,Gangarampur,Dakshin Dinajpur,SC
+42,Harirampur,Dakshin Dinajpur,GEN
+43,Habibpur,Malda,ST
+44,Gazole,Malda,SC
+45,Chanchal,Malda,GEN
+46,Harishchandrapur,Malda,GEN
+47,Malatipur,Malda,GEN
+48,Ratua,Malda,GEN
+49,Manikchak,Malda,GEN
+50,Maldaha,Malda,SC
+51,English Bazar,Malda,GEN
+52,Mothabari,Malda,GEN
+53,Sujapur,Malda,GEN
+54,Baisnabnagar,Malda,GEN
+55,Farakka,Murshidabad,GEN
+56,Samserganj,Murshidabad,GEN
+57,Suti,Murshidabad,GEN
+58,Jangipur,Murshidabad,GEN
+59,Raghunathganj,Murshidabad,GEN
+60,Sagardighi,Murshidabad,GEN
+61,Lalgola,Murshidabad,GEN
+62,Bhagabangola,Murshidabad,GEN
+63,Raninagar,Murshidabad,GEN
+64,Murshidabad,Murshidabad,GEN
+65,Nabagram,Murshidabad,SC
+66,Khargram,Murshidabad,SC
+67,Burwan,Murshidabad,SC
+68,Kandi,Murshidabad,GEN
+69,Bharatpur,Murshidabad,GEN
+70,Rejinagar,Murshidabad,GEN
+71,Beldanga,Murshidabad,GEN
+72,Baharampur,Murshidabad,GEN
+73,Hariharpara,Murshidabad,GEN
+74,Naoda,Murshidabad,GEN
+75,Domkal,Murshidabad,GEN
+76,Jalangi,Murshidabad,GEN
+77,Karimpur,Nadia,GEN
+78,Tehatta,Nadia,GEN
+79,Palashipara,Nadia,GEN
+80,Kaliganj,Nadia,GEN
+81,Nakashipara,Nadia,GEN
+82,Chapra,Nadia,GEN
+83,Krishnanagar Uttar,Nadia,GEN
+84,Nabadwip,Nadia,GEN
+85,Krishnanagar Dakshin,Nadia,GEN
+86,Santipur,Nadia,GEN
+87,Ranaghat Uttar Paschim,Nadia,GEN
+88,Krishnaganj,Nadia,SC
+89,Ranaghat Uttar Purba,Nadia,SC
+90,Ranaghat Dakshin,Nadia,SC
+91,Chakdaha,Nadia,GEN
+92,Kalyani,North 24 Parganas,SC
+93,Haringhata,North 24 Parganas,SC
+94,Bagda,North 24 Parganas,SC
+95,Bangaon Uttar,North 24 Parganas,SC
+96,Bangaon Dakshin,North 24 Parganas,SC
+97,Gaighata,North 24 Parganas,SC
+98,Swarupnagar,North 24 Parganas,SC
+99,Baduria,North 24 Parganas,GEN
+100,Habra,North 24 Parganas,GEN
+101,Ashoknagar,North 24 Parganas,GEN
+102,Amdanga,North 24 Parganas,GEN
+103,Bijpur,North 24 Parganas,GEN
+104,Naihati,North 24 Parganas,GEN
+105,Bhatpara,North 24 Parganas,GEN
+106,Jagatdal,North 24 Parganas,GEN
+107,Noapara,North 24 Parganas,GEN
+108,Barrackpur,North 24 Parganas,GEN
+109,Khardaha,North 24 Parganas,GEN
+110,Dum Dum Uttar,North 24 Parganas,GEN
+111,Panihati,North 24 Parganas,GEN
+112,Kamarhati,North 24 Parganas,GEN
+113,Baranagar,North 24 Parganas,GEN
+114,Dum Dum,North 24 Parganas,GEN
+115,Rajarhat New Town,North 24 Parganas,GEN
+116,Bidhannagar,North 24 Parganas,GEN
+117,Rajarhat Gopalpur,North 24 Parganas,GEN
+118,Madhyamgram,North 24 Parganas,GEN
+119,Barasat,North 24 Parganas,GEN
+120,Deganga,North 24 Parganas,GEN
+121,Haroa,North 24 Parganas,GEN
+122,Minakhan,North 24 Parganas,SC
+123,Sandeshkhali,North 24 Parganas,ST
+124,Basirhat Dakshin,North 24 Parganas,GEN
+125,Basirhat Uttar,North 24 Parganas,GEN
+126,Hingalganj,North 24 Parganas,SC
+127,Gosaba,South 24 Parganas,SC
+128,Basanti,South 24 Parganas,SC
+129,Kultali,South 24 Parganas,SC
+130,Patharpratima,South 24 Parganas,GEN
+131,Kakdwip,South 24 Parganas,GEN
+132,Sagar,South 24 Parganas,GEN
+133,Kulpi,South 24 Parganas,GEN
+134,Raidighi,South 24 Parganas,GEN
+135,Mandirbazar,South 24 Parganas,SC
+136,Jaynagar,South 24 Parganas,SC
+137,Baruipur Purba,South 24 Parganas,SC
+138,Canning Paschim,South 24 Parganas,SC
+139,Canning Purba,South 24 Parganas,GEN
+140,Baruipur Paschim,South 24 Parganas,GEN
+141,Magrahat Purba,South 24 Parganas,SC
+142,Magrahat Paschim,South 24 Parganas,GEN
+143,Diamond Harbour,South 24 Parganas,GEN
+144,Falta,South 24 Parganas,GEN
+145,Satgachhia,South 24 Parganas,GEN
+146,Bishnupur,South 24 Parganas,SC
+147,Sonarpur Dakshin,South 24 Parganas,GEN
+148,Bhangar,South 24 Parganas,GEN
+149,Kasba,Kolkata,GEN
+150,Jadavpur,Kolkata,GEN
+151,Sonarpur Uttar,Kolkata,GEN
+152,Tollyganj,Kolkata,GEN
+153,Behala Purba,Kolkata,GEN
+154,Behala Paschim,Kolkata,GEN
+155,Maheshtala,Kolkata,GEN
+156,Budge Budge,Kolkata,GEN
+157,Metiaburuz,Kolkata,GEN
+158,Kolkata Port,Kolkata,GEN
+159,Bhabanipur,Kolkata,GEN
+160,Rashbehari,Kolkata,GEN
+161,Ballygunge,Kolkata,GEN
+162,Chowrangee,Kolkata,GEN
+163,Entally,Kolkata,GEN
+164,Beleghata,Kolkata,GEN
+165,Jorasanko,Kolkata,GEN
+166,Shyampukur,Kolkata,GEN
+167,Maniktala,Kolkata,GEN
+168,Kashipur-Belgachhia,Kolkata,GEN
+169,Bally,Howrah,GEN
+170,Howrah Uttar,Howrah,GEN
+171,Howrah Madhya,Howrah,GEN
+172,Shibpur,Howrah,GEN
+173,Howrah Dakshin,Howrah,GEN
+174,Sankrail,Howrah,SC
+175,Panchla,Howrah,GEN
+176,Uluberia Purba,Howrah,GEN
+177,Uluberia Uttar,Howrah,SC
+178,Uluberia Dakshin,Howrah,GEN
+179,Shyampur,Howrah,GEN
+180,Bagnan,Howrah,GEN
+181,Amta,Howrah,GEN
+182,Udaynarayanpur,Howrah,GEN
+183,Jagatballavpur,Howrah,GEN
+184,Domjur,Howrah,GEN
+185,Uttarpara,Hooghly,GEN
+186,Sreerampur,Hooghly,GEN
+187,Champdani,Hooghly,GEN
+188,Singur,Hooghly,GEN
+189,Chandannagar,Hooghly,GEN
+190,Chunchura,Hooghly,GEN
+191,Balagarh,Hooghly,SC
+192,Pandua,Hooghly,GEN
+193,Saptagram,Hooghly,GEN
+194,Chanditala,Hooghly,GEN
+195,Jangipara,Hooghly,GEN
+196,Haripal,Hooghly,GEN
+197,Dhanekhali,Hooghly,SC
+198,Tarakeswar,Hooghly,GEN
+199,Pursurah,Hooghly,GEN
+200,Arambag,Hooghly,SC
+201,Goghat,Hooghly,SC
+202,Khanakul,Hooghly,GEN
+203,Tamluk,Purba Medinipur,GEN
+204,Panskura Purba,Purba Medinipur,GEN
+205,Panskura Paschim,Purba Medinipur,GEN
+206,Moyna,Purba Medinipur,GEN
+207,Nandakumar,Purba Medinipur,GEN
+208,Mahisadal,Purba Medinipur,GEN
+209,Haldia,Purba Medinipur,SC
+210,Nandigram,Purba Medinipur,GEN
+211,Chandipur,Purba Medinipur,GEN
+212,Patashpur,Purba Medinipur,GEN
+213,Kanthi Uttar,Purba Medinipur,GEN
+214,Bhagabanpur,Purba Medinipur,GEN
+215,Khejuri,Purba Medinipur,SC
+216,Kanthi Dakshin,Purba Medinipur,GEN
+217,Ramnagar,Purba Medinipur,GEN
+218,Egra,Purba Medinipur,GEN
+219,Dantan,Paschim Medinipur,GEN
+220,Nayagram,Jhargram,ST
+221,Gopiballavpur,Jhargram,GEN
+222,Jhargram,Jhargram,GEN
+223,Keshiary,Paschim Medinipur,ST
+224,Kharagpur Sadar,Paschim Medinipur,GEN
+225,Narayangarh,Paschim Medinipur,GEN
+226,Sabang,Paschim Medinipur,GEN
+227,Pingla,Paschim Medinipur,GEN
+228,Kharagpur,Paschim Medinipur,GEN
+229,Debra,Paschim Medinipur,GEN
+230,Daspur,Paschim Medinipur,GEN
+231,Ghatal,Paschim Medinipur,SC
+232,Chandrakona,Paschim Medinipur,SC
+233,Garbeta,Paschim Medinipur,GEN
+234,Salboni,Paschim Medinipur,GEN
+235,Keshpur,Paschim Medinipur,SC
+236,Medinipur,Paschim Medinipur,GEN
+237,Binpur,Jhargram,ST
+238,Bandwan,Purulia,ST
+239,Balarampur,Purulia,GEN
+240,Baghmundi,Purulia,GEN
+241,Joypur,Purulia,GEN
+242,Purulia,Purulia,GEN
+243,Manbazar,Purulia,ST
+244,Kashipur,Purulia,GEN
+245,Para,Purulia,SC
+246,Raghunathpur,Purulia,SC
+247,Saltora,Bankura,SC
+248,Chhatna,Bankura,GEN
+249,Ranibandh,Bankura,ST
+250,Raipur,Bankura,ST
+251,Taldangra,Bankura,GEN
+252,Bankura,Bankura,GEN
+253,Barjora,Bankura,GEN
+254,Onda,Bankura,GEN
+255,Bishnupur,Bankura,GEN
+256,Katulpur,Bankura,SC
+257,Indas,Bankura,SC
+258,Sonamukhi,Purba Bardhaman,SC
+259,Khandaghosh,Purba Bardhaman,SC
+260,Bardhaman Dakshin,Purba Bardhaman,GEN
+261,Raina,Purba Bardhaman,SC
+262,Jamalpur,Purba Bardhaman,SC
+263,Monteswar,Purba Bardhaman,GEN
+264,Kalna,Purba Bardhaman,SC
+265,Memari,Purba Bardhaman,GEN
+266,Bardhaman Uttar,Purba Bardhaman,SC
+267,Bhatar,Purba Bardhaman,GEN
+268,Purbasthali Dakshin,Purba Bardhaman,GEN
+269,Purbasthali Uttar,Purba Bardhaman,GEN
+270,Katwa,Purba Bardhaman,GEN
+271,Ketugram,Purba Bardhaman,GEN
+272,Mangalkot,Purba Bardhaman,GEN
+273,Ausgram,Purba Bardhaman,SC
+274,Galsi,Purba Bardhaman,SC
+275,Pandabeswar,Paschim Bardhaman,GEN
+276,Durgapur Purba,Paschim Bardhaman,GEN
+277,Durgapur Paschim,Paschim Bardhaman,GEN
+278,Raniganj,Paschim Bardhaman,GEN
+279,Jamuria,Paschim Bardhaman,GEN
+280,Asansol Dakshin,Paschim Bardhaman,GEN
+281,Asansol Uttar,Paschim Bardhaman,GEN
+282,Kulti,Paschim Bardhaman,GEN
+283,Barabani,Paschim Bardhaman,GEN
+284,Dubrajpur,Birbhum,SC
+285,Suri,Birbhum,GEN
+286,Bolpur,Birbhum,GEN
+287,Nanoor,Birbhum,SC
+288,Labpur,Birbhum,GEN
+289,Sainthia,Birbhum,SC
+290,Mayureswar,Birbhum,GEN
+291,Rampurhat,Birbhum,GEN
+292,Hansan,Birbhum,GEN
+293,Nalhati,Birbhum,GEN
+294,Murarai,Birbhum,GEN

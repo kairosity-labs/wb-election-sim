@@ -1,0 +1,11 @@
+Occupation,Smartphone-internet,TV,Tier,Source
+Cultivator,38,75,C,Rural ag baseline
+Ag-labourer,28,65,C,Lowest income
+Household industry,42,78,C,
+Manufacturing,55,85,C,
+Construction,50,78,C,
+Trade / retail,70,90,C,Muni concentrated
+Transport (incl. Petrapole),65,85,C,
+Services (private),75,92,C,
+Govt services,88,95,C,Highest
+Out-migrant,70,80,D,"Working outside, smartphone-heavy"

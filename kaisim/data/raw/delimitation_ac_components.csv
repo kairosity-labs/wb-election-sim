@@ -1,0 +1,626 @@
+ac_no,ac_name,district,reservation,component_type,component_name,coverage,gps_list
+1,Mekliganj,Cooch Behar,SC,CDB,Haldibari,full,
+1,Mekliganj,Cooch Behar,SC,Municipality,Haldibari,full,
+1,Mekliganj,Cooch Behar,SC,CDB,Mekliganj,full,
+1,Mekliganj,Cooch Behar,SC,Municipality,Mekliganj,full,
+2,Mathabhanga,Cooch Behar,SC,CDB,Mathabhanga-II,full,
+2,Mathabhanga,Cooch Behar,SC,Municipality,Mathabhanga,full,
+2,Mathabhanga,Cooch Behar,SC,CDB,Mathabhanga-I,partial,Hazrahat- I|Hazrahat-II|Pachagarh
+3,Cooch Behar Uttar,Cooch Behar,SC,Unparsed,,full,
+4,Cooch Behar Dakshin,Cooch Behar,GEN,Municipality,Coochbehar,full,
+4,Cooch Behar Dakshin,Cooch Behar,GEN,CDB,Cooch Behar-I,partial,Chandamari|Chilkirhat|Falimari|DAKSHIN Ghughumari|Haribhanga|Moyamari|Patchhara|Putimari Fuleswari|Sutkabari
+5,Sitalkuchi,Cooch Behar,SC,CDB,Sitalkuchi,full,
+5,Sitalkuchi,Cooch Behar,SC,CDB,Mathabhanga-I,partial,Bairagirhat|Gopalpur|Jorpatiki|Kedarhat|Kursamari|Nayarhat|Shikarpur
+6,Sitai,Cooch Behar,SC,CDB,Sitai,full,
+6,Sitai,Cooch Behar,SC,CDB,Dinhata-I,partial,Bara Atiabari-I|Bara Atiabari-II|Bara Soulmari|Bhetaguri-IIGitaldaha-I|Gitaldaha-II|Gosanimari-I|Gosanimari-II|Matalhat|Okrabari|Petla|Putimari-II
+7,Dinhata,Cooch Behar,GEN,CDB,Dinhata-I,partial,Bhetaguri-I|Dinhata Gram-I|Dinhata Gram-II|Putimari-I
+7,Dinhata,Cooch Behar,GEN,Municipality,Dinhata,full,
+8,Natabari,Cooch Behar,GEN,CDB,Cooch Behar-I,partial,Deoanhat|Dauaguri|Guriahati-I|Guriahati-II|Jiranpur|Panisala
+8,Natabari,Cooch Behar,GEN,CDB,Tufanganj-I,partial,Andaran Fulbari-II|Balarampur-I|Balarampur-II|Chilakhana-I|Chilakhana-II|Deocharai|Dhalpal-II|Maruganj|Natabari-I|Natabari-II
+9,Tufanganj,Cooch Behar,GEN,CDB,Tufanganj-II,full,
+9,Tufanganj,Cooch Behar,GEN,CDB,Tufanganj-I,partial,Andaran Fulbari-I|Balabhut|Dhalpal-I|Nakkatigachh
+10,Kumargram,Alipurduar,ST,CDB,Kumargram,full,
+10,Kumargram,Alipurduar,ST,CDB,Alipurduar-II,partial,Bhatibari|Kohinoor|Mahakalguri Parokata|Samuktala|Tatpara-I|Turturi
+11,Kalchini,Alipurduar,ST,CDB,Kalchini,full,
+11,Kalchini,Alipurduar,ST,CDB,Alipurduar-II,partial,Majherdabri GP of CDB Alipurduar-I
+12,Alipurduars,Alipurduar,GEN,CDB,Alipurduar-I,partial,Banchukamari|Chakowakheti|Mathura|Parorpar|Patlakhawa|Shalkumar-I|Shalkumar-II|Tapsikhata|Vivekananda-II|Vivekananda-I
+12,Alipurduars,Alipurduar,GEN,Municipality,Alipurduar Rly Jnc(ct) 3.. Alipurduar,full,
+12,Alipurduars,Alipurduar,GEN,CDB,Alipurduar-II,partial,Chaporerpar-I|Chaporerpar-II|Tatpara-II
+13,Falakata,Alipurduar,SC,CDB,Falakata,full,
+13,Falakata,Alipurduar,SC,CDB,Alipurduar-I,partial,Purba Kanthalbari GP of CDB Alipurduar-
+14,Madarihat,Alipurduar,ST,CDB,Madarihat,full,
+14,Madarihat,Alipurduar,ST,CDB,Dhupguri,partial,Binnaguri|Sakoyajhora-I
+15,Dhupguri,Jalpaiguri,SC,CDB,Dhupguri,partial,Banarhat-I|Barogharia|Gadhearkuthi|Gadong-I|Gadong-II|Jharaltagram-I|Jharaltagram-II|Magurmari-I|Magurmari-II|Sakoyajhora-II|Salbari-I|Salbari-II|Dhupguri-I|Dhupguri-II
+16,Maynaguri,Jalpaiguri,SC,CDB,Maynaguri,full,
+17,Jalpaiguri,Jalpaiguri,SC,Municipality,Jalpaiguri,full,
+17,Jalpaiguri,Jalpaiguri,SC,CDB,Jalpaiguri,partial,Arabinda|Bahadur|Boalmari Nandanpur|Garalbari|Kharia|Kharija Berubari-I|Kharija Berubari-II|Mondalghat|Nagar Berubari|South Berubari
+18,Rajganj,Jalpaiguri,SC,CDB,Rajganj,partial,Binnaguri|Kukurjan|Majhiali|Mantadari|Panikauri|Sannyasikata|Sikarpur|Sukhani
+18,Rajganj,Jalpaiguri,SC,CDB,Jalpaiguri,partial,Baropatia Nutanabos Belakoba|Paharpur|Patkata
+19,Dabgram-Phulbari,Jalpaiguri,GEN,Municipality,Ward Nos. 31 to 44 of Siliguri (Corp),full,
+20,Mal,Jalpaiguri,ST,CDB,Mal,full,
+20,Mal,Jalpaiguri,ST,Municipality,Mal,full,
+21,Nagrakata,Jalpaiguri,ST,CDB,Nagrakata,full,
+21,Nagrakata,Jalpaiguri,ST,CDB,Matiali,full,
+21,Nagrakata,Jalpaiguri,ST,CDB,Dhupguri,partial,Banarhat-II|Chamurchi
+22,Kalimpong,Kalimpong,GEN,CDB,Kalimpong-I,full,
+22,Kalimpong,Kalimpong,GEN,Municipality,Kalimpong,full,
+22,Kalimpong,Kalimpong,GEN,CDB,Kalimpong-II,full,
+22,Kalimpong,Kalimpong,GEN,CDB,Gorubathan,full,
+23,Darjeeling,Darjeeling,GEN,CDB,Darjeeling-Pulbazar,full,
+23,Darjeeling,Darjeeling,GEN,Municipality,Darjeeling,full,
+24,Kurseong,Darjeeling,GEN,CDB,Jorebunglow Sukiapokhri,partial,Gorabari Margaret’s Hope|Lower Sonada-I|Lower Sonada- II|Munda Kothi|Upper Sonada
+24,Kurseong,Darjeeling,GEN,CDB,Mirik,full,
+24,Kurseong,Darjeeling,GEN,Notified_Area,Mirik,full,
+24,Kurseong,Darjeeling,GEN,CDB,Kurseong,full,
+24,Kurseong,Darjeeling,GEN,Municipality,Kurseong,full,
+24,Kurseong,Darjeeling,GEN,CDB,Matigara,partial,(i) Sitong Forest (Village)|(ii) Sivok Hill Forest (Village)|(iii) Sivok Forest (Village) in Champasari GP of CDB Matigar
+24,Kurseong,Darjeeling,GEN,CDB,Rangli Rangliot,full,
+25,Matigara-Naxalbari,Darjeeling,SC,CDB,Naxalbari,full,
+25,Matigara-Naxalbari,Darjeeling,SC,CDB,Matigara,partial,Atharakhai|Champasari (excluding NAXALBARI Villages Sitong Forest|Sivoke Hill Forest|Sivoke Forest) Matigara-I|Matigara-II|Patharghata
+26,Siliguri,Darjeeling,GEN,Municipality,SILIGURI Ward Nos 1 to 30 and 45 to 47 of Siliguri (Corp),full,
+27,Phansidewa,Darjeeling,ST,CDB,Phansidewa,full,
+27,Phansidewa,Darjeeling,ST,CDB,Kharibari,full,
+28,Chopra,Uttar Dinajpur,GEN,CDB,Chopra,full,
+28,Chopra,Uttar Dinajpur,GEN,CDB,Islampur,partial,Gobindopur|Kamalagaon Sujali
+29,Islampur,Uttar Dinajpur,GEN,Municipality,Islampur,full,
+29,Islampur,Uttar Dinajpur,GEN,CDB,Islampur,partial,Agdimti Khanti|Gaisal-I|Gaisal-II|Gunjaria|Islampur|Matikunda-I|Matikunda-II|Panditpota-I|Panditpota-II|Ramganj-I|Ramganj-II
+30,Goalpokhar,Uttar Dinajpur,GEN,CDB,Goalpokhar-I,full,
+31,Chakulia,Uttar Dinajpur,GEN,CDB,Goalpokhar-II,full,
+31,Chakulia,Uttar Dinajpur,GEN,CDB,Karandighi,partial,Bazargaon-I|Bazargaon-II
+32,Karandighi,Uttar Dinajpur,GEN,CDB,Karandighi,partial,KARANDIGHI Altapur-I|Altapur-II|Dalkhola-I|Dalkhola-II|Domhana|Karandighi-I|Karandighi-II|Lahutara-I|Lahutara-II|Raniganj|Rasakhowa-I|Rasakhowa-II
+33,Hemtabad,Uttar Dinajpur,SC,CDB,Hemtabad,full,
+33,Hemtabad,Uttar Dinajpur,SC,CDB,Raiganj,partial,Bhatun|Bindol|Jagadishpur|Mahipur|Sherpur|Rampur|Sitgram
+34,Kaliaganj,Uttar Dinajpur,SC,CDB,Kaliaganj,full,
+34,Kaliaganj,Uttar Dinajpur,SC,Municipality,Kaliaganj,full,
+34,Kaliaganj,Uttar Dinajpur,SC,CDB,Raiganj,partial,Barua|Birghai
+35,Raiganj,Uttar Dinajpur,GEN,Municipality,Raiganj,full,
+35,Raiganj,Uttar Dinajpur,GEN,CDB,Raiganj,partial,Bahin|Maraikura|Gouri|Kamalabati-I|Kamalabati-II
+36,Itahar,Dakshin Dinajpur,GEN,Unparsed,ITAHAR CDB Itahar,full,
+37,Kushmandi,Dakshin Dinajpur,SC,CDB,Kushmandi,full,
+37,Kushmandi,Dakshin Dinajpur,SC,CDB,Gangarampur,partial,Belbari-II|Jahangirpur|Sukdebpur
+38,Kumarganj,Dakshin Dinajpur,GEN,CDB,Kumarganj,full,
+38,Kumarganj,Dakshin Dinajpur,GEN,CDB,Gangarampur,partial,Ashokegram|Basuria|Chaloon|Uday
+39,Balurghat,Dakshin Dinajpur,GEN,CDB,Hilli,full,
+39,Balurghat,Dakshin Dinajpur,GEN,CDB,Balurghat,partial,Amritakhand|Vatpara|Chingishpur
+39,Balurghat,Dakshin Dinajpur,GEN,Municipality,Balurghat,full,
+40,Tapan,Dakshin Dinajpur,ST,CDB,Balurghat,partial,Boaldar|Chak Vrigu|Jalghar|Bolla|Danga|Gpalbati|Najirpur|Patiram
+40,Tapan,Dakshin Dinajpur,ST,CDB,Tapan,partial,Dwipkhanda|Gophanagar|Harsura|Malancha|Tapan Chandipur
+41,Gangarampur,Dakshin Dinajpur,SC,Municipality,Gangarampur,full,
+41,Gangarampur,Dakshin Dinajpur,SC,CDB,Gangarampur,partial,Belbari-I|Damdama|Gangarampur|Nandanpur
+41,Gangarampur,Dakshin Dinajpur,SC,CDB,Tapan,partial,Ajmatpur|Autina|Gurail|Hazratpur|Ramchandrapur|Rampara Chenchra
+42,Harirampur,Dakshin Dinajpur,GEN,CDB,Harirampur,full,
+42,Harirampur,Dakshin Dinajpur,GEN,CDB,Banshihari,full,
+43,Habibpur,Malda,ST,CDB,Bamangola,full,
+43,Habibpur,Malda,ST,CDB,Habibpur,partial,Aktail|Baidyapur|Bulbul Chandi|Dhumpur|Habibpur|Jajail|Kanturka|Mangalpur
+44,Gazole,Malda,SC,CDB,Gazole,full,
+45,Chanchal,Malda,GEN,CDB,Chanchal-I,full,
+45,Chanchal,Malda,GEN,CDB,Harischandrapur-I,partial,Barui|Kusidha|Rashidabad|Tulsihatta
+46,Harishchandrapur,Malda,GEN,CDB,Harischandrapur-II,full,
+46,Harishchandrapur,Malda,GEN,CDB,Harischandrapur-I,partial,Bhingole|Harishchandrapur|PUR Mahendrapur
+47,Malatipur,Malda,GEN,CDB,Chanchal-II,full,
+47,Malatipur,Malda,GEN,CDB,Ratua-II,partial,Maharajpur|Peerganj|Sreepur-I|Sreepur-II
+48,Ratua,Malda,GEN,CDB,Ratua-I,full,
+48,Ratua,Malda,GEN,CDB,Ratua-II,partial,Araidanga|Paranpur|Pukuria|Sambalpur
+49,Manikchak,Malda,GEN,CDB,Manikchak,full,
+49,Manikchak,Malda,GEN,CDB,English Bazar,partial,Milki|Fulbaria|Sovanagar
+50,Maldaha,Malda,SC,CDB,Maldaha,full,
+50,Maldaha,Malda,SC,Municipality,Old Maldaha,full,
+50,Maldaha,Malda,SC,CDB,English Bazar,partial,Narhatta GP of CDB English Baza
+50,Maldaha,Malda,SC,CDB,Habibpur,partial,Aiho|Rishipur|Sreerampur
+51,English Bazar,Malda,GEN,Municipality,English Bazar,full,
+51,English Bazar,Malda,GEN,CDB,English Bazar,partial,Amriti|Binodpur|Jadupur-I|Jadupur- II|Kajigram|Kotwali|Mahadipur
+52,Mothabari,Malda,GEN,CDB,Kaliachak-II,full,
+52,Mothabari,Malda,GEN,CDB,Kaliachak-I,partial,Alinagar|Kaliachak-I
+53,Sujapur,Malda,GEN,CDB,Kaliachak-I,partial,Alipur-I|Alipur-II|Bamongram Mashimpur|Gayeshbari|Jalalpur|Jalua Badhal|Kalia Chak-II|Mozampur|Naoda Jadupur|Silampur-I|Silampur-II|Sujapur
+54,Baisnabnagar,Malda,GEN,CDB,Kaliachak-III,full,
+55,Farakka,Murshidabad,GEN,CDB,Farakka,full,
+55,Farakka,Murshidabad,GEN,CDB,Samserganj,partial,Gajinagar Malancha|Kanchantala
+56,Samserganj,Murshidabad,GEN,Municipality,Dhulian,full,
+56,Samserganj,Murshidabad,GEN,CDB,Samserganj,partial,Bhasaipaikar|Bogdadnagar|Chachanda|Dogachhi Napara|Nimtita|Pratapganj|Tinpukuria
+57,Suti,Murshidabad,GEN,CDB,Suti-II,full,
+57,Suti,Murshidabad,GEN,CDB,Suti-I,partial,Bahutali|Harua|Sadikpur
+58,Jangipur,Murshidabad,GEN,Municipality,Jangipur,full,
+58,Jangipur,Murshidabad,GEN,CDB,Raghunathganj-I,full,
+58,Jangipur,Murshidabad,GEN,CDB,Suti-I,partial,Ahiran|Bansabati
+59,Raghunathganj,Murshidabad,GEN,CDB,Raghunathganj-II,full,
+59,Raghunathganj,Murshidabad,GEN,CDB,Suti-I,partial,Nurpur GP of CDB Suti-
+59,Raghunathganj,Murshidabad,GEN,CDB,Lalgola,partial,Maiya GP of CDB Lalgol
+60,Sagardighi,Murshidabad,GEN,Unparsed,SAGARDIGHI CDB Sagardighi,full,
+61,Lalgola,Murshidabad,GEN,CDB,Lalgola,partial,Airmari Krishnapur|Bahadurpur|Bilbora Kopra|Dewansarai|Jasaitala|Kalmegha|Lalgola|Manikchak|Nashipur|Paikpara|Ramchandrapur
+61,Lalgola,Murshidabad,GEN,CDB,Bhagawangola-I,partial,Kantanagar GP of CDB Bhagawangola-
+62,Bhagabangola,Murshidabad,GEN,CDB,Bhagawangola-II,full,
+62,Bhagabangola,Murshidabad,GEN,CDB,Bhagawangola-I,partial,Bhagawangola|Habaspur|Hanumantanagar|Kuthirampur|Mahammadpur|Mahisasthali|Sundarpur
+63,Raninagar,Murshidabad,GEN,CDB,Raninagar-I,full,
+63,Raninagar,Murshidabad,GEN,CDB,Raninagar-II,partial,Kalinagar-I|Kalinagar-II|Malibari-I|Malibari-II|Raninagar-I
+63,Raninagar,Murshidabad,GEN,CDB,Domkal,partial,Dhulauri GP of CDB Domka
+64,Murshidabad,Murshidabad,GEN,CDB,Murshidabad Jiaganj,full,
+64,Murshidabad,Murshidabad,GEN,Municipality,Jiaganj Azimganj,full,
+64,Murshidabad,Murshidabad,GEN,Municipality,Murshidabad,full,
+65,Nabagram,Murshidabad,SC,CDB,Nabagram,full,
+65,Nabagram,Murshidabad,SC,CDB,Baharampur,partial,Neallishpara Goaljan|Radharghat-I|Radharghat-II|Sahajadpur
+66,Khargram,Murshidabad,SC,CDB,Khargram,full,
+66,Khargram,Murshidabad,SC,CDB,Burwan,partial,Kalyanpur-I|Kalyanpur-II
+67,Burwan,Murshidabad,SC,CDB,Burwan,partial,Biprasekhar|Burwan-I|Burwan-II|Kharjuna|Kuli|Kurunnurun|Panchthupi|Sabaldaha|Sabalpur|Sahora|Sundarpur
+67,Burwan,Murshidabad,SC,CDB,Bharatpur-I,partial,Godda|Jajan|Gundiria
+68,Kandi,Murshidabad,GEN,CDB,Kandi,full,
+68,Kandi,Murshidabad,GEN,Municipality,Kandi,full,
+68,Kandi,Murshidabad,GEN,CDB,Baharampur,partial,Satui Chowrigachha GP of CDB Baharampu
+69,Bharatpur,Murshidabad,GEN,CDB,Bharatpur-II,full,
+69,Bharatpur,Murshidabad,GEN,CDB,Bharatpur-I,partial,Alugram|Amlai|Bharatpur|Sijgram|Talgram
+70,Rejinagar,Murshidabad,GEN,CDB,Beldanga-II,full,
+70,Rejinagar,Murshidabad,GEN,CDB,Beldanga-I,partial,Begunbari|Kapasdanga|Mirjapur-I
+71,Beldanga,Murshidabad,GEN,Municipality,Beldanga,full,
+71,Beldanga,Murshidabad,GEN,CDB,Beldanga-I,partial,Bhabta-I|Bhabta-II|Debkundu|Mirjapur-II|Mahula-I|Sujapur Kumarpur
+71,Beldanga,Murshidabad,GEN,CDB,Baharampur,partial,Bhakuri-II|Haridasmati|Nowda Panur|Rajdharpara|Rangamati Chandpara
+72,Baharampur,Murshidabad,GEN,Municipality,Baharampur,full,
+72,Baharampur,Murshidabad,GEN,CDB,Baharampur,partial,Bhakuri-I|Daulatabad|Gurudaspur|Hatinagar|Manindranagar
+73,Hariharpara,Murshidabad,GEN,CDB,Hariharpara,full,
+73,Hariharpara,Murshidabad,GEN,CDB,Baharampur,partial,Chhaighari|Madanpur
+74,Naoda,Murshidabad,GEN,CDB,Nowda,full,
+74,Naoda,Murshidabad,GEN,CDB,Beldanga-I,partial,Chaitannapur-I|Chaitannapur-II|Madda|Mahula-II
+75,Domkal,Murshidabad,GEN,CDB,Domkal,partial,Ajimganjgola|Bhagirathpur|Domkal|Garaimari|Garibpur|Ghoramara|Jitpur|Juginda|Juranpur|Madhurkul|Raipur|Sarangpur
+76,Jalangi,Murshidabad,GEN,CDB,Jalangi,full,
+76,Jalangi,Murshidabad,GEN,CDB,Raninagar-II,partial,Katlamari-I|Katlamari-II|Rajapur|Raninagar-II
+77,Karimpur,Nadia,GEN,CDB,Karimpur-I,full,
+77,Karimpur,Nadia,GEN,CDB,Karimpur-II,partial,Dhoradaha-I|Dhoradaha-II|Murutia|Natidanga-I|Natidanga-II|Rahamatpur
+78,Tehatta,Nadia,GEN,CDB,Tehatta-I,partial,Betai-I|Betai-II|Chhitka|Kanainagar|Natna|Patharghata-I|Raghunathpur|Shyamnagar|Tehatta
+78,Tehatta,Nadia,GEN,CDB,Karimpur-II,partial,Dighal Kandi|Nandanpur|Narayanpur-I|Narayanpur-II
+79,Palashipara,Nadia,GEN,CDB,Tehatta-I,partial,Chanderghat|Patharghata-II
+79,Palashipara,Nadia,GEN,CDB,Tehatta-II,full,
+79,Palashipara,Nadia,GEN,CDB,Nakashipara,partial,Bikrampur|Bilkumari|Dhananjaypur|Haranagar
+80,Kaliganj,Nadia,GEN,CDB,Kaliganj,partial,KALIGANJ Bara Chandghar. Debagram|Faridpur|Gobra|Hatgachha|Juranpur|Kaliganj|Matiari|Mira-I|Mira-II|Panighata|Plassey- I|Plassey-II
+81,Nakashipara,Nadia,GEN,CDB,Nakashipara,partial,Bethua Dahari-I|Bethua Dahari-II|Billwa Gram|Birpur- I|Birpur-II|Dharmada|Dogachhia|Majher Gram|Muragachha|Nakasipara|Patikabari
+81,Nakashipara,Nadia,GEN,CDB,Kaliganj,partial,Palit Begia|Rajarampur Ghoraikhetra
+82,Chapra,Nadia,GEN,Unparsed,CHAPRA CDB Chapra,full,
+83,Krishnanagar Uttar,Nadia,GEN,Municipality,Krishnanagar,full,
+83,Krishnanagar Uttar,Nadia,GEN,CDB,Krishnanagar-I,partial,Bhandar Khola|Bhimpur|Asannagar|UTTAR Dogachhi|Pora Gachha
+84,Nabadwip,Nadia,GEN,CDB,Nabadwip,full,
+84,Nabadwip,Nadia,GEN,Municipality,Nabadwip,full,
+84,Nabadwip,Nadia,GEN,CDB,Krishnanagar-I,partial,Bhaluka|Joania
+85,Krishnanagar Dakshin,Nadia,GEN,CDB,Krishnanagar-II,full,
+86,Santipur,Nadia,GEN,CDB,Santipur,partial,Babla|Baganchra|Belgoria-I|Belgoria-II Gayeshpur|Haripur
+86,Santipur,Nadia,GEN,Municipality,Santipur,full,
+87,Ranaghat Uttar Paschim,Nadia,GEN,Notified_Area,Taherpur,full,
+87,Ranaghat Uttar Paschim,Nadia,GEN,Municipality,Birnagar,full,
+87,Ranaghat Uttar Paschim,Nadia,GEN,Municipality,Ranaghat,full,
+87,Ranaghat Uttar Paschim,Nadia,GEN,CDB,Ranaghat-I,partial,PASCHIM Ramnagar-I|Barasat|Kalinarayanpur-Paharpur|Khisma
+87,Ranaghat Uttar Paschim,Nadia,GEN,CDB,Santipur,partial,Arbandi-I|Arbandi-II|Fulia Township|Nabla
+88,Krishnaganj,Nadia,SC,CDB,Krishnaganj,full,
+88,Krishnaganj,Nadia,SC,CDB,Hanskhali,partial,Badkulla-I|Badkulla-II|Betna Gobindapur|Dakshin Para-I|Dakshin Para-II|Gajna|Mayurhat-I|Mayurhat-II
+89,Ranaghat Uttar Purba,Nadia,SC,CDB,Ranaghat-II,partial,Aranghata|Bahirgachhi|Dutta Fulia|Jugalkishore|UTTAR PURBA Kamalpur|Raghunathpur Hijuli-II
+89,Ranaghat Uttar Purba,Nadia,SC,CDB,Hanskhali,partial,Bagula-I|Bagula-II|Mamjoan|Ramnagar Bara Chupria-I|Ramnagar Bara Chupria-II
+90,Ranaghat Dakshin,Nadia,SC,CDB,Ranaghat-II,partial,Anishmali|Baidyapur-I|Baidyapur-II|Debagram|Majher DAKSHIN Gram|Nokari|Raghunathpur Hijuli-I|Shyamnagar
+90,Ranaghat Dakshin,Nadia,SC,CDB,Ranaghat-I,partial,Anulia|Habibpur|Nawpara Masunda|Payradanga|Ramnagar-II|Tarapur
+90,Ranaghat Dakshin,Nadia,SC,Notified_Area,Cooper's Camp,full,
+91,Chakdaha,Nadia,GEN,CDB,Chakdaha,partial,Chanduria-I|Dubra|Ghetugachhi|Rautari|Silinda-I|Silinda-II|Tatla-I|Tatla-II
+91,Chakdaha,Nadia,GEN,Municipality,Chakdaha,full,
+92,Kalyani,North 24 Parganas,SC,CDB,Chakdaha,partial,Chanduria-II|Kanchrapara|Madanpur-I|Madanpur-II|Saguna|Sarati|Simurali
+92,Kalyani,North 24 Parganas,SC,Municipality,Kalyani,full,
+92,Kalyani,North 24 Parganas,SC,Municipality,Gayespur,full,
+93,Haringhata,North 24 Parganas,SC,CDB,Haringhata,full,
+93,Haringhata,North 24 Parganas,SC,CDB,Chakdaha,partial,Dewli|Hingara
+94,Bagda,North 24 Parganas,SC,CDB,Bagda,full,
+94,Bagda,North 24 Parganas,SC,CDB,Bangaon,partial,Gangrapota|Sundarpur|Tengra
+95,Bangaon Uttar,North 24 Parganas,SC,Municipality,Bangaon,full,
+95,Bangaon Uttar,North 24 Parganas,SC,CDB,Bangaon,partial,Akaipur|Chhaigheria|Dharma Pukuria|Ganganandapur|Ghatbore|Gopalnagar-I|Gopalnagar-II
+96,Bangaon Dakshin,North 24 Parganas,SC,CDB,Bangaon,partial,Bairampur|Chauberia-I|Chauberia-II|Dighari|Kalupur|DAKSHIN Palla
+96,Bangaon Dakshin,North 24 Parganas,SC,CDB,Gaighata,partial,Chandpara|Dooma|Fulsara|Jaleswar-II|Jhaudanga|Ramnagar
+97,Gaighata,North 24 Parganas,SC,CDB,Gaighata,partial,Dharmapur-I|Dharmapur-II|Ichapur-I|Ichapur-II|Jaleswar- I|Shimulpur|Sutia
+97,Gaighata,North 24 Parganas,SC,CDB,Habra-I,partial,Bergum-I|Bergum-II|Machhalandpur-I
+97,Gaighata,North 24 Parganas,SC,Municipality,Gobardanga,full,
+98,Swarupnagar,North 24 Parganas,SC,CDB,Swarupnagar,full,
+98,Swarupnagar,North 24 Parganas,SC,CDB,Baduria,partial,Ramchandrapur Uday|Sayesta Nagar –I
+99,Baduria,North 24 Parganas,GEN,CDB,Baduria,partial,Aturia|Bagjola|Bajitpur|Chandipur|Chhatra|South Jadurhati|North jadurhati|Jagannathpur|Jasikati Atghara|Nayabastia Milani|Raghunathpur|Sayesta nagar-II
+99,Baduria,North 24 Parganas,GEN,Municipality,Baduria,full,
+100,Habra,North 24 Parganas,GEN,CDB,Habra-I,partial,Kumra|Pritibha|Rautara|Machhalandpur-II
+100,Habra,North 24 Parganas,GEN,Municipality,Habra,full,
+101,Ashoknagar,North 24 Parganas,GEN,CDB,Habra-II,full,
+101,Ashoknagar,North 24 Parganas,GEN,Municipality,Ashoknagar Kalyangarh,full,
+102,Amdanga,North 24 Parganas,GEN,CDB,Amdanga,full,
+102,Amdanga,North 24 Parganas,GEN,CDB,Barasat-I,partial,Dattapukur-I|Dattapukur-II|Kashimpur
+103,Bijpur,North 24 Parganas,GEN,Municipality,Kanchrapara,full,
+103,Bijpur,North 24 Parganas,GEN,Municipality,Halisahar,full,
+104,Naihati,North 24 Parganas,GEN,Municipality,Naihati,full,
+104,Naihati,North 24 Parganas,GEN,CDB,Barrackpur-I,partial,Jethia|Kampa-Chakla|Majhipara–Palasi|Shibdaspur
+105,Bhatpara,North 24 Parganas,GEN,Municipality,BHATPARA Ward No.1 to 17 of Bhatpara,full,
+106,Jagatdal,North 24 Parganas,GEN,Municipality,Ward Nos.18 to 35 of Bhatpara,full,
+106,Jagatdal,North 24 Parganas,GEN,CDB,Barrackpur-I,partial,Kogachi-I|Kogachi- II|Mamudpur|Panpur Keutia
+107,Noapara,North 24 Parganas,GEN,Municipality,North Barrackpur,full,
+107,Noapara,North 24 Parganas,GEN,Municipality,Garulia,full,
+107,Noapara,North 24 Parganas,GEN,Unparsed,Ichapur Def. Estate,full,
+107,Noapara,North 24 Parganas,GEN,Unparsed,Barrackpur CB,full,
+107,Noapara,North 24 Parganas,GEN,CDB,Barrackpur-II,partial,Mohanpur|Seuli
+108,Barrackpur,North 24 Parganas,GEN,Municipality,Barrackpur,full,
+108,Barrackpur,North 24 Parganas,GEN,Municipality,Titagarh,full,
+109,Khardaha,North 24 Parganas,GEN,Municipality,Khardaha,full,
+109,Khardaha,North 24 Parganas,GEN,Municipality,"Ward Nos.15, 18 to 21 and 35 of Panihati",full,
+109,Khardaha,North 24 Parganas,GEN,CDB,Barrackpur-II,partial,Bandipur|Bilkanda-I|Bilkanda-II|Patulia
+110,Dum Dum Uttar,North 24 Parganas,GEN,Municipality,North DumDum,full,
+110,Dum Dum Uttar,North 24 Parganas,GEN,Municipality,New Barrackpur,full,
+111,Panihati,North 24 Parganas,GEN,Municipality,"PANIHATI Ward Nos.1 to 14, 16, 17 and 22 to 34 of Panihati",full,
+112,Kamarhati,North 24 Parganas,GEN,Municipality,KAMARHATI Ward Nos.1 to 16 and 21 to 35 of Kamarhati,full,
+113,Baranagar,North 24 Parganas,GEN,Municipality,Baranagar,full,
+113,Baranagar,North 24 Parganas,GEN,Municipality,Ward Nos.17 to 20 of Kamarhati,full,
+114,Dum Dum,North 24 Parganas,GEN,Municipality,Dum Dum,full,
+114,Dum Dum,North 24 Parganas,GEN,Municipality,Ward Nos.1 to 17 of South Dum Dum,full,
+115,Rajarhat New Town,North 24 Parganas,GEN,CDB,Rajarhat,full,
+115,Rajarhat New Town,North 24 Parganas,GEN,Municipality,Ward Nos. 1 to 6 and 10 to 13 of TOWN Rajarhat Gopalpur,full,
+116,Bidhannagar,North 24 Parganas,GEN,Municipality,Bidhannagar,full,
+116,Bidhannagar,North 24 Parganas,GEN,Municipality,"Ward Nos. 19, 20 and 28 to 35 of South Dum Dum",full,
+117,Rajarhat Gopalpur,North 24 Parganas,GEN,Municipality_partial,Rajarhat Gopalpur (M) GOPALPUR,partial,7 to 9|14 to 27
+117,Rajarhat Gopalpur,North 24 Parganas,GEN,Municipality,Ward Nos.18 and 21 to 27 of South Dum Dum,full,
+118,Madhyamgram,North 24 Parganas,GEN,Municipality,Madhyamgram,full,
+118,Madhyamgram,North 24 Parganas,GEN,CDB,Barasat-II,partial,Chandipur Rohanda|Kemia Khamarpara
+118,Madhyamgram,North 24 Parganas,GEN,CDB,Barasat-I,partial,Ichhapur Nilganj|Paschim Khilkapur|Purba Khilkapur
+119,Barasat,North 24 Parganas,GEN,Municipality,Barasat,full,
+119,Barasat,North 24 Parganas,GEN,CDB,Barasat-I,partial,Chhoto Jagulia
+120,Deganga,North 24 Parganas,GEN,CDB,Barasat-I,partial,Kadambagachhi|Katra
+120,Deganga,North 24 Parganas,GEN,CDB,Deganga,partial,Amulia|Berachampa-I|Berachampa-II|Chakla|Chaurasi|Hadipur Jhikra-I|Kalsur|Nur Nagar|Sohai-Shwetpur
+121,Haroa,North 24 Parganas,GEN,CDB,Barasat-II,partial,Falti Beleghata|Dadpur|Kiritipur –I|Kiritipur-II|Shashan
+121,Haroa,North 24 Parganas,GEN,CDB,Deganga,partial,Champatala|Deganga-I|Deganga-II|Hadipur Jhikra-II
+121,Haroa,North 24 Parganas,GEN,CDB,Haroa,partial,Gopalpur-I|Gopalpur-II|Haroa|Khasbalanda
+122,Minakhan,North 24 Parganas,SC,CDB,Minakhan,full,
+122,Minakhan,North 24 Parganas,SC,CDB,Haroa,partial,Bakjuri|Kulti|Shalipur|Sonapukur Sankarpur
+123,Sandeshkhali,North 24 Parganas,ST,CDB,Sandeshkhali-I,partial,Bayermari-I|Bayermari-II|Hathgachhi|Nazat-I|Nazat-II|Sarberia Agarhati|Sohara Radhanagar|Kalinagar
+124,Basirhat Dakshin,North 24 Parganas,GEN,Municipality,Basirhat,full,
+124,Basirhat Dakshin,North 24 Parganas,GEN,CDB,Basirhat-I,full,
+124,Basirhat Dakshin,North 24 Parganas,GEN,Unparsed,Taki (M) DAKSHIN,full,
+125,Basirhat Uttar,North 24 Parganas,GEN,CDB,Hasnabad,partial,Amlani|Bhebia|MakhalGachha|Murarisha
+125,Basirhat Uttar,North 24 Parganas,GEN,CDB,Bashirhat -II,full,
+126,Hingalganj,North 24 Parganas,SC,CDB,Hingalganj,full,
+126,Hingalganj,North 24 Parganas,SC,CDB,Hasnabad,partial,Barunhat Rameshwarpur|Bhabanipur – I|Bhabanipur – II|Hasnabad|PatliKhanpur
+126,Hingalganj,North 24 Parganas,SC,CDB,Sandeshkhali -II,partial,Khulna GP of CDB Sandeshkhali -I
+127,Gosaba,South 24 Parganas,SC,CDB,Gosaba,full,
+127,Gosaba,South 24 Parganas,SC,CDB,Basanti,partial,Maszidbati|Chunakhali
+128,Basanti,South 24 Parganas,SC,CDB,Basanti,partial,Amjhara|Basanti|Bharatgarh|Fool Malancha|Jharkhali|Jyotishpur|Kanthalberia|Nafarganj|Ramchandrakhali|Uttar Mokamberia|Charabidya
+128,Basanti,South 24 Parganas,SC,CDB,Canning - II,partial,Atharobanki GP of CDB Canning - I
+129,Kultali,South 24 Parganas,SC,CDB,Kultali,full,
+129,Kultali,South 24 Parganas,SC,CDB,Jaynagar - II,partial,Baishata|Chuprijhara|Manirhat|Nalgora
+130,Patharpratima,South 24 Parganas,GEN,Unparsed,PATHARPRATIMA CDB Patharpratima,full,
+131,Kakdwip,South 24 Parganas,GEN,CDB,Kakdwip,full,
+131,Kakdwip,South 24 Parganas,GEN,CDB,Namkhana,partial,Budhakhali|Narayanpur
+132,Sagar,South 24 Parganas,GEN,CDB,Sagar,full,
+132,Sagar,South 24 Parganas,GEN,CDB,Namkhana,partial,Frezarganj|Haripur|Mausini|Namkhana|Shibrampur
+133,Kulpi,South 24 Parganas,GEN,CDB,Kulpi,full,
+134,Raidighi,South 24 Parganas,GEN,CDB,Mathurapur-II,full,
+134,Raidighi,South 24 Parganas,GEN,CDB,Mathurapur-I,partial,Abad Bhagawanpur|Debipur|Krishnachandrapur|Lalpur|Shankarpur|Nalua
+135,Mandirbazar,South 24 Parganas,SC,CDB,Mandirbazar,full,
+135,Mandirbazar,South 24 Parganas,SC,CDB,Mathurapur-I,partial,Laksmi-Narayanpur Dakshin|Laksmi-Narayanpur Uttar|Mathurapur Paschim|Mathurapur Purba
+136,Jaynagar,South 24 Parganas,SC,Municipality,Jaynagar Mazilpur,full,
+136,Jaynagar,South 24 Parganas,SC,CDB,Jaynagar - II,partial,Bele Durganagar|Futigoda|Gardoani|Mayahauri|Mayda|Sahajadapur
+136,Jaynagar,South 24 Parganas,SC,CDB,Jaynagar - I,partial,Baharu Kshetra|Dakshin Barasat|Hari Narayanpur|Rajapur Korabeg|Sripur|Uttar Durgapur
+137,Baruipur Purba,South 24 Parganas,SC,CDB,Jaynagar - I,partial,Bamangachhi|Chaltaberia|Dhosa Chandaneswar|PURBA Jangalia|Khakurdaha|Narayanitala
+137,Baruipur Purba,South 24 Parganas,SC,CDB,Baruipur,partial,Begumpur|Belegachhi|Brindakhali|Champahati|Hardhah|Nabagram|Ramnagar-I|Ramnagar-II|South Garia
+138,Canning Paschim,South 24 Parganas,SC,Unparsed,CDB Canning – I,full,
+138,Canning Paschim,South 24 Parganas,SC,CDB,Canning - PASCHIM II,partial,Narayanpur GP of CDB Canning - PASCHIM I
+139,Canning Purba,South 24 Parganas,GEN,CDB,Canning - II,partial,Deuli-I|Deuli-II|Kalikatala|Matherdighi|Sarengabad|Tambuldaha-I|Tambuldaha-II
+139,Canning Purba,South 24 Parganas,GEN,CDB,Bhangar - I,partial,Bodra|Chandaneswar-I|Chandaneswar-II|Durgapur|Shanksahar|Tarda
+140,Baruipur Paschim,South 24 Parganas,GEN,Municipality,Baruipur,full,
+140,Baruipur Paschim,South 24 Parganas,GEN,CDB,Baruipur,partial,Dhapdhapi-I|Dhapdhapi-II|PASCHIM Hariharpur|Kalyanpur|Mallikpur|Madarat|Shankarpur-I|Shankarpur-II|Shikharbali-I|Shikharbali-II
+141,Magrahat Purba,South 24 Parganas,SC,CDB,Magrahat - II PURBA,full,
+142,Magrahat Paschim,South 24 Parganas,GEN,CDB,Diamond Harbour-I PASCHIM,partial,CDB Magrahat-I|Netra GP of CDB Diamond Harbour-I PASCHI
+143,Diamond Harbour,South 24 Parganas,GEN,Unparsed,"Kamarpol, Khordo, Mathur, Nurpur, Patra and Sarisa GPs HARBOUR of CDB Diamond Harbour - II",full,
+143,Diamond Harbour,South 24 Parganas,GEN,Municipality,Diamond Harbour,full,
+143,Diamond Harbour,South 24 Parganas,GEN,CDB,Diamond Harbour-I,partial,Basuldanga|Bolsiddhi Kali Nagar|Derak|Harindanga|Kanpur Dhanaberia|Mashat|Parulia
+144,Falta,South 24 Parganas,GEN,CDB,Falta,full,
+144,Falta,South 24 Parganas,GEN,CDB,Diamond Harbour - II,partial,Bhadura Haridas|Kalatalahat
+145,Satgachhia,South 24 Parganas,GEN,Unparsed,CDB Bishnupur – II,full,
+145,Satgachhia,South 24 Parganas,GEN,CDB,Budge Budge - II,partial,Chak Manik|Burul|Gaja-Poyali|Kamrabad|Naskarpur|Rania|Satgachhia
+146,Bishnupur,South 24 Parganas,SC,CDB,Bishnupur - I,full,
+146,Bishnupur,South 24 Parganas,SC,CDB,Thakurpukur Mahestola,partial,Asuti-I|Asuti-II|Chatta|Raspunja
+147,Sonarpur Dakshin,South 24 Parganas,GEN,Municipality,Ward Nos-8 to 24 of Rajpur Sonarpur,full,
+147,Sonarpur Dakshin,South 24 Parganas,GEN,CDB,Sonarpur,partial,Kalikapur-I|DAKSHIN Kalikapur-II|Langalberia|Poleghat|Pratapnagar|Sonarpur-II
+148,Bhangar,South 24 Parganas,GEN,Unparsed,CDB Bhangar – II,full,
+148,Bhangar,South 24 Parganas,GEN,CDB,Bhangar-I,partial,Jagulgachhi|Narayanpur|Pranganj
+149,Kasba,Kolkata,GEN,Municipality_partial,Kolkata M. Corp,partial,66|67|91|92|107|108
+150,Jadavpur,Kolkata,GEN,Municipality_partial,Kolkata M. Corp,partial,96|99|101 to 106|109|110
+151,Sonarpur Uttar,Kolkata,GEN,Municipality_partial,Rajpur Sonarpur (M) and UTTAR,partial,1 to 7|25 to 33
+151,Sonarpur Uttar,Kolkata,GEN,CDB,Sonarpur,partial,Banhooghly-I|Banhooghly-II|Kamrabad|Kheyadaha-I|Kheyadaha-II
+152,Tollyganj,Kolkata,GEN,Municipality_partial,Kolkata M. Corp,partial,94|95|97|98|100|111 to 114
+153,Behala Purba,Kolkata,GEN,Municipality_partial,Kolkata M. Corp,partial,115 to 117|120 to 124
+153,Behala Purba,Kolkata,GEN,CDB,Thakurpukur Mahestola,partial,Joka-I|Joka-II
+154,Behala Paschim,Kolkata,GEN,Unparsed,Ward-118 to 119 and 125 to 132 of Kolkata M. Corp. PASCHIM,full,
+155,Maheshtala,Kolkata,GEN,Municipality,Ward Nos. 8 and 11 to 35 of Maheshtala,full,
+156,Budge Budge,Kolkata,GEN,Municipality,Budge Budge,full,
+156,Budge Budge,Kolkata,GEN,Municipality,Pujali,full,
+156,Budge Budge,Kolkata,GEN,CDB,Budge Budge - II,partial,Kasipur Alampur North Baoyali|South Baoyali|Dongaria Raipur
+157,Metiaburuz,Kolkata,GEN,Municipality_partial,Kolkata M. Corp,partial,136 to 141
+157,Metiaburuz,Kolkata,GEN,Municipality_partial,"Maheshtala (M) 11 - DISTRICT : KOLKATA Ward Nos.-75, 76, 78 to 80 and 133 to 135 of Kolkata M",partial,1 to 7|9|10
+158,Kolkata Port,Kolkata,GEN,Unparsed,KOLKATA PORT Corp,full,
+159,Bhabanipur,Kolkata,GEN,Unparsed,"BHABANIPUR Ward Nos.-63, 70 to 74, 77 and 82 of Kolkata M. Corp",full,
+160,Rashbehari,Kolkata,GEN,Unparsed,"RASHBEHARI Ward Nos.-81, 83, 84, 86 to 90 and 93 of Kolkata M. Corp",full,
+161,Ballygunge,Kolkata,GEN,Unparsed,"BALLYGUNGE Ward Nos.-60, 61, 64, 65, 68, 69 and 85 of Kolkata M. Corp",full,
+162,Chowrangee,Kolkata,GEN,Unparsed,CHOWRANGEE Ward Nos.-44 to 53 and 62 of Kolkata M. Corp,full,
+163,Entally,Kolkata,GEN,Unparsed,"ENTALLY Ward Nos.-54 to 56, 58 and 59 of Kolkata M. Corp",full,
+164,Beleghata,Kolkata,GEN,Unparsed,"BELEGHATA Ward Nos.-28 to 30, 33 to 36 and 57 of Kolkata M. Corp",full,
+165,Jorasanko,Kolkata,GEN,Unparsed,"JORASANKO Ward Nos.-22, 23, 25, 27 and 37 to 43 of Kolkata M. Corp",full,
+166,Shyampukur,Kolkata,GEN,Unparsed,"SHYAMPUKUR Ward Nos.-7 to 10, 17 to 21, 24 and 26 of Kolkata M. Corp",full,
+167,Maniktala,Kolkata,GEN,Unparsed,"MANIKTALA Ward Nos.-11 to 16, 31 and 32 of Kolkata M. Corp",full,
+168,Kashipur-Belgachhia,Kolkata,GEN,Unparsed,KASHIPUR- Ward Nos.-1to 6 of Kolkata M. Corp. BELGACHHIA,full,
+169,Bally,Howrah,GEN,Municipality,BALLY Bally,full,
+170,Howrah Uttar,Howrah,GEN,Municipality_partial,Howrah M. Corp,partial,-1 to 7|10 to 16
+171,Howrah Madhya,Howrah,GEN,Municipality_partial,Howrah M. MADHYA Corp,partial,-17 to 20|24 to 34|36|37|42
+172,Shibpur,Howrah,GEN,Municipality_partial,Howrah M. Corp,partial,-8|9|21 to 23|43|47 to 50
+173,Howrah Dakshin,Howrah,GEN,CDB,Sankrail,partial,DAKSHIN Duila|Jorhat|Panchpara|Thanamakua
+174,Sankrail,Howrah,SC,CDB,Sankrail,partial,Andul|Banpur-I|Banpur-II|Dakshin Sankrail|Dhulagari|Kandua|Manikpur|Mashila|Nalpur|Raghudebbati|Sankrail|Sarenga
+174,Sankrail,Howrah,SC,CDB,Domjur,partial,Kolora-I|Kolora-II|Mahiyari-I|Mahiyari-II
+175,Panchla,Howrah,GEN,CDB,Panchla,full,
+175,Panchla,Howrah,GEN,CDB,Jagatballavpur,partial,Gobindapur|Islampur|Laskarpur|Polegustia
+176,Uluberia Purba,Howrah,GEN,Municipality,Uluberia,full,
+176,Uluberia Purba,Howrah,GEN,CDB,Uluberia-II,partial,Khalisani|Raghudevpur
+177,Uluberia Uttar,Howrah,SC,CDB,Amta - I,partial,Amta|Bhandargachha|Chandrapur|Khardah|Raspur|Sirajbati|Udang-I|Udang-II
+177,Uluberia Uttar,Howrah,SC,CDB,Uluberia-II,partial,Baniban|Basudevpur|Joyargori|Tehatta Kantaberia-I|Tehatta Kantaberia-II|Tulsiberia
+178,Uluberia Dakshin,Howrah,GEN,CDB,Uluberia-I,full,
+178,Uluberia Dakshin,Howrah,GEN,CDB,Shyampur - I,partial,Belari|Dhandali|Balichaturi|DAKSHIN Nabagram
+179,Shyampur,Howrah,GEN,CDB,Shyampur - I,partial,Baneswarpur-I|Baneswarpur-II|Dingakhola|Kamalpur|Radhapur|Syampur
+179,Shyampur,Howrah,GEN,CDB,Shyampur - II,partial,Bachhri|Dihi Mondalghat-I|Dihi Mondalghat-II|Kharuberia|Nakol|Shashati|Amardaha|Bargram
+180,Bagnan,Howrah,GEN,CDB,Bagnan-II,full,
+180,Bagnan,Howrah,GEN,Unparsed,"Bagnan-I, Bagnan-II, Bangalpur, Haturia-I, Haturia-II and Khalore of CDB Bagnan-I",full,
+181,Amta,Howrah,GEN,CDB,Amta-II,full,
+181,Amta,Howrah,GEN,CDB,Bagnan-I,partial,Bainan|Baksihat|Kalyanpur|Sabsit
+182,Udaynarayanpur,Howrah,GEN,CDB,Udaynarayanpur,full,
+182,Udaynarayanpur,Howrah,GEN,CDB,Amta-I,partial,Anulia|Balichak|Basantapur|Kanpur|Khosalpur
+183,Jagatballavpur,Howrah,GEN,CDB,Jagatballavpur,partial,Baragachhia-I|Baragachhia-II|Hantal Anantabati|Jagatballavpur-I|Jagatballavpur-II|Pantihal|Shankarhati-I|Shankarhati-II|Shialdanga|Maju
+183,Jagatballavpur,Howrah,GEN,CDB,Domjur,partial,Begari|Domjur|Dakshin-Jhapardaha|Parbatipur|Rudrapur|Uttar Jhapardaha|Makardah-I
+184,Domjur,Howrah,GEN,CDB,Bally Jagachha,full,
+184,Domjur,Howrah,GEN,CDB,Domjur,partial,Bankra-I|Bankra-II|Bankra-III|Makardah-II|Narna|Shalap-I|Shalap-II
+185,Uttarpara,Hooghly,GEN,Municipality,Uttarpara-Kotrang,full,
+185,Uttarpara,Hooghly,GEN,Municipality,Konnagar,full,
+185,Uttarpara,Hooghly,GEN,Unparsed,"Nabagram, Kanaipur, Raghunathpur of CDB Sreerampur-Uttarpara (Part)",full,
+186,Sreerampur,Hooghly,GEN,Municipality,Rishra,full,
+186,Sreerampur,Hooghly,GEN,Municipality,Ward Nos.3 to 19 and 25 of Sreerampur,full,
+186,Sreerampur,Hooghly,GEN,CDB,Sreerampur- Uttarpara,partial,Rajyadharpur|Rishra
+187,Champdani,Hooghly,GEN,Municipality,Baidyabati,full,
+187,Champdani,Hooghly,GEN,Municipality,Champdani,full,
+187,Champdani,Hooghly,GEN,Municipality,Ward Nos.1 & 2 and 20 to 24 of Sreerampur,full,
+187,Champdani,Hooghly,GEN,CDB,Sreerampur-Uttarpara,partial,Payarapur GP of CDB Sreerampur-Uttarpar
+188,Singur,Hooghly,GEN,CDB,Singur,partial,Anandanagore|Bagdanga Chinamore|Baruipara Paltagarh|Beraberi|Bighati|Bouichipota|Bora|Borai Pahalampur|Gopalnagore|Mirzapur-Bankipur|Nasibpur|Singur-I|Singur-II
+188,Singur,Hooghly,GEN,CDB,Chanditala -II,partial,Begumpur|Kapasaria|Panchghora
+189,Chandannagar,Hooghly,GEN,Municipality,Chandannagar,full,
+189,Chandannagar,Hooghly,GEN,Municipality,Bhadreswar,full,
+190,Chunchura,Hooghly,GEN,Municipality,Hooghly-Chunchura,full,
+190,Chunchura,Hooghly,GEN,CDB,Chunchura-Mogra,partial,Bandel|Debanandapur|Kodalia-I|Kodalia-II
+190,Chunchura,Hooghly,GEN,CDB,Polba Dadpur,partial,Polba|Rajhat|Sugandha
+191,Balagarh,Hooghly,SC,CDB,Balagarh,full,
+191,Balagarh,Hooghly,SC,CDB,Chunchura-Mogra,partial,Chandrahati-I|Chandrahati-II|Digsui|Mogra-I
+192,Pandua,Hooghly,GEN,CDB,Pandua,full,
+193,Saptagram,Hooghly,GEN,CDB,Polba Dadpur,partial,Aknna|Amnan|Goswami Malipara|Harit|Mahanad
+193,Saptagram,Hooghly,GEN,CDB,Chunchura-Mogra,partial,Mogra-II|Saptagram
+193,Saptagram,Hooghly,GEN,Municipality,Bansberia,full,
+194,Chanditala,Hooghly,GEN,CDB,Chanditala-I,partial,Bhogabatipur|Gangadharpur|Krishnarampur|Kumirmorah|Nababpur
+194,Chanditala,Hooghly,GEN,CDB,Chanditala-II,partial,Baksa|Barijhati|Chanditala|Dankuni|Garalgacha|Janai|Monaharpur|Mrigala|Naiti
+195,Jangipara,Hooghly,GEN,CDB,Chanditala-I,partial,CDB Jangipara|2 Ainya|Haripur|Masat|Shiyakhala
+196,Haripal,Hooghly,GEN,CDB,Haripal,full,
+196,Haripal,Hooghly,GEN,CDB,Singur,partial,Balarambati|Basubati|Kamarkundu Gopalnagar Daluig achha
+197,Dhanekhali,Hooghly,SC,CDB,Dhanekhali,partial,Belmuri|Bhastara|Dashghara-I|Dashghara-II|Dhanekhali- I|Dhanekhali-II|Gurap|Gurbari-I|Gurbari-II|Khajurdaha Milki|Mandra|Somaspur-I|Somaspur-II
+197,Dhanekhali,Hooghly,SC,CDB,Polba-Dadpur,partial,Babnan|Dadpur|Makalpur|Satithan
+198,Tarakeswar,Hooghly,GEN,CDB,Tarakeswar,full,
+198,Tarakeswar,Hooghly,GEN,Municipality,Tarakeswar,full,
+198,Tarakeswar,Hooghly,GEN,CDB,Dhanekhali,partial,Bhanderhati-I|Bhanderhati-II|Gopinathpur-I|Gopinathpur-II|Perambua Sahabazar
+199,Pursurah,Hooghly,GEN,CDB,Pursurah,full,
+199,Pursurah,Hooghly,GEN,CDB,Khanakul-I,partial,Arunda|Balipur|Rammohan-I|Rammohan-II|Tantisal
+199,Pursurah,Hooghly,GEN,CDB,Arambag,partial,Harinkhola-I|Harinkhola-II
+200,Arambag,Hooghly,SC,CDB,Arambag,partial,Arandi-I|Arandi-II|Batanal|Gaurhati-I|Gaurhati-II|Madhabpur|Mayapur-I|Mayapur-II|Malaypur-I|Malaypur-II|Salepur-I|Salepur-II|Tirol
+200,Arambag,Hooghly,SC,Municipality,Arambag,full,
+201,Goghat,Hooghly,SC,CDB,Goghat-I,full,
+201,Goghat,Hooghly,SC,CDB,Goghat-II,full,
+202,Khanakul,Hooghly,GEN,CDB,Khanakul-II,full,
+202,Khanakul,Hooghly,GEN,CDB,Khanakul-I,partial,Ghoshpur|Khanakul-II|Kishorpur-I|Kishorpur-II|Pole-I|Pole-II|Thakuranichak-I|Thakuranichak-II|Khanakul-I
+203,Tamluk,Purba Medinipur,GEN,CDB,Sahid Matangini,full,
+203,Tamluk,Purba Medinipur,GEN,Municipality,Tamluk,full,
+203,Tamluk,Purba Medinipur,GEN,CDB,Tamluk,partial,Bishnubarh-II|Pipulberia-I|Pipulberia-II|Uttar Sonamui
+204,Panskura Purba,Purba Medinipur,GEN,CDB,Panskura-II PURBA,full,
+205,Panskura Paschim,Purba Medinipur,GEN,CDB,Panskura-I PASCHIM,full,
+206,Moyna,Purba Medinipur,GEN,CDB,Moyna,full,
+206,Moyna,Purba Medinipur,GEN,CDB,Tamluk,partial,Anantapur-I|Anantapur-II|Nilkunthia|Sreerampur-I|Sreerampur-II
+207,Nandakumar,Purba Medinipur,GEN,CDB,Nanda Kumar,full,
+207,Nandakumar,Purba Medinipur,GEN,CDB,Tamluk,partial,Bishnubarh-I|Padumpur-I|Padumpur-II
+208,Mahisadal,Purba Medinipur,GEN,CDB,Mahisadal,full,
+208,Mahisadal,Purba Medinipur,GEN,CDB,Haldia,full,
+209,Haldia,Purba Medinipur,SC,CDB,Sutahata,full,
+209,Haldia,Purba Medinipur,SC,Municipality,Haldia,full,
+210,Nandigram,Purba Medinipur,GEN,CDB,Nandigram-I,full,
+210,Nandigram,Purba Medinipur,GEN,CDB,Nandigram-II,full,
+211,Chandipur,Purba Medinipur,GEN,CDB,Chandipur,full,
+211,Chandipur,Purba Medinipur,GEN,CDB,Bhagawanpur-I,partial,Benodia|Bivisanpur|Gurgram|Kakra|Mahammadpur-I|Mahammadpur-II
+212,Patashpur,Purba Medinipur,GEN,CDB,Patashpur-I,full,
+212,Patashpur,Purba Medinipur,GEN,CDB,Patashpur-II,partial,Khargram|Panchet|Pataspur|South Khanda|Sreerampur
+213,Kanthi Uttar,Purba Medinipur,GEN,CDB,Kanthi-II,full,
+213,Kanthi Uttar,Purba Medinipur,GEN,CDB,Kanthi-III,partial,Brajachauli|Debendra|Kanaidighi|Kumirda|Lauda|Marishda
+213,Kanthi Uttar,Purba Medinipur,GEN,CDB,Egra-II,partial,Bathuari GP of CDB Egra-I
+214,Bhagabanpur,Purba Medinipur,GEN,CDB,Bhagawanpur-I,partial,Bhagabanpur|Kajlagarh|Kotbarh|Shimulia
+214,Bhagabanpur,Purba Medinipur,GEN,CDB,Bhagawanpur-II,partial,Arjunnagar|Basudevberia|Baroj|Itaberia|Jukhia|Mugberia|Radhapur
+214,Bhagabanpur,Purba Medinipur,GEN,CDB,Patashpur-II,partial,Argoyal|Mathura
+215,Khejuri,Purba Medinipur,SC,CDB,Khejuri-I,full,
+215,Khejuri,Purba Medinipur,SC,CDB,Khejuri-II,full,
+215,Khejuri,Purba Medinipur,SC,CDB,Bhagawanpur-II,partial,Garbari-I|Garbari-II
+216,Kanthi Dakshin,Purba Medinipur,GEN,CDB,Kanthi-I,full,
+216,Kanthi Dakshin,Purba Medinipur,GEN,Municipality,Kanthi,full,
+216,Kanthi Dakshin,Purba Medinipur,GEN,CDB,Kanthi-III,partial,Durmuth|Kusumpur
+217,Ramnagar,Purba Medinipur,GEN,CDB,Ramnagar-I,full,
+217,Ramnagar,Purba Medinipur,GEN,CDB,Ramnagar-II,full,
+218,Egra,Purba Medinipur,GEN,CDB,Egra-I,full,
+218,Egra,Purba Medinipur,GEN,Municipality,Egra,full,
+218,Egra,Purba Medinipur,GEN,CDB,Egra-II,partial,Basudevpur|Deshbandhu|Dubda|Manjusree|Paniparul|Sarbaday|Bibekananda
+219,Dantan,Paschim Medinipur,GEN,CDB,Dantan-II,full,
+219,Dantan,Paschim Medinipur,GEN,CDB,Mohanpur,full,
+219,Dantan,Paschim Medinipur,GEN,CDB,Dantan-I,partial,Chak Ismailpur
+220,Nayagram,Jhargram,ST,CDB,Nayagram,full,
+220,Nayagram,Jhargram,ST,CDB,Gopiballavpur-II,partial,CDB Gopiballavpur-I|3 Chorchita|Kuliana|Nota
+221,Gopiballavpur,Jhargram,GEN,CDB,Jhargram,partial,Aguiboni|Chandri|Chubka|Dudhkundi|Lodhasuli|Nedabahara|Patashimul|Shalboni|Sardiha
+221,Gopiballavpur,Jhargram,GEN,CDB,Sankrail,full,
+222,Jhargram,Jhargram,GEN,Municipality,Jhargram,full,
+222,Jhargram,Jhargram,GEN,CDB,Jhargram,partial,Bandhgora|Manikpara|Radhanagar|Sapdhara
+222,Jhargram,Jhargram,GEN,CDB,Binpur-I,full,
+223,Keshiary,Paschim Medinipur,ST,CDB,Keshiary,full,
+223,Keshiary,Paschim Medinipur,ST,CDB,Dantan-I,partial,Alikosha|Angua|Ainkola|Dantan-I|Dantan-II|Monoharpur|Salikotha|Tararui
+224,Kharagpur Sadar,Paschim Medinipur,GEN,Municipality,Kharagpur,full,
+224,Kharagpur Sadar,Paschim Medinipur,GEN,Unparsed,Kharagpur Rly. Settlement (Ct) of CDB SADAR Kharagpur-I,full,
+225,Narayangarh,Paschim Medinipur,GEN,Unparsed,NARAYANGARH CDB Narayangarh,full,
+226,Sabang,Paschim Medinipur,GEN,CDB,Sabang,full,
+226,Sabang,Paschim Medinipur,GEN,CDB,Pingla,partial,Jalchak-I|Jalchak-II|Maligram
+227,Pingla,Paschim Medinipur,GEN,CDB,Pingla,partial,Dhaneswarpur|Gobordhanpur|Jamna|Karkai|Kshirai|Kusumda|Pindurui
+227,Pingla,Paschim Medinipur,GEN,CDB,Kharagpur - II,full,
+228,Kharagpur,Paschim Medinipur,GEN,CDB,Kharagpur-I,full,
+228,Kharagpur,Paschim Medinipur,GEN,CDB,Midnapore,partial,Banpura|Panchkhuri-I|Panchkhuri-II|Pathra|Shiromoni
+229,Debra,Paschim Medinipur,GEN,Unparsed,DEBRA CDB Debra,full,
+230,Daspur,Paschim Medinipur,GEN,CDB,Daspur-II,full,
+230,Daspur,Paschim Medinipur,GEN,CDB,Daspur-I,partial,Basudevpur|Daspur-I|Daspur-II|Nandanpur-I|Nandanpur-II|Panchberia
+231,Ghatal,Paschim Medinipur,SC,CDB,Ghatal,full,
+231,Ghatal,Paschim Medinipur,SC,Municipality,Ghatal,full,
+231,Ghatal,Paschim Medinipur,SC,Municipality,Kharar,full,
+231,Ghatal,Paschim Medinipur,SC,CDB,Daspur-I,partial,Rajnagar|Sarberia-I|Sarberia-II
+232,Chandrakona,Paschim Medinipur,SC,CDB,Chandrakona-I,full,
+232,Chandrakona,Paschim Medinipur,SC,Municipality,Kshirpai,full,
+232,Chandrakona,Paschim Medinipur,SC,CDB,Daspur-I,partial,Niz-Narajol
+233,Garbeta,Paschim Medinipur,GEN,CDB,Garbeta-I,full,
+233,Garbeta,Paschim Medinipur,GEN,CDB,Garbeta-II,partial,Amlasuli|Jogardanga|Piyasala|Sarboth
+234,Salboni,Paschim Medinipur,GEN,CDB,CDB-Garbeta-II,partial,Goaltor|Gohaldanga|Jeerapara|Makli|Patharpara|Pingbani
+234,Salboni,Paschim Medinipur,GEN,CDB,Salbani,partial,Bhimpur|Bishnupur|Debgram|Lalgeria|Shalboni
+234,Salboni,Paschim Medinipur,GEN,CDB,Garbeta-III,full,
+235,Keshpur,Paschim Medinipur,SC,CDB,Keshpur,full,
+236,Medinipur,Paschim Medinipur,GEN,Municipality,Medinipur,full,
+236,Medinipur,Paschim Medinipur,GEN,CDB,Medinipur,partial,Chandra|Dherua|Monidaha|Tantigeria
+236,Medinipur,Paschim Medinipur,GEN,CDB,Salbani,partial,Bankibandh|Garhmal|Karnagarh|Kashijora|Shatpati
+237,Binpur,Jhargram,ST,CDB,Binpur-II,full,
+237,Binpur,Jhargram,ST,CDB,Jamboni,full,
+238,Bandwan,Purulia,ST,CDB,Barabazar,full,
+238,Bandwan,Purulia,ST,CDB,Manbazar-II,full,
+238,Bandwan,Purulia,ST,CDB,Bundwan,full,
+239,Balarampur,Purulia,GEN,CDB,Balarampur,full,
+239,Balarampur,Purulia,GEN,Unparsed,"Chakaltore, Dimdiha, Durku, Garafusra, Lagda and Sonaijuri GPs CDB Purulia-I",full,
+239,Balarampur,Purulia,GEN,CDB,Arsha,partial,Chatu Hansa|Hensla|Puara
+240,Baghmundi,Purulia,GEN,CDB,Jhalda-I,full,
+240,Baghmundi,Purulia,GEN,Municipality,Jhalda,full,
+240,Baghmundi,Purulia,GEN,CDB,Baghmundi,full,
+240,Baghmundi,Purulia,GEN,CDB,Arsha,partial,Hetgugui|Sirkabad
+241,Joypur,Purulia,GEN,CDB,Jhalda-II,full,
+241,Joypur,Purulia,GEN,CDB,Jaipur,full,
+241,Joypur,Purulia,GEN,CDB,Arsha,partial,Arsha|Beldih|Manikary
+242,Purulia,Purulia,GEN,CDB,Purulia-II,full,
+242,Purulia,Purulia,GEN,Municipality,Purulia,full,
+242,Purulia,Purulia,GEN,CDB,Purulia-I,partial,Bhandar Puara Chipida|Manara
+243,Manbazar,Purulia,ST,CDB,Manbazar-I,full,
+243,Manbazar,Purulia,ST,CDB,Puncha,full,
+243,Manbazar,Purulia,ST,CDB,Hura,partial,Chatumadar|Daldali|Manguria Lalpur
+244,Kashipur,Purulia,GEN,CDB,Kashipur,full,
+244,Kashipur,Purulia,GEN,CDB,Hura,partial,Hura|Jabarrah|Kalabani|Keshargarh|Ladhurka|Lakhanpur|Rakhera Bishpuri
+245,Para,Purulia,SC,CDB,Para,full,
+245,Para,Purulia,SC,CDB,Raghunathpur-II,full,
+246,Raghunathpur,Purulia,SC,CDB,Raghunathpur-I,full,
+246,Raghunathpur,Purulia,SC,Municipality,Raghunathpur,full,
+246,Raghunathpur,Purulia,SC,CDB,Neturia,full,
+246,Raghunathpur,Purulia,SC,CDB,Santuri,full,
+247,Saltora,Bankura,SC,CDB,Saltora,full,
+247,Saltora,Bankura,SC,CDB,Mejhia,full,
+247,Saltora,Bankura,SC,CDB,Gangajalghati,partial,Banasuria|Barashal|Lachhmanpur|Latiaboni
+248,Chhatna,Bankura,GEN,CDB,Chatna,full,
+248,Chhatna,Bankura,GEN,CDB,Indpur,partial,Veduasol|Brahmandiha|Hatgram|Indpur|Raghunathpur
+249,Ranibandh,Bankura,ST,CDB,Ranibandh,full,
+249,Ranibandh,Bankura,ST,CDB,Hirbandh,full,
+249,Ranibandh,Bankura,ST,CDB,Khatra,full,
+250,Raipur,Bankura,ST,CDB,Raipur,full,
+250,Raipur,Bankura,ST,CDB,Sarenga,full,
+251,Taldangra,Bankura,GEN,CDB,Taldangra,partial,Bibarda|Fulmati|Harmasra|Khalgram|Panchmura|Taldangra
+251,Taldangra,Bankura,GEN,CDB,Indpur,partial,Brojarajpur|Gaurbazar
+251,Taldangra,Bankura,GEN,CDB,Simlapal,full,
+252,Bankura,Bankura,GEN,CDB,Bankura-I,full,
+252,Bankura,Bankura,GEN,Municipality,Bankura,full,
+252,Bankura,Bankura,GEN,CDB,Bankura-II,partial,Janbedia|Mankanali|Purandarpur
+253,Barjora,Bankura,GEN,CDB,Gangajalghati,partial,Bhaktabandh|Gangajalghati|Gobindadham|Kapista|Nityanandapur|Piraboni
+253,Barjora,Bankura,GEN,CDB,Barjora,full,
+254,Onda,Bankura,GEN,CDB,Onda,full,
+254,Onda,Bankura,GEN,CDB,Bankura-II,partial,Bikna|Kosthia|Narrah|Sanbandha
+255,Bishnupur,Bankura,GEN,Municipality,Bishnupur,full,
+255,Bishnupur,Bankura,GEN,CDB,Bishnupur,full,
+255,Bishnupur,Bankura,GEN,CDB,Taldangra,partial,Amdangra|Saltora|Satmauli
+256,Katulpur,Bankura,SC,CDB,Kotulpur,partial,Deshrahkoyalpara|Gopinathpur|Kotulpur|Lego|Mirzapur|Sihar
+256,Katulpur,Bankura,SC,CDB,Jaypur,partial,Gelia|Jagannathpur|Kuchiakol|Maynapur|Salda|Uttarbarh|Hetia|Routkhanda|Shyamnagar
+257,Indas,Bankura,SC,CDB,Indus,full,
+257,Indas,Bankura,SC,CDB,Patrasayer,partial,Balsi-I|Balsi-II|Biur betur|Jamkuri|Kushdwip
+257,Indas,Bankura,SC,CDB,Kotulpur,partial,Laugram|Madanmohanpur
+258,Sonamukhi,Purba Bardhaman,SC,CDB,Sonamukhi,full,
+258,Sonamukhi,Purba Bardhaman,SC,Municipality,Sonamukhi,full,
+258,Sonamukhi,Purba Bardhaman,SC,CDB,Patrasayer,partial,Belut Rasulpur|Beersingha|Hamirpur|Narayanpur|Patrasayar
+259,Khandaghosh,Purba Bardhaman,SC,CDB,Khandaghosh,full,
+259,Khandaghosh,Purba Bardhaman,SC,CDB,Galsi-II,partial,Adra|Bhunri|Gohogram|Khano|Maszidpur|Sanko|Satinadi
+260,Bardhaman Dakshin,Purba Bardhaman,GEN,Unparsed,BARDHAMAN Bardhaman (M) DAKSHIN,full,
+261,Raina,Purba Bardhaman,SC,CDB,Raina-II,full,
+261,Raina,Purba Bardhaman,SC,CDB,Raina-I,partial,Hijalna|Natu|Palsona|Sehara|Narugram|Shyamsundar|Rayna
+262,Jamalpur,Purba Bardhaman,SC,CDB,Jamalpur,full,
+262,Jamalpur,Purba Bardhaman,SC,CDB,Raina-I,partial,Mugura GP of CDB Raina-
+263,Monteswar,Purba Bardhaman,GEN,CDB,Memari-II,partial,Barapalason-I|Barapalason-II|Bohar-I|Bohar-II|Bijur-I|Bijur-II|Satgachhia-I
+264,Kalna,Purba Bardhaman,SC,CDB,Kalna-II,full,
+264,Kalna,Purba Bardhaman,SC,Municipality,Kalna,full,
+264,Kalna,Purba Bardhaman,SC,CDB,Kalna-I,partial,Bagnapara|Hatkalna|Krishnadevpur
+265,Memari,Purba Bardhaman,GEN,CDB,Memari-II,partial,Kuchut|Satgachhia-II
+265,Memari,Purba Bardhaman,GEN,Municipality,Memari,full,
+265,Memari,Purba Bardhaman,GEN,CDB,Memari-I,full,
+266,Bardhaman Uttar,Purba Bardhaman,SC,CDB,Bardhaman-II,full,
+266,Bardhaman Uttar,Purba Bardhaman,SC,CDB,Bardhaman-I,partial,Belkash|Bandul-I|Rayan-I|UTTAR Rayan-II|Saraitikar|Baghar-I|Baghar-II
+267,Bhatar,Purba Bardhaman,GEN,CDB,Bhatar,full,
+267,Bhatar,Purba Bardhaman,GEN,CDB,Bardhaman-I,partial,Kurman-I|Kshetia
+268,Purbasthali Dakshin,Purba Bardhaman,GEN,CDB,Kalna-I,partial,Nandai|Kankuria|Begpur|Atghoria Simlan|Dhatrigram|DAKSHIN Sultanpur
+268,Purbasthali Dakshin,Purba Bardhaman,GEN,CDB,Purbasthali-I,partial,Nasratpur|Samudragarh|Bagpur|Sreerampur|Nadanghat
+269,Purbasthali Uttar,Purba Bardhaman,GEN,CDB,Purbasthali-II,full,
+269,Purbasthali Uttar,Purba Bardhaman,GEN,CDB,UTTAR CDB Purbasthali-I,partial,Jahannagar|Dogachia
+269,Purbasthali Uttar,Purba Bardhaman,GEN,CDB,Manteswar,partial,Bamunpara|Mamudpur-II|Putsuri
+270,Katwa,Purba Bardhaman,GEN,Municipality,Katwa,full,
+270,Katwa,Purba Bardhaman,GEN,Municipality,Dainhat,full,
+270,Katwa,Purba Bardhaman,GEN,CDB,Katwa-II,full,
+270,Katwa,Purba Bardhaman,GEN,CDB,Katwa-I,partial,Khajurdihi|Sudpur|Karajgram|Goai
+271,Ketugram,Purba Bardhaman,GEN,CDB,Ketugram-I,full,
+271,Ketugram,Purba Bardhaman,GEN,CDB,Ketugram-II,full,
+271,Ketugram,Purba Bardhaman,GEN,CDB,Katwa-I,partial,Koshigram|Srikhanda
+272,Mangalkot,Purba Bardhaman,GEN,CDB,Mangalkot,full,
+272,Mangalkot,Purba Bardhaman,GEN,CDB,Katwa-I,partial,Saragram|Gidhgram|Alampur
+273,Ausgram,Purba Bardhaman,SC,CDB,Ausgram-I,full,
+273,Ausgram,Purba Bardhaman,SC,CDB,Ausgram-II,full,
+273,Ausgram,Purba Bardhaman,SC,Municipality,Guskara,full,
+274,Galsi,Purba Bardhaman,SC,CDB,Galsi-I,full,
+274,Galsi,Purba Bardhaman,SC,CDB,Galsi-II,partial,Galsi|Kurkuba
+274,Galsi,Purba Bardhaman,SC,CDB,Kanksa,partial,Kanksa|Trilokchandrapur|Bankati|Bidbehar
+275,Pandabeswar,Paschim Bardhaman,GEN,CDB,Pandabeswar,full,
+275,Pandabeswar,Paschim Bardhaman,GEN,CDB,Faridpur Durgapur,full,
+276,Durgapur Purba,Paschim Bardhaman,GEN,Municipality_partial,Durgapur M. Corp,partial,1-10|23-28
+276,Durgapur Purba,Paschim Bardhaman,GEN,CDB,Kanksa,partial,PURBA Amlajora|Gopalpur|Molandighi
+277,Durgapur Paschim,Paschim Bardhaman,GEN,Municipality_partial,Durgapur M. Corp. PASCHIM,partial,11-22|29-43
+278,Raniganj,Paschim Bardhaman,GEN,Municipality,Raniganj,full,
+279,Jamuria,Paschim Bardhaman,GEN,Municipality,Jamuria,full,
+279,Jamuria,Paschim Bardhaman,GEN,CDB,Jamuria,full,
+279,Jamuria,Paschim Bardhaman,GEN,CDB,Raniganj,partial,Ratibati GP of CDB Ranigan
+280,Asansol Dakshin,Paschim Bardhaman,GEN,Municipality_partial,Asansol M. Corp,partial,9|18|20|34 to 50
+280,Asansol Dakshin,Paschim Bardhaman,GEN,CDB,Raniganj,partial,DAKSHIN Amrasota|Egra|Ballavpur|Jemari|Tirat
+281,Asansol Uttar,Paschim Bardhaman,GEN,Unparsed,"ASANSOL UTTAR Ward Nos. 1 to 8, 10 to 17, 19, 21 to 33 of Asansol M. Corp",full,
+282,Kulti,Paschim Bardhaman,GEN,Municipality,KULTI Kulti,full,
+283,Barabani,Paschim Bardhaman,GEN,CDB,Barabani,full,
+283,Barabani,Paschim Bardhaman,GEN,CDB,Salanpur,full,
+284,Dubrajpur,Birbhum,SC,CDB,Khoyrasol,full,
+284,Dubrajpur,Birbhum,SC,Municipality,Dubrajpur,full,
+284,Dubrajpur,Birbhum,SC,CDB,Dubrajpur,partial,Balijuri|Hetampur|Jashpur|Laxmi Narayanpur|Loba|Paduma
+285,Suri,Birbhum,GEN,CDB,Suri-I,full,
+285,Suri,Birbhum,GEN,Municipality,Suri,full,
+285,Suri,Birbhum,GEN,CDB,Rajnagar,full,
+285,Suri,Birbhum,GEN,CDB,Dubrajpur,partial,Chinpai|Gohaliara|Parulia|Sahapur
+286,Bolpur,Birbhum,GEN,CDB,Illambazar,full,
+286,Bolpur,Birbhum,GEN,Municipality,Bolpur,full,
+286,Bolpur,Birbhum,GEN,CDB,Bolpur Sriniketan,partial,Raipur Supur|Ruppur 537|Sattor
+287,Nanoor,Birbhum,SC,CDB,Nanoor,full,
+287,Nanoor,Birbhum,SC,CDB,Bolpur Sriniketan,partial,Bahiri Panchshowa|Kankalitala|Kasba|Sarpalehana Albandha|Sian Muluk|Singhee
+288,Labpur,Birbhum,GEN,CDB,Labpur,full,
+288,Labpur,Birbhum,GEN,CDB,Sainthia,partial,Ahmedpur|Amarpur|Bhromorkol|Panrui|Sangra|Sreenidhipur
+289,Sainthia,Birbhum,SC,Municipality,Sainthia,full,
+289,Sainthia,Birbhum,SC,CDB,Mohammadbazar,partial,Angargaria|Bhutura|Charicha|Mahamad Bazar|Deucha|Puranagram
+289,Sainthia,Birbhum,SC,CDB,Sainthia,partial,Banagram|Deriapur|Fulur|Horisara|Hatora|Mathpalsa
+289,Sainthia,Birbhum,SC,CDB,Suri-II,full,
+290,Mayureswar,Birbhum,GEN,CDB,Mayureswar-I,full,
+290,Mayureswar,Birbhum,GEN,CDB,Mayureswar-II,full,
+291,Rampurhat,Birbhum,GEN,CDB,Rampurhat-I,full,
+291,Rampurhat,Birbhum,GEN,Municipality,Rampurhat,full,
+291,Rampurhat,Birbhum,GEN,CDB,Mohammadbazar,partial,Bharkata|Gonpur|Hinglow|Kapista|Rampur|Sekedda
+292,Hansan,Birbhum,GEN,CDB,Rampurhat-II,full,
+292,Hansan,Birbhum,GEN,CDB,Nalhati-II,full,
+293,Nalhati,Birbhum,GEN,CDB,Nalhati-I,full,
+293,Nalhati,Birbhum,GEN,CDB,Murarai-II,partial,Kushmore-I|Kushmore-II|Rudranagar
+294,Murarai,Birbhum,GEN,CDB,Murarai-I,full,
+294,Murarai,Birbhum,GEN,CDB,Murarai-II,partial,Amdole|Jajigram|Mitrapur|Nandigram|Paikar-I|Paikar-II
