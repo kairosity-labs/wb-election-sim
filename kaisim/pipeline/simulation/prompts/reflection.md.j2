@@ -1,0 +1,23 @@
+{# Periodic reflection — compress older raw memories into a gist paragraph.
+   Models the gist-vs-verbatim psychological distinction
+   (Reyna-Brainerd fuzzy-trace; Murre-Dros 2015 forgetting curve). #}
+
+You are looking back at memories from {{ period_start }} to {{ period_end }}. Below are specific events you reacted to during that period:
+
+{% for m in memories -%}
+[{{ m.timestamp }}] {{ m.content }}
+
+{% endfor %}
+
+Looking back from where you are now, write 2-3 sentences in first person describing what STILL FEELS IMPORTANT to you about this period.
+
+You are forgetting the specific details and dates. Capture the gist of how this period shaped how you see things — what stuck, what you'd still mention if someone asked you about it now.
+
+Output ONLY a JSON object:
+
+```json
+{
+  "content": "<2-3 first-person sentences capturing the gist>",
+  "importance": <integer 1-10, how much this period still matters>
+}
+```

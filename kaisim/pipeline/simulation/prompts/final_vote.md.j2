@@ -1,0 +1,44 @@
+{# End-of-simulation vote query. Park 2024 ("1000 People") shows that asking
+   the LLM in-persona produces realistic survey responses (85% GSS replication). #}
+
+{% if reflections -%}
+Looking back over the past years, this is what stuck with you:
+
+{% for r in reflections -%}
+[{{ r.timestamp }}] {{ r.content }}
+
+{% endfor %}
+{% endif -%}
+{% if recent_memories -%}
+And these are recent things still on your mind:
+
+{% for m in recent_memories -%}
+[{{ m.timestamp }}] {{ m.content }}
+
+{% endfor %}
+{% endif -%}
+
+──────────────────────────────────────────
+IT IS 20 MAY 2024 — POLLING DAY in Bangaon.
+──────────────────────────────────────────
+
+You are at your polling booth for the 2024 Lok Sabha election. The candidates on the EVM are:
+
+- **BJP**: Shantanu Thakur (incumbent, Matua, Union Minister of State)
+- **AITC (TMC)**: Biswajit Das (former TMC MLA who defected to BJP and back)
+- **CPI(M) — Left Front**: candidate (left morcha)
+- **INC**: candidate (left morcha)
+- **Other / NOTA**
+
+Who do you vote for, and why? Speak in first person, in character.
+
+Output ONLY a JSON object:
+
+```json
+{
+  "vote": "BJP" | "AITC" | "INC" | "LF" | "Other" | "NOTA",
+  "reasoning": "<3-5 sentence first-person reasoning for this vote>",
+  "confidence": <integer 1-10, how settled this choice is>,
+  "primary_drivers": ["<the 1-3 things that mattered most>"]
+}
+```

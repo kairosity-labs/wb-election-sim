@@ -1,0 +1,68 @@
+persona_set:
+  name: default_n100_v1
+  description: LLM-generated personas with narrative.self_prompt; verifier feedback
+    loop.
+generation:
+  sampler: llm_batch
+  target_n: 100
+  batch_size: 20
+  max_correction_batches: 3
+  seed: 42
+vote:
+  enabled: true
+  field_name: vote_2019_LS
+  parties:
+  - BJP
+  - AITC
+  - INC
+  - LF
+  - Other
+  blending:
+    method: log_odds_mean
+    inputs:
+    - table: vote_given_religion
+      parent: religion
+      weight: 1.5
+    - table: vote_given_caste
+      parent: caste
+      weight: 1.5
+    - table: vote_given_gender
+      parent: gender
+      weight: 0.7
+    - table: vote_given_welfare
+      parent: welfare_dominant
+      weight: 1.0
+  welfare_overlap:
+    method: precedence
+    precedence:
+    - Krishak_Bandhu
+    - Kanyashree
+    - Sabuj_Sathi
+    - Swasthya_Sathi
+    - Khadya_Sathi
+verifier:
+  tolerance:
+    cell_z_max: 2.5
+    composite_chisq_max: 800.0
+    tier_A_axis_pp: 2.0
+    tier_BC_axis_pp: 3.0
+    tier_DE_axis_pp: 4.0
+    joint_cell_pp: 5.0
+    aggregate_vote_pp: 2.0
+  tier_weights:
+    A: 4.0
+    B: 3.0
+    C: 2.0
+    D: 1.5
+    E: 1.0
+llm:
+  provider: anthropic
+  model: claude-sonnet-4-6
+  reasoning: medium
+  temperature: 0.7
+  max_tokens: 16000
+  cache_system_prompt: true
+prompts:
+  anchors: prompts/system_anchors.md
+  batch_guidance: prompts/batch_guidance.md
+  news_context: news/persona_context_pre2019.md

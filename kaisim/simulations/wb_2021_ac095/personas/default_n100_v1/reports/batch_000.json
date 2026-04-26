@@ -1,0 +1,428 @@
+{
+  "n": 0,
+  "composite_score": 0.0,
+  "within_tolerance": true,
+  "tolerance_used": {
+    "cell_z_max": 2.5,
+    "composite_chisq_max": 800.0,
+    "tier_A_axis_pp": 2.0,
+    "tier_BC_axis_pp": 3.0,
+    "tier_DE_axis_pp": 4.0,
+    "joint_cell_pp": 5.0,
+    "aggregate_vote_pp": 2.0
+  },
+  "tier_weights_used": {
+    "A": 4.0,
+    "B": 3.0,
+    "C": 2.0,
+    "D": 1.5,
+    "E": 1.0,
+    "null": 1.0
+  },
+  "axis_gaps": [
+    {
+      "axis": "religion",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "caste",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "age_cohort",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "gender",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "mother_tongue",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "education",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "workforce_status",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "occupation",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "class_of_worker",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "economic_status",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "gp_location",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "household_type",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "marital_status",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "asset_media",
+      "kind": "flag",
+      "tier": "C",
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "amenities",
+      "kind": "flag",
+      "tier": "C",
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "migration",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "welfare_exposure",
+      "kind": "derived",
+      "tier": null,
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "welfare_dominant",
+      "kind": "derived",
+      "tier": null,
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    }
+  ],
+  "joint_gaps": [
+    {
+      "joint": "religion_given_gp",
+      "parents": [
+        "gp_location"
+      ],
+      "child": "religion",
+      "semantics": "conditional",
+      "tier": "E",
+      "max_abs_cell_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "skipped_reason": null,
+      "cells": []
+    },
+    {
+      "joint": "caste_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "caste",
+      "semantics": "conditional",
+      "tier": "E",
+      "max_abs_cell_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "skipped_reason": null,
+      "cells": []
+    },
+    {
+      "joint": "lang_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "mother_tongue",
+      "semantics": "conditional",
+      "tier": "E",
+      "max_abs_cell_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "skipped_reason": null,
+      "cells": []
+    },
+    {
+      "joint": "migration_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "migration",
+      "semantics": "conditional",
+      "tier": "D",
+      "max_abs_cell_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "skipped_reason": null,
+      "cells": []
+    },
+    {
+      "joint": "asset_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "asset_media",
+      "semantics": "flag_rate_conditional",
+      "tier": "C",
+      "max_abs_cell_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "skipped_reason": null,
+      "cells": []
+    },
+    {
+      "joint": "education_given_caste",
+      "parents": [
+        "caste"
+      ],
+      "child": "education",
+      "semantics": "conditional",
+      "tier": "E",
+      "max_abs_cell_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "skipped_reason": null,
+      "cells": []
+    },
+    {
+      "joint": "asset_given_occupation",
+      "parents": [
+        "occupation"
+      ],
+      "child": "asset_media",
+      "semantics": "flag_rate_conditional",
+      "tier": "C",
+      "max_abs_cell_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "skipped_reason": null,
+      "cells": []
+    },
+    {
+      "joint": "asset_given_gp",
+      "parents": [
+        "gp_location"
+      ],
+      "child": "asset_media",
+      "semantics": "flag_rate_conditional",
+      "tier": "C",
+      "max_abs_cell_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "skipped_reason": null,
+      "cells": []
+    },
+    {
+      "joint": "amenity_given_gp",
+      "parents": [
+        "gp_location"
+      ],
+      "child": "amenities",
+      "semantics": "flag_rate_conditional",
+      "tier": "C",
+      "max_abs_cell_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "skipped_reason": null,
+      "cells": []
+    },
+    {
+      "joint": "caste_given_gp",
+      "parents": [
+        "gp_location"
+      ],
+      "child": "caste",
+      "semantics": "conditional",
+      "tier": "E",
+      "max_abs_cell_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "skipped_reason": null,
+      "cells": []
+    },
+    {
+      "joint": "vote_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "vote_2019_LS",
+      "semantics": "vote_conditional",
+      "tier": "C",
+      "max_abs_cell_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "skipped_reason": null,
+      "cells": []
+    },
+    {
+      "joint": "vote_given_caste",
+      "parents": [
+        "caste"
+      ],
+      "child": "vote_2019_LS",
+      "semantics": "vote_conditional",
+      "tier": "C",
+      "max_abs_cell_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "skipped_reason": null,
+      "cells": []
+    },
+    {
+      "joint": "vote_given_gender",
+      "parents": [
+        "gender"
+      ],
+      "child": "vote_2019_LS",
+      "semantics": "vote_conditional",
+      "tier": "C",
+      "max_abs_cell_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "skipped_reason": null,
+      "cells": []
+    },
+    {
+      "joint": "vote_given_welfare",
+      "parents": [
+        "welfare_dominant"
+      ],
+      "child": "vote_2019_LS",
+      "semantics": "vote_conditional",
+      "tier": "C",
+      "max_abs_cell_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "skipped_reason": null,
+      "cells": []
+    }
+  ],
+  "aggregate_gaps": [
+    {
+      "name": "vote_aggregate_2019_LS",
+      "field": "vote_2019_LS",
+      "tier": "D",
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "buckets": []
+    }
+  ]
+}

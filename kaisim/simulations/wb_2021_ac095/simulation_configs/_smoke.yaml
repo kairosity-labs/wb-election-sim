@@ -1,0 +1,58 @@
+# Smoke test config: 5 personas, 6 months. Validates LLM call cycle + reflection
+# + final vote without burning the budget.
+
+simulation:
+  name: "_smoke"
+  description: "Smoke test: 5 personas, Jan-Jun 2020"
+
+input:
+  persona_set: "default_n100_v1"
+  events_file: "news/events_2019_2024.yaml"
+
+clock:
+  start_date: "2020-01-01"
+  end_date:   "2020-06-30"
+  tick_unit:  "month"
+  tick_size:  1
+  reflection_every_n_ticks: 6
+
+targeting:
+  strategy: "rule_based"
+  config:
+    threshold: 3.0
+    cap_per_period: 5
+    media_engagement_multiplier: true
+    weights:
+      scope_national: 1
+      scope_state: 2
+      scope_district: 3
+      scope_AC: 4
+      tag_overlap_per_match: 2
+      intensity_bonus_above: 4
+      intensity_bonus_value: 1
+      loss_aversion_kicker: 1
+
+update:
+  style: "park_minimal"
+
+reflection:
+  enabled: true
+  every_n_ticks: 6
+
+llm:
+  provider: "anthropic"
+  model: "claude-haiku-4-5"
+  reasoning: "low"
+  temperature: 0.7
+  max_tokens: 4000
+  cache_system_prompt: true
+
+execution:
+  async: true
+  max_concurrent_personas: 3
+  smoke_test_n_personas: 5
+
+output:
+  runs_dir: "runs"
+  save_raw_responses: true
+  save_feeds_audit: true

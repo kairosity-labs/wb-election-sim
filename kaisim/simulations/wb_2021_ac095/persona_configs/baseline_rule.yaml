@@ -1,0 +1,127 @@
+# Baseline rule-based persona config — no LLM.
+# Generates demographics + vote prior using the rule_based sampler.
+# Used as the free reference distribution against which LLM persona sets are
+# diff'd. Run with:  python kaisim/simulations/wb_2021_ac095/generate.py baseline_rule
+
+persona_set:
+  name: "baseline_rule_n1000"
+  description: "Rule-based reference persona set, n=1000, for verifier sanity-check."
+
+generation:
+  sampler: "rule_based"
+  target_n: 1000
+  batch_size: 1000      # rule-based runs in one shot
+  seed: 42
+
+# Per-axis sampling method. Native methods: marginal, flag_marginal,
+# conditional_categorical, conditional_flag_rate. Plugin methods point to a
+# function in simulations/<sim>/derived/.
+sampling_spec:
+  gp_location:           {method: marginal}
+  age_cohort:            {method: marginal}
+  gender:                {method: marginal}
+  household_type:        {method: marginal}
+  economic_status:       {method: marginal}
+
+  religion:
+    method: conditional_categorical
+    joint:  religion_given_gp
+
+  caste:
+    method: conditional_categorical
+    joint:  caste_given_religion
+
+  mother_tongue:
+    method: conditional_categorical
+    joint:  lang_given_religion
+
+  migration:
+    method: conditional_categorical
+    joint:  migration_given_religion
+
+  education:
+    method:   conditional_categorical
+    joint:    education_given_caste
+    # IPF reweight to (age,gender) Grad+ deferred to v2 — see STRUCTURE.md.
+
+  marital_status:
+    method:   plugin
+    module:   derived.marital_sampling
+    function: sample
+    after:    [age_cohort, gender]
+
+  workforce_status:
+    method:   plugin
+    module:   derived.workforce_sampling
+    function: sample
+    after:    [age_cohort, gender, education]
+
+  occupation:
+    method:   plugin
+    module:   derived.occupation_sampling
+    function: sample
+    after:    [workforce_status]
+
+  class_of_worker:
+    method:   plugin
+    module:   derived.occupation_sampling
+    function: class_of_worker
+    after:    [workforce_status]
+
+  asset_media:
+    method:   plugin
+    module:   derived.asset_sampling
+    function: sample
+    after:    [gp_location, religion, occupation]
+
+  amenities:
+    method:   plugin
+    module:   derived.amenity_sampling
+    function: sample
+    after:    [gp_location]
+
+  welfare_exposure:
+    method:   plugin
+    module:   derived.welfare_exposure
+    function: derive
+    after:    [occupation, gender, age_cohort, economic_status, household_type]
+
+  welfare_dominant:
+    method:   plugin
+    module:   derived.welfare_exposure
+    function: dominant
+    after:    [welfare_exposure]
+
+vote:
+  enabled: true
+  field_name: "vote_2019_LS"
+  parties: ["BJP", "AITC", "INC", "LF", "Other"]
+  blending:
+    method: "log_odds_mean"
+    inputs:
+      - {table: "vote_given_religion", parent: "religion",         weight: 1.5}
+      - {table: "vote_given_caste",    parent: "caste",            weight: 1.5}
+      - {table: "vote_given_gender",   parent: "gender",           weight: 0.7}
+      - {table: "vote_given_welfare",  parent: "welfare_dominant", weight: 1.0}
+  welfare_overlap:
+    method: "precedence"
+    precedence: ["Krishak_Bandhu", "Kanyashree", "Sabuj_Sathi",
+                 "Swasthya_Sathi", "Khadya_Sathi"]
+
+verifier:
+  tolerance:
+    # Principled (z-based) thresholds — used by composite scorer.
+    cell_z_max:            2.5      # |z| ≤ 2.5 ≈ 99% two-sided CI per cell
+    composite_chisq_max:   800.0    # tier-weighted Pearson chi-sq sum
+    # Legacy pp thresholds — reported for readability, not used in score.
+    tier_A_axis_pp:        2.0
+    tier_BC_axis_pp:       3.0
+    tier_DE_axis_pp:       4.0
+    joint_cell_pp:         5.0
+    aggregate_vote_pp:     2.0
+  tier_weights:
+    A: 4.0
+    B: 3.0
+    C: 2.0
+    D: 1.5
+    E: 1.0

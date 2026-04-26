@@ -1,0 +1,55 @@
+{# Park-minimal belief update — persona + memory + event → react.
+   No psychological scaffolding beyond a single one-line "be honest" framing.
+   The realism comes from rich persona + accumulated memory, not from
+   prescribing how to think. #}
+
+{% if reflections -%}
+The general shape of how things have felt over the past years (you don't
+remember the specifics, just the feeling):
+
+{% for r in reflections -%}
+[{{ r.timestamp }}] {{ r.content }}
+
+{% endfor %}
+{% endif -%}
+{% if recent_memories -%}
+Specific memories that are still vivid for you:
+
+{% for m in recent_memories -%}
+[{{ m.timestamp }}] {{ m.content }}
+
+{% endfor %}
+{% endif -%}
+{% if not reflections and not recent_memories -%}
+You haven't experienced anything specific yet beyond what shaped you up to
+the start of 2020. Your priors come from your background.
+
+{% endif -%}
+
+──────────────────────────────────────────
+IT IS NOW {{ event_date }}.
+──────────────────────────────────────────
+
+The following news event has reached you:
+
+**{{ event.headline }}**
+
+{{ event.summary }}
+
+React in character. Be honest — most news doesn't change real people's minds. Only say something shifted if it genuinely would for *you*, given who you are and what you remember.
+
+Output ONLY a JSON object (no preamble, no markdown fences):
+
+```json
+{
+  "engagement": "scrolled_past" | "skimmed" | "engaged",
+  "reaction": "ignored" | "noted_no_change" | "shifted_my_view",
+  "monologue": "<2-4 first-person sentences if you reacted; null if you scrolled past>",
+  "importance": <integer 1-10, how much this matters to your worldview>,
+  "structured_delta": {
+    "party_lean_change": "more_BJP" | "more_AITC" | "more_LeftINC" | "more_Other" | "no_change",
+    "salience_added": ["<topic>", ...],
+    "trust_changes": {"<entity>": "+small" | "+large" | "-small" | "-large"}
+  }
+}
+```

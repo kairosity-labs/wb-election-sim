@@ -10,6 +10,12 @@ __pycache__/
 .venv/
 venv/
 .env
+kaisim/.env
+
+# --- Generated persona / simulation artifacts (kept locally, not committed) ---
+kaisim/simulations/*/personas/*/personas.jsonl
+kaisim/simulations/*/personas/*/batches/
+kaisim/simulations/*/runs/
 
 # --- Big raw data files (over GitHub's 100MB single-file limit or close to it) ---
 # Re-acquire via DATA_SOURCES.md

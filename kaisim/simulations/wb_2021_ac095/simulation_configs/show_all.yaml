@@ -1,0 +1,54 @@
+# Sanity baseline: every persona sees every event (broadcast disabled).
+# Useful for: comparing what changes when targeting is ON vs OFF, and
+# confirming the LLM doesn't always "shift" — even with everything visible,
+# Park-minimal style should produce realistic dismissal rates.
+
+simulation:
+  name: "show_all_v1"
+  description: "Every persona sees every event; useful as a no-targeting baseline"
+
+input:
+  persona_set: "default_n100_v1"
+  events_file: "news/events_2019_2024.yaml"
+
+clock:
+  start_date: "2020-01-01"
+  end_date:   "2024-05-20"
+  tick_unit:  "month"
+  tick_size:  1
+  reflection_every_n_ticks: 12
+
+targeting:
+  strategy: "show_all"
+  config: {}
+
+update:
+  style: "park_minimal"
+
+reflection:
+  enabled: true
+  every_n_ticks: 12
+
+llm:
+  provider: "anthropic"
+  model: "claude-haiku-4-5"
+  reasoning: "low"
+  temperature: 0.7
+  max_tokens: 4000
+  cache_system_prompt: true
+
+execution:
+  async: true
+  max_concurrent_personas: 8
+
+output:
+  runs_dir: "runs"
+  save_raw_responses: true
+  save_feeds_audit: true
+
+ground_truth:
+  BJP: 49.8
+  AITC: 39.5
+  INC: 1.5
+  LF: 4.5
+  Other: 4.7

@@ -1,0 +1,19 @@
+{
+  "name": "baseline_rule_n1000",
+  "created_at": "2026-04-25T20:12:54+00:00",
+  "n": 1000,
+  "sampler": "rule_based",
+  "config_hash": "sha256:deec07764bca7c62",
+  "schema_version": "1.0",
+  "verifier": {
+    "n": 1000,
+    "composite_score": 1606.46,
+    "within_tolerance": false,
+    "max_axis_z": 9.67,
+    "max_joint_z": 10.01,
+    "aggregate_vote_max_z": 4.24,
+    "max_axis_gap_pp": 9.9,
+    "max_joint_cell_gap_pp": 38.67,
+    "aggregate_vote_max_gap_pp": 6.7
+  }
+}
