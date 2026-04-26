@@ -1,0 +1,17 @@
+{
+  "id": "default_n100_v1_p0069",
+  "tags": [
+    "bjp_supporter",
+    "elderly",
+    "khadya_sathi_beneficiary",
+    "matua_refugee",
+    "swasthya_sathi_beneficiary",
+    "woman"
+  ],
+  "media_engagement": 0.7,
+  "initial_party": "BJP",
+  "n_memories": 10,
+  "n_reactions": 9,
+  "n_reflections": 1,
+  "n_llm_calls": 30
+}

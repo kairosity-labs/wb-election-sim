@@ -1,0 +1,17 @@
+{
+  "id": "default_n100_v1_p0061",
+  "tags": [
+    "elderly",
+    "khadya_sathi_beneficiary",
+    "swasthya_sathi_beneficiary",
+    "tmc_supporter",
+    "upper_caste_hindu",
+    "woman"
+  ],
+  "media_engagement": 0.3,
+  "initial_party": "AITC",
+  "n_memories": 4,
+  "n_reactions": 3,
+  "n_reflections": 1,
+  "n_llm_calls": 6
+}

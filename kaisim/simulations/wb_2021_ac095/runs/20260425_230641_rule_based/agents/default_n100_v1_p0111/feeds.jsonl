@@ -1,0 +1,3 @@
+{"period": "2024-01", "event_slug": "sandeshkhali_ed_attack", "score": 3.1, "why": "scope:state+2 tags\u00d72+4 int4+1 \u00d7media0.30 loss_av+1", "accepted": true, "engagement": "engaged", "reaction": "noted_no_change"}
+{"period": "2024-02", "event_slug": "sandeshkhali_women_protests", "score": 3.1, "why": "scope:state+2 tags\u00d72+4 int5+1 \u00d7media0.30 loss_av+1", "accepted": true, "engagement": "skimmed", "reaction": "noted_no_change"}
+{"period": "2024-02", "event_slug": "shahjahan_arrested", "score": 3.1, "why": "scope:district+3 tags\u00d72+4 \u00d7media0.30 loss_av+1", "accepted": true, "engagement": "skimmed", "reaction": "noted_no_change"}

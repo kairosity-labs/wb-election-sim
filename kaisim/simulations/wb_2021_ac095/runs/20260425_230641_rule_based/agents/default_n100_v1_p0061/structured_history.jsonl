@@ -1,0 +1,4 @@
+{"timestamp": "2020-05-31", "triggering_event_slug": "amphan_landfall", "delta": {"party_lean_change": "no_change", "salience_added": ["cyclone_relief_distribution", "panchayat_corruption_rumors"], "trust_changes": {"AITC_panchayat": "-small", "BJP": "no_change", "government_relief": "-small"}}}
+{"timestamp": "2024-01-31", "triggering_event_slug": "sandeshkhali_ed_attack", "delta": {"party_lean_change": "no_change", "salience_added": [], "trust_changes": {}}}
+{"timestamp": "2024-02-29", "triggering_event_slug": "sandeshkhali_women_protests", "delta": {"party_lean_change": "no_change", "salience_added": [], "trust_changes": {"AITC": "-small", "BJP": "no_change"}}}
+{"timestamp": "2024-02-29", "triggering_event_slug": "shahjahan_arrested", "delta": {"party_lean_change": "no_change", "salience_added": [], "trust_changes": {}}}

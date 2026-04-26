@@ -1,0 +1,61 @@
+{
+  "religion": {
+    "Hindu": 0.072,
+    "Muslim": 0.063
+  },
+  "caste": {
+    "Other_Hindu_middle_castes": 0.06,
+    "Muslim": 0.063,
+    "Poundra": 0.0,
+    "Namasudra_Matua": 0.07,
+    "UC_bhadralok": 0.087,
+    "OBC_specific": 0.129,
+    "ST_total": 0.152,
+    "Bagdi": 0.0,
+    "Other_SC": 0.0
+  },
+  "gender": {
+    "Female": 0.074,
+    "Male": 0.067
+  },
+  "age_cohort": {
+    "43_47": 0.058,
+    "48_52": 0.062,
+    "33_37": 0.075,
+    "28_32": 0.073,
+    "18_22": 0.098,
+    "53_57": 0.116,
+    "23_27": 0.063,
+    "38_42": 0.046,
+    "68plus": 0.109,
+    "58_62": 0.051,
+    "63_67": 0.038
+  },
+  "gp_location": {
+    "U2_CDB_rural": 0.071,
+    "U1_Muni": 0.07
+  },
+  "education": {
+    "Primary": 0.052,
+    "Secondary": 0.056,
+    "Higher_Secondary": 0.069,
+    "Illiterate": 0.08,
+    "Graduate": 0.087,
+    "Middle": 0.087,
+    "Postgraduate": 0.079
+  },
+  "workforce_status": {
+    "Non_worker": 0.066,
+    "Marginal_worker": 0.044,
+    "Student": 0.13,
+    "Main_worker": 0.061,
+    "Unemployed": 0.101
+  },
+  "economic_status": {
+    "BPL_household": 0.066,
+    "Above_Poverty_Line_low_income": 0.06,
+    "Lower_middle": 0.09,
+    "Middle": 0.082,
+    "Upper_middle_well_off": 0.063
+  }
+}

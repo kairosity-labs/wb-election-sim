@@ -1,0 +1,17 @@
+{
+  "id": "default_n100_v1_p0041",
+  "tags": [
+    "bjp_supporter",
+    "khadya_sathi_beneficiary",
+    "sabuj_sathi_beneficiary",
+    "sabuj_sathi_household",
+    "upper_caste_hindu",
+    "urban_trader"
+  ],
+  "media_engagement": 1.2,
+  "initial_party": "BJP",
+  "n_memories": 13,
+  "n_reactions": 12,
+  "n_reflections": 1,
+  "n_llm_calls": 38
+}

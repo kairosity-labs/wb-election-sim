@@ -1,0 +1,17 @@
+{
+  "id": "default_n100_v1_p0072",
+  "tags": [
+    "ag_labourer",
+    "bjp_supporter",
+    "khadya_sathi_beneficiary",
+    "matua_refugee",
+    "swasthya_sathi_beneficiary",
+    "woman"
+  ],
+  "media_engagement": 0.4,
+  "initial_party": "BJP",
+  "n_memories": 3,
+  "n_reactions": 2,
+  "n_reflections": 1,
+  "n_llm_calls": 14
+}

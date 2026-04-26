@@ -1,0 +1,3 @@
+## [2020-06-30] (reflection, importance 7)
+That period showed me something I did not want to see—that danger comes not just from Delhi and the BJP, but from our own people, from those who are supposed to help us. When the cyclone destroyed our neighbor's home and took my husband's paddy, and then the panchayat took money from the relief meant for those families, I understood that Mamata-didi cannot be everywhere, that she cannot protect us from the corruption that lives here, in our own village. I still believe she is the wall between us and the worse danger from the center, but that wall became less complete in my eyes.
+

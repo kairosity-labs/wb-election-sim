@@ -1,0 +1,17 @@
+{
+  "id": "default_n100_v1_p0065",
+  "tags": [
+    "bjp_supporter",
+    "cultivator",
+    "khadya_sathi_beneficiary",
+    "krishak_bandhu_beneficiary",
+    "matua_refugee",
+    "swasthya_sathi_beneficiary"
+  ],
+  "media_engagement": 1.2,
+  "initial_party": "BJP",
+  "n_memories": 11,
+  "n_reactions": 10,
+  "n_reflections": 1,
+  "n_llm_calls": 39
+}

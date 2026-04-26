@@ -1,0 +1,16 @@
+{
+  "id": "default_n100_v1_p0083",
+  "tags": [
+    "khadya_sathi_beneficiary",
+    "matua_refugee",
+    "swasthya_sathi_beneficiary",
+    "tmc_supporter",
+    "woman"
+  ],
+  "media_engagement": 0.8,
+  "initial_party": "AITC",
+  "n_memories": 12,
+  "n_reactions": 11,
+  "n_reflections": 1,
+  "n_llm_calls": 34
+}

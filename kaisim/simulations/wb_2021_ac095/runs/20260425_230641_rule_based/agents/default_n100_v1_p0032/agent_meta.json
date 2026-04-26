@@ -1,0 +1,15 @@
+{
+  "id": "default_n100_v1_p0032",
+  "tags": [
+    "elderly",
+    "khadya_sathi_beneficiary",
+    "swasthya_sathi_beneficiary",
+    "upper_caste_hindu"
+  ],
+  "media_engagement": 0.8,
+  "initial_party": "Left_INC_combined",
+  "n_memories": 11,
+  "n_reactions": 10,
+  "n_reflections": 1,
+  "n_llm_calls": 29
+}

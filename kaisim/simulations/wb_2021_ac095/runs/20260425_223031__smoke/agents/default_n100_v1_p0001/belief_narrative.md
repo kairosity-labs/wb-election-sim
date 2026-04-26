@@ -1,0 +1,3 @@
+## [2020-06-30] (reflection, importance 9)
+That lockdown showed me how fast everything can fall apart — my brother-in-law stopped sending money, we were afraid we wouldn't have rice, and I realized that all the schemes Didi gave me mean nothing if officials steal from the relief lists when we need it most. When Amphan came right after, it felt like the centre had abandoned us completely, and only Didi was saying anything about our pain. I still remember that fear of not knowing if we would eat, and it made me understand that voting for someone who actually reached my hand before crisis is better than trusting empty promises from faraway men who lock borders without caring if families starve.
+

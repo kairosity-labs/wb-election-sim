@@ -1,0 +1,11 @@
+{"period": "2020-05", "event_slug": "petrapole_covid_shutdown", "score": 4.0, "why": "scope:AC+4 int4+1 \u00d7media0.80", "accepted": true, "engagement": "skimmed", "reaction": "noted_no_change"}
+{"period": "2020-12", "event_slug": "duare_sarkar_phase1", "score": 5.6000000000000005, "why": "scope:state+2 tags\u00d72+4 int4+1 \u00d7media0.80", "accepted": true, "engagement": "engaged", "reaction": "noted_no_change"}
+{"period": "2020-12", "event_slug": "swasthya_sathi_universalised", "score": 4.0, "why": "scope:state+2 tags\u00d71+2 int4+1 \u00d7media0.80", "accepted": true, "engagement": "skimmed", "reaction": "noted_no_change"}
+{"period": "2021-02", "event_slug": "modi_thakurnagar_visit_2021", "score": 4.0, "why": "scope:AC+4 int5+1 \u00d7media0.80", "accepted": true, "engagement": "skimmed", "reaction": "noted_no_change"}
+{"period": "2021-04", "event_slug": "covid_second_wave_delta", "score": 3.2, "why": "scope:national+1 tags\u00d71+2 int5+1 \u00d7media0.80", "accepted": true, "engagement": "skimmed", "reaction": "noted_no_change"}
+{"period": "2021-10", "event_slug": "bsf_50km_jurisdiction", "score": 3.2, "why": "scope:AC+4 \u00d7media0.80", "accepted": true, "engagement": "skimmed", "reaction": "noted_no_change"}
+{"period": "2023-04", "event_slug": "thakurbari_clash_april2023", "score": 3.2, "why": "scope:AC+4 \u00d7media0.80", "accepted": true, "engagement": "skimmed", "reaction": "noted_no_change"}
+{"period": "2023-06", "event_slug": "thakurbari_clash_june2023", "score": 3.2, "why": "scope:AC+4 \u00d7media0.80", "accepted": false, "engagement": "skimmed", "reaction": "noted_no_change"}
+{"period": "2023-07", "event_slug": "petrapole_bd_disruption_chronic", "score": 3.2, "why": "scope:AC+4 \u00d7media0.80", "accepted": true, "engagement": "skimmed", "reaction": "noted_no_change"}
+{"period": "2024-02", "event_slug": "mamatabala_rajya_sabha", "score": 4.0, "why": "scope:AC+4 int4+1 \u00d7media0.80", "accepted": false, "engagement": "scrolled_past", "reaction": "ignored"}
+{"period": "2024-03", "event_slug": "shantanu_renominated_2024", "score": 4.0, "why": "scope:AC+4 int4+1 \u00d7media0.80", "accepted": false, "engagement": "scrolled_past", "reaction": "ignored"}

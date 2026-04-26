@@ -1,0 +1,3 @@
+## [2020-12-31] (reflection, importance 7)
+That cyclone took our paddy when we needed it most, but what really stayed with me is the anger about the relief money — hearing that our own panchayat people were taking cuts before it reached us. The TMC's programs like Krishak Bandhu and the ration have been honest help for people like us, but if the local leaders are stealing from the relief, then all that good work means nothing. I still think about whether our gram panchayat is doing this or not, because that's not Delhi politics — that's about whether the people we voted for are actually serving us or just themselves.
+

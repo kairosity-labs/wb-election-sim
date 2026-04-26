@@ -1,0 +1,8 @@
+{"timestamp": "2020-05-31", "triggering_event_slug": "petrapole_covid_shutdown", "delta": {"party_lean_change": "no_change", "salience_added": [], "trust_changes": {}}}
+{"timestamp": "2020-12-31", "triggering_event_slug": "duare_sarkar_phase1", "delta": {"party_lean_change": "no_change", "salience_added": ["TMC electoral mobilization tactics", "doorstep service delivery as election strategy"], "trust_changes": {"TMC": "-small", "state_schemes": "+small"}}}
+{"timestamp": "2020-12-31", "triggering_event_slug": "swasthya_sathi_universalised", "delta": {"party_lean_change": "no_change", "salience_added": ["timing_of_welfare_announcements", "electoral_cynicism"], "trust_changes": {"TMC": "-small", "Left": "no_change"}}}
+{"timestamp": "2021-02-28", "triggering_event_slug": "modi_thakurnagar_visit_2021", "delta": {"party_lean_change": "no_change", "salience_added": [], "trust_changes": {"BJP": "-small"}}}
+{"timestamp": "2021-04-30", "triggering_event_slug": "covid_second_wave_delta", "delta": {"party_lean_change": "no_change", "salience_added": [], "trust_changes": {"BJP": "-small", "TMC": "no_change", "CPI-M": "no_change"}}}
+{"timestamp": "2021-10-31", "triggering_event_slug": "bsf_50km_jurisdiction", "delta": {"party_lean_change": "no_change", "salience_added": [], "trust_changes": {}}}
+{"timestamp": "2023-04-30", "triggering_event_slug": "thakurbari_clash_april2023", "delta": {"party_lean_change": "no_change", "salience_added": [], "trust_changes": {}}}
+{"timestamp": "2023-07-31", "triggering_event_slug": "petrapole_bd_disruption_chronic", "delta": {"party_lean_change": "no_change", "salience_added": [], "trust_changes": {}}}

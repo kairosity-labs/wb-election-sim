@@ -1,0 +1,36 @@
+## [2023-12-31] (reflection, importance 4)
+Those months showed me that all these big people—whether it's the TMC or BJP or whoever controls what property—they're just fighting amongst themselves while ordinary people like us get on with life. My focus stayed where it always is: making sure my daughters are safe, that they get their education, and that my husband's shop runs without trouble. The distant drama at the border or some old house didn't touch our daily lives, and honestly, that's what I remember—that none of it really changed what matters to me.
+
+## [2024-01-31] (reaction, importance 4)
+I heard about this Sandeshkhali business from my husband—he saw it on WhatsApp, people were saying the ED went there and there was trouble, something about land and women. It's far from here, in Sarberia side. Look, I don't know what really happened or who is telling the truth—these big people, TMC or ED or whoever, they all have their own games. But when I hear women are involved, when there's talk of land-grabbing and... those things... it makes me angry. Still, this doesn't change how I see things. My 2019 vote was because I wanted someone different, and these kinds of stories—they happen everywhere, not just TMC areas. What matters to me is: are my daughters safe in Bangaon? Can they go to school? Does the ward councillor fix the pothole? That hasn't changed.
+
+## [2024-01-31] (reaction, importance 4)
+Yes, I saw it on ABP Ananda—the whole Ram Mandir thing, very grand, very big ceremony. My husband was saying Modi did what he promised, and that's... that's good, I suppose. But you know, I'm Hindu, I'm glad the temple is there, but this doesn't change what I think about whether the BJP is actually fixing things for us here in Bangaon. A beautiful temple in Ayodhya doesn't fix the pothole on our street or make sure the ward councillor listens to women's complaints. I voted for change in 2019, and I still want to see change in how things work locally. This is nice for people who care about these big religious things, but for me—it's distant.
+
+## [2024-02-29] (reaction, importance 6)
+My husband kept talking about it—WhatsApp messages, ABP Ananda covering it every day. Women assaulted, land taken... it made me angry, yes, genuinely angry. But angry at whom, really? These TMC people in Sandeshkhali, or the system itself? I don't know those women, I don't know that place well. What I know is: our ward councillor here in Bangaon still doesn't listen to us, pothole still there, and now BJP is shouting about it everywhere like they're suddenly champions of women. Where were they when my neighbour's daughter had trouble three years ago? I voted for change in 2019, but this—this feels like politicians using other women's pain for their own fights. It doesn't make me trust BJP more. It just makes me tired.
+
+## [2024-02-29] (reaction, importance 2)
+My husband mentioned something about TMC putting some Matua woman in Rajya Sabha—I didn't catch all of it. Look, these are games between big people in Kolkata. The Matuas have their own concerns with the CAA and citizenship, that's real for them. But this news about who sits in Delhi? It doesn't touch whether our ward councillor fixes anything here in Bangaon, or whether my younger daughter can cycle safely to school. Both TMC and BJP are just fighting over votes using these things.
+
+## [2024-02-29] (reaction, importance 3)
+My husband probably saw this on WhatsApp already and told me—that man Shahjahan finally arrested after running away. Look, I'm glad those women in Sandeshkhali got some justice, but this doesn't change what I think. BJP says TMC protected him, TMC says something else. Both sides are shouting. What matters to me is: did our ward councillor listen to my complaint about the water line? No. Does my daughter feel safe? Yes, but because she's careful, not because either party fixed anything here in Bangaon.
+
+## [2024-03-31] (reaction, importance 3)
+Shantanu Thakur again—my husband will say this is good, the CAA man, the Matua candidate. But look, he's been our MP since 2019 and what has he actually done for Bangaon town itself? The pothole is still there. Our ward councillor still ignores complaints. Whether it's Shantanu or someone else, if they're not fixing things here, what difference does the name make?
+
+## [2024-03-31] (reaction, importance 2)
+Biswajit Das, back and forth between TMC and BJP—these people, they just follow power, don't they? My husband will probably say something about it tonight. But honestly, whether it's Das or Shantanu or anyone else, they're all the same to me. They come during elections, make promises, and then the pothole stays. The ward councillor still doesn't listen. I voted for change in 2019, but nothing has actually changed here in Bangaon.
+
+## [2024-03-31] (reaction, importance 2)
+My husband will probably mention something about this electoral bonds thing if he sees it on WhatsApp—he likes to follow these political stories. But honestly, what does it mean to me? BJP got the most money, TMC got money, Congress got money... they all have money, they all have power, and none of it has fixed the pothole on our street or made our ward councillor listen to ordinary women like me. This is the kind of thing that makes people angry in the news channels, but it doesn't change what I see every day in Bangaon.
+
+## [2024-03-31] (reaction, importance 4)
+My husband will probably tell me about this tonight—the Matuas are celebrating, saying it's Independence Day or something. Look, I'm glad for them, truly. The CAA was one reason we voted BJP in 2019, and if it finally helps those people get citizenship after waiting so long, that's good. But this doesn't change what I see here in Bangaon. The pothole is still there. Our ward councillor still ignores us. Shantanu Thakur has been our MP for five years and what has he actually delivered to this town? A notification in Delhi doesn't fix our street.
+
+## [2024-04-30] (reaction, importance 6)
+My husband will talk about this tonight—he knows people whose nephews were waiting for those teacher jobs, spent money, and now it's all gone. It's terrible, truly terrible for those families. But you know what? This is exactly what I've been saying for five years: the system is broken, both sides are corrupt, and nothing changes for ordinary people like us. The TMC had the SSC scam on their watch, and the BJP has been in power here since 2019 and hasn't fixed it—they just voided the jobs instead of making it right. This doesn't make me trust either of them more. It just makes me angrier that we keep voting for people who promise to fix these things and then nothing happens.
+
+## [2024-05-20] (reaction, importance 4)
+My husband will probably mention this tonight—he'll say it's finally happening, the CAA promise is real. But fourteen certificates? A few hundred digital ones? Five days before our local election? It feels like they're showing us something just in time for us to vote, doesn't it? Look, I'm glad for the Matua people who finally get their papers, truly I am. But this doesn't fix the pothole on our street, and it doesn't make me believe that either party will actually listen to women like me once the votes are counted.
+

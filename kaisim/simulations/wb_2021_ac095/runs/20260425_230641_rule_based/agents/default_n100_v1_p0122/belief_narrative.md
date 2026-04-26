@@ -1,0 +1,18 @@
+## [2022-12-31] (reflection, importance 7)
+That whole teacher recruitment scandal — it shook something in me that hasn't settled. Seeing proof that actual money meant for schools and fair jobs was just... taken, while my mother's salary comes late — it made me realize that corruption isn't just a word politicians use, it's real families not getting what they're owed. I still don't know if voting BJP fixes anything, but I stopped believing that one side is obviously better than the other.
+
+## [2024-01-31] (reaction, importance 8)
+I saw the videos on WhatsApp — ED officers being attacked, women saying they were assaulted and their land was taken. At first I thought it was another political blame-game, but then I read that these women have been protesting for months, and nobody was listening until the ED came. That's... that's not about which party is better. That's about women in villages having nowhere to go when powerful men do what they want. My mother teaches in a school where girls come from places like that. I can't pretend anymore that Mamata's schemes for girls like me mean the system is actually protecting women.
+
+## [2024-01-31] (reaction, importance 4)
+Everyone's talking about it — the Ram Mandir, the pran pratishtha, Modi there in person. It's beautiful, I suppose, and my father watched some of it. But honestly? I keep thinking about those women in the villages, the ones the ED had to step in for because no one was listening. A temple consecration doesn't change the fact that powerful men can still take what they want from women who have no one to protect them. I'm Hindu, I'm not against the mandir, but this feels like it's for people who already have power and faith. It doesn't answer the question I keep asking myself now: who actually protects girls like the ones my mother teaches?
+
+## [2024-02-29] (reaction, importance 8)
+I kept telling myself the January videos were isolated, that maybe the ED was exaggerating or it was political. But now there are FIRs, gang-rape cases, and my mother came home saying one of her student's aunts is among the women. This isn't abstract anymore — it's real women from real villages, and it happened under a government that was supposed to protect us with Kanyashree and Swasthya Sathi. I don't suddenly trust BJP, but I can't keep defending TMC just because their schemes helped my family. If the schemes don't mean anything when powerful men can still assault women in villages, then what was the point?
+
+## [2024-02-29] (reaction, importance 8)
+Fifty-five days. He was hiding for fifty-five days while those women were still waiting for someone to believe them, and TMC... people are saying TMC protected him, delayed it on purpose. I don't know what's true anymore — BJP will say anything to win — but my mother's student's aunt is real, the FIRs are real, and if the Chief Minister's own party was actually shielding someone accused of this, then the schemes don't matter. Nothing matters if the system itself is rotten enough to hide rapists.
+
+## [2024-04-30] (reaction, importance 8)
+My father showed me the news — 25,753 jobs gone, just like that. All those people who paid money, who thought they had a future, and the court had to step in because the system was so broken. It's the same feeling as the teacher recruitment scandal, except now it's happening again, right before the election. I keep thinking about my mother, how her salary comes late, how the school where she teaches barely has resources — and somewhere in that system, people were stealing opportunities that should have gone to deserving candidates. TMC had years to fix this. Years. And it took the court to finally act.
+

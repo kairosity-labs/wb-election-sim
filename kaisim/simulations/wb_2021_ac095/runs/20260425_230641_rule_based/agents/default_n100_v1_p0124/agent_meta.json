@@ -1,0 +1,17 @@
+{
+  "id": "default_n100_v1_p0124",
+  "tags": [
+    "cultivator",
+    "khadya_sathi_beneficiary",
+    "krishak_bandhu_beneficiary",
+    "muslim_voter",
+    "swasthya_sathi_beneficiary",
+    "tmc_supporter"
+  ],
+  "media_engagement": 0.4,
+  "initial_party": "AITC",
+  "n_memories": 3,
+  "n_reactions": 2,
+  "n_reflections": 1,
+  "n_llm_calls": 7
+}

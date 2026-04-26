@@ -1,0 +1,18 @@
+{
+  "id": "default_n100_v1_p0110",
+  "tags": [
+    "bjp_supporter",
+    "kanyashree_beneficiary",
+    "kanyashree_household",
+    "khadya_sathi_beneficiary",
+    "sabuj_sathi_beneficiary",
+    "sabuj_sathi_household",
+    "swasthya_sathi_beneficiary"
+  ],
+  "media_engagement": 0.8,
+  "initial_party": "BJP",
+  "n_memories": 4,
+  "n_reactions": 3,
+  "n_reflections": 1,
+  "n_llm_calls": 22
+}

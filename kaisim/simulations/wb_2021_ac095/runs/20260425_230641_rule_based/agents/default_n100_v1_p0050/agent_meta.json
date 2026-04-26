@@ -1,0 +1,17 @@
+{
+  "id": "default_n100_v1_p0050",
+  "tags": [
+    "ag_labourer",
+    "elderly",
+    "khadya_sathi_beneficiary",
+    "krishak_bandhu_beneficiary",
+    "swasthya_sathi_beneficiary",
+    "upper_caste_hindu"
+  ],
+  "media_engagement": 0.8,
+  "initial_party": "LF",
+  "n_memories": 11,
+  "n_reactions": 10,
+  "n_reflections": 1,
+  "n_llm_calls": 35
+}

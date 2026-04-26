@@ -1,0 +1,18 @@
+{
+  "n_agents": 100,
+  "n_periods": 53,
+  "total_llm_calls": 2882,
+  "vote_distribution": {
+    "AITC": 41,
+    "NOTA": 7,
+    "BJP": 41,
+    "INC": 6,
+    "LF": 5
+  },
+  "ignore_rate": {
+    "events_delivered_total": 2436,
+    "events_accepted_total": 2263,
+    "ignore_rate": 0.071
+  },
+  "usage_total": {}
+}

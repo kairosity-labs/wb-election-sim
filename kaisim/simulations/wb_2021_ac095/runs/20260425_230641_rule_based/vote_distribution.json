@@ -1,0 +1,32 @@
+{
+  "n": 100,
+  "counts": {
+    "BJP": 41,
+    "INC": 6,
+    "AITC": 41,
+    "NOTA": 7,
+    "LF": 5
+  },
+  "pcts": {
+    "BJP": 41.0,
+    "INC": 6.0,
+    "AITC": 41.0,
+    "NOTA": 7.0,
+    "LF": 5.0
+  },
+  "ground_truth_pcts": {
+    "BJP": 49.8,
+    "AITC": 39.5,
+    "INC": 1.5,
+    "LF": 4.5,
+    "Other": 4.7
+  },
+  "abs_gap_pp": {
+    "INC": 4.5,
+    "Other": 4.7,
+    "LF": 0.5,
+    "BJP": 8.8,
+    "AITC": 1.5,
+    "NOTA": 7.0
+  }
+}

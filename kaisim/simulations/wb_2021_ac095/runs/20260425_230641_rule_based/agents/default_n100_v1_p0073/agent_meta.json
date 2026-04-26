@@ -1,0 +1,18 @@
+{
+  "id": "default_n100_v1_p0073",
+  "tags": [
+    "cultivator",
+    "kanyashree_beneficiary",
+    "kanyashree_household",
+    "khadya_sathi_beneficiary",
+    "krishak_bandhu_beneficiary",
+    "swasthya_sathi_beneficiary",
+    "upper_caste_hindu"
+  ],
+  "media_engagement": 0.8,
+  "initial_party": "INC",
+  "n_memories": 10,
+  "n_reactions": 9,
+  "n_reflections": 1,
+  "n_llm_calls": 33
+}

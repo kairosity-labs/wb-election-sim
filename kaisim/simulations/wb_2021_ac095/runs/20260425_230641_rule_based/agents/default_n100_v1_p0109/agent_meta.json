@@ -1,0 +1,15 @@
+{
+  "id": "default_n100_v1_p0109",
+  "tags": [
+    "khadya_sathi_beneficiary",
+    "sabuj_sathi_beneficiary",
+    "sabuj_sathi_household",
+    "swasthya_sathi_beneficiary"
+  ],
+  "media_engagement": 1.2,
+  "initial_party": "Other",
+  "n_memories": 8,
+  "n_reactions": 7,
+  "n_reflections": 1,
+  "n_llm_calls": 30
+}

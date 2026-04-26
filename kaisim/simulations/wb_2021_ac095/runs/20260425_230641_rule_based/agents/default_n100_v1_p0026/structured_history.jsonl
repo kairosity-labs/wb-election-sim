@@ -1,0 +1,12 @@
+{"timestamp": "2020-05-31", "triggering_event_slug": "amphan_landfall", "delta": {"party_lean_change": "no_change", "salience_added": ["natural_disaster_vulnerability", "panchayat_corruption", "relief_distribution", "food_security_during_crisis"], "trust_changes": {"local_panchayat": "-small", "AITC": "no_change"}}}
+{"timestamp": "2020-12-31", "triggering_event_slug": "duare_sarkar_phase1", "delta": {"party_lean_change": "no_change", "salience_added": ["government_delivery_systems", "corruption_in_relief_distribution"], "trust_changes": {"local_panchayat": "-small", "AITC_state_govt": "+small"}}}
+{"timestamp": "2021-02-28", "triggering_event_slug": "modi_thakurnagar_visit_2021", "delta": {"party_lean_change": "no_change", "salience_added": ["CAA_implementation", "Matua_representation"], "trust_changes": {"BJP": "+small", "AITC": "no_change"}}}
+{"timestamp": "2021-05-31", "triggering_event_slug": "wb_assembly_results_2021", "delta": {"party_lean_change": "no_change", "salience_added": [], "trust_changes": {}}}
+{"timestamp": "2021-10-31", "triggering_event_slug": "bsf_50km_jurisdiction", "delta": {"party_lean_change": "no_change", "salience_added": [], "trust_changes": {}}}
+{"timestamp": "2022-04-30", "triggering_event_slug": "ssc_scam_chronic", "delta": {"party_lean_change": "no_change", "salience_added": ["government_corruption_awareness"], "trust_changes": {"AITC": "-small", "education_system": "-small"}}}
+{"timestamp": "2023-06-30", "triggering_event_slug": "thakurbari_clash_june2023", "delta": {"party_lean_change": "no_change", "salience_added": [], "trust_changes": {}}}
+{"timestamp": "2024-01-31", "triggering_event_slug": "sandeshkhali_ed_attack", "delta": {"party_lean_change": "no_change", "salience_added": [], "trust_changes": {}}}
+{"timestamp": "2024-02-29", "triggering_event_slug": "sandeshkhali_women_protests", "delta": {"party_lean_change": "no_change", "salience_added": [], "trust_changes": {"AITC": "-small", "BJP": "no_change", "media": "-small"}}}
+{"timestamp": "2024-02-29", "triggering_event_slug": "mamatabala_rajya_sabha", "delta": {"party_lean_change": "no_change", "salience_added": [], "trust_changes": {}}}
+{"timestamp": "2024-02-29", "triggering_event_slug": "shahjahan_arrested", "delta": {"party_lean_change": "no_change", "salience_added": [], "trust_changes": {}}}
+{"timestamp": "2024-04-30", "triggering_event_slug": "hc_scraps_2016_ssc_panel", "delta": {"party_lean_change": "no_change", "salience_added": [], "trust_changes": {}}}

@@ -1,0 +1,16 @@
+{
+  "id": "default_n100_v1_p0058",
+  "tags": [
+    "khadya_sathi_beneficiary",
+    "muslim_voter",
+    "swasthya_sathi_beneficiary",
+    "tmc_supporter",
+    "woman"
+  ],
+  "media_engagement": 0.8,
+  "initial_party": "AITC",
+  "n_memories": 10,
+  "n_reactions": 9,
+  "n_reflections": 1,
+  "n_llm_calls": 32
+}

@@ -1,0 +1,17 @@
+{
+  "id": "default_n100_v1_p0053",
+  "tags": [
+    "kanyashree_beneficiary",
+    "kanyashree_household",
+    "swasthya_sathi_beneficiary",
+    "tmc_supporter",
+    "upper_caste_hindu",
+    "woman"
+  ],
+  "media_engagement": 0.8,
+  "initial_party": "AITC",
+  "n_memories": 10,
+  "n_reactions": 9,
+  "n_reflections": 1,
+  "n_llm_calls": 31
+}

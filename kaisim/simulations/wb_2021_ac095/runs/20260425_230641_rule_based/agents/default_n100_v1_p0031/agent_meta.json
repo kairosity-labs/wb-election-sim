@@ -1,0 +1,16 @@
+{
+  "id": "default_n100_v1_p0031",
+  "tags": [
+    "bjp_supporter",
+    "khadya_sathi_beneficiary",
+    "matua_refugee",
+    "swasthya_sathi_beneficiary",
+    "urban_trader"
+  ],
+  "media_engagement": 1.2,
+  "initial_party": "BJP",
+  "n_memories": 14,
+  "n_reactions": 13,
+  "n_reflections": 1,
+  "n_llm_calls": 38
+}

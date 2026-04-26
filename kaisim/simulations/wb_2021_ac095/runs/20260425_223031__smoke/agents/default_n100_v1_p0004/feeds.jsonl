@@ -1,0 +1,3 @@
+{"period": "2020-03", "event_slug": "covid_first_wave_lockdown", "score": 3.2, "why": "scope:national+1 tags\u00d71+2 int5+1 \u00d7media0.80", "accepted": true, "engagement": "engaged", "reaction": "shifted_my_view"}
+{"period": "2020-05", "event_slug": "amphan_landfall", "score": 5.0, "why": "scope:state+2 tags\u00d71+2 int5+1 \u00d7media0.80 loss_av+1", "accepted": true, "engagement": "engaged", "reaction": "shifted_my_view"}
+{"period": "2020-05", "event_slug": "petrapole_covid_shutdown", "score": 4.0, "why": "scope:AC+4 int4+1 \u00d7media0.80", "accepted": true, "engagement": "skimmed", "reaction": "noted_no_change"}

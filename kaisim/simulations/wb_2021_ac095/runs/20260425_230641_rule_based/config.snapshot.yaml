@@ -1,0 +1,78 @@
+# Rule-based news targeting + Park-minimal belief updates.
+# Run:  python kaisim/simulations/wb_2021_ac095/run_simulation.py rule_based
+#
+# Architecture:
+#   - Each persona's tags derived deterministically from fields (derived/persona_tags.py)
+#   - Per-month tick; for each persona, score each candidate event via:
+#       scope_weight + tag_overlap + intensity_bonus, ×media_engagement
+#     and select top-k (default 5) above threshold (default 3.0).
+#   - For each selected event, ONE LLM call produces (engagement, reaction,
+#     monologue, importance, structured_delta).
+#   - Every 12 ticks (≈yearly), reflection compresses older raw memories
+#     into a single gist paragraph.
+#   - Final vote query asked once on 2024-05-20 (Bangaon LS poll day).
+
+simulation:
+  name: "rule_based_v1"
+  description: "n=100 personas, monthly tick, Park-minimal updater, Haiku 4.5"
+
+input:
+  persona_set: "default_n100_v1"
+  events_file: "news/events_2019_2024.yaml"
+
+clock:
+  start_date: "2020-01-01"
+  end_date:   "2024-05-20"
+  tick_unit:  "month"
+  tick_size:  1
+  reflection_every_n_ticks: 12   # yearly reflection
+
+targeting:
+  strategy: "rule_based"
+  config:
+    threshold: 3.0
+    cap_per_period: 5
+    media_engagement_multiplier: true
+    weights:
+      scope_national: 1
+      scope_state: 2
+      scope_district: 3
+      scope_AC: 4
+      tag_overlap_per_match: 2
+      intensity_bonus_above: 4
+      intensity_bonus_value: 1
+      loss_aversion_kicker: 1
+
+update:
+  style: "park_minimal"
+
+reflection:
+  enabled: true
+  every_n_ticks: 12
+  compression_target_tokens: 200
+
+llm:
+  provider: "anthropic"
+  model: "claude-haiku-4-5"         # known-working; we drop thinking to gain speed
+  reasoning: null                   # disable extended thinking → ~50% less latency
+  temperature: 0.7
+  max_tokens: 4000
+  cache_system_prompt: true
+
+execution:
+  async: true
+  max_concurrent_personas: 50       # higher concurrency; Tier-2 still safe
+
+output:
+  runs_dir: "runs"
+  save_raw_responses: true
+  save_feeds_audit: true
+
+ground_truth:
+  # 2024 LS Bangaon final result for vote_distribution comparison
+  # (BJP 49.84% / TMC 39.46% / Left+INC ~6% / Other ~5% per ECI 4 Jun 2024)
+  BJP: 49.8
+  AITC: 39.5
+  INC: 1.5
+  LF: 4.5
+  Other: 4.7
