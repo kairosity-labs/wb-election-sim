@@ -558,3 +558,49 @@ Pending Form-20 GE2019 fetch. Bangaon Uttar pre-2019 was an AITC stronghold (50-
 ---
 
 *v0 — generated 2026-04-25, frozen at 2019 state-of-knowledge. No post-2019 events referenced.*
+
+---
+
+## H. Post-2019 validation anchors
+
+> **These are OUT-OF-SAMPLE simulation gates — NOT part of the frozen 2019 calibration.**
+> The simulator must reproduce these results from 2019 priors + narrative injection (CAA notification, Thakurbari split, SIR deletions) without these figures being baked into the calibration input.
+
+### 2021 WB Assembly Election — AC 95 Bangaon Uttar (tier A, ECI)
+
+| Party | Candidate | Votes | % | Source |
+|---|---|---|---|---|
+| BJP | Ashok Kirtania | 97,761 | 47.65% | A — ECI 2021 AE |
+| AITC | Biswanath Das | 87,273 | 42.54% | A — ECI 2021 AE |
+| CPI(M) | (candidate) | ~5–7% combined | D | Wikipedia / ECI |
+| **BJP margin** | | **10,488 votes** | | A |
+
+Narrative shocks active between 2019→2021: COVID-19 lockdown (Mar 2020), Cyclone Amphan (May 2020), 2020 NRC escalation, TMC welfare outreach (Duare Sarkar). Simulator must model these as belief-evolution inputs; they are not in the frozen file.
+
+### 2024 Lok Sabha Election — AC 95 segment within Bangaon LS (PC 14) (tier A, CSV)
+
+> Figures below are **tier A** — sourced directly from `/home/ubuntu/wb-election-sim/2024_AssemblySegmentLevelVotingData.csv`, AC_NO=95, Bangaon Uttar. Total valid votes: 209,954 (candidates) + 920 (NOTA) = 209,954; electorate 264,506; turnout ~79.4%.
+
+| Party | Candidate (LS level) | Votes | AC-95 segment % | Tier | Source |
+|---|---|---|---|---|---|
+| BJP | Shantanu Thakur | 109,848 | **52.32%** | A | 2024_AssemblySegmentLevelVotingData.csv |
+| AITC | Biswajit Das (s/o late Bijay Krishna Das) | 84,818 | **40.40%** | A | Same |
+| INC | Pradipkumar Biswas | 7,066 | **3.37%** | A | Same |
+| NOTA | — | 920 | **0.44%** | A | Same (NOTA column) |
+| Others (AISF, BSP, SUCI, PDS, GSD, IND) | various | 7,302 | **3.48%** | A | Same |
+| **BJP margin over AITC** | | **25,030 votes** | **11.92 pp** | A | Computed |
+
+> **Correction vs. earlier estimate:** The placeholder proportional-decomposition figures (BJP ~48.19%, AITC ~43.25%) were derived from whole-LS aggregates. The CSV shows BJP performed substantially better at AC-95 level (52.32%) than the LS average, and the margin was ~25k not ~73k. Use CSV figures as authoritative.
+
+Narrative shocks active between 2021→2024: CAA rules notification (Mar 2024), CAA grant rollout disappointment (~15k of 1.12L grants), Dec 2025 SIR draft. TMC counter-narrative: Lakshmir Bhandar ₹1000/month (Aug 2021), SSC scam exposure (2022), RG Kar protest (Aug 2024). Simulator must model these; they are not in the frozen file.
+
+### Calibration test
+The simulator is considered validated on this seat if it reproduces 2024 LS AC-95 shares within ±3pp of the CSV tier-A figures:
+- BJP target: 52% ± 3pp
+- TMC target: 40% ± 3pp
+- INC + others target: 8% ± 3pp
+
+### Section G gap note
+Section G (Sources) does not list the machine-readable CSVs. The following should be added to Section G in a future v1 edit:
+- `2019_AssemblySegmentLevelVotingData.csv` — ECI GE2019 AC-segment vote tallies (tier A; confirms proportional decomposition in Section E)
+- `2024_AssemblySegmentLevelVotingData.csv` — ECI GE2024 AC-segment vote tallies (tier A; used in Section H above)
