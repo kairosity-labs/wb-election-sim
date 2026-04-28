@@ -53,9 +53,16 @@ class SimulationConfig:
     def persona_set_name(self) -> str:
         return self.get("input.persona_set", "")
 
+    def _repo_root(self) -> Path:
+        """Walk up from sim_dir to repo root (parent of `kaisim`)."""
+        d = self.sim_dir
+        while d.name and d.name != "kaisim":
+            d = d.parent
+        return d.parent if d.name else self.sim_dir
+
     @property
     def events_file(self) -> Path:
-        """Resolve the events YAML path.
+        """Resolve the per-AC events YAML path.
 
         Resolution order:
           1. `input.events_file` (relative to sim_dir if not absolute) — legacy
@@ -72,17 +79,10 @@ class SimulationConfig:
 
         ac_id = self.get("ac_id")
         if ac_id:
-            # Walk up from sim_dir to find the repo root (parent of `kaisim`).
-            kaisim_dir = self.sim_dir
-            while kaisim_dir.name and kaisim_dir.name != "kaisim":
-                kaisim_dir = kaisim_dir.parent
-            repo_root = kaisim_dir.parent if kaisim_dir.name else self.sim_dir
-            consts = repo_root / "constituency_data" / "constituencies"
-            # Exact match first.
+            consts = self._repo_root() / "constituency_data" / "constituencies"
             direct = consts / str(ac_id) / "events.yaml"
             if direct.exists():
                 return direct
-            # Glob match: "<ac_id>_*" (handles ac_id="095" → "095_bangaon_uttar")
             for cand in sorted(consts.glob(f"{ac_id}_*")):
                 ev_yaml = cand / "events.yaml"
                 if ev_yaml.exists():
@@ -91,6 +91,41 @@ class SimulationConfig:
                 f"ac_id={ac_id!r}: no events.yaml under {consts}")
 
         return self.sim_dir / "news/events.yaml"
+
+    @property
+    def state_events_file(self) -> Path | None:
+        """Resolve the state/national-scope events YAML.
+
+        Defaults to `constituency_data/state_events_2019_2026.yaml`. Override
+        via `input.state_events_file` (absolute or relative to sim_dir). Set
+        to `false` / `null` in YAML to disable.
+        """
+        explicit = self.get("input.state_events_file", "__unset__")
+        if explicit is False or explicit is None:
+            return None
+        if explicit != "__unset__":
+            p = Path(explicit)
+            return p if p.is_absolute() else (self.sim_dir / p)
+        # Default: convention-resolved file under constituency_data/
+        cand = self._repo_root() / "constituency_data" / "state_events_2019_2026.yaml"
+        return cand if cand.exists() else None
+
+    @property
+    def events_files(self) -> list[Path]:
+        """The full set of event YAMLs the orchestrator should union into the
+        NewsPool. Order matters: AC-local file goes FIRST so its slugs win
+        on collisions with state-level events."""
+        out: list[Path] = []
+        try:
+            ac_yaml = self.events_file
+            if ac_yaml.exists():
+                out.append(ac_yaml)
+        except FileNotFoundError:
+            pass
+        state_yaml = self.state_events_file
+        if state_yaml and state_yaml.exists():
+            out.append(state_yaml)
+        return out
 
     @property
     def start_date(self) -> date:

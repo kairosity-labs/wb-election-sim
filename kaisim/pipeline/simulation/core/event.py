@@ -111,6 +111,43 @@ class NewsPool:
         cutoff = date.fromisoformat(cutoff) if isinstance(cutoff, str) else cutoff
         return cls(events, cutoff_date=cutoff)
 
+    @classmethod
+    def from_yamls(cls, paths: list[str | Path]) -> "NewsPool":
+        """Union of multiple events YAMLs.
+
+        Use case: simulation reads the per-AC events.yaml AND the global
+        state_events.yaml so personas see both AC-local stories AND
+        state/national-scope news that affects all ACs.
+
+        - Events de-duplicate by `slug`. The FIRST occurrence wins, so put
+          AC-local files first if you want them to override state-level
+          slugs (rare; mostly for republished events with refined per-AC
+          metadata).
+        - cutoff_date is the EARLIEST across loaded files (conservative —
+          don't surface events past the AC's freeze date).
+        """
+        all_events: list[NewsEvent] = []
+        seen_slugs: set[str] = set()
+        cutoffs: list[date] = []
+        for p in paths:
+            p = Path(p)
+            if not p.exists():
+                continue
+            doc = yaml.safe_load(p.read_text()) or {}
+            for e in doc.get("events", []) or []:
+                ne = NewsEvent.from_dict(e)
+                if ne.slug in seen_slugs:
+                    continue
+                seen_slugs.add(ne.slug)
+                all_events.append(ne)
+            c = doc.get("cutoff_date")
+            if isinstance(c, str):
+                cutoffs.append(date.fromisoformat(c))
+            elif isinstance(c, date):
+                cutoffs.append(c)
+        cutoff = min(cutoffs) if cutoffs else None
+        return cls(all_events, cutoff_date=cutoff)
+
     def in_period(self, period_start: date, period_end: date) -> list[NewsEvent]:
         """Events that are active during [period_start, period_end]."""
         return [e for e in self.events if e.is_active_in(period_start, period_end)]

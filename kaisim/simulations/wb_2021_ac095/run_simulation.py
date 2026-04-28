@@ -52,9 +52,13 @@ async def main_async(config_name: str):
     pset = PersonaSet.load(persona_set_dir)
     print(f"Loaded {len(pset)} personas from {persona_set_dir.name}")
 
-    # Load news pool
-    pool = NewsPool.from_yaml(cfg.events_file)
-    print(f"Loaded {len(pool)} events; cutoff {pool.cutoff_date}")
+    # Load news pool — union per-AC events.yaml + state_events.yaml
+    yaml_paths = cfg.events_files
+    pool = NewsPool.from_yamls(yaml_paths)
+    print(f"Loaded {len(pool)} events from {len(yaml_paths)} file(s); "
+           f"cutoff {pool.cutoff_date}")
+    for p in yaml_paths:
+        print(f"  · {p}")
 
     # Region-specific tagging
     sys.path.insert(0, str(sim_dir))
