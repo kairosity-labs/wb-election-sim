@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,56.47,1.88,8.41,6.01,27.23,0,0,E,SC 49.79/83.20 + ST 1.76/83.20; UC/OBC/Other residual within Hindu; row sums to 100
+Muslim,0,0,0,0,0,100,0,A,self-evident
+Christian,0,0,0,0,0,0,100,A,self-evident
+Sarna_ORP,0,85.00,0,5.00,10.00,0,0,E,Tribal sub-castes mostly route to ST_total; Sarna_ORP row sums to 100
+Other_residual,0,0,0,0,0,0,100,A,self-evident

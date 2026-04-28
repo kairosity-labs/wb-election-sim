@@ -1,0 +1,107 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,71.50,E,Alipurduar district 2011: ~74% Hindu; 10-yr projection with slight Adivasi Sarna drift; tribal Sarna-ORP split uncertain,no
+religion,Muslim,9.00,E,Alipurduar district 2011: ~9% Muslim; Jaigaon border area; stable share,no
+religion,Christian,2.80,E,Slight increase from 2019 (2.5%) due to continued missionary conversions in tribal belt,no
+religion,Sarna_ORP,15.70,E,"Substantial Adivasi (Oraon, Munda, Santhali) tea-garden workers; marginal increase from 2019",no
+religion,Other_residual,1.00,E,"Buddhist (Bhutia/Nepali), Sikh, Jain, not-stated; stable",no
+caste,SC_total,8.00,E,Alipurduar district SC share ~7–9%; stable 2019→2021,no
+caste,Rajbanshi_SC,4.00,E,Dominant SC sub-group in Dooars,yes
+caste,Other_SC,4.00,E,"Residual (Bagdi, Hari, Dome)",yes
+caste,ST_total,35.00,E,"Very high tribal share: Oraon, Munda, Santhali, Kurmi tea-garden Adivasi; also Toto, Koch-Rajbanshi ST; stable",no
+caste,Oraon_ST,15.00,E,Largest ST sub-group in Dooars tea gardens,yes
+caste,Munda_ST,8.00,E,Second Adivasi sub-group in tea estates,yes
+caste,Santhali_ST,6.00,E,Present in tea belt and forest fringe,yes
+caste,Other_ST,6.00,E,"Toto (endangered tribe near Totopara), Koch, Rajbanshi-ST, Bhutia",yes
+caste,UC_bhadralok,4.00,E,"Small bhadralok fraction; tea-company managerial class, Bengali settlers",no
+caste,OBC,8.00,E,"Rajbanshi (OBC), Kurmi, Teli, Chamar-OBC fraction",no
+caste,Other_Hindu_middle,27.00,E,"Nepali/Gorkha Hindu (Bahun, Chhetri), Marwari trader, Bengali settled middle",no
+caste,Muslim,9.00,E,See C.1,no
+caste,Christian_plus_Sarna_plus_Other,9.00,E,Christian 2.8% + Sarna routed here; Sarna_ORP in C.1 is tribal-religion residual,no
+age_cohort,18_22,11.50,E,"Alipurduar district age pyramid, Census 2011; projected 2 more years; renormalized to 18+ voters only",no
+age_cohort,23_27,12.50,E,New voter cohort slightly larger as 2019 first-timers age in,no
+age_cohort,28_32,12.00,E,,no
+age_cohort,33_37,10.50,E,,no
+age_cohort,38_42,10.00,E,,no
+age_cohort,43_47,9.00,E,,no
+age_cohort,48_52,8.00,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.50,E,,no
+age_cohort,63_67,6.50,E,,no
+age_cohort,68,6.50,E,68+ open-ended; renormalized from Census 2011 adult cohort,no
+gender,Male,49.20,A,"ECI 2021 AE roll: 104,559 M / 212,651 total",no
+gender,Female,50.79,A,"ECI 2021 AE roll: 107,358 F / 212,651 total; female-majority electorate reflects NFHS-5 Jalpaiguri sex ratio 1038",no
+gender,Third_gender,0.01,A,"ECI 2021 AE roll: 10 TG / 212,651",no
+mother_tongue,Bengali,35.00,E,Bengali settlers + Rajbanshi first-language some consider Bengali; Alipurduar district complex,no
+mother_tongue,Hindi,5.00,E,"Marwari traders, Hindi-belt migrant workers, some Bihar-origin tea-garden workers",no
+mother_tongue,Urdu,1.00,E,Muslim traders in Jaigaon border belt,no
+mother_tongue,Other,4.00,E,"Residual (Bhutia, Nepali sub-groups, etc.)",no
+mother_tongue,Rajbongshi,15.00,E,Rajbanshi/Rajbongshi — historically dominant Dooars language,no
+mother_tongue,Sadri,20.00,E,"Sadri (Nagpuri) — lingua franca of tea-garden Adivasi workers (Oraon, Munda, Kurmi)",no
+mother_tongue,Nepali,10.00,E,Gorkha/Nepali speakers in foothills fringe,no
+mother_tongue,Santali,7.00,E,Santhali speakers in tea belt,no
+mother_tongue,Mundari,3.00,E,Munda-language speakers,no
+education,Illiterate,24.00,E,NFHS-5 Jalpaiguri women literate 73.6%; tribal belt below district; ~24% illiterate by 2021 vs 26% in 2019,no
+education,Primary,24.00,E,Census 2011 distribution with upward literacy trend,no
+education,Middle,20.00,E,,no
+education,Secondary,16.00,E,Modest improvement; secondary completion expanding in tribal belt,no
+education,Higher_Secondary,9.00,E,,no
+education,Graduate,5.50,E,Limited higher education access in remote Dooars,no
+education,Postgraduate,1.50,E,Concentrated in managerial/teacher class,no
+workforce_status,Main_worker,37.00,E,COVID-19 lockdown disruption reduced formal main-worker rate slightly from 38% (2019); tea-garden permanent labour dominant,no
+workforce_status,Main_worker_tea_garden,21.00,E,Tea-estate permanent labour (Adivasi-dominated); slight reduction due to COVID-19 closures in 2020,yes
+workforce_status,Main_worker_non_tea,16.00,E,"Agricultural, trade, forest, services",yes
+workforce_status,Marginal_worker,13.00,E,Slightly elevated post-COVID-19 as workers shift to marginal status,no
+workforce_status,Non_worker,32.00,E,Housewife-heavy; tribal women high household economy contribution,no
+workforce_status,Student,10.00,E,18–22 cohort in colleges/schools; disruption from COVID-19 closures,no
+workforce_status,Unemployed,8.00,E,Educated job-aspirants; COVID-19 recession increased educated unemployment,no
+occupation,Cultivator,10.00,E,Limited cultivable land (forest reserve + tea estate); smallholder patches,no
+occupation,Agricultural_labourer,43.00,E,Tea-garden labourers; slight drop from 44% (2019) due to COVID-19 disruptions,no
+occupation,Household_industry,4.00,E,"Bamboo, bidi rolling, handloom fringe",no
+occupation,Manufacturing,3.00,E,Tea factory processing workers,no
+occupation,Construction,6.00,E,Slight uptick; post-COVID-19 infrastructure work,no
+occupation,Trade_retail,10.00,E,"Jaigaon border market, Madarihat town bazaar; Bhutan trade somewhat disrupted in 2020",no
+occupation,Transport_logistics,4.00,E,"Bhutan trade transit, truck operators, jeep services",no
+occupation,Services,8.00,E,"Private services including tourism, forest-sector",no
+occupation,Government_services_teachers,6.00,E,"School teachers, forest department, block office",no
+occupation,Out_migrant_worker,6.00,D,COVID-19 reverse migration brought some back; but by 2021 AE outmigration resumed,no
+class_of_worker,Employer,1.50,E,"Tea-garden managers, large traders",no
+class_of_worker,Employee,54.00,E,Tea-estate regular wage labour; slight decrease as COVID-19 disrupted formal contracts,no
+class_of_worker,Single_worker,29.00,E,"Own-account cultivators, small traders; slightly increased post-COVID-19",no
+class_of_worker,Family_worker,15.50,E,Unpaid family labour in agriculture and household industry,no
+economic_status,BPL_household,34.00,E,COVID-19 recession compressed some APL into BPL temporarily; tea-garden Adivasi workers historically poor,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,Tea-estate permanent workers above BPL but low income,no
+economic_status,Lower_middle,18.00,E,"Petty traders, some teachers, skilled workers",no
+economic_status,Middle,9.50,E,"Small business owners, mid-level govt employees; slight increase from Lakshmir Bhandar supplementary income",no
+economic_status,Upper_middle_well_off,3.50,E,"Tea-company managerial staff, Jaigaon exporters",no
+gp_location,U1_Tea_garden_belt,65.00,E,Birpara-Madarihat tea estate zone: majority of electorate,no
+gp_location,U2_Non_tea_forest_fringe,35.00,E,"Jaigaon border area, forest-fringe villages, Buxa BTR buffer zone settlements",no
+household_composition,Avg_HH_size,4.5 persons,E,Slight decrease from 4.6 (2019); WB 2011: 4.3 average; tribal belt larger HH trend declining gradually,no
+household_composition,Nuclear_HH,61.00,E,NFHS-5 WB tribal/rural pattern; slight increase,no
+household_composition,Joint_HH,29.00,E,Slight decline from 30% (2019); younger generation separating households,no
+household_composition,Extended_multi_generation,10.00,E,Stable,no
+marital_status,Never_married,25.00,E,Census 2011 Alipurduar pattern; NFHS-5 Jalpaiguri: women married before 18 fell to 18.7% (NFHS-4: 34.5%); later marriage trend,no
+marital_status,Currently_married,66.00,E,,no
+marital_status,Widowed,8.00,E,Slightly elevated in older tribal female cohort,no
+marital_status,Separated_divorced,1.00,E,,no
+asset_media,Television,58.00,C,NFHS-4 ~55% (2019 baseline); TV growth slow in tribal belt; +3pp to 2021,no
+asset_media,Radio,7.00,C,Slight decline; replaced by mobile audio,no
+asset_media,Mobile_phone,85.00,C,NFHS-5 Jalpaiguri pattern; Jio + COVID-19 acceleration; +5pp from 2019,no
+asset_media,Smartphone_with_internet,52.00,C,Post-COVID-19 smartphone surge: +22pp from 2019 (30% → 52%); NFHS-5 period 2019-21 captures Jio 4G boom in tribal belt; methodology_2021 §C.14: +20-30pp,no
+asset_media,Computer,4.00,C,Minimal change; only managerial/teacher households,no
+asset_media,Two_wheeler,21.00,C,Marginal increase from 20% (2019),no
+asset_media,Four_wheeler,3.00,C,Stable; tea-garden managers and Jaigaon traders,no
+asset_media,Banking_access,82.00,B,PMJDY further penetration 2019→2021; Lakshmir Bhandar DBT required bank account; +7pp from 75% (2019); methodology_2021 §C.14: +5-10pp,no
+amenities,Improved_drinking_water_source,78.00,B,NFHS-5 Jalpaiguri 95.2%; Alipurduar sub-district lower due to forest/tea-garden stream reliance; ~78% estimate,no
+amenities,Improved_sanitation,58.00,B,NFHS-5 Jalpaiguri 73.2%; Swachh Bharat Phase-2 continued gains; tea-garden line housing improved; ~58% for AC-level,no
+amenities,LPG_clean_cooking_fuel,35.00,B,NFHS-5 Jalpaiguri clean fuel 42.7%; Ujjwala 2.0 + Pradhan Mantri Ujjwala Yojana expansion; tea-garden lower; ~35% estimate,no
+amenities,Wood_biomass_fuel,58.00,C,Declining from 68% (2019) as LPG adoption rises,no
+amenities,Other_fuel,7.00,C,"Kerosene, dung-cake; stable",no
+amenities,Electricity,88.00,B,NFHS-5 Jalpaiguri 97.4%; Saubhagya 2017-19 + post-completion coverage; some forest-fringe villages still off-grid; ~88%,no
+migration,Native,55.00,D,Second/third-generation Adivasi tea-garden workers born in WB; Rajbanshi native; COVID-19 return migrants added some temporarily,no
+migration,WB_other_district,5.00,D,Bengali settlers from other WB districts,no
+migration,Other_Indian_state,5.00,D,Marwari traders; some Bihar-origin workers,no
+migration,Bangladesh_origin,2.00,D,Small; some Hindu refugees in border belt; not a primary refugee AC,no
+migration,Outside_India,1.00,E,Bhutia/Nepali-origin from Bhutan side,no
+migration,Out_migrant,2.00,E,COVID-19 brought some back in 2020; by end-2021 outmigration partially resumed,no
+migration,Jharkhand_origin,25.00,D,Adivasi ancestors brought from Chota Nagpur Plateau as tea-garden indentured labour from 19th century; multi-generational now WB-born,no
+migration,Nepal_Bhutan_origin,5.00,D,Nepali and Bhutia communities in foothills fringe,no

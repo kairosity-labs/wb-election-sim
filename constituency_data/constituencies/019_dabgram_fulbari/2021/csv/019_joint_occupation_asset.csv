@@ -1,0 +1,11 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,50.00,76.00,C,Rural ag baseline; GP pockets; +15pp smartphone from 2019
+Agricultural_labourer,38.00,64.00,C,Lowest income; GP rural; +13pp smartphone
+Household_industry,55.00,82.00,C,+15pp smartphone
+Manufacturing,67.00,88.00,C,
+Construction,62.00,82.00,C,In-migrant labour; smartphone-heavy by 2021
+Trade_retail,90.00,95.00,C,Siliguri trade hub; near-saturation smartphone by 2021
+Transport_logistics,85.00,92.00,C,Logistics / trucking; smartphone for route navigation; +13pp
+Services,92.00,96.00,C,Urban private services; near saturation
+Government_services_teachers,96.00,98.00,C,Near saturation
+Out_migrant_worker,82.00,86.00,D,Remittance earners; smartphone-heavy; +12pp

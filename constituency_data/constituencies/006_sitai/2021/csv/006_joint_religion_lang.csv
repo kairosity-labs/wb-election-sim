@@ -1,0 +1,6 @@
+Religion,Bengali,Hindi,Urdu,Other,Rajbongshi,Tier,Source
+Hindu,99.60,0.20,0.00,0.10,0.10,E,Sitai CDB 99.71% Bengali (A); Hindu Rajbanshi retain dialect but Census-coded Bengali; stable from 2019
+Muslim,99.00,0.30,0.50,0.20,0.00,E,Bengali-Muslim peasantry; very small Urdu pocket in market towns
+Christian,90.00,5.00,0.00,5.00,0.00,E,Tiny base; Bengali-medium families
+Sarna_ORP,85.00,5.00,0.00,10.00,0.00,E,Small tribal population
+Other_residual,80.00,15.00,0.00,5.00,0.00,E,Residual non-Hindu non-Muslim

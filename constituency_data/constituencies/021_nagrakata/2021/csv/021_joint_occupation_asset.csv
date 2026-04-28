@@ -1,0 +1,12 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,38.00,52.00,E,Non-tea smallholder; +16pp smartphone from 2019
+Agricultural_labourer,28.00,42.00,E,Poorest segment; notable improvement
+Household_industry,42.00,55.00,E,
+Manufacturing,55.00,65.00,E,
+Construction,48.00,58.00,E,
+Trade_retail,72.00,78.00,E,Nagrakata town traders
+Transport_logistics,65.00,70.00,E,Tea-estate transport workers
+Services,78.00,80.00,E,
+Government_services_teachers,92.00,95.00,E,Highest; educated class
+Out_migrant_worker,80.00,75.00,D,Working outside; smartphone essential
+Tea_garden_worker,35.00,50.00,E,Notable improvement; +17pp smartphone; COVID drove adoption

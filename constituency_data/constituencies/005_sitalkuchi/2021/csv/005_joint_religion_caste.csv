@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,47.55,5.73,5.59,11.19,29.94,0,0,E,SC 38.5%/71.5% Hindu = 53.8% of Hindu → adjusted; Rajbanshi SC dominant; rows sum to 100
+Muslim,0,0,0,0,0,100,0,A,self-evident
+Christian,0,0,0,0,0,0,100,A,self-evident
+Sarna_ORP,10,60,0,10,20,0,0,E,Tribal communities route primarily to ST_total
+Other_residual,0,0,0,0,0,0,100,E,self-evident

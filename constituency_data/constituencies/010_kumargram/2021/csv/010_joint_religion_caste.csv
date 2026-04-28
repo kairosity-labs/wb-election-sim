@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,38.00,28.00,3.68,6.13,24.19,0,0,E,Hindu: SC ~38% of Hindu (35.50/81.60×100); ST ~28%; residual Hindu caste; stable from 2019
+Muslim,0,0,0,0,0,100,0,A,self-evident
+Christian,0,85.00,0,5.00,10.00,0,0,D,Christian = overwhelmingly Oraon/Santal ST converts in tea-belt
+Sarna_ORP,0,92.00,0,3.00,5.00,0,0,E,Sarna practitioners mostly ST; small OBC/SC fringe
+Other_residual,0,0,0,0,0,0,100,A,self-evident

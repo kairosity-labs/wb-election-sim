@@ -1,0 +1,6 @@
+Party,ac_segment_pct,tier,note
+BJP,48.84,A,"ECI 2021 AE; Kaushik Roy 115,306 votes / 236,093 total valid; wb_ac_master_v3.csv"
+AITC,43.79,A,"Manoj Roy 103,395 votes; wb_ac_master_v3.csv"
+INC,0.60,D,INC candidate; estimated from residual allocation; sub-1% in most North Bengal ACs 2021
+LF,4.77,D,"CPI(M) + SUCI(C) + other LF; residual of total valid minus BJP − AITC − INC − NOTA = 17,392 votes; ~7.37% total non-BJP/AITC; split LF ~4.77% / NOTA+others ~2.60% estimate"
+Other_NOTA,2.00,D,"NOTA + minor parties (BSP, AMB, IND); estimated from residual"

@@ -1,0 +1,96 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,84.20,E,2019 baseline 84.5%; 2yr Muslim differential growth (+~0.15pp); Tufanganj II CDB 2011: 85.60% Hindu anchor; pop-weighted with Muni and 4 GPs,no
+religion,Muslim,15.30,E,2019 baseline 15.0%; slight 2yr relative gain (+0.3pp); Tufanganj II 14.15%; rural GP pocket higher,no
+religion,Christian,0.30,E,Unchanged; Cooch Behar district baseline; small urban pocket,no
+religion,Sarna_ORP,0.10,E,Marginal; stable,no
+religion,Other_residual,0.10,E,Sikh + Jain + Buddhist + Not_stated lumped,no
+caste,SC_total,47.00,A,Pop-weighted: Tufanganj II CDB (53.8%) + Muni (23.03%) + 4 GPs Tufanganj I (~46%); Census 2011 anchor; stable to 2021,no
+caste,Rajbanshi_SC,43.00,C,~91.5% of SC pool; dominant SC community in Cooch Behar; Rajbanshi ~75% of SC in district (The Print),yes
+caste,Other_SC,4.00,E,"Namasudra, Bagdi, Chamar residual",yes
+caste,ST_total,1.50,A,Tufanganj II 2.1% + Muni 0.41% weighted; Census 2011 anchor,no
+caste,UC_bhadralok,5.00,E,Brahmin/Kayastha concentrated in Muni; stable,no
+caste,OBC,4.00,E,"Koch (non-SC), Teli, Sutradhar etc.; stable",no
+caste,Other_Hindu_middle,27.00,E,Residual Hindu (84.2 − 47 − 1.5 − 5 − 4) ≈ 26.7 → rounded 27; stable from 2019,no
+caste,Muslim,15.30,E,All sub-castes pooled; see C.1 update,no
+caste,Christian_plus_Sarna_plus_Other,0.20,E,C.1 residual combined,no
+age_cohort,18_22,11.00,E,2yr cohort aging from 2019 pyramid; slight shift as 2019 18-22 ages into 20-24; Cooch Behar Census 2011 age pyramid renormalized for 18+ adults,no
+age_cohort,23_27,12.00,E,Stable,no
+age_cohort,28_32,11.50,E,Stable,no
+age_cohort,33_37,10.50,E,Stable,no
+age_cohort,38_42,9.50,E,Stable,no
+age_cohort,43_47,9.00,E,Stable,no
+age_cohort,48_52,8.00,E,Stable,no
+age_cohort,53_57,7.50,E,Slight aging-in,no
+age_cohort,58_62,6.50,E,Slight aging-in,no
+age_cohort,63_67,7.50,E,,no
+age_cohort,68,7.00,E,68+ open-ended; slight aging-in from 2019,no
+gender,Male,49.27,B,"NFHS-5 Koch Bihar sex ratio 1,058 F per 1,000 M → 1000/2058 = 48.59%; electorate pattern may differ; use ~49.3% M for adult voter share (ECI roll tends to be closer to parity)",no
+gender,Female,50.72,B,Derived; NFHS-5 Koch Bihar improved female ratio,no
+gender,Third_gender,0.01,E,Marginal,no
+mother_tongue,Bengali,79.00,E,Stable from 2019; district dominant,no
+mother_tongue,Hindi,0.50,E,Muni trader + migrant fringe; stable,no
+mother_tongue,Urdu,0.50,E,Muslim urban pocket; stable,no
+mother_tongue,Other,0.50,E,Residual catch-all; stable,no
+mother_tongue,Rajbongshi,19.50,C,Rajbongshi spoken by Rajbanshi SC (~43% of pop); significant in Tufanganj; Census 2011 Cooch Behar pattern; stable,no
+education,Illiterate,20.00,E,2019: ~22%; 2yr literacy trend improvement ~1pp/yr → ~20%; NFHS-5 Koch Bihar women literate 79.2% (B); literacy gains continuing,no
+education,Primary,22.00,E,Stable,no
+education,Middle,20.00,E,Stable,no
+education,Secondary,17.50,E,Slight increase with mid-school expansion,no
+education,Higher_Secondary,10.50,E,Slight increase,no
+education,Graduate,7.50,E,Slight increase; college expansion in Cooch Behar,no
+education,Postgraduate,2.50,E,Slight increase,no
+workforce_status,Main_worker,31.00,E,COVID-19 impact: slight dip from 2019 32%; reverse migration returned some workers; 2020 disruption stabilised by 2021,no
+workforce_status,Marginal_worker,14.00,E,Slight uptick from 2019 13%; COVID-19 pushed some full workers to marginal category,no
+workforce_status,Non_worker,38.00,E,Stable; Lakshmir Bhandar (Apr 2021) may slightly shift female non-workers to welfare recipient category — minor in raw workforce terms,no
+workforce_status,Student,9.00,E,Stable,no
+workforce_status,Unemployed,8.00,E,Stable; COVID-19 disruption offset by return migration from metro centres,no
+occupation,Cultivator,22.00,E,Stable; COVID-19 reverse migration briefly increased cultivator count,no
+occupation,Agricultural_labourer,34.00,E,Slight decrease vs 2019 35%; some shift to construction due to return migration,no
+occupation,Household_industry,5.00,E,Stable,no
+occupation,Manufacturing,3.00,E,Stable; very limited organised sector,no
+occupation,Construction,7.00,E,Slight increase from 2019 6%; COVID-19 return migrants re-entered construction,no
+occupation,Trade_retail,10.00,E,Stable; Muni hub,no
+occupation,Transport_logistics,5.00,E,Stable,no
+occupation,Services,7.00,E,Stable,no
+occupation,Government_services_teachers,4.00,E,Stable,no
+occupation,Out_migrant_worker,3.00,D,Slight uptick recovery post-COVID-19; Assam tea garden + metro cities corridor,no
+class_of_worker,Employer,1.50,E,Stable,no
+class_of_worker,Employee,22.00,E,Stable,no
+class_of_worker,Single_worker,52.00,E,Own-account cultivator + artisan + small trader dominant; stable,no
+class_of_worker,Family_worker,24.50,E,Stable,no
+economic_status,BPL_household,26.00,C,2019: ~28%; WB poverty trend decline continues ~1pp/yr; COVID-19 may have reversed some gains; net ~26%; Cooch Behar district BPL high SC share,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,Stable,no
+economic_status,Lower_middle,23.00,E,Slight uptick as some BPL households cross threshold,no
+economic_status,Middle,13.00,E,Slight uptick,no
+economic_status,Upper_middle_well_off,3.00,E,Stable; Muni small affluent fringe,no
+gp_location,U1_Tufanganj_Municipality,9.00,E,"2011: Muni 20,998 / AC ~233,000 projected = ~9.0%; minor decline in urban share as rural area grew slightly faster",no
+gp_location,U2_Tufanganj_II_CDB_and_rural,91.00,E,Tufanganj II CDB + 4 GPs Tufanganj I; remainder,no
+household_composition,Avg_HH_size,4.4 persons,E,WB 2011: 4.3; North Bengal slightly higher; minor change 2yr,no
+household_composition,Nuclear_HH,67.00,E,NFHS-5 WB rural trend; slight increase from 2019 66%,no
+household_composition,Joint_HH,26.00,E,Slight decrease,no
+household_composition,Extended_multi_generation,7.00,E,Stable,no
+marital_status,Never_married,26.00,E,Stable; Census 2011 Cooch Behar pattern; NFHS-5 Koch Bihar women married before 18: 46.7% still high but adult never-married cohort at 18+ stable,no
+marital_status,Currently_married,65.00,E,Stable; rural-dominant AC; high marriage rate,no
+marital_status,Widowed,8.00,E,Stable; concentrated in 60+; female-skewed,no
+marital_status,Separated_divorced,1.00,E,Stable,no
+asset_media,Television,72.00,C,2019 baseline 68%; +4pp over 2yr; NFHS-5 WB rural TV saturation trend; urban Muni near-saturated,no
+asset_media,Radio,5.00,C,Declining; minor drop from 2019 6%,no
+asset_media,Mobile_phone,88.00,C,2019: 82%; post-COVID-19 mobile adoption accelerated; PMJDY + welfare delivery via mobile boosted,no
+asset_media,Smartphone_with_internet,60.00,C,2019: 38%; +22pp — COVID-19 drove major smartphone surge in rural North Bengal; Jio cheapened data; NFHS-5 WB rural smartphone diffusion; methodology §C.14 shift +20-30pp,no
+asset_media,Computer,5.00,C,Stable; negligible rural penetration change,no
+asset_media,Two_wheeler,23.00,C,2019: 22%; slight uptick,no
+asset_media,Four_wheeler,4.00,C,Stable,no
+asset_media,Banking_access,90.00,B,2019: 85%; PMJDY near-saturation + Lakshmir Bhandar (Apr 2021) Jan Dhan accounts required → +5pp push; Koch Bihar PMJDY high enrollment; methodology §C.14 +5-10pp,no
+amenities,Improved_drinking_water_source,99.00,B,NFHS-5 Koch Bihar: 99.3% improved water — near universal coverage; up from NFHS-4 98.8%; AC weighted ~99%,no
+amenities,Improved_sanitation,75.00,B,NFHS-5 Koch Bihar: 75.7% improved sanitation (up from NFHS-4 53.3%); Swachh Bharat Phase 2 impact; AC ~75%,no
+amenities,LPG_clean_cooking_fuel,26.00,B,NFHS-5 Koch Bihar: 25.7% clean cooking; up from NFHS-4 13.7%; Ujjwala Phase 1+2; AC ~26%; rural lag persists,no
+amenities,Wood_biomass_fuel,69.00,C,Dominant rural fuel; declining as LPG uptake increases; estimated 2019 67% → 69% accounting for some reversal,no
+amenities,Other_fuel,5.00,C,"Kerosene, dung, etc.; stable",no
+amenities,Electricity,98.00,B,NFHS-5 Koch Bihar: 98.2% electricity; Saubhagya scheme near-completion; AC ~98%,no
+migration,Native,78.00,D,2019: 78%; COVID-19 reverse migration from metro centres mostly temporary; stable by end-2021; BSF 50km jurisdiction (Oct 2021) did not alter native share,no
+migration,WB_other_district,8.00,D,"Stable; some in-migration from Jalpaiguri, North Dinajpur",no
+migration,Other_Indian_state,3.00,D,"Stable; Assamese, Bihari, migrant workers",no
+migration,Bangladesh_origin,8.00,D,Stable; Hindu refugee population (post-1947 + 1971); border anxiety present in community post Bangladesh temple attacks (Oct 2021) but no new migration wave,no
+migration,Outside_India,0.50,E,Negligible; minor Nepal/Bhutan-origin in border fringe,no
+migration,Out_migrant,2.50,E,COVID-19 disrupted out-migration; partial recovery by end-2021; registered here but working outside,no
+migration,Nepal_Bhutan_origin,0.00,E,Border area; set 0 — negligible for AC level; included in Outside_India,no

@@ -1,0 +1,106 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,69.50,E,Jalpaiguri district 2011: Hindu ~70%; 10-yr projection; marginal decline as Sarna-ORP identity grows; tea garden Adivasi religious identity fluidity,no
+religion,Muslim,8.00,E,Jalpaiguri district 2011 ~8–9% Muslim; Nagrakata block lower than district avg given heavy ST composition; stable,no
+religion,Christian,2.80,E,Slight increase; ongoing conversion in tea-garden belt; Anglican/Catholic missions continue,no
+religion,Sarna_ORP,18.20,E,Adivasi Sarna/traditional religion practitioners; slight increase from Christian and Hindu Adivasi self-identifying as Sarna by 2021,no
+religion,Other_residual,1.50,E,Buddhist (Nepali/Tibetan fringe near Bhutan border) + Sikh + Jain + Not_stated,no
+caste,SC_total,8.00,E,Jalpaiguri district SC ~11%; Nagrakata block lower SC given high ST proportion; stable,no
+caste,Rajbanshi_SC,5.00,E,Dominant SC in Jalpaiguri; Koch-Rajbanshi community partially SC-listed,yes
+caste,Other_SC,3.00,E,"Residual SC (Chamar, Hari, Bauri etc.)",yes
+caste,ST_total,45.00,E,Nagrakata ST-reserved; Jalpaiguri census 2011 ST ~28% at district level; Nagrakata block heavily ST (tea garden Adivasi belt — Oraon/Munda/Santhali/Toto fringe); stable,no
+caste,Oraon_ST,20.00,E,Largest single ST community in Jalpaiguri tea gardens; dominant in Nagrakata belt,yes
+caste,Munda_ST,10.00,E,Second largest tea-garden tribal,yes
+caste,Santhali_ST,8.00,E,Widespread across Terai tea estates,yes
+caste,Other_ST,7.00,E,"Includes Toto (small community), Bodo, Mech, Rabha",yes
+caste,UC_bhadralok,4.00,E,Brahmin/Kayastha/Baidya — small administrative and professional class in Nagrakata town,no
+caste,OBC,6.00,E,"Rajbanshi (OBC category), Koch, Desi Muslim artisans",no
+caste,Other_Hindu_middle,14.00,E,"Residual: Gorkha/Nepali Hindu, Bengali middle castes, Marwari trader fringe",no
+caste,Muslim,8.00,E,Mirrors C.1; mostly Bengali-speaking and Deshi Muslim,no
+caste,Christian_plus_Sarna_plus_Other,15.00,E,Collapsed: Christian converts (2.8%) + Sarna/ORP non-Hindu-coded tribal (11.7%) + Other_residual (0.5%),no
+age_cohort,18_22,12.00,E,2021 new voter cohort; renormalized from Jalpaiguri district age pyramid 2011; two new cohorts entered since 2019,no
+age_cohort,23_27,12.50,E,,no
+age_cohort,28_32,12.00,E,,no
+age_cohort,33_37,10.50,E,,no
+age_cohort,38_42,10.00,E,,no
+age_cohort,43_47,9.00,E,,no
+age_cohort,48_52,8.00,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.00,E,,no
+age_cohort,63_67,6.50,E,Slightly elevated older cohort; tea-garden stable resident population,no
+age_cohort,68,6.50,E,68+ open-ended; tea-belt long-residence elders,no
+gender,Male,51.10,E,Jalpaiguri 2011 sex ratio 955 → slight improvement to ~957; 51.10% M / 48.89% F,no
+gender,Female,48.89,E,,no
+gender,Third_gender,0.01,E,Negligible; WB pattern,no
+mother_tongue,Bengali,38.00,E,Jalpaiguri 2011 linguistic census; stable,no
+mother_tongue,Hindi,5.00,E,Hindi-belt migrants in tea estates; stable,no
+mother_tongue,Urdu,2.00,E,Small Muslim community fraction,no
+mother_tongue,Other,2.00,E,"Residual catch-all: Nepali fringe, Tibetan, Sikh",no
+mother_tongue,Sadri,28.00,E,Sadri (Nagpuri) is the lingua franca of tea-garden Adivasi workers in Jalpaiguri; stable,no
+mother_tongue,Santhali,10.00,E,Native Santhali speakers (Ol Chiki script community),no
+mother_tongue,Rajbongshi,8.00,E,Koch-Rajbanshi / Rajbongshi language community in Terai belt,no
+mother_tongue,Nepali,7.00,E,Gorkha/Nepali-speaking community near Bhutan border fringe,no
+education,Illiterate,26.00,E,Jalpaiguri district 2011 literacy ~71%; 10-yr trend improvement ~+2pp in literacy; AC-level ~74% literate → ~26% illiterate; NFHS-5 WB rural improvement,no
+education,Primary,24.00,E,Census 2011 Jalpaiguri distribution projected; stable,no
+education,Middle,19.00,E,,no
+education,Secondary,15.00,E,Slight improvement; Sabuj Sathi bicycle scheme improving retention,no
+education,Higher_Secondary,8.50,E,,no
+education,Graduate,5.50,E,,no
+education,Postgraduate,2.00,E,Slight increase; government service aspirants,no
+workforce_status,Main_worker,37.00,E,Tea garden employment drives high main-worker rate; slight decline due to COVID-19 disruption in 2020,no
+workforce_status,Main_worker_tea_garden,21.00,E,Sub-row: permanent tea estate employees; COVID-19 reduced formal employment slightly (is_subgroup=yes),yes
+workforce_status,Main_worker_non_tea,16.00,E,"Sub-row: cultivation, trade, govt (is_subgroup=yes)",yes
+workforce_status,Marginal_worker,14.00,E,Seasonal/casual tea-picking labour; periodic agricultural work,no
+workforce_status,Non_worker,31.00,E,Housewife + elderly; Lakshmir Bhandar (Apr 2021) target population; female HH heads,no
+workforce_status,Student,10.00,E,18–22 in education; COVID disruption reduced in-class attendance but not registration,no
+workforce_status,Unemployed,8.00,E,Educated job-seekers; frustrated non-tea youth; COVID return migration added to pool,no
+occupation,Cultivator,14.00,E,Non-tea-garden smallholder farming in GP areas,no
+occupation,Agricultural_labourer,8.00,E,Non-tea agricultural labourers,no
+occupation,Household_industry,3.00,E,Artisan and cottage; low in tea-belt,no
+occupation,Manufacturing,4.00,E,Small processing units in Nagrakata town,no
+occupation,Construction,5.00,E,Building trade; COVID-19 reverse migration added workers,no
+occupation,Trade_retail,8.00,E,Nagrakata town market,no
+occupation,Transport_logistics,4.00,E,Tea-estate truck/jeep economy,no
+occupation,Services,6.00,E,Private services,no
+occupation,Government_services_teachers,5.00,E,"Block-level offices, schools",no
+occupation,Out_migrant_worker,3.00,E,Young ST workers to Sikkim/Assam/Delhi; D-estimate; COVID lockdown caused temporary return,no
+occupation,Tea_garden_worker,40.00,E,"AC-local: permanent + temporary tea estate workers (pluckers, garden staff); dominant occupation category in this belt",no
+class_of_worker,Employer,1.50,E,Small tea-garden contractors and shop owners,no
+class_of_worker,Employee,47.00,E,Tea-garden registered employees dominate; also govt employees; slight decline due to COVID,no
+class_of_worker,Single_worker,31.00,E,"Own-account cultivators, petty traders; slight increase as formal employment softened",no
+class_of_worker,Family_worker,20.50,E,Unpaid family farm helpers; substantial in non-tea households,no
+economic_status,BPL_household,33.00,E,Jalpaiguri district BPL proportion; COVID-19 economic shock temporarily pushed some households into distress; slight decline from 2019 pre-COVID trajectory; net ~33%,no
+economic_status,Above_Poverty_Line_low_income,32.00,E,Marginal tea-garden and smallholder households; Lakshmir Bhandar (Apr 2021) provides income support to female HH heads,no
+economic_status,Lower_middle,21.00,E,"Regular tea-garden permanent workers, petty traders",no
+economic_status,Middle,11.00,E,"Supervisory tea-estate staff, government servants, teachers",no
+economic_status,Upper_middle_well_off,3.00,E,"Tea-estate managers, large traders, professional class in Nagrakata town",no
+gp_location,U1_Tea_Garden_belt,60.00,E,Majority of Nagrakata block population lives in or adjacent to tea garden labour lines; v0 equal-weight estimate; stable,no
+gp_location,U2_Non_Tea_rural,40.00,E,GP villages outside tea garden estates; smallholder farming belt,no
+household_composition,Avg_HH_size,4.5 persons,E,WB tea-belt pattern; NFHS-5 WB rural slight decline from 4.6 in 2019,no
+household_composition,Nuclear_HH,63.00,E,NFHS-5 WB rural pattern; COVID return migration temporarily increased joint HH but by end-2021 normalizing,no
+household_composition,Joint_HH,29.00,E,Extended family common in non-tea villages; slightly lower than 2019,no
+household_composition,Extended_multi_generation,8.00,E,Multi-generational households in older tea-garden communities,no
+marital_status,Never_married,26.00,E,Census 2011 Jalpaiguri pattern; 2021 cohort added; stable,no
+marital_status,Currently_married,65.00,E,,no
+marital_status,Widowed,8.00,E,Slightly elevated; tea-garden occupational hazard and older age profile; COVID mortality added,no
+marital_status,Separated_divorced,1.00,E,,no
+asset_media,Television,57.00,C,NFHS-5 (2019-21) WB rural ~60%; tea-garden Adivasi households below state rural avg; slight increase from 55% in 2019,no
+asset_media,Radio,7.00,C,Gradual decline; garden management less reliant on radio,no
+asset_media,Mobile_phone,85.00,C,NFHS-5 WB rural improvement; Jio rollout matured; slight increase,no
+asset_media,Smartphone_with_internet,52.00,C,Notable COVID-19 surge: +22pp from 30% in 2019; Jio affordable data + lockdown drove rapid smartphone adoption even in tea-garden belt; NFHS-5 WB rural ~50-55%,no
+asset_media,Computer,4.00,C,Very low; Jalpaiguri rural pattern; minimal change,no
+asset_media,Two_wheeler,19.00,C,Slight increase; tea-belt motorcycle use,no
+asset_media,Four_wheeler,3.00,C,Limited; mostly estate management vehicles,no
+asset_media,Banking_access,79.00,C,PMJDY Jan Dhan + Lakshmir Bhandar (Apr 2021) bank account mandatory for scheme enrollment drove further uptake; +7pp from 2019; NFHS-5 WB rural ~78%,no
+amenities,Improved_drinking_water_source,80.00,C,NFHS-5 WB rural ~80%; tea estate piped water improvement; stable,no
+amenities,Improved_sanitation,58.00,C,NFHS-5 WB rural improvement; Swachh Bharat continued 2019-21; +6pp from 2019,no
+amenities,LPG_clean_cooking_fuel,35.00,C,NFHS-5 WB rural ~35%; Ujjwala 2.0 continuity; +7pp from 2019; tea-garden Adivasi LPG uptake improving,no
+amenities,Wood_biomass_fuel,58.00,C,Primary cooking fuel declining as LPG rises; -7pp from 2019,no
+amenities,Other_fuel,7.00,C,"Kerosene, crop residue; stable",no
+amenities,Electricity,92.00,C,Saubhagya completion; tea gardens electrified; +4pp from 2019,no
+migration,Native,56.00,D,Born in Jalpaiguri district or same block; multi-generational tea-garden resident families; slight increase due to COVID return migration from outside,no
+migration,WB_other_district,8.00,D,Internal WB migrants; Bengali middle-class in Nagrakata town from other districts,no
+migration,Other_Indian_state,21.00,D,Central Indian tribal labourers; Jharkhand/Bihar/Odisha origin Oraon/Munda/Santhali — now 3rd–5th generation residents; slight decline as net out-migration reduces new in-migration,no
+migration,Bangladesh_origin,3.00,D,Small settled Bengali Hindu fringe; not primarily a refugee AC,no
+migration,Outside_India,0.50,E,Negligible; some Nepal-origin Gorkha households near Bhutan border,no
+migration,Out_migrant,3.50,E,Young ST workers temporarily absent; COVID lockdown forced return of many; by end-2021 some had returned to work destinations,no
+migration,Jharkhand_origin,8.00,D,AC-local: specifically Jharkhand/Chhattisgarh/Odisha-origin Adivasi (Oraon/Munda/Santhali) tea-garden descent — set separately from Other_Indian_state to flag load-bearing historical migration stream; overlaps Other_Indian_state,no

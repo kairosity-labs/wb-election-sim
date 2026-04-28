@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,33.33,1.89,5.03,15.09,44.65,0,0,E,28% SC / 79.25% Hindu = 35.3%; adjusted for Hindu-only SC share; OBC Rajbanshi estimated at 15% within Hindu; residual Other_Hindu_middle
+Muslim,0,0,0,0,0,100,0,A,self-evident
+Christian,0,0,0,0,0,0,100,A,self-evident
+Sarna_ORP,20.00,60.00,0,10.00,10.00,0,0,E,Tribal sarna: mostly ST + SC pool; small OBC
+Other_residual,0,0,0,0,0,0,100,A,self-evident

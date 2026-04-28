@@ -1,0 +1,12 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,42.00,64.00,E,North Bengal agrarian baseline; +14pp from 2019 post-COVID
+Agricultural_labourer,34.00,57.00,E,Lowest access group; +14pp from 2019
+Household_industry,44.00,67.00,E,
+Manufacturing,56.00,73.00,E,
+Construction,50.00,67.00,E,
+Trade_retail,72.00,82.00,E,Falakata town traders; near saturation
+Transport_logistics,65.00,76.00,E,
+Services,74.00,84.00,E,
+Government_services_teachers,88.00,93.00,E,Highest access; stable
+Out_migrant_worker,76.00,73.00,D,Tea estate youth out-migrants; smartphone-connected for remittance
+Tea_garden_worker,38.00,60.00,D,Permanent tea garden workers; +16pp smartphone from 2019 via COVID-necessity

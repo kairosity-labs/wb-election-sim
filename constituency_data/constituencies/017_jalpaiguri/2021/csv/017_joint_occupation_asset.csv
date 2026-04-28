@@ -1,0 +1,11 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,52.00,74.00,C,Rural ag baseline +17pp from 2019 smartphone surge
+Agricultural_labourer,40.00,64.00,C,Lower income group; significant smartphone gains
+Household_industry,58.00,77.00,C,
+Manufacturing,68.00,84.00,C,
+Construction,65.00,78.00,C,
+Trade_retail,83.00,90.00,C,Urban Jalpaiguri market hub
+Transport_logistics,78.00,85.00,C,Road transport hub; smartphone-dependent
+Services,86.00,92.00,C,
+Government_services_teachers,92.00,97.00,C,District HQ civil servants; highest
+Out_migrant_worker,82.00,80.00,D,Working outside; smartphone heavy; COVID-era WhatsApp/video call reliance

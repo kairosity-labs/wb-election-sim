@@ -1,0 +1,106 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,88.30,E,2019 baseline 88.50%; modest Muslim relative growth ~0.15pp over 2 yrs; Christian/Sarna stable in tea-belt; 2021 projected,no
+religion,Muslim,6.30,E,2019: 6.20%; 2-yr differential growth ~+0.10pp,no
+religion,Christian,3.50,E,Stable; tea-garden Adivasi Christian share unchanged 2019→2021,no
+religion,Sarna_ORP,1.20,E,Stable; Oraon/Munda Sarna practitioners,no
+religion,Other_residual,0.70,E,Buddhist/Sikh/Jain/Not_stated residual; marginal increase,no
+caste,SC_total,40.00,A,Unchanged from 2019 baseline; no new caste data; Census 2011 AC-weighted blend; municipality dilutes to ~40%,no
+caste,Rajbanshi_SC,30.00,C,Dominant SC sub-group in Dooars/Terai; Koch-Rajbongshi/Rajbanshi declared SC in WB,yes
+caste,Other_SC,10.00,E,"Smaller SC communities (Bagdi, Hari, Chamar fringe)",yes
+caste,ST_total,9.00,E,"Unchanged; GEN AC with lower ST concentration than AC 13/14; tea-garden Adivasi (Oraon, Munda, Ho, Santhali)",no
+caste,Oraon_ST,4.50,C,Largest ST group in Dooars tea gardens; Kurukh speakers,yes
+caste,Munda_Santhali_ST,3.00,E,Second tier ST groups in tea gardens,yes
+caste,Other_ST,1.50,E,"Ho, Bhumij, Bhutia fringe",yes
+caste,UC_bhadralok,4.00,E,Brahmin/Kayastha/Baidya; small in Dooars; service class in Alipurduar town,no
+caste,OBC,5.00,E,"Koch-Rajbongshi OBC (those not classified SC), Mahishya fringe",no
+caste,Other_Hindu_middle,28.00,E,Unclassified Hindu middle + Rajbongshi community subsets; residual within Hindu non-SC/ST,no
+caste,Muslim,6.30,E,All sub-castes pooled; see C.1 2021 update,no
+caste,Christian_plus_Sarna_plus_Other,7.70,E,Christian (3.5%) + Sarna_ORP (1.2%) + Other_residual (0.7%) + remaining ST/others,no
+age_cohort,18_22,11.50,E,2 yr cohort shift from 2019; 2019 first-timers now 20-24; slight reduction in youngest as birth-rate declines,no
+age_cohort,23_27,11.50,E,Absorbs 2019 18-22 cohort + Jio-era young adults,no
+age_cohort,28_32,11.00,E,Stable; slight shift,no
+age_cohort,33_37,10.00,E,Unchanged from 2019 projection,no
+age_cohort,38_42,9.50,E,Unchanged,no
+age_cohort,43_47,9.00,E,Unchanged,no
+age_cohort,48_52,8.00,E,Unchanged,no
+age_cohort,53_57,7.00,E,Unchanged,no
+age_cohort,58_62,6.00,E,Unchanged,no
+age_cohort,63_67,4.50,E,Slight increase as 2011 older cohort ages in,no
+age_cohort,68,12.00,E,68+ open-ended; older cohort stable; renormalized to sum,no
+gender,Male,51.30,E,NFHS-5 Jalpaiguri sex ratio 1038 F per 1000 M → ~49.1% F / 50.9% M; tea-garden slight male-skew in some pockets; AC estimate,no
+gender,Female,48.60,E,Marginal improvement from NFHS-5 trend,no
+gender,Third_gender,0.10,E,Small but non-negligible in town context,no
+mother_tongue,Bengali,66.00,A,CDB I 2011: 66.32% Bengali; stable; dominant in urban Alipurduar and bhadralok belt,no
+mother_tongue,Hindi,5.00,E,Bihari/UP migrant workers; stable,no
+mother_tongue,Urdu,0.80,E,Small Muslim pocket; stable,no
+mother_tongue,Other,0.70,E,"Residual catch-all (Nepali fringe, Bhutia, etc.)",no
+mother_tongue,Sadri,10.00,A,"CDB I 2011: 9.95% Sadri; tea-garden Adivasi lingua franca (Oraon, Munda workers); stable",no
+mother_tongue,Rajbongshi,8.00,A,CDB I 2011: 4.64% Rajbongshi (declared); AC includes Rajbanshi-belt GPs; est. ~8%; stable,no
+mother_tongue,Kurukh,4.00,A,CDB I 2011: 2.35% Kurukh; Oraon mother tongue; concentrated in tea-garden GPs,no
+mother_tongue,Boro,2.50,A,CDB I 2011: 1.52% Boro; Bodo community in Dooars foothill belt,no
+mother_tongue,Nepali,1.50,A,CDB I 2011: 1.15% Nepali; Gurkha/Gorkha community; Alipurduar town fringe,no
+mother_tongue,Mundari,1.50,A,CDB I 2011: 1.06% Mundari; Munda community in tea gardens,no
+education,Illiterate,18.00,E,2019 baseline 20%; NFHS-5 Jalpaiguri women literate 73.6% vs NFHS-4 68.8% — ~+5pp improvement in literacy broadly; 2021 projection ~18% illiterate,no
+education,Primary,24.00,E,Class 1–5; large share among tea-garden community; stable,no
+education,Middle,21.00,E,Class 6–8; stable,no
+education,Secondary,18.00,E,Class 9–10; slight +1pp as education expands,no
+education,Higher_Secondary,11.00,E,Class 11–12; slight +1pp,no
+education,Graduate,6.00,E,Urban professional class; stable,no
+education,Postgraduate,2.00,E,Small but present in district HQ service sector,no
+workforce_status,Main_worker,35.00,E,Slight reduction from 2019 (36%) due to COVID-19 lockdown impact on informal workers; tea-garden permanent workers partially restored by late 2021,no
+workforce_status,Main_worker_tea_garden,13.50,E,Sub-row: slight COVID-impact reduction from 14% (is_subgroup=yes),yes
+workforce_status,Main_worker_non_tea,21.50,E,Sub-row: non–tea-garden main workers (is_subgroup=yes),yes
+workforce_status,Marginal_worker,10.00,E,Seasonal agricultural; stable; COVID disrupted some seasonal patterns,no
+workforce_status,Non_worker,35.00,E,Increased slightly from 34% due to COVID workforce exit; Lakshmir Bhandar (Apr 2021) targets female non-workers,no
+workforce_status,Student,11.00,E,Stable; some COVID disruption in 2020-21 academic year,no
+workforce_status,Unemployed,9.00,E,Slight increase due to COVID economic disruption; educated job-seekers in district HQ,no
+occupation,Cultivator,17.00,A,CDB I 2011 cultivators 18.68%; Muni dilution; stable from 2019,no
+occupation,Agricultural_labourer,28.00,A,CDB I 2011: 34.39%; Muni dilution; tea-plucking; stable,no
+occupation,Household_industry,2.00,A,CDB I 2011: 1.11%; stable,no
+occupation,Manufacturing,5.00,E,"Timber, minor processing; Alipurduar town; stable",no
+occupation,Construction,7.00,E,District HQ construction; migrant workers; stable,no
+occupation,Trade_retail,10.00,E,Alipurduar town trading hub; stable,no
+occupation,Transport_logistics,7.00,E,"Forest road, timber, NH27, Alipurduar RJN goods handling; stable",no
+occupation,Services,10.00,E,Private services in district HQ; stable,no
+occupation,Government_services_teachers,8.00,E,District headquarters with government offices; teachers; stable,no
+occupation,Out_migrant_worker,6.00,D,Tea-belt Adivasi out-migration; COVID return then re-migration by late 2021,no
+class_of_worker,Employer,2.00,E,Census B-04 WB rural pattern; stable,no
+class_of_worker,Employee,38.00,E,Tea-garden permanent workers + govt + organised service; stable,no
+class_of_worker,Single_worker,38.00,E,Own-account cultivator + small trader + artisan; stable,no
+class_of_worker,Family_worker,22.00,E,Within agri-household; tea-plucking family labour; stable,no
+economic_status,BPL_household,29.00,C,2019 baseline 28%; COVID-19 pushed some near-poor households below poverty line; tea-belt districts higher BPL; ~29% by end-2021,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,Low-income daily-wage and tea-worker households; stable,no
+economic_status,Lower_middle,22.00,E,"Small traders, lower-grade government employees",no
+economic_status,Middle,11.00,E,District HQ service class; slight reduction due to COVID job losses,no
+economic_status,Upper_middle_well_off,3.00,E,Small professional/business class in Alipurduar town; stable,no
+gp_location,U1_Alipurduar_Municipality,32.00,E,Electorate share estimated from 2021 AE roll; urban core; stable from 2019,no
+gp_location,U2_CDB_rural_tea_garden,68.00,E,GPs of Alipurduar I and II CDBs; larger rural-and-tea-garden voter block,no
+household_composition,Avg_HH_size,4.5 persons,E,Slightly higher than WB average; tea-belt larger households; stable from 2019,no
+household_composition,Nuclear_HH,65.00,E,NFHS-4/5 WB rural pattern; tea-garden worker households tend nuclear; stable,no
+household_composition,Joint_HH,27.00,E,Stable,no
+household_composition,Extended_multi_generation,8.00,E,Larger in Adivasi community households; stable,no
+marital_status,Never_married,27.00,E,Consistent with age pyramid; NFHS-5 Jalpaiguri women married before 18 dropped to 18.7% (from 34.5% NFHS-4) suggesting delayed marriage trend,no
+marital_status,Currently_married,64.00,E,High early-marriage rate in tea-belt communities; stable,no
+marital_status,Widowed,7.50,E,Slightly higher in female-dominated older cohort,no
+marital_status,Separated_divorced,1.50,E,Stable,no
+asset_media,Television,74.00,C,2019: 72%; TV growth slowing as smartphones replace; NFHS-5 WB improvement pattern; ~74% by 2021,no
+asset_media,Radio,7.00,C,Slight decline from 8% (2019); radio still used in tea gardens but dropping,no
+asset_media,Mobile_phone,90.00,C,"2019: 85%; COVID-19 boosted mobile adoption for welfare payments, Duare Sarkar; ~90% by 2021",no
+asset_media,Smartphone_with_internet,65.00,C,"2019: 42%; COVID-19 surge: +20pp+ post-lockdown (Jio, work-from-home, government welfare apps); Dooars lower than urban WB but significant jump; ~65% by end-2021",no
+asset_media,Computer,9.00,C,Slight increase from 8%; stable,no
+asset_media,Two_wheeler,28.00,C,Stable from 2019; limited income growth in COVID period,no
+asset_media,Four_wheeler,5.00,C,Stable; limited to service-class,no
+asset_media,Banking_access,92.00,B,2019: 85%; PMJDY + Lakshmir Bhandar bank-account requirement (Apr 2021) drove further adoption; tea-estate workers; ~92% by end-2021,no
+amenities,Improved_drinking_water_source,92.00,C,NFHS-5 Jalpaiguri (proxy): 95.2%; 2019 baseline 88%; significant improvement; ~92% by 2021 for AC,no
+amenities,Improved_sanitation,70.00,C,NFHS-5 Jalpaiguri (proxy): 73.2%; 2019 baseline 65%; Swachh Bharat continued; ~70% by 2021,no
+amenities,LPG_clean_cooking_fuel,43.00,C,NFHS-5 Jalpaiguri (proxy): 42.7%; 2019 baseline 40%; Ujjwala scheme continued; ~43% by 2021,no
+amenities,Wood_biomass_fuel,49.00,C,Declining as LPG rises from 52% (2019),no
+amenities,Other_fuel,8.00,C,Kerosene and coal residual; stable in tea garden worker quarters,no
+amenities,Electricity,97.00,A,NFHS-5 Jalpaiguri (proxy): 97.4%; near-saturation confirmed; Saubhagya + Saubhagya II rollout,no
+migration,Native,70.00,D,Dooars deep-rooted Rajbanshi and tea-garden Adivasi communities; stable,no
+migration,WB_other_district,8.00,D,"Jalpaiguri, Cooch Behar, plains Bengal in-migrants; stable",no
+migration,Other_Indian_state,6.00,D,Bihar/UP migrant workers; Assam-origin Adivasi; Jharkhand tea-belt origin workers; COVID return-migration then re-migration by late 2021,no
+migration,Bangladesh_origin,4.00,D,Post-partition Hindu Bengali migrants; smaller than eastern border districts; stable,no
+migration,Outside_India,0.50,E,Negligible; Nepal/Bhutan origin in border fringe,no
+migration,Out_migrant,4.00,E,"Tea-belt young men working in Assam, other states; COVID disrupted but largely restored by end-2021",no
+migration,Jharkhand_origin,7.50,D,"Tea-garden Adivasi (Oraon, Munda) multi-generational settlers from Jharkhand tribal belt",no

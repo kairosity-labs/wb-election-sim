@@ -1,0 +1,99 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,90.00,A,"Maynaguri CDB 2011: 90.02%; 10-yr differential growth (Hindu ~1.1%/yr, Muslim ~1.3%/yr) → slight convergence; ~89.95% rounded to 90.00%",no
+religion,Muslim,9.75,A,Maynaguri CDB 2011: 9.79%; slight relative gain vs 2019 as Muslim growth marginally faster; +0.2pp from 2019,no
+religion,Christian,0.06,E,CDB 2011: 0.03%; continued small upward trend to 2021,no
+religion,Sarna_ORP,0.10,E,Tribal religion; ST population 1.33% with fraction Sarna; stable,no
+religion,Other_residual,0.09,E,"Sikh + Jain + Buddhist + Not_stated, lumped; slight compression",no
+caste,SC_total,70.97,A,"Census 2011 Maynaguri Block: SC 239,342/337,251 = 70.97% — direct Census figure; stable to 2021",no
+caste,Rajbanshi_SC,64.50,C,Rajbanshi dominant SC in northern Jalpaiguri; ~91% of SC pool; slight downward adjustment for inter-SC demographic mix,yes
+caste,Other_SC,6.47,E,"Residual SC sub-castes (Namasudra, Bagdi, etc.)",yes
+caste,ST_total,1.33,A,"Census 2011: ST 4,492/337,251 = 1.33% — direct Census figure; stable",no
+caste,Other_ST,1.33,E,Small adivasi pockets; Boro/Rabha community traces,yes
+caste,UC_bhadralok,3.00,E,Low bhadralok presence; SC-dominant AC; Brahmin/Kayastha/Baidya minimal; unchanged from 2019,no
+caste,OBC,4.00,E,"OBC Hindus including Kurmi, Mahishya fringe; Jalpaiguri district pattern",no
+caste,Other_Hindu_middle,10.70,E,Residual within Hindu (90.00 − 70.97 SC − 1.33 ST − 3.0 UC − 4.0 OBC = 10.70; residual Hindu middle),no
+caste,Muslim,9.75,E,See C.1,no
+caste,Christian_plus_Sarna_plus_Other,0.25,E,Sarna_ORP + Christian + Other_residual combined,no
+age_cohort,18_22,11.20,E,Jalpaiguri district 2011 age pyramid; 2-yr shift of 2019 cohorts; renormalised to 18+ adults; NFHS-5 Jalpaiguri under-15 = 22.6%,no
+age_cohort,23_27,11.50,E,,no
+age_cohort,28_32,11.70,E,2019 18-22 cohort aged up,no
+age_cohort,33_37,11.20,E,,no
+age_cohort,38_42,10.50,E,,no
+age_cohort,43_47,9.70,E,,no
+age_cohort,48_52,8.90,E,,no
+age_cohort,53_57,7.60,E,,no
+age_cohort,58_62,6.50,E,,no
+age_cohort,63_67,5.30,E,,no
+age_cohort,68,5.90,E,68+ open-ended; slight compression as older survivors diminish,no
+gender,Male,51.38,E,Sex ratio 945 (F per 1000 M) → 945/1945 = 48.59% F → 51.41% M; slight improvement from 2019 (935); rounded,no
+gender,Female,48.61,E,Complement,no
+gender,Third_gender,0.01,E,WB SIR pattern,no
+mother_tongue,Bengali,84.04,A,Maynaguri Block 2011: 84.26%; slight compression as Rajbongshi-speaking Rajbanshi community grows; -0.2pp,no
+mother_tongue,Hindi,0.80,E,Small trader/migrant Hindi-speaking minority; stable,no
+mother_tongue,Urdu,0.52,E,Muslim population Bengali-dominant; tiny Urdu fringe; marginal increase with Muslim share,no
+mother_tongue,Other,2.12,E,"Residual catch-all (Nepali, Sadri fringe not listed)",no
+mother_tongue,Rajbongshi,5.20,A,Maynaguri Block 2011: 5.08%; Rajbanshi SC growth trajectory; +0.12pp,no
+mother_tongue,Sadri,1.02,A,Maynaguri Block 2011: 1.02%; tea garden worker language; stable,no
+mother_tongue,Nepali,6.30,E,Nepali-speaking community in terai zone; slight growth from natural increase,no
+education,Illiterate,21.00,E,Maynaguri Block 2011 literacy 75.42%; NFHS-5 Jalpaiguri female literacy 73.6%; +2pp/yr improvement trend → ~21% illiterate by 2021,no
+education,Primary,25.50,E,Education distribution scaled; primary share contracting as middle/secondary expands,no
+education,Middle,21.50,E,,no
+education,Secondary,16.00,E,Modest gains from mid-day meal + SC incentive programmes,no
+education,Higher_Secondary,9.00,E,,no
+education,Graduate,5.50,E,Slight improvement; SC quota graduates increasing,no
+education,Postgraduate,1.50,E,Stable,no
+workforce_status,Main_worker,35.50,E,COVID-19 disruption (Mar-Aug 2020) suppressed formal employment; slight recovery by end-2021; vs 2019 ~36%,no
+workforce_status,Marginal_worker,13.50,E,Seasonal agricultural marginal workers; slight increase post-COVID return migration,no
+workforce_status,Non_worker,37.00,E,Housewives + elderly + retired; stable,no
+workforce_status,Student,8.00,E,18–22 in education; stable despite school disruption (COVID schooling gap),no
+workforce_status,Unemployed,6.00,E,Educated job-seekers; rural economy remained depressed through 2021,no
+occupation,Cultivator,28.00,E,Stable; COVID disruption minimal in agriculture,no
+occupation,Agricultural_labourer,33.00,E,Slight increase; COVID return migration added agrarian labour supply,no
+occupation,Household_industry,5.00,E,"Bidi-rolling, weaving; stable",no
+occupation,Manufacturing,2.50,E,COVID disruption hit organised manufacturing; slight fall from 2019,no
+occupation,Construction,5.50,E,Disrupted by COVID lockdown; partial recovery by end-2021,no
+occupation,Trade_retail,10.00,E,Mainaguri town retail; resilient,no
+occupation,Transport_logistics,4.00,E,NH-27 corridor; recovery by 2021,no
+occupation,Services,7.00,E,Stable,no
+occupation,Government_services_teachers,3.00,E,SC-reserved positions; stable,no
+occupation,Out_migrant_worker,2.00,D,COVID return-migration partially reversed by end-2021; net stable,no
+class_of_worker,Employer,1.50,E,Census B-04 WB rural pattern; stable,no
+class_of_worker,Employee,21.50,E,Slight fall from COVID disruption in organised employment,no
+class_of_worker,Single_worker,48.50,E,Own-account cultivators + petty traders; slightly higher post-COVID,no
+class_of_worker,Family_worker,28.50,E,High unpaid family worker share; stable,no
+economic_status,BPL_household,27.00,D,Jalpaiguri rural BPL ~28% at 2019; COVID reverse migration slightly worsened near-BPL; SC-dominated AC; slight improvement from Lakshmir Bhandar (Apr 2021) and welfare stack,no
+economic_status,Above_Poverty_Line_low_income,37.00,E,Near-poor agrarian households; stable,no
+economic_status,Lower_middle,22.50,E,,no
+economic_status,Middle,11.00,E,Mainaguri town / government employee households; stable,no
+economic_status,Upper_middle_well_off,2.50,E,Very limited affluent class; marginal growth,no
+gp_location,U1_Mainaguri_town,9.00,E,"Mainaguri census town ~30,490 pop (2011); minor growth to 2021; ~34,000 → 34,000/378,000 ≈ 9.0%; slight urban proportion fall as rural grows faster",no
+gp_location,U2_Maynaguri_CDB_rural,91.00,E,Remainder: rural GPs of Maynaguri CDB; dominant share,no
+household_composition,Avg_HH_size,4.5 persons,E,WB 2011: 4.3 state average; Jalpaiguri rural slightly higher; marginal decline toward 4.5 by 2021,no
+household_composition,Nuclear_HH,66.00,E,NFHS-5 WB rural pattern; slight increase in nuclear households,no
+household_composition,Joint_HH,27.00,E,Slight decline; COVID-era household restructuring,no
+household_composition,Extended_multi_generation,7.00,E,Stable,no
+marital_status,Never_married,25.00,E,Stable from 2019; rural SC community,no
+marital_status,Currently_married,66.00,E,High marriage rate in rural SC communities,no
+marital_status,Widowed,7.50,E,COVID-19 excess mortality slightly elevated widowed share; concentrated in 60+ cohort,no
+marital_status,Separated_divorced,1.50,E,Stable,no
+asset_media,Television,70.00,C,NFHS-5 Jalpaiguri implied ~70% (extrapolated from NFHS-4 WB rural 60% + upward trend; TV penetration plateauing); stable relative to 2019,no
+asset_media,Radio,7.00,C,Declining; slightly lower than 2019 (8%),no
+asset_media,Mobile_phone,87.00,C,COVID surge in mobile usage; further Jio penetration 2020-21; +5pp from 2019,no
+asset_media,Smartphone_with_internet,58.00,C,COVID-era smartphone surge (+20pp from 2019's 38%); WhatsApp/YouTube primary news vector in rural North Bengal by 2021,no
+asset_media,Computer,4.00,C,Unchanged; rural SC-dominant AC,no
+asset_media,Two_wheeler,24.00,C,Modest growth; +2pp from 2019,no
+asset_media,Four_wheeler,3.00,E,Minimal; stable,no
+asset_media,Banking_access,91.00,B,PMJDY + Jan Dhan saturation; Lakshmir Bhandar (Apr 2021) required bank account → further push; +6pp from 2019; NFHS-5 Jalpaiguri banking gains pattern,no
+amenities,Improved_drinking_water_source,93.00,C,NFHS-5 Jalpaiguri: 95.2% (2019-21 survey); AC-level slightly lower than district; ~93% for rural-dominant AC,no
+amenities,Improved_sanitation,68.00,C,NFHS-5 Jalpaiguri: 73.2%; AC-level rural lag; ~68% accounting for rural-dominant composition,no
+amenities,LPG_clean_cooking_fuel,42.00,C,NFHS-5 Jalpaiguri: 42.7% clean fuel; direct district anchor; Ujjwala scheme expansion 2019-21,no
+amenities,Wood_biomass_fuel,53.00,C,Declining as LPG rises; terai forest access still drives biomass use,no
+amenities,Other_fuel,5.00,E,Kerosene + dung; residual; stable,no
+amenities,Electricity,97.00,C,NFHS-5 Jalpaiguri: 97.4%; Saubhagya saturation by 2021; direct district anchor,no
+migration,Native,81.00,E,Predominantly native Rajbanshi SC community; COVID return-migration temporarily swelled native register by ~1pp but mostly returned by end-2021,no
+migration,WB_other_district,5.00,E,"Stable; in-migrants from Cooch Behar, Darjeeling",no
+migration,Other_Indian_state,2.50,E,Hindi/Bihari trader fringe; stable,no
+migration,Bangladesh_origin,4.00,D,Smaller refugee fraction than South Bengal; some Namasudra/SC partition-era inflow; stable,no
+migration,Outside_India,0.50,E,Negligible; Nepal-origin registered households,no
+migration,Out_migrant,4.00,E,COVID return-migration visible in register; higher than 2019 (~3%) as some returned and re-registered; partially reversed by end-2021,no
+migration,Nepal_Bhutan_origin,3.00,E,AC-local: Nepali-speaking settled community in terai zone; stable,no

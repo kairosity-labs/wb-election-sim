@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,72.00,1.20,4.85,4.25,17.70,0,0,E,SC_total 61.50/82.40 Hindu ≈ 74.6%; adjusted for non-Hindu SC fraction; stable from 2019
+Muslim,0,0,0,0,0,100,0,A,self-evident
+Christian,0,0,0,0,0,0,100,A,self-evident
+Sarna_ORP,0,80,0,5,15,0,0,E,Tribal sub-castes mostly route to ST_total
+Other_residual,0,0,0,0,0,0,100,A,self-evident

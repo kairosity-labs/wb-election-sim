@@ -1,0 +1,98 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,71.50,E,Cooch Behar district 2011 ~75.6% Hindu; 10-yr Muslim differential growth ~+0.3pp/yr → ~71.5% by 2021; Sitalkuchi block has higher Muslim share than district average,no
+religion,Muslim,27.00,E,Sitalkuchi block estimated ~25% Muslim 2011; 10-yr growth to ~27.0%,no
+religion,Christian,0.30,E,Cooch Behar district 2011 ~0.35% Christian; negligible trend change,no
+religion,Sarna_ORP,0.80,E,Rajbanshi community tribal religion trace; stable,no
+religion,Other_residual,0.40,E,Sikh + Buddhist + Not_stated residual,no
+caste,SC_total,38.50,A,Cooch Behar district SC Census 2011 40.0%; Sitalkuchi block slightly lower given Muslim share; wb_ac_master_v3.csv sc_pop / pop_total confirms district pattern,no
+caste,Rajbanshi_SC,34.00,C,Dominant SC community in Cooch Behar; Rajbanshi is largest SC sub-group; community straddles SC/OBC boundary,yes
+caste,Namasudra_SC,2.50,E,Secondary SC sub-group in Cooch Behar,yes
+caste,Other_SC,2.00,E,"Remaining SC sub-groups (Koch, Bagdi etc.)",yes
+caste,ST_total,4.70,A,Cooch Behar district ST 4.7% Census 2011,no
+caste,Rajbanshi_ST,3.50,C,Rajbanshi community with ST listing in some classifications,yes
+caste,Other_ST,1.20,E,"Mech, Toto and smaller tribal groups",yes
+caste,UC_bhadralok,4.00,E,Small upper-caste share in rural Cooch Behar; Brahmin/Kayastha fringe in market towns,no
+caste,OBC,8.00,E,OBC Rajbanshi (non-SC registered) + Koch-Rajbanshi + other backward communities,no
+caste,Other_Hindu_middle,15.80,E,Residual within Hindu (71.50 − 38.50 SC − 4.70 ST − 4.00 UC − 8.00 OBC = 16.30; minus Christian/Sarna overlap → ~15.80),no
+caste,Muslim,27.00,E,See C.1; primarily Bengali-speaking peasantry and agricultural labourers,no
+caste,Christian_plus_Sarna_plus_Other,2.00,E,See C.1,no
+age_cohort,18_22,12.50,E,Cooch Behar district age pyramid 2011; renormalized to 18+ voters; two additional years of cohort aging from 2019 estimate; NFHS-5 Koch Bihar population below age 15 = 25% confirming young-adult share,no
+age_cohort,23_27,12.00,E,,no
+age_cohort,28_32,11.50,E,,no
+age_cohort,33_37,10.50,E,,no
+age_cohort,38_42,10.00,E,,no
+age_cohort,43_47,9.00,E,,no
+age_cohort,48_52,8.00,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.00,E,,no
+age_cohort,63_67,7.00,E,,no
+age_cohort,68,6.50,E,68+ open-ended,no
+gender,Male,49.80,E,"NFHS-5 Koch Bihar sex ratio 1,058 F per 1000 M → 51.36% F / 48.64% M for total population; adult electorate adjusted to ~49.8% M",no
+gender,Female,50.19,E,Derived from NFHS-5 sex ratio; notably improved female share vs Census 2011,no
+gender,Third_gender,0.01,E,WB state norm ~0.01%,no
+mother_tongue,Bengali,84.80,E,Dominant language in Cooch Behar; minimal change from 2019,no
+mother_tongue,Hindi,0.50,E,Trader/migrant fringe in Sitalkuchi bazaar,no
+mother_tongue,Urdu,0.50,E,Small Muslim pocket,no
+mother_tongue,Other,0.50,E,Residual catch-all,no
+mother_tongue,Rajbongshi,13.70,E,Rajbongshi/Rajbanshi language spoken by Koch-Rajbanshi community; marginal increase with community identity assertion post-2019 BJP mobilisation; AC-local addition,no
+education,Illiterate,20.00,E,NFHS-5 Koch Bihar women literate 79.2% (from 73.7% NFHS-4); AC literacy improvement ~+2pp/2yr → ~20% illiterate 2021,no
+education,Primary,24.00,E,Census 2011 education distribution scaled; stable,no
+education,Middle,20.00,E,,no
+education,Secondary,16.50,E,Marginal increase with school enrolment trend,no
+education,Higher_Secondary,10.50,E,,no
+education,Graduate,7.00,E,Slight upward trend,no
+education,Postgraduate,2.00,E,,no
+workforce_status,Main_worker,32.50,E,Cooch Behar district Census 2011 main-worker ~33%; slight COVID-19 disruption in 2020–2021 reduced formal employment; marginal recovery by end-2021,no
+workforce_status,Marginal_worker,13.00,E,Seasonal agricultural pattern; COVID-19 reverse migration increased marginal worker pool,no
+workforce_status,Non_worker,36.00,E,Housewives + elderly; stable,no
+workforce_status,Student,10.00,E,18–22 cohort partly in education,no
+workforce_status,Unemployed,8.50,E,Slightly elevated vs 2019 due to COVID-19 job disruption; educated job-seeking pool,no
+occupation,Cultivator,28.00,E,Cooch Behar district Census 2011 ~30% cultivators; Sitalkuchi rural pattern stable,no
+occupation,Agricultural_labourer,35.00,E,High ag-labour share; landless Rajbanshi SC and Muslim labourers dominant; COVID-19 return migration reinforced local ag-labour pool,no
+occupation,Household_industry,4.00,E,Cooch Behar district HH industry ~4.5%; stable,no
+occupation,Manufacturing,2.00,E,Limited organised manufacturing,no
+occupation,Construction,5.00,E,Includes local construction; some returning COVID-19 migrants re-joined construction,no
+occupation,Trade_retail,10.00,E,Sitalkuchi bazaar traders; border-area petty trade,no
+occupation,Transport_logistics,4.00,E,Road transport,no
+occupation,Services,6.00,E,Private services,no
+occupation,Government_services_teachers,4.00,E,Government employees + school teachers,no
+occupation,Out_migrant_worker,2.00,D,Reduced vs longer-term trend; COVID-19 reverse migration; gradual resumption by end-2021,no
+class_of_worker,Employer,1.50,E,Census B-04 WB rural pattern; very low in agricultural AC,no
+class_of_worker,Employee,22.00,E,Government + organised sector + wage earners,no
+class_of_worker,Single_worker,46.00,E,Cultivator (own-account) + own-account artisan + petty trader,no
+class_of_worker,Family_worker,30.50,E,High family-worker share in agricultural households typical of Cooch Behar rural,no
+economic_status,BPL_household,31.00,C,"Cooch Behar district BPL ~35% (state BPL 2011 ~31%); rural Sitalkuchi estimated ~31% after WB poverty reduction trend; COVID-19 briefly reversed gains but welfare outreach (PMGKAY, Duare Sarkar) cushioned impact",no
+economic_status,Above_Poverty_Line_low_income,35.00,E,Working poor — subsistence agriculture; PMGKAY food ration supplemented incomes through COVID period,no
+economic_status,Lower_middle,21.00,E,Small cultivators + lower-grade government employees,no
+economic_status,Middle,10.00,E,Mid-level government employees + medium traders,no
+economic_status,Upper_middle_well_off,3.00,E,Sitalkuchi bazaar traders + larger landowners,no
+gp_location,U1_Sitalkuchi_CD_Block_north,50.00,E,v0 equal-split assumption pending DCHB Cooch Behar Part-A; northern GPs of Sitalkuchi block,no
+gp_location,U2_Sitalkuchi_CD_Block_south,50.00,E,Southern GPs including Sitalkuchi town fringe; refine when block-level Census tables available,no
+household_composition,Avg_HH_size,4.5 persons,E,WB rural stable; Cooch Behar rural consistent,no
+household_composition,Nuclear_HH,65.00,E,NFHS-4/5 WB rural pattern; Cooch Behar,no
+household_composition,Joint_HH,28.00,E,Higher joint-family share in farming communities,no
+household_composition,Extended_multi_generation,7.00,E,Extended households; elderly grandparents pattern,no
+marital_status,Never_married,25.00,E,Census 2011 Cooch Behar pattern; includes first-time voter cohort,no
+marital_status,Currently_married,66.00,E,High married share in rural AC; NFHS-5 Koch Bihar early marriage indicator (women 20-24 married before 18 = 46.7%) confirms pattern,no
+marital_status,Widowed,8.00,E,Concentrated in 60+; female-skewed,no
+marital_status,Separated_divorced,1.00,E,,no
+asset_media,Television,65.00,C,NFHS-5 Koch Bihar (2019-21) consistent with NFHS-4 trend; rural Cooch Behar TV ownership stable ~65%; no major uplift 2019-2021,no
+asset_media,Radio,7.00,C,Slight decline; border-area rural households still use radio,no
+asset_media,Mobile_phone,88.00,C,Post-COVID-19 mobile phone penetration surge; ~+6pp from 2019 est. 82%; Jio continued rural expansion,no
+asset_media,Smartphone_with_internet,60.00,C,Major post-COVID-19 surge; +25pp from 2019 est. 35%; NFHS-5 WB state-level smartphone penetration surge 2019-21; methodology_2021 §C.14: smartphone +20-30pp,no
+asset_media,Computer,4.00,C,Minimal change in rural agricultural AC,no
+asset_media,Two_wheeler,23.00,C,Marginal increase; modest motorisation,no
+asset_media,Four_wheeler,3.00,C,Negligible,no
+asset_media,Banking_access,88.00,B,PMJDY saturation + COVID-19 DBT/PMGKAY pushed near-universal enrollment; +6pp from 2019 est. 82%; methodology_2021 §C.14: banking +5-10pp,no
+amenities,Improved_drinking_water_source,95.00,B,NFHS-5 Koch Bihar indicator 8 = 99.3% population with improved drinking water; AC-level conservative estimate 95%,no
+amenities,Improved_sanitation,75.00,B,NFHS-5 Koch Bihar indicator 9 = 75.7% improved sanitation; near-direct use,no
+amenities,LPG_clean_cooking_fuel,25.00,B,NFHS-5 Koch Bihar indicator 10 = 25.7% households using clean fuel; note Ujjwala cylinders distributed but refill rate low; active use ~25%,no
+amenities,Wood_biomass_fuel,68.00,B,Dominant fuel; NFHS-5 clean fuel 25.7% implies ~68-70% biomass; rural kitchen reality,no
+amenities,Other_fuel,7.00,E,Kerosene + other residual,no
+amenities,Electricity,98.00,B,NFHS-5 Koch Bihar indicator 7 = 98.2% electricity; Saubhagya near-saturation confirmed,no
+migration,Native,74.00,D,Estimate; Sitalkuchi is deep rural Cooch Behar; COVID-19 return migration reinforced native pool slightly,no
+migration,WB_other_district,6.00,D,"Slight increase from COVID-19 reverse migration from Siliguri, Guwahati-adjacent districts",no
+migration,Other_Indian_state,1.00,D,Very small trader/service migrant fraction; COVID-19 somewhat reduced,no
+migration,Bangladesh_origin,17.00,D,Significant Hindu refugee/migrant presence from East Pakistan/Bangladesh partition and post-1971; Cooch Behar border district pattern; stable,no
+migration,Outside_India,0.50,E,Negligible,no
+migration,Out_migrant,1.50,E,Working outside AC but registered here; COVID-19 temporarily pushed some back; recovering by end-2021,no

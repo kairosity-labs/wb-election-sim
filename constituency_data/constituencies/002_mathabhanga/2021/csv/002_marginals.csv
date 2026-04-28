@@ -1,0 +1,96 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,82.40,B,"2019 baseline 82.50%; slight relative Muslim gain (+0.1pp over 2yr); Mathabhanga II CDB 84.46% Hindu, Mathabhanga I 3 GPs ~80.77%; 10-yr projection from Census 2011",no
+religion,Muslim,17.00,B,"2019 baseline 16.90%; border AC, modest relative gain; weighted from Mathabhanga II 15.26% + Mathabhanga I 18.61% CDB projected",no
+religion,Christian,0.25,E,Stable; Mathabhanga II 0.18% + Mathabhanga I 0.02%; negligible change,no
+religion,Sarna_ORP,0.20,E,Minimal; Cooch Behar district ST share ~1%; mostly Hindu-identified,no
+religion,Other_residual,0.15,E,Sikh + Jain + Buddhist + Not_stated; residual; stable,no
+caste,SC_total,61.50,B,Stable from 2019; Mathabhanga II SC 64.92% + Muni SC 23.89% + 3 GPs of Mathabhanga I ~68.77% SC (CDB I avg); weighted population-share; Cooch Behar is India's highest-SC district,no
+caste,Rajbanshi_SC,55.00,C,Dominant SC sub-group in Cooch Behar; ~75% of SC pool per Print/Census pattern; Koch-Rajbanshi SC,yes
+caste,Namasudra_SC,3.50,E,Second SC group in region; smaller presence,yes
+caste,Other_SC,3.00,E,Residual SC sub-groups,yes
+caste,ST_total,1.00,B,Mathabhanga II ST 1.31%; Mathabhanga I ST 0.06%; Muni ST negligible; stable,no
+caste,UC_bhadralok,4.00,E,Brahmin/Kayastha/Baidya; very small in this predominantly SC-Rajbanshi district,no
+caste,OBC,3.50,E,Koch-OBC and artisan communities,no
+caste,Other_Hindu_middle,12.85,E,Residual within Hindu (82.40 − 61.50 SC − 1.00 ST − 4.00 UC − 3.50 OBC = 12.40; slight rounding),no
+caste,Muslim,17.00,E,All sub-castes pooled; see C.1,no
+caste,Christian_plus_Sarna_plus_Other,0.15,E,Christian 0.25 + Sarna 0.20 + Other 0.15 = 0.60; minor rounding; lumped per schema,no
+age_cohort,18_22,11.50,E,Renormalized from Cooch Behar district Census 2011 age pyramid + 2yr cohort advance; 18+ only; NFHS-5 Koch Bihar: 25% population below age 15,no
+age_cohort,23_27,12.50,E,2019 18_22 cohort advances; first-time voters 2021 aged into this group,no
+age_cohort,28_32,11.50,E,,no
+age_cohort,33_37,10.50,E,,no
+age_cohort,38_42,10.00,E,,no
+age_cohort,43_47,9.50,E,,no
+age_cohort,48_52,8.50,E,,no
+age_cohort,53_57,7.50,E,,no
+age_cohort,58_62,6.50,E,,no
+age_cohort,63_67,6.00,E,,no
+age_cohort,68,6.00,E,68+ open-ended; slight aging of cohort,no
+gender,Male,48.60,B,"NFHS-5 Koch Bihar sex ratio 1,058 F per 1000 M → 48.6% M / 51.4% F; shift from NFHS-4 baseline of 949",no
+gender,Female,51.39,B,NFHS-5 Koch Bihar district,no
+gender,Third_gender,0.01,E,Marginal fraction; state pattern,no
+mother_tongue,Bengali,91.00,B,Dominant language; Cooch Behar CDBs majority Bengali-speaking; stable from 2019,no
+mother_tongue,Hindi,0.50,E,Small trader and migrant fringe; stable,no
+mother_tongue,Urdu,1.50,E,Muslim pockets in border area; slight increase with Muslim population gain,no
+mother_tongue,Other,0.50,E,Residual,no
+mother_tongue,Rajbongshi,6.50,C,Rajbanshi/Rajbongshi dialect spoken by Koch-Rajbanshi SC community; AC-local; significant in rural areas of Cooch Behar; classified under Bengali in census but functionally distinct,no
+education,Illiterate,16.50,B,NFHS-5 Koch Bihar: women literate 79.2% (NFHS-5) vs 73.7% attended school (NFHS-4); 2yr further literacy improvement from 2019 baseline 18%; ~16.5% by 2021,no
+education,Primary,23.50,E,,no
+education,Middle,22.00,E,,no
+education,Secondary,17.50,E,Slight secondary-level expansion,no
+education,Higher_Secondary,10.50,E,,no
+education,Graduate,7.50,E,Marginal improvement; SC community educational expansion,no
+education,Postgraduate,2.50,E,,no
+workforce_status,Main_worker,32.00,B,COVID-19 impact on formal employment; slight decline from 2019 33%; reverse migration from urban centres during 2020 lockdowns inflated local registration,no
+workforce_status,Marginal_worker,13.00,E,Slightly higher due to COVID-period disruption and irregular work,no
+workforce_status,Non_worker,36.50,E,Lakshmir Bhandar beneficiaries concentrated here; post-COVID housewife + elderly,no
+workforce_status,Student,10.00,E,Stable; school reopening post-COVID in progress,no
+workforce_status,Unemployed,8.50,E,COVID-period job loss; educated job-seekers; limited urban employment,no
+occupation,Cultivator,38.50,B,Slight increase due to COVID reverse migration returning workers to agriculture; Mathabhanga I: 47.24% cultivators; Mathabhanga II: 34.25%,no
+occupation,Agricultural_labourer,32.00,B,Stable; Mathabhanga I: 31.21%; Mathabhanga II: 39.06%; lockdown-driven shift,no
+occupation,Household_industry,2.00,B,Stable,no
+occupation,Manufacturing,2.50,E,Slight decline from COVID disruption,no
+occupation,Construction,5.00,E,Stable; local construction resumed post-lockdown,no
+occupation,Trade_retail,8.00,E,Mathabhanga Muni sub-divisional hub; partial COVID disruption 2020 recovered by 2021,no
+occupation,Transport_logistics,3.00,E,Stable,no
+occupation,Services,5.00,E,Partial recovery from COVID,no
+occupation,Government_services_teachers,4.00,E,Stable; school teachers partially active,no
+occupation,Out_migrant_worker,0.00,E,COVID-driven reverse migration reduced out-migration to near zero by 2021,no
+class_of_worker,Employer,1.50,E,Stable; limited employer class in SC-heavy AG economy,no
+class_of_worker,Employee,21.00,E,Slight COVID-period contraction in regular employment,no
+class_of_worker,Single_worker,53.00,E,Increase; reverse migrants returning to own-account farming; Rajbanshi farming community,no
+class_of_worker,Family_worker,24.50,E,Stable; unpaid family helpers in agriculture,no
+economic_status,BPL_household,32.00,E,COVID impact reversed some poverty-reduction gains; 2019 baseline 30%; slight increase due to lockdown income loss in 2020,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,Stable,no
+economic_status,Lower_middle,21.00,E,Slight compression due to COVID income loss,no
+economic_status,Middle,9.50,E,,no
+economic_status,Upper_middle_well_off,2.50,E,Limited affluence; Muni trader class partially impacted,no
+gp_location,U1_Mathabhanga_Municipality,8.20,E,"2011: Muni 23,890 / AC ~265,000 = 9.0%; urban share continues slight relative decline vs rural growth → ~8.2% by 2021",no
+gp_location,U2_Mathabhanga_II_CDB_and_GPs,91.80,E,Remainder; Mathabhanga II full CDB + 3 GPs of Mathabhanga I; COVID reverse migration swelled rural area temporarily,no
+household_composition,Avg_HH_size,4.5 persons,E,WB 2011: 4.3; Cooch Behar slightly larger household; COVID period may have temporarily increased HH size due to return migration,no
+household_composition,Nuclear_HH,64.00,E,Slight decrease from 2019 due to return migrants rejoining extended families,no
+household_composition,Joint_HH,29.00,E,Slight increase; return migrants,no
+household_composition,Extended_multi_generation,7.00,E,Stable,no
+marital_status,Never_married,26.00,E,Stable; Census 2011 Cooch Behar pattern; NFHS-5 Koch Bihar: women age 20-24 married before 18 = 46.7% (high early marriage),no
+marital_status,Currently_married,66.00,E,Stable; high marriage prevalence in rural SC community,no
+marital_status,Widowed,7.00,E,"Concentrated in 60+, female-skewed; slight increase with aging",no
+marital_status,Separated_divorced,1.00,E,Stable,no
+asset_media,Television,72.00,B,NFHS-5 not directly providing TV data; 2019 baseline 70%; modest +2pp rural saturation; TV near-saturated in urban fraction,no
+asset_media,Radio,5.00,E,Declining; stable 2019 baseline,no
+asset_media,Mobile_phone,87.00,B,2019 baseline 82%; post-COVID acceleration; migrant return households now mobile-equipped; ~+5pp,no
+asset_media,Smartphone_with_internet,58.00,B,Notable post-COVID surge; 2019 baseline 38%; Jio + COVID work-from-home + Duare Sarkar digital rollout drove +20pp; lockdown forced digital adoption,no
+asset_media,Computer,6.50,E,Marginal improvement from 2019 6%; Muni fraction,no
+asset_media,Two_wheeler,23.00,E,Modest +1pp from 2019 22%,no
+asset_media,Four_wheeler,3.00,E,Stable; limited affluence,no
+asset_media,Banking_access,93.00,B,PMJDY + Lakshmir Bhandar bank account requirement (Apr 2021) drove further penetration; +8pp from 2019 85%; near-saturation,no
+amenities,Improved_drinking_water_source,99.00,B,NFHS-5 Koch Bihar: 99.3% — dramatic improvement from NFHS-4 98.8%; effectively saturated,no
+amenities,Improved_sanitation,76.00,B,NFHS-5 Koch Bihar: 75.7% — significant gain from NFHS-4 53.3%; Swachh Bharat continued impact,no
+amenities,LPG_clean_cooking_fuel,26.00,B,NFHS-5 Koch Bihar: 25.7% — lower than state urban average; Ujjwala but rural SC households slow to adopt; slight gain from 2019 35% estimate (downward correction from NFHS-5 hard data),no
+amenities,Wood_biomass_fuel,68.00,B,NFHS-5 Koch Bihar: wood/biomass still dominant; cooking fuel sum adjustment,no
+amenities,Other_fuel,6.00,E,"Kerosene, dung, crop residue",no
+amenities,Electricity,98.00,B,NFHS-5 Koch Bihar: 98.2% — near-saturation; Saubhagya saturation confirmed,no
+migration,Native,80.50,E,Predominantly settled Rajbanshi-SC farming community; slight increase in native share due to COVID return migration of temporarily out-migrated workers,no
+migration,WB_other_district,5.00,E,Stable; small fraction of in-migrants to Muni,no
+migration,Other_Indian_state,1.50,E,Stable; Hindi-speaking traders; COVID reduced fresh in-migration,no
+migration,Bangladesh_origin,11.00,D,Border AC; post-1947/1971 Hindu migration families; stable long-term; BSF 50km jurisdiction (Oct 2021) increased border sensitivity,no
+migration,Outside_India,0.50,E,Negligible,no
+migration,Out_migrant,1.50,E,Reduced from 2019 2%; COVID reverse migration brought out-migrants back; many re-registered locally by 2021,no

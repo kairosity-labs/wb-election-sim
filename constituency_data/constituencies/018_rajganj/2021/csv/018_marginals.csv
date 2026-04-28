@@ -1,0 +1,101 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,71.50,E,Jalpaiguri district Census 2011 ~75% Hindu; 10-yr projection with religion-differential growth; tribal population partly captured under Sarna_ORP; slight relative Muslim gain,no
+religion,Muslim,16.20,E,Jalpaiguri district 2011 ~16%; 10-yr projection +0.2pp gain; Rajganj block eastern GP Muslim pockets,no
+religion,Christian,3.50,E,Tea-belt Christian presence (missionary-origin); stable from 2019,no
+religion,Sarna_ORP,6.80,E,Oraon/Munda/Ho/Santhali tribal population in tea garden belt; slight upward revision based on Jalpaiguri district 2011 tribal share,no
+religion,Other_residual,2.00,E,Sikh + Buddhist + Jain + Not-stated; Jalpaiguri town fringe; stable,no
+caste,SC_total,26.00,E,Jalpaiguri district Census 2011 SC ~23-26%; Rajganj block Rajbanshi-dominated rural GPs; stable,no
+caste,Rajbanshi_SC,20.00,E,Dominant SC community in North Bengal; Koch-Rajbanshi belt,yes
+caste,Other_SC,6.00,E,"Residual SC communities (Namasudra, Hadi, Bauri etc.)",yes
+caste,ST_total,14.00,E,Jalpaiguri district ST ~17%; tea-garden Oraon/Munda/Ho; Rajganj block lower than district average; stable,no
+caste,Oraon_ST,8.00,E,Dominant ST in Jalpaiguri tea belt; Oraon (Kurukh-speaking) tea garden workers,yes
+caste,Other_ST,6.00,E,"Munda, Ho, Santhali, Bhumij in tea gardens",yes
+caste,UC_bhadralok,7.00,E,Brahmin/Kayastha/Baidya; concentrated in Rajganj town and educated services,no
+caste,OBC,10.00,E,"Koch (non-SC), Teli, Sutradhar, Kurmi (non-ST), Mahishya fringe",no
+caste,Other_Hindu_middle,14.50,E,Residual Hindu middle castes not classified SC/ST/UC/OBC; adjusted for 10-yr projection,no
+caste,Muslim,16.20,E,See C.1; largely Bengali-speaking Muslim peasantry,no
+caste,Christian_plus_Sarna_plus_Other,12.30,E,Christian (tea-belt) + Sarna_ORP (tribal religion) + Other_residual; see C.1,no
+age_cohort,18_22,12.50,E,First-time voter cohort (born 1999–2003); 10-yr projection from Jalpaiguri district Census 2011 age pyramid,no
+age_cohort,23_27,13.00,E,,no
+age_cohort,28_32,12.00,E,,no
+age_cohort,33_37,11.00,E,,no
+age_cohort,38_42,10.00,E,,no
+age_cohort,43_47,9.50,E,,no
+age_cohort,48_52,8.50,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.00,E,,no
+age_cohort,63_67,5.50,E,,no
+age_cohort,68,5.00,E,68+ open-ended; renormalized from Census 2011 age distribution excluding 0-17,no
+gender,Male,49.07,B,"NFHS-5 Jalpaiguri district sex ratio 1,038 F per 1,000 M → 49.07% M / 50.92% F",no
+gender,Female,50.92,B,NFHS-5 Jalpaiguri district,no
+gender,Third_gender,0.01,E,Negligible; consistent with WB state pattern,no
+mother_tongue,Bengali,57.50,E,Dominant language in Rajganj; Muslim and Hindu Bengali-speaking majority,no
+mother_tongue,Hindi,4.00,E,Hindi-belt migrant workers; Bihari/UP/Jharkhand labour in tea estates,no
+mother_tongue,Urdu,1.50,E,Small Muslim Urdu-speaking pocket,no
+mother_tongue,Other,2.50,E,"Residual (Nepali, Assamese fringe, Marwari)",no
+mother_tongue,Rajbongshi,20.00,E,Rajbongshi (Koch-Rajbanshi) language; dominant among SC Rajbanshi community of North Bengal,no
+mother_tongue,Sadri,8.00,E,Sadri (Nagpuri lingua franca) spoken by Oraon/Munda/Ho tea garden workers,no
+mother_tongue,Kurukh,3.00,E,Oraon mother tongue (Dravidian); coexists with Sadri bilingualism,no
+mother_tongue,Santali,3.50,E,Santhali speakers in tea-belt pockets; slight upward revision with 10-yr projection,no
+education,Illiterate,21.00,B,NFHS-5 Jalpaiguri: ~73.7% female school attendance; Jalpaiguri literacy rising; tea-garden illiteracy still drags; ~21% illiterate by 2021,no
+education,Primary,22.00,E,Census 2011 education distribution scaled; tea-garden primary schools,no
+education,Middle,19.00,E,,no
+education,Secondary,17.00,E,+1pp from 2019 with secondary expansion,no
+education,Higher_Secondary,11.00,E,,no
+education,Graduate,8.00,E,Jalpaiguri college town effect; +1pp from 2019,no
+education,Postgraduate,2.00,E,,no
+workforce_status,Main_worker,33.50,E,Jalpaiguri block Census 2011 main-worker ~33-35%; COVID-19 lockdown (2020) caused short-term disruption; partial recovery by end-2021,no
+workforce_status,Marginal_worker,12.00,E,Seasonal agriculture and tea-picking labour; COVID-19 return migration added to marginal pool,no
+workforce_status,Non_worker,37.00,E,Housewife + elderly + retired,no
+workforce_status,Student,10.00,E,18-22 cohort in education,no
+workforce_status,Unemployed,7.50,E,Elevated vs 2019 due to COVID-19 disruption; tea estate closures and informal sector contraction,no
+occupation,Cultivator,22.00,E,Jalpaiguri block rural; smallholder agriculture,no
+occupation,Agricultural_labourer,18.50,E,Includes tea-garden pluckers; slight increase post-COVID return migration,no
+occupation,Household_industry,3.50,E,Small cottage industry; handloom fringe,no
+occupation,Manufacturing,4.50,E,"Limited manufacturing; small rice mill, flour mill",no
+occupation,Construction,7.00,E,MGNREGS construction; private construction; post-COVID rebound,no
+occupation,Trade_retail,10.00,E,Rajganj town retail hub,no
+occupation,Transport_logistics,5.50,E,Goods transport on NH-27 corridor,no
+occupation,Services,12.00,E,Private services,no
+occupation,Government_services_teachers,7.00,E,Govt employees; teachers dominate,no
+occupation,Out_migrant_worker,10.00,D,COVID-19 disrupted out-migration; returnees partially re-employed locally by end-2021; tribal youth to brick kilns,no
+class_of_worker,Employer,2.00,E,Census B-04 WB rural pattern; stable,no
+class_of_worker,Employee,30.00,E,Tea-garden regular wage + govt + organised retail,no
+class_of_worker,Single_worker,45.00,E,Own-account cultivator + small trader + artisan,no
+class_of_worker,Family_worker,23.00,E,Unpaid family labour heavy in agricultural HH,no
+economic_status,BPL_household,27.00,E,Jalpaiguri district BPL ~32% (2001); ~28% by 2019; slight uptick from COVID-19 economic disruption; ~27% net by end-2021 with welfare compensation,no
+economic_status,Above_Poverty_Line_low_income,36.00,E,Marginal above-BPL; tea-garden wage households; Lakshmir Bhandar (launched April 2021) provides supplement,no
+economic_status,Lower_middle,22.00,E,"Small traders, marginal cultivators",no
+economic_status,Middle,12.00,E,"Salaried employees, medium farmers; slight improvement with PMJDY and welfare outreach",no
+economic_status,Upper_middle_well_off,3.00,E,"Town-based professionals, large traders",no
+gp_location,U1_Rajganj_town,20.00,E,Rajganj urban/town area; approximate 2011 town population share of AC electorate; stable,no
+gp_location,U2_Rajganj_CDB_rural,80.00,E,Rajganj CD Block rural GP area; dominant rural-agricultural and tea-belt population,no
+household_composition,Avg_HH_size,4.5 persons,E,WB 2011 4.3; North Bengal tribal/rural slightly higher; stable,no
+household_composition,Nuclear_HH,65.00,E,NFHS-5 WB rural pattern; stable,no
+household_composition,Joint_HH,28.00,E,Higher joint-family incidence in tribal/agricultural households,no
+household_composition,Extended_multi_generation,7.00,E,,no
+marital_status,Never_married,25.00,E,Jalpaiguri district Census 2011 pattern; tribal earlier marriage reduces never-married,no
+marital_status,Currently_married,66.00,E,,no
+marital_status,Widowed,8.00,E,Higher widowhood in tea-garden elderly female population,no
+marital_status,Separated_divorced,1.00,E,,no
+asset_media,Television,66.00,C,NFHS-5 Jalpaiguri baseline; near-saturation in town; tea-belt modest gain; stable vs 2019,no
+asset_media,Radio,7.00,C,Slight decline; legacy radio use in tea-belt,no
+asset_media,Mobile_phone,86.00,C,NFHS-5 WB pattern; ~6pp increase from 2019 mobile spread,no
+asset_media,Smartphone_with_internet,57.00,C,+22pp from 2019 (35→57%); COVID-19 drove rapid adoption; NFHS-5 Jalpaiguri district trend; Jio 4G saturation in North Bengal 2020-21,no
+asset_media,Computer,7.00,C,Marginal increase; small town fringe,no
+asset_media,Two_wheeler,26.00,C,Modest growth,no
+asset_media,Four_wheeler,5.00,C,Limited; town-based professionals,no
+asset_media,Banking_access,87.00,B,PMJDY saturation + Jan Dhan Jan Suraksha push + tea-garden wage-bank disbursement; +5pp from 2019,no
+amenities,Improved_drinking_water_source,90.00,B,NFHS-5 Jalpaiguri: 95.2% (2019-21 survey); applied to AC with rural downward correction; ~90% weighted,no
+amenities,Improved_sanitation,68.00,B,NFHS-5 Jalpaiguri: 73.2%; rural fraction downward correction; strong Swachh Bharat gains,no
+amenities,LPG_clean_cooking_fuel,42.00,B,NFHS-5 Jalpaiguri: 42.7% clean cooking fuel; Ujjwala Phase-2 and welfare rollout 2019-21,no
+amenities,Wood_biomass_fuel,53.00,C,Declining as LPG rises; tea-belt and tribal households,no
+amenities,Other_fuel,5.00,C,"Kerosene, dung-cake residual",no
+amenities,Electricity,97.00,B,NFHS-5 Jalpaiguri: 97.4%; near-saturation,no
+migration,Native,71.00,E,Born in Jalpaiguri district or same village/town; long-settled Rajbanshi + Muslim peasantry + tribal tea workers; slight decrease from COVID-19 return migration swelling the pool,no
+migration,WB_other_district,7.00,E,Some inter-district in-migration; slightly lower due to COVID-19 mobility restrictions,no
+migration,Other_Indian_state,8.00,E,Tea-garden tribal labour from Jharkhand/Chhattisgarh/Odisha; Bihar/UP labour; +1pp from COVID-19 return migration (returnees now registered),no
+migration,Bangladesh_origin,5.00,D,Hindu refugee trickle post-Partition; lower than border-belt ACs but present; stable,no
+migration,Outside_India,0.50,E,Negligible,no
+migration,Out_migrant,3.00,E,Registered here but working outside; COVID-19 disrupted out-migration pattern; partial recovery,no
+migration,Jharkhand_origin,5.50,E,Tea-garden Adivasi originally from Jharkhand/Santhal Parganas; multi-generation settled; +1.5pp from COVID-19 return of tea-belt workers,no

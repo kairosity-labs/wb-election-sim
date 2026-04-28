@@ -1,0 +1,105 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,71.91,E,"2019 baseline 72.00%; 10-yr projection from Census 2011 (Hindu +1.0%/yr, Muslim +1.3%/yr); 2-yr forward from 2019 → Hindu share ~71.91%",no
+religion,Muslim,23.61,E,2019 baseline 23.50%; 2-yr forward projection +0.11pp share growth,no
+religion,Christian,1.50,E,Jalpaiguri district 2011: ~1.5%; stable tea-garden and mission-school population,no
+religion,Sarna_ORP,2.50,E,Rajbanshi tribal and Santal Adivasi population; stable,no
+religion,Other_residual,0.49,E,Sikh + Jain + Buddhist + Not_stated; small trader fringe,no
+caste,SC_total,30.00,E,"Census 2011 crosswalk AC 015: SC 199,294 / 368,817 = 54.04% of 2011 population (includes all blocks); adjusted down for Dhupguri AC-level estimate consistent with 2019 baseline",no
+caste,Rajbanshi_SC,22.00,C,Rajbanshi (Koch-Rajbanshi) dominant SC in Jalpaiguri; ~73% of SC pool,yes
+caste,Namasudra_SC,3.00,E,Smaller settlement; partition-era migrants,yes
+caste,Other_SC,5.00,E,"Bagdi, Hari, Mochi and other SC residual",yes
+caste,ST_total,8.00,E,Jalpaiguri district ST ~9.77% (master v3); Dhupguri AC lower due to municipal area; ~8%,no
+caste,Santal_ST,4.00,E,Dominant ST; Adivasi tea-garden worker families,yes
+caste,Oraon_ST,2.50,E,Second largest ST; tea-belt presence,yes
+caste,Other_ST,1.50,E,"Munda, Garo, Bodo, Toto residual",yes
+caste,UC_bhadralok,5.00,E,Brahmin/Kayastha/Baidya; small professional class in Dhupguri Muni,no
+caste,OBC,8.00,E,"Mahishya, Kurmi, Teli, Rajbangshi OBC subgroup not in SC list",no
+caste,Other_Hindu_middle,20.91,E,Residual within Hindu (71.91 − 30 SC − 8 ST − 5 UC − 8 OBC = 20.91%); consistent with 2019,no
+caste,Muslim,23.61,E,See C.1; Bengali-Sheikh predominant in Dhupguri block rural; Urdu-speaking fringe in town,no
+caste,Christian_plus_Sarna_plus_Other,4.49,E,See C.1; Christian 1.50% + Sarna 2.50% + Other 0.49% combined,no
+age_cohort,18_22,12.50,E,First-time voter cohort (born 1999–2003); 10-yr projection from Census 2011 Jalpaiguri age pyramid,no
+age_cohort,23_27,12.80,E,High youth share in North Bengal terai,no
+age_cohort,28_32,12.20,E,,no
+age_cohort,33_37,11.20,E,,no
+age_cohort,38_42,10.00,E,,no
+age_cohort,43_47,9.10,E,,no
+age_cohort,48_52,8.10,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.00,E,,no
+age_cohort,63_67,5.60,E,Slightly larger cohort as 2011 45-49 cohort ages in,no
+age_cohort,68,5.50,E,68+ open-ended; growing with aging population,no
+gender,Male,49.10,B,"NFHS-5 Jalpaiguri sex ratio 1,038 F per 1,000 M → 49.10% M / 50.89% F; notable improvement from 2011 (952)",no
+gender,Female,50.89,B,Computed; NFHS-5 Jalpaiguri district,no
+gender,Third_gender,0.01,E,WB SIR pattern; negligible,no
+mother_tongue,Bengali,62.00,E,Jalpaiguri district 2011: ~62% Bengali; Dhupguri town majority Bengali; stable,no
+mother_tongue,Hindi,4.00,E,Bihari labour migrants; small Marwari trader community in Dhupguri town,no
+mother_tongue,Urdu,2.00,E,Muslim Bengali-Urdu bilingual fringe in town area,no
+mother_tongue,Other,3.00,E,"Nepali, Sadri, English-medium Christian; residual catch-all",no
+mother_tongue,Rajbongshi,16.00,E,Rajbangshi / Koch-Rajbangshi mother tongue; dominant in SC-OBC rural population,no
+mother_tongue,Santali,8.00,E,Santal Adivasi tea-belt families,no
+mother_tongue,Sadri,3.00,E,Oraon/other Adivasi lingua franca in tea gardens,no
+mother_tongue,Nepali,2.00,E,Small Gorkha/Nepali origin settled community in terai,no
+education,Illiterate,20.00,E,Jalpaiguri district literacy ~73.26% (master v3); NFHS-5 women literate 73.6%; ~20% illiterate by 2021 (down from ~22% in 2019),no
+education,Primary,23.50,E,Census 2011 Jalpaiguri education distribution scaled; 10-yr trend,no
+education,Middle,20.50,E,,no
+education,Secondary,16.50,E,Slight improvement from 2019,no
+education,Higher_Secondary,9.50,E,+0.5pp from 2019 — secondary completion rising,no
+education,Graduate,7.50,E,Limited higher education in semi-urban AC,no
+education,Postgraduate,2.50,E,,no
+workforce_status,Main_worker,37.50,E,Census 2011 main-worker share ~38%; COVID-shock -0.5pp dip in 2020–21 (seasonal agriculture + NH-17 transport disruption),no
+workforce_status,Main_worker_tea_garden,8.00,E,Sub-row; tea-garden patta workers in CD block rural (is_subgroup=yes),yes
+workforce_status,Main_worker_non_tea,29.50,E,Sub-row; agriculture + services (is_subgroup=yes),yes
+workforce_status,Marginal_worker,14.00,E,Stable; harvest-labour pool,no
+workforce_status,Non_worker,32.50,E,Housewife + elderly + retired; Lakshmir Bhandar (launched April 2021) reaches this pool's women,no
+workforce_status,Student,10.00,E,18–22 in education; local college presence; stable,no
+workforce_status,Unemployed,6.00,E,Educated job-seekers; COVID-elevated slightly; partial recovery by end-2021,no
+occupation,Cultivator,22.00,E,Jalpaiguri block 2011: ~25% cultivators; Muni dilution → ~22% AC weighted; COVID disruption transient,no
+occupation,Agricultural_labourer,27.50,E,High agricultural-labourer share; includes tea-garden wage workers; slight fall from COVID,no
+occupation,Household_industry,5.00,E,"Weaving, bamboo craft, traditional industry; stable",no
+occupation,Manufacturing,4.00,E,"Rice mills, small processing; limited organised",no
+occupation,Construction,6.00,E,Seasonal labour; reverse-migration return boosted slightly in 2020–21,no
+occupation,Trade_retail,10.50,E,Dhupguri town market hub; COVID disruption largely recovered by end-2021,no
+occupation,Transport_logistics,5.50,E,"NH-17 transport economy; auto-rickshaw, truck; COVID disruption partially recovered",no
+occupation,Services,8.00,E,Private services in town area,no
+occupation,Government_services_teachers,5.00,E,"State govt, school teachers; stable employment class",no
+occupation,Out_migrant_worker,6.50,D,North Bengal seasonal migrants; COVID forced partial returns 2020; some re-departed by end-2021,no
+class_of_worker,Employer,2.00,E,Census B-04 WB pattern; stable,no
+class_of_worker,Employee,36.00,E,Tea-garden patta workers + govt employees + organised retail,no
+class_of_worker,Single_worker,42.00,E,Own-account cultivators + petty traders + artisans,no
+class_of_worker,Family_worker,20.00,E,Unpaid family help in agriculture and household industry,no
+economic_status,BPL_household,28.50,C,2019 estimate ~30%; WB poverty reduction ~1.5pp 2019–21 (constrained by COVID shock); tea-belt poverty still elevated; ~28.5% by end-2021,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,Lakshmir Bhandar (April 2021) first disbursements targeting this band,no
+economic_status,Lower_middle,23.00,E,Market-town and service-class households,no
+economic_status,Middle,10.50,E,"Government employees, small traders",no
+economic_status,Upper_middle_well_off,3.00,E,Dhupguri Muni affluent fringe; rice-mill owners,no
+gp_location,U1_Dhupguri_Municipality,20.00,E,"Dhupguri Paurashava ~45,000 / 258,947 AC total ≈ ~17%; adjusted to ~20% with growth; stable from 2019",no
+gp_location,U2_Dhupguri_CDB_rural,80.00,E,Remainder; Dhupguri CD Block GP share collapsed to single rural sub-unit in v0,no
+household_composition,Avg_HH_size,4.5 persons,E,WB 2011: 4.3; North Bengal slightly higher; COVID reverse-migration may have temporarily inflated; stabilizing at ~4.5 by end-2021,no
+household_composition,Nuclear_HH,65.00,E,NFHS-4/5 WB rural pattern; stable,no
+household_composition,Joint_HH,28.00,E,Higher joint family in Rajbanshi and Muslim communities,no
+household_composition,Extended_multi_generation,7.00,E,Multi-generation households in rural areas,no
+marital_status,Never_married,26.00,E,Census 2011 Jalpaiguri pattern; first-time-voter and young cohort; stable from 2019,no
+marital_status,Currently_married,65.00,E,High rural marriage rate; early marriage in Adivasi and Muslim communities,no
+marital_status,Widowed,8.00,E,Concentrated in 60+; female-skewed; COVID mortality (2020) slightly elevated widowed share,no
+marital_status,Separated_divorced,1.00,E,Stable,no
+asset_media,Television,68.00,C,NFHS-4 WB rural 60%; NFHS-5 WB rural higher; North Bengal rural ~68% by 2021; slight improvement from 2019 (62%),no
+asset_media,Radio,7.00,C,Slight decline nationally; North Bengal slightly higher listenership,no
+asset_media,Mobile_phone,88.00,C,NFHS-5 WB ~90%+; COVID digitisation push; +8pp from 2019,no
+asset_media,Smartphone_with_internet,58.00,C,"NFHS-5 WB rural ~38%, urban ~70%; North Bengal rural lagging south WB; +23pp from 2019 (35%) — post-COVID surge; AC weighted ~58%",no
+asset_media,Computer,5.00,C,Low; semi-urban AC; mainly govt office and college; stable,no
+asset_media,Two_wheeler,26.00,C,Marginal growth from 2019 (25%),no
+asset_media,Four_wheeler,4.00,C,Limited; rice-mill owners and traders,no
+asset_media,Banking_access,89.00,B,PMJDY + Jan Dhan second push 2020–21; +7pp from 2019 (82%); NFHS-5 WB women bank account 76.5%,no
+amenities,Improved_drinking_water_source,90.00,B,NFHS-5 Jalpaiguri district: 95.2%; rural share lower; AC weighted ~90%; improvement from 2019 (80%),no
+amenities,Improved_sanitation,65.00,B,NFHS-5 Jalpaiguri: 73.2%; rural share lower; AC weighted ~65%; +10pp from 2019 (55%); Swachh Bharat continued rollout,no
+amenities,LPG_clean_cooking_fuel,38.00,B,NFHS-5 Jalpaiguri: 42.7%; rural lower; AC weighted ~38%; +8pp from 2019 (30%); Ujjwala 2.0 push,no
+amenities,Wood_biomass_fuel,55.00,C,Declining as LPG rises; North Bengal forest proximity still high wood-fuel dependency,no
+amenities,Other_fuel,7.00,C,"Kerosene, dung-cake; residual",no
+amenities,Electricity,95.00,B,NFHS-5 Jalpaiguri: 97.4%; rural lower; AC weighted ~95%; improvement from 2019 (88%),no
+migration,Native,72.50,D,Slight rise from COVID returnee registrations; long-settled Rajbanshi and Adivasi communities,no
+migration,WB_other_district,5.50,D,Some Kolkata and South WB service-class in Dhupguri town; slight decline,no
+migration,Other_Indian_state,4.00,E,Bihari and UP labour migrants; small Marwari trader community,no
+migration,Bangladesh_origin,10.00,D,Hindu Bengali refugees (partition-era and post-1971) in rural GPs; stable share,no
+migration,Outside_India,0.50,E,Negligible,no
+migration,Out_migrant,3.50,E,Net returnees in 2020 COVID window re-departed by end-2021; normalizing,no
+migration,Nepal_Bhutan_origin,4.00,E,Small Nepali-origin settled community; Bhutanese refugee residual,no

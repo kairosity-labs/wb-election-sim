@@ -1,0 +1,99 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,88.00,E,Siliguri city 91.98% Hindu (Census 2011 A); Rajganj block 79.17% Hindu (A); AC weighted blend ~88.5% in 2019; slight Muslim differential growth +0.5pp over 2yr → ~88.0% by 2021,no
+religion,Muslim,8.10,E,2019 estimate 7.8%; +0.3pp Muslim differential growth 2019-2021; AC blended ~8.1%,no
+religion,Christian,1.40,E,Stable from 2019; Siliguri 0.94% + Rajganj block 1.06%; tea-belt Christian fringe,no
+religion,Sarna_ORP,1.50,E,Stable; ST tribal population in Rajganj GP pocket,no
+religion,Other_residual,1.00,E,"Buddhist (Siliguri urban), Sikh, Jain, Nepali fringe; minor uptick from Nepali community growth",no
+caste,SC_total,32.35,A,"Census 2011 Dabgram-Fulbari: 32.35% SC (constituency factbook, tier A); unchanged — no post-2011 census",no
+caste,Rajbanshi_SC,27.00,C,Dominant SC in Jalpaiguri; ~75% of WB SC in North Bengal; forms bulk of SC pool here,yes
+caste,Other_SC,5.35,E,"Residual SC sub-groups (Bagdi, Namasudra fringe, etc.)",yes
+caste,ST_total,1.16,A,"Census 2011 Dabgram-Fulbari: 1.16% ST (constituency factbook, tier A)",no
+caste,Oraon_Munda_other,1.16,E,Small tribal pool; mostly in Rajganj GP portion; tea-plantation adjacent,yes
+caste,UC_bhadralok,8.00,E,Brahmin/Kayastha/Baidya; Siliguri urban professional class; higher in SMC wards,no
+caste,OBC,10.00,E,"Kumhar, Teli, Sutradhar in Siliguri trade; ~10% estimate; WB OBC list includes some North Bengal groups",no
+caste,Other_Hindu_middle,36.29,E,Residual within Hindu (88.0 − 32.35 SC − 1.16 ST − 8 UC − 10 OBC = 36.49 Hindu middle; adjusted for slight Muslim growth),no
+caste,Muslim,8.10,E,See C.1,no
+caste,Christian_plus_Sarna_plus_Other,4.10,E,Christian 1.4% + Sarna_ORP 1.5% + Other_residual 1.0% + small fringe → ~4.10%,no
+age_cohort,18_22,11.50,E,Jalpaiguri district age pyramid 2011 + 10yr projection; first-time-voter cohort (2019 2yr older → shifted down); urban growth,no
+age_cohort,23_27,13.00,E,Young adult urban in-migration; 2019 18–22 cohort aged into this bracket,no
+age_cohort,28_32,12.50,E,,no
+age_cohort,33_37,11.50,E,,no
+age_cohort,38_42,10.50,E,,no
+age_cohort,43_47,9.00,E,,no
+age_cohort,48_52,8.00,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.00,E,,no
+age_cohort,63_67,5.50,E,,no
+age_cohort,68,5.50,E,68+ open-ended,no
+gender,Male,50.94,E,"NFHS-5 Jalpaiguri sex ratio 1,038 → 49.06% F; urban male in-migration moderates to ~50.94/49.05 blended; slight improvement from 2019 51.28/48.72",no
+gender,Female,49.05,E,,no
+gender,Third_gender,0.01,E,Negligible; ~0.01% standard WB estimate,no
+mother_tongue,Bengali,62.00,E,SMC 2011: 60.88% Bengali (A); Rajganj block 81.43% Bengali (A); AC blended weighted estimate; stable from 2019,no
+mother_tongue,Hindi,18.00,E,SMC 2011: 25.24% Hindi (A); Rajganj 5.09%; blended ~18%; stable given continued North Indian in-migration,no
+mother_tongue,Urdu,1.00,E,Small Muslim Urdu-speaker pocket in Siliguri urban; slight uptick with Muslim growth,no
+mother_tongue,Other,3.00,E,Sadri 1.70% in Rajganj (A); other residual,no
+mother_tongue,Rajbongshi,12.00,E,Rajganj block 2.98% Rajbongshi (A); higher in GP portion; AC-local Rajbanshi SC community; stable,no
+mother_tongue,Nepali,3.00,E,SMC Siliguri 4.66% Nepali (A); diluted in AC portion; stable,no
+mother_tongue,Bhojpuri,1.00,E,SMC fringe; North India in-migrant labour; stable,no
+education,Illiterate,13.00,E,NFHS-5 Jalpaiguri women literacy 73.6% (A); 2011 literacy 73.25%; improvement to ~87% literate by 2021 → ~13% illiterate,no
+education,Primary,19.00,E,Census 2011 Jalpaiguri district education distribution scaled; some shift to higher levels,no
+education,Middle,20.00,E,,no
+education,Secondary,18.00,E,Stable; mass education system,no
+education,Higher_Secondary,14.00,E,Urban Siliguri wards boost HS share; +1pp from 2019,no
+education,Graduate,11.00,E,Professional class in SMC wards; +1pp from 2019,no
+education,Postgraduate,5.00,E,Urban university / college graduates; +1pp from 2019,no
+workforce_status,Main_worker,33.00,E,"Rajganj block main-worker share ~37.6% (Census 2011, A); urban SMC dilution; COVID-19 disruption in 2020-21 → slight dip from 2019 34%; some return to normalcy by end-2021",no
+workforce_status,Marginal_worker,8.00,E,Rajganj block marginal share (A); COVID-19 may have added marginal workers; stable estimate,no
+workforce_status,Non_worker,36.00,E,Housewife + elderly + retired; COVID-19 lockdown pushed some workers to non-worker status temporarily,no
+workforce_status,Student,13.00,E,Urban 18–22 in education; Siliguri college town fringe; COVID-19 disrupted schooling but enrolment broadly maintained,no
+workforce_status,Unemployed,10.00,E,Educated unemployment elevated post-COVID; job-aspirant pool enlarged by COVID job losses; +1pp from 2019,no
+occupation,Cultivator,8.00,E,Rajganj block cultivator 10.56% (A); urban wards dilute; stable from 2019,no
+occupation,Agricultural_labourer,10.00,E,Rajganj block 15.08% (A); urban dilution; stable,no
+occupation,Household_industry,4.00,E,Rajganj block 3.31% (A); COVID-19 disrupted home industry temporarily,no
+occupation,Manufacturing,5.00,E,COVID-19 hit manufacturing; slight dip from 2019 6%,no
+occupation,Construction,8.00,E,Urban construction boom in Siliguri; return migration of labourers after COVID lockdowns,no
+occupation,Trade_retail,22.00,E,Siliguri is major trading hub for North-East India; recovered by end-2021,no
+occupation,Transport_logistics,10.00,E,"Siliguri gateway city; trucking, logistics; recovered after COVID lockdowns",no
+occupation,Services,18.00,E,Urban private services; Siliguri service economy; stable,no
+occupation,Government_services_teachers,9.00,E,Administrative town; government sector + teachers; +1pp from 2019 (some government jobs added),no
+occupation,Out_migrant_worker,6.00,D,COVID-19 reverse migration 2020; some returned by 2021; estimate stable,no
+class_of_worker,Employer,3.00,E,Siliguri trade hub has larger employer class than rural WB; stable,no
+class_of_worker,Employee,38.00,E,Govt + organised retail + service employees; urban skew,no
+class_of_worker,Single_worker,42.00,E,"Own-account traders, cultivators, transport operators",no
+class_of_worker,Family_worker,17.00,E,Unpaid family labour; higher in GP rural portion,no
+economic_status,BPL_household,21.00,C,"WB state BPL ~23% (2011); urban peri-urban has lower BPL; Rajganj block offsets; COVID-19 may have temporarily increased poverty; ~21% by end-2021 after welfare support (PM-GKAY, etc.)",no
+economic_status,Above_Poverty_Line_low_income,35.00,E,,no
+economic_status,Lower_middle,26.00,E,Siliguri trade / service class; slight shift up from COVID economic disruption easing,no
+economic_status,Middle,13.00,E,Urban middle class in SMC wards,no
+economic_status,Upper_middle_well_off,5.00,E,Siliguri affluent trader / professional class,no
+gp_location,U1_SMC_wards_31_44,62.00,E,14 SMC wards; SMC Jalpaiguri portion ~157k / total AC ~263k; urban dominant share; stable from 2019,no
+gp_location,U2_Rajganj_GP_rural,38.00,E,"4 GPs (Dabgram-I, Dabgram-II, Fulbari-I, Fulbari-II) of Rajganj CD block; rural/semi-rural",no
+household_composition,Avg_HH_size,4.1 persons,E,Jalpaiguri district 4.3 (2011); urban Siliguri slightly lower; NFHS-5 trend toward smaller HH; ~4.1 by 2021,no
+household_composition,Nuclear_HH,73.00,E,NFHS-5 WB urban pattern; urban AC has higher nuclear share; +1pp from 2019,no
+household_composition,Joint_HH,21.00,E,,no
+household_composition,Extended_multi_generation,6.00,E,,no
+marital_status,Never_married,27.00,E,Census 2011 Jalpaiguri pattern; large young urban cohort; NFHS-5 age at marriage improving,no
+marital_status,Currently_married,64.50,E,Stable from 2019,no
+marital_status,Widowed,7.00,E,"Concentrated in 60+, female-skewed; stable",no
+marital_status,Separated_divorced,1.50,E,Slightly higher in urban area vs rural WB,no
+asset_media,Television,87.00,C,"NFHS-4 WB urban 89%, rural 60%; saturation approaching; AC blended ~87% by 2021 (+2pp from 2019 85%)",no
+asset_media,Radio,3.00,C,Continuing decline; -1pp from 2019,no
+asset_media,Mobile_phone,93.00,C,Near saturation in peri-urban Siliguri; +3pp from 2019 90%; post-COVID lockdown drove adoption,no
+asset_media,Smartphone_with_internet,80.00,C,Post-COVID surge + Jio continued penetration; NFHS-5 WB women internet use 48% urban / 14% rural; AC blended +22pp from 2019 58% → ~80% by end-2021 (major shift),no
+asset_media,Computer,16.00,C,NFHS-4 WB urban 27%; AC blended ~16%; +1pp from 2019,no
+asset_media,Two_wheeler,42.00,C,Higher in urban Siliguri; +2pp from 2019,no
+asset_media,Four_wheeler,10.00,C,Stable; Siliguri trader / logistics class,no
+asset_media,Banking_access,95.00,B,PMJDY saturation + urban banking infrastructure; NFHS-5 WB women with bank account 76.5% (urban higher); +5pp from 2019 90%; near-saturation in Siliguri urban,no
+amenities,Improved_drinking_water_source,95.00,A,NFHS-5 Jalpaiguri district 95.2% (tier A); +3pp from 2019 estimate,no
+amenities,Improved_sanitation,73.00,A,NFHS-5 Jalpaiguri district 73.2% (tier A); +8pp from 2019 80% estimate (reflects Swachh Bharat completion); NOTE: district figure lower than AC estimate; use district A-tier,no
+amenities,LPG_clean_cooking_fuel,43.00,A,"NFHS-5 Jalpaiguri clean fuel 42.7% (tier A); below 2019 AC estimate due to district including more rural; SMC wards higher ~70%, GP rural ~22%; district average 43%",no
+amenities,Wood_biomass_fuel,53.00,C,Inverse of LPG; higher in GP rural; estimated from NFHS-5 clean fuel gap,no
+amenities,Other_fuel,4.00,C,Kerosene / dung cake fringe; stable,no
+amenities,Electricity,97.00,A,NFHS-5 Jalpaiguri 97.4% (tier A); Saubhagya saturation,no
+migration,Native,54.00,D,"Siliguri is major in-migration destination; native share lower than rural WB; COVID-19 reverse migration (2020) brought some back, partially offset by urban in-migration post-lockdown",no
+migration,WB_other_district,15.00,D,"In-migration from Darjeeling, Cooch Behar, Murshidabad etc. for trade/services; stable",no
+migration,Other_Indian_state,17.00,D,Bihar / UP / Jharkhand / Rajasthan in-migration; COVID reverse migration reduced this pool temporarily; -1pp from 2019,no
+migration,Bangladesh_origin,4.00,D,Smaller than South Bengal border ACs; some Hindu refugee / economic migrant pool; stable,no
+migration,Outside_India,0.50,E,Nepal-origin (Nepali-speaking ~3%); Bhutan fringe; small,no
+migration,Out_migrant,5.00,E,"COVID-19 reverse migration (2020); some Rajbanshi youth and North Indian labourers returned to home towns, registered here; +2pp from 2019 3%",no
+migration,Nepal_Bhutan_origin,4.50,D,Siliguri gateway city; Nepali community; stable,no

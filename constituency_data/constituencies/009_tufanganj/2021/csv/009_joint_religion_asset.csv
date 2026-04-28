@@ -1,0 +1,6 @@
+Religion,Television,Smartphone_with_internet,Banking_access,Tier,Source
+Hindu,73.00,61.00,91.00,C,2019 baseline shifted up: TV +4pp; Smartphone +22pp (COVID-19 surge); Banking +5pp (Lakshmir Bhandar Jan Dhan drive); NFHS-5 WB religion gap pattern
+Muslim,63.00,51.00,80.00,C,Similar absolute gains but lower base; NFHS-5 WB Muslim HH asset gap persists
+Christian,83.00,62.00,94.00,E,Small base; educated; higher smartphone adoption
+Sarna_ORP,58.00,34.00,74.00,E,Marginal tribal population; slower smartphone adoption
+Other_residual,92.00,80.00,97.00,E,Trader/upper-income; near-saturated

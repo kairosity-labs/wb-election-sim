@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,60.30,0.61,7.58,6.06,25.45,0,0,E,SC_total 39.80% / Hindu 66.00% = 60.30%; ST 0.40/66.00=0.61%; UC 5.0/66.00=7.58%; OBC 4.0/66.00=6.06%; residual 16.80/66.00=25.45%
+Muslim,0,0,0,0,0,100,0,A,self-evident
+Christian,0,0,0,0,0,0,100,A,self-evident
+Sarna_ORP,0,92,0,5,3,0,0,E,Tribal sub-castes mostly ST
+Other_residual,0,0,0,0,0,0,100,E,self-evident

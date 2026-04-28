@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,53.85,1.78,5.92,4.73,31.95,0,1.78,E,Stable from 2019; SC 47/84.2=55.8% of Hindu → minor AC-blend adjustment for Muni dilution; ~53.85%
+Muslim,0,0,0,0,0,100,0,A,self-evident
+Christian,0,0,0,0,0,0,100,A,self-evident
+Sarna_ORP,0,90,0,5,5,0,0,E,Tribal sub-castes route to ST_total
+Other_residual,0,0,0,0,0,0,100,A,self-evident

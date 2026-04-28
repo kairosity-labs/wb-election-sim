@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,65.08,0.70,5.47,7.81,20.94,0,0,E,SC_total(41.65)/Hindu(64.00)=65.08%; proportional allocation within Hindu; Other_Hindu_middle=(64.00−41.65−0.45−3.50−5.00)/64.00×100
+Muslim,0,0,0,0,0,100,0,A,self-evident
+Christian,0,0,0,0,0,0,100,A,self-evident
+Sarna_ORP,0,80,0,5,15,0,0,E,Tribal sub-castes mostly ST
+Other_residual,0,0,0,0,0,0,100,A,self-evident

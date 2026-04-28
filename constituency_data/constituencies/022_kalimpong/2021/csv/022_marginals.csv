@@ -1,0 +1,103 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,68.20,E,Kalimpong district Census 2011 ~68–70% Hindu; 10-yr projection stable; minor adjustment for Buddhist community growth,no
+religion,Muslim,4.90,E,Census 2011 ~4.5%; slight growth over 10 years,no
+religion,Christian,14.50,E,Census 2011 ~13–15%; Nepali Baptist/Presbyterian missions growing; +0.3pp over 10 yrs,no
+religion,Sarna_ORP,2.40,E,Lepcha tribal religion; marginal decline with Christian conversion trend,no
+religion,Other_residual,10.00,E,Buddhist (Bhutia/Tibetan ~8%) + Sikh + Not_stated; stable,no
+caste,SC_total,5.50,E,Census 2011 Kalimpong sub-division; lower SC than plains ACs; stable,no
+caste,Chamar_SC,1.50,E,Small plains migrant SC sub-community,yes
+caste,Other_SC,4.00,E,Residual SC groups,yes
+caste,ST_total,13.20,A,"Census 2011 Kalimpong sub-division: Lepcha, Bhutia, Limboo classified as ST",no
+caste,Lepcha_ST,5.50,C,Dominant ST in Kalimpong hills; Census 2011,yes
+caste,Bhutia_ST,4.20,C,Buddhist community; includes Tibetan-origin,yes
+caste,Limboo_ST,3.50,C,Gorkha sub-community with ST status,yes
+caste,UC_bhadralok,3.50,E,Small Brahmin/Kayastha/Baidya hill presence; Bengali professional migrants,no
+caste,OBC,12.00,E,"Gurung, Tamang, Rai, Magar sub-communities (OBC in WB hill schedule)",no
+caste,Other_Hindu_middle,51.10,E,"Predominantly Nepali-origin Gorkha: Chhettri, Thakuri, Pradhan + unclassified; slight shift from 2019",no
+caste,Muslim,4.90,E,See C.1; largely Urdu-medium plains-origin or Bengali Muslim,no
+caste,Christian_plus_Sarna_plus_Other,9.80,E,Christian 14.5% adjusted for within-caste overlap + Sarna 2.4% + Other_residual; normalised,no
+age_cohort,18_22,11.20,E,Kalimpong district age pyramid Census 2011; 10-yr shift; renormalised excluding 0–17; younger cohort slightly lower as prior wave ages,no
+age_cohort,23_27,11.80,E,,no
+age_cohort,28_32,11.20,E,,no
+age_cohort,33_37,10.00,E,,no
+age_cohort,38_42,9.50,E,,no
+age_cohort,43_47,9.00,E,,no
+age_cohort,48_52,8.30,E,,no
+age_cohort,53_57,7.20,E,,no
+age_cohort,58_62,6.30,E,,no
+age_cohort,63_67,4.30,E,,no
+age_cohort,68,11.20,E,68+ open-ended; includes elderly hill residents; renormalize verified,no
+gender,Male,50.38,E,NFHS-5 Darjeeling district sex ratio 1029 F/1000 M → ~49.3% F; slight male out-migration adjustment for Kalimpong sub-dist,no
+gender,Female,49.61,E,,no
+gender,Third_gender,0.01,E,ECI 2021 AE register pattern,no
+mother_tongue,Bengali,3.50,E,"Small Bengali-speaking community; stable (urban professional migrants, some Muslim)",no
+mother_tongue,Hindi,2.00,E,Marwari/Bihari trader community in Kalimpong town,no
+mother_tongue,Urdu,1.00,E,Muslim minority; mostly bilingual with Nepali,no
+mother_tongue,Other,0.50,E,"Residual (Tibetan, Sikkimese, English-dominant)",no
+mother_tongue,Nepali,75.00,E,Dominant; Census 2011 Kalimpong ~73–76% Nepali mother tongue; stable,no
+mother_tongue,Lepcha,5.50,E,Indigenous ST language; Kalimpong sub-division Census 2011,no
+mother_tongue,Bhutia,4.50,E,Bhutia/Sikkimese; includes Tibetan speakers lumped,no
+mother_tongue,Limboo,4.00,E,ST language; Census 2011,no
+mother_tongue,Tamang,4.00,E,OBC community; Tamang language speakers,no
+education,Illiterate,12.50,E,Kalimpong district literacy ~84% (2011 A); NFHS-5 Darjeeling women literate 77.0%; 2021 projection ~87% → ~13% illiterate; hill education investment improving,no
+education,Primary,17.50,E,,no
+education,Middle,20.00,E,,no
+education,Secondary,20.50,E,,no
+education,Higher_Secondary,14.00,E,Slight increase; hill school expansion,no
+education,Graduate,11.50,E,Kalimpong degree colleges; hill education investment,no
+education,Postgraduate,4.00,E,,no
+workforce_status,Main_worker,34.00,E,Census 2011 ~35–37%; reduced by COVID-19 tourism collapse (2020-21 severe hit on Kalimpong tourism economy),no
+workforce_status,Marginal_worker,8.50,E,"Seasonal hill agriculture, tourism; slightly elevated as some tourism workers became marginal",no
+workforce_status,Non_worker,35.50,E,"Includes housewife, elderly, retired",no
+workforce_status,Student,12.00,E,Hill areas invest heavily in education; boarding schools; stable,no
+workforce_status,Unemployed,10.00,E,Educated youth unemployment; hill job scarcity; COVID-19 tourism contraction worsened 2020-21,no
+occupation,Cultivator,21.00,E,"Census 2011 Kalimpong sub-division; cardamom, tea, ginger; slight increase as tourism workers shifted to farming",no
+occupation,Agricultural_labourer,8.00,E,Lower than plains; hill labour patterns,no
+occupation,Household_industry,5.00,E,"Weaving, handicrafts, incense",no
+occupation,Manufacturing,3.00,E,Limited; small agro-processing units,no
+occupation,Construction,9.00,E,Hill road/building construction; slight uptick post-2019,no
+occupation,Trade_retail,12.00,E,Kalimpong Muni market hub; reduced from 14% (2019) due to COVID-19 tourism contraction,no
+occupation,Transport_logistics,7.00,E,Hill taxi/jeep services; reduced from 8% (COVID-19 travel restrictions),no
+occupation,Services,11.00,E,"Tourism, hospitality severely hit by COVID-19 lockdowns; reduced from 14%",no
+occupation,Government_services_teachers,15.00,E,Higher govt employment share in hill areas; stable; insulated from COVID-19 disruption,no
+occupation,Out_migrant_worker,9.00,D,"Gorkha men in Indian Army, paramilitary; COVID-19 reverse migration swelled this category 2020",no
+class_of_worker,Employer,3.00,E,Small tourist-economy business owners; stable despite COVID-19 contraction,no
+class_of_worker,Employee,40.00,E,"Govt, army, hotels, schools; government insulated; hotels contracted",no
+class_of_worker,Single_worker,40.00,E,"Own-account: cultivators, small traders, taxi operators",no
+class_of_worker,Family_worker,17.00,E,Unpaid family farm/handicraft helpers,no
+economic_status,BPL_household,22.00,C,Kalimpong sub-division BPL ~22% (2001 baseline); COVID-19 tourism collapse temporarily worsened household poverty in hill AC; 2021 estimate reflects COVID shock,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,COVID-19 pushed some lower-middle households downward,no
+economic_status,Lower_middle,27.00,E,,no
+economic_status,Middle,12.00,E,Army/govt salary class; tourism economy contracted,no
+economic_status,Upper_middle_well_off,4.00,E,"Kalimpong Muni affluent traders, orchid exporters",no
+gp_location,U1_Kalimpong_Municipality,38.00,E,"Kalimpong Muni 2011 pop ~42,900 / AC total ~112,000 ≈ 38%; projected stable through 2021",no
+gp_location,U2_Kalimpong_rural_hills,62.00,E,CDB-I + CDB-II GPs; v0 collapses to single rural cell,no
+household_composition,Avg_HH_size,4.1 persons,E,WB hill districts Census 2011: 4.0–4.2; stable,no
+household_composition,Nuclear_HH,72.00,E,Hill Nepali/Gorkha households: higher nuclear proportion; COVID-19 reverse migration may have temporarily increased joint households,no
+household_composition,Joint_HH,22.00,E,,no
+household_composition,Extended_multi_generation,6.00,E,,no
+marital_status,Never_married,30.00,E,Large student cohort + out-migrant young men,no
+marital_status,Currently_married,61.00,E,Census 2011 Kalimpong district pattern; stable,no
+marital_status,Widowed,8.00,E,"Slightly elevated; army widows, elderly",no
+marital_status,Separated_divorced,1.00,E,,no
+asset_media,Television,74.00,C,NFHS-5 Darjeeling proxy: electricity 98.2% + NFHS-4 hill TV ~72%; slight increase by 2021,no
+asset_media,Radio,7.00,C,Hill areas: higher radio dependency; marginal decline,no
+asset_media,Mobile_phone,88.00,C,Near-saturation by 2021; Jio 4G expanded to hills by 2020,no
+asset_media,Smartphone_with_internet,65.00,C,"COVID-19 accelerated smartphone adoption (+20pp from 2019 45%); work-from-home, e-commerce, remote education; NFHS-5 trajectory",no
+asset_media,Computer,11.00,C,School + govt employee households; stable,no
+asset_media,Two_wheeler,20.00,C,Hilly terrain limits two-wheeler; stable,no
+asset_media,Four_wheeler,10.00,C,Hill taxi operators; stable,no
+asset_media,Banking_access,85.00,C,PMJDY + hill cooperative banks; Lakshmir Bhandar Jan-Dhan requirement pushed banking access +3pp by mid-2021,no
+amenities,Improved_drinking_water_source,89.00,B,NFHS-5 Darjeeling district 90.8% (2019-21 survey period); hill spring water improvement; close proxy for Kalimpong sub-dist,no
+amenities,Improved_sanitation,82.00,B,NFHS-5 Darjeeling 83.0%; Swachh Bharat Phase-2 + Duare Sarkar 2020 push,no
+amenities,LPG_clean_cooking_fuel,62.00,B,NFHS-5 Darjeeling: clean fuel 68.8%; Ujjwala Phase-2 + hill LPG distribution improvement; slightly lower for Kalimpong rural,no
+amenities,Wood_biomass_fuel,34.00,E,Declining as LPG rises; remote hill GPs still firewood-dependent,no
+amenities,Other_fuel,4.00,E,Kerosene fringe; declining,no
+amenities,Electricity,97.00,B,NFHS-5 Darjeeling 98.2%; Saubhagya near-saturation; Kalimpong slightly lower (remote GPs),no
+migration,Native,71.00,D,Predominantly born in Kalimpong sub-division/district; slight reduction due to COVID-19 reverse migration arrivals from metros,no
+migration,WB_other_district,8.00,D,"Plains migrants (Bengali, Bihari) in Kalimpong town; stable",no
+migration,Other_Indian_state,5.50,D,"Army postings, traders; COVID-19 reverse migration added ~0.5pp temporarily",no
+migration,Bangladesh_origin,0.50,E,Negligible; not a refugee-receiving hill AC,no
+migration,Outside_India,0.50,E,Bhutia/Tibetan diaspora registered; very small,no
+migration,Out_migrant,5.50,D,Gorkha men in Indian Army; domestic workers; slight increase from COVID-19 return migration,no
+migration,Nepal_Bhutan_origin,9.00,D,Historical Nepali-origin settlers (pre-1950 migration); not current immigrants; stable,no

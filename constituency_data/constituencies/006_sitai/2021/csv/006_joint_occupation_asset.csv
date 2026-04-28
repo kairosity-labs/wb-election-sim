@@ -1,0 +1,11 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,35,57,C,Rural ag baseline; +12pp smartphone from 2019 due to COVID-era digital push
+Agricultural_labourer,25,47,C,Lowest income; +10pp smartphone from 2019
+Household_industry,40,62,C,
+Manufacturing,52,72,C,
+Construction,50,67,C,
+Trade_retail,65,80,C,Rural market traders; high smartphone use
+Transport_logistics,62,74,C,
+Services,70,82,C,
+Government_services_teachers,85,92,C,Highest
+Out_migrant_worker,72,77,D,Working outside; smartphone-heavy

@@ -1,0 +1,96 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,71.00,A,Sitai CDB Census 2011: 70.62% Hindu; 10-yr differential growth (Muslim +1.2%/yr vs Hindu +0.9%/yr) → Hindu share ~71.0% by 2021; slight net decline of ~0.2pp from 2019 (71.2%),no
+religion,Muslim,28.70,A,Sitai CDB Census 2011: 29.26% Muslim; 10-yr differential growth → ~28.7% (Dinhata I partial slightly lower Muslim; weighted AC average),no
+religion,Christian,0.15,E,Negligible; stable from 2019,no
+religion,Sarna_ORP,0.10,E,Tribal religion residual; very small ST base,no
+religion,Other_residual,0.05,E,Sikh + Jain + Buddhist + Not_stated; negligible,no
+caste,SC_total,55.00,A,Sitai Block Census 2011: SC 66.1% of block; Dinhata I partial SC ~52%; weighted AC average ~55%; SC-reserved AC; stable from 2019,no
+caste,Rajbanshi_SC,51.00,C,Rajbanshi dominant SC in Cooch Behar; constitute ~75% of SC population in WB North; dominant community in Sitai,yes
+caste,Koch_SC,2.50,E,Secondary SC group,yes
+caste,Other_SC,1.50,E,Residual SC pool,yes
+caste,ST_total,0.40,A,Sitai CDB Census 2011: ST 0.2%; Cooch Behar district ST average 0.4%; stable,no
+caste,UC_bhadralok,3.00,E,Very low upper-caste presence; fringe in semi-urban settlement nodes,no
+caste,OBC,4.00,E,Koch-Rajbanshi OBC overlap communities,no
+caste,Other_Hindu_middle,8.10,E,Residual within Hindu not SC/ST/UC/OBC (71.0 Hindu − 55 SC − 0.4 ST − 3 UC − 4 OBC),no
+caste,Muslim,28.70,E,All sub-castes pooled; see C.1,no
+caste,Christian_plus_Sarna_plus_Other,0.80,E,See C.1 residuals,no
+age_cohort,18_22,11.20,E,Cooch Behar district age pyramid 2011 renormalized to 18+ adult share; 2-year cohort shift from 2019 baseline; NFHS-5 Koch Bihar: 25% below age 15 → adult cohort renormalized,no
+age_cohort,23_27,11.50,E,,no
+age_cohort,28_32,12.00,E,,no
+age_cohort,33_37,11.00,E,,no
+age_cohort,38_42,10.00,E,,no
+age_cohort,43_47,9.00,E,,no
+age_cohort,48_52,8.00,E,,no
+age_cohort,53_57,7.50,E,,no
+age_cohort,58_62,6.50,E,,no
+age_cohort,63_67,7.00,E,,no
+age_cohort,68,6.30,E,68+ open-ended,no
+gender,Male,51.28,E,NFHS-5 Koch Bihar sex ratio 950 per 1000 males (adult voter-eligible estimate) → 48.72% F,no
+gender,Female,48.71,E,,no
+gender,Third_gender,0.01,E,WB electoral roll enumeration pattern (2021),no
+mother_tongue,Bengali,99.50,A,Sitai CDB Census 2011: 99.71% Bengali; stable; AC-level ~99.5% after Dinhata partial blend,no
+mother_tongue,Hindi,0.20,E,Very small trader/migrant fringe,no
+mother_tongue,Urdu,0.10,E,Negligible,no
+mother_tongue,Other,0.10,E,Residual,no
+mother_tongue,Rajbongshi,0.10,D,Local dialect; Census-classified under Bengali; flagged separately per AC-local extension,no
+education,Illiterate,23.00,A,Sitai CDB Census 2011 literacy 62.79%; NFHS-5 Koch Bihar: 75.7% women ever attended school; 10-yr improvement trend ~+3pp → ~24% illiterate weighted across genders; Dinhata partial better; weighted ~23%,no
+education,Primary,26.00,E,Census 2011 primary share; slight improvement from 2019 (26% → 26%),no
+education,Middle,21.00,E,Minor upward shift,no
+education,Secondary,15.00,E,,no
+education,Higher_Secondary,9.00,E,NFHS-5 Koch Bihar: 26.7% women with 10+ years schooling; modest improvement,no
+education,Graduate,5.00,E,,no
+education,Postgraduate,1.00,E,,no
+workforce_status,Main_worker,32.00,A,Sitai CDB Census 2011: ~32% of adult population; COVID-19 reverse migration (2020) absorbed some return migrants into agricultural work; net stable,no
+workforce_status,Marginal_worker,12.00,A,Stable from 2019; some COVID-era casualization,no
+workforce_status,Non_worker,37.00,E,Housewife + elderly + retired; Lakshmir Bhandar (Apr 2021) targeting non-working women household heads; large SC rural constituency,no
+workforce_status,Student,11.00,E,18–22 in education,no
+workforce_status,Unemployed,8.00,E,COVID-19 lockdown disrupted rural labour markets in 2020; some recovery by mid-2021,no
+occupation,Cultivator,27.00,A,Sitai CDB Census 2011: cultivators 33.8%; weighted with Dinhata partial; COVID-19 reverse migration boosted agricultural workforce transiently; ~27% net,no
+occupation,Agricultural_labourer,32.00,A,Sitai CDB Census 2011: 29.5%; SC-heavy AC; high ag-labour share; return migrants reinforced this pool in 2020-21,no
+occupation,Household_industry,5.00,E,Census 2011 WB rural pattern; stable,no
+occupation,Manufacturing,4.00,E,Limited organized manufacturing,no
+occupation,Construction,7.00,E,Some return-migration in 2020 disrupted; partial recovery by 2021,no
+occupation,Trade_retail,8.00,E,Rural weekly markets; stable,no
+occupation,Transport_logistics,4.00,E,Some disruption from COVID-19 restrictions; recovered,no
+occupation,Services,7.00,E,Private services,no
+occupation,Government_services_teachers,4.00,E,Teachers + panchayat staff,no
+occupation,Out_migrant_worker,2.00,D,COVID-19 suppressed out-migration; partial recovery by late-2021,no
+class_of_worker,Employer,1.50,E,Very low in SC agricultural community,no
+class_of_worker,Employee,22.00,E,Govt + organized sector employees,no
+class_of_worker,Single_worker,52.00,E,Own-account cultivator + artisan + small trader dominant,no
+class_of_worker,Family_worker,24.50,E,Unpaid family labour in agri-households; high in SC agricultural families,no
+economic_status,BPL_household,35.00,C,Cooch Behar district BPL ~35%; COVID-19 2020 may have transiently pushed some near-BPL HHs below line; Lakshmir Bhandar (Apr 2021) targets women HH heads incl. BPL; SECC 2011 pattern,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,Large near-BPL agricultural worker pool,no
+economic_status,Lower_middle,18.00,E,,no
+economic_status,Middle,9.00,E,,no
+economic_status,Upper_middle_well_off,3.00,E,Small traders and government employees,no
+gp_location,U1_Sitai_CDB,88.00,E,"Sitai CDB 110,333 / AC ~125,000 = ~88%; fully rural; stable",no
+gp_location,U2_Dinhata_I_partial,12.00,E,"Select GPs of Dinhata I CDB in this AC; ~14,700 estimated pop",no
+household_composition,Avg_HH_size,4.2 persons,E,Marginal decline from 2019 (4.4); NFHS-5 WB rural trend toward nuclear; COVID-19 may have disrupted joint HH patterns,no
+household_composition,Nuclear_HH,66.00,E,Slight increase from 2019 (65%) per NFHS-5 WB rural trend,no
+household_composition,Joint_HH,27.00,E,SC agricultural families; marginal decline,no
+household_composition,Extended_multi_generation,7.00,E,Stable,no
+marital_status,Never_married,27.00,E,Stable from 2019; NFHS-5 Koch Bihar women age 20-24 married before 18: 46.7% (high early marriage); first-time-voter cohort,no
+marital_status,Currently_married,65.00,E,High rural marriage rate; early marriage pattern in SC communities; stable,no
+marital_status,Widowed,7.00,E,"Concentrated in 60+, female-skewed; COVID-19 may slightly increase this pool",no
+marital_status,Separated_divorced,1.00,E,Stable,no
+asset_media,Television,62.00,C,"NFHS-5 Koch Bihar indicator 7: 98.2% electricity, but TV distinct; NFHS-4 WB rural ~60%; TV growth slower than smartphones in 2019-21; ~62% AC estimate",no
+asset_media,Radio,5.00,C,Declining; stable from 2019,no
+asset_media,Mobile_phone,83.00,C,"NFHS-4 baseline ~78%; COVID-19 accelerated mobile penetration (welfare scheme info delivery, Duare Sarkar); ~83% by 2021",no
+asset_media,Smartphone_with_internet,55.00,C,NFHS-4 WB rural ~32% (2019 baseline); COVID-19 period smartphone surge +20-25pp rural WB (Jio rollout + PMGDISHA + scheme delivery); ~55% by 2021,no
+asset_media,Computer,4.00,C,Stable; remote rural AC; no significant increase,no
+asset_media,Two_wheeler,21.00,C,Marginal increase from 2019 (20%),no
+asset_media,Four_wheeler,3.00,C,Stable,no
+asset_media,Banking_access,87.00,B,PMJDY + Lakshmir Bhandar DBT (Apr 2021) required banking account; push to near-saturation; +7pp from 2019 (80%); NFHS-5 consistent,no
+amenities,Improved_drinking_water_source,90.00,C,NFHS-5 Koch Bihar: 99.3%; AC rural average below district headline; ~90% weighted (U1 Sitai CDB lower than district),no
+amenities,Improved_sanitation,65.00,C,NFHS-5 Koch Bihar: 75.7%; up from NFHS-4 53.3%; Swachh Bharat + state push; rural AC estimate ~65% (below district avg),no
+amenities,LPG_clean_cooking_fuel,30.00,C,"NFHS-5 Koch Bihar: 25.7%; Ujjwala + state scheme; slight increase from 2019 (28%); AC ~30% (rural, lower than district avg 25.7 due to remote areas)",no
+amenities,Wood_biomass_fuel,63.00,C,Declining as LPG rises; dominant fuel,no
+amenities,Other_fuel,7.00,C,"Kerosene, dung etc.; stable",no
+amenities,Electricity,96.00,A,NFHS-5 Koch Bihar: 98.2% electricity; rural Sitai CDB slightly lower; ~96% by 2021 (up from 90% in 2019),no
+migration,Native,82.00,D,Sitai is agricultural Rajbanshi heartland; overwhelmingly native; COVID-19 return migration 2020 temporarily increased this share,no
+migration,WB_other_district,5.00,D,Some in-migrants from nearby WB districts; COVID-19 return migrants from other WB districts absorbed,no
+migration,Other_Indian_state,1.00,E,Very small non-Bengali presence,no
+migration,Bangladesh_origin,10.00,D,Cooch Behar border district; Hindu SC families from East Pakistan/Bangladesh partition-era; BSF 50km jurisdiction extension Oct 2021 created anxiety in this cohort,no
+migration,Outside_India,0.50,E,Negligible,no
+migration,Out_migrant,1.50,E,COVID-19 suppressed out-migration in 2020; partial recovery by end-2021,no

@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,33.00,14.00,9.70,13.80,29.50,0,0,E,Hindu SC=Rajbanshi ~33% of Hindu; ST=tribal Hindu workers ~14%; UC bhadralok 9.7%; OBC ~13.8%; residual Hindu middle 29.5%; stable from 2019
+Muslim,0,0,0,0,0,100,0,A,self-evident
+Christian,0,0,0,0,0,0,100,A,self-evident
+Sarna_ORP,0,92.00,0,5.00,3.00,0,0,E,Sarna ORP practitioners are overwhelmingly tribal ST
+Other_residual,0,0,0,0,0,0,100,E,Sikh/Jain/Buddhist/Not-stated in Other_residual

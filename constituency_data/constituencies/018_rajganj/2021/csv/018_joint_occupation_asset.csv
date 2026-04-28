@@ -1,0 +1,11 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,45.00,60.00,C,Rural agricultural baseline; +17pp smartphone from 2019; North Bengal Jio saturation
+Agricultural_labourer,35.00,50.00,C,Tea-garden pluckers; +15pp smartphone; basic smartphones very widespread by 2021
+Household_industry,50.00,64.00,C,
+Manufacturing,62.00,77.00,C,
+Construction,55.00,67.00,C,
+Trade_retail,75.00,84.00,C,Town-based retailers; near-saturation
+Transport_logistics,72.00,80.00,C,Trucker/driver belt on NH-27
+Services,80.00,87.00,C,
+Government_services_teachers,90.00,92.00,C,Highest access; near-saturation
+Out_migrant_worker,75.00,72.00,D,Working outside; smartphone as primary communication tool; high adoption

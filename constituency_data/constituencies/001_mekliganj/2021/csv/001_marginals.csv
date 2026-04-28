@@ -1,0 +1,96 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,74.93,B,2011 weighted AC ~75.46%; adjusted -0.32pp for 10yr differential growth vs -0.21pp for 8yr in 2019 file,no
+religion,Muslim,24.74,B,2011 weighted ~24.21%; adjusted +0.32pp for 10yr differential growth,no
+religion,Christian,0.29,B,Weighted from four sub-units 2011; stable,no
+religion,Sarna_ORP,0.02,E,Negligible in Cooch Behar CDBs,no
+religion,Other_residual,0.02,E,Sikh + Jain + Buddhist + Not_stated; residual,no
+caste,SC_total,64.77,B,2011 SC census proportions applied to 2021 projected pop; small drift from Muslim fractional increase,no
+caste,Rajbanshi_SC,58.30,C,Koch-Rajbanshi SC dominant sub-group; ~90% of SC pool,yes
+caste,Namasudra_SC,4.50,E,Smaller pool; ~7% of SC pool,yes
+caste,Other_SC,1.97,E,Residual SC sub-castes,yes
+caste,ST_total,0.88,B,"Weighted 2011: Mekli-CDB 1.24%, Haldi-CDB 0.30%; stable",no
+caste,UC_bhadralok,2.00,E,Very small bhadralok fraction in Cooch Behar frontier AC,no
+caste,OBC,3.00,E,Small OBC fraction; Cooch Behar OBC pool,no
+caste,Other_Hindu_middle,4.37,E,Residual within Hindu non-SC/ST/UC/OBC: 74.93 − 64.77 SC − 0.88 ST − 2.0 UC − 3.0 OBC = 4.28; rounded to maintain sum,no
+caste,Muslim,24.74,B,See C.1; all sub-castes pooled; slight uptick from 2019 24.42%,no
+caste,Christian_plus_Sarna_plus_Other,0.24,E,See C.1; slight shrinkage,no
+age_cohort,18_22,11.20,E,Cooch Behar district age pyramid Census 2011; first-time voter cohort 2021 AE; slightly lower than 2019 as cohort ages,no
+age_cohort,23_27,11.00,E,,no
+age_cohort,28_32,10.50,E,,no
+age_cohort,33_37,10.00,E,,no
+age_cohort,38_42,9.50,E,,no
+age_cohort,43_47,9.00,E,,no
+age_cohort,48_52,8.20,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.50,E,,no
+age_cohort,63_67,4.60,E,,no
+age_cohort,68,12.50,E,68+ open-ended cohort; includes widowed elderly,no
+gender,Male,48.60,B,"NFHS-5 Koch Bihar sex ratio 1,058 F per 1000 M → 51.4% F / 48.6% M; notable improvement from 2011 (948) reflecting female survival gains",no
+gender,Female,51.39,B,NFHS-5 Koch Bihar 2019-21,no
+gender,Third_gender,0.01,E,State-level trace,no
+mother_tongue,Bengali,87.80,B,Mekliganj CDB 93.9% Bengali; AC weighted ~88%; slight drift as Rajbongshi community maintains distinct identity,no
+mother_tongue,Hindi,1.20,B,Cooch Behar district ~1.17% Hindi; border/transit zones,no
+mother_tongue,Urdu,0.50,E,Small Muslim pocket in Haldibari (33% Muslim); some Urdu-speakers,no
+mother_tongue,Other,0.50,E,Residual catch-all,no
+mother_tongue,Rajbongshi,10.00,C,Rajbanshi (Koch-Rajbanshi) community speaks Rajbongshi dialect; stable estimate,no
+education,Illiterate,24.00,B,Koch Bihar NFHS-5 women literacy 79.2%; overall AC literacy ~76% by 2021 (improvement from ~74% in 2019); 2pp improvement in 2 years,no
+education,Primary,24.00,E,Census 2011 WB education distribution scaled for Cooch Behar; stable,no
+education,Middle,20.00,E,,no
+education,Secondary,14.50,E,Slight upward nudge from 2019 (14%) as education access improves,no
+education,Higher_Secondary,9.50,E,,no
+education,Graduate,6.50,E,Slight increase; post-COVID higher education pattern,no
+education,Postgraduate,1.50,E,,no
+workforce_status,Main_worker,34.00,E,Slight dip from 2019 (35%) reflecting COVID disruption to agricultural and trade employment; partial recovery by end-2021,no
+workforce_status,Marginal_worker,14.00,E,Uptick from 2019 (13%) due to COVID reverse-migration returning seasonal workers,no
+workforce_status,Non_worker,37.00,E,Housewife + elderly + retired; stable,no
+workforce_status,Student,9.00,E,18-22 in education cohort; schools reopening post-COVID,no
+workforce_status,Unemployed,6.00,E,Educated job-aspirant pool; stable,no
+occupation,Cultivator,40.00,B,Mekli CDB 48.22% (A); weighted with Haldibari and Muni; COVID-19 kept many rural households in agriculture,no
+occupation,Agricultural_labourer,33.00,B,High landless SC-labourer pool given 65% SC; stable,no
+occupation,Household_industry,3.00,B,Mekli CDB 1.70%; slightly higher in Haldibari,no
+occupation,Manufacturing,2.50,E,Limited; some rice mills in Haldibari area,no
+occupation,Construction,4.50,E,Slightly lower than 2019 (5%) due to COVID lockdown disruption to construction migrant work,no
+occupation,Trade_retail,8.00,E,Muni-based retail; Changrabandha border trade; stable,no
+occupation,Transport_logistics,3.50,E,Haldibari rail terminus; Changrabandha land-port; slight uptick post-COVID reopening,no
+occupation,Services,3.00,E,Private services; stable,no
+occupation,Government_services_teachers,2.50,E,"Government teachers, block-level admin",no
+occupation,Out_migrant_worker,0.00,E,Low; COVID reverse migration reduced recorded out-migrant workers,no
+class_of_worker,Employer,1.50,E,Very low; small traders and landowners,no
+class_of_worker,Employee,18.00,E,Govt employees + regular-wage workers; stable,no
+class_of_worker,Single_worker,52.00,E,Own-account cultivator + petty trader + artisan; stable,no
+class_of_worker,Family_worker,28.50,E,Unpaid family farm labour; high given ag dominance,no
+economic_status,BPL_household,28.00,C,Cooch Behar district high poverty; 2019 estimate ~30%; Duare Sarkar + welfare rollout partially offset by COVID economic shock; ~28% by end-2021,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,Near-poor households; stable,no
+economic_status,Lower_middle,22.00,E,,no
+economic_status,Middle,11.00,E,Marginal improvement from Lakshmir Bhandar cash transfer,no
+economic_status,Upper_middle_well_off,4.00,E,Thin upper stratum; small expansion,no
+gp_location,U1_Mekliganj_area,58.10,A,"Mekliganj Muni (9,127) + Mekliganj CDB (155,250) = 164,377 of 282,750 total; Census 2011; stable",no
+gp_location,U2_Haldibari_area,41.90,A,"Haldibari Muni (14,404) + Haldibari CDB (103,969) = 118,373 of 282,750; Census 2011; stable",no
+household_composition,Avg_HH_size,4.5 persons,E,Cooch Behar district slightly above WB state average; stable,no
+household_composition,Nuclear_HH,65.00,E,COVID-19 may have increased nuclear household formation; NFHS-5 WB pattern; stable estimate,no
+household_composition,Joint_HH,28.00,E,,no
+household_composition,Extended_multi_generation,7.00,E,,no
+marital_status,Never_married,25.50,E,Census 2011 Cooch Behar pattern; slightly lower than 2019 (26%) as 2019 first-time voter cohort ages into marriage,no
+marital_status,Currently_married,64.50,E,Slight uptick from 2019 (64%); high early marriage rate in rural Koch Bihar (NFHS-5: 46.7% women married before 18),no
+marital_status,Widowed,8.50,E,Stable; slightly higher than WB average,no
+marital_status,Separated_divorced,1.50,E,Stable,no
+asset_media,Television,70.00,B,NFHS-5 Koch Bihar overall household pattern; up from 2019 (65%); TV nearing saturation in rural frontier ACs,no
+asset_media,Radio,6.00,C,Declining; slightly lower than 2019 (7%),no
+asset_media,Mobile_phone,87.00,C,NFHS-5 WB rural improvement; near-saturation; slight adjustment from 2019 (82%),no
+asset_media,Smartphone_with_internet,58.00,C,Post-COVID surge: +20-25pp from 2019 (35%); Jio + COVID government app adoption + digital payments; WB rural pattern per NFHS-5 trend,no
+asset_media,Computer,4.50,C,Marginal uptick from 2019 (4%); very low in rural frontier AC,no
+asset_media,Two_wheeler,19.00,C,NFHS-5 WB pattern; marginal increase from 2019 (18%),no
+asset_media,Four_wheeler,3.00,C,Limited; stable,no
+asset_media,Banking_access,92.00,B,PMJDY further +5pp from 2019 (85%); NFHS-5 Koch Bihar financial inclusion improvement; Duare Sarkar bank linkages,no
+amenities,Improved_drinking_water_source,99.00,B,NFHS-5 Koch Bihar 99.3%; major improvement from 2019 (85%); Jal Jeevan Mission 2019-21 rollout,no
+amenities,Improved_sanitation,75.00,B,NFHS-5 Koch Bihar 75.7%; improvement from 2019 (60%); Swachh Bharat Phase II + ODF declaration,no
+amenities,LPG_clean_cooking_fuel,26.00,B,NFHS-5 Koch Bihar 25.7%; limited improvement from 2019 (30%) due to low refill rates despite Ujjwala connections,no
+amenities,Wood_biomass_fuel,68.00,B,Still dominant; slight uptick vs 2019 (65%) as LPG refills unaffordable for many SC-BPL households,no
+amenities,Other_fuel,6.00,E,"Kerosene, dung, etc.; residual; LPG+Wood+Other sum to 100",no
+amenities,Electricity,98.00,B,NFHS-5 Koch Bihar 98.2%; near-saturation from 2019 (90%); Saubhagya + Har Ghar Bijli completions,no
+migration,Native,70.50,D,Rajbanshi SC mostly indigenous; slight uptick from COVID reverse migration of seasonal workers re-classifying as native,no
+migration,WB_other_district,6.00,D,Limited in-migration from other WB districts; stable,no
+migration,Other_Indian_state,1.50,D,Slight decline from 2019 (2%); COVID reduced inter-state migration; small trader fringe in Muni areas,no
+migration,Bangladesh_origin,20.00,D,Significant: Rajbanshi displaced in 1947 partition + subsequent Hindu refugee flows; Haldibari area affected; Bangladesh temple attacks Oct 2021 prompted minor anxiety among this community but no major migration event,no
+migration,Outside_India,0.50,E,Bhutan / Nepal origin; minor; stable,no
+migration,Out_migrant,1.50,E,Seasonal / permanent out-migrants; COVID largely returned seasonal workers home; v0 simplification,no

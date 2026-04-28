@@ -1,0 +1,96 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,64.00,A,Weighted blend: Census 2011 block data + 10-yr differential growth projection; Hindu share ~0.5pp lower than 2019,no
+religion,Muslim,35.10,A,"Dinhata II 36.68%, Dinhata I 36.98%; Muni ~24%; weighted blend + 10-yr growth; slight relative gain",no
+religion,Christian,0.15,A,"Dinhata I CDB 0.19%, Dinhata II 0.09%; stable; Census 2011",no
+religion,Sarna_ORP,0.10,E,Negligible tribal religion; stable,no
+religion,Other_residual,0.65,E,Sikh + Jain + Buddhist + Not_stated; residual; stable,no
+caste,SC_total,41.65,A,wb_ac_master_v3.csv; Census 2011 SC pct 41.65% for AC 007,no
+caste,Rajbanshi_SC,35.40,C,~85% of SC pool; dominant Koch-Rajbanshi caste in Cooch Behar,yes
+caste,Other_SC,6.25,E,Residual SC sub-groups,yes
+caste,ST_total,0.45,A,wb_ac_master_v3.csv; Census 2011 ST pct 0.45% for AC 007,no
+caste,UC_bhadralok,3.50,E,Brahmin/Kayastha/Baidya; smaller in ex-Koch kingdom territory,no
+caste,OBC,5.00,E,"Teli, Sutradhar, Kurmi, Nai, etc.; Cooch Behar OBC pool",no
+caste,Other_Hindu_middle,13.40,E,Residual Hindu: 64.00 − 41.65 − 0.45 − 3.50 − 5.00 = 13.40,no
+caste,Muslim,35.10,E,All Muslim sub-castes pooled; see C.1,no
+caste,Christian_plus_Sarna_plus_Other,0.90,E,Christian 0.15 + Sarna 0.10 + Other_residual 0.65,no
+age_cohort,18_22,10.00,E,Projected from Cooch Behar Census 2011 age pyramid; 18+ renormalized; new first-time voters added,no
+age_cohort,23_27,10.50,E,Cohort shift from 2019,no
+age_cohort,28_32,11.00,E,,no
+age_cohort,33_37,10.00,E,,no
+age_cohort,38_42,9.00,E,,no
+age_cohort,43_47,8.50,E,,no
+age_cohort,48_52,7.50,E,,no
+age_cohort,53_57,6.50,E,,no
+age_cohort,58_62,5.50,E,,no
+age_cohort,63_67,4.50,E,,no
+age_cohort,68,17.00,E,68+ open-ended cohort; residual after above,no
+gender,Male,50.47,B,NFHS-5 Koch Bihar district sex ratio ~955; 1000/(1000+955)=51.15% M; AC electorate-weighted estimate ~50.47% M; NFHS-5 (2019-21),no
+gender,Female,49.52,B,Derived from sex ratio; NFHS-5 Koch Bihar,no
+gender,Third_gender,0.01,E,Negligible; standard WB pattern,no
+mother_tongue,Bengali,95.50,A,Cooch Behar district 2011: 94.79% Bengali + Rajbongshi speakers; stable; Census 2011,no
+mother_tongue,Hindi,1.00,A,Cooch Behar district 1.17%; Census 2011,no
+mother_tongue,Urdu,0.50,E,Small Urdu-speaking Muslim fringe in urban Dinhata,no
+mother_tongue,Rajbongshi,2.50,C,Rajbongshi-speaking population distinct from Bengali; AC-local; stable,no
+mother_tongue,Other,0.50,E,"Assamese fringe, Santali, residual",no
+education,Illiterate,20.00,B,Census 2011 literacy 75.11% (wb_ac_master_v3); NFHS-5 Koch Bihar women literacy 79.2%; trend improvement → ~20% illiterate by 2021,no
+education,Primary,24.00,E,Census 2011 education distribution for Cooch Behar district scaled; slight improvement,no
+education,Middle,22.00,E,Stable,no
+education,Secondary,17.00,E,Slight gain from literacy improvement,no
+education,Higher_Secondary,9.00,E,Gradual improvement,no
+education,Graduate,6.00,E,Modest improvement from 2019 baseline,no
+education,Postgraduate,2.00,E,Stable,no
+workforce_status,Main_worker,31.00,E,wb_ac_master_v3 workforce_pct 38.91% total; 18+ adult recalibrated ~31%; slight COVID disruption,no
+workforce_status,Marginal_worker,13.00,E,Higher marginal worker share post-COVID; agricultural districts absorbed returning migrants,no
+workforce_status,Non_worker,37.00,E,Housewife + elderly + retired,no
+workforce_status,Student,10.50,E,Reduced 18–22 cohort in education; some COVID drop-out,no
+workforce_status,Unemployed,8.50,E,Educated job-seekers; slight increase post-COVID,no
+occupation,Cultivator,22.00,E,Cooch Behar agricultural AC; agri_share_pct 60.99% (workers in ag) per master; cultivator share,no
+occupation,Agricultural_labourer,29.00,E,High ag-labourer share; Rajbanshi SC and Muslim landless; slight reduction vs 2019 with COVID return migration,no
+occupation,Household_industry,5.00,E,"Handloom, jute, cottage industry; stable",no
+occupation,Manufacturing,3.00,E,Limited,no
+occupation,Construction,7.00,E,Local + COVID-return migrants absorbed in construction,no
+occupation,Trade_retail,12.00,E,Dinhata Muni hub; market town,no
+occupation,Transport_logistics,5.00,E,NH17 corridor; slight growth,no
+occupation,Services,8.00,E,Private services,no
+occupation,Government_services_teachers,5.00,E,Government employees; teachers; stable,no
+occupation,Out_migrant_worker,4.00,D,Post-COVID seasonal out-migration to Assam tea estates and Siliguri; partially recovered by 2021,no
+class_of_worker,Employer,2.00,E,Stable; Census WB rural pattern,no
+class_of_worker,Employee,25.00,E,Govt + organized + retail employees,no
+class_of_worker,Single_worker,48.00,E,Own-account cultivator + artisan + small trader,no
+class_of_worker,Family_worker,25.00,E,Unpaid family labour in agriculture,no
+economic_status,BPL_household,28.00,C,Cooch Behar district BPL elevated; WB average ~22%; Cooch Behar ~30% (Census 2011 pattern); slight improvement trend → ~28% by 2021,no
+economic_status,Above_Poverty_Line_low_income,38.00,E,Near-BPL; subsistence agricultural families,no
+economic_status,Lower_middle,21.00,E,Slight upward mobility via govt schemes,no
+economic_status,Middle,10.00,E,"Small traders, govt employees; marginal improvement",no
+economic_status,Upper_middle_well_off,3.00,E,Urban Dinhata Muni professional class; stable,no
+gp_location,U1_Dinhata_Municipality,12.00,E,Dinhata Muni share of AC population; stable from 2019; Census 2011 base,no
+gp_location,U2_CDB_Dinhata_II,63.00,E,Dinhata II CDB dominant share; stable,no
+gp_location,U3_Dinhata_I_partial,25.00,E,4 GPs of Dinhata I CDB; stable,no
+household_composition,Avg_HH_size,4.4 persons,E,Slight decrease from 2019 (4.5); WB 2011 trend; COVID reverse migration may have temporarily increased HH size,no
+household_composition,Nuclear_HH,66.00,E,NFHS-5 WB rural trend; slight increase in nuclear household share,no
+household_composition,Joint_HH,27.00,E,Declining joint-HH trend,no
+household_composition,Extended_multi_generation,7.00,E,Stable,no
+marital_status,Never_married,25.00,E,Slight decrease from 2019; new voters added to married pool,no
+marital_status,Currently_married,66.00,E,High marriage rate; NFHS-5 Koch Bihar early-marriage prevalence,no
+marital_status,Widowed,8.00,E,Slightly elevated; COVID-19 excess mortality; female-skewed,no
+marital_status,Separated_divorced,1.00,E,Stable,no
+asset_media,Television,72.00,B,NFHS-5 Koch Bihar pattern; TV penetration stable/slight growth; 2019 baseline 70% + 2pp,no
+asset_media,Radio,4.00,B,Declining nationally; slight drop from 2019,no
+asset_media,Mobile_phone,87.00,B,Post-COVID: mobile phone access near-universal for adults; ~+5pp from 2019,no
+asset_media,Smartphone_with_internet,62.00,B,Post-COVID surge +20-22pp from 2019 baseline of 40%; Jio expansion + lockdown-driven adoption; NFHS-5 period,no
+asset_media,Computer,6.00,C,Stable; low rural penetration in Cooch Behar,no
+asset_media,Two_wheeler,26.00,C,Slight increase from 2019 baseline,no
+asset_media,Four_wheeler,4.00,E,Stable,no
+asset_media,Banking_access,88.00,B,PMJDY saturation + Jan Dhan Jan Suraksha push; +6pp from 2019 baseline 82%,no
+amenities,Improved_drinking_water_source,92.00,B,NFHS-5 Koch Bihar 99.3%; district-level; AC 007 estimated slightly below district average → 92%; NFHS-5,no
+amenities,Improved_sanitation,68.00,B,NFHS-5 Koch Bihar 75.7%; NFHS-4 was 53.3%; large Swachh Bharat gain; AC estimate 68%,no
+amenities,LPG_clean_cooking_fuel,38.00,B,NFHS-5 Koch Bihar 25.7%; NFHS-4 13.7%; +12pp; Ujjwala Phase-1 (2016-19) + Phase-2 continuing; AC urban-rural blend → ~38%,no
+amenities,Wood_biomass_fuel,54.00,B,Still dominant in rural Cooch Behar; declining; NFHS-5 indirect,no
+amenities,Other_fuel,8.00,E,"Kerosene, dung, etc.; residual",no
+amenities,Electricity,97.00,B,NFHS-5 Koch Bihar 98.2%; AC estimate ~97%; Saubhagya + DDUGJY near-saturation,no
+migration,Native,79.50,D,Predominantly native; slight decrease due to COVID reverse-migration registration; Cooch Behar stable,no
+migration,WB_other_district,5.00,D,"Some in-migration from Jalpaiguri, Alipurduar; stable",no
+migration,Other_Indian_state,2.00,E,"Assamese, Bihari traders; NH17 corridor",no
+migration,Bangladesh_origin,8.00,D,Historical Hindu refugees from East Bengal partition era; smaller than East WB border districts; stable,no
+migration,Outside_India,0.50,E,Negligible,no
+migration,Out_migrant,5.00,D,Post-COVID: some seasonal workers remained registered here; slight increase from 2019; Assam tea + Siliguri construction,no
