@@ -1,0 +1,1 @@
+../../../../constituency_data/constituencies/011_kalchini/2019/narrative.md

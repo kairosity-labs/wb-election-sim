@@ -35,17 +35,30 @@ class RuleBasedStrategy:
 
     def __init__(self, threshold: float = 3.0, cap_per_period: int = 5,
                  weights: dict | None = None,
-                 media_engagement_multiplier: bool = True, **kwargs):
+                 media_engagement_multiplier: bool = True,
+                 mask_tags: list[str] | None = None,
+                 disable_loss_aversion: bool = False,
+                 **kwargs):
+        """
+        mask_tags: tags to suppress from each agent's tag set BEFORE scoring.
+            Used by the `blind_to_prior` simulation variant to drop
+            `bjp_supporter` / `tmc_supporter` so prior-party signal does not
+            leak into news-targeting.
+        disable_loss_aversion: skip the negative-news-for-prior-party kicker.
+            Pair with mask_tags for a cleanly tag-blind variant.
+        """
         self.threshold = float(threshold)
         self.cap_per_period = int(cap_per_period)
         self.weights = {**_DEFAULT_WEIGHTS, **(weights or {})}
         self.media_engagement_multiplier = bool(media_engagement_multiplier)
+        self.mask_tags = frozenset(mask_tags or [])
+        self.disable_loss_aversion = bool(disable_loss_aversion)
 
     def select(self, agent: Agent, candidate_events: list[NewsEvent],
                period_start_iso: str, period_end_iso: str) -> list[ScoredEvent]:
         scored: list[ScoredEvent] = []
-        agent_tags = set(agent.tags)
-        prior = agent.initial_party
+        agent_tags = set(agent.tags) - self.mask_tags
+        prior = None if self.disable_loss_aversion else agent.initial_party
 
         for e in candidate_events:
             score = 0.0

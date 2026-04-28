@@ -1,0 +1,791 @@
+{
+  "n_acs": 10,
+  "headline": {
+    "mean_switch_rate_2019_to_2021": 0.111,
+    "mean_nota_pct_predicted": 5.1,
+    "mean_AITC_pred": 45.6,
+    "mean_AITC_true": 47.0,
+    "mean_AITC_pp_gap": -1.4,
+    "mean_BJP_pred": 41.8,
+    "mean_BJP_true": 42.5,
+    "mean_BJP_pp_gap": -0.8
+  },
+  "split_by_winner": {
+    "bjp_winning_acs": {
+      "n": 5,
+      "mean_AITC_pp_gap": -7.2,
+      "mean_BJP_pp_gap": -0.9
+    },
+    "aitc_winning_acs": {
+      "n": 5,
+      "mean_AITC_pp_gap": 4.3,
+      "mean_BJP_pp_gap": -0.6
+    }
+  },
+  "per_ac": [
+    {
+      "ac": "003_cooch_behar_uttar",
+      "true_winner": "BJP",
+      "n_personas_in_set": 100,
+      "n_predicted": 96,
+      "prior_2019_pcts": {
+        "Other": 1.0,
+        "BJP": 51.0,
+        "INC": 2.0,
+        "AITC": 42.0,
+        "LF": 0.0,
+        "NOTA": 0.0
+      },
+      "true_2021_pcts": {
+        "BJP": 49.4,
+        "AITC": 43.4,
+        "LF": 4.7,
+        "INC": 1.0,
+        "Other": 1.5
+      },
+      "predicted_2021_pcts": {
+        "BJP": 52.1,
+        "AITC": 32.3,
+        "LF": 5.2,
+        "INC": 1.0,
+        "Other": 2.1
+      },
+      "pp_gap_pred_minus_truth": {
+        "BJP": 2.7,
+        "AITC": -11.1,
+        "LF": 0.5,
+        "INC": 0.0,
+        "Other": 0.6
+      },
+      "switch_rate_2019_to_2021": 0.146,
+      "n_switched": 14,
+      "n_same_party": 82,
+      "top_switch_flows": [
+        [
+          [
+            "AITC",
+            "NOTA"
+          ],
+          5
+        ],
+        [
+          [
+            "AIFB",
+            "LF"
+          ],
+          4
+        ],
+        [
+          [
+            "AITC",
+            "Other"
+          ],
+          2
+        ],
+        [
+          [
+            "BJP",
+            "LF"
+          ],
+          1
+        ],
+        [
+          [
+            "Other",
+            "NOTA"
+          ],
+          1
+        ]
+      ],
+      "nota_pct_predicted": 7.29,
+      "memory_engagement": {
+        "mean": 60.5,
+        "median": 62.0,
+        "max": 80,
+        "with_zero_memories_pct": 0.0
+      }
+    },
+    {
+      "ac": "011_kalchini",
+      "true_winner": "BJP",
+      "n_personas_in_set": 100,
+      "n_predicted": 97,
+      "prior_2019_pcts": {
+        "Other": 0.0,
+        "BJP": 59.0,
+        "INC": 3.0,
+        "AITC": 35.0,
+        "LF": 0.0,
+        "NOTA": 0.0
+      },
+      "true_2021_pcts": {
+        "BJP": 52.6,
+        "AITC": 38.1,
+        "INC": 2.8,
+        "LF": 2.0,
+        "Other": 4.5
+      },
+      "predicted_2021_pcts": {
+        "BJP": 62.9,
+        "AITC": 28.9,
+        "INC": 2.1,
+        "LF": 0.0,
+        "Other": 0.0
+      },
+      "pp_gap_pred_minus_truth": {
+        "BJP": 10.2,
+        "AITC": -9.2,
+        "INC": -0.7,
+        "LF": -2.0,
+        "Other": -4.5
+      },
+      "switch_rate_2019_to_2021": 0.124,
+      "n_switched": 12,
+      "n_same_party": 85,
+      "top_switch_flows": [
+        [
+          [
+            "AITC",
+            "NOTA"
+          ],
+          3
+        ],
+        [
+          [
+            "AITC",
+            "BJP"
+          ],
+          3
+        ],
+        [
+          [
+            "RSP",
+            "NOTA"
+          ],
+          3
+        ],
+        [
+          [
+            "BJP",
+            "AITC"
+          ],
+          2
+        ],
+        [
+          [
+            "INC",
+            "BJP"
+          ],
+          1
+        ]
+      ],
+      "nota_pct_predicted": 6.19,
+      "memory_engagement": {
+        "mean": 52.62,
+        "median": 54.0,
+        "max": 71,
+        "with_zero_memories_pct": 0.0
+      }
+    },
+    {
+      "ac": "064_murshidabad",
+      "true_winner": "BJP",
+      "n_personas_in_set": 100,
+      "n_predicted": 99,
+      "prior_2019_pcts": {
+        "Other": 0.0,
+        "BJP": 35.0,
+        "INC": 23.0,
+        "AITC": 36.0,
+        "LF": 0.0,
+        "NOTA": 0.0
+      },
+      "true_2021_pcts": {
+        "BJP": 41.9,
+        "AITC": 40.8,
+        "INC": 12.6,
+        "LF": 2.5,
+        "Other": 2.3
+      },
+      "predicted_2021_pcts": {
+        "BJP": 35.4,
+        "AITC": 25.3,
+        "INC": 25.3,
+        "LF": 3.0,
+        "Other": 3.0
+      },
+      "pp_gap_pred_minus_truth": {
+        "BJP": -6.5,
+        "AITC": -15.5,
+        "INC": 12.7,
+        "LF": 0.5,
+        "Other": 0.7
+      },
+      "switch_rate_2019_to_2021": 0.172,
+      "n_switched": 17,
+      "n_same_party": 82,
+      "top_switch_flows": [
+        [
+          [
+            "AITC",
+            "NOTA"
+          ],
+          7
+        ],
+        [
+          [
+            "CPI",
+            "LF"
+          ],
+          3
+        ],
+        [
+          [
+            "AITC",
+            "Other"
+          ],
+          3
+        ],
+        [
+          [
+            "CPI",
+            "INC"
+          ],
+          2
+        ],
+        [
+          [
+            "AITC",
+            "INC"
+          ],
+          1
+        ]
+      ],
+      "nota_pct_predicted": 8.08,
+      "memory_engagement": {
+        "mean": 68.45,
+        "median": 69.0,
+        "max": 88,
+        "with_zero_memories_pct": 0.0
+      }
+    },
+    {
+      "ac": "095_bangaon_uttar",
+      "true_winner": "BJP",
+      "n_personas_in_set": 93,
+      "n_predicted": 88,
+      "prior_2019_pcts": {
+        "Other": 1.1,
+        "BJP": 48.4,
+        "INC": 5.4,
+        "AITC": 45.2,
+        "LF": 0.0,
+        "NOTA": 0.0
+      },
+      "true_2021_pcts": {
+        "BJP": 47.6,
+        "AITC": 42.5,
+        "LF": 5.0,
+        "INC": 1.0,
+        "Other": 3.8
+      },
+      "predicted_2021_pcts": {
+        "BJP": 51.1,
+        "AITC": 27.3,
+        "LF": 0.0,
+        "INC": 6.8,
+        "Other": 2.3
+      },
+      "pp_gap_pred_minus_truth": {
+        "BJP": 3.5,
+        "AITC": -15.2,
+        "LF": -5.0,
+        "INC": 5.8,
+        "Other": -1.5
+      },
+      "switch_rate_2019_to_2021": 0.193,
+      "n_switched": 17,
+      "n_same_party": 71,
+      "top_switch_flows": [
+        [
+          [
+            "AITC",
+            "NOTA"
+          ],
+          10
+        ],
+        [
+          [
+            "AITC",
+            "BJP"
+          ],
+          2
+        ],
+        [
+          [
+            "AITC",
+            "Other"
+          ],
+          2
+        ],
+        [
+          [
+            "BJP",
+            "AITC"
+          ],
+          1
+        ],
+        [
+          [
+            "BJP",
+            "INC"
+          ],
+          1
+        ]
+      ],
+      "nota_pct_predicted": 12.5,
+      "memory_engagement": {
+        "mean": 69.3,
+        "median": 67,
+        "max": 147,
+        "with_zero_memories_pct": 0.0
+      }
+    },
+    {
+      "ac": "123_sandeshkhali",
+      "true_winner": "AITC",
+      "n_personas_in_set": 93,
+      "n_predicted": 91,
+      "prior_2019_pcts": {
+        "Other": 0.0,
+        "BJP": 32.3,
+        "INC": 1.1,
+        "AITC": 65.6,
+        "LF": 0.0,
+        "NOTA": 0.0
+      },
+      "true_2021_pcts": {
+        "AITC": 54.6,
+        "BJP": 35.4,
+        "LF": 4.5,
+        "INC": 1.5,
+        "Other": 4.0
+      },
+      "predicted_2021_pcts": {
+        "AITC": 63.7,
+        "BJP": 29.7,
+        "LF": 0.0,
+        "INC": 0.0,
+        "Other": 0.0
+      },
+      "pp_gap_pred_minus_truth": {
+        "AITC": 9.1,
+        "BJP": -5.7,
+        "LF": -4.5,
+        "INC": -1.5,
+        "Other": -4.0
+      },
+      "switch_rate_2019_to_2021": 0.099,
+      "n_switched": 9,
+      "n_same_party": 82,
+      "top_switch_flows": [
+        [
+          [
+            "AITC",
+            "NOTA"
+          ],
+          5
+        ],
+        [
+          [
+            "BJP",
+            "AITC"
+          ],
+          2
+        ],
+        [
+          [
+            "CPI",
+            "AITC"
+          ],
+          1
+        ],
+        [
+          [
+            "INC",
+            "NOTA"
+          ],
+          1
+        ]
+      ],
+      "nota_pct_predicted": 6.59,
+      "memory_engagement": {
+        "mean": 61.7,
+        "median": 62,
+        "max": 119,
+        "with_zero_memories_pct": 0.0
+      }
+    },
+    {
+      "ac": "143_diamond_harbour",
+      "true_winner": "AITC",
+      "n_personas_in_set": 100,
+      "n_predicted": 94,
+      "prior_2019_pcts": {
+        "Other": 0.0,
+        "BJP": 36.0,
+        "INC": 1.0,
+        "AITC": 57.0,
+        "LF": 0.0,
+        "NOTA": 0.0
+      },
+      "true_2021_pcts": {
+        "AITC": 43.7,
+        "BJP": 36.1,
+        "LF": 17.2,
+        "INC": 1.0,
+        "Other": 2.0
+      },
+      "predicted_2021_pcts": {
+        "AITC": 61.7,
+        "BJP": 29.8,
+        "LF": 6.4,
+        "INC": 0.0,
+        "Other": 0.0
+      },
+      "pp_gap_pred_minus_truth": {
+        "AITC": 18.0,
+        "BJP": -6.3,
+        "LF": -10.8,
+        "INC": -1.0,
+        "Other": -2.0
+      },
+      "switch_rate_2019_to_2021": 0.138,
+      "n_switched": 13,
+      "n_same_party": 81,
+      "top_switch_flows": [
+        [
+          [
+            "CPI_LF",
+            "LF"
+          ],
+          5
+        ],
+        [
+          [
+            "BJP",
+            "AITC"
+          ],
+          4
+        ],
+        [
+          [
+            "AITC",
+            "NOTA"
+          ],
+          2
+        ],
+        [
+          [
+            "CPI_LF",
+            "AITC"
+          ],
+          1
+        ],
+        [
+          [
+            "INC",
+            "LF"
+          ],
+          1
+        ]
+      ],
+      "nota_pct_predicted": 2.13,
+      "memory_engagement": {
+        "mean": 65.63,
+        "median": 66.0,
+        "max": 84,
+        "with_zero_memories_pct": 0.0
+      }
+    },
+    {
+      "ac": "159_bhabanipur",
+      "true_winner": "AITC",
+      "n_personas_in_set": 99,
+      "n_predicted": 97,
+      "prior_2019_pcts": {
+        "Other": 0.0,
+        "BJP": 42.4,
+        "INC": 3.0,
+        "AITC": 49.5,
+        "LF": 0.0,
+        "NOTA": 1.0
+      },
+      "true_2021_pcts": {
+        "AITC": 57.7,
+        "BJP": 35.2,
+        "LF": 3.5,
+        "INC": 2.0,
+        "Other": 1.6
+      },
+      "predicted_2021_pcts": {
+        "AITC": 50.5,
+        "BJP": 41.2,
+        "LF": 1.0,
+        "INC": 1.0,
+        "Other": 0.0
+      },
+      "pp_gap_pred_minus_truth": {
+        "AITC": -7.2,
+        "BJP": 6.0,
+        "LF": -2.5,
+        "INC": -1.0,
+        "Other": -1.6
+      },
+      "switch_rate_2019_to_2021": 0.072,
+      "n_switched": 7,
+      "n_same_party": 90,
+      "top_switch_flows": [
+        [
+          [
+            "INC",
+            "NOTA"
+          ],
+          2
+        ],
+        [
+          [
+            "CPI",
+            "NOTA"
+          ],
+          2
+        ],
+        [
+          [
+            "CPI",
+            "LF"
+          ],
+          1
+        ],
+        [
+          [
+            "CPI",
+            "AITC"
+          ],
+          1
+        ],
+        [
+          [
+            "AITC",
+            "NOTA"
+          ],
+          1
+        ]
+      ],
+      "nota_pct_predicted": 6.19,
+      "memory_engagement": {
+        "mean": 64.92,
+        "median": 65,
+        "max": 124,
+        "with_zero_memories_pct": 0.0
+      }
+    },
+    {
+      "ac": "198_tarakeswar",
+      "true_winner": "AITC",
+      "n_personas_in_set": 98,
+      "n_predicted": 96,
+      "prior_2019_pcts": {
+        "Other": 0.0,
+        "BJP": 39.8,
+        "INC": 3.1,
+        "AITC": 54.1,
+        "LF": 3.1,
+        "NOTA": 0.0
+      },
+      "true_2021_pcts": {
+        "AITC": 47.0,
+        "BJP": 43.3,
+        "LF": 7.1,
+        "INC": 1.0,
+        "Other": 1.6
+      },
+      "predicted_2021_pcts": {
+        "AITC": 52.1,
+        "BJP": 41.7,
+        "LF": 4.2,
+        "INC": 1.0,
+        "Other": 0.0
+      },
+      "pp_gap_pred_minus_truth": {
+        "AITC": 5.1,
+        "BJP": -1.6,
+        "LF": -2.9,
+        "INC": 0.0,
+        "Other": -1.6
+      },
+      "switch_rate_2019_to_2021": 0.031,
+      "n_switched": 3,
+      "n_same_party": 93,
+      "top_switch_flows": [
+        [
+          [
+            "INC",
+            "NOTA"
+          ],
+          1
+        ],
+        [
+          [
+            "AITC",
+            "BJP"
+          ],
+          1
+        ],
+        [
+          [
+            "AITC",
+            "LF"
+          ],
+          1
+        ]
+      ],
+      "nota_pct_predicted": 1.04,
+      "memory_engagement": {
+        "mean": 62.9,
+        "median": 64.0,
+        "max": 127,
+        "with_zero_memories_pct": 0.0
+      }
+    },
+    {
+      "ac": "210_nandigram",
+      "true_winner": "BJP",
+      "n_personas_in_set": 98,
+      "n_predicted": 94,
+      "prior_2019_pcts": {
+        "Other": 0.0,
+        "BJP": 30.6,
+        "INC": 1.0,
+        "AITC": 67.3,
+        "LF": 1.0,
+        "NOTA": 0.0
+      },
+      "true_2021_pcts": {
+        "BJP": 48.5,
+        "AITC": 47.6,
+        "LF": 2.7,
+        "INC": 0.5,
+        "Other": 0.6
+      },
+      "predicted_2021_pcts": {
+        "BJP": 34.0,
+        "AITC": 62.8,
+        "LF": 2.1,
+        "INC": 1.1,
+        "Other": 0.0
+      },
+      "pp_gap_pred_minus_truth": {
+        "BJP": -14.5,
+        "AITC": 15.2,
+        "LF": -0.6,
+        "INC": 0.6,
+        "Other": -0.6
+      },
+      "switch_rate_2019_to_2021": 0.032,
+      "n_switched": 3,
+      "n_same_party": 91,
+      "top_switch_flows": [
+        [
+          [
+            "AITC",
+            "BJP"
+          ],
+          2
+        ],
+        [
+          [
+            "AITC",
+            "LF"
+          ],
+          1
+        ]
+      ],
+      "nota_pct_predicted": 0.0,
+      "memory_engagement": {
+        "mean": 63.3,
+        "median": 64.0,
+        "max": 130,
+        "with_zero_memories_pct": 0.0
+      }
+    },
+    {
+      "ac": "222_jhargram",
+      "true_winner": "AITC",
+      "n_personas_in_set": 100,
+      "n_predicted": 98,
+      "prior_2019_pcts": {
+        "Other": 0.0,
+        "BJP": 42.0,
+        "INC": 0.0,
+        "AITC": 50.0,
+        "LF": 0.0,
+        "NOTA": 0.0
+      },
+      "true_2021_pcts": {
+        "AITC": 54.3,
+        "BJP": 35.3,
+        "LF": 5.2,
+        "INC": 1.5,
+        "Other": 3.7
+      },
+      "predicted_2021_pcts": {
+        "AITC": 51.0,
+        "BJP": 39.8,
+        "LF": 8.2,
+        "INC": 0.0,
+        "Other": 0.0
+      },
+      "pp_gap_pred_minus_truth": {
+        "AITC": -3.3,
+        "BJP": 4.5,
+        "LF": 3.0,
+        "INC": -1.5,
+        "Other": -3.7
+      },
+      "switch_rate_2019_to_2021": 0.102,
+      "n_switched": 10,
+      "n_same_party": 88,
+      "top_switch_flows": [
+        [
+          [
+            "CPIM",
+            "LF"
+          ],
+          8
+        ],
+        [
+          [
+            "BJP",
+            "AITC"
+          ],
+          1
+        ],
+        [
+          [
+            "AITC",
+            "NOTA"
+          ],
+          1
+        ]
+      ],
+      "nota_pct_predicted": 1.02,
+      "memory_engagement": {
+        "mean": 58.83,
+        "median": 61.0,
+        "max": 77,
+        "with_zero_memories_pct": 0.0
+      }
+    }
+  ]
+}

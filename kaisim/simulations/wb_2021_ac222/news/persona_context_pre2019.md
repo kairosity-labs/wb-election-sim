@@ -1,0 +1,1 @@
+../../../../constituency_data/constituencies/222_jhargram/2019/narrative.md

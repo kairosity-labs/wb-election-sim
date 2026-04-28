@@ -1,0 +1,1 @@
+../../../../constituency_data/constituencies/003_cooch_behar_uttar/2019/narrative.md

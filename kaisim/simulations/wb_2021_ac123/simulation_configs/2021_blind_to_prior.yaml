@@ -1,0 +1,63 @@
+simulation:
+  name: 123_sandeshkhali_2021_blind_to_prior
+  description: tag_match, but bjp/tmc/left_inc supporter tags masked from agent.
+ac_id: 123_sandeshkhali
+input:
+  persona_set: local_qwen_n100
+clock:
+  start_date: '2020-01-01'
+  end_date: '2021-04-29'
+  tick_unit: month
+  tick_size: 1
+  reflection_every_n_ticks: 6
+targeting:
+  strategy: tag_match
+  config:
+    mask_tags:
+    - bjp_supporter
+    - tmc_supporter
+    - left_inc_supporter
+update:
+  style: park_minimal
+reflection:
+  enabled: true
+  every_n_ticks: 6
+  compression_target_tokens: 200
+llm:
+  provider: openai
+  model: Qwen/Qwen3.5-9B
+  base_url: http://localhost:30000/v1
+  api_key: EMPTY
+  reasoning: null
+  temperature: 0.7
+  max_tokens: 4000
+  cache_system_prompt: true
+execution:
+  async: true
+  max_concurrent_personas: 100
+output:
+  runs_dir: runs
+  save_raw_responses: true
+  save_feeds_audit: true
+election_context:
+  ac_name: Sandeshkhali
+  poll_date_human: 29 April 2021
+  election_label: 2021 West Bengal Legislative Assembly Election
+  candidates:
+    AITC:
+      name: Sukumar Mahata
+      note: winner
+    BJP:
+      name: Bhaskar Sardar
+    LF:
+      name: "\u2014"
+    INC:
+      name: "\u2014"
+    Other:
+      name: Other / NOTA
+ground_truth:
+  AITC: 54.64
+  BJP: 35.36
+  LF: 4.5
+  INC: 1.5
+  Other: 4.0
