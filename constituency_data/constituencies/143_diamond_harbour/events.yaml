@@ -1,0 +1,4 @@
+# Constituency-specific events timeline
+# Format: date | headline | scope | tags
+# Populate when local events data is available.
+events: []
