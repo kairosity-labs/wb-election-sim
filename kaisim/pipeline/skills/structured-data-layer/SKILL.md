@@ -185,32 +185,10 @@ Run via `python3 scripts/validate_calibrated_<year>.py NNN`. Implementation live
 
 Exit codes: 0 = all enforced pass · 1 = hard failure · 2 = only soft warnings.
 
-## Source registry — use scrapers before manual search
-
-Empirical audit of the first 30 calibrated 2019 ACs found that ~85% of every Tier-A/B/C cell traces to one of seven canonical sources. **Before doing any web search**, check the source registry at [`scripts/scrapers/SOURCE_REGISTRY.md`](../../../scripts/scrapers/SOURCE_REGISTRY.md) and run the scraper if it exists. This collapses the per-AC token budget from ~80k input tokens (search + read) to ~12k (CSV reads).
-
-| Source family | Coverage | Scraper | Output location |
-|---|---|---|---|
-| Census 2011 PCA / SC-ST / literacy | 30/30 | already mirrored | [`data/shrug/`](../../../data/shrug/), [`data/census_2011/`](../../../data/census_2011/) |
-| Wikipedia AC + LS infoboxes | 30/30 | [`scrape_wikipedia_ac.py`](../../../scripts/scrapers/scrape_wikipedia_ac.py) | `data/wikipedia/<NNN>_<slug>.json` |
-| TCPD LokDhaba (clean ECI mirror) | 30/30 | [`scrape_lokdhaba.py`](../../../scripts/scrapers/scrape_lokdhaba.py) | `data/lokdhaba/<type>_West_Bengal_<year>.csv` |
-| ECI Form-20 (PS-level) | 16/30 | [`scrape_ceo_wb_form20.py`](../../../scripts/scrapers/scrape_ceo_wb_form20.py) | `data/ceo_wb_form20/<elec>_AC_<NNN>_psresults.csv` |
-| NFHS-5 district fact sheets | 30/30 | [`scrape_nfhs_district.py`](../../../scripts/scrapers/scrape_nfhs_district.py) | `data/nfhs_5/district_indicators_long.csv` |
-| ECI / Delimitation 2008 metadata | 30/30 | one-time, in [`data/master/`](../../../data/master/) | `wb_ac_master_v3.csv` |
-| CSDS-Lokniti 2019 NES cross-tabs | 29/30 | manual (one-time) | `data/csds_lokniti_2019.csv` |
-
-When adding a brand-new source family, follow the procedure in [`SOURCE_REGISTRY.md`](../../../scripts/scrapers/SOURCE_REGISTRY.md) §"Adding a new source family" and update the table above.
-
 ## Procedure — calibrating a new AC to an existing year
 
 1. **Confirm the freeze year is settled.** If calibrating to a year that already has a `methodology_<year>.md`, reuse it; do not duplicate.
-2. **Run the scrapers first** (idempotent; cached). For an unmirrored AC:
-   ```bash
-   python3 scripts/scrapers/scrape_wikipedia_ac.py --ac NNN --slug Foo_Bar
-   python3 scripts/scrapers/scrape_ceo_wb_form20.py --election ge2019 --ac NNN
-   # LokDhaba + NFHS-5 are state-wide one-time fetches — only re-run on schema change.
-   ```
-   Outputs land under `data/{wikipedia,ceo_wb_form20,lokdhaba,nfhs_5}/`. **Only after these have been consulted** should you fall back to web search for residual gaps. Apply the **scrape-first rule** (see `memory/feedback_scrape_first.md`): try sub-AC granularity before district rollup.
+2. **Gather source data.** Check existing data in `data/` directories (lokdhaba CSVs, nfhs_5, shrug, master) for already-mirrored outputs. For any gaps, web-search: Census 2011 CDB/GP breakdown, Wikipedia AC page, district demographics, ECI result confirmation. Try sub-AC granularity before falling back to district rollup.
 3. **Decompose the AC** into sub-units (Muni + GPs per Delimitation 2008). Get population per sub-unit at Census 2011.
 4. **Project Census 2011 → `<year>`** using the methodology §4 assumption table. Document any AC-specific deviation.
 5. **Draft the per-AC MD** following the section skeleton above. Every cell must have a tier and a source. Apply the freeze rule continuously — when in doubt, omit.
