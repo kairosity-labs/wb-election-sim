@@ -1,0 +1,4 @@
+Sub_unit,Hindu,Muslim,Christian,Sarna_ORP,Other_residual,Tier,Source
+U1_Diamond_Harbour_Municipality,85.98,13.75,0.15,0.00,0.12,A,Census 2011; minimal change for 2021 freeze
+U2_CDB_I_rural_GP_share,47.72,52.16,0.07,0.01,0.04,A,Census 2011 CDB-I Wikipedia; Muslim-majority
+U3_CDB_II_rural_GP_share,59.77,39.68,0.20,0.00,0.35,A,Census 2011 CDB-II Wikipedia

@@ -1,0 +1,6 @@
+Religion,BJP,AITC,INC,LF,Other_NOTA,Tier,Source
+Hindu,42.0,47.0,0.5,6.5,4.0,C,2021 WB: Hindu BJP-AITC split narrowed vs 2019 in Jangalmahal; Hindu non-tribal shifted back partly to TMC under Birbaha wave + COVID welfare; rows sum: 42+47+0.5+6.5+4=100
+Muslim,4.0,83.0,2.0,8.0,3.0,C,CSDS 2021 WB Muslim vote; Muslim-TMC consolidation stronger in 2021 than 2019; rows sum: 4+83+2+8+3=100
+Christian,28.0,56.0,1.0,8.0,7.0,E,Tribal Christian: strong TMC shift following Birbaha candidacy; rows sum: 28+56+1+8+7=100
+Sarna_ORP,20.0,67.0,0.0,3.0,10.0,D,Sarna vote: massive TMC swing; BJP Sarna code failure; Birbaha = Sarna-practicing folk singer; 10% Other_NOTA includes tribal-party residual and protest votes; rows sum: 20+67+0+3+10=100
+Other_residual,35.0,45.0,1.0,10.0,9.0,E,Residual; rows sum: 35+45+1+10+9=100

@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,37.24,0.09,8.66,10.39,43.62,0,0,B/E,SC 21.50% / Hindu 57.72% = 37.24%; UC 5.0/57.72=8.66%; OBC 6.0/57.72=10.39%; residual 43.62%
+Muslim,0,0,0,0,0,100,0,A,Bengali-Sheikh peasantry; all Muslim
+Christian,0,0,0,0,0,0,100,A,Small base
+Sarna_ORP,0,90,0,5,5,0,0,E,Negligible base
+Other_residual,0,0,0,0,0,0,100,E,Marwari/other

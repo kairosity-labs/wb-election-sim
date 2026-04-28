@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,29.3,8.2,9.3,35.1,18.1,0.0,0.0,D,(SC_total 25.3 + ST_total 7.1 + UC 8.0 + OBC 30.3 + Other_Hindu 15.8) / Hindu 86.40%; aggregated sub-castes into parent leaves
+Muslim,0.0,0.0,0.0,0.0,0.0,100.0,0.0,A,
+Sarna_ORP,0.0,92.0,0.0,5.0,3.0,0.0,0.0,E,
+Christian,0.0,0.0,0.0,0.0,0.0,0.0,100.0,A,
+Other_residual,0.0,0.0,0.0,0.0,0.0,0.0,100.0,E,

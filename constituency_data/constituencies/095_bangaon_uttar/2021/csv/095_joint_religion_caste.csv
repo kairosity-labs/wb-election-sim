@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,50.3,4.2,11.7,2.3,31.5,0,0,C,Namasudra-Matua dominant; 39.5 SC / 85.60 Hindu = 46.2%; adding sub-SC gives ~50.3
+Muslim,0,0,0,0,0,100,0,A,All Muslim self-identify
+Christian,0,0,0,0,0,0,100,A,
+Sarna_ORP,0,92,0,5,3,0,0,E,ST-dominant
+Other_residual,0,0,0,0,0,0,100,E,Residual

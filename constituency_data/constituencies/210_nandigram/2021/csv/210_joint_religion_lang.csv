@@ -1,0 +1,6 @@
+Religion,Bengali,Hindi,Urdu,Other,Tier,Source
+Hindu,99.97,0.02,0.00,0.01,A,Census 2011 block; essentially monolingual AC
+Muslim,99.88,0.02,0.08,0.02,A,Bengali Muslim peasantry; negligible Urdu
+Christian,90.00,5.00,0.00,5.00,E,Small base
+Sarna_ORP,95.00,0.00,0.00,5.00,E,Negligible
+Other_residual,90.00,5.00,0.00,5.00,E,Small base

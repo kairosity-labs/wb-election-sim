@@ -1,0 +1,8 @@
+Religion,BJP,AITC,INC,LF,Other_NOTA,Tier,Source
+Hindu,58.0,35.0,1.0,5.5,0.5,C,BJP retained Hindu majority in 2021 AE; AITC share improved from 2019 on welfare-scheme backlash against BJP performance; AIFB/LF slightly higher in 2021 AE vs 2019 LS
+Muslim,4.0,76.0,2.0,3.5,14.5,C,Muslim consolidated further behind AITC in 2021 AE — post-NRC/CAA anxiety reinforced AITC shield narrative
+Christian,22.0,55.0,8.0,8.0,7.0,E,Approximation
+Sarna_ORP,40.0,35.0,5.0,10.0,10.0,E,Tribal fringe
+Other_residual,42.0,32.0,5.0,5.0,16.0,E,
+Marginal BJP,,,,,,,Hindu(82.00)×0.580 + Muslim(17.48)×0.040 + Other(0.52)×0.38 = 47.56 + 0.70 + 0.20 = 48.46 vs target 49.40 ✓ within ±1.5pp (tier-C derivation)
+Marginal AITC,,,,,,,Hindu(82.00)×0.350 + Muslim(17.48)×0.760 + Other(0.52)×0.42 = 28.70 + 13.28 + 0.22 = 42.20 vs target 43.40 ✓ within ±1.5pp

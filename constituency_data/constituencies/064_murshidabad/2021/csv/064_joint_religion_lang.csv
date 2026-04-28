@@ -1,0 +1,6 @@
+Religion,Bengali,Hindi,Urdu,Santali,Other,Tier,Source
+Hindu,97.0,2.0,0.0,0.5,0.5,E,2019 baseline; stable
+Muslim,95.5,0.5,3.0,0.5,0.5,E,Bengali Muslim dominant; ashraf Urdu pocket stable
+Sarna_ORP,55.0,5.0,0.0,35.0,5.0,E,ST population in CDB rural; Santali-speaking fraction
+Christian,90.0,5.0,0.0,0.0,5.0,E,Tiny base
+Other_residual,72.0,20.0,0.0,0.0,8.0,D,Sheherwali Jain: Bengali + some Rajasthani/Hindi

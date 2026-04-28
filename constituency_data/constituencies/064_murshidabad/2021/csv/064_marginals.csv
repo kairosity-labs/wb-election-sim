@@ -1,0 +1,101 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,55.8,D,2019 base 56.5%; Muslim relative growth ~+0.7pp over 2 more yrs; Hindu −0.7pp → 55.8%,no
+religion,Muslim,42.7,D,2019 base 42.0%; Muslim relative growth +0.7pp → 42.7%,no
+religion,Christian,0.10,E,Trace; no change,no
+religion,Sarna_ORP,0.05,E,Minimal ST population,no
+religion,Other_residual,1.35,D,Jain Sheherwali community JA-Muni ~0.9% + Sikh trace + not-stated; stable,no
+caste,SC_total,19.5,D,2019 base unchanged; Census 2011 sub-unit SC shares pop-weighted; no new SC data,no
+caste,Bagdi_Bauri_SC,9.0,E,~46% of SC pool; dominant SC in Murshidabad-Lalbag belt,yes
+caste,Dom_Chamar_Mochi_SC,2.5,E,Urban leather/manual labour,yes
+caste,Rajbanshi_SC,2.0,E,Some presence in CDB rural,yes
+caste,Other_SC,6.0,E,"Pod, Poundra, Hari, residual",yes
+caste,ST_total,2.2,D,CDB rural 5.25% ST (A) pop-weighted; stable,no
+caste,UC_bhadralok,5.5,E,Brahmin/Kayastha/Baidya; urban Muni concentration,no
+caste,OBC,8.0,E,Teli/Goala/Sutradhar/Sadgop/Kurmi; middle-Hindu artisan/trade,no
+caste,Other_Hindu_middle,21.3,E,Residual Hindu after SC/ST/UC/OBC: 55.8 − SC(19.5) − ST(2.2) − UC(5.5) − OBC(8.0) = 20.6% total pop; of Hindu (55.8%) = 36.9% Hindu; some rounding → approx 21.3 as total pop share,no
+caste,Muslim_Sheikh,20.4,D,Dominant Bengali Muslim peasantry in CDB rural; ~48% of Muslim pop,no
+caste,Muslim_Ansari_Jolaha,12.2,D,Silk weaving economy; ~28.5% of Muslim pop; Murshidabad district major silk belt,no
+caste,Muslim_Syed_Pathan_Mughal,3.4,E,Ashraf historic elite in Murshidabad town,no
+caste,Muslim_other,6.7,E,Nai/Darzi/Kasai/Faqir; urban service Muslim,no
+caste,Christian_plus_Sarna_plus_Other,1.5,E,Jain merchant + Christian trace + Sikh + ST-Sarna,no
+age_cohort,18_22,10.8,E,5-yr cohort entering electorate 2017-2021; boosted by large young-adult bulge,no
+age_cohort,23_27,11.1,E,,no
+age_cohort,28_32,11.0,E,,no
+age_cohort,33_37,10.4,E,,no
+age_cohort,38_42,9.5,E,,no
+age_cohort,43_47,8.8,E,,no
+age_cohort,48_52,8.0,E,,no
+age_cohort,53_57,7.0,E,,no
+age_cohort,58_62,6.5,E,,no
+age_cohort,63_67,5.0,E,,no
+age_cohort,68,11.9,E,Residual to 100; elderly cohort somewhat compressed vs 2019 due to COVID mortality + new young registrants,no
+gender,Male,50.30,E,Slight improvement in F registration drives; from 2019 50.50% M,no
+gender,Female,49.69,E,,no
+gender,Third_gender,0.01,E,Standard ECI roll share,no
+mother_tongue,Bengali,96.5,A,CDB 96.06% Bengali (A); AC-level Bengali dominant; stable,no
+mother_tongue,Hindi,1.25,A,CDB 1.25% Hindi (A); Marwari/Bihari trader fringe,no
+mother_tongue,Urdu,0.80,E,Urdu-speaking ashraf Muslim minority; stable,no
+mother_tongue,Santali,0.80,A,CDB 1.07% Santali (A); ST population; diluted by urban units,no
+mother_tongue,Other,0.65,E,Sheherwali Jain linguistic trace + other minority,no
+education,Illiterate,20.0,D,2019 ~22%; 2yr additional literacy trend −2pp; Murshidabad district improving but lagging state,no
+education,Primary,21.5,E,Slight redistribution from illiterate gains,no
+education,Middle,20.5,E,,no
+education,Secondary,17.5,E,,no
+education,Higher_Secondary,10.5,E,,no
+education,Graduate,7.5,E,Urban AC; urban-educated class stable,no
+education,Postgraduate,2.5,E,,no
+workforce_status,Main_worker,32.5,E,Slight decline from 2019 33.0% due to COVID-19 disruption of weaving + construction 2020,no
+workforce_status,Marginal_worker,11.0,E,COVID reverse-migrants absorbed into marginal/informal; +1pp vs 2019,no
+workforce_status,Non_worker,37.0,E,Housewife / elderly / retired; stable,no
+workforce_status,Student,10.5,E,Slight decline; COVID school closures reduced some enrolment retention,no
+workforce_status,Unemployed,9.0,E,Educated unemployment; stable; weaving sector hit by COVID,no
+occupation,Cultivator,12.0,E,CDB rural fraction; stable vs 2019,no
+occupation,Agricultural_labourer,18.5,E,COVID returnees absorbed into ag labour; slight +0.5pp,no
+occupation,Household_industry,13.5,D,Weaving/sericulture; COVID disrupted 2020 silk market; slight contraction; recovering by late 2021,no
+occupation,Manufacturing,5.0,E,Stable,no
+occupation,Construction,6.5,E,COVID migrants returned then re-migrated; slight dip,no
+occupation,Trade_retail,16.0,D,Historic commercial hub; Muni market recovery post-COVID lockdown,no
+occupation,Transport_logistics,5.0,E,Stable,no
+occupation,Services,12.0,E,Tourism (Hazarduari) depressed 2020-21 by COVID; recovering,no
+occupation,Government_services_teachers,6.5,E,Govt employment share slightly up as other sectors contracted,no
+occupation,Out_migrant_worker,5.0,D,"COVID returned some, others re-migrated by 2021",no
+class_of_worker,Employer,3.0,E,Trade/Jain merchant; stable,no
+class_of_worker,Employee,30.0,E,Govt + organised private; stable,no
+class_of_worker,Single_worker,47.0,E,Weaver + small trader + own-account artisan,no
+class_of_worker,Family_worker,20.0,E,Weaving household; agricultural family,no
+economic_status,BPL_household,29.0,D,2019 base ~30%; modest decline as Lakshmir Bhandar (Apr 2021) + Kanyashree + Swasthya Sathi expand formal welfare coverage; poverty reduction marginal in 1 year,no
+economic_status,Above_Poverty_Line_low_income,31.0,E,,no
+economic_status,Lower_middle,23.0,E,,no
+economic_status,Middle,13.0,E,Urban trade/service class; stable,no
+economic_status,Upper_middle_well_off,4.0,E,Jain merchant + bhadralok; stable,no
+gp_location,U1_Murshidabad_Municipality,14.8,D,2019 base 14.5%; urban growth +0.3pp,no
+gp_location,U2_Jiaganj_Azimganj_Municipality,17.3,D,2019 base 17.1%; urban growth,no
+gp_location,U3_Murshidabad_Jiaganj_CDB_rural,67.9,D,2019 base 68.4%; −0.5pp net; rural youth rural-urban shift,no
+household_composition,Avg_HH_size,4.5,E,Slight decline from 2019 4.6; NFHS-5 WB trend toward smaller HH,no
+household_composition,Nuclear_HH,66.0,E,NFHS-5 WB uptick in nuclear; COVID may have temporarily reversed joint-to-nuclear but by end 2021 reverting,no
+household_composition,Joint_HH,26.0,E,,no
+household_composition,Extended_multi_generation,8.0,E,Muslim multi-generational; stable,no
+marital_status,Never_married,25.0,E,Stable from 2019,no
+marital_status,Currently_married,66.0,E,,no
+marital_status,Widowed,7.5,E,COVID-19 may have incrementally increased widowhood; within rounding,no
+marital_status,Separated_divorced,1.5,E,,no
+asset_media,Television,74.0,C,2019 base 72%; +2pp; Murshidabad below-state continuing saturation,no
+asset_media,Radio,5.5,C,Declining; −0.5pp,no
+asset_media,Mobile_phone,87.0,C,COVID drove mobile adoption; +5pp from 2019; NFHS-5 WB trend,no
+asset_media,Smartphone_with_internet,58.0,C,Post-COVID digital surge; NFHS-5 WB; +16pp from 2019 42%; Jio + low-cost data adoption; Murshidabad still below state avg,no
+asset_media,Computer,8.5,C,Marginal uptick,no
+asset_media,Two_wheeler,29.0,C,Marginal +1pp,no
+asset_media,Four_wheeler,4.5,E,Marginal +0.5pp,no
+asset_media,Banking_access,89.0,B,PMJDY + Jan Dhan saturation; +4pp from 2019 85%,no
+amenities,Improved_drinking_water_source,86.0,C,+2pp from 2019; Jal Jeevan Mission (started 2019) early rollout in WB,no
+amenities,Improved_sanitation,68.0,C,+6pp from 2019 62%; Swachh Bharat Phase II + ODF campaign 2020-21,no
+amenities,LPG_clean_cooking_fuel,50.0,C,Ujjwala Phase 1 + 2 (2019 onward); significant rural LPG uptake; +8pp from 2019 42%,no
+amenities,Wood_biomass_fuel,44.0,C,Decline from 2019 52% as LPG spreads,no
+amenities,Other_fuel,6.0,C,Stable,no
+amenities,Electricity,95.0,C,Saubhagya saturation; +2pp from 2019 93%,no
+migration,Native,88.5,D,+0.5pp from 2019 88.0%; COVID returnees who settled permanently swell native-resident share,no
+migration,WB_other_district,4.8,D,Slight decline; some Kolkata service-class migration depressed by COVID,no
+migration,Other_Indian_state,2.9,D,Hindi-speaking trader fringe; stable,no
+migration,Bangladesh_origin,2.5,D,Stable; no new influx dynamic in this AC (unlike N24P belt),no
+migration,Outside_India,0.3,E,Negligible,no
+migration,Out_migrant,1.0,E,Working outside WB; suppressed during COVID; some not yet re-migrated by end-2021,no

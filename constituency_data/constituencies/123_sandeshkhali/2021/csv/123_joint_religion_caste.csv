@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,51.7,34.3,4.2,6.9,2.9,0,0,A/E,SC_total 37.36/72.20=51.7%; ST_total 24.78/72.20=34.3% of Hindu; UC 3/72.20=4.2%; OBC 5/72.20=6.9%; residual 2.9%
+Muslim,0,0,0,0,0,100,0,A,All Muslims in Muslim column
+Christian,0,0,0,0,0,0,100,A,
+Sarna_ORP,0,92,0,5,3,0,0,E,Sarna practitioners predominantly ST
+Other_residual,0,0,0,0,0,0,100,E,

@@ -1,0 +1,9 @@
+Religion,BJP,AITC,INC,LF,Other_NOTA,Tier,Source
+Hindu,55.0,36.0,0.0,7.0,2.0,C,Non-Bengali Hindu retains BJP; Bengali Hindu TMC-leaning with partial CPI(M) recovery among bhadralok; RG Kar protests slightly eroded TMC among educated Hindu
+Muslim,3.0,82.0,0.0,13.0,2.0,C,Muslim: near-total TMC; some CPI(M) recovery via Saira Shah Halim candidacy in LS; minor BJP bleed
+Christian,8.0,74.0,0.0,15.0,3.0,E,Urban Christian: TMC-leaning with some Left recovery
+Sarna_ORP,0.0,0.0,0.0,0.0,0.0,E,Zero population
+Other_residual,65.0,22.0,0.0,8.0,5.0,E,Sikh/Jain: strongly BJP; slight CPI(M) recovery
+Model recovery: AITC,,,,,,,0.725×0.36 + 0.250×0.82 + 0.002×0.74 + 0.023×0.22 = 0.261+0.205+0.001+0.005 = 0.472 vs actual 46.92% ✓ within ±1pp
+Model recovery: BJP,,,,,,,0.725×0.55 + 0.250×0.03 + 0.002×0.08 + 0.023×0.65 = 0.399+0.008+0.000+0.015 = 0.422 vs actual 40.68% ✓ within ±2pp
+Model recovery: LF,,,,,,,0.725×0.07 + 0.250×0.13 + 0.002×0.15 + 0.023×0.08 = 0.051+0.033+0.000+0.002 = 0.086 vs actual 10.52% ⚠ ~2.5pp gap; tier D adjustment needed

@@ -1,0 +1,110 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,83.60,E,2021 baseline 83.90%; 3 more years of Muslim differential growth pulls Hindu share further; stable Sarna,no
+religion,Muslim,3.50,E,2021 baseline 3.46%; +0.04pp over 3 years,no
+religion,Christian,0.43,E,Negligible change,no
+religion,Sarna_ORP,11.00,E,Marginal increase: Adivasi identity assertion + Sarna-code agitation (Census enumeration deferred due to COVID; 2021 demand escalated); 2021 baseline 10.92%,no
+religion,Other_residual,1.47,E,Residual: 100 − 83.60 − 3.50 − 0.43 − 11.00 = 1.47,no
+caste,SC_total,19.58,A,Marginal adjustment; 2021 baseline 19.56%; Census 2011 anchor,no
+caste,Bagdi,7.03,D,~35.9% of SC pool,yes
+caste,Bauri,4.02,D,~20.5% of SC pool,yes
+caste,Hari_Bhangi,1.57,E,~8% of SC pool,yes
+caste,Chamar_Mochi,1.20,E,~6% of SC pool,yes
+caste,Other_SC,5.76,E,Residual SC,yes
+caste,ST_total,22.98,A,2021 baseline 22.95%; marginal +0.03pp; Census 2011 anchor,no
+caste,Santhal,11.54,D,~50% of ST pool,yes
+caste,Munda,3.91,D,~17% of ST pool,yes
+caste,Bhumij,2.76,D,~12% of ST pool,yes
+caste,Lodha,1.40,D,~6% of ST pool; PVTG,yes
+caste,Ho,1.15,D,~5% of ST pool,yes
+caste,Other_ST,2.22,E,~10% of ST pool,yes
+caste,UC_bhadralok,6.50,E,Stable,no
+caste,OBC,12.00,D,Mahato/Kurmi dominant OBC; stable,no
+caste,Other_Hindu_middle,33.74,E,Residual: 100 − 19.58 − 22.98 − 6.50 − 12.00 − 3.50 − 0.43 − 1.20 = 33.81; small rounding,no
+caste,Muslim,3.50,E,See C.1,no
+caste,Christian_plus_Sarna_plus_Other,1.90,E,Christian 0.43% + Other_residual 1.47% = 1.90%,no
+age_cohort,18_22,12.0,E,New-voter cohort; tribal belt younger demographic; renormalized from total-pop,no
+age_cohort,23_27,12.5,E,,no
+age_cohort,28_32,12.0,E,,no
+age_cohort,33_37,11.0,E,,no
+age_cohort,38_42,10.0,E,,no
+age_cohort,43_47,8.5,E,,no
+age_cohort,48_52,8.0,E,,no
+age_cohort,53_57,7.0,E,,no
+age_cohort,58_62,5.5,E,,no
+age_cohort,63_67,4.5,E,,no
+age_cohort,68,9.0,E,Broad 68+ cohort; tribal older population,no
+gender,Male,50.46,A,District sex ratio ~982 F/1000 M → 50.46% M,no
+gender,Female,49.53,A,,no
+gender,Third_gender,0.01,E,Negligible,no
+mother_tongue,Bengali,81.20,A,2021 baseline 81.40%; further marginal drift toward Bengali bilingualism; Santali Ol Chiki digital content growing but MT stability among older tribal cohorts,no
+mother_tongue,Hindi,0.30,E,Stable,no
+mother_tongue,Urdu,0.10,E,Negligible,no
+mother_tongue,Other,0.20,E,Residual,no
+mother_tongue,Santali,16.00,A,Slight uptick from 2021 (15.90%); Sarna-code agitation and Adivasi identity assertion may be slightly reversing Bengali bilingualism trend among younger cohorts,no
+mother_tongue,Mundari,1.60,A,Marginal increase; Mundari digital content growth,no
+mother_tongue,Kurmali,0.60,E,Stable,no
+education,Illiterate,22.00,E,2021 baseline 23.50%; continued improvement; but COVID school disruption 2020-21 created a learning gap in 10-14 cohort now moving into 13-16 range,no
+education,Primary,23.50,E,Marginal decline as more reach middle level,no
+education,Middle,20.50,E,,no
+education,Secondary,14.50,E,,no
+education,Higher_Secondary,10.00,E,+0.5pp from 2021; school completion improving,no
+education,Graduate,6.50,E,Marginal +0.5pp,no
+education,Postgraduate,3.00,E,Stable,no
+workforce_status,Main_worker,35.0,E,Recovery to 2019 level; COVID disruption resolved; construction and services rebounded,no
+workforce_status,Marginal_worker,15.0,E,Returning to 2019 baseline as COVID reverse-migration workers re-migrated out,no
+workforce_status,Non_worker,34.5,E,Slightly elevated vs 2019 (34.0%); Lakshmir Bhandar may reduce women's main-worker designation,no
+workforce_status,Student,10.0,E,Stable,no
+workforce_status,Unemployed,5.5,E,Marginal decline; MGNREGA and state welfare absorbing some educated unemployed,no
+occupation,Cultivator,20.0,E,Stable; land fragmentation ongoing,no
+occupation,Agricultural_labourer,37.0,E,Marginal decline as MGNREGA provides alternative,no
+occupation,Forest_produce_collection,8.0,D,Stable; NTFP dependence persistent in Binpur I,no
+occupation,Household_industry,4.0,E,Stable,no
+occupation,Manufacturing,1.0,E,Minimal,no
+occupation,Construction,6.0,E,Slight increase; PMAY-G housing scheme construction in tribal belt continues,no
+occupation,Trade_retail,8.0,E,Recovery to 2019 level,no
+occupation,Transport_logistics,3.0,E,Stable,no
+occupation,Services,6.0,E,Stable,no
+occupation,Government_services_teachers,5.0,E,Stable; tribal sub-quota absorption,no
+occupation,Out_migrant_worker,2.0,D,Post-COVID some re-migration; lower than 2019 (3.0%) as state welfare reduces push-migration,no
+class_of_worker,Employer,1.0,E,Stable,no
+class_of_worker,Employee,22.5,E,Marginal +0.5pp; government hiring through tribal sub-quotas,no
+class_of_worker,Single_worker,45.0,E,Stable,no
+class_of_worker,Family_worker,22.0,E,Stable,no
+class_of_worker,Casual_MGNREGA,9.5,D,Marginal decline; Centre-state MGNREGA fund-release disputes in 2023-24 reduced utilization in WB; Jhargram affected,no
+economic_status,BPL_household,37.0,D,2021 baseline 40.0%; Lakshmir Bhandar + PMAY-G + Khadya Sathi reducing measured poverty; structural poverty reduction slow but visible; Binpur I BPL 2024 est ~45%,no
+economic_status,Above_Poverty_Line_low_income,35.5,E,Growing as welfare transfers push some above poverty line,no
+economic_status,Lower_middle,17.5,E,,no
+economic_status,Middle,8.0,E,,no
+economic_status,Upper_middle_well_off,2.0,E,Stable,no
+gp_location,U1_Jhargram_Municipality,22.0,E,2021 baseline 22.5%; marginal decline as rural growth outpaces Muni; Jhargram Muni boundary stable,no
+gp_location,U2_Jhargram_CDB_rural_4GP,19.2,E,2021 baseline 19.3%; stable,no
+gp_location,U3_Binpur_I_CD_Block,58.8,E,2021 baseline 58.2%; largest sub-unit; rural tribal growth,no
+household_composition,Avg_HH_size,4.5 persons,E,Marginal decline; nucleation trend resumes post-COVID; tribal family size declining slowly,no
+household_composition,Nuclear_HH,63.5,E,Slow increase in nuclearity,no
+household_composition,Joint_HH,26.5,E,Gradual decline,no
+household_composition,Extended_multi_generation,10.0,E,Stable,no
+marital_status,Never_married,26.5,E,Marginal increase; later marriage age creeping into tribal communities via education,no
+marital_status,Currently_married,64.5,E,Marginal decline correspondingly,no
+marital_status,Widowed,8.0,E,Stable,no
+marital_status,Separated_divorced,1.0,E,Stable,no
+asset_media,Television,65.0,C,NFHS-5 WB rural ~71%; Jhargram still below state average; +3pp from 2021 (62%),no
+asset_media,Radio,6.0,C,Continued gradual decline,no
+asset_media,Mobile_phone,88.0,C,Near-saturation; +6pp from 2021 (82%),no
+asset_media,Smartphone_with_internet,68.0,C,+20pp from 2021 (48%); major Jio 5G expansion + Lakshmir Bhandar DBT-driven smartphone adoption; tribal belt reaching ~85-90% among 18-45 adults,no
+asset_media,Computer,6.0,C,Marginal improvement,no
+asset_media,Two_wheeler,20.0,C,Marginal increase; rural mobility improving,no
+asset_media,Four_wheeler,4.0,C,Marginal increase,no
+asset_media,Banking_access,90.0,B,PMJDY + Lakshmir Bhandar DBT near-saturation; tribal women's accounts mandatory for scheme; +4pp from 2021 (86%),no
+amenities,Improved_drinking_water_source,85.0,C,Jal Jeevan Mission 2019–24; substantial rural tribal coverage in Jhargram by 2024; +5pp from 2021 (80%),no
+amenities,Improved_sanitation,65.0,C,Swachh Bharat Phase II continuing; +11pp from 2021 (54%); tribal-belt sanitation still below state average,no
+amenities,LPG_clean_cooking_fuel,50.0,C,Ujjwala 2.0 + state subsidy; +15pp from 2021 (35%); significant adoption in tribal HHs,no
+amenities,Wood_biomass_fuel,43.0,D,Declining as LPG penetrates; 2021 baseline 58%,no
+amenities,Other_fuel,7.0,C,Stable,no
+amenities,Electricity,95.0,C,Near-saturation; Jhargram grid extension completed; +3pp from 2021 (92%),no
+migration,Native,84.0,D,2021 baseline 85.5%; some post-COVID out-migration resumed; returned to near-2019 level,no
+migration,WB_other_district,5.5,D,Stable,no
+migration,Other_Indian_state,4.0,D,Stable,no
+migration,Jharkhand_origin,3.0,D,Stable; tribal cross-border kin ties,no
+migration,Bangladesh_origin,1.5,D,Negligible; Jangalmahal not on Bangladesh border,no
+migration,Outside_India,0.0,E,None,no
+migration,Out_migrant,2.0,E,"Post-COVID re-migration resumed; back toward 2019 level (3.0%); welfare income (Lakshmir Bhandar, MGNREGA) reduces some push-migration but not eliminated",no

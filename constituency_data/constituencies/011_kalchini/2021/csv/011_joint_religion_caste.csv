@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,12.0,28.0,8.0,9.0,23.0,0.0,20.0,E,Hindu Adivasi ST + SC + Bengali UC + Rajbanshi OBC + Nepali-Hindu folded into Other_Hindu_middle; ST-Hindu share: ~40% ST × 60-65% Hindu-identifying = ~26% of total → ~26/65.5 = ~40% of Hindu → 28% used (conservative adj for Sarna-identifying overlap)
+Muslim,0.0,0.0,0.0,0.0,0.0,100.0,0.0,A,Muslim is its own leaf
+Christian,0.0,0.0,0.0,0.0,0.0,0.0,100.0,A,Adivasi Christian → Christian_plus_Sarna_plus_Other leaf
+Sarna_ORP,0.0,95.0,0.0,3.0,2.0,0.0,0.0,E,Sarna = predominantly ST-identifying Adivasi
+Other_residual,2.0,5.0,3.0,10.0,30.0,0.0,50.0,E,"Buddhist (mostly Nepali non-ST), Sikh, Not-stated residual"

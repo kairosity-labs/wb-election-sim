@@ -1,0 +1,98 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,57.30,B,"13-yr projection from 2011: Hindu +1.0%/yr (Pew India 2021); weighted CDB-I 47.72%, CDB-II 59.77%, Muni 85.98%; continued Muslim differential upward drift",no
+religion,Muslim,42.42,B,Muslim +1.3%/yr for 13 yrs from 2011 base; CDB-I Muslim-majority driver; +0.42pp from 2021,no
+religion,Christian,0.15,E,S24P fringe; slow decline,no
+religion,Sarna_ORP,0.01,E,Negligible,no
+religion,Other_residual,0.12,E,Sikh/Jain/Buddhist/unclassified,no
+caste,SC_total,21.55,B,Minimal drift; Census 2011 weighted anchor; slow change in SC share,no
+caste,Namasudra_Bagdi_SC,9.0,D,River-delta SC: Namasudra (fishers/farmers) + Bagdi; no Matua concentration in this AC,yes
+caste,Munda_other_SC,3.0,E,CDB-II rural pockets,yes
+caste,Unclassified_SC,9.55,E,Residual within SC total,yes
+caste,ST_total,0.05,A,Census 2011; negligible change,no
+caste,UC_bhadralok,5.0,E,Brahmin/Kayastha/Baidya in Muni; stable,no
+caste,OBC,6.0,E,Mahishya (fishing OBC) + Sadgop (farming OBC); S24P coastal belt,no
+caste,Other_Hindu_middle,24.75,E,Residual Hindu: 57.30 − 21.55 SC − 0.05 ST − 5.0 UC − 6.0 OBC = 24.70; rounded 24.75,no
+caste,Muslim,42.42,B,Bengali-Sheikh peasantry dominant (see C.1),no
+caste,Christian_plus_Sarna_plus_Other,0.23,E,C.1 residuals combined,no
+age_cohort,18_22,13.0,E,2011 cohort aging; younger cohorts large due to higher CDB-I fertility,no
+age_cohort,23_27,12.5,E,,no
+age_cohort,28_32,12.0,E,,no
+age_cohort,33_37,11.5,E,,no
+age_cohort,38_42,10.5,E,,no
+age_cohort,43_47,9.5,E,,no
+age_cohort,48_52,8.5,E,,no
+age_cohort,53_57,7.5,E,,no
+age_cohort,58_62,6.0,E,,no
+age_cohort,63_67,5.0,E,,no
+age_cohort,68,4.0,E,Modest 68+ as previous high-mortality fishing cohorts age through,no
+gender,Male,51.00,E,Sex ratio 963 → F/total = 963/1963 = 49.06%; M = 50.94%; rounded to 51.00,no
+gender,Female,48.99,E,,no
+gender,Third_gender,0.01,E,WB state rate from 2011,no
+mother_tongue,Bengali,99.44,A,No significant change; CDB-I+II Bengali-dominant; Muni ~98.5% Bengali,no
+mother_tongue,Hindi,0.22,E,Stable trader/migrant Hindi fringe; COVID-era out-migration partially reversed,no
+mother_tongue,Urdu,0.28,E,Small Muslim Urdu-speaker pocket in Muni and CDB-II; stable,no
+mother_tongue,Other,0.06,E,Residual,no
+education,Illiterate,17.5,E,Further literacy improvement 2021→2024; Kanyashree + school enrollment continuing; CDB-I female literacy advancing,no
+education,Primary,24.0,E,,no
+education,Middle,22.5,E,,no
+education,Secondary,17.0,E,,no
+education,Higher_Secondary,11.0,E,SSC scam (2022) and education disruption have not significantly reduced enrollment at this level,no
+education,Graduate,6.5,E,Slow expansion; delta deprivation context,no
+education,Postgraduate,1.5,E,Stable,no
+workforce_status,Main_worker,30.0,E,Recovery to 2019 levels by 2024; fishing + construction + trade normalised post-Amphan and post-COVID,no
+workforce_status,Marginal_worker,13.0,E,Stabilised at 2019 levels,no
+workforce_status,Non_worker,37.0,E,Lakshmir Bhandar (active since 2021) serves non-working female HH heads directly; this group is primary LB constituency,no
+workforce_status,Student,11.0,E,Recovery to 2019 level; school/college reopened,no
+workforce_status,Unemployed,9.0,E,Slightly elevated; SSC scam (2022) disrupted government-teacher employment pipeline for educated youth; educated youth unemployment salient,no
+occupation,Cultivator,6.3,B,Stable; minor change from 2021,no
+occupation,Agricultural_labourer,18.5,B,Stable,no
+occupation,Household_industry,6.5,B,Recovery from Amphan disruption; bidi + mat weaving resumed,no
+occupation,Manufacturing,2.0,E,Small factory; Muni fringe,no
+occupation,Construction,5.5,E,Ongoing Amphan reconstruction + state infrastructure spending,no
+occupation,Trade_retail,11.0,E,Stable; Muni commercial hub,no
+occupation,Transport_logistics,7.0,D,River ferry + road; stable,no
+occupation,Services,10.0,E,,no
+occupation,Government_services_teachers,5.5,E,Slight reduction: SSC scam fallout reduced government-sector confidence; some teaching vacancies not filled,no
+occupation,Out_migrant_worker,13.0,D,Recovering to near-2019 levels; Kerala/Tamil Nadu destination for skilled S24P labour; deep-sea fishing resumed fully,no
+occupation,Fishing_pisciculture,12.2,D,Hugli delta fishing + prawn aquaculture; Amphan recovery complete by 2024; Namasudra + Mahishya caste occupation,no
+occupation,Tourism_hospitality,2.0,D,Diamond Harbour waterfront tourism restored; state tourism push,no
+class_of_worker,Employer,1.5,E,Stable,no
+class_of_worker,Employee,24.0,E,"Recovery; organised sector, govt, services",no
+class_of_worker,Single_worker,52.0,E,"Own-account fishermen, cultivators, small traders dominant",no
+class_of_worker,Family_worker,22.5,E,Stable; fishing-household family helpers,no
+economic_status,BPL_household,27.5,D,Amphan shock (2020) has largely recovered by 2024; Lakshmir Bhandar + Krishak Bandhu + Khadya Sathi improve household consumption floor; slight reduction from 2021 peak (30%) but higher than 2019 (28%) due to persistent SSC/unemployment impact on educated youth,no
+economic_status,Above_Poverty_Line_low_income,36.0,E,Marginal uplift from Lakshmir Bhandar direct cash transfers,no
+economic_status,Lower_middle,22.0,E,,no
+economic_status,Middle,11.0,E,,no
+economic_status,Upper_middle_well_off,3.5,E,Muni affluent fringe; slight expansion via trade + services recovery,no
+gp_location,U1_Diamond_Harbour_Municipality,13.2,E,2024 projection; Muni share declining as rural grows faster,no
+gp_location,U2_CDB_I_rural_GP_share,40.0,E,CDB-I 7 GPs; Muslim-majority (52%+); highest growth rate,no
+gp_location,U3_CDB_II_rural_GP_share,46.8,E,CDB-II 6 GPs; Hindu-majority but 40% Muslim,no
+household_composition,Avg_HH_size,4.4,E,S24P slowly declining HH size; Muni urban nuclear trend,no
+household_composition,Nuclear_HH,66.0,E,Slight increase in nuclear as younger generation sets up households,no
+household_composition,Joint_HH,25.0,E,Declining,no
+household_composition,Extended_multi_generation,9.0,E,Stable in fishing communities,no
+marital_status,Never_married,24.0,E,Large 18–22 cohort entering pool; earlier marriage norms in CDB-I partially moderating,no
+marital_status,Currently_married,67.0,E,,no
+marital_status,Widowed,8.0,E,Fishing hazard and Amphan fatality effect persists,no
+marital_status,Separated_divorced,1.0,E,,no
+asset_media,Television,78.0,C,NFHS-5 WB anchor + growth; saturating in Muni (~95%); CDB-I ~72%; CDB-II ~78%,no
+asset_media,Radio,2.5,C,Continuing decline; near-marginal,no
+asset_media,Mobile_phone,93.0,C,Near-universal; Jio saturation + Airtel,no
+asset_media,Smartphone_with_internet,72.0,C,Rapid growth from 2021 (~60%); NFHS-5 + state surveys; CDB-I still lower (~62%) than Muni (~88%),no
+asset_media,Computer,9.0,C,Minimal change,no
+asset_media,Two_wheeler,28.0,C,Slow steady increase; fishing boat + bicycle still dominant in delta,no
+asset_media,Four_wheeler,6.0,C,Slight increase; Muni and upper-income CDB-II,no
+asset_media,Banking_access,94.0,B,PMJDY + Lakshmir Bhandar bank-account requirement near-saturation; CDB-I rural women now banked for LB transfers,no
+amenities,Improved_drinking_water_source,85.0,C,NFHS-5 + steady infrastructure improvement; Amphan salination effects resolved,no
+amenities,Improved_sanitation,72.0,C,"Continued Swachh Bharat + state ODF campaign; NFHS-5 WB rural ~66%, urban ~92%",no
+amenities,LPG_clean_cooking_fuel,53.0,C,Ujjwala Phase-2 + market expansion; +6pp from 2021; CDB-I still lowest at ~40%,no
+amenities,Wood_biomass_fuel,39.0,C,Declining; mangrove-fringe firewood reducing,no
+amenities,Other_fuel,8.0,C,Stable,no
+amenities,Electricity,95.0,C,Saubhagya completion + grid maintenance post-Amphan; coastal delta now well-connected,no
+migration,Native,80.0,D,Stabilised post-COVID return-migration surge; S24P coastal communities deeply rooted; no significant new in-migration stream,no
+migration,WB_other_district,5.5,D,Stable; Kolkata-commuter class in Muni,no
+migration,Other_Indian_state,2.0,D,Recovery of Bihari/Marwari trader migration to near-2019 levels,no
+migration,Bangladesh_origin,3.0,D,Unchanged; pre-1971 Namasudra fraction in CDB-II; indigenous S24P Muslim peasantry; Bangladesh interim government changes not creating new in-migration to this non-border AC,no
+migration,Outside_India,0.5,E,Negligible,no
+migration,Out_migrant,9.0,D,"Sustained out-migration for deep-sea fishing (Kerala/Tamil Nadu boats), Kolkata daily commuters, Kerala/Delhi construction workers; effective polling-booth absentee rate",no

@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,3.1,0.4,34.2,20.5,41.8,0.0,0.0,D,SC 2.23%/73%=3.1%; ST 0.26%/73%=0.4%; UC 25/73=34.2%; OBC 15/73=20.5%; Other_Hindu_middle 21.51+8(Jain/Sikh within Hindu accounting) = residual to 100
+Muslim,0.0,0.0,0.0,0.0,0.0,100.0,0.0,A,All Muslim caste counts pooled under Muslim leaf
+Christian,0.0,0.0,0.0,0.0,0.0,0.0,100.0,A,Christian → Christian_plus_Sarna_plus_Other
+Sarna_ORP,0.0,0.0,0.0,0.0,0.0,0.0,100.0,E,Zero Sarna population
+Other_residual,0.0,0.0,0.0,0.0,0.0,0.0,100.0,E,Sikh + Jain in Other_residual → Christian_plus_Sarna_plus_Other bucket

@@ -1,0 +1,106 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,86.40,E,"2021 base 86.61%; 3 more years of religion-differential growth (Muslim +1.3%/yr, Hindu +1.0%/yr) → Hindu dips ~0.21pp additional; 86.40% by end-2024",no
+religion,Muslim,12.20,E,2021 base 11.98%; +0.22pp over 3 more years differential growth,no
+religion,Christian,0.30,E,Held stable,no
+religion,Sarna_ORP,0.83,E,Slight continued decline,no
+religion,Other_residual,0.27,E,Residual; Jain/Sikh/Buddhist in Muni,no
+caste,SC_total,25.3,E,Near-stable from 2021 base 25.4%,no
+caste,Bagdi_SC,9.4,C,Dominant SC; near-stable,yes
+caste,Bauri_SC,4.4,E,,yes
+caste,Namasudra_SC,3.5,E,,yes
+caste,Other_SC,8.0,E,"Hari, Chamar, Jalia, Rajbanshi residual",yes
+caste,ST_total,7.1,E,Near-stable from 2021 base 7.2%,no
+caste,Santal_ST,5.4,C,Dominant ST in Hooghly,yes
+caste,Other_ST,1.7,E,"Munda, Bhumij, Lodha",yes
+caste,UC_bhadralok,8.0,D,Temple-town educated class; Brahmin priests significant; stable,no
+caste,OBC,30.3,D,Mahishya + Sadgop + Kurmi + Tili; marginal growth,no
+caste,Mahishya,18.1,D,Single largest caste in Hooghly; dominant cultivating caste,yes
+caste,Sadgop,6.0,D,OBC-B; second-tier cultivating caste,yes
+caste,Kurmi,3.5,D,OBC-A; rural CDB cultivator,yes
+caste,Tili_other_OBC,2.7,D,Temple-economy trade + residual OBC,yes
+caste,Other_Hindu_middle,15.8,E,"Goala, Tanti, Sutradhar, unclassified middle",no
+caste,Muslim,12.20,E,See C.1; Bengali-Sheikh peasantry dominant,no
+caste,Christian_plus_Sarna_plus_Other,1.40,E,See C.1,no
+age_cohort,18_22,11.8,E,2024 voter cohort (born 2002-2006); first-time voter 2024 LS cohort,no
+age_cohort,23_27,12.5,E,,no
+age_cohort,28_32,12.8,E,,no
+age_cohort,33_37,12.0,E,,no
+age_cohort,38_42,11.0,E,,no
+age_cohort,43_47,9.8,E,,no
+age_cohort,48_52,8.5,E,,no
+age_cohort,53_57,7.3,E,,no
+age_cohort,58_62,5.8,E,,no
+age_cohort,63_67,4.5,E,,no
+age_cohort,68,4.0,E,,no
+gender,Male,50.82,E,Sex ratio ~968 F/1000M → 50.82% M / 49.18% F,no
+gender,Female,49.18,E,,no
+gender,Third_gender,0.00,E,Negligible,no
+mother_tongue,Bengali,92.1,E,2021 base 92.3%; slight further decline,no
+mother_tongue,Santali,2.5,E,ST fringe; stable,no
+mother_tongue,Hindi,3.7,E,Tarakeswar Muni Hindi-speaker fringe; stable,no
+mother_tongue,Urdu,1.0,E,Muslim pocket in Dhaniakhali GPs; slight growth,no
+mother_tongue,Other,0.7,E,Kurukh/Munda/Bhumij ST fringe,no
+education,Illiterate,11.5,E,2021 base 12.5%; continued +0.5pp/yr literacy improvement,no
+education,Primary,21.0,E,,no
+education,Middle,21.0,E,,no
+education,Secondary,20.0,E,SSC expansion continues,no
+education,Higher_Secondary,13.0,E,,no
+education,Graduate,10.0,E,Modest growth; college expansion,no
+education,Postgraduate,3.5,E,Small professional class; slight growth,no
+workforce_status,Main_worker,32.5,E,2021 base 31.5%; post-COVID recovery to near 2019 levels; pilgrim economy and railway-linked services restored,no
+workforce_status,Marginal_worker,12.5,E,Slight decline as recovered main-worker share absorbs marginal workers,no
+workforce_status,Non_worker,37.5,E,Female housewife fraction; stable with Lakshmir Bhandar expanding female economic engagement marginally,no
+workforce_status,Student,10.5,E,Slight decline from 2021; educated cohort entering job market,no
+workforce_status,Unemployed,7.0,E,SSC scam exposure (Jul 2022) heightened educated-youth unemployment anxiety; held at 7% but with qualitatively higher frustration,no
+occupation,Cultivator,17.5,E,2021 base 18.5%; slight decline as farm-to-services mobility resumes post-COVID,no
+occupation,Agricultural_labourer,39.5,E,Slight decline from 2021 (40.5%),no
+occupation,Household_industry,4.5,E,Stable,no
+occupation,Manufacturing,5.0,E,Recovery to 2019 level,no
+occupation,Construction,6.0,E,Recovery to 2019 level; Kolkata commuter construction workers returned,no
+occupation,Trade_retail,10.5,E,Pilgrim economy fully recovered by 2022-2024 Sravan season; above 2021 depressed level,no
+occupation,Transport_logistics,4.5,E,Railway fully operational; Kolkata commuter logistics stable,no
+occupation,Services,8.5,E,Kolkata commuter workforce; slight growth from service-sector expansion,no
+occupation,Government_services_teachers,4.0,E,Stable; SSC scam created uncertainty about new government appointments in education sector,no
+occupation,Out_migrant_worker,0.0,E,Very small; negligible,no
+class_of_worker,Employer,2.0,E,Recovery from COVID disruption; small business revival in Muni,no
+class_of_worker,Employee,25.0,E,Near 2019 levels,no
+class_of_worker,Single_worker,53.0,E,Own-account agriculture + artisan; stable,no
+class_of_worker,Family_worker,20.0,E,Near 2019 levels,no
+economic_status,BPL_household,19.5,C,2021 base 21.0%; declining trend resumed post-COVID recovery; Hooghly below WB average poverty rate; Lakshmir Bhandar and other welfare schemes providing income floor,no
+economic_status,Above_Poverty_Line_low_income,37.5,E,Rural cultivating-OBC and SC labourer households,no
+economic_status,Lower_middle,26.5,E,Modest growth from welfare and service-sector expansion,no
+economic_status,Middle,13.0,E,Recovery to near 2019 level,no
+economic_status,Upper_middle_well_off,3.5,E,Slight growth from temple-economy business revival,no
+economic_status,Lakshmir Bhandar saturation,~65% of eligible women HH heads,D,From ~35% enrollment end-2021 to ~65% by end-2024; scheme became central welfare anchor for TMC women base across WB including Hooghly; ₹500/month general + ₹1000 SC/ST. Source: WB CDWDSW; press estimates,no
+economic_status,PM Kisan exposure,~18% of cultivator HH,D,WB joined at 8th installment (Apr-Jul 2021); now 3 years of receipt by end-2024; ~₹6000/yr per cultivator HH; bipartisan benefit (BJP takes credit for central scheme; TMC for state joining),no
+economic_status,SSC scam sentiment,—,D,"Partha Chatterjee arrest (Jul 2022), money seizure at Arpita Mukherjee; significant corruption scandal damage to TMC's educated-class image statewide. Sentiment salient among graduate+ job-aspirants in Tarakeswar.",no
+gp_location,U1_Tarakeswar_Muni_CDB,70.5,E,Near-stable from 2021 (70.3%); slight Muni growth,no
+gp_location,U2_Dhaniakhali_5GP,29.5,E,Near-stable from 2021 (29.7%),no
+household_composition,Avg_HH_size,4.3,E,Declining from 2021 (4.4); continued nuclear-family trend; post-COVID extended-household arrangement partially dissolved,no
+household_composition,Nuclear_HH,69.5,E,Near-stable trend,no
+household_composition,Joint_HH,24.5,E,Continued mild decline,no
+household_composition,Extended_multi_generation,6.0,E,,no
+marital_status,Never_married,25.0,E,Stable,no
+marital_status,Currently_married,66.0,E,Slight increase as large 23-32 cohort in peak marriage years,no
+marital_status,Widowed,8.0,E,Stable,no
+marital_status,Separated_divorced,1.0,E,,no
+asset_media,Television,80.0,C,2021 base 78.0%; near-saturation; slight growth,no
+asset_media,Radio,3.5,C,Continuing decline,no
+asset_media,Mobile_phone,94.0,C,Near-saturation; further growth mainly in 68+ cohort and BPL HH,no
+asset_media,Smartphone_with_internet,80.0,C,2021 base 62.0%; +18pp further surge 2021-2024; NFHS-5 WB rural ~58% in 2019-21 survey period; by 2024 rural Hooghly ~80% consistent with national 80%+ smartphone ownership trend; Jio 5G rollout in Hooghly 2023,no
+asset_media,Computer,10.0,C,Modest growth; WFH adoption,no
+asset_media,Two_wheeler,35.0,C,Continued growth; aspiration and commuter utility,no
+asset_media,Four_wheeler,6.5,C,Gradual growth from pilgrim-economy business class,no
+asset_media,Banking_access,95.0,B,PMJDY saturation + Lakshmir Bhandar bank-account requirement; near-total penetration,no
+amenities,Improved_drinking_water_source,88.0,C,2021 base 85.5%; Jal Jeevan Mission (2019+) continuing; Hooghly piped water improvement,no
+amenities,Improved_sanitation,78.0,C,2021 base 71.0%; ODF Plus drive; Swachh Bharat Phase 2 targets; Hooghly above WB average,no
+amenities,LPG_clean_cooking_fuel,60.0,C,2021 base 52.0%; Ujjwala 2.0 + continued PMUY + PMGKY free-cylinder end but refill subsidy; significant increase; wood-fuel substitution accelerating,no
+amenities,Wood_biomass_fuel,35.0,C,Declining as LPG rises,no
+amenities,Other_fuel,5.0,C,"Kerosene, dung; stable",no
+amenities,Electricity,99.0,A,Full saturation; Hooghly well-electrified,no
+migration,Native,82.5,D,Stable from 2021; post-COVID reverse migration of some workers consolidated in home village,no
+migration,WB_other_district,7.5,D,Stable,no
+migration,Other_Indian_state,4.5,D,Hindi-belt pilgrim-economy traders; stable,no
+migration,Bangladesh_origin,4.0,D,"Hooghly is non-refugee district; Bangladesh-origin families; Bangladesh August 2024 regime change not materially affecting cross-border migration to this AC (inland Hooghly, no border)",no
+migration,Outside_India,0.5,E,Negligible,no
+migration,Out_migrant,1.0,E,Kolkata commuters; stable,no

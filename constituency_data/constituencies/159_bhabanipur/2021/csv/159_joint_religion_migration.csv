@@ -1,0 +1,6 @@
+Religion,Native,WB_other_district,Other_Indian_state,Bangladesh_origin,Outside_India,Out_migrant,Hindi_belt_inmigrant,Tier,Source
+Hindu,47.0,8.0,6.0,4.0,1.0,1.0,33.0,D,Bengali Hindu ~65% native; Non-Bengali Hindu ~15% native; weighted blend; Hindi-belt = 34% of Hindu pop / 73% Hindu = ~47% of Hindu are Hindi-belt-origin or partial; adjusted downward — Bengali Hindu dom.
+Muslim,45.0,10.0,5.0,4.0,1.0,1.0,34.0,D,~45% long-resident Bengali Muslim + ~35% Hindi-belt Muslim migrant; slight increase in Hindi-belt share
+Christian,65.0,15.0,15.0,0.0,5.0,0.0,0.0,E,Urban Kolkata Christian: native or South India origin
+Sarna_ORP,0.0,0.0,0.0,0.0,0.0,0.0,0.0,E,Zero Sarna
+Other_residual,18.0,5.0,6.0,0.0,1.0,0.0,70.0,E,Sikh+Jain: heavily Hindi-belt/Gujarati-origin settled families

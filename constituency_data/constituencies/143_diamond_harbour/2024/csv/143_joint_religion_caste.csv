@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,37.61,0.09,8.73,10.47,43.10,0,0,B/E,SC 21.55% / Hindu 57.30% = 37.61%; UC 5.0/57.30=8.73%; OBC 6.0/57.30=10.47%; residual 43.10%
+Muslim,0,0,0,0,0,100,0,A,All Muslim
+Christian,0,0,0,0,0,0,100,A,
+Sarna_ORP,0,90,0,5,5,0,0,E,
+Other_residual,0,0,0,0,0,0,100,E,

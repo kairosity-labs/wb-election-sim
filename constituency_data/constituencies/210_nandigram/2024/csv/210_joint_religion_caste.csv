@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,22.38,0.14,6.85,4.11,66.52,0,0,A/D/E,SC = 16.35/73.05 = 22.38%; ST = 0.10/73.05 = 0.14%; UC = 5.00/73.05 = 6.85%; OBC = 3.00/73.05 = 4.11%; Other_Hindu_middle residual
+Muslim,0,0,0,0,0,100,0,A,All Muslim population maps to Muslim caste leaf
+Christian,0,0,0,0,0,0,100,E,Small base
+Sarna_ORP,0,100,0,0,0,0,0,E,Negligible
+Other_residual,0,0,0,0,0,0,100,E,Small base

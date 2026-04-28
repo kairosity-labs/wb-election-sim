@@ -1,0 +1,6 @@
+Party,ac_segment_pct,tier,note
+BJP,36.15,A,ECI 2021 WB AE AC 143 Diamond Harbour; Dipak Kumar Halder BJP candidate
+AITC,43.69,A,ECI 2021 WB AE AC 143; Pannalal Halder AITC winner
+INC,0.50,E,INC marginal in this AC; estimated from SP/INC fringe
+LF,18.08,A,CPI(M) 17.18% (Pratik Ur Rahaman) + small CPI/SUCI remainder ~0.9%; ECI 2021 AE AC 143
+Other_NOTA,1.58,A,NOTA + minor parties; derived from 100 − 36.15 − 43.69 − 0.50 − 18.08

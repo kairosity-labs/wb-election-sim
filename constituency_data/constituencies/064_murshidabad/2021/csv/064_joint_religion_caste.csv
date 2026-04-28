@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,34.9,3.9,9.9,14.3,37.0,0.0,0.0,E,Hindu-internal: SC% as share of Hindu = 19.5/55.8; ST 2.2/55.8; UC 5.5/55.8; OBC 8.0/55.8; other-Hindu-middle residual; sums ~100 within Hindu
+Muslim,0.0,0.0,0.0,0.0,0.0,100.0,0.0,A,All Muslim in Muslim caste slot
+Sarna_ORP,0.0,92.0,0.0,5.0,3.0,0.0,0.0,E,ST-dominant
+Christian,0.0,0.0,0.0,0.0,0.0,0.0,100.0,A,
+Other_residual,0.0,0.0,0.0,0.0,0.0,0.0,100.0,E,Jain + Sikh + not-stated

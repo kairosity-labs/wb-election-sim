@@ -1,0 +1,6 @@
+Religion,Bengali,Hindi,Urdu,Sadri,Nepali,Kurukh,Bhojpuri,Santali,Boro_Rabha_other,Other,Tier,Source
+Hindu,20.0,9.0,0.5,26.0,28.0,3.5,5.0,0.5,5.0,2.5,E,Hindu Nepali Gorkha + Bengali + Adivasi Hindu; Sadri lower within Hindu as Nepali/Bengali non-Sadri
+Muslim,75.0,12.0,6.0,2.0,2.0,0.0,2.0,0.0,1.0,0.0,E,Muslims concentrated in Bengali/Hindi-speaking peripheral GPs
+Christian,8.0,5.0,0.0,48.0,12.0,8.0,5.0,3.0,8.0,3.0,E,Adivasi Christian: Sadri + Kurukh; mission schools promoted Bengali/Hindi literacy
+Sarna_ORP,5.0,5.0,0.0,60.0,0.0,15.0,2.0,3.0,8.0,2.0,E,Sarna adherents are Adivasi; Sadri-dominant
+Other_residual,4.0,2.0,0.0,3.0,88.0,0.0,1.0,0.0,2.0,0.0,E,Predominantly Nepali-speaking Buddhist Gorkha community

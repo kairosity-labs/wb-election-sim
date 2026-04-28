@@ -1,0 +1,6 @@
+Religion,Bengali,Hindi,Urdu,Other,Santali,Mundari,Kurmali,Tier,Source
+Hindu,93.0,1.5,0.3,0.2,4.0,0.7,0.3,E,Stable from 2021
+Muslim,92.0,0.5,5.0,0.5,1.5,0.5,0.0,E,Marginal Urdu increase with identity consolidation
+Christian,67.0,0.5,0.5,1.0,19.0,8.0,4.0,E,Santali Christian growth in digital-Ol-Chiki literacy
+Sarna_ORP,17.0,0.0,0.0,0.0,64.0,12.0,7.0,E,Sarna identity assertion → marginal MT consolidation in Santali
+Other_residual,60.0,15.0,5.0,20.0,0.0,0.0,0.0,E,Residual

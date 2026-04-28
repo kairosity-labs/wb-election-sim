@@ -1,0 +1,11 @@
+Occupation,Television,Radio,Mobile_phone,Smartphone_with_internet,Computer,Two_wheeler,Four_wheeler,Banking_access,Tier,Source
+Cultivator,53.0,10.0,88.0,60.0,4.0,20.0,2.0,86.0,E,
+Agricultural_labourer,40.0,11.0,82.0,50.0,2.0,10.0,0.5,78.0,E,
+Household_industry,48.0,10.0,85.0,55.0,3.0,12.0,1.0,80.0,E,
+Manufacturing,50.0,8.0,88.0,60.0,4.0,14.0,1.0,83.0,E,
+Construction,42.0,10.0,85.0,52.0,2.0,12.0,0.5,78.0,E,
+Trade_retail,75.0,6.0,96.0,82.0,10.0,35.0,5.0,94.0,D,Jaigaon border-town traders; high UPI adoption; WhatsApp commerce
+Transport_logistics,65.0,8.0,93.0,72.0,6.0,50.0,4.0,90.0,E,Cross-border logistics; high mobility
+Services,58.0,7.0,92.0,70.0,10.0,22.0,2.5,88.0,E,
+Government_services_teachers,90.0,5.0,98.0,88.0,45.0,38.0,10.0,99.0,E,
+Out_migrant_worker,38.0,8.0,92.0,60.0,4.0,14.0,1.5,80.0,E,Remittances support moderate asset profile

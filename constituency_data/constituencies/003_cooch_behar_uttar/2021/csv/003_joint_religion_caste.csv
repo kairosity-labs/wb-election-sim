@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,55.25,1.22,5.49,12.20,25.84,0,0,C,Hindu rows: SC_total=45.30/82.00; ST=1.00/82.00; UC=4.50/82.00; OBC=10.00/82.00; OHM=21.20/82.00; all sum to 100
+Muslim,0,0,0,0,0,100,0,A,All Muslim
+Christian,0,0,0,0,0,0,100,A,All Christian+Other
+Sarna_ORP,0,90,0,5,5,0,0,E,Tribal-ST dominant
+Other_residual,0,0,10,20,70,0,0,E,Marwari/trader mix

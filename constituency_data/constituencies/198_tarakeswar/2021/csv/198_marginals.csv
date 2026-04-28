@@ -1,0 +1,106 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,86.61,E,"2019 base 86.78%; 2 more years of religion-differential growth (Muslim +1.3%/yr, Hindu +1.0%/yr) → Hindu dips ~0.17pp; 86.61% by end-2021",no
+religion,Muslim,11.98,E,2019 base 11.74%; +0.24pp over 2 more years differential growth,no
+religion,Christian,0.30,E,Held stable; tiny base,no
+religion,Sarna_ORP,0.85,E,Slight decline as some Santal practitioners shift to Hindu enumeration over time,no
+religion,Other_residual,0.26,E,Residual; Jain/Sikh/Buddhist in Muni,no
+caste,SC_total,25.4,E,2019 base 25.5%; small decline as SC sub-groups' growth rate is near-average; held nearly stable,no
+caste,Bagdi_SC,9.5,C,Dominant SC in Hooghly; held stable,yes
+caste,Bauri_SC,4.4,E,Slight decline in sub-share,yes
+caste,Namasudra_SC,3.5,E,Held stable; smaller presence than N24P belt,yes
+caste,Other_SC,8.0,E,"Hari, Chamar, Jalia, Rajbanshi residual",yes
+caste,ST_total,7.2,E,2019 base 7.3%; near-stable,no
+caste,Santal_ST,5.4,C,Dominant ST in Hooghly,yes
+caste,Other_ST,1.8,E,"Munda, Bhumij, Lodha",yes
+caste,UC_bhadralok,8.0,D,Temple-town educated class; Brahmin priests significant; held stable,no
+caste,OBC,30.2,D,Mahishya + Sadgop + Kurmi + Tili combined; marginal growth with new OBC-B inclusions,no
+caste,Mahishya,18.1,D,Single largest caste in Hooghly; dominant cultivating caste; slight growth from OBC recognition politics,yes
+caste,Sadgop,6.0,D,Second-tier cultivating caste; OBC-B,yes
+caste,Kurmi,3.5,D,OBC-A; rural CDB cultivator,yes
+caste,Tili_other_OBC,2.6,D,Temple-economy trade + residual OBC,yes
+caste,Other_Hindu_middle,15.8,E,"Goala, Tanti, Sutradhar, unclassified middle",no
+caste,Muslim,11.98,E,See C.1; Bengali-Sheikh peasantry dominant,no
+caste,Christian_plus_Sarna_plus_Other,1.42,E,See C.1,no
+age_cohort,18_22,12.2,E,"2021 voter cohort: 2011 Census age pyramid 18-22 renormalized, new entrants 2019-2021",no
+age_cohort,23_27,12.8,E,,no
+age_cohort,28_32,12.5,E,,no
+age_cohort,33_37,11.2,E,,no
+age_cohort,38_42,10.0,E,,no
+age_cohort,43_47,9.5,E,,no
+age_cohort,48_52,8.3,E,,no
+age_cohort,53_57,7.0,E,,no
+age_cohort,58_62,5.5,E,,no
+age_cohort,63_67,5.8,E,Slightly elevated: older long-term residents,no
+age_cohort,68,5.2,E,Concentrated in temple-town permanent residents,no
+gender,Male,50.86,E,Sex ratio ~966 F/1000M → 50.86% M / 49.14% F,no
+gender,Female,49.14,E,,no
+gender,Third_gender,0.00,E,Negligible,no
+mother_tongue,Bengali,92.3,E,2019 base 92.5%; slight decline as Hindi-belt pilgrim-economy workers stable,no
+mother_tongue,Santali,2.5,E,ST fringe; held stable,no
+mother_tongue,Hindi,3.6,E,Tarakeswar Muni Hindi-speaker fringe; slight growth from pilgrimage-economy traders,no
+mother_tongue,Urdu,0.9,E,Muslim pocket in Dhaniakhali GPs,no
+mother_tongue,Other,0.7,E,Kurukh/Munda/Bhumij ST fringe,no
+education,Illiterate,12.5,E,2019 base 13.5%; +0.5pp/yr literacy improvement → ~12.5% illiterate of total pop,no
+education,Primary,22.0,E,,no
+education,Middle,21.5,E,,no
+education,Secondary,19.5,E,Slight growth from SSC expansion,no
+education,Higher_Secondary,12.5,E,,no
+education,Graduate,9.0,E,Modest growth; Tarakeswar college + Kolkata commuter attainment,no
+education,Postgraduate,3.0,E,Stable small professional class,no
+workforce_status,Main_worker,31.5,E,2019 base 33.0%; COVID-19 disruption caused temporary contraction in main-worker share; partial recovery by end-2021 but not yet at 2019 levels; pilgrim economy suppressed in 2020 fully and partially in 2021,no
+workforce_status,Marginal_worker,13.0,E,Slight increase as some main workers shifted to marginal work during COVID disruption,no
+workforce_status,Non_worker,37.5,E,Female housewife fraction dominant in rural OBC households; slight increase due to COVID-induced exit from labor force,no
+workforce_status,Student,11.0,E,Held stable; school enrollment dipped during COVID but largely resumed by late 2021,no
+workforce_status,Unemployed,7.0,E,COVID-induced educated unemployment pressure; held at 2019 level by end-2021,no
+occupation,Cultivator,18.5,E,2019 base 18.0%; slight increase as some service-displaced workers returned to agricultural work during COVID,no
+occupation,Agricultural_labourer,40.5,E,2019 base 40.0%; slight increase from COVID-induced labor migration reversal,no
+occupation,Household_industry,4.5,E,Held stable,no
+occupation,Manufacturing,4.5,E,Slight decline from organized sector COVID disruption,no
+occupation,Construction,5.5,E,Decline from COVID; significant reverse migration of construction workers from Kolkata,no
+occupation,Trade_retail,9.5,E,Pilgrim-economy trade significantly suppressed in 2020-21; partial recovery in 2021,no
+occupation,Transport_logistics,4.5,E,Railway resumption by 2021; held near 2019 levels,no
+occupation,Services,8.0,E,Kolkata commuter workforce; some permanent WFH adaptation; held stable,no
+occupation,Government_services_teachers,4.0,E,Held stable; govt jobs less disrupted,no
+occupation,Out_migrant_worker,0.5,E,Very small; most Tarakeswar-origin migrant workers registered here; see also C.16,no
+class_of_worker,Employer,1.8,E,Slight decline from COVID-disrupted small-business closures in Muni,no
+class_of_worker,Employee,24.5,E,Slight decline; some private-sector disruption,no
+class_of_worker,Single_worker,53.5,E,Own-account agriculture + artisan; stable,no
+class_of_worker,Family_worker,20.2,E,Within agri-household; slight increase as family-farm work absorbed returned migrants,no
+economic_status,BPL_household,21.0,C,COVID-19 caused temporary poverty reversal; 2019 base 20.0%; ~1pp increase as marginal households crossed below poverty line; partial welfare cushion from PMGKY and Lakshmir Bhandar (Apr 2021),no
+economic_status,Above_Poverty_Line_low_income,37.5,E,Rural cultivating-OBC and SC labourer households,no
+economic_status,Lower_middle,26.0,E,,no
+economic_status,Middle,12.5,E,Moderate compression from COVID; pilgrim-economy middle class hit,no
+economic_status,Upper_middle_well_off,3.0,E,Held stable,no
+economic_status,PM Kisan Samman Nidhi exposure,~18% of cultivator HH,D,WB joined PM Kisan at 8th installment (Apr-Jul 2021). ~18% of AC HH are cultivator category; first central-transfer receipts in mid-2021. BJP had used WB non-participation as grievance lever 2019-2021; TMC finally joined to defuse political cost after 2021 AE win. Source: PIB press release + PM Kisan Wikipedia,no
+economic_status,Krishak Bandhu enrolled cultivators,~18% of AC HH,D,Scheme running since Jan 2019; second year of operation in 2021; coverage stable among cultivator HH. Source: Krishak Bandhu website,no
+economic_status,Lakshmir Bhandar exposure,~35% of adult women HH heads,D,"Launched Apr 2021 (post-AE announcement during campaign); ₹500/month for general-category women HH heads, ₹1000 for SC/ST. Enrollment camps post-election; ~35% penetration of eligible women HH heads by end-2021. Significant welfare anchor for TMC women's vote. Source: WB CDWDSW Lakshmir Bhandar scheme announcement; WBXpress",no
+gp_location,U1_Tarakeswar_Muni_CDB,70.3,E,2011 base: Muni 10.3% + CDB 59.9% = 70.2%; projected to 70.3% with slight Muni growth; v0 collapses Muni + CDB into single sub-unit for simplicity,no
+gp_location,U2_Dhaniakhali_5GP,29.7,E,2011 base 29.8%; slight population decline in fringe as young out-migrate to Kolkata,no
+household_composition,Avg_HH_size,4.4,E,WB 2011: 4.3; rural Hooghly slightly higher; COVID reverse migration temporarily increased HH size; by end-2021 returning to pre-COVID mean,no
+household_composition,Nuclear_HH,68.5,E,NFHS-4/5 WB rural pattern; near-stable,no
+household_composition,Joint_HH,25.5,E,Slight decline as nuclear trend continues,no
+household_composition,Extended_multi_generation,6.0,E,COVID reverse migration slightly elevated multi-generation living; stabilizing,no
+marital_status,Never_married,25.5,E,Slight decline as large 2019-21 cohort of 23-27 year olds marry; Census 2011 Hooghly pattern,no
+marital_status,Currently_married,65.5,E,,no
+marital_status,Widowed,8.0,E,Stable,no
+marital_status,Separated_divorced,1.0,E,,no
+asset_media,Television,78.0,C,2019 base 76.0%; +2pp growth; near-saturation in Muni; moderate in rural CDB,no
+asset_media,Radio,4.0,C,Declining; FM radio,no
+asset_media,Mobile_phone,90.0,C,2019 base 85.0%; +5pp; near-saturation; COVID-era digital access push,no
+asset_media,Smartphone_with_internet,62.0,C,"2019 base 45.0%; +17pp surge — COVID digital adoption, WFH, online school, Duare Sarkar online camp; NFHS-5 WB rural ~58% by 2019-21 survey period; Hooghly somewhat above average",no
+asset_media,Computer,9.0,C,Modest growth,no
+asset_media,Two_wheeler,32.0,C,Slight growth; recovered from COVID pause,no
+asset_media,Four_wheeler,5.5,C,Slight growth,no
+asset_media,Banking_access,92.0,B,PMJDY + Lakshmir Bhandar bank-account requirement → further penetration to ~92%; near-saturation,no
+amenities,Improved_drinking_water_source,85.5,C,2019 base 84.0%; Jal Jeevan Mission (2019+) driving improvement,no
+amenities,Improved_sanitation,71.0,C,2019 base 65.0%; Swachh Bharat Mission Phase 2 (2020+) + ODF village certifications in Hooghly,no
+amenities,LPG_clean_cooking_fuel,52.0,C,2019 base 42.0%; +10pp — Ujjwala 2.0 continuation + PMUY refill subsidies; significant jump from COVID free-cylinder scheme (PMGKY 2020),no
+amenities,Wood_biomass_fuel,43.0,C,Declining as LPG rises,no
+amenities,Other_fuel,5.0,C,"Kerosene, dung; held stable",no
+amenities,Electricity,98.0,A,Saubhagya saturation + ongoing connections; Hooghly well-electrified,no
+migration,Native,82.5,D,2019 base 82.0%; COVID-induced reverse migration of construction+service workers to home AC temporarily inflated native-resident count; some stayed by end-2021,no
+migration,WB_other_district,7.5,D,2019 base 8.0%; slight decline as Kolkata in-migrants reduced during COVID,no
+migration,Other_Indian_state,4.5,D,Hindi-belt pilgrim-economy traders; stable,no
+migration,Bangladesh_origin,4.0,D,Hooghly is non-refugee district; small Namasudra/refugee families; stable,no
+migration,Outside_India,0.5,E,Negligible,no
+migration,Out_migrant,1.0,E,Kolkata commuters registered here; stable,no

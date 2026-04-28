@@ -1,0 +1,3 @@
+Sub_unit,Hindu,Muslim,Christian,Sarna_ORP,Other_residual,Tier,Source
+U1_Tarakeswar_Muni_CDB,90.0,8.2,0.3,1.2,0.3,E,"Weighted 2011: Muni (Hindu 93.22%, Muslim 4.97%) + CDB (Hindu 88.94%, Muslim 10.20%); v0 collapses into single sub-unit; weighted by Muni 10.3%/CDB 59.9% → Hindu ~90%, Muslim ~8.2%"
+U2_Dhaniakhali_5GP,80.5,16.5,0.3,2.5,0.2,A,Dhaniakhali block Census 2011 (Wikipedia); 5-GP subset uses block proxy

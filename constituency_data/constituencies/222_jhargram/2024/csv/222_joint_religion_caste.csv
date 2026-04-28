@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,22.5,6.0,7.8,14.3,49.4,0.0,0.0,E,Stable from 2021; no Census update
+Muslim,0.0,0.0,0.0,0.0,0.0,100.0,0.0,A,All Muslim pooled
+Christian,0.0,0.0,0.0,0.0,0.0,0.0,100.0,A,Tribal Christians
+Sarna_ORP,0.0,92.0,0.0,5.0,3.0,0.0,0.0,E,Sarna = almost exclusively ST
+Other_residual,0.0,0.0,0.0,0.0,0.0,0.0,100.0,E,Residual

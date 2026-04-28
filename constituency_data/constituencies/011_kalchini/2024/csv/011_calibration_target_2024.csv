@@ -1,0 +1,6 @@
+Party,ac_segment_pct,tier,note
+BJP,51.54,A,"ECI 2024 LS CSV — Manoj Tigga (BJP) 96,391 / 187,029 total valid; data/2024_AssemblySegmentLevelVotingData.csv"
+AITC,43.59,A,"ECI 2024 LS CSV — Prakash Chik Baraik (AITC) 81,526 votes"
+INC,0.00,A,No INC candidate in 2024 LS AC 011; 0.0%
+LF,1.58,A,"RSP (Mili Oraon) 2,954 votes; only Left party contesting; INC+LF=1.58%"
+Other_NOTA,3.29,A,"NOTA 2,945 + IND (1,823+1,596) + KMSP 738 + BSP 907 + SUCI 357 + others = 8,366 votes; computed as 100 - 51.54 - 43.59 - 0.00 - 1.58 = 3.29"

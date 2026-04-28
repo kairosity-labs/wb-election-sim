@@ -1,0 +1,97 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,81.70,E,"CDB-II 2011: 81.85% (A); 13-yr religion-differential growth: Muslim +1.3%/yr, Hindu +1.0%/yr → Hindu share dips ~0.75pp from 2011; projected 81.70%",no
+religion,Muslim,17.72,E,CDB-II 2011: 17.64%; 13-yr projection: Muslim grows relative to Hindu; 17.72% by 2024,no
+religion,Christian,0.18,E,Stable; CDB-II 2011 base,no
+religion,Sarna_ORP,0.20,E,Minor; stable,no
+religion,Other_residual,0.20,E,Sikh + Jain + Buddhist + Not-stated,no
+caste,SC_total,45.40,A,CDB-II 2011: SC 44.97% (A); small upward nudge over 13 years,no
+caste,Rajbanshi_SC,38.50,C,~85% of SC pool; dominant Rajbanshi/Koch-Rajbanshi community,yes
+caste,Namasudra_SC,3.30,E,~7% of SC pool,yes
+caste,Bagdi_Hari_SC,1.75,E,~3.9% of SC pool,yes
+caste,Other_SC,1.85,E,~4% residual,yes
+caste,ST_total,1.00,A,CDB-II 2011: 1.00% (A); stable,no
+caste,UC_bhadralok,4.50,E,Service class census towns; stable,no
+caste,OBC,10.00,E,Artisan / service OBC,no
+caste,Other_Hindu_middle,21.10,E,Residual: 81.70 − 45.40 SC − 1.00 ST − 4.50 UC − 10.00 OBC = 20.80; rounded with Muslim+other,no
+caste,Muslim,17.72,E,See C.1,no
+caste,Christian_plus_Sarna_plus_Other,0.58,E,Christian 0.18 + Sarna 0.20 + Other_residual 0.20,no
+age_cohort,18_22,10.0,E,2002–2006 birth cohort; slightly smaller as fertility declines,no
+age_cohort,23_27,10.5,E,,no
+age_cohort,28_32,10.5,E,,no
+age_cohort,33_37,10.0,E,,no
+age_cohort,38_42,9.5,E,,no
+age_cohort,43_47,9.0,E,,no
+age_cohort,48_52,8.0,E,,no
+age_cohort,53_57,7.0,E,,no
+age_cohort,58_62,6.0,E,,no
+age_cohort,63_67,5.5,E,,no
+age_cohort,68,14.0,E,Aggregated 68+ cohort; aging-in-place rural North Bengal,no
+gender,Male,51.50,E,CDB-II 2011: 52.19% M; continued convergence; ECI roll parity improving,no
+gender,Female,48.50,E,,no
+gender,Third_gender,<0.01,E,Negligible,no
+mother_tongue,Bengali,93.49,A,CDB-II 2011: 93.49% (A); stable over decade,no
+mother_tongue,Rajbongshi,1.23,A,CDB-II 2011: 1.23% (A); stable identity language,no
+mother_tongue,Hindi,1.85,A,CDB-II 2011: 1.85% (A); stable trader/migrant fraction,no
+mother_tongue,Urdu,1.00,E,Muslim Urdu-speaking pocket; stable,no
+mother_tongue,Other,2.43,E,Mech / Koch / Nepali / Santhali,no
+education,Illiterate,10.0,E,CDB-II 2011: 81.39% literate; +0.5pp/yr over 13yr → ~88% literate; illiterate ~12% → adult-corrected ≈ 10%,no
+education,Primary,20.0,E,Declining as middle-school completion rises,no
+education,Middle,22.0,E,Stable,no
+education,Secondary,20.0,E,Modest improvement,no
+education,Higher_Secondary,13.0,E,,no
+education,Graduate,11.0,E,North Bengal college expansion; UBKV-led higher-education cluster,no
+education,Postgraduate,4.0,E,Stable,no
+workforce_status,Main_worker,32.0,E,Post-COVID recovery; CDB-II 2011 37.31% base; steady recovery 2021–24,no
+workforce_status,Marginal_worker,12.5,E,Marginal agricultural; seasonal; stable post-COVID,no
+workforce_status,Non_worker,35.0,E,Female non-worker dominant; stable,no
+workforce_status,Student,11.5,E,Post-COVID school/college resumption boosted student rate,no
+workforce_status,Unemployed,9.0,E,Educated unemployment structurally persistent in North Bengal towns,no
+occupation,Cultivator,20.0,E,CDB-II paddy/jute/potato; stable,no
+occupation,Agricultural_labourer,30.0,E,Dominant occupation; slight decline as MGNREGA alternatives grow,no
+occupation,Household_industry,4.5,E,Tobacco/handloom; stable,no
+occupation,Manufacturing,3.5,E,Small agro-processing growth,no
+occupation,Construction,7.0,E,WB infrastructure spending; slight increase 2021–24,no
+occupation,Trade_retail,13.0,E,Census-town commerce; Bangladesh trade linkage via Changrabandha LCS (disrupted Aug 2024+),no
+occupation,Transport_logistics,5.0,E,Road transport; stable,no
+occupation,Services,9.5,E,"Including pisciculture (17,863 fisheries workers in CDB-II)",no
+occupation,Government_services_teachers,5.5,E,WB govt employees; teacher recruitments,no
+occupation,Out_migrant_worker,2.0,E,Recovered post-COVID; Kerala/Tamil Nadu-bound migration resumed by 2022–23,no
+class_of_worker,Employer,2.0,E,Census B-04 WB rural pattern; stable,no
+class_of_worker,Employee,26.0,E,Slight increase via WB govt recruitment,no
+class_of_worker,Single_worker,47.0,E,Own-account cultivator + artisan + trader,no
+class_of_worker,Family_worker,25.0,E,Within agri-household; female family labour,no
+economic_status,BPL_household,23.0,C,Post-COVID recovery; DBT welfare schemes reduced acute poverty; Cooch Behar above-average poverty but improved,no
+economic_status,Above_Poverty_Line_low_income,35.0,E,Ag-labourer + marginal cultivator; Lakshmir Bhandar income supplement reduces hardship,no
+economic_status,Lower_middle,25.0,E,Stable,no
+economic_status,Middle,13.0,E,Slight improvement; govt employment + MGNREGA,no
+economic_status,Upper_middle_well_off,4.0,E,Census-town commercial class; stable,no
+gp_location,U1_Census_towns_cluster,15.70,A,Census 2011 base; no new census-town notifications by 2024,no
+gp_location,U2_CDB_II_rural_GPs,84.30,A,Remainder; 13 GPs,no
+household_composition,Avg_HH_size,4.3 persons,E,Continued slight decline; NFHS-5 WB rural → NFHS-6 trend; nuclearization,no
+household_composition,Nuclear_HH,68.0,E,Continued nuclearization post-COVID,no
+household_composition,Joint_HH,25.0,E,Declining,no
+household_composition,Extended_multi_generation,7.0,E,Stable,no
+marital_status,Never_married,27.0,E,Stable post-COVID-delay normalization,no
+marital_status,Currently_married,64.0,E,Recovered to 2019 level,no
+marital_status,Widowed,8.0,E,Stable,no
+marital_status,Separated_divorced,1.0,E,Stable,no
+asset_media,Television,79.0,C,Near-saturation in semi-urban; +2pp from 2021,no
+asset_media,Radio,3.0,C,Continued decline,no
+asset_media,Mobile_phone,92.0,C,Near-universal; +4pp from 2021,no
+asset_media,Smartphone_with_internet,82.0,C,Effectively saturated for active voter population; WhatsApp political communication universal; UPI for Jan Dhan transactions; ~+20pp from 2021 (62%); NFHS-6 WB rural trajectory,no
+asset_media,Computer,8.0,C,Modest increase; laptop penetration via educational schemes,no
+asset_media,Two_wheeler,36.0,C,+4pp from 2021,no
+asset_media,Four_wheeler,6.0,C,Marginal increase,no
+asset_media,Banking_access,97.0,B,"PMJDY + Jan Dhan peak penetration; virtually universal; DBT direct into bank accounts for Lakshmir Bhandar, MGNREGA, Krishak Bandhu",no
+amenities,Improved_drinking_water_source,88.0,C,+2pp from 2021; piped water expansion in census towns,no
+amenities,Improved_sanitation,82.0,C,+7pp from 2021 (75%); Swachh Bharat Mission Phase-2 near-completion in Cooch Behar; ODF district declaration,no
+amenities,LPG_clean_cooking_fuel,56.0,C,+10pp from 2021 (46%); Ujjwala 2.0 saturation in rural GPs; price subsidies restored partially,no
+amenities,Wood_biomass_fuel,39.0,C,Declining steadily as LPG penetrates,no
+amenities,Other_fuel,5.0,C,Stable,no
+amenities,Electricity,98.0,C,Near-universal; +2pp from 2021; Saubhagya saturation,no
+migration,Native,84.5,D,Stable; COVID return migrants have mostly re-migrated by 2022–23,no
+migration,WB_other_district,5.5,D,Stable,no
+migration,Other_Indian_state,4.0,D,Marwari/Bihari traders; stable,no
+migration,Bangladesh_origin,4.0,D,Border community stable; Bangladesh interim regime (Aug 2024+) caused anxiety but limited new refugee influx into AC by end-2024,no
+migration,Outside_India,1.0,E,Nepal/Bhutan-origin fringe; stable,no
+migration,Out_migrant,1.0,E,Seasonal out-migration recovered to pre-COVID level by 2023,no

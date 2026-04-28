@@ -1,0 +1,13 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,40,72,C,COVID-driven smartphone adoption even in rural ag; NFHS-5 WB rural
+Agricultural_labourer,30,62,C,Lowest income; smartphone still catching up
+Household_industry,48,74,C,Recovery from Amphan; mat-weaving + bidi workers with smartphones
+Manufacturing,60,85,C,Small factory workers with urban connectivity
+Construction,55,76,C,Includes returning migrants with smartphones
+Trade_retail,72,90,C,Muni commercial hub; high connectivity
+Transport_logistics,62,82,D,River ferry + road; smartphones for navigation and business
+Services,78,92,C,Private services with digital requirement
+Government_services_teachers,88,97,C,Highest; online teaching during COVID raised smartphone adoption
+Out_migrant_worker,75,78,D,Working outside; smartphone for remittances; COVID increased digital finance use
+Fishing_pisciculture,45,68,D,Fishing boats with phones for weather + market price
+Tourism_hospitality,60,90,D,Partial COVID recovery; Muni hotel/ghat economy

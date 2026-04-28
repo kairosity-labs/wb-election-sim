@@ -1,0 +1,6 @@
+Religion,Television,Smartphone_with_internet,Banking_access,Tier,Source
+Hindu,66.0,52.0,88.0,C,NFHS-5 WB rural Hindu baseline; Muni uplift
+Muslim,60.0,46.0,84.0,C,Below Hindu: lower income; no Muni concentration
+Christian,68.0,55.0,85.0,C,Tribal Christian slightly better-off than Sarna
+Sarna_ORP,46.0,32.0,78.0,C,Lowest asset access; deep forest belt; poorest HHs; +12pp smartphone from 2019 via Jio
+Other_residual,65.0,50.0,82.0,E,Residual

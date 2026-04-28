@@ -1,0 +1,8 @@
+Religion,BJP,AITC,INC,LF,Other_NOTA,Tier,Source
+Hindu,47.0,47.5,0.5,3.5,1.5,C,2021 AE: TMC consolidated Hindu vote post-AE campaign; BJP retained non-Bengali Hindu base; bhadralok partially returned to TMC after 2019 BJP surge
+Muslim,5.0,86.0,0.5,7.0,1.5,C,CSDS 2021 WB: Muslim near-total consolidation behind TMC post-BJP threat; Muslim turnout high
+Christian,10.0,75.0,5.0,8.0,2.0,E,Urban Christian: TMC-leaning
+Sarna_ORP,0.0,0.0,0.0,0.0,0.0,E,Zero population
+Other_residual,62.0,26.0,2.0,4.0,6.0,E,Sikh+Jain: BJP-leaning retained; slight TMC gain from 2019
+Model recovery: AITC,,,,,,,0.73×0.475 + 0.245×0.86 + 0.002×0.75 + 0.023×0.26 = 0.347+0.211+0.002+0.006 = 0.566 vs actual May AE 57.7% ✓ within ±2pp
+Model recovery: BJP,,,,,,,0.73×0.47 + 0.245×0.05 + 0.002×0.10 + 0.023×0.62 = 0.343+0.012+0.000+0.014 = 0.369 vs actual May AE 35.2% ✓ within ±2pp

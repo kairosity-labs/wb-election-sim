@@ -1,0 +1,97 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,82.00,E,CDB-II 2011: 81.85% (A); Muslim differential growth +1.3%/yr vs Hindu +1.0%/yr over 10yr → Hindu share dips ~0.60pp from 2011; projected 82.00%,no
+religion,Muslim,17.48,E,CDB-II 2011: 17.64%; 10-yr projection: Muslim grows faster; 17.48% by 2021,no
+religion,Christian,0.18,E,Stable; CDB-II 2011: 0.18%,no
+religion,Sarna_ORP,0.20,E,Minor Sarna/tribal; subsumed in CDB-II residual; stable,no
+religion,Other_residual,0.14,E,Sikh + Jain + Buddhist + Not-stated residual; stable,no
+caste,SC_total,45.30,A,CDB-II 2011: SC 44.97% (A); small upward nudge for 10-yr differential SC growth,no
+caste,Rajbanshi_SC,38.50,C,~85% of SC pool; dominant Rajbanshi/Koch-Rajbanshi community; Outlook India anchor,yes
+caste,Namasudra_SC,3.25,E,~7% of SC pool,yes
+caste,Bagdi_Hari_SC,1.70,E,~3.8% of SC pool,yes
+caste,Other_SC,1.85,E,~4% of SC pool residual,yes
+caste,ST_total,1.00,A,CDB-II 2011: 1.00% (A); Mech/Rajbongshi tribal; stable,no
+caste,UC_bhadralok,4.50,E,Service class in census towns; stable,no
+caste,OBC,10.00,E,Artisan / service OBC,no
+caste,Other_Hindu_middle,21.20,E,Residual: 82.00 − 45.30 SC − 1.00 ST − 4.50 UC − 10.00 OBC = 21.20,no
+caste,Muslim,17.48,E,See C.1,no
+caste,Christian_plus_Sarna_plus_Other,0.52,E,Christian 0.18 + Sarna 0.20 + Other_residual 0.14,no
+age_cohort,18_22,10.5,E,2003–2007 birth cohort enters voting age; slightly larger than 2019 equivalent,no
+age_cohort,23_27,10.5,E,,no
+age_cohort,28_32,10.0,E,,no
+age_cohort,33_37,9.5,E,,no
+age_cohort,38_42,9.0,E,,no
+age_cohort,43_47,8.5,E,,no
+age_cohort,48_52,7.5,E,,no
+age_cohort,53_57,6.5,E,,no
+age_cohort,58_62,6.0,E,,no
+age_cohort,63_67,5.5,E,,no
+age_cohort,68,16.5,E,Aggregated 68+ cohort; North Bengal rural aging-in-place; renormalization residual,no
+gender,Male,51.80,E,CDB-II 2011: 52.19% M; convergence trend continued,no
+gender,Female,48.20,E,,no
+gender,Third_gender,<0.01,E,Negligible,no
+mother_tongue,Bengali,93.49,A,CDB-II 2011: 93.49% Bengali (A); stable over decade,no
+mother_tongue,Rajbongshi,1.23,A,CDB-II 2011: 1.23% Rajbongshi (A); Koch-Rajbanshi identity language,no
+mother_tongue,Hindi,1.85,A,CDB-II 2011: 1.85% Hindi (A); stable trader/migrant fraction,no
+mother_tongue,Urdu,1.00,E,Muslim Urdu-speaking pocket; stable,no
+mother_tongue,Other,2.43,E,Mech / Koch / Nepali / Santhali,no
+education,Illiterate,11.0,E,CDB-II 2011: 81.39% literate (A); +0.5pp/yr over 10yr → ~86.4% literate by 2021; illiterate ~13.6% → adult-corrected ≈ 11%,no
+education,Primary,21.0,E,Slight decline as middle-school completion improves,no
+education,Middle,22.0,E,,no
+education,Secondary,19.5,E,Modest upward shift,no
+education,Higher_Secondary,12.5,E,,no
+education,Graduate,10.0,E,North Bengal college expansion,no
+education,Postgraduate,4.0,E,UBKV proximity; stable,no
+workforce_status,Main_worker,31.0,E,COVID-19 2020 disruption reduced main-worker rate; seasonal agri-workers reclassified; CDB-II 2011 37.31% base → slightly lower in 2021 post-COVID,no
+workforce_status,Marginal_worker,13.0,E,COVID return migrants swelled marginal-worker pool,no
+workforce_status,Non_worker,36.0,E,Female non-worker share stable; high rural North Bengal,no
+workforce_status,Student,11.0,E,School disruption 2020–21 affected 18–22 cohort; slight reduction in active students,no
+workforce_status,Unemployed,9.0,E,COVID-period educated unemployment elevated vs 2019,no
+occupation,Cultivator,20.5,E,Slight recovery post-Amphan/COVID; paddy and jute cultivators,no
+occupation,Agricultural_labourer,31.0,E,Reduced by COVID migration disruption; some remained in local area,no
+occupation,Household_industry,4.5,E,Tobacco/handloom; slight uptick as alternative income during COVID,no
+occupation,Manufacturing,3.0,E,Limited organised manufacturing; stable,no
+occupation,Construction,6.5,E,COVID return migration raised local construction workforce in 2020–21,no
+occupation,Trade_retail,12.0,E,Census-town commercial activity recovering,no
+occupation,Transport_logistics,5.0,E,,no
+occupation,Services,10.0,E,Including pisciculture; stable,no
+occupation,Government_services_teachers,5.5,E,WB govt employees; school-teacher recruitment; stable,no
+occupation,Out_migrant_worker,2.0,E,Reduced vs 2019 — COVID lockdown kept out-migrants home in 2020; partial recovery by 2021,no
+class_of_worker,Employer,2.0,E,Census B-04 WB rural pattern; stable,no
+class_of_worker,Employee,25.0,E,Govt + organised sector; stable,no
+class_of_worker,Single_worker,48.0,E,Cultivator + artisan + small trader,no
+class_of_worker,Family_worker,25.0,E,Within agri-household; female family labour,no
+economic_status,BPL_household,25.0,C,Cooch Behar district above-average poverty; COVID-19 income shock pushed marginal households below poverty line; +1pp vs 2019,no
+economic_status,Above_Poverty_Line_low_income,35.0,E,Ag-labourer + marginal cultivator; COVID income losses,no
+economic_status,Lower_middle,24.0,E,Stable,no
+economic_status,Middle,12.0,E,Stable,no
+economic_status,Upper_middle_well_off,4.0,E,Census-town commercial class; stable,no
+gp_location,U1_Census_towns_cluster,15.70,A,"Census 2011: 53,984 / 343,901 = 15.70%; holds stable — no new census-town notifications by 2021",no
+gp_location,U2_CDB_II_rural_GPs,84.30,A,Remainder; 13 GPs,no
+household_composition,Avg_HH_size,4.4 persons,E,"Slight decline from 2019 (4.5); NFHS-5 WB rural trend; COVID return migration temporarily inflated, then normalized",no
+household_composition,Nuclear_HH,66.0,E,Slight increase vs 2019 (65%); NFHS-5 WB rural pattern,no
+household_composition,Joint_HH,27.0,E,Slight decline; younger Rajbanshi households nuclearizing,no
+household_composition,Extended_multi_generation,7.0,E,Stable,no
+marital_status,Never_married,27.5,E,Slight uptick as COVID delayed marriages in 2020,no
+marital_status,Currently_married,63.5,E,Slightly down; COVID delay effect,no
+marital_status,Widowed,8.0,E,Stable,no
+marital_status,Separated_divorced,1.0,E,Stable,no
+asset_media,Television,77.0,C,NFHS-4 → NFHS-5 WB rural trend; slight uptick; ~+3pp from 2019,no
+asset_media,Radio,3.5,C,Continuing decline; ~0.5pp fall per year,no
+asset_media,Mobile_phone,88.0,C,+4pp from 2019; strong rural penetration by 2021,no
+asset_media,Smartphone_with_internet,62.0,C,Major post-COVID surge: WhatsApp/YouTube essential for information and welfare; NFHS-5 WB rural ~60–65%; +22pp from 2019 (40%) — COVID-driven adoption in 2020–21,no
+asset_media,Computer,6.5,C,Marginal increase; laptop for students via PM e-Vidya,no
+asset_media,Two_wheeler,32.0,C,+2pp from 2019,no
+asset_media,Four_wheeler,5.0,C,Stable,no
+asset_media,Banking_access,94.0,B,PMJDY further enrollment; Jan Dhan accounts used for DBT during COVID relief; ~+6pp from 2019 (88%),no
+amenities,Improved_drinking_water_source,86.0,C,Stable +1pp,no
+amenities,Improved_sanitation,75.0,C,+7pp from 2019 (68%); Swachh Bharat Mission Phase-2 continued; North Bengal rural latrines,no
+amenities,LPG_clean_cooking_fuel,46.0,C,+8pp from 2019 (38%); Ujjwala 2.0 launched 2021; North Bengal rural Ujjwala uptake,no
+amenities,Wood_biomass_fuel,49.0,C,Declining as LPG rises; still dominant in deep-rural GPs,no
+amenities,Other_fuel,5.0,C,Stable,no
+amenities,Electricity,96.0,C,Near-saturation; +2pp from 2019,no
+migration,Native,85.0,D,Princely-state history; low in-migration; COVID 2020 return migrants boosted native count as out-migrants returned home,no
+migration,WB_other_district,5.5,D,Slight decline as some service-class in-migrants returned to home districts during COVID,no
+migration,Other_Indian_state,4.0,D,Marwari/Bihari traders; stable,no
+migration,Bangladesh_origin,4.0,D,Border-area community; Bangladesh temple attacks Oct 2021 generated anxiety but no significant new migration into AC by end-2021,no
+migration,Outside_India,1.0,E,Nepal/Bhutan-origin North Bengal fringe,no
+migration,Out_migrant,0.5,E,Reduced vs 2019 (1.0%); COVID return migration — many seasonal migrants from Assam/Kerala remained in AC through 2020; partial re-migration by end-2021,no

@@ -1,0 +1,101 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,72.50,D,Continued marginal decline from 73.0% (2021) due to differential Muslim growth ~1.3%/yr; bhadralok + Marwari-Gujarati + Bengali Hindu bloc,no
+religion,Muslim,25.00,D,Slight rise from 24.5% (2021); Ward 82 Kidderpur fringe; The Federal 2021 cited ~21.9% Muslim voters (voter share lower than total pop share),no
+religion,Christian,0.20,E,Small urban fringe; stable,no
+religion,Sarna_ORP,0.00,E,100% urban Kolkata; no tribal population,no
+religion,Other_residual,2.30,D,Sikh ~1.5% + Jain ~0.8% = ~2.3%; Bhowanipore Sikh + Marwari-Jain community; stable,no
+caste,SC_total,2.23,A,Census 2011 direct; urban SC stable over 13 years,no
+caste,Urban_SC_generic,2.23,E,No Matua concentration in urban Kolkata; generic urban SC pool,yes
+caste,ST_total,0.26,A,Census 2011 direct; minimal urban ST,no
+caste,UC_bhadralok,25.00,D,Bengali UC (Brahmin/Kayastha/Baidya); Bhowanipore historical residential; stable,no
+caste,OBC,14.50,E,Bengali OBC/middle-caste Hindu; slight decline as some reclassified upward,no
+caste,Other_Hindu_middle,21.51,D,Non-Bengali Hindu: Marwari ~10.4% + Gujarati ~8% + Bihari/UP ~7% + Odia ~2% + other NB Hindu ~3.6% less Jain/Sikh in Other_residual,no
+caste,Muslim,25.00,D,See C.1; Ward 82 + Kalighat fringe; slight rise consistent with differential growth,no
+caste,Christian_plus_Sarna_plus_Other,2.50,E,Christian 0.20% + Jain 0.80% + Sikh 1.50% = 2.50%,no
+age_cohort,18_22,9.0,E,Slightly smaller first-time voter cohort; urban TFR ~1.5 dampens young cohort growth,no
+age_cohort,23_27,9.5,E,COVID disrupted in-migration in this cohort 2020-22,no
+age_cohort,28_32,10.5,E,Core working-age in-migrants; larger cohort,no
+age_cohort,33_37,10.5,E,,no
+age_cohort,38_42,10.0,E,,no
+age_cohort,43_47,9.5,E,,no
+age_cohort,48_52,8.5,E,,no
+age_cohort,53_57,8.0,E,,no
+age_cohort,58_62,7.5,E,,no
+age_cohort,63_67,9.5,E,Earlier cohorts aging into this bucket,no
+age_cohort,68,7.5,E,68+ open-ended; Kolkata urban elderly share limited by out-migration to satellite towns,no
+gender,Male,51.45,E,Marginal improvement in sex ratio over 13 years; Kolkata district 2011 941 → est. ~946 by 2024,no
+gender,Female,48.54,E,,no
+gender,Third_gender,0.01,E,Urban Kolkata registered TG; small but increasing recognition,no
+mother_tongue,Bengali,57.00,D,Bengali Hindu (~42%) + Bengali-speaking Muslims (~12%); stable over 5 years,no
+mother_tongue,Hindi,21.00,D,Marwari + Bihari/UP + some Gujarati; slight growth as Hindi-belt in-migration continues post-COVID,no
+mother_tongue,Urdu,7.00,D,Urdu-dominant Muslim subgroup; Ward 82 fringe; gradual integration reducing Urdu share,no
+mother_tongue,Other,3.50,E,Tamil/Marathi/Sindhi/Nepali/English-dominant; slight increase,no
+mother_tongue,Gujarati,7.00,D,Gujarati business families; stable,no
+mother_tongue,Punjabi,1.50,D,Sikh community; stable,no
+mother_tongue,Odia,2.00,D,Odia workers/traders; stable,no
+mother_tongue,English_dominant,1.00,E,Elite bilingual; stable,no
+education,Illiterate,5.0,E,Declining; urban literacy gains; ~5% by 2024,no
+education,Primary,9.0,E,Declining as cohorts upgrade,no
+education,Middle,12.5,E,Slight decline,no
+education,Secondary,19.0,E,Stable,no
+education,Higher_Secondary,21.0,E,Increasing; urban education expansion,no
+education,Graduate,24.0,E,Increasing; South Kolkata professional class expansion,no
+education,Postgraduate,9.5,E,Stable; research/professional class,no
+workforce_status,Main_worker,42.0,E,Recovered to pre-COVID levels; white-collar employment recovered; gig economy growth,no
+workforce_status,Marginal_worker,5.0,E,Normalized from COVID peak,no
+workforce_status,Non_worker,35.0,E,Housewife + retired + elderly; slightly lower as female workforce participation rises,no
+workforce_status,Student,10.0,E,Urban student population; post-COVID resumption stable,no
+workforce_status,Unemployed,8.0,E,Educated unemployment persistent; SSC scam aftermath (2022) added to disillusionment among govt-job aspirants; graduate-level unemployment elevated,no
+occupation,Cultivator,0.0,E,100% urban; no agriculture,no
+occupation,Agricultural_labourer,0.0,E,Same,no
+occupation,Household_industry,3.0,E,Normalizing from COVID peak; home-based commerce,no
+occupation,Manufacturing,5.5,E,Stable; organized manufacturing still subdued in Kolkata proper,no
+occupation,Construction,4.0,E,Recovery; urban construction resumed fully post-COVID,no
+occupation,Trade_retail,23.0,E,Dominant; Marwari/Gujarati + Bengali small traders; e-commerce growth not fully displacing physical retail in Bhowanipore belt,no
+occupation,Transport_logistics,8.0,E,Full recovery; gig-economy logistics (Swiggy/Zomato/Blinkit) added new workers,no
+occupation,Services,23.0,E,Private services (banking/IT/fintech/hospitality) — largest growth sector,no
+occupation,Government_services_teachers,17.5,E,Slight decline in share; SSC scam froze new govt appointments (2022-2024),no
+occupation,Out_migrant_worker,2.0,E,Stable; bhadralok professionals registered here working in Mumbai/Delhi/abroad,no
+occupation,Domestic_worker,5.0,E,Stable,no
+occupation,Petty_vendor,5.5,E,Stable; UPI-enabled street vendors,no
+occupation,Professional,5.5,E,Doctor/lawyer/CA; growing; RG Kar protests (Aug 2024) mobilized this class,no
+class_of_worker,Employer,8.0,E,Recovery to pre-COVID level; Marwari/Gujarati business ownership,no
+class_of_worker,Employee,53.0,E,Govt + private service; stable at 2021 levels,no
+class_of_worker,Single_worker,31.5,E,"Small traders, vendors, professionals",no
+class_of_worker,Family_worker,7.5,E,Family businesses; slight decline as younger generation prefers employment,no
+economic_status,BPL_household,8.0,E,Returned to pre-COVID baseline; welfare schemes (Lakshmir Bhandar) partially offset COVID income losses,no
+economic_status,Above_Poverty_Line_low_income,22.0,E,Construction/domestic/petty-vendor workers; stabilized,no
+economic_status,Lower_middle,28.0,E,"Clerical govt, small trade; stable",no
+economic_status,Middle,25.0,E,"Teachers, officers, small business; recovery; SSC scam reduced confidence in govt employment aspirations",no
+economic_status,Upper_middle_well_off,17.0,E,Marwari/Gujarati affluent + senior professionals; resilient; slight increase in share,no
+gp_location,U1_North_ward_cluster,52.0,E,"Wards 63, 70, 71, 72 — Bhowanipore core + Hazra Rd; ~52% AC pop; Bengali bhadralok + Marwari-Gujarati dominant; stable from 2019",no
+gp_location,U2_Southwest_ward_cluster,48.0,E,"Wards 73, 74, 77, 82 — Kalighat, Patuapara, Elgin Rd, Kidderpur fringe; Ward 82 higher Muslim concentration",no
+household_composition,Avg_HH_size,3.7 persons,E,Slight decline from 3.8 (2021); urban nuclearization trend; NFHS trend Kolkata,no
+household_composition,Nuclear_HH,76.0,E,Increasing; post-COVID return to nuclear pattern,no
+household_composition,Joint_HH,17.0,E,Slight decline from 19% (2021); COVID reconsolidation reverting,no
+household_composition,Extended_multi_generation,7.0,E,Stable,no
+marital_status,Never_married,30.0,E,Recovery from COVID dip; urban youth delaying marriage,no
+marital_status,Currently_married,61.0,E,Stable,no
+marital_status,Widowed,7.5,E,Stable; slight increase in elderly female widows,no
+marital_status,Separated_divorced,1.5,E,Urban educated; stable,no
+asset_media,Television,94.0,C,Marginal decline from peak as streaming substitutes cable TV for younger HHs,no
+asset_media,Radio,3.0,C,Continued decline; urban media fully digital,no
+asset_media,Mobile_phone,99.0,C,Near-saturation,no
+asset_media,Smartphone_with_internet,92.0,C,Effectively saturated in South Kolkata affluent urban area by 2024; NFHS-5 WB urban ~80%; South Kolkata + Jio penetration → ~92%,no
+asset_media,Computer,45.0,C,WFH normalization; slight increase,no
+asset_media,Two_wheeler,31.0,C,Stable; Kolkata dense public transport limits motorcycle demand,no
+asset_media,Four_wheeler,21.0,C,Marginal increase; affluence growth among Marwari-Gujarati + professional class,no
+asset_media,Banking_access,99.5,B,Near-saturation; UPI + PMJDY complete; every HH has bank account in urban Kolkata,no
+amenities,Improved_drinking_water_source,98.0,C,KMC piped water; stable,no
+amenities,Improved_sanitation,97.5,C,KMC sewage; slight improvement,no
+amenities,LPG_clean_cooking_fuel,93.0,C,Increasing; PMUY saturation in lower-income strata; slight improvement from 92% (2021),no
+amenities,Wood_biomass_fuel,5.0,C,Declining; petty-vendor and domestic-worker HHs,no
+amenities,Other_fuel,2.0,E,Residual,no
+amenities,Electricity,99.8,A,Near-universal; KMC,no
+migration,Native,50.0,D,Old Kolkata families; multigenerational bhadralok residents; stable,no
+migration,WB_other_district,9.0,D,Service class from Hooghly/Howrah/24 Parganas; stable,no
+migration,Other_Indian_state,8.0,D,Odia workers + Sikh Punjabi + South Indian professionals; stable,no
+migration,Bangladesh_origin,2.5,D,Refugee-SC fringe; CAA rules notified Mar 2024 but minimal change in Kolkata urban; stable,no
+migration,Outside_India,0.5,E,NRI/Anglo-Indian; stable,no
+migration,Out_migrant,1.0,E,Registered here; working elsewhere; stable,no
+migration,Hindi_belt_inmigrant,29.0,D,Marwari (~10.4%) + Gujarati (~8%) + Bihari/UP (~7%) + other NB Hindu settled 1-3 gen; stable from 2021,no

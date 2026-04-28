@@ -1,0 +1,6 @@
+Religion,Bengali,Hindi,Urdu,Other,Tier,Source
+Hindu,99.4,0.5,0.0,0.1,E,Stable from 2021
+Muslim,95.0,1.5,3.0,0.5,E,Bengali-Sheikh dominant
+Christian,90.0,5.0,0.0,5.0,E,
+Sarna_ORP,60.0,30.0,0.0,10.0,E,
+Other_residual,60.0,30.0,0.0,10.0,E,

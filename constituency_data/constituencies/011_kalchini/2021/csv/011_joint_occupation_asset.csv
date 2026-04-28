@@ -1,0 +1,11 @@
+Occupation,Television,Radio,Mobile_phone,Smartphone_with_internet,Computer,Two_wheeler,Four_wheeler,Banking_access,Tier,Source
+Cultivator,50.0,12.0,82.0,38.0,3.0,18.0,1.5,80.0,E,Slightly better-off than bagan; own-plot farming
+Agricultural_labourer,38.0,14.0,75.0,28.0,1.0,8.0,0.5,70.0,E,Poor non-bagan ag labor
+Household_industry,45.0,12.0,78.0,32.0,2.0,10.0,1.0,72.0,E,Cottage industry workers
+Manufacturing,48.0,10.0,80.0,38.0,3.0,12.0,1.0,76.0,E,
+Construction,40.0,12.0,78.0,32.0,1.0,10.0,0.5,70.0,E,"Returned COVID migrants, casual construction"
+Trade_retail,72.0,8.0,92.0,68.0,8.0,30.0,4.0,90.0,D,Jaigaon border-town traders; high smartphone penetration for WhatsApp commerce
+Transport_logistics,60.0,10.0,88.0,58.0,5.0,45.0,3.0,85.0,E,Cross-border logistics workers
+Services,55.0,8.0,88.0,55.0,8.0,20.0,2.0,85.0,E,Private service sector
+Government_services_teachers,88.0,6.0,95.0,82.0,40.0,35.0,8.0,98.0,E,Highest-asset occupation group
+Out_migrant_worker,35.0,10.0,85.0,42.0,3.0,12.0,1.0,72.0,E,Net lower; returned workers show moderate asset profile

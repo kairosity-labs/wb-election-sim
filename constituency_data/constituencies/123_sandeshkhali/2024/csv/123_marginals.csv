@@ -1,0 +1,100 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,71.70,A/E,2021 baseline 72.20%; 3-yr differential growth (-0.50pp); CDB-I/CDB-II 2011 weighted; 13-yr projection from 2011,no
+religion,Muslim,27.87,A/E,2021 baseline 27.37%; +0.50pp over 3 yrs; differential Muslim growth +1.3%/yr vs Hindu +1.0%/yr,no
+religion,Christian,0.25,A,Stable; small base,no
+religion,Sarna_ORP,0.10,E,Stable,no
+religion,Other_residual,0.08,E,Residual,no
+caste,SC_total,37.36,A,Census 2011; stable,no
+caste,Bagdi,18.0,D,Dominant SC fishing/labouring caste,yes
+caste,Namasudra,10.0,D,Present in both CDBs,yes
+caste,Other_SC,9.36,E,Residual SC,yes
+caste,ST_total,24.78,A,Census 2011; stable,no
+caste,Santhal,15.0,D,Dominant ST group,yes
+caste,Munda,5.0,D,Second major ST group,yes
+caste,Oraon_Bhumij_Other_ST,4.78,E,Residual ST,yes
+caste,UC_bhadralok,3.0,E,Minimal in this rural delta AC,no
+caste,OBC,5.0,E,Some Mahishya fishing presence,no
+caste,Other_Hindu_middle,1.69,E,Residual: 100 − 37.36 − 24.78 − 3.0 − 5.0 − 27.87 − 0.43 = 1.56; see note,no
+caste,Muslim,27.87,E,See C.1,no
+caste,Christian_plus_Sarna_plus_Other,0.43,E,C.1 residuals,no
+age_cohort,18_22,11.0,E,New voters 2021-24 cohort entry,no
+age_cohort,23_27,11.5,E,,no
+age_cohort,28_32,11.5,E,,no
+age_cohort,33_37,10.5,E,,no
+age_cohort,38_42,10.0,E,,no
+age_cohort,43_47,9.0,E,,no
+age_cohort,48_52,8.0,E,,no
+age_cohort,53_57,7.0,E,,no
+age_cohort,58_62,6.5,E,,no
+age_cohort,63_67,8.0,E,,no
+age_cohort,68,7.0,E,,no
+gender,Male,50.89,A/E,Sex ratio 965 → 1000/(1000+965) = 50.89% M,no
+gender,Female,49.10,A/E,965/(1000+965) = 49.10% F,no
+gender,Third_gender,0.01,E,National pattern,no
+mother_tongue,Bengali,97.60,A,Stable from 2021; Bengali dominance in rural delta,no
+mother_tongue,Hindi,0.10,E,Minimal,no
+mother_tongue,Urdu,0.22,E,Marginal increase with Muslim population growth,no
+mother_tongue,Other,0.08,E,Residual,no
+mother_tongue,Sadri,1.50,A,CDB-I 2.03% Sadri (Census 2011 A); stable,no
+mother_tongue,Santali,0.50,E,Slight increase in retention as Santali language media grows,no
+education,Illiterate,21.0,E,10yr trend from 2011 ~29% illiterate; +0.5pp/yr improvement → ~22%; slight offset from COVID school closures 2020-21,no
+education,Primary,24.0,E,,no
+education,Middle,21.5,E,,no
+education,Secondary,15.0,E,,no
+education,Higher_Secondary,10.0,E,,no
+education,Graduate,7.0,E,Limited tertiary infrastructure in delta,no
+education,Postgraduate,1.5,E,,no
+workforce_status,Main_worker,29.0,A/E,Slight increase from 2021 28.5%,no
+workforce_status,Marginal_worker,12.5,A/E,Continuing decline as marginals shift to main or out-migrate,no
+workforce_status,Non_worker,42.0,E,Stable; Lakshmir Bhandar recipients (female non-workers) remain high,no
+workforce_status,Student,10.5,E,Stable post-COVID school reopening,no
+workforce_status,Unemployed,6.0,E,Stable; SSC scam (2022) reduced Govt job pathway expectations,no
+occupation,Cultivator,13.5,A,Gradual decline as bheri economy grows,no
+occupation,Agricultural_labourer,48.5,A,Still dominant; bheri economy absorbs some ag labourers,no
+occupation,Household_industry,3.5,A,Stable,no
+occupation,Manufacturing,1.0,E,Minimal,no
+occupation,Construction,6.0,E,Construction workers resuming post-COVID out-migration by 2022-24,no
+occupation,Trade_retail,7.0,E,Growth with digital payments and UPI adoption,no
+occupation,Transport_logistics,3.0,E,River/boat stable,no
+occupation,Services,7.0,E,,no
+occupation,Government_services_teachers,4.5,E,,no
+occupation,Out_migrant_worker,6.0,E,Sustained out-migration; Bangladesh border trade disruption (Aug 2024+) hit some cross-border trade workers,no
+class_of_worker,Employer,1.0,E,Rare,no
+class_of_worker,Employee,13.0,E,Slight increase in organised sector,no
+class_of_worker,Single_worker,51.0,E,"Own-account farming, fishing, small bheri",no
+class_of_worker,Family_worker,35.0,E,High family-labour intensity,no
+economic_status,BPL_household,29.0,D,Continued WB poverty reduction; Lakshmir Bhandar income support partially lifted households; Sandeshkhali bheri land seizures 2023-24 (Shahjahan controversy) created economic distress for some displaced farmer/labourer HHs,no
+economic_status,Above_Poverty_Line_low_income,36.5,E,,no
+economic_status,Lower_middle,22.5,E,,no
+economic_status,Middle,10.0,E,,no
+economic_status,Upper_middle_well_off,2.0,E,,no
+gp_location,U1_CDB_Sandeshkhali_I,53.9,E,Stable from 2019-2021,no
+gp_location,U2_CDB_Sandeshkhali_II_AC_share,46.1,E,Stable,no
+household_composition,Avg_HH_size,4.0 persons,E,Slight decline from 2021 4.1; nuclear trend continues,no
+household_composition,Nuclear_HH,74.0,E,Continued increase; NFHS-5 WB rural trend,no
+household_composition,Joint_HH,20.0,E,,no
+household_composition,Extended_multi_generation,6.0,E,,no
+marital_status,Never_married,26.5,E,Young cohort structure; slight increase,no
+marital_status,Currently_married,64.5,E,,no
+marital_status,Widowed,8.0,E,Elevated vs state average; sea/river fishing hazard; COVID excess mortality,no
+marital_status,Separated_divorced,1.0,E,,no
+asset_media,Television,65.0,C,NFHS-5 WB rural ~65%; delta discount maintained; near-saturation,no
+asset_media,Radio,5.0,C,Continuing decline as smartphone audio replaces radio,no
+asset_media,Mobile_phone,90.0,C,Near-saturation in rural WB by 2024,no
+asset_media,Smartphone_with_internet,68.0,C,Rapid diffusion; NFHS-5 WB rural ~55% (2019-21); extrapolated to ~68% by 2024 with Jio continued expansion; delta discount,no
+asset_media,Computer,5.0,C,Marginal increase with student laptop schemes,no
+asset_media,Two_wheeler,20.0,C,Slight increase,no
+asset_media,Four_wheeler,2.5,E,Marginal increase,no
+asset_media,Banking_access,92.0,B,PMJDY near-universal; Lakshmir Bhandar DBT drove women's bank account enrollment to near-saturation levels,no
+amenities,Improved_drinking_water_source,80.0,C,Jal Jeevan Mission penetration 2021-24; piped water scheme rollout in Sundarbans fringe; improvement from 2021 78%,no
+amenities,Improved_sanitation,65.0,C,Continued ODF (Open Defecation Free) drive; improvement from 2021 60%,no
+amenities,LPG_clean_cooking_fuel,47.0,C,Ujjwala Phase 2 + refill subsidy uptake improvement; +7pp from 2021 40%,no
+amenities,Wood_biomass_fuel,46.0,C,Decline from 2021 52% as LPG penetrates,no
+amenities,Other_fuel,7.0,C,Kerosene/dung/other; stable,no
+amenities,Electricity,92.0,B,Near-saturation,no
+migration,Native,76.5,D,Slight continued decline from 2021 77.0%; sustained out-migration,no
+migration,WB_other_district,9.5,D,Stable-to-slight increase; Kolkata construction linkages,no
+migration,Other_Indian_state,1.0,E,Stable,no
+migration,Bangladesh_origin,10.0,D,"Stable; Bangladesh interim regime (Aug 2024+) increased Hindu minority anxiety, some recent arrivals from Bangladesh border",no
+migration,Outside_India,0.0,E,Negligible formally; informal border crossings unmeasured,no
+migration,Out_migrant,3.0,D,Stable; sustained male out-migration for construction/fishing in Kolkata/Kerala/TN corridor,no

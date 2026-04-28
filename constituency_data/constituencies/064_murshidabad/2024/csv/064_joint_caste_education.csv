@@ -1,0 +1,10 @@
+Caste,Illiterate,Primary,Middle,Secondary,Higher_Secondary,Graduate,Postgraduate,Tier
+UC_bhadralok,3.0,8.0,12.0,19.0,20.0,27.0,11.0,E
+OBC,14.0,20.0,22.0,20.0,13.0,9.0,2.0,E
+Other_Hindu_middle,15.0,21.0,22.0,20.0,12.0,8.0,2.0,E
+SC_total,24.0,26.0,22.0,16.0,7.5,4.0,0.5,E
+ST_total,28.0,27.0,21.0,14.0,7.0,2.5,0.5,E
+Muslim_Sheikh,18.0,24.0,24.0,20.0,9.0,4.5,0.5,E
+Muslim_Ansari_Jolaha,21.0,25.0,23.0,18.0,9.0,3.5,0.5,E
+Muslim_Syed_Pathan_Mughal,6.0,11.0,17.0,22.0,22.0,17.0,5.0,E
+Muslim_other,22.0,24.0,23.0,18.0,9.0,3.5,0.5,E

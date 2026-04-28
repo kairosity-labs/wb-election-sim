@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,22.5,6.0,7.8,14.3,49.4,0.0,0.0,E,Hindu: SC_total=19.56/83.9×100=23.3% → adjusted 22.5%; ST_total = Bhumij/semi-Hindu ST ~6%; UC 6.5/83.9×100=7.8%; OBC 12/83.9×100=14.3%; Other_Hindu residual
+Muslim,0.0,0.0,0.0,0.0,0.0,100.0,0.0,A,All Muslim pooled
+Christian,0.0,0.0,0.0,0.0,0.0,0.0,100.0,A,Tribal Christians in Christian_plus_Sarna_plus_Other
+Sarna_ORP,0.0,92.0,0.0,5.0,3.0,0.0,0.0,E,Sarna pop is almost exclusively ST; 5% OBC Mahato with Sarna-adjacent practice; 3% other
+Other_residual,0.0,0.0,0.0,0.0,0.0,0.0,100.0,E,Residual

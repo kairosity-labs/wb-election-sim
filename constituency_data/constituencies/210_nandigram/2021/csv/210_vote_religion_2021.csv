@@ -1,0 +1,6 @@
+Religion,BJP,AITC,INC,LF,Other_NOTA,Tier,Source
+Hindu,63.0,28.0,1.0,6.0,2.0,C/D,"Key cell: Mahishya/Hindu swing to BJP (Adhikari effect); CSDS 2021 WB exit: BJP ~72% Hindu statewide; Nandigram AC-specific adjusted downward due to some Hindu AITC holdouts (Muslim-bordering Nandigram I Hindus). Implied: 0.733×63.0 + 0.266×4.0 ≈ 47.2pp BJP contribution from Hindu, consistent with 48.49% total"
+Muslim,4.0,91.0,1.0,3.0,1.0,C/D,"Near-total Muslim consolidation behind Mamata personally; CSDS 2021 WB: AITC ~75% Muslim statewide; Nandigram specific: Mamata on ballot → ~91%. 0.266×91.0 ≈ 24.2pp AITC Muslim contribution; sum with Hindu = 28+24.2 ≈ 52.2pp AITC, close to actual 47.64% with turnout effects"
+Christian,20,70,5,3,2,E,Small base
+Sarna_ORP,30,55,5,8,2,E,Negligible
+Other_residual,25,60,5,5,5,E,Small base

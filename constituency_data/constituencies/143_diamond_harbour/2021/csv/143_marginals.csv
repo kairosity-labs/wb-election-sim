@@ -1,0 +1,98 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,57.72,B,"2021 projection from 2011: Hindu +1.0%/yr for 10 yrs = +10.51%; weighted from CDB-I 47.72%, CDB-II 59.77%, Muni 85.98%; Muslim differential +0.3pp over 2019",no
+religion,Muslim,42.00,B,Muslim +1.3%/yr for 10 yrs = +13.79% from 2011 base; CDB-I Muslim-majority driver; small upward drift from 2019 (41.57%),no
+religion,Christian,0.17,E,Slight decline from 2019 (~0.20%); S24P fringe,no
+religion,Sarna_ORP,0.01,E,Negligible tribal population,no
+religion,Other_residual,0.10,E,Sikh/Jain/Buddhist/unclassified; weighted down from CDB data,no
+caste,SC_total,21.50,B,Minimal drift from 2019 (21.46%); Census 2011 weighted Muni 12.49% + CDB-I 18.63% + CDB-II 26.55%,no
+caste,Namasudra_Bagdi_SC,9.0,D,River-delta SC: Namasudra (fishers/farmers) dominant; Bagdi (ag labourers); smaller Matua fraction than N24P,yes
+caste,Munda_other_SC,3.0,E,CDB-II rural pockets,yes
+caste,Unclassified_SC,9.50,E,Residual within SC total,yes
+caste,ST_total,0.05,A,CDB-I ST 0.01% + CDB-II ST 0.04%; negligible,no
+caste,UC_bhadralok,5.0,E,Brahmin/Kayastha/Baidya concentrated in Muni,no
+caste,OBC,6.0,E,Mahishya (fishing OBC) and Sadgop (farming OBC); S24P fishing+delta belt,no
+caste,Other_Hindu_middle,25.22,E,Residual Hindu: 57.72 − 21.50 SC − 0.05 ST − 5.0 UC − 6.0 OBC = 25.17; rounded 25.22,no
+caste,Muslim,42.00,B,Bengali-Sheikh peasantry dominant (see C.1),no
+caste,Christian_plus_Sarna_plus_Other,0.23,E,C.1 residual combined,no
+age_cohort,18_22,13.5,E,2011 age pyramid 15–19 cohort aging into 18–22 by 2021; S24P district data; higher fertility in CDB-I means larger young cohorts,no
+age_cohort,23_27,13.0,E,,no
+age_cohort,28_32,12.0,E,,no
+age_cohort,33_37,11.0,E,,no
+age_cohort,38_42,10.5,E,,no
+age_cohort,43_47,9.0,E,,no
+age_cohort,48_52,8.0,E,,no
+age_cohort,53_57,7.0,E,,no
+age_cohort,58_62,5.5,E,,no
+age_cohort,63_67,5.5,E,Slightly elevated 63_67 vs N24P; older coastal rural cohort,no
+age_cohort,68,5.0,E,S24P older rural share slightly higher; fishing hazard attrition slows,no
+gender,Male,51.02,E,Sex ratio 961 → F/total = 961/1961 = 49.0%; M = 51.0%,no
+gender,Female,48.97,E,,no
+gender,Third_gender,0.01,E,WB state rate from 2011 Census,no
+mother_tongue,Bengali,99.44,A,CDB-I 99.83% + CDB-II 99.7% + Muni ~98.5%; no significant change from 2019,no
+mother_tongue,Hindi,0.22,E,"CDB-I 0.14%, CDB-II 0.32%; Muni trader fraction; minimal drift",no
+mother_tongue,Urdu,0.28,E,Small Muslim Urdu-speaker pocket in Muni and CDB-II,no
+mother_tongue,Other,0.06,E,Residual,no
+education,Illiterate,19.0,E,2019 ~20.5%; further +1pp literacy improvement over 2 years; Kanyashree + school enrollment lifting female literacy in CDB-I,no
+education,Primary,24.5,E,Census 2011 S24P pattern scaled; slight compression as middle/secondary expands,no
+education,Middle,22.5,E,,no
+education,Secondary,16.5,E,,no
+education,Higher_Secondary,10.0,E,Expanding; COVID disrupted Class 12 board exams 2021 but enrollment held,no
+education,Graduate,6.0,E,Slow expansion; delta deprivation limits higher-ed,no
+education,Postgraduate,1.5,E,Minimal drift from 2019,no
+workforce_status,Main_worker,29.0,E,Slight decline from 2019 (30.0%): COVID-19 lockdown (2020) disrupted fishing + construction employment; some Amphan-displaced workers still recovering,no
+workforce_status,Marginal_worker,13.5,E,Higher marginal worker share post-COVID and post-Amphan as informal-sector workers became seasonal,no
+workforce_status,Non_worker,38.5,E,Heavy female non-worker share; Lakshmir Bhandar launch (April 2021) targeting non-working women HH-heads is salient for this group,no
+workforce_status,Student,10.5,E,Slight drop from 2019 (11%): COVID school closures delayed enrollment counts,no
+workforce_status,Unemployed,8.5,E,Marginally higher: COVID unemployment spike; educated youth in Muni and CDB-II most affected,no
+occupation,Cultivator,6.3,B,Minimal change from 2019 (6.5%); Amphan damaged standing crops but cultivators remained in occupation,no
+occupation,Agricultural_labourer,18.5,B,Slight reduction: some Amphan-displaced ag labourers shifted to MGNREGS relief work,no
+occupation,Household_industry,6.5,B,Census CDB-I 7.22% + CDB-II 6.24%; COVID disrupted bidi + mat weaving but recovery by 2021,no
+occupation,Manufacturing,2.0,E,Small factory and organised sector; Muni fringe,no
+occupation,Construction,5.0,E,Amphan reconstruction provided temporary boost to construction labour; returning migrant workers,no
+occupation,Trade_retail,11.0,E,Diamond Harbour Muni commercial hub; river-trade; recovered post-lockdown,no
+occupation,Transport_logistics,7.0,D,River ferry economy; road transport; auto-rickshaw; COVID reduced revenue 2020 but recovered,no
+occupation,Services,10.0,E,Private services; slight recovery post-lockdown,no
+occupation,Government_services_teachers,6.0,E,Stable; teachers shifted to online/distance mode during COVID,no
+occupation,Out_migrant_worker,12.0,D,Reduced from 2019 (13%): COVID lockdown caused return migration (2020); many returned but Amphan + pandemic kept some home; deep-sea fishing resumed 2021,no
+occupation,Fishing_pisciculture,12.0,D,River Hugli tidal fishing; Amphan damaged aquaculture in S24P but recovery ongoing by 2021; Namasudra + Mahishya caste occupation; assigned to Household_industry subgroup for occupation axis; see note,no
+occupation,Tourism_hospitality,2.0,D,Diamond Harbour waterfront tourism; COVID severely depressed 2020; partial 2021 recovery,no
+class_of_worker,Employer,1.5,E,Minimal change from 2019,no
+class_of_worker,Employee,23.5,E,Slight reduction: COVID-displaced service workers; govt workers stable,no
+class_of_worker,Single_worker,52.0,E,"Own-account fishermen, cultivator-owners, small traders; dominant",no
+class_of_worker,Family_worker,23.0,E,Fishing-household family helpers; Amphan increased family-labour dependency in damaged households,no
+economic_status,BPL_household,30.0,D,Increased from 2019 (~28%): Cyclone Amphan caused severe livelihood losses in S24P — NDMA 2020 estimate ~60L people affected statewide; delta ACs with fishing + aquaculture dependency experienced regressive wealth shock; COVID compounded,no
+economic_status,Above_Poverty_Line_low_income,35.0,E,Slight compression into BPL and lower-middle,no
+economic_status,Lower_middle,22.0,E,,no
+economic_status,Middle,10.0,E,,no
+economic_status,Upper_middle_well_off,3.0,E,Muni affluent fringe; unchanged,no
+gp_location,U1_Diamond_Harbour_Municipality,13.5,E,Muni share slightly lower as rural population grows faster; 2021 projection from 2011 base,no
+gp_location,U2_CDB_I_rural_GP_share,39.7,E,CDB-I 7 GPs share; Muslim-majority (52% Muslim); Amphan heavily damaged coastal CDB-I villages,no
+gp_location,U3_CDB_II_rural_GP_share,46.8,E,"CDB-II 6 GPs; Hindu-majority but 40% Muslim; Sarisa, Nurpur, Khorda, Mathur, Patra, Kamarpole",no
+household_composition,Avg_HH_size,4.5,E,S24P HH size stable ~4.5; Muni slightly lower (~4.2),no
+household_composition,Nuclear_HH,65.0,E,NFHS-4 WB rural pattern; Amphan may have temporarily increased joint/extended living,no
+household_composition,Joint_HH,26.0,E,,no
+household_composition,Extended_multi_generation,9.0,E,Fishing household structure; higher than N24P,no
+marital_status,Never_married,24.5,E,Slightly lower than 2019 (25.0%) as large 18–22 cohort partially marries; earlier marriage norms in CDB-I,no
+marital_status,Currently_married,66.5,E,,no
+marital_status,Widowed,8.0,E,Amphan fatalities + occupational fishing hazard maintain elevated widowhood rate,no
+marital_status,Separated_divorced,1.0,E,,no
+asset_media,Television,75.0,C,"NFHS-5 (2019-21) WB: rural ~68%, urban ~92%; AC weighted ~75%; Amphan damaged equipment in some CDB-I HHs",no
+asset_media,Radio,3.5,C,Continued decline; NFHS-5 confirms sub-5%,no
+asset_media,Mobile_phone,90.0,C,NFHS-5 WB ~88%; +growth post-Jio saturation; nearly universal in Muni; high in CDB-II,no
+asset_media,Smartphone_with_internet,60.0,C,"Major jump from 2019 (~42%): COVID-19 forced digital adoption; NFHS-5 WB rural ~58%, urban ~80%; weighted ~60% AC; CDB-I still lower than Muni",no
+asset_media,Computer,8.0,C,Minimal change; delta geography limits desktop ownership,no
+asset_media,Two_wheeler,27.0,C,NFHS-5 WB rural slight increase; fishing economy still boat-dominant,no
+asset_media,Four_wheeler,5.0,C,,no
+asset_media,Banking_access,90.0,B,PMJDY saturation; Lakshmir Bhandar (April 2021) requires bank account → +5-8pp in rural women; AC approaches 90%,no
+amenities,Improved_drinking_water_source,83.0,C,NFHS-5 improvement; but Amphan salination of ground water in coastal CDB-I caused temporary setbacks; net minimal change from 2019,no
+amenities,Improved_sanitation,68.0,C,"NFHS-5 WB rural ~60%, urban ~88%; Swachh Bharat continued; +3pp from 2019",no
+amenities,LPG_clean_cooking_fuel,47.0,C,"Ujjwala Phase-2 ongoing; NFHS-5 WB rural ~48%, urban ~86%; +5pp from 2019; lower in CDB-I Muslim-majority rural",no
+amenities,Wood_biomass_fuel,45.0,C,Declining from 2019 (50%) as LPG expands; mangrove-fringe firewood still significant,no
+amenities,Other_fuel,8.0,C,Kerosene + dung; stable,no
+amenities,Electricity,93.0,C,Saubhagya near-completion; Amphan disrupted grid in coastal areas (repaired by 2021); +1pp from 2019,no
+migration,Native,80.5,D,Slightly higher than 2019 (80.0%): COVID return-migration increased native share; Amphan return-migration also elevated native temporarily; S24P coastal communities are deeply rooted,no
+migration,WB_other_district,5.5,D,Slight reduction from 2019 (6.0%): COVID sent some Kolkata-commuter class back to their districts; 2021 stabilizing,no
+migration,Other_Indian_state,1.5,D,Reduced from 2019 (2.0%): COVID drove out Bihari/Marwari construction and trading migrants; partial return by 2021,no
+migration,Bangladesh_origin,3.0,D,Unchanged: pre-1971 Namasudra fraction in CDB-II; indigenous S24P Muslim peasantry; no new stream,no
+migration,Outside_India,0.5,E,Negligible,no
+migration,Out_migrant,9.0,D,Slight increase from 2019 (8.5%): COVID 2020 disruption then recovery; by 2021 deep-sea fishing labour returning to boats and Kolkata commute resuming; effective polling-booth absentee rate elevated,no

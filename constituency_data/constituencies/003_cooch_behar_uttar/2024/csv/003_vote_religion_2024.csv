@@ -1,0 +1,8 @@
+Religion,BJP,AITC,INC,LF,Other_NOTA,Tier,Source
+Hindu,60.5,33.5,0.8,4.5,0.7,C,BJP Hindu majority reinforced; CAA notification (Mar 2024) Rajbanshi + Hindu border-community loyalty; Bangladesh interim regime anxiety boosted Hindu-identity vote
+Muslim,3.0,79.0,2.0,2.5,13.5,C,Muslim further consolidated behind AITC in 2024; CAA anxiety about citizenship documentation reinforced AITC shield narrative
+Christian,20.0,58.0,8.0,8.0,6.0,E,Approximation
+Sarna_ORP,38.0,38.0,5.0,10.0,9.0,E,Tribal fringe
+Other_residual,40.0,34.0,5.0,5.0,16.0,E,
+Marginal BJP,,,,,,,Hindu(81.70)×0.605 + Muslim(17.72)×0.030 + Other(0.58)×0.33 = 49.43 + 0.53 + 0.19 = 50.15 vs target 51.03 ✓ within ±1pp
+Marginal AITC,,,,,,,Hindu(81.70)×0.335 + Muslim(17.72)×0.790 + Other(0.58)×0.44 = 27.37 + 14.00 + 0.26 = 41.63 vs target 43.62; gap ~2pp — attributable to Tier-C caste/religion resolution limit

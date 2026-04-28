@@ -1,0 +1,6 @@
+Religion,Bengali,Hindi,Urdu,Other,Gujarati,Punjabi,Odia,English_dominant,Tier,Source
+Hindu,57.0,21.5,0.0,3.5,9.5,2.0,2.5,4.0,D,Bengali Hindu uses Bengali; NB Hindu: Marwari/Bihari→Hindi; Gujarati→Gujarati; Sikh→Punjabi; Odia→Odia
+Muslim,50.5,17.5,28.0,2.5,0.0,0.0,1.0,0.5,D,~50% Bengali-speaking Muslims; ~20% Hindi-speaking (Bihar-origin); ~28% Urdu-dominant
+Christian,60.0,5.0,0.0,35.0,0.0,0.0,0.0,0.0,E,Small urban Christian; Bengali/English
+Sarna_ORP,0.0,0.0,0.0,100.0,0.0,0.0,0.0,0.0,E,Zero Sarna in urban Kolkata
+Other_residual,12.0,26.0,0.0,5.0,52.0,0.0,0.0,5.0,E,Sikh~Punjabi-dominant; Jain~Gujarati/Hindi; blend for Other_residual

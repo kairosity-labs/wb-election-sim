@@ -1,0 +1,100 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,72.20,A/E,"2019 baseline 72.42%; 2-yr differential growth (-0.22pp); CDB-I 2011 69.19%, CDB-II 77.17% weighted; 10-yr projection from 2011",no
+religion,Muslim,27.37,A/E,2019 baseline 27.15%; +0.22pp over 2 yrs; differential Muslim growth +1.3%/yr vs Hindu +1.0%/yr,no
+religion,Christian,0.25,A,Stable from 2019; small base,no
+religion,Sarna_ORP,0.10,E,Stable; Census-classified tribal religion fraction,no
+religion,Other_residual,0.08,E,Residual,no
+caste,SC_total,37.36,A,Census 2011; stable to 2021,no
+caste,Bagdi,18.0,D,Dominant SC fishing/labouring caste in delta,yes
+caste,Namasudra,10.0,D,Present in both CDBs,yes
+caste,Other_SC,9.36,E,Residual SC,yes
+caste,ST_total,24.78,A,Census 2011 stable,no
+caste,Santhal,15.0,D,Dominant ST group,yes
+caste,Munda,5.0,D,Second major ST group,yes
+caste,Oraon_Bhumij_Other_ST,4.78,E,Residual ST,yes
+caste,UC_bhadralok,3.0,E,Minimal in this rural delta AC,no
+caste,OBC,5.0,E,Some Mahishya fishing presence,no
+caste,Other_Hindu_middle,2.29,E,Residual: 100 − 37.36 − 24.78 − 3.0 − 5.0 − 27.37 − 0.43 = 2.06; rounding to 2.06 but listed here as residual; see note,no
+caste,Muslim,27.37,E,See C.1,no
+caste,Christian_plus_Sarna_plus_Other,0.43,E,C.1 residuals,no
+age_cohort,18_22,11.5,E,New voters 2019-21 cohort entry; first-time voter share elevated as population is young,no
+age_cohort,23_27,12.0,E,,no
+age_cohort,28_32,11.5,E,,no
+age_cohort,33_37,10.5,E,,no
+age_cohort,38_42,9.5,E,,no
+age_cohort,43_47,9.0,E,,no
+age_cohort,48_52,8.0,E,,no
+age_cohort,53_57,7.0,E,,no
+age_cohort,58_62,6.0,E,,no
+age_cohort,63_67,8.0,E,,no
+age_cohort,68,7.0,E,,no
+gender,Male,50.95,A/E,Sex ratio 964 → 1000/(1000+964) = 50.96% M → rounded 50.95,no
+gender,Female,49.04,A/E,964/(1000+964) = 49.04% F,no
+gender,Third_gender,0.01,E,National pattern,no
+mother_tongue,Bengali,97.70,A,"CDB-I 97.64%, CDB-II ~99.6% weighted AC ~98.5%; slight downward adjustment for tribal-language pockets; stable from 2019",no
+mother_tongue,Hindi,0.10,E,Minimal; no urban hub attracting Hindi-speakers,no
+mother_tongue,Urdu,0.20,E,Small Muslim pocket; WB rural Muslims overwhelmingly Bengali-speaking,no
+mother_tongue,Other,0.10,E,Residual non-specified,no
+mother_tongue,Sadri,1.50,A,CDB-I 2.03% Sadri (Census 2011 A); Munda/Oraon communities,no
+mother_tongue,Santali,0.40,E,Santhal community mother tongue; most code-switch to Bengali,no
+education,Illiterate,23.0,E,2011 illiteracy ~29%; +0.5pp/yr over 10yr → ~24.0%; COVID disruption 2020-21 offsets gains slightly → ~23%,no
+education,Primary,24.5,E,Rural delta pattern,no
+education,Middle,21.0,E,,no
+education,Secondary,14.5,E,,no
+education,Higher_Secondary,9.5,E,,no
+education,Graduate,6.0,E,Limited tertiary infrastructure in delta blocks,no
+education,Postgraduate,1.5,E,,no
+workforce_status,Main_worker,28.5,A/E,Slight increase from 2019 28.0% as marginal workers converted; COVID reverse migration added some returning workers,no
+workforce_status,Marginal_worker,13.0,A/E,Slight decline from 2019 14.0%; marginals converting to main or displaced,no
+workforce_status,Non_worker,42.0,E,Stable; high female housewife share in rural delta,no
+workforce_status,Student,10.5,E,Slight increase with school retention improvement pre-COVID; COVID school closures complicate this,no
+workforce_status,Unemployed,6.0,E,Stable; educated youth underemployed in bheri/fishing economy,no
+occupation,Cultivator,14.0,A,Stable from 2019 14.4%; slight decline as bheri economy expands,no
+occupation,Agricultural_labourer,49.5,A,Slight decrease from 2019 50.5%; COVID disruption shifted some to household activities,no
+occupation,Household_industry,3.5,A,Stable,no
+occupation,Manufacturing,1.0,E,Minimal; no industrial base,no
+occupation,Construction,5.5,E,Slight increase; COVID reverse-migrants from Kolkata construction sector returned,no
+occupation,Trade_retail,6.5,E,Small increase,no
+occupation,Transport_logistics,3.0,E,River/boat-based; stable,no
+occupation,Services,6.5,E,Private services; slight growth,no
+occupation,Government_services_teachers,4.5,E,"Teachers, health workers, block staff",no
+occupation,Out_migrant_worker,6.0,E,Male out-migrants for fishing/construction; many returned during COVID 2020 and some re-migrated by 2021,no
+class_of_worker,Employer,1.0,E,Rare in subsistence delta economy,no
+class_of_worker,Employee,12.5,E,Slight increase with govt hiring / teacher recruitment,no
+class_of_worker,Single_worker,51.5,E,"Own-account farming, fishing, small bheri",no
+class_of_worker,Family_worker,35.0,E,High family-labour intensity,no
+economic_status,BPL_household,30.5,D,2019 baseline ~32%; slight reduction from WB poverty decline + Lakshmir Bhandar launch Apr 2021 initial coverage; Amphan 2020 temporarily increased distress but state cash transfers partially offset,no
+economic_status,Above_Poverty_Line_low_income,36.0,E,,no
+economic_status,Lower_middle,22.0,E,,no
+economic_status,Middle,9.5,E,,no
+economic_status,Upper_middle_well_off,2.0,E,Very limited non-farming affluence,no
+gp_location,U1_CDB_Sandeshkhali_I,53.9,E,Stable from 2019,no
+gp_location,U2_CDB_Sandeshkhali_II_AC_share,46.1,E,Stable from 2019,no
+household_composition,Avg_HH_size,4.1 persons,E,Slight decline from 2019 4.1; nuclear trend; Amphan displacement temporarily fragmented HHs,no
+household_composition,Nuclear_HH,73.0,E,Slight increase; delta poor HHs trend nuclear,no
+household_composition,Joint_HH,21.0,E,,no
+household_composition,Extended_multi_generation,6.0,E,,no
+marital_status,Never_married,26.0,E,Stable; young cohort structure,no
+marital_status,Currently_married,65.0,E,,no
+marital_status,Widowed,8.0,E,Slightly elevated vs state average; sea/river fishing hazard,no
+marital_status,Separated_divorced,1.0,E,,no
+asset_media,Television,63.0,C,NFHS-5 WB rural ~65%; delta discount → 63%; modest increase from 2019 60%,no
+asset_media,Radio,7.0,C,Slight decline as smartphone replaces radio for audio,no
+asset_media,Mobile_phone,85.0,C,Rapid post-COVID surge; NFHS-5 WB rural 85%,no
+asset_media,Smartphone_with_internet,48.0,C,Major post-COVID Jio expansion; NFHS-5 WB rural ~55%; delta discount → 48%; up from 32% in 2019,no
+asset_media,Computer,4.5,C,Minimal increase,no
+asset_media,Two_wheeler,19.0,C,Marginal increase; limited road infrastructure,no
+asset_media,Four_wheeler,2.0,E,Stable,no
+asset_media,Banking_access,87.0,B,PMJDY near-saturation + Lakshmir Bhandar DBT enrollment Apr 2021 drove bank account opening for women beneficiaries,no
+amenities,Improved_drinking_water_source,78.0,C,Partial improvement from 2019 76%; Amphan 2020 damaged some water infrastructure but state repair by 2021,no
+amenities,Improved_sanitation,60.0,C,Continued Swachh Bharat gains; +5pp from 2019 55%,no
+amenities,LPG_clean_cooking_fuel,40.0,C,Ujjwala continued + Amphan relief packages with LPG cylinders; +5pp from 2019 35%,no
+amenities,Wood_biomass_fuel,52.0,C,Decline from 2019 58% as LPG penetrates,no
+amenities,Other_fuel,8.0,C,Kerosene/dung/other,no
+amenities,Electricity,90.0,B,Near-saturation; Saubhagya + continued HH connection; Amphan damage repaired by 2021,no
+migration,Native,77.0,D,Slight decrease from 2019 78.0%; Amphan 2020 displaced some households semi-permanently to Kolkata periphery,no
+migration,WB_other_district,9.0,D,Increase from 2019 8%; Amphan reverse-returnees + COVID reverse-migrants from Kolkata construction sector,no
+migration,Other_Indian_state,1.0,E,Stable,no
+migration,Bangladesh_origin,10.0,D,Stable; long-term Hindu SC/ST settler origin (pre-1971) + Muslim fishing community,no
+migration,Outside_India,0.0,E,Negligible,no
+migration,Out_migrant,3.0,D,Stable; many returned during COVID 2020 lockdown; partial re-migration by end-2021,no

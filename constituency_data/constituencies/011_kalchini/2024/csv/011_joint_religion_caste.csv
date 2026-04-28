@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,12.0,28.0,8.0,9.0,23.0,0.0,20.0,E,Stable from 2021; see 2021 layer for derivation logic
+Muslim,0.0,0.0,0.0,0.0,0.0,100.0,0.0,A,
+Christian,0.0,0.0,0.0,0.0,0.0,0.0,100.0,A,
+Sarna_ORP,0.0,95.0,0.0,3.0,2.0,0.0,0.0,E,Sarna = predominantly ST-identifying Adivasi
+Other_residual,2.0,5.0,3.0,10.0,30.0,0.0,50.0,E,Buddhist Nepali + Sikh + Not-stated residual

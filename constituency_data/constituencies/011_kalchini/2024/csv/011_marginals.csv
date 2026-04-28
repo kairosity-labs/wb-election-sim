@@ -1,0 +1,108 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,65.00,E,2011: 67.08% (A); -2pp over 13yr; Christian/Sarna growth continues; v0 uses 65.0%,no
+religion,Muslim,8.30,E,2011: 8.57% (A); very slow growth; Majherdabri GP Muslim share stable,no
+religion,Christian,16.00,E,2011: 14.33% (A); +1.7pp over 13yr; mission-church activity continuing in tea-belt Adivasi communities,no
+religion,Sarna_ORP,4.00,E,Growing from 2011 (~2%) through Sarna identity movement; Jharkhand recognition in 2023 Census anticipation fueled further Sarna affiliation in tea-belt,no
+religion,Other_residual,6.70,E,"Buddhist (Nepali-Gorkha, ~6.5%) + Sikh (0.5%) + Not_stated; slight Buddhist decrease as some claim Other_residual",no
+caste,ST_total,40.00,A,Kalchini CDB 2011: 40.30%; stable; v0 holds at 40.00%,no
+caste,Oraon_Kurukh,16.00,D,~40% of ST pool; stable,yes
+caste,Munda,8.00,D,~20% of ST pool,yes
+caste,Santhal,6.00,D,~15% of ST pool,yes
+caste,Kharia_Gond_Kurmi,6.00,D,Mixed Chhattisgarh/Jharkhand-origin Adivasi,yes
+caste,Nepali_Gorkha_ST,4.00,D,Tea-belt Nepali-origin ST,yes
+caste,SC_total,10.00,A,Kalchini CDB 2011: 10.10%; stable,no
+caste,UC_bhadralok,5.00,D,"Garden managers, Jaigaon traders; stable",no
+caste,OBC,6.00,D,Rajbanshi + other OBC; stable,no
+caste,Other_Hindu_middle,7.00,D,Bihari/Hindi-belt Hindu non-SC non-ST; Nepali non-ST non-SC,no
+caste,Muslim,8.00,E,See C.1; slightly higher than ST since 2011 base was 8.57%,no
+caste,Christian_plus_Sarna_plus_Other,24.00,E,Adivasi Christian (~16%) + Sarna/ORP (~4%) + Buddhist/Other (~4%); pooled,no
+age_cohort,18_22,11.0,E,First-time voters 2024 (born 2002-2006); renormalized from 13-yr projection,no
+age_cohort,23_27,11.5,E,,no
+age_cohort,28_32,11.0,E,,no
+age_cohort,33_37,10.5,E,,no
+age_cohort,38_42,10.0,E,,no
+age_cohort,43_47,9.5,E,,no
+age_cohort,48_52,8.5,E,,no
+age_cohort,53_57,7.5,E,,no
+age_cohort,58_62,7.0,E,,no
+age_cohort,63_67,7.5,E,,no
+age_cohort,68,6.0,E,Smaller elderly cohort; tea-belt premature mortality pattern,no
+gender,Male,51.50,E,Continuing marginal shift toward balance from 2021 (51.65%); male in-migration from Jharkhand/Bihar stabilizing,no
+gender,Female,48.49,E,,no
+gender,Third_gender,0.01,E,Negligible,no
+mother_tongue,Bengali,14.00,A,Stable; Jaigaon urban Bengali community,no
+mother_tongue,Hindi,8.00,A,Stable,no
+mother_tongue,Urdu,0.50,E,Small Urdu-speaking fraction,no
+mother_tongue,Other,3.50,E,"Boro, Rabha compressed residual",no
+mother_tongue,Sadri,30.50,A,Slight increase; Sadri remains dominant tea-garden lingua franca; cross-community bilingualism growing,no
+mother_tongue,Nepali,25.50,A,Slight decrease from 2011 (26.3%) as younger generation shifts to Sadri/Hindi,no
+mother_tongue,Kurukh,3.00,A,Stable; Oraon home language,no
+mother_tongue,Bhojpuri,4.00,A,Stable,no
+mother_tongue,Santali,1.00,E,Stable,no
+mother_tongue,Boro_Rabha_other,10.00,E,Slight increase as Other is recategorized; combined tribal language residual,no
+education,Illiterate,22.00,E,2011: ~31%; +~1pp/yr improvement over 13yr → ~22% by 2024; Samagra Shiksha + mission schools,no
+education,Primary,22.00,E,Shift from illiterate → primary continues,no
+education,Middle,22.00,E,,no
+education,Secondary,16.00,E,,no
+education,Higher_Secondary,11.00,E,,no
+education,Graduate,5.50,E,Stable; very low; tea-garden structural barrier to higher education,no
+education,Postgraduate,1.50,E,,no
+workforce_status,Main_worker,37.00,E,Slight recovery from 2021 (36%); post-COVID normalization; tea-garden open gardens operating at pre-COVID capacity,no
+workforce_status,Main_worker_tea_garden,31.00,D,Tea-garden wage labor; modest recovery; ₹232/day wage by 2024,yes
+workforce_status,Main_worker_non_tea,6.00,D,Cultivator + ag-labor + household industry + trade + govt,yes
+workforce_status,Marginal_worker,8.50,E,Stable; seasonal picking continues,no
+workforce_status,Non_worker,37.50,E,Housewife / elderly / retired; marginal decrease as female LFPR improves with Lakshmir Bhandar,no
+workforce_status,Student,7.00,E,Stable enrollment,no
+workforce_status,Unemployed,10.00,D,Slight improvement from 2021 (10.5%); some closed-garden rehabilitation; SSC scam dampened govt job aspirations nationally,no
+occupation,Cultivator,4.00,A,Stable,no
+occupation,Agricultural_labourer,5.00,A,Stable,no
+occupation,Household_industry,2.00,A,Stable,no
+occupation,Manufacturing,1.00,E,Negligible,no
+occupation,Construction,1.50,E,Slight decline from 2021 (2%); post-COVID normalization,no
+occupation,Trade_retail,8.00,D,Jaigaon border-town retail growth; cross-border Bhutan trade resilient; Bangladesh interim govt (Aug 2024) disrupted Petrapole trade but Jaigaon-Bhutan channel less affected,no
+occupation,Transport_logistics,3.50,D,Cross-border logistics growth as Bhutan trade expands,no
+occupation,Services,4.00,E,"Private service sector growth; healthcare, repair, telecoms",no
+occupation,Government_services_teachers,3.00,E,Stable; SSC scam (2022) dampened new govt teacher recruitment; existing staff retained,no
+occupation,Out_migrant_worker,3.00,E,Partial recovery of out-migration to Kerala/TN construction markets post-COVID; lower than pre-COVID as some settled back,no
+class_of_worker,Employer,1.00,E,Stable,no
+class_of_worker,Employee,70.00,E,Tea-garden organized-sector recovery to 2019 levels after COVID casualization phase; govt employees stable,no
+class_of_worker,Single_worker,18.00,E,Own-account working stabilizing after COVID spike,no
+class_of_worker,Family_worker,11.00,E,Stable,no
+economic_status,BPL_household,44.00,D,"Tea-garden wage revised to ₹232/day from 2023; marginal improvement from 2021 (47%); Lakshmir Bhandar provides ₹1,000/month supplementary income to ST women HH heads; RG Kar Aug 2024 protests did not directly affect tea-belt income; v0 uses 44%",no
+economic_status,Above_Poverty_Line_low_income,29.00,E,Marginal improvement as wage revision lifts some households,no
+economic_status,Lower_middle,16.00,E,Jaigaon border traders benefiting from Bhutan trade growth,no
+economic_status,Middle,9.00,E,Slightly improved; garden supervisory + govt employees + traders,no
+economic_status,Upper_middle_well_off,2.00,E,Garden managers; Jaigaon commercial class; stable,no
+gp_location,U1_Kalchini_CDB_core,93.8,E,Stable,no
+gp_location,U2_Majherdabri_GP,6.2,E,Stable,no
+household_composition,Avg_HH_size,4.6,E,Continuing decline from 2021 (4.7); fertility reduction and nuclear family formation,no
+household_composition,Nuclear_HH,64.0,E,Continuing increase,no
+household_composition,Joint_HH,27.0,E,Continuing decrease,no
+household_composition,Extended_multi_generation,9.0,E,Stable,no
+marital_status,Never_married,25.0,E,Marginal increase; later marriage trend in 18-22 cohort,no
+marital_status,Currently_married,65.0,E,Stable,no
+marital_status,Widowed,9.0,E,Stable; COVID excess mortality effect fading,no
+marital_status,Separated_divorced,1.0,E,Stable,no
+asset_media,Television,55.0,D,Modest increase from 2021 (52%); saturation approaching in some communities; some HH dropping TV for mobile streaming,no
+asset_media,Radio,10.0,D,Continuing decline from 2021 (12%); radio yielding to mobile; still used in remote bagan areas,no
+asset_media,Mobile_phone,90.0,D,Near-saturation; up from 2021 (82%); even closed-garden workers have basic phones,no
+asset_media,Smartphone_with_internet,72.0,D,Strong growth from 2021 (48%); +24pp; UPI/BHIM required for Lakshmir Bhandar verification drove adoption; NFHS-5 WB rural ~70%; tea-belt converging toward state average; load-bearing for narrative-injection weighting,no
+asset_media,Computer,6.0,E,Very slow growth,no
+asset_media,Two_wheeler,16.0,E,Marginal increase; post-wage-revision asset accumulation,no
+asset_media,Four_wheeler,2.5,E,Very slight increase; Jaigaon traders,no
+asset_media,Banking_access,88.0,B,Strong increase from 2021 (82%); Lakshmir Bhandar enrollment drove bank account adoption; PMJDY + Aadhaar-seeded accounts,no
+amenities,Improved_drinking_water_source,68.0,D,Jal Jeevan Mission (JJM) made progress in WB 2021-24; Alipurduar received JJM connections; improvement from 2021 (62%),no
+amenities,Improved_sanitation,35.0,D,ODF campaign + SBM phase 2 improved coverage; +7pp from 2021 (28%); private bagan land remains under-covered,no
+amenities,LPG_clean_cooking_fuel,38.0,D,Ujjwala 2.0 (Aug 2021) extended coverage; refill subsidies intermittently available; +8pp from 2021 (30%),no
+amenities,Wood_biomass_fuel,57.0,E,Decreasing from 2021 (65%) as LPG penetrates,no
+amenities,Other_fuel,5.0,E,Stable,no
+amenities,Electricity,87.0,D,Marginal improvement; quality of supply improving in some bagan lines,no
+migration,Native,62.0,D,Further slight increase as more workers registered at home addresses,no
+migration,WB_other_district,4.0,D,Low; limited new internal WB in-migration,no
+migration,Other_Indian_state,0.5,E,Marginal,no
+migration,Bangladesh_origin,0.5,E,Bangladesh interim govt (Aug 2024) uncertainty did NOT produce significant new migration to tea-belt; Petrapole disruption was trade-not-migration; negligible increase,no
+migration,Outside_India,0.5,E,Nepal/Bhutan recent in-migration negligible,no
+migration,Out_migrant,3.5,E,Slight increase from 2021 (3%); post-COVID out-migration partially resumed to Kerala/Tamil Nadu construction,no
+migration,Jharkhand_origin,24.5,D,Stable multi-generational Adivasi identity; slight % decrease as native-born generation enlarges,no
+migration,Nepal_Bhutan_origin,4.0,D,Stable Nepali/Gorkha community,no
+migration,Bihari_UP_origin,0.5,D,Slight decrease; Bhojpuri-heritage older workers aging out,no

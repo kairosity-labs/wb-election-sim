@@ -1,0 +1,96 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,85.72,E,"2011 weighted, projected 2011→2024 (Hindu +1.0%/yr, 13 yr); Bangladesh temple attacks 2021 reinforced community cohesion",no
+religion,Muslim,13.35,E,"2011 weighted, projected; slight relative decline in share denominator",no
+religion,Christian,0.27,E,Bangaon sub-division; marginal decline,no
+religion,Sarna_ORP,0.10,E,Stable,no
+religion,Other_residual,0.56,E,Residual,no
+caste,SC_total,43.0,B,Weighted: Muni ~40% SC + CDB-rural 46.60% (Census 2011); stable across projection,no
+caste,Namasudra_Matua_SC,39.5,C,~92% of SC pool; Outlook: ~40% of Bangaon LS electorate is Matua,yes
+caste,Bagdi_SC,1.5,E,~3% of SC pool,yes
+caste,Poundra_SC,0.7,E,~1.6% of SC pool,yes
+caste,Other_SC,1.3,E,Residual,yes
+caste,ST_total,3.6,A,Bangaon CDB Census 2011; stable,no
+caste,UC_bhadralok,10.0,E,Brahmin/Kayastha/Baidya; concentrated in Muni,no
+caste,OBC,2.0,E,Mahishya / Sadgop / Kurmi / Teli; not salient,no
+caste,Other_Hindu_middle,26.72,E,Residual within Hindu (85.72 − 43 − 3.6 − 10 − 2),no
+caste,Muslim,13.35,E,See C.1,no
+caste,Christian_plus_Sarna_plus_Other,0.93,E,See C.1,no
+age_cohort,18_22,11.5,E,Born 2002–2006; 13-yr projection from Census 2011 N24P age pyramid,no
+age_cohort,23_27,12.8,E,,no
+age_cohort,28_32,13.0,E,,no
+age_cohort,33_37,12.0,E,,no
+age_cohort,38_42,10.8,E,,no
+age_cohort,43_47,9.8,E,,no
+age_cohort,48_52,8.7,E,,no
+age_cohort,53_57,7.2,E,,no
+age_cohort,58_62,5.8,E,,no
+age_cohort,63_67,4.7,E,,no
+age_cohort,68,3.7,E,,no
+gender,Male,51.10,E,N24P trend; sex ratio ~951 by 2024,no
+gender,Female,48.89,E,,no
+gender,Third_gender,0.01,E,Stable,no
+mother_tongue,Bengali,98.80,E,Stable; Bangaon CDB 99.19% Bengali (2011); no significant migration shift,no
+mother_tongue,Hindi,0.70,E,Muni Marwari/Bihari trader fringe; stable,no
+mother_tongue,Urdu,0.30,E,Small Muslim urban pocket,no
+mother_tongue,Other,0.20,E,Residual,no
+education,Illiterate,11.0,E,~88.5% literacy by 2024 (13-yr trend); older illiterate cohort dying out,no
+education,Primary,21.5,E,,no
+education,Middle,21.5,E,,no
+education,Secondary,20.0,E,Secondary completion rising,no
+education,Higher_Secondary,13.0,E,+2pp from 2019; expansion of HS institutions in N24P,no
+education,Graduate,10.0,E,+1pp from 2019; marginal graduate growth,no
+education,Postgraduate,3.0,E,Stable,no
+workforce_status,Main_worker,31.0,E,Post-COVID recovery; Petrapole trade depressed Aug 2024+ but main-worker share relatively stable,no
+workforce_status,Marginal_worker,11.0,E,Stable,no
+workforce_status,Non_worker,38.5,E,"Lakshmir Bhandar ₹1,200/mo (SC/ST tier) fully penetrated by 2024 — housewives / elderly included",no
+workforce_status,Student,12.0,E,Stable,no
+workforce_status,Unemployed,7.5,E,Marginally lower than 2021 as some graduates entered gig/services; SSC scam exposure (2022) elevated educated-unemployment anxiety,no
+occupation,Cultivator,17.5,E,Marginal decline as rural youth seek non-farm work,no
+occupation,Agricultural_labourer,27.0,E,Slight decline; MGNREGS absorption,no
+occupation,Household_industry,4.0,E,Stable,no
+occupation,Manufacturing,4.0,E,Limited; no new industrial investment in Bangaon,no
+occupation,Construction,6.0,E,Stable; some out-migrants working in construction elsewhere,no
+occupation,Trade_retail,12.5,E,Bangaon Muni hub; slight growth; UPI-enabled small retail,no
+occupation,Transport_logistics,6.0,E,Petrapole trade depressed Aug 2024+ under Bangladesh interim regime; some income fall in transport belt,no
+occupation,Services,12.5,E,Growth in services,no
+occupation,Government_services_teachers,4.0,E,SSC scam (2022) created teacher-recruitment freeze; stagnant govt jobs pipeline,no
+occupation,Out_migrant_worker,6.5,D,Matua men to Kerala/TN/Maharashtra; sustained out-migration,no
+class_of_worker,Employer,2.0,E,Stable,no
+class_of_worker,Employee,28.0,E,Stable,no
+class_of_worker,Single_worker,50.0,E,Dominant; cultivator + own-account artisan + small trader,no
+class_of_worker,Family_worker,20.0,E,Within agri-household,no
+economic_status,BPL_household,19.0,C,WB poverty continuing gradual fall; Lakshmir Bhandar lifts bottom band; ~19% by 2024,no
+economic_status,Above_Poverty_Line_low_income,39.0,E,Large near-poor band; primary Lakshmir Bhandar + Khadya Sathi recipients,no
+economic_status,Lower_middle,26.0,E,,no
+economic_status,Middle,13.0,E,Slight growth,no
+economic_status,Upper_middle_well_off,3.0,E,Bangaon Muni small affluent fringe,no
+gp_location,U1_Bangaon_Municipality,54.5,E,2011: 54.5%; stable in 13-yr window; no boundary changes,no
+gp_location,U2_CDB_Bangaon_rural_share,45.5,E,Remainder; 7 GPs,no
+household_composition,Avg_HH_size,4.3 persons,E,Gradual nuclearization trend; WB 4.3 by 2021; ~4.3 by 2024,no
+household_composition,Nuclear_HH,71.0,E,Slight increase,no
+household_composition,Joint_HH,23.0,E,,no
+household_composition,Extended_multi_generation,6.0,E,,no
+marital_status,Never_married,28.0,E,Stable; younger cohort expanding but first-marriage age rising marginally,no
+marital_status,Currently_married,64.0,E,,no
+marital_status,Widowed,7.0,E,,no
+marital_status,Separated_divorced,1.0,E,,no
+asset_media,Television,84.0,C,"Near-saturation; urban 95%+, rural 72%; AC weighted ~84%",no
+asset_media,Radio,3.0,C,Declining,no
+asset_media,Mobile_phone,94.0,C,Near-universal; any handset,no
+asset_media,Smartphone_with_internet,82.0,C,"NFHS-5 WB (2019-21) rural 56%, urban 82%; extrapolated with 3-yr Jio-affordable-5G trend → ~82% by 2024; digital saturation notably achieved",no
+asset_media,Computer,13.0,C,Marginal growth; laptop penetration in HS/grad households,no
+asset_media,Two_wheeler,40.0,C,Growth; aspiration good among young rural males,no
+asset_media,Four_wheeler,9.0,C,Slight growth; Muni upper-middle,no
+asset_media,Banking_access,96.0,B,PMJDY peak; UPI adoption; near-universal in banked households,no
+amenities,Improved_drinking_water_source,89.0,C,NFHS-5 + Jal Jeevan Mission (2019+) pipeline extension; rural +5pp from 2021,no
+amenities,Improved_sanitation,85.0,C,Continued Swachh Bharat + state push; rural gains,no
+amenities,LPG_clean_cooking_fuel,63.0,C,"Ujjwala second phase + subsidy; rural ~40%, urban 90%; AC weighted ~63%",no
+amenities,Wood_biomass_fuel,32.0,C,Declining; offset by LPG gains,no
+amenities,Other_fuel,5.0,C,Stable residual,no
+amenities,Electricity,99.0,A,Near-universal by 2024; Saubhagya saturation,no
+migration,Native,64.5,D,Stable; COVID returnee registrations mostly normalized,no
+migration,WB_other_district,9.0,D,Stable; Kolkata service-class in Muni,no
+migration,Other_Indian_state,3.0,D,Marwari/Bihari trader fringe,no
+migration,Bangladesh_origin,23.0,D,"Load-bearing: Matua community. Bangladesh interim regime Aug 2024+ creates new anxiety in this population (minority reports, trade disruption) reinforcing historical refugee identity",no
+migration,Outside_India,0.5,E,Negligible,no
+migration,Out_migrant,0.0,E,Registered here but working outside; net; normalised,no

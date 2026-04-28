@@ -1,0 +1,110 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,83.90,E,2019 baseline 84.04%; Muslim slightly faster growth pulls Hindu share down ~0.14pp over 2 years; stable Sarna share,no
+religion,Muslim,3.46,E,2019: 3.44%; +0.02pp over 2 years differential growth,no
+religion,Christian,0.43,E,Negligible change,no
+religion,Sarna_ORP,10.92,E,Sarna share stable to slightly growing (Adivasi identity assertion post-2019 Sarna-code agitation); 2019 baseline 10.90%,no
+religion,Other_residual,1.29,E,Residual: 100 − 83.90 − 3.46 − 0.43 − 10.92 = 1.29,no
+caste,SC_total,19.56,A,2019 baseline 19.52%; marginal growth adjustment; Census 2011 anchor,no
+caste,Bagdi,7.02,D,~35.9% of SC pool; dominant rural SC in Jhargram,yes
+caste,Bauri,4.01,D,~20.5% of SC pool,yes
+caste,Hari_Bhangi,1.57,E,~8% of SC pool,yes
+caste,Chamar_Mochi,1.20,E,~6% of SC pool,yes
+caste,Other_SC,5.76,E,Residual SC,yes
+caste,ST_total,22.95,A,2019 baseline 22.92%; marginal +0.03pp; Census 2011 anchor,no
+caste,Santhal,11.52,D,~50% of ST pool; dominant tribe,yes
+caste,Munda,3.90,D,~17% of ST pool,yes
+caste,Bhumij,2.75,D,~12% of ST pool,yes
+caste,Lodha,1.40,D,~6% of ST pool; PVTG,yes
+caste,Ho,1.15,D,~5% of ST pool,yes
+caste,Other_ST,2.23,E,"~10% of ST pool; Mahali, Sabar, Kheriya etc.",yes
+caste,UC_bhadralok,6.50,E,Stable; Jhargram Muni bhadralok fringe,no
+caste,OBC,12.00,D,Mahato/Kurmi dominant OBC in Jangalmahal,no
+caste,Other_Hindu_middle,33.90,E,Residual: 100 − 19.56 − 22.95 − 6.50 − 12.00 − 3.46 − 0.43 − 1.20 = 33.90,no
+caste,Muslim,3.46,E,See C.1,no
+caste,Christian_plus_Sarna_plus_Other,1.72,E,Christian 0.43% + Other_residual 1.29% = 1.72%; Sarna is sub-group of ST,no
+age_cohort,18_22,12.5,E,Tribal belt has younger population; new-voter cohort large; renormalized from total-pop pyramid,no
+age_cohort,23_27,13.0,E,,no
+age_cohort,28_32,12.0,E,,no
+age_cohort,33_37,10.5,E,,no
+age_cohort,38_42,9.5,E,,no
+age_cohort,43_47,8.5,E,,no
+age_cohort,48_52,7.5,E,,no
+age_cohort,53_57,6.5,E,,no
+age_cohort,58_62,5.5,E,,no
+age_cohort,63_67,4.5,E,Higher elderly share than N24P urban; rural tribal older profile,no
+age_cohort,68,10.0,E,Broad 68+ cohort; tribal older population; Census 2011 Jhargram age pyramid,no
+gender,Male,50.51,A,District sex ratio ~980 F/1000 M → 50.51% M; marginal improvement vs 2019 (977),no
+gender,Female,49.48,A,,no
+gender,Third_gender,0.01,E,Negligible,no
+mother_tongue,Bengali,81.40,A,2019 baseline 81.50%; marginal drift toward Bengali bilingualism in tribal belt over 2 years,no
+mother_tongue,Hindi,0.30,E,Muni trader fringe; transport workers,no
+mother_tongue,Urdu,0.10,E,Negligible; small Muslim pocket in Muni,no
+mother_tongue,Other,0.20,E,Residual,no
+mother_tongue,Santali,15.90,A,2019 baseline 16.00%; slight downward drift as Santali-Bengali bilingualism grows,no
+mother_tongue,Mundari,1.50,A,Stable; Binpur I concentrated,no
+mother_tongue,Kurmali,0.60,E,OBC Mahato language; marginal uptick with Mahato identity assertion,no
+education,Illiterate,23.50,E,2019 baseline 24.50%; 2 more years of literacy improvement ~+0.5pp/yr; COVID disrupted schools 2020-21 slightly,no
+education,Primary,24.00,E,Stable,no
+education,Middle,20.00,E,Stable,no
+education,Secondary,14.00,E,Stable,no
+education,Higher_Secondary,9.50,E,Marginal +0.5pp; school expansion in tribal belt continuing,no
+education,Graduate,6.00,E,Stable; low grad rate in forest-agrarian economy,no
+education,Postgraduate,3.00,E,Marginal improvement,no
+workforce_status,Main_worker,34.0,E,Slight decline from 2019 (35.0%) due to COVID displacement of main workers; some re-absorbed by 2021,no
+workforce_status,Marginal_worker,15.5,E,Slight increase; COVID reverse migrants adding to marginal/casual work pool,no
+workforce_status,Non_worker,34.5,E,COVID increased non-worker share marginally; housewife / elderly,no
+workforce_status,Student,10.0,E,Stable; school expansion ongoing despite COVID,no
+workforce_status,Unemployed,6.0,E,Stable; educated-unemployment pool limited in tribal belt,no
+occupation,Cultivator,20.0,E,Stable; landholding pattern unchanged over 2 years,no
+occupation,Agricultural_labourer,38.0,E,Dominant; Binpur I and Jhargram CDB rural labour pool,no
+occupation,Forest_produce_collection,8.0,D,NTFP workers; COVID lockdown temporarily disrupted collection; recovered by 2021,no
+occupation,Household_industry,4.0,E,"Handloom, basket, pottery; stable",no
+occupation,Manufacturing,1.0,E,Minimal; no large industry in AC,no
+occupation,Construction,5.5,E,Slight uptick as COVID reverse-migrants engaged in PMAY-G construction,no
+occupation,Trade_retail,7.5,E,Jhargram Muni-centric; slightly lower than 2019 due to COVID impact on trade,no
+occupation,Transport_logistics,3.0,E,NH-116B corridor logistics,no
+occupation,Services,6.0,E,Private services; stable,no
+occupation,Government_services_teachers,5.0,E,Tribal sub-quota government jobs; stable,no
+occupation,Out_migrant_worker,2.0,D,Lower than 2019 (3.0%); COVID reverse migration brought some out-migrants back; partially re-absorbed,no
+class_of_worker,Employer,1.0,E,Census B-04 WB rural; stable,no
+class_of_worker,Employee,22.0,E,Govt + organised workers; stable,no
+class_of_worker,Single_worker,45.0,E,Own cultivator + petty trader + forest-produce seller,no
+class_of_worker,Family_worker,22.0,E,Tribal agriculture household; stable,no
+class_of_worker,Casual_MGNREGA,10.0,D,MGNREGA-generated casual labour; Jhargram among WB top MGNREGA utilization districts,no
+economic_status,BPL_household,40.0,D,2019 baseline 42.0%; marginal improvement from Lakshmir Bhandar and MGNREGA; Binpur I BPL 47.46% (2007) anchor; decline slow due to structural poverty,no
+economic_status,Above_Poverty_Line_low_income,34.0,E,Slight increase as some BPL HHs cross poverty line via welfare income,no
+economic_status,Lower_middle,16.5,E,,no
+economic_status,Middle,7.5,E,,no
+economic_status,Upper_middle_well_off,2.0,E,Stable; small Muni professional fringe,no
+gp_location,U1_Jhargram_Municipality,22.5,E,2019 baseline 22.8%; marginal decline as rural population grows faster than Muni; Muni boundary stable,no
+gp_location,U2_Jhargram_CDB_rural_4GP,19.3,E,2019 baseline 19.4%; marginal shift,no
+gp_location,U3_Binpur_I_CD_Block,58.2,E,2019 baseline 57.8%; rural growth drives slight increase; Lalgarh and 9 other GPs,no
+household_composition,Avg_HH_size,4.6 persons,E,Stable; tribal joint household pattern; slight nucleation trend masked by COVID reverse-migration,no
+household_composition,Nuclear_HH,62.5,E,Marginal increase as COVID reverse-migration created temporary re-joining,no
+household_composition,Joint_HH,27.5,E,COVID reverse migrants temporarily swelled joint households; easing by end-2021,no
+household_composition,Extended_multi_generation,10.0,E,Stable,no
+marital_status,Never_married,26.0,E,Stable; first-time voter cohort; tribal earlier marriage age,no
+marital_status,Currently_married,65.0,E,Stable,no
+marital_status,Widowed,8.0,E,Stable; some COVID-related excess widowhood in older cohorts,no
+marital_status,Separated_divorced,1.0,E,Stable,no
+asset_media,Television,62.0,C,NFHS-5 WB rural ~71% (2019-21 fieldwork); Jhargram below state avg; AC-weighted ~62% by end-2021,no
+asset_media,Radio,7.5,C,Slight decline as smartphone substitutes; but remote forest fringe retains radio,no
+asset_media,Mobile_phone,82.0,C,NFHS-5 WB rural mobile penetration ~85%; Jhargram ~82% by 2021 post-Jio expansion,no
+asset_media,Smartphone_with_internet,48.0,C,Major surge from 2019 (30%); post-COVID Jio network + digital payments drove tribal-belt smartphone adoption; NFHS-5 WB rural ~55%; Jhargram below average → ~48%,no
+asset_media,Computer,5.0,C,NFHS-5 WB rural; stable,no
+asset_media,Two_wheeler,18.0,C,Stable,no
+asset_media,Four_wheeler,3.0,C,Stable,no
+asset_media,Banking_access,86.0,B,PMJDY saturation; tribal HHs prioritized; Lakshmir Bhandar required bank accounts → drove ~+4pp from 2019 82%; tribal women's DBT-linked accounts,no
+amenities,Improved_drinking_water_source,80.0,C,NFHS-5 WB rural 84.2%; Jhargram forest-belt lower; +2pp from 2019 (78%) via Jal Jeevan Mission launch 2019,no
+amenities,Improved_sanitation,54.0,C,NFHS-5 WB rural 76%; Jhargram tribal belt lower; +6pp from 2019 (48%) via Swachh Bharat Phase II,no
+amenities,LPG_clean_cooking_fuel,35.0,C,NFHS-5 WB rural 48%; Jhargram below average; +10pp from 2019 (25%) via Ujjwala 2.0 and tribal-HH prioritization,no
+amenities,Wood_biomass_fuel,58.0,D,Declining as LPG penetrates; forest-fringe HHs still heavily dependent; 2019 68%,no
+amenities,Other_fuel,7.0,C,Stable,no
+amenities,Electricity,92.0,C,NFHS-5 WB rural ~95%; Jhargram below average; +4pp from 2019 (88%) via Saubhagya and state grid extension,no
+migration,Native,85.5,D,2019 baseline 84.0%; COVID reverse-migration added ~1.5pp to native-present share; out-migrants returned during lockdown,no
+migration,WB_other_district,5.5,D,Slight decline as COVID disrupted in-migration of government employees,no
+migration,Other_Indian_state,4.0,D,Stable; Bihari/Jharkhand traders,no
+migration,Jharkhand_origin,3.0,D,Stable; tribal cross-border kin ties; included in migration axis,no
+migration,Bangladesh_origin,1.5,D,Negligible; Jangalmahal has no significant Bangladesh refugee stream,no
+migration,Outside_India,0.0,E,None,no
+migration,Out_migrant,0.5,E,2019 baseline 1.5%; most out-migrants returned COVID; not yet fully re-departed by end-2021,no

@@ -1,0 +1,96 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,73.30,A/E,Census 2011 block aggregate (Hindu 73.97%); 10-yr religion-differential growth → Hindu share falls ~0.7pp by 2021,no
+religion,Muslim,26.55,A/E,Census 2011 block aggregate (Muslim 25.89%); share rises ~0.7pp by 2021 consistent with Purba Medinipur Muslim growth trend,no
+religion,Christian,0.05,E,Census 2011 other; small fringe,no
+religion,Sarna_ORP,0.00,A,Negligible ST presence in these blocks,no
+religion,Other_residual,0.10,E,Residual including not-stated,no
+caste,SC_total,16.40,A/E,Census 2011 block aggregate 16.46%; projected stable over 10 yr,no
+caste,Bagdi_SC,8.0,E,Dominant SC in coastal Medinipur; ~48% of SC pool,yes
+caste,Namasudra_SC,3.5,E,Secondary SC in Purba Medinipur; ~21% of SC pool,yes
+caste,Bauri_SC,2.0,E,~12% of SC pool,yes
+caste,Other_SC,2.9,E,Residual SC sub-groups; ~18% of SC pool,yes
+caste,ST_total,0.10,A,Census 2011 aggregate 0.10%; negligible ST presence,no
+caste,UC_bhadralok,5.00,E,Brahmin/Kayastha; concentrated in Nandigram census town,no
+caste,OBC,3.00,E,Tili/Teli and other OBC; coastal Medinipur,no
+caste,Other_Hindu_middle,48.95,E,Includes Mahishya (~27% total) + other Hindu middle castes; residual after SC+ST+UC+OBC+Muslim+Christian,no
+caste,Muslim,26.55,A/E,See C.1,no
+caste,Christian_plus_Sarna_plus_Other,0.00,E,Negligible,no
+age_cohort,18_22,11.0,E,New voter cohort (born 1999-2003); renormalized from Census 2011 age pyramid for 18+ adults only,no
+age_cohort,23_27,11.5,E,,no
+age_cohort,28_32,11.0,E,,no
+age_cohort,33_37,10.5,E,,no
+age_cohort,38_42,9.5,E,,no
+age_cohort,43_47,8.5,E,,no
+age_cohort,48_52,7.5,E,,no
+age_cohort,53_57,7.0,E,,no
+age_cohort,58_62,6.5,E,,no
+age_cohort,63_67,9.5,E,Older cohorts larger as children share decreases in 18+ renorm,no
+age_cohort,68,7.5,E,,no
+gender,Male,51.35,A/E,Census 2011 block aggregate 51.40%; marginal change,no
+gender,Female,48.64,A/E,Corresponding female share,no
+gender,Third_gender,0.01,E,National standard estimate,no
+mother_tongue,Bengali,99.94,A,Nandigram I+II blocks essentially monolingual Bengali (Census 2011: 99.95%); stable,no
+mother_tongue,Hindi,0.03,E,Haldia industrial fringe labour; minimal,no
+mother_tongue,Urdu,0.02,E,Negligible in coastal block context,no
+mother_tongue,Other,0.01,E,Residual,no
+education,Illiterate,10.5,A/E,"Census 2011 literacy 86.50%; projected +0.8pp/yr → ~94.5% literate by 2021 among 7+; ~10.5% illiterate (conservative, includes older cohorts)",no
+education,Primary,21.0,E,Purba Medinipur district pattern; primary-educated rural majority,no
+education,Middle,22.0,E,,no
+education,Secondary,20.0,E,,no
+education,Higher_Secondary,13.0,E,Growing with improved school access,no
+education,Graduate,10.0,E,Modest improvement from 2019 baseline,no
+education,Postgraduate,3.5,E,Slight increase with COVID-era online education,no
+workforce_status,Main_worker,32.5,A/E,Census 2011 block weighted 33%; slight decline due to COVID-19 disruption (2020),no
+workforce_status,Marginal_worker,8.5,E,WB rural pattern; slight increase from COVID-era informal sector disruption,no
+workforce_status,Non_worker,36.5,E,"Housewives, elderly; stable",no
+workforce_status,Student,12.0,E,Stable; some COVID disruption to 2020-21 schooling cohort,no
+workforce_status,Unemployed,10.5,E,Elevated; COVID-19 shock 2020 added ~1pp to educated unemployed seeking,no
+occupation,Cultivator,15.50,A/E,Census 2011 weighted 16.19%; slight shift away from cultivation,no
+occupation,Agricultural_labourer,45.50,A/E,Dominant occupation; Census 2011 block weighted 46.43%; small decrease as some diversify,no
+occupation,Household_industry,3.70,A,Census 2011 weighted 3.68%; stable,no
+occupation,Manufacturing,4.00,E,Haldia industrial belt fringe; stable,no
+occupation,Construction,5.50,E,Slight increase from COVID-era return migrants in construction,no
+occupation,Trade_retail,8.00,E,Local market trade; stable,no
+occupation,Transport_logistics,6.00,E,Coastal fishing and river transport; stable,no
+occupation,Services,7.30,E,Growing private services; some COVID disruption,no
+occupation,Government_services_teachers,4.00,E,Stable,no
+occupation,Out_migrant_worker,0.50,E,Returned to home-block during COVID lockdown; small fraction,no
+class_of_worker,Employer,1.5,E,Stable from 2019,no
+class_of_worker,Employee,22.5,E,Small increase with Haldia industrial + govt service growth,no
+class_of_worker,Single_worker,54.5,E,Dominant: cultivator + fisherman + own-account artisan + small trader,no
+class_of_worker,Family_worker,21.5,E,Agricultural household assisting; stable,no
+economic_status,BPL_household,19.0,E,"Purba Medinipur BPL ~20-22% (2011); WB poverty fell ~3pp 2011-19, further ~1pp 2019-21 → ~19%",no
+economic_status,Above_Poverty_Line_low_income,40.0,E,Bulk of rural agrarian households; stable,no
+economic_status,Lower_middle,25.0,E,Lakshmir Bhandar (Apr 2021) effective from 2021; some upward mobility in HH consumption,no
+economic_status,Middle,13.0,E,Mahishya landowner class stable,no
+economic_status,Upper_middle_well_off,3.0,E,Marginal affluent fringe; stable,no
+gp_location,U1_Nandigram_I,62.50,A/E,"Census 2011 pop 207,835/331,054 = 62.78%; slightly lower by 2021 due to higher Muslim growth in Nandigram I reducing relative share of Hindu-dominant N-II",no
+gp_location,U2_Nandigram_II,37.50,A/E,"Census 2011 pop 123,219/331,054 = 37.22%; stable",no
+household_composition,Avg_HH_size,4.4,E,WB 2011 rural 4.4-4.6; marginal decrease by 2021 as nuclear trend continues,no
+household_composition,Nuclear_HH,67.0,E,NFHS-5 (2019-21) WB rural: ~66-68%; Purba Medinipur coastal,no
+household_composition,Joint_HH,27.0,E,Declining from 28% (2019 baseline) as nuclear families increase,no
+household_composition,Extended_multi_generation,6.0,E,Stable,no
+marital_status,Never_married,26.5,E,Stable from Census 2011 Purba Medinipur pattern,no
+marital_status,Currently_married,65.0,E,Stable,no
+marital_status,Widowed,7.0,E,Slight increase from COVID-19 mortality (concentrated 60+),no
+marital_status,Separated_divorced,1.5,E,Marginal increase; social change,no
+asset_media,Television,78.0,C,NFHS-5 (2019-21) WB rural ~72%; coastal Purba Medinipur slightly above average → ~78%; TV effectively saturated in middle-class HH,no
+asset_media,Radio,5.0,C,Declining; minimal in 2021,no
+asset_media,Mobile_phone,90.0,C,NFHS-5 WB rural ~87%; Jio penetration near-complete → ~90%,no
+asset_media,Smartphone_with_internet,65.0,C,"NFHS-5 WB rural ~55%; COVID-era surge (2020-21 online schooling, UPI, WhatsApp political communication) → ~65%",no
+asset_media,Computer,7.0,C,NFHS-5 WB rural ~5%; slight increase with affordable Android tablets,no
+asset_media,Two_wheeler,32.0,C,NFHS-5 WB rural ~22%; Purba Medinipur coastal medium-farmer class → ~32%,no
+asset_media,Four_wheeler,5.0,C,Limited; stable,no
+asset_media,Banking_access,92.0,B,PMJDY saturation; NFHS-5 WB baseline → ~92%,no
+amenities,Improved_drinking_water_source,87.0,C,NFHS-5 WB rural ~86%; slight improvement by 2021,no
+amenities,Improved_sanitation,78.0,C,NFHS-5 WB rural (2019-21): Purba Medinipur ~75-80% (Swachh Bharat saturation); Nandigram slightly above → ~78%,no
+amenities,LPG_clean_cooking_fuel,55.0,C,NFHS-5 WB rural ~50%; Ujjwala 2.0 + own-purchase; Purba Medinipur medium-farmer class → ~55%,no
+amenities,Wood_biomass_fuel,41.0,C,Declining as LPG rises; coastal wood/crop-residue,no
+amenities,Other_fuel,4.0,C,Kerosene/other declining,no
+amenities,Electricity,98.0,A/E,Saubhagya saturation effectively complete in Purba Medinipur by 2021,no
+migration,Native,87.5,D,Coastal agrarian AC; very low in-migration; stable from 2019,no
+migration,WB_other_district,6.0,D,Adjacent Paschim Medinipur / Hooghly,no
+migration,Other_Indian_state,2.0,D,Haldia industrial fringe; reduced by COVID (some out-state labour returned home 2020),no
+migration,Bangladesh_origin,2.0,D,Very small compared to N24P; some Namasudra SC households,no
+migration,Outside_India,0.5,E,Negligible,no
+migration,Out_migrant,2.0,E,COVID-era return migration (2020) brought some WB migrants back; net out-migration lower than 2019,no
