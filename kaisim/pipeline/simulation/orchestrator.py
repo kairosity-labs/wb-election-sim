@@ -91,10 +91,17 @@ class Orchestrator:
         self.config = config
         self.verbose = verbose
 
-        # Provider
+        # Provider — supports OpenAI-compatible local backends
+        # (sglang / vLLM / ollama / llama.cpp / LM Studio) via base_url.
         provider_name = config.get("llm.provider", "anthropic")
         model = config.get("llm.model")
-        self.provider = make_provider(provider_name, model=model)
+        provider_kwargs = {}
+        for key in ("base_url", "api_key"):
+            v = config.get(f"llm.{key}")
+            if v:
+                provider_kwargs[key] = v
+        self.provider = make_provider(provider_name, model=model,
+                                       **provider_kwargs)
         self.llm_kwargs = {
             "reasoning": config.get("llm.reasoning", "low"),
             "temperature": float(config.get("llm.temperature", 0.7)),

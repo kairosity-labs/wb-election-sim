@@ -57,7 +57,17 @@ class LLMBatchSampler:
         self.temperature = float(persona_config.get("llm.temperature", 0.7))
         self.max_tokens = int(persona_config.get("llm.max_tokens", 16000))
         self.cache_system = bool(persona_config.get("llm.cache_system_prompt", True))
-        self.provider = make_provider(self.provider_name, self.model)
+        # OpenAI-compatible local backends (sglang/vLLM/ollama/llama.cpp/LM Studio):
+        # set llm.base_url + llm.api_key in persona_config to redirect.
+        self.base_url = persona_config.get("llm.base_url")
+        self.api_key = persona_config.get("llm.api_key")
+        provider_kwargs = {}
+        if self.base_url:
+            provider_kwargs["base_url"] = self.base_url
+        if self.api_key:
+            provider_kwargs["api_key"] = self.api_key
+        self.provider = make_provider(self.provider_name, self.model,
+                                       **provider_kwargs)
 
         # Generation config
         self.batch_size = int(persona_config.get("generation.batch_size", 20))

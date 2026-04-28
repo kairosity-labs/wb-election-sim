@@ -6,6 +6,19 @@ sets `reasoning_effort`; for non-reasoning models, the parameter is ignored.
 Prompt caching is automatic on the OpenAI side when the prompt prefix is
 ≥ 1024 tokens AND identical across calls. The system prompt (which is the
 big static part for the persona pipeline) qualifies easily.
+
+OpenAI-compatible local backends (sglang, vLLM, llama.cpp, ollama, LM Studio):
+pass `base_url` to point at the local server's `/v1` endpoint and `api_key`
+can be any non-empty string ('EMPTY' is the convention). Reasoning-effort
+won't be sent for non-OpenAI-reasoning model names. Local servers handle
+prompt caching transparently (sglang RadixAttention, vLLM prefix cache).
+
+YAML config example for sglang:
+    llm:
+      provider: "openai"
+      model: "Qwen/Qwen2.5-72B-Instruct"
+      base_url: "http://localhost:30000/v1"
+      api_key: "EMPTY"
 """
 from __future__ import annotations
 
@@ -31,9 +44,27 @@ def _is_reasoning_model(model: str) -> bool:
 class OpenAIProvider:
     name = "openai"
 
-    def __init__(self, model: str = "gpt-5-mini", api_key: str | None = None):
+    def __init__(
+        self,
+        model: str = "gpt-5-mini",
+        api_key: str | None = None,
+        base_url: str | None = None,
+    ):
+        """OpenAI / OpenAI-compatible provider.
+
+        api_key:  resolved from arg → OPENAI_API_KEY env → 'EMPTY'.
+                  Local servers (sglang/vLLM) accept anything.
+        base_url: when set, points the client at a local OpenAI-compatible
+                  server. Falls back to the OpenAI SDK default (api.openai.com).
+        """
         self.model = model
-        self.client = OpenAI(api_key=api_key or os.environ.get("OPENAI_API_KEY"))
+        self.base_url = base_url or os.environ.get("OPENAI_BASE_URL")
+        client_kwargs = {
+            "api_key": api_key or os.environ.get("OPENAI_API_KEY") or "EMPTY",
+        }
+        if self.base_url:
+            client_kwargs["base_url"] = self.base_url
+        self.client = OpenAI(**client_kwargs)
 
     def generate(
         self,

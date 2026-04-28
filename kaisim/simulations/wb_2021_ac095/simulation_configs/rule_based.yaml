@@ -16,9 +16,16 @@ simulation:
   name: "rule_based_v1"
   description: "n=100 personas, monthly tick, Park-minimal updater, Haiku 4.5"
 
+# AC identifier — auto-resolves events to
+# constituency_data/constituencies/<ac_id>/events.yaml.
+# Use the bare 3-digit AC number for glob-matching (e.g. "095") or the
+# full directory name (e.g. "095_bangaon_uttar"). Either works.
+ac_id: "095_bangaon_uttar"
+
 input:
   persona_set: "default_n100_v1"
-  events_file: "news/events_2019_2024.yaml"
+  # Legacy explicit path retained as a fallback during migration:
+  # events_file: "news/events_2019_2024.yaml"
 
 clock:
   start_date: "2020-01-01"
@@ -58,6 +65,13 @@ llm:
   temperature: 0.7
   max_tokens: 4000
   cache_system_prompt: true
+
+  # ─── To run on a locally-hosted OpenAI-compatible LLM (sglang / vLLM /
+  #     ollama / llama.cpp / LM Studio), uncomment the block below: ───
+  # provider: "openai"
+  # model: "Qwen/Qwen2.5-72B-Instruct"      # whatever your server is serving
+  # base_url: "http://localhost:30000/v1"   # sglang default; vLLM uses :8000/v1
+  # api_key: "EMPTY"                         # local servers usually accept anything
 
 execution:
   async: true

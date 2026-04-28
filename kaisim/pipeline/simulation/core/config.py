@@ -55,7 +55,42 @@ class SimulationConfig:
 
     @property
     def events_file(self) -> Path:
-        return self.sim_dir / self.get("input.events_file", "news/events.yaml")
+        """Resolve the events YAML path.
+
+        Resolution order:
+          1. `input.events_file` (relative to sim_dir if not absolute) — legacy
+             path-based config, e.g. "news/events_2019_2024.yaml".
+          2. `ac_id` → `constituency_data/constituencies/<ac_id>/events.yaml`
+             (or first match of "<ac_id>_*" if ac_id is just a 3-digit number).
+             This is the canonical post-migration location.
+          3. Fallback: `sim_dir / news/events.yaml`.
+        """
+        ev = self.get("input.events_file")
+        if ev:
+            p = Path(ev)
+            return p if p.is_absolute() else (self.sim_dir / p)
+
+        ac_id = self.get("ac_id")
+        if ac_id:
+            # Walk up from sim_dir to find the repo root (parent of `kaisim`).
+            kaisim_dir = self.sim_dir
+            while kaisim_dir.name and kaisim_dir.name != "kaisim":
+                kaisim_dir = kaisim_dir.parent
+            repo_root = kaisim_dir.parent if kaisim_dir.name else self.sim_dir
+            consts = repo_root / "constituency_data" / "constituencies"
+            # Exact match first.
+            direct = consts / str(ac_id) / "events.yaml"
+            if direct.exists():
+                return direct
+            # Glob match: "<ac_id>_*" (handles ac_id="095" → "095_bangaon_uttar")
+            for cand in sorted(consts.glob(f"{ac_id}_*")):
+                ev_yaml = cand / "events.yaml"
+                if ev_yaml.exists():
+                    return ev_yaml
+            raise FileNotFoundError(
+                f"ac_id={ac_id!r}: no events.yaml under {consts}")
+
+        return self.sim_dir / "news/events.yaml"
 
     @property
     def start_date(self) -> date:

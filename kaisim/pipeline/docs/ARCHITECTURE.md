@@ -138,6 +138,53 @@ produced this run, including the exact persona-set hash and events-file
 hash. Re-running the same snapshot reproduces results modulo LLM
 non-determinism.
 
+### 6. Pluggable LLM backend (cloud + local)
+
+Both Phase-1 (`LLMBatchSampler`) and Phase-2 (`Orchestrator`) reach the LLM
+through `pipeline.providers.make_provider(name, model, **kwargs)`. The
+provider is selected per `simulation_config.yaml` / `persona_config.yaml`
+under the `llm:` block:
+
+```yaml
+llm:
+  provider: "anthropic"           # anthropic | openai
+  model: "claude-haiku-4-5"
+  reasoning: null
+  temperature: 0.7
+  max_tokens: 4000
+```
+
+Because the OpenAI provider supports an arbitrary `base_url`, the same
+backend works against any OpenAI-compatible local server (sglang, vLLM,
+ollama, llama.cpp, LM Studio):
+
+```yaml
+llm:
+  provider: "openai"
+  model: "Qwen/Qwen2.5-72B-Instruct"      # whatever your server is serving
+  base_url: "http://localhost:30000/v1"   # sglang default; vLLM uses :8000/v1
+  api_key: "EMPTY"
+```
+
+Or set `OPENAI_BASE_URL` + `OPENAI_API_KEY` env vars to redirect every call
+without touching configs. Local servers handle prompt caching transparently
+(sglang RadixAttention; vLLM prefix cache) — no API surface needed.
+
+### 7. Events YAML resolution
+
+The simulation reads news events from a YAML the orchestrator builds into a
+`NewsPool`. Resolution order:
+
+1. `input.events_file` — explicit path, relative to sim_dir or absolute. Legacy.
+2. `ac_id` (preferred) → `constituency_data/constituencies/<ac_id>/events.yaml`.
+   If `ac_id` is just a 3-digit AC number (e.g. `"095"`), the loader globs
+   `constituency_data/constituencies/095_*` and uses the first match.
+3. Fallback: `sim_dir / news/events.yaml`.
+
+For new ACs, prefer `ac_id` — this lets a single canonical events YAML
+under `constituency_data/` serve all simulations targeting that constituency,
+without copying files around.
+
 ## Where to read next
 
 - [`AGENT.md`](AGENT.md) — what an agent IS and how it's defined
