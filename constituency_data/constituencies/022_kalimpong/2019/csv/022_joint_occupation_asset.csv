@@ -1,0 +1,11 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,30.00,62.00,E,Hill cultivator; lower connectivity
+Agricultural_labourer,22.00,55.00,E,Lowest asset tier
+Household_industry,35.00,68.00,E,Handicraft/weaving workers
+Manufacturing,45.00,75.00,E,
+Construction,42.00,70.00,E,
+Trade_retail,65.00,85.00,E,Kalimpong Muni market; smartphone for trade comms
+Transport_logistics,60.00,78.00,E,Hill taxi operators; smartphone heavy
+Services,72.00,88.00,E,Tourism/hospitality
+Government_services_teachers,85.00,92.00,E,Highest; govt employees
+Out_migrant_worker,70.00,75.00,D,Army/domestic worker; smartphone for remittance

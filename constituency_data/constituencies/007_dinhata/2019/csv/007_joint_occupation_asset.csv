@@ -1,0 +1,11 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,28.00,62.00,C,Rural ag baseline; Cooch Behar lower than South WB
+Agricultural_labourer,20.00,52.00,C,Lowest income; poorest access
+Household_industry,32.00,65.00,C,Artisan class; limited connectivity
+Manufacturing,45.00,75.00,C,
+Construction,38.00,68.00,C,
+Trade_retail,60.00,82.00,C,Dinhata town market; higher access
+Transport_logistics,55.00,75.00,C,NH17 truckers; smartphone important
+Services,65.00,85.00,C,
+Government_services_teachers,80.00,92.00,C,Highest access
+Out_migrant_worker,65.00,72.00,D,Seasonal workers retain smartphone for remittances

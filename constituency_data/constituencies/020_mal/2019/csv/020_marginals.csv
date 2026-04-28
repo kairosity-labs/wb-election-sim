@@ -1,0 +1,108 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,72.00,E,Jalpaiguri district 82.4% Hindu (Census 2011 A); Mal CDB has high ST population (32%) many of whom practice Sarna/ORP rather than classified Hindu; AC-level estimate adjusted downward,no
+religion,Muslim,10.00,E,Jalpaiguri district 13.25% Muslim (A); Mal block lower due to tea-garden character; estimated ~10%,no
+religion,Christian,5.00,E,Jalpaiguri district 3.12% Christian (A); tea-garden Adivasi areas show higher Christian conversion rates; ~5% for Mal CDB,no
+religion,Sarna_ORP,12.00,E,Significant Oraon/Munda/Santali tribal religious practice; Oraon 44.71% of Mal block ST (academic source); estimated ~12% practising Sarna/ORP,no
+religion,Other_residual,1.00,E,Buddhist + Sikh + Not_stated residual,no
+caste,SC_total,26.05,A,Wikipedia Mal Assembly constituency: 26.05% SC,no
+caste,Rajbanshi_SC,14.00,E,Dominant SC sub-group in Jalpaiguri district; ~54% of SC pool,yes
+caste,Other_SC,12.05,E,"Residual SC (Bauris, Hari, etc.)",yes
+caste,ST_total,32.09,A,Wikipedia Mal Assembly constituency: 32.09% ST,no
+caste,Oraon_ST,14.35,C,44.71% of Mal block ST per academic study on Jalpaiguri tribal economy,yes
+caste,Munda_ST,6.42,C,~20% of ST pool per tribal distribution studies,yes
+caste,Santali_ST,8.02,C,~25% of ST pool,yes
+caste,Other_ST,3.30,E,Residual tribal groups,yes
+caste,UC_bhadralok,4.00,E,Small bhadralok (Brahmin/Kayastha/Baidya) presence in municipality and administrative core,no
+caste,OBC,6.00,E,"Koch-Rajbongshi OBC, Teli, Kurmi non-SC fringe",no
+caste,Other_Hindu_middle,18.86,E,"Residual Hindu middle: Goala, Sutradhar, Bengali middle castes, tea-garden non-tribal semi-permanent labour",no
+caste,Muslim,10.00,E,See C.1; primarily Bengali Muslim and some Rajbongshi-Muslim,no
+caste,Christian_plus_Sarna_plus_Other,3.00,E,Sarna subsumed in ST_total; residual Christian pool outside ST,no
+age_cohort,18_22,11.50,E,Jalpaiguri district age pyramid Census 2011; renormalized to 18+ adults only,no
+age_cohort,23_27,12.00,E,,no
+age_cohort,28_32,11.50,E,,no
+age_cohort,33_37,10.50,E,,no
+age_cohort,38_42,9.50,E,,no
+age_cohort,43_47,8.50,E,,no
+age_cohort,48_52,8.00,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.00,E,,no
+age_cohort,63_67,8.50,E,Slight uplift in 63+ open bucket to balance sum; tea-garden pension cohort,no
+age_cohort,68,7.00,E,68+ open-ended,no
+gender,Male,51.20,E,Jalpaiguri district sex ratio 953 F/1000 M → ~51.2% M,no
+gender,Female,48.79,E,,no
+gender,Third_gender,0.01,E,Small non-binary population,no
+mother_tongue,Bengali,38.00,E,Jalpaiguri district: 43.94% Bengali as first language (Census 2011); Mal block lower due to high tribal population,no
+mother_tongue,Hindi,3.00,E,Jalpaiguri district: 2.38% Hindi (A); slight upward in municipality fringe,no
+mother_tongue,Urdu,1.50,E,Muslim population fraction,no
+mother_tongue,Other,1.00,E,"Residual catch-all (Nepali fringe, Gujarati/Marwari traders)",no
+mother_tongue,Sadri,22.00,E,Jalpaiguri district 29.56% Sadri (lingua franca of tea-garden Adivasis; A); Mal block Adivasi-heavy; estimated ~22%,no
+mother_tongue,Rajbongshi,7.00,E,Jalpaiguri district 3.93% Rajbongshi (A); higher share in Mal sub-division margin,no
+mother_tongue,Kurukh,8.00,E,Oraon mother tongue; Jalpaiguri district 4.23% (A); higher in Mal where Oraon dominant,no
+mother_tongue,Nepali,6.00,E,Jalpaiguri district 8.97% Nepali (A); some in Mal near Bhutan foothills,no
+mother_tongue,Santali,8.00,E,Santali tribal language; Jalpaiguri 1.24% (A); higher in Mal given Santali ST share,no
+mother_tongue,Mundari,5.50,E,Munda tribal language,no
+education,Illiterate,24.00,E,Mal CDB literacy 66.31% (Census 2011 A); 2019 improvement ~4pp → ~30% illiterate; Mal Municipality literacy 84.61% (A); AC weighted estimate ~76% literate → 24% illiterate,no
+education,Primary,25.00,E,Census 2011 education distribution; tea-garden schools limited attainment,no
+education,Middle,20.00,E,,no
+education,Secondary,15.00,E,,no
+education,Higher_Secondary,9.00,E,,no
+education,Graduate,5.50,E,Low graduate share typical for tea-garden ACs,no
+education,Postgraduate,1.50,E,,no
+workforce_status,Main_worker,38.00,E,Mal CDB 2011: total workers 37.94% of total pop (A); adult-share adjusted upward,no
+workforce_status,Main_worker_tea_garden,25.00,E,Dominant occupation; tea-garden wage employment sub-row,yes
+workforce_status,Main_worker_non_tea,13.00,E,"Agriculture, trade, services outside gardens",yes
+workforce_status,Marginal_worker,9.00,E,Seasonal/part-time agricultural labour fringe,no
+workforce_status,Non_worker,36.00,E,Housewife + elderly; high non-worker share partly from MGNREGA-dependent households,no
+workforce_status,Student,10.00,E,18–22 in education; lower than state average due to tea-garden dropout rates,no
+workforce_status,Unemployed,7.00,E,Educated job-seekers; relatively low given worker intensity in tea economy,no
+occupation,Cultivator,11.50,A,Mal CDB 2011: cultivators 12.09% of total workers (A); adult-worker adjusted,no
+occupation,Agricultural_labourer,19.50,A,Mal CDB 2011: agricultural labourers 20.88% (A); includes non-garden farm labour,no
+occupation,Household_industry,2.00,A,Mal CDB 2011: household industry 1.70% (A),no
+occupation,Manufacturing,3.00,E,Limited organised manufacturing,no
+occupation,Construction,4.00,E,Includes tea-estate maintenance and local construction,no
+occupation,Trade_retail,8.00,E,Mal Municipality market hub for sub-division,no
+occupation,Transport_logistics,4.00,E,Road transport through Malbazar hub,no
+occupation,Services,8.00,E,Private services including tea-estate ancillary,no
+occupation,Government_services_teachers,5.00,E,Block/municipality administrative + school teachers,no
+occupation,Out_migrant_worker,5.00,D,Some male Adivasi out-migration to brick kilns/construction in Kolkata/other states,no
+occupation,Tea_garden_workers_lumped,30.00,E,"Sub-category within Workers: permanent + temporary tea-garden wage employees; large share of Mal block ""Other workers"" category (65.33% in CDB — includes tea-garden workers)",no
+class_of_worker,Employer,1.50,E,Very few employers in predominantly wage-labour economy,no
+class_of_worker,Employee,55.00,E,Tea-garden permanent workers are registered wage employees; dominant class,no
+class_of_worker,Single_worker,28.00,E,Own-account cultivators + small traders,no
+class_of_worker,Family_worker,15.50,E,Unpaid family farm and household industry helpers,no
+economic_status,BPL_household,32.00,E,Jalpaiguri district BPL share estimated ~28–35%; tea-garden Adivasi households clustered near poverty line; ~32%,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,Tea-garden daily-wage earners above official BPL but low income,no
+economic_status,Lower_middle,20.00,E,"Permanent garden employees, small farmers",no
+economic_status,Middle,10.00,E,"Mal Municipality traders, teachers, government staff",no
+economic_status,Upper_middle_well_off,3.00,E,Small affluent segment in municipality,no
+gp_location,U1_Mal_Municipality,7.76,E,"Mal Municipality 2011 pop 25,218 / AC base ~324,774 = ~7.76%; held stable 2019",no
+gp_location,U2_Mal_CDB_tea_garden,92.24,E,"Remainder; Mal CDB 299,556; dominated by tea-garden GPs (Bagrakot, Rangamati, Damdim, Kumlai, Odlabari, Tesimala)",no
+household_composition,Avg_HH_size,4.6 persons,E,WB 2011: 4.3; Jalpaiguri tribal areas slightly higher; ~4.6,no
+household_composition,Nuclear_HH,65.00,E,NFHS-4 WB rural pattern; tea-garden quarters facilitate nuclear household norm,no
+household_composition,Joint_HH,28.00,E,Extended kin networks common in Adivasi communities,no
+household_composition,Extended_multi_generation,7.00,E,Multi-generation especially in landowning cultivator households,no
+marital_status,Never_married,26.00,E,Census 2011 Jalpaiguri pattern; slightly lower never-married share due to early marriage in tribal communities,no
+marital_status,Currently_married,65.00,E,High marriage rate; tribal customary marriage common,no
+marital_status,Widowed,8.00,E,Slightly higher than state avg; hard physical labour and health burden in tea-garden population,no
+marital_status,Separated_divorced,1.00,E,Low official separation rate,no
+asset_media,Television,58.00,C,NFHS-4 WB rural 60%; tea-garden areas slightly below state rural avg due to limited electricity stability,no
+asset_media,Radio,8.00,C,Higher than state avg; tea-garden areas historically radio-reliant,no
+asset_media,Mobile_phone,78.00,C,NFHS-4 WB rural ~78%; 2019 Jio expansion included tea-garden areas,no
+asset_media,Smartphone_with_internet,35.00,C,Below state avg; income constraint + limited connectivity in deep tea-garden areas,no
+asset_media,Computer,4.00,C,Very low; municipality fringe only,no
+asset_media,Two_wheeler,20.00,C,NFHS-4 WB rural 18%; slightly above for tea-garden supervisor class,no
+asset_media,Four_wheeler,3.00,E,Extremely limited; tea-estate management only,no
+asset_media,Banking_access,82.00,B,PMJDY 2014- saturation drove up banking access; tea-garden workers included in formal payroll banking,no
+amenities,Improved_drinking_water_source,80.00,C,NFHS-4 WB rural 84%; tea-garden areas have estate water supply systems; ~80%,no
+amenities,Improved_sanitation,55.00,C,NFHS-4 WB rural 51%; Swachh Bharat 2014-19 + tea-estate basic sanitation push,no
+amenities,LPG_clean_cooking_fuel,28.00,C,NFHS-4 WB rural 24%; Ujjwala 2016-19 (+~10pp in tea-garden areas) → ~28%,no
+amenities,Wood_biomass_fuel,68.00,C,Dominant fuel in tea-garden areas; forests accessible,no
+amenities,Other_fuel,4.00,E,"Kerosene, dung",no
+amenities,Electricity,88.00,C,Census 2011 + Saubhagya 2017-19; tea-garden areas have estate electricity; ~88%,no
+migration,Native,70.00,D,Majority born in Jalpaiguri/Mal; multi-generational tea-garden worker families,no
+migration,WB_other_district,8.00,D,Some in-migration from other WB districts to municipality,no
+migration,Other_Indian_state,5.00,D,Tea-garden Adivasi ancestral origins in Jharkhand/Odisha/Chhattisgarh (historical migration 19th–20th c.) but born in Dooars counts as native,no
+migration,Bangladesh_origin,2.00,E,Very small; Jalpaiguri not a primary refugee/migrant transit route,no
+migration,Outside_India,0.50,E,Negligible,no
+migration,Out_migrant,3.00,E,"Young males working outside, registered here",no
+migration,Jharkhand_origin,11.50,D,Tea-garden Adivasi families trace recent (1-2 generation) origin to Jharkhand/Chhattisgarh/Odisha tea-garden recruitment belt; significant load-bearing migration axis for Mal,no

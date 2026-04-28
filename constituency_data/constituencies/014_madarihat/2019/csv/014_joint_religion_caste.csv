@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,10.00,20.00,5.50,10.00,54.50,0.00,0.00,E,"Hindu includes Rajbanshi, Nepali, Bengali settlers; lower ST share of Hindu vs total because Sarna-ORP captured separately"
+Muslim,0.00,0.00,0.00,0.00,0.00,100.00,0.00,A,self-evident
+Christian,0.00,70.00,0.00,5.00,0.00,0.00,25.00,E,Converted Adivasi mostly ST; some OBC
+Sarna_ORP,0.00,92.00,0.00,5.00,3.00,0.00,0.00,E,Sarna adherents are overwhelmingly ST; small OBC-tribal fringe
+Other_residual,0.00,15.00,0.00,0.00,0.00,0.00,85.00,E,Buddhist Bhutia / Nepali-Hindu fringe

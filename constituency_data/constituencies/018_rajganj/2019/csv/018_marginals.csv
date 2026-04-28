@@ -1,0 +1,101 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,72.00,E,Jalpaiguri district Census 2011: ~75% Hindu; sub-district projection adjusted for Muslim pocket and tea-belt tribal population,no
+religion,Muslim,16.00,E,Jalpaiguri district 2011 ~16% Muslim; Rajganj block has significant Muslim population in eastern GPs,no
+religion,Christian,3.50,E,Tea-belt Christian presence (missionary-origin); Jalpaiguri district ~3-4% Christian,no
+religion,Sarna_ORP,6.50,E,Significant tribal population (Oraon/Munda/Ho/Santhali) in tea garden belt; Jalpaiguri district ~6-8% Sarna/ORP,no
+religion,Other_residual,2.00,E,Sikh (small business community) + Buddhist + Jain + Not-stated; Jalpaiguri town fringe,no
+caste,SC_total,26.00,E,Jalpaiguri district Census 2011 SC ~23-26%; Rajganj block includes Rajbanshi-dominated rural GPs,no
+caste,Rajbanshi_SC,20.00,E,Dominant SC community in North Bengal; Koch-Rajbanshi belt,yes
+caste,Other_SC,6.00,E,"Residual SC communities (Namasudra, Hadi, Bauri etc.)",yes
+caste,ST_total,14.00,E,Jalpaiguri district ST ~17%; tea-garden Oraon/Munda/Ho; Rajganj block lower than district average,no
+caste,Oraon_ST,8.00,E,Dominant ST in Jalpaiguri tea belt; Oraon (Kurukh-speaking) tea garden workers,yes
+caste,Other_ST,6.00,E,"Munda, Ho, Santhali, Bhumij in tea gardens",yes
+caste,UC_bhadralok,7.00,E,Brahmin/Kayastha/Baidya; concentrated in Rajganj town and educated services,no
+caste,OBC,10.00,E,"Koch (non-SC), Teli, Sutradhar, Kurmi (non-ST), Mahishya fringe; OBC community present",no
+caste,Other_Hindu_middle,15.00,E,Residual Hindu middle castes not classified SC/ST/UC/OBC,no
+caste,Muslim,16.00,E,See C.1; largely Bengali-speaking Muslim peasantry; some Bihari Muslim labour,no
+caste,Christian_plus_Sarna_plus_Other,12.00,E,Christian (tea-belt) + Sarna_ORP (tribal religion) + Other_residual; see C.1 breakdown,no
+age_cohort,18_22,12.00,E,Jalpaiguri district age pyramid; renormalized to 18+ adult voters only,no
+age_cohort,23_27,12.50,E,,no
+age_cohort,28_32,12.00,E,,no
+age_cohort,33_37,11.00,E,,no
+age_cohort,38_42,10.00,E,,no
+age_cohort,43_47,9.50,E,,no
+age_cohort,48_52,8.50,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.00,E,,no
+age_cohort,63_67,6.00,E,,no
+age_cohort,68,5.50,E,68+ open-ended; renormalized from Census 2011 age distribution excluding 0-17,no
+gender,Male,51.02,E,Jalpaiguri district sex ratio 960 F per 1000 M → 51.02% M / 48.98% F,no
+gender,Female,48.97,E,,no
+gender,Third_gender,0.01,E,Negligible; consistent with WB state pattern,no
+mother_tongue,Bengali,58.00,E,Dominant language in Rajganj; Muslim and Hindu Bengali-speaking majority,no
+mother_tongue,Hindi,4.00,E,Hindi-belt migrant workers; Bihari/UP/Jharkhand labour in tea estates,no
+mother_tongue,Urdu,1.50,E,Small Muslim Urdu-speaking pocket,no
+mother_tongue,Other,2.50,E,"Residual (Nepali, Assamese fringe, Marwari)",no
+mother_tongue,Rajbongshi,20.00,E,Rajbongshi (Koch-Rajbanshi) language; dominant among SC Rajbanshi community of North Bengal,no
+mother_tongue,Sadri,8.00,E,Sadri (Nagpuri lingua franca) spoken by Oraon/Munda/Ho tea garden workers,no
+mother_tongue,Kurukh,3.00,E,Oraon mother tongue (Dravidian); coexists with Sadri bilingualism,no
+mother_tongue,Santali,3.00,E,Santhali speakers in tea-belt pockets,no
+education,Illiterate,24.00,E,Jalpaiguri district literacy ~73% (2011); projected +5pp → ~78% by 2019; tea-garden illiteracy drags down,no
+education,Primary,22.00,E,Census 2011 education distribution scaled; tea-garden primary schools,no
+education,Middle,19.00,E,,no
+education,Secondary,16.00,E,,no
+education,Higher_Secondary,10.00,E,,no
+education,Graduate,7.00,E,Jalpaiguri college town effect partially off-set by large rural/tribal base,no
+education,Postgraduate,2.00,E,,no
+workforce_status,Main_worker,34.00,E,Jalpaiguri block Census 2011 main-worker ~33-35%; tea-garden regular wage dominant,no
+workforce_status,Marginal_worker,12.00,E,Seasonal agriculture and tea-picking labour,no
+workforce_status,Non_worker,37.00,E,Housewife + elderly + retired,no
+workforce_status,Student,10.00,E,18-22 cohort in education,no
+workforce_status,Unemployed,7.00,E,Educated youth job-seekers; tea estate unemployment notable,no
+occupation,Cultivator,22.00,E,Jalpaiguri block rural; smallholder agriculture,no
+occupation,Agricultural_labourer,18.00,E,Includes tea-garden pluckers classified as agricultural labour in Census,no
+occupation,Household_industry,3.50,E,Small cottage industry; handloom fringe,no
+occupation,Manufacturing,5.00,E,"Limited manufacturing; small rice mill, flour mill",no
+occupation,Construction,7.00,E,MGNREGS construction; private construction,no
+occupation,Trade_retail,10.00,E,Rajganj town retail hub,no
+occupation,Transport_logistics,5.50,E,Goods transport on NH-27 corridor,no
+occupation,Services,12.00,E,Private services,no
+occupation,Government_services_teachers,7.00,E,Govt employees; teachers dominate,no
+occupation,Out_migrant_worker,10.00,D,North Bengal out-migration to Kerala/TN; tribal youth to brick kilns,no
+class_of_worker,Employer,2.00,E,Census B-04 WB rural pattern,no
+class_of_worker,Employee,30.00,E,Tea-garden regular wage + govt + organised retail,no
+class_of_worker,Single_worker,45.00,E,Own-account cultivator + small trader + artisan,no
+class_of_worker,Family_worker,23.00,E,Unpaid family labour heavy in agricultural HH,no
+economic_status,BPL_household,28.00,E,Jalpaiguri district BPL ~32% (2001); reduced ~28% by 2019 trend; tea-garden poverty high,no
+economic_status,Above_Poverty_Line_low_income,36.00,E,Marginal above-BPL; tea-garden wage households,no
+economic_status,Lower_middle,22.00,E,"Small traders, marginal cultivators",no
+economic_status,Middle,11.00,E,"Salaried employees, medium farmers",no
+economic_status,Upper_middle_well_off,3.00,E,"Town-based professionals, large traders",no
+gp_location,U1_Rajganj_town,20.00,E,Rajganj urban/town area; approximate 2011 town population share of AC electorate,no
+gp_location,U2_Rajganj_CDB_rural,80.00,E,Rajganj CD Block rural GP area; dominant rural-agricultural and tea-belt population,no
+household_composition,Avg_HH_size,4.5 persons,E,WB 2011 4.3; North Bengal tribal/rural slightly higher,no
+household_composition,Nuclear_HH,65.00,E,NFHS-4 WB rural pattern,no
+household_composition,Joint_HH,28.00,E,Higher joint-family incidence in tribal/agricultural households,no
+household_composition,Extended_multi_generation,7.00,E,,no
+marital_status,Never_married,25.00,E,Jalpaiguri district Census 2011 pattern; tribal earlier marriage reduces never-married,no
+marital_status,Currently_married,66.00,E,,no
+marital_status,Widowed,8.00,E,Higher widowhood in tea-garden elderly female population,no
+marital_status,Separated_divorced,1.00,E,,no
+asset_media,Television,65.00,C,"NFHS-4 WB rural ~60%, urban ~89%; Rajganj weighted lower due to large tribal/tea-belt population",no
+asset_media,Radio,8.00,C,Slightly higher in tea-belt (legacy radio habit),no
+asset_media,Mobile_phone,80.00,C,NFHS-4 WB ~78% + Jio rollout 2016-19,no
+asset_media,Smartphone_with_internet,35.00,C,NFHS-4 WB rural pattern + Jio; rural North Bengal lower than state average,no
+asset_media,Computer,6.00,C,NFHS-4 WB rural 4%; small town fringe,no
+asset_media,Two_wheeler,25.00,C,NFHS-4 WB rural 18%; modest growth,no
+asset_media,Four_wheeler,5.00,C,Limited; town-based professionals,no
+asset_media,Banking_access,82.00,B,PMJDY saturation + tea-garden wage-bank disbursement; higher due to tea-estate formal employment,no
+amenities,Improved_drinking_water_source,80.00,C,NFHS-4 WB rural 84%; North Bengal lower in remote GPs; tea-belt piped water,no
+amenities,Improved_sanitation,55.00,C,NFHS-4 WB rural 51%; +Swachh Bharat 2014-19 (+15pp rural),no
+amenities,LPG_clean_cooking_fuel,35.00,C,NFHS-4 WB rural 24%; +Ujjwala 2016-19 rollout (~+15pp),no
+amenities,Wood_biomass_fuel,60.00,C,High biomass use in tea-belt and tribal households,no
+amenities,Other_fuel,5.00,C,"Kerosene, dung-cake residual",no
+amenities,Electricity,90.00,A,Census 2011 + Saubhagya 2017-19; Jalpaiguri electrification high,no
+migration,Native,72.00,E,Born in Jalpaiguri district or same village/town; long-settled Rajbanshi + Muslim peasantry + tribal tea workers,no
+migration,WB_other_district,8.00,E,"Some inter-district in-migration from Cooch Behar, Koch Bihar belt",no
+migration,Other_Indian_state,7.00,E,Tea-garden tribal labour from Jharkhand/Chhattisgarh/Odisha; Bihar/UP labour,no
+migration,Bangladesh_origin,5.00,D,Hindu refugee trickle post-Partition; lower than border-belt ACs but present,no
+migration,Outside_India,0.50,E,Negligible,no
+migration,Out_migrant,3.50,E,Registered here but working outside; tribal youth out-migration to brick kilns,no
+migration,Jharkhand_origin,4.00,E,Tea-garden Adivasi originally from Jharkhand/Santhal Parganas; multi-generation settled,no

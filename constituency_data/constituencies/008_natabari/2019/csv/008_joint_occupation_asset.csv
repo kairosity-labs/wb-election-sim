@@ -1,0 +1,11 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,28.00,65.00,C,Rural agricultural baseline; Cooch Behar rural below state average
+Agricultural_labourer,18.00,55.00,C,Lowest income group in AC
+Household_industry,30.00,68.00,C,Artisan weaver households
+Manufacturing,42.00,75.00,C,Slightly higher income
+Construction,35.00,68.00,C,Mobile-heavy out-migrant pattern
+Trade_retail,58.00,82.00,C,Block-market traders; higher access
+Transport_logistics,50.00,75.00,C,
+Services,60.00,85.00,C,
+Government_services_teachers,75.00,90.00,C,Highest access; government employer provides stable income
+Out_migrant_worker,55.00,72.00,D,Working outside; smartphone-reliant for remittances

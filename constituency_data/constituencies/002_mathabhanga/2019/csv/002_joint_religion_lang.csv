@@ -1,0 +1,6 @@
+Religion,Bengali,Hindi,Urdu,Other,Rajbongshi,Tier,Source
+Hindu,87.00,0.50,0.00,0.50,12.00,E,Rajbanshi-SC population uses Rajbongshi dialect; urban Hindu uses Bengali; weighted
+Muslim,96.00,0.50,3.00,0.50,0.00,E,Bengali-Muslim border belt; small Urdu pocket
+Christian,90.00,5.00,0.00,5.00,0.00,E,Tiny base; Bengali + English-medium families
+Sarna_ORP,70.00,0.00,0.00,5.00,25.00,E,Small tribal population; some Rajbongshi overlap
+Other_residual,70.00,25.00,0.00,5.00,0.00,E,Marwari/trader fringe

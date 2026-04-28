@@ -1,0 +1,12 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,22.00,48.00,E,Non-tea smallholder; below state rural avg
+Agricultural_labourer,15.00,38.00,E,Poorest segment
+Household_industry,25.00,50.00,E,
+Manufacturing,35.00,60.00,E,
+Construction,30.00,55.00,E,
+Trade_retail,55.00,72.00,E,Nagrakata town traders
+Transport_logistics,48.00,65.00,E,Tea-estate transport workers
+Services,60.00,75.00,E,
+Government_services_teachers,78.00,90.00,E,Highest; educated class
+Out_migrant_worker,62.00,72.00,D,Working outside; smartphone access driven by remittance-related needs
+Tea_garden_worker,18.00,45.00,E,Tea-garden permanent worker; lower smartphone penetration; TV via garden community hall

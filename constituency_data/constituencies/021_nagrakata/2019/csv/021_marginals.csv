@@ -1,0 +1,106 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,70.00,E,Jalpaiguri district 2011: Hindu ~70%; tea garden Adivasis split between Hindu practice and Sarna; projected stable,no
+religion,Muslim,8.00,E,Jalpaiguri district 2011 ~8–9% Muslim; Nagrakata block lower than district avg given heavy ST composition,no
+religion,Christian,2.50,E,Tea garden Christian converts (Anglican/Catholic missions in colonial tea estate belt; Santhali Christian community),no
+religion,Sarna_ORP,18.00,E,"Adivasi Sarna/traditional religion followers in tea gardens; Oraon, Munda, Santhali practitioners; Jalpaiguri tribal religious pattern",no
+religion,Other_residual,1.50,E,Buddhist (Nepali/Tibetan fringe near Bhutan border) + Sikh + Jain + Not_stated,no
+caste,SC_total,8.00,E,Jalpaiguri district SC ~11%; Nagrakata block lower SC given high ST proportion; residual scheduled castes,no
+caste,Rajbanshi_SC,5.00,E,Dominant SC in Jalpaiguri; Koch-Rajbanshi community partially SC-listed,yes
+caste,Other_SC,3.00,E,"Residual SC (Chamar, Hari, Bauri etc.)",yes
+caste,ST_total,45.00,E,Nagrakata ST-reserved; Jalpaiguri census 2011 ST ~28% at district level; Nagrakata block heavily ST (tea garden Adivasi belt — Oraon/Munda/Santhali/Toto fringe),no
+caste,Oraon_ST,20.00,E,Largest single ST community in Jalpaiguri tea gardens; dominant in Nagrakata belt,yes
+caste,Munda_ST,10.00,E,Second largest tea-garden tribal,yes
+caste,Santhali_ST,8.00,E,Widespread across Terai tea estates,yes
+caste,Other_ST,7.00,E,"Includes Toto (small community), Bodo, Mech, Rabha",yes
+caste,UC_bhadralok,4.00,E,Brahmin/Kayastha/Baidya — small administrative and professional class in Nagrakata town,no
+caste,OBC,6.00,E,"Rajbanshi (OBC category), Koch, Desi Muslim artisans",no
+caste,Other_Hindu_middle,14.00,E,"Residual: Gorkha/Nepali Hindu, Bengali middle castes, Marwari trader fringe",no
+caste,Muslim,8.00,E,Mirrors C.1; mostly Bengali-speaking and Deshi Muslim,no
+caste,Christian_plus_Sarna_plus_Other,15.00,E,Collapsed: Christian converts (2.5%) + Sarna/ORP non-Hindu-coded tribal (12%) + Other_residual (0.5%),no
+age_cohort,18_22,12.00,E,Jalpaiguri district age pyramid 2011 renormalized to 18+ adults; first-time voter cohort,no
+age_cohort,23_27,12.50,E,,no
+age_cohort,28_32,12.00,E,,no
+age_cohort,33_37,10.50,E,,no
+age_cohort,38_42,10.00,E,,no
+age_cohort,43_47,9.00,E,,no
+age_cohort,48_52,8.00,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.00,E,,no
+age_cohort,63_67,6.50,E,Slightly elevated older cohort; tea-garden stable resident population,no
+age_cohort,68,6.50,E,68+ open-ended; tea-belt long-residence elders,no
+gender,Male,51.15,E,Jalpaiguri 2011 sex ratio 955 → 51.15% M / 48.85% F,no
+gender,Female,48.84,E,,no
+gender,Third_gender,0.01,E,Negligible; WB pattern,no
+mother_tongue,Bengali,38.00,E,Jalpaiguri 2011 linguistic census: Bengali ~38% of block population including settled Bengali community + tea-garden management class,no
+mother_tongue,Hindi,5.00,E,Hindi-belt migrants in tea estates; Bihari/UP workers and contractors,no
+mother_tongue,Urdu,2.00,E,Small Muslim community fraction,no
+mother_tongue,Other,2.00,E,"Residual catch-all: Nepali fringe, Tibetan, Sikh",no
+mother_tongue,Sadri,28.00,E,"Sadri (Nagpuri) is the lingua franca of tea-garden Adivasi workers in Jalpaiguri; Oraon, Munda, Santhali speakers largely use Sadri in inter-community communication",no
+mother_tongue,Santhali,10.00,E,Native Santhali speakers (Ol Chiki script community),no
+mother_tongue,Rajbongshi,8.00,E,Koch-Rajbanshi / Rajbongshi language community in Terai belt,no
+mother_tongue,Nepali,7.00,E,Gorkha/Nepali-speaking community near Bhutan border fringe,no
+education,Illiterate,28.00,E,Jalpaiguri district 2011 literacy ~71%; tea-garden Adivasi literacy lower; AC-level ~72% literate → ~28% illiterate,no
+education,Primary,24.00,E,Census 2011 Jalpaiguri education distribution scaled; tea-belt primary attainment common,no
+education,Middle,19.00,E,,no
+education,Secondary,14.00,E,Drop-off at secondary; tea-garden children often stop after primary,no
+education,Higher_Secondary,8.00,E,,no
+education,Graduate,5.50,E,,no
+education,Postgraduate,1.50,E,,no
+workforce_status,Main_worker,38.00,E,Tea garden employment drives high main-worker rate; Census 2011 Jalpaiguri block pattern,no
+workforce_status,Main_worker_tea_garden,22.00,E,Sub-row: permanent tea estate employees (is_subgroup=yes),yes
+workforce_status,Main_worker_non_tea,16.00,E,"Sub-row: cultivation, trade, govt (is_subgroup=yes)",yes
+workforce_status,Marginal_worker,14.00,E,Seasonal/casual tea-picking labour; periodic agricultural work,no
+workforce_status,Non_worker,30.00,E,Housewife + elderly; lower than state average due to female tea-garden labour participation,no
+workforce_status,Student,10.00,E,18–22 in education,no
+workforce_status,Unemployed,8.00,E,Educated job-seekers; frustrated non-tea youth,no
+occupation,Cultivator,14.00,E,Non-tea-garden smallholder farming in GP areas,no
+occupation,Agricultural_labourer,8.00,E,Non-tea agricultural labourers,no
+occupation,Household_industry,3.00,E,Artisan and cottage; low in tea-belt,no
+occupation,Manufacturing,4.00,E,Small processing units in Nagrakata town,no
+occupation,Construction,5.00,E,Building trade,no
+occupation,Trade_retail,8.00,E,Nagrakata town market,no
+occupation,Transport_logistics,4.00,E,Tea-estate truck/jeep economy,no
+occupation,Services,6.00,E,Private services,no
+occupation,Government_services_teachers,5.00,E,"Block-level offices, schools",no
+occupation,Out_migrant_worker,3.00,E,Young ST workers to Sikkim/Assam/Delhi; D-estimate,no
+occupation,Tea_garden_worker,40.00,E,"AC-local: permanent + temporary tea estate workers (pluckers, garden staff); dominant occupation category in this belt",no
+class_of_worker,Employer,1.50,E,Small tea-garden contractors and shop owners,no
+class_of_worker,Employee,48.00,E,Tea-garden registered employees dominate; also govt employees,no
+class_of_worker,Single_worker,30.00,E,"Own-account cultivators, petty traders",no
+class_of_worker,Family_worker,20.50,E,Unpaid family farm helpers; substantial in non-tea households,no
+economic_status,BPL_household,35.00,E,Jalpaiguri district BPL proportion higher than state average; tea-garden Adivasi communities significantly below poverty line; estimated ~35% BPL,no
+economic_status,Above_Poverty_Line_low_income,32.00,E,Marginal tea-garden and smallholder households just above BPL,no
+economic_status,Lower_middle,20.00,E,"Regular tea-garden permanent workers, petty traders",no
+economic_status,Middle,10.00,E,"Supervisory tea-estate staff, government servants, teachers",no
+economic_status,Upper_middle_well_off,3.00,E,"Tea-estate managers, large traders, professional class in Nagrakata town",no
+gp_location,U1_Tea_Garden_belt,60.00,E,Majority of Nagrakata block population lives in or adjacent to tea garden labour lines; v0 equal-weight estimate,no
+gp_location,U2_Non_Tea_rural,40.00,E,GP villages outside tea garden estates; smallholder farming belt,no
+household_composition,Avg_HH_size,4.6 persons,E,WB tea-belt pattern; larger HH sizes in tea garden labour lines,no
+household_composition,Nuclear_HH,62.00,E,NFHS-4 WB rural pattern; tea-garden line housing promotes nuclear families,no
+household_composition,Joint_HH,30.00,E,Extended family common in non-tea villages,no
+household_composition,Extended_multi_generation,8.00,E,Multi-generational households in older tea-garden communities,no
+marital_status,Never_married,26.00,E,Census 2011 Jalpaiguri pattern; first-time voter cohort,no
+marital_status,Currently_married,65.00,E,,no
+marital_status,Widowed,8.00,E,Slightly elevated; tea-garden occupational hazard and older age profile,no
+marital_status,Separated_divorced,1.00,E,,no
+asset_media,Television,55.00,C,NFHS-4 WB rural ~60%; tea-garden Adivasi households below state rural avg; AC ~55%,no
+asset_media,Radio,8.00,C,Slightly elevated in tea-belt; garden management still uses radio,no
+asset_media,Mobile_phone,78.00,C,NFHS-4 WB rural ~78%; reasonable for 2019 given Jio rollout,no
+asset_media,Smartphone_with_internet,30.00,C,Below state average; tea-garden literacy constraint; Jalpaiguri rural pattern,no
+asset_media,Computer,4.00,C,Very low; Jalpaiguri rural pattern,no
+asset_media,Two_wheeler,18.00,C,NFHS-4 WB rural ~18%; tea-belt motorcycle use moderate,no
+asset_media,Four_wheeler,3.00,C,Limited; mostly estate management vehicles,no
+asset_media,Banking_access,72.00,C,PMJDY Jan Dhan rollout; tea-garden workers increasingly banked via wage-payment mandates; below state avg,no
+amenities,Improved_drinking_water_source,78.00,C,NFHS-4 WB rural; tea estate piped water partially available; some garden villages lack access,no
+amenities,Improved_sanitation,52.00,C,NFHS-4 WB rural ~51% + Swachh Bharat 2014-19 gains; tea-belt slightly lower than plains rural,no
+amenities,LPG_clean_cooking_fuel,28.00,C,NFHS-4 WB rural ~24% + Ujjwala 2016-19 gains; tea-garden Adivasi LPG uptake lower than plains,no
+amenities,Wood_biomass_fuel,65.00,C,Primary cooking fuel in tea garden labour lines; firewood collection common,no
+amenities,Other_fuel,7.00,C,"Kerosene, crop residue",no
+amenities,Electricity,88.00,C,Census 2011 + Saubhagya 2017-19 rollout; tea gardens electrified earlier; good coverage,no
+migration,Native,55.00,D,Born in Jalpaiguri district or same block; multi-generational tea-garden resident families,no
+migration,WB_other_district,8.00,D,Internal WB migrants; Bengali middle-class in Nagrakata town from other districts,no
+migration,Other_Indian_state,22.00,D,Central Indian tribal labourers brought to Jalpaiguri tea estates in 19th–early 20th century; Jharkhand/Bihar/Odisha origin Oraon/Munda/Santhali — now 3rd–5th generation residents,no
+migration,Bangladesh_origin,3.00,D,Small settled Bengali Hindu fringe; not primarily a refugee AC,no
+migration,Outside_India,0.50,E,Negligible; some Nepal-origin Gorkha households near Bhutan border,no
+migration,Out_migrant,3.00,E,Young ST workers temporarily absent,no
+migration,Jharkhand_origin,8.50,D,AC-local: specifically Jharkhand/Chhattisgarh/Odisha-origin Adivasi (Oraon/Munda/Santhali) tea-garden indentured-labour descent — set separately from Other_Indian_state to flag load-bearing historical migration stream; overlaps Other_Indian_state,no

@@ -1,0 +1,107 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,82.00,A,Kumargram CDB Census 2011: 82.27% Hindu; stable to 2019,no
+religion,Muslim,5.00,E,Kumargram CDB 2011: 4.34% Muslim + slightly higher Alipurduar II GPs share; blended ~5%,no
+religion,Christian,11.50,A,Kumargram CDB 2011: 11.97% Christian (tea garden missionary belt); slight decline projection,no
+religion,Sarna_ORP,1.00,E,Tribal Oraon/Santal traditional religion; lumped from Other/Buddhist residual,no
+religion,Other_residual,0.50,E,"Buddhist 0.79% in CDB, partially reassigned to Sarna; Sikh/Jain fringe",no
+caste,SC_total,35.50,A,Kumargram CDB Census 2011: 35.78% SC; AC-level approximation,no
+caste,Rajbanshi_SC,20.00,E,Dominant SC in Dooars; ~56% of SC pool (state pattern for North Bengal),yes
+caste,Namasudra_SC,5.00,E,~14% of SC pool,yes
+caste,Other_SC,10.50,E,"Bagdi, Hari, Bauri, residual SC communities",yes
+caste,ST_total,29.50,A,Kumargram CDB Census 2011: 30.00% ST; Alipurduar II GPs slightly lower → AC ~29.5%,no
+caste,Oraon_ST,12.00,D,Dominant plantation ST (Kurukh-speakers); tea garden Adivasi belt (Kolkatatales/Wikipedia),yes
+caste,Santal_ST,8.00,D,Second largest; plains-farming Santal community,yes
+caste,Munda_ST,5.00,D,Tea garden labour community,yes
+caste,Other_ST,4.50,E,"Bodo, Rajbongshi-ST, Toto fringe, other Jharkhand-origin tribes",yes
+caste,UC_bhadralok,3.00,E,Very small in rural tea-belt AC; Bengali Brahmin/Kayastha fraction,no
+caste,OBC,5.00,E,"Koch-Rajbongshi OBC, Kurmi, other OBC in Dooars",no
+caste,Other_Hindu_middle,15.00,E,Residual within Hindu: 82.00 − 35.50 SC − 29.50 ST − 3.00 UC − 5.00 OBC = 9.00 plus non-SC/ST Hindu caste groups; adjusted for Muslim/Christian/Other totalling 18%,no
+caste,Muslim,5.00,E,See C.1; Bengali Muslim and Nepali Muslim fraction,no
+caste,Christian_plus_Sarna_plus_Other,7.00,E,Christian 11.5% + Sarna 1.0% + Other 0.5% population (not all in caste frame),no
+age_cohort,18_22,11.50,E,Projected from Alipurduar district Census 2011 age pyramid; first-time voters,no
+age_cohort,23_27,11.00,E,,no
+age_cohort,28_32,10.50,E,,no
+age_cohort,33_37,10.00,E,,no
+age_cohort,38_42,9.50,E,,no
+age_cohort,43_47,9.00,E,,no
+age_cohort,48_52,8.50,E,,no
+age_cohort,53_57,8.00,E,,no
+age_cohort,58_62,7.00,E,,no
+age_cohort,63_67,8.00,E,Adjusted for tea-belt mortality pattern; slightly higher elderly share,no
+age_cohort,68,7.00,E,68+ open-ended; renormalized from Census 2011 excluding 0–17,no
+gender,Male,51.28,E,Alipurduar district sex ratio ~951 F per 1000 M → 51.28% M / 48.71% F,no
+gender,Female,48.71,E,,no
+gender,Third_gender,0.01,E,Negligible; national pattern,no
+mother_tongue,Bengali,55.00,E,Bengali Hindu SC/ST + Muslim fraction; dominant language but not overwhelming in tea belt,no
+mother_tongue,Hindi,3.00,E,Bihari/UP-origin tea-garden settled workers and traders,no
+mother_tongue,Urdu,1.00,E,Muslim fraction Urdu speakers,no
+mother_tongue,Other,3.00,E,"Residual catch-all (Nepali fringe, Assamese border community)",no
+mother_tongue,Sadri,14.00,D,"Lingua franca of Oraon, Munda, and other Jharkhand-origin tribes; tea-belt dominant (Wikipedia Kumargram CDB)",no
+mother_tongue,Rajbongshi,12.00,D,Koch-Rajbongshi community language; North Bengal plains,no
+mother_tongue,Santali,8.00,D,Santal tribal community language,no
+mother_tongue,Kurukh,4.00,E,Oraon mother tongue fraction not subsumed in Sadri,no
+education,Illiterate,28.00,E,"Alipurduar district literacy ~72% (Census 2011, A); tea belt lower than WB avg; AC ~28% illiterate after +3pp/8yr trend",no
+education,Primary,25.00,E,Census 2011 education distribution — tea-garden primary enrolment high,no
+education,Middle,20.00,E,,no
+education,Secondary,14.00,E,,no
+education,Higher_Secondary,7.00,E,,no
+education,Graduate,4.50,E,Tea garden + forest administrative class,no
+education,Postgraduate,1.50,E,Very limited; district town professionals,no
+workforce_status,Main_worker,38.00,E,Kumargram CDB 2011 main-worker rate elevated by tea garden plantation employment,no
+workforce_status,Main_worker_tea_garden,20.00,D,Tea estate regular workers; is_subgroup=yes,yes
+workforce_status,Main_worker_non_tea,18.00,E,"Agriculture, forest, services; is_subgroup=yes",yes
+workforce_status,Marginal_worker,12.00,E,Seasonal ag labour + marginal tea work,no
+workforce_status,Non_worker,35.00,E,Housewife + elderly + retired; slightly lower than WB avg due to tea-belt female employment,no
+workforce_status,Student,9.00,E,18–22 in education,no
+workforce_status,Unemployed,6.00,E,Educated job-seekers; limited white-collar economy,no
+occupation,Cultivator,15.00,E,Small-farm holders outside tea estates; Kumargram CDB rural pattern,no
+occupation,Agricultural_labourer,25.00,E,Seasonal ag labourer including tea-fringe smallholder,no
+occupation,Household_industry,3.00,E,"Basket weaving, minor artisan; tribal craft tradition",no
+occupation,Manufacturing,4.00,E,Very limited organised manufacturing in this belt,no
+occupation,Construction,5.00,E,"Border-area infrastructure, roads",no
+occupation,Trade_retail,7.00,E,Kumargram town and Samuktala market centres,no
+occupation,Transport_logistics,4.00,E,"Bhutan border trade routes, forest roads",no
+occupation,Services,7.00,E,"Private services, petty trade",no
+occupation,Government_services_teachers,5.00,E,"Forest dept, school teachers, panchayat staff",no
+occupation,Out_migrant_worker,5.00,D,"Tribal men to Assam tea gardens, Kerala, Kolkata",no
+occupation,Tea_garden_plantation,20.00,D,Permanent plantation workers on tea estates (AC-local sub-category),no
+class_of_worker,Employer,1.00,E,Very rare; tea-garden owners are absentee,no
+class_of_worker,Employee,40.00,E,Tea garden workers (regular wage) + govt employees,no
+class_of_worker,Single_worker,40.00,E,"Own-account cultivator, petty trader, artisan",no
+class_of_worker,Family_worker,19.00,E,Unpaid family labour on small farms; high in Adivasi households,no
+economic_status,BPL_household,32.00,C,Alipurduar district poverty rate elevated; WB poverty fell but tea-belt residual high; est. ~32%,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,Just-above-BPL tea worker families,no
+economic_status,Lower_middle,20.00,E,"Small cultivators, traders",no
+economic_status,Middle,10.00,E,"Teachers, forest officers, established traders",no
+economic_status,Upper_middle_well_off,3.00,E,Tea garden manager class and wholesale traders,no
+gp_location,U1_Kumargram_CDB,70.00,E,"Kumargram CDB pop 199,609 / AC est. ~260,000 ≈ 77%; adjusted down for urban Samuktala pull in Alipurduar II GPs → 70%",no
+gp_location,U2_Alipurduar_II_GPs,30.00,E,"7 GPs of Alipurduar II block; Bhatibari, Kohinoor, Mahakalguri, Parokata, Samuktala, Tatpara I, Turturi",no
+household_composition,Avg_HH_size,4.9 persons,E,Tea garden line housing = larger HH; WB avg 4.3; tribal extended family pattern → ~4.9,no
+household_composition,Nuclear_HH,60.00,E,NFHS-4 WB rural pattern; tea-line single-room units promote nuclear structure,no
+household_composition,Joint_HH,28.00,E,Tribal joint family tradition,no
+household_composition,Extended_multi_generation,12.00,E,Tea garden barracks multi-generational residence pattern,no
+marital_status,Never_married,26.00,E,Census 2011 Alipurduar pattern; slightly lower than WB urban avg,no
+marital_status,Currently_married,66.00,E,High marriage rate in tribal and tea-belt communities; early marriage,no
+marital_status,Widowed,7.00,E,Female-concentrated 60+ age group,no
+marital_status,Separated_divorced,1.00,E,Low formal divorce; some de-facto separation in out-migrant households,no
+asset_media,Television,55.00,C,NFHS-4 WB rural ~60%; tea-belt income constraint; AC ~55%,no
+asset_media,Radio,8.00,C,Higher than WB avg; tea-garden community radio tradition,no
+asset_media,Mobile_phone,78.00,C,NFHS-4 WB rural ~78%; stable baseline,no
+asset_media,Smartphone_with_internet,30.00,C,Below WB rural avg (35%); lower literacy and income; Jio rollout partial,no
+asset_media,Computer,3.00,E,Very limited; mainly school/govt offices,no
+asset_media,Two_wheeler,18.00,C,NFHS-4 WB rural ~18%; low income,no
+asset_media,Four_wheeler,3.00,E,Very limited; tea estate managers fraction,no
+asset_media,Banking_access,80.00,B,PMJDY saturation + tea-wage banking mandate; above-rural-avg due to estate payroll,no
+amenities,Improved_drinking_water_source,80.00,C,NFHS-4 WB rural 84%; tea-belt spring water access; AC ~80%,no
+amenities,Improved_sanitation,45.00,C,NFHS-4 WB rural 51%; tea-line housing below avg; Swachh Bharat partial uptake,no
+amenities,LPG_clean_cooking_fuel,20.00,C,NFHS-4 WB rural 24%; Ujjwala 2016-19 partial; tea-belt biomass dependence,no
+amenities,Wood_biomass_fuel,75.00,C,Primary cooking fuel; forest belt biomass abundant,no
+amenities,Other_fuel,5.00,E,"Kerosene, dung, residual",no
+amenities,Electricity,90.00,A,Saubhagya 2017-19 near-saturation + tea-estate grid; Census 2011 baseline ~70% → 90% by 2019,no
+migration,Native,55.00,D,Born in Alipurduar/Jalpaiguri or same block; settled tribal communities,no
+migration,WB_other_district,5.00,D,Some Jalpaiguri and Cooch Behar in-migrants,no
+migration,Other_Indian_state,5.00,D,"Bihari/Oraon tea-garden labour from Jharkhand / Bihar origin (settled, not transient)",no
+migration,Bangladesh_origin,1.00,E,Minimal; not a refugee-belt AC,no
+migration,Outside_India,0.50,E,Nepali-origin settled community; Bhutanese fringe,no
+migration,Out_migrant,3.50,D,Working outside; some tribal men in Assam tea gardens or Kolkata,no
+migration,Jharkhand_origin,30.00,D,"Load-bearing: Oraon, Munda, Santal ancestors brought from Chota Nagpur plateau as indentured tea labour (1860s–1930s); now settled for 3–5 generations; classified as WB residents",no

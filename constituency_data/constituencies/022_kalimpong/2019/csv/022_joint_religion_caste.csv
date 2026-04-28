@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,6.20,12.00,5.00,14.00,62.80,0,0,E,Hindu: predominantly Nepali-Gorkha (Other_Hindu_middle); ST = Lepcha/Bhutia/Limboo Hindu; SC small
+Muslim,0,0,0,0,0,100,0,A,self-evident
+Christian,0,20.00,0,5.00,10.00,0,65.00,E,Lepcha/Limboo Christian → ST; Nepali Christian → Other_Hindu_middle or Christian_plus
+Sarna_ORP,0,85.00,0,5.00,10.00,0,0,E,Tribal religion: predominantly ST (Lepcha)
+Other_residual,0,50.00,0,5.00,0,0,45.00,E,Buddhist: Bhutia ST + some non-tribal Buddhist lump

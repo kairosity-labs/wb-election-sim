@@ -1,0 +1,11 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,28.00,58.00,E,Rural ag baseline; below WB average
+Agricultural_labourer,20.00,48.00,E,Lowest income; lowest access
+Household_industry,32.00,62.00,E,
+Manufacturing,42.00,72.00,E,
+Construction,38.00,65.00,E,
+Trade_retail,58.00,80.00,E,Muni concentrated; higher access
+Transport_logistics,52.00,74.00,E,Border port workers
+Services,60.00,82.00,E,
+Government_services_teachers,78.00,90.00,E,Highest access
+Out_migrant_worker,65.00,75.00,E,Smartphone-heavy

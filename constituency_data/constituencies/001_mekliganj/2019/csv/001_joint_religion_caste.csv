@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,79.50,1.17,2.66,3.99,12.68,0,0,E,SC_total/Hindu: 65.0/75.25 = 86.4% of Hindu is SC; distributed among leaves; Hindu row sums to 100
+Muslim,0,0,0,0,0,100,0,A,self-evident
+Christian,0,0,0,0,0,0,100,A,self-evident
+Sarna_ORP,0,90,0,5,5,0,0,E,Mostly ST affiliation
+Other_residual,0,0,0,0,0,0,100,E,Residual

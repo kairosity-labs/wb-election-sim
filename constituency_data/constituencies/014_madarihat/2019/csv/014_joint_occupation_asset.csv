@@ -1,0 +1,11 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,22.00,48.00,C,Rural smallholder; low income
+Agricultural_labourer,18.00,40.00,C,Tea-garden pluckers; lowest smartphone access in AC
+Household_industry,25.00,50.00,C,
+Manufacturing,30.00,58.00,C,Tea-factory workers slightly better
+Construction,28.00,52.00,C,
+Trade_retail,55.00,75.00,C,Jaigaon border market traders; higher smartphone penetration
+Transport_logistics,50.00,70.00,C,Truck/jeep operators
+Services,48.00,68.00,C,
+Government_services_teachers,72.00,88.00,C,Highest access
+Out_migrant_worker,60.00,65.00,D,Remittance income; smartphone for family contact

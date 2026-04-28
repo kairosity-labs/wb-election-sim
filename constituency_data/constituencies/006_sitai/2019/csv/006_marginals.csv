@@ -1,0 +1,96 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,71.20,A,Sitai CDB Census 2011: 70.62% Hindu; Dinhata I partial slightly higher Hindu; weighted ~71.2%; projected stable 2011→2019,no
+religion,Muslim,28.50,A,Sitai CDB Census 2011: 29.26% Muslim; Dinhata I partial slightly lower Muslim; weighted ~28.5%; tiny relative gain 2011→2019 (+0.3%/yr net),no
+religion,Christian,0.15,E,Sitai CDB Census 2011: 0.06%; Cooch Behar district residual,no
+religion,Sarna_ORP,0.10,E,Tribal religion residual; very small ST base in AC,no
+religion,Other_residual,0.05,E,Sikh + Jain + Buddhist + Not_stated; negligible,no
+caste,SC_total,55.00,A,Sitai Block Census 2011: SC 66.1% of block; Dinhata I partial SC ~52%; weighted AC average ~55%; AC is SC-reserved confirming majority SC,no
+caste,Rajbanshi_SC,51.00,C,Rajbanshi dominant SC in Cooch Behar; constitute ~75% of SC population in WB North; dominant community in Sitai,yes
+caste,Koch_SC,2.50,E,Secondary SC group; Koch tribe subsumed under SC list,yes
+caste,Other_SC,1.50,E,Residual SC pool,yes
+caste,ST_total,0.40,A,Sitai CDB Census 2011: ST 0.2%; Cooch Behar district ST average 0.4%; AC ~0.4%,no
+caste,UC_bhadralok,3.00,E,Very low upper-caste presence; Brahmin/Kayastha fringe in semi-urban settlement nodes,no
+caste,OBC,4.00,E,Koch-Rajbanshi OBC overlap communities; Mahishya trace,no
+caste,Other_Hindu_middle,8.10,E,Residual within Hindu not SC/ST/UC/OBC (71.2 Hindu − 55 SC − 0.4 ST − 3 UC − 4 OBC),no
+caste,Muslim,28.50,E,All sub-castes pooled; see C.1,no
+caste,Christian_plus_Sarna_plus_Other,1.00,E,See C.1 residuals,no
+age_cohort,18_22,11.50,E,Cooch Behar district age pyramid 2011 renormalized to 18+ adult share; first-time-voter cohort,no
+age_cohort,23_27,12.00,E,,no
+age_cohort,28_32,12.00,E,,no
+age_cohort,33_37,10.50,E,,no
+age_cohort,38_42,10.00,E,,no
+age_cohort,43_47,9.00,E,,no
+age_cohort,48_52,8.00,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.00,E,,no
+age_cohort,63_67,7.50,E,,no
+age_cohort,68,6.50,E,68+ open-ended,no
+gender,Male,51.48,E,Cooch Behar district 2011 sex ratio 942 per 1000 males → 48.52% F; projected stable,no
+gender,Female,48.51,E,,no
+gender,Third_gender,0.01,E,Estimated from WB 2021 SIR pattern,no
+mother_tongue,Bengali,99.50,A,Sitai CDB Census 2011: 99.71% Bengali; AC-level ~99.5% after Dinhata partial blend,no
+mother_tongue,Hindi,0.20,E,Very small trader/migrant fringe,no
+mother_tongue,Urdu,0.10,E,Negligible,no
+mother_tongue,Other,0.10,E,Residual (Rajbongshi dialect spoken by some Rajbanshi families; reported under Bengali in Census),no
+mother_tongue,Rajbongshi,0.10,D,Local dialect; Census-classified under Bengali; flagged separately per AC-local extension,no
+education,Illiterate,26.00,A,Sitai CDB Census 2011 literacy 62.79% → illiteracy ~37%; 8yr improvement ~+5pp → ~32%; Dinhata I partial better literacy; weighted ~26% illiterate,no
+education,Primary,26.00,E,Census 2011 primary share scaled,no
+education,Middle,20.00,E,,no
+education,Secondary,14.00,E,,no
+education,Higher_Secondary,8.00,E,,no
+education,Graduate,5.00,E,,no
+education,Postgraduate,1.00,E,,no
+workforce_status,Main_worker,32.00,A,"Sitai CDB Census 2011: 73% of 50,387 workers = ~36,782 main workers out of 110,333 total = 33%; adjusted for adult-only base ~32%",no
+workforce_status,Marginal_worker,12.00,A,"Sitai CDB Census 2011: 27% of workers = ~13,605 marginal workers; ~12% of adult population",no
+workforce_status,Non_worker,37.00,E,Housewife + elderly + retired; large in rural SC-heavy constituency,no
+workforce_status,Student,11.00,E,18–22 in education,no
+workforce_status,Unemployed,8.00,E,Educated job-seekers; rural aspirant pool,no
+occupation,Cultivator,27.00,A,"Sitai CDB Census 2011: 17,046 cultivators out of 50,387 workers = 33.8%; diluted by Dinhata I partial; AC weighted ~27%",no
+occupation,Agricultural_labourer,32.00,A,"Sitai CDB Census 2011: 14,878 agricultural labourers = 29.5%; SC-heavy AC has high ag-labour share; weighted ~32%",no
+occupation,Household_industry,5.00,E,Census 2011 WB rural pattern,no
+occupation,Manufacturing,4.00,E,Limited organized manufacturing; small jute/handloom units,no
+occupation,Construction,7.00,E,Out-migrant construction workers returning; local construction,no
+occupation,Trade_retail,8.00,E,Rural weekly markets (haat); small traders,no
+occupation,Transport_logistics,4.00,E,Local transport; some cross-border commerce,no
+occupation,Services,7.00,E,Private services,no
+occupation,Government_services_teachers,4.00,E,Teachers + panchayat staff; low in rural SC constituency,no
+occupation,Out_migrant_worker,2.00,D,Limited out-migration relative to coastal WB; some Rajbanshi men to construction in other states,no
+class_of_worker,Employer,1.50,E,Census B-04 WB rural pattern; very low in SC agricultural community,no
+class_of_worker,Employee,22.00,E,Govt + organized sector employees,no
+class_of_worker,Single_worker,52.00,E,Own-account cultivator + artisan + small trader dominant,no
+class_of_worker,Family_worker,24.50,E,Unpaid family labour in agri-households; high in SC agricultural families,no
+economic_status,BPL_household,35.00,C,Cooch Behar district BPL estimate ~35%; SC-heavy rural AC above district average; SECC 2011 pattern,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,Large near-BPL agricultural worker pool,no
+economic_status,Lower_middle,18.00,E,,no
+economic_status,Middle,9.00,E,,no
+economic_status,Upper_middle_well_off,3.00,E,Very small; small traders and government employees,no
+gp_location,U1_Sitai_CDB,88.00,E,"Sitai CDB 110,333 / AC ~125,000 = ~88%; fully rural",no
+gp_location,U2_Dinhata_I_partial,12.00,E,"Select GPs of Dinhata I CDB in this AC; ~14,700 estimated pop",no
+household_composition,Avg_HH_size,4.4 persons,E,WB 2011: 4.3; Cooch Behar rural slight upward; minor projection,no
+household_composition,Nuclear_HH,65.00,E,NFHS-4 WB rural pattern,no
+household_composition,Joint_HH,28.00,E,SC agricultural families retain joint structures for land management,no
+household_composition,Extended_multi_generation,7.00,E,,no
+marital_status,Never_married,27.00,E,Census 2011 Cooch Behar pattern; first-time-voter cohort,no
+marital_status,Currently_married,65.00,E,High rural marriage rate; early marriage pattern in SC communities,no
+marital_status,Widowed,7.00,E,"Concentrated in 60+, female-skewed",no
+marital_status,Separated_divorced,1.00,E,,no
+asset_media,Television,60.00,C,NFHS-4 WB rural ~60%; Sitai fully rural; limited urban premium,no
+asset_media,Radio,6.00,C,Declining nationally; slightly higher in isolated rural areas,no
+asset_media,Mobile_phone,78.00,C,NFHS-4 WB rural ~70%; +growth to 2019 → ~78%,no
+asset_media,Smartphone_with_internet,32.00,C,NFHS-4 baseline + Jio rollout 2016-19; rural Cooch Behar below state average,no
+asset_media,Computer,4.00,C,NFHS-4 WB rural ~4%; urban premium absent here,no
+asset_media,Two_wheeler,20.00,C,NFHS-4 WB rural 18%; +growth,no
+asset_media,Four_wheeler,3.00,C,Very limited,no
+asset_media,Banking_access,80.00,B,PMJDY saturation 2014-; lower than urban but high penetration by 2019,no
+amenities,Improved_drinking_water_source,80.00,C,NFHS-4 WB rural ~84%; Cooch Behar slightly lower; AC ~80%,no
+amenities,Improved_sanitation,55.00,C,NFHS-4 WB rural ~51%; +Swachh Bharat 2014-19 (+10pp rural) → ~55%,no
+amenities,LPG_clean_cooking_fuel,28.00,C,NFHS-4 WB rural ~24%; +Ujjwala 2016-19 (+10pp rural) → ~28%; lower than state average in remote area,no
+amenities,Wood_biomass_fuel,65.00,C,Dominant cooking fuel; declining as LPG rises,no
+amenities,Other_fuel,7.00,C,"Kerosene, dung etc.",no
+amenities,Electricity,90.00,A,Census 2011 Sitai CDB electrification + Saubhagya 2017-19 saturation,no
+migration,Native,82.00,D,Estimate; Sitai is agricultural Rajbanshi heartland; overwhelmingly native,no
+migration,WB_other_district,5.00,D,Some in-migrants from nearby WB districts,no
+migration,Other_Indian_state,1.00,E,Very small non-Bengali presence,no
+migration,Bangladesh_origin,10.00,D,Cooch Behar border district; some Hindu SC families from East Pakistan / Bangladesh partition-era migration; lower than Bangaon,no
+migration,Outside_India,0.50,E,Negligible,no
+migration,Out_migrant,1.50,E,Some registered here but working outside; lower out-migration than South WB,no

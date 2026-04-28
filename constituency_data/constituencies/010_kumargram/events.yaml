@@ -1,0 +1,16 @@
+# AC 010 — Kumargram events
+# Stub created during batch-1 expansion.
+cutoff_date: '2026-04-26'
+events:
+- slug: ls_2019_kumargram_result
+  date: '2019-05-23'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: "2019 LS result for Kumargram segment: BJP 52.8%, AITC 39.7%, RSP 4.3%"
+  summary: "2019 Lok Sabha result within AC 010 segment. Calibration anchor."
+  tags: []
+  valence: {}
+  broadcast: true
+  sources:
+  - data/2019_AssemblySegmentLevelVotingData.csv

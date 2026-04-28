@@ -1,0 +1,12 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,28.00,62.00,E,North Bengal agrarian baseline; below state
+Agricultural_labourer,20.00,55.00,E,Lowest access group
+Household_industry,30.00,65.00,E,
+Manufacturing,40.00,72.00,E,
+Construction,35.00,65.00,E,
+Trade_retail,58.00,80.00,E,Falakata town traders
+Transport_logistics,50.00,75.00,E,
+Services,60.00,82.00,E,
+Government_services_teachers,78.00,92.00,E,Highest access
+Out_migrant_worker,62.00,72.00,D,Tea estate youth out-migrants; smartphone-connected
+Tea_garden_worker,22.00,58.00,D,Permanent tea garden workers; very limited smartphone penetration

@@ -1,0 +1,16 @@
+# AC 005 — Sitalkuchi events
+# Stub created during batch-1 expansion. Full event timeline to be added in future sprint.
+cutoff_date: '2026-04-26'
+events:
+- slug: ls_2019_sitalkuchi_result
+  date: '2019-05-23'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: "2019 LS result for Sitalkuchi segment: AITC 46.8%, BJP 46.3%, AIFB 3.0%"
+  summary: "2019 Lok Sabha result within AC 005 segment. Calibration anchor."
+  tags: []
+  valence: {}
+  broadcast: true
+  sources:
+  - data/2019_AssemblySegmentLevelVotingData.csv

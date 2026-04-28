@@ -1,0 +1,96 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,84.50,E,Tufanganj II CDB 2011: 85.60% Hindu (A); Tufanganj I GPs (4 of 72): ~70% Hindu; Muni ~82% Hindu; AC pop-weighted ~84.5%,no
+religion,Muslim,15.00,E,Tufanganj II 2011: 14.15% Muslim; Tufanganj I GP rural pocket ~28%; Muni ~17%; AC weighted ~15%,no
+religion,Christian,0.30,E,Cooch Behar district baseline; small urban pocket,no
+religion,Sarna_ORP,0.10,E,Marginal tribal religion population,no
+religion,Other_residual,0.10,E,Sikh + Jain + Buddhist + Not_stated lumped,no
+caste,SC_total,47.00,A,Pop-weighted from Tufanganj II CDB (53.8%) + Muni (23.03%) + 4 GPs Tufanganj I (~46%),no
+caste,Rajbanshi_SC,43.00,C,~91.5% of SC pool; dominant community in Cooch Behar,yes
+caste,Other_SC,4.00,E,"Namasudra, Bagdi, Chamar residual",yes
+caste,ST_total,1.50,A,Tufanganj II 2.1% + Muni 0.41% weighted,no
+caste,UC_bhadralok,5.00,E,Brahmin/Kayastha concentrated in Muni,no
+caste,OBC,4.00,E,"Koch (non-SC), Teli, Sutradhar etc.",no
+caste,Other_Hindu_middle,27.00,E,Residual Hindu (84.5 − 47 − 1.5 − 5 − 4) = 27,no
+caste,Muslim,15.00,E,All sub-castes pooled,no
+caste,Christian_plus_Sarna_plus_Other,0.50,E,C.1 residual combined,no
+age_cohort,18_22,11.50,E,Renormalized from Cooch Behar district Census 2011 age pyramid (18+ only),no
+age_cohort,23_27,12.00,E,,no
+age_cohort,28_32,11.50,E,,no
+age_cohort,33_37,10.50,E,,no
+age_cohort,38_42,9.50,E,,no
+age_cohort,43_47,9.00,E,,no
+age_cohort,48_52,8.00,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.00,E,,no
+age_cohort,63_67,8.00,E,,no
+age_cohort,68,7.00,E,68+ open-ended; Cooch Behar older cohort slightly larger,no
+gender,Male,51.23,E,Cooch Behar district 2011 sex ratio 952 F per 1000 M → 51.23% M,no
+gender,Female,48.76,E,,no
+gender,Third_gender,0.01,E,Marginal; WB 2021 SIR pattern,no
+mother_tongue,Bengali,79.00,E,District dominant; but Rajbongshi language significant,no
+mother_tongue,Hindi,0.50,E,Muni trader + migrant fringe,no
+mother_tongue,Urdu,0.50,E,Muslim urban pocket,no
+mother_tongue,Other,0.50,E,"Residual catch-all (Assamese, Nepali minor)",no
+mother_tongue,Rajbongshi,19.50,C,Rajbongshi (a Bengali dialect / distinct language) spoken by Rajbanshi SC; significant in Tufanganj; Census 2011 Cooch Behar pattern,no
+education,Illiterate,22.00,E,"Tufanganj II CDB literacy 75.75% (2011, A); literacy ~79% by 2019 (+3pp trend) → ~21% illiterate; Muni higher; AC weighted ~22%",no
+education,Primary,22.00,E,"Census 2011 education distribution, Cooch Behar pattern",no
+education,Middle,20.00,E,,no
+education,Secondary,17.00,E,,no
+education,Higher_Secondary,10.00,E,,no
+education,Graduate,7.00,E,,no
+education,Postgraduate,2.00,E,,no
+workforce_status,Main_worker,32.00,E,Cooch Behar district Census 2011 main-worker share ~32%; stable trend,no
+workforce_status,Marginal_worker,13.00,E,Agricultural seasonal work dominant,no
+workforce_status,Non_worker,38.00,E,Housewife + elderly + retired; high female non-worker share in rural,no
+workforce_status,Student,9.00,E,18–22 cohort in education,no
+workforce_status,Unemployed,8.00,E,Educated job-seekers; limited formal sector,no
+occupation,Cultivator,22.00,E,Tufanganj II CDB: high agricultural share; Cooch Behar plains rice/jute cultivation,no
+occupation,Agricultural_labourer,35.00,E,Largest worker category; SC-heavy agricultural labour,no
+occupation,Household_industry,5.00,E,"Weaving, handloom minor",no
+occupation,Manufacturing,3.00,E,Very limited organised sector,no
+occupation,Construction,6.00,E,Includes out-migrant returnees,no
+occupation,Trade_retail,10.00,E,Tufanganj Muni hub,no
+occupation,Transport_logistics,5.00,E,Road transport; Cooch Behar-Assam corridor,no
+occupation,Services,7.00,E,Private services,no
+occupation,Government_services_teachers,4.00,E,Government and educational services,no
+occupation,Out_migrant_worker,3.00,D,Limited compared to South Bengal; some migration to tea gardens and Assam,no
+class_of_worker,Employer,1.50,E,Census B-04 WB rural pattern; very low in agrarian AC,no
+class_of_worker,Employee,22.00,E,Govt + organised sector + retail,no
+class_of_worker,Single_worker,52.00,E,Own-account cultivator + artisan + small trader dominant,no
+class_of_worker,Family_worker,24.50,E,Unpaid family farm help,no
+economic_status,BPL_household,28.00,C,Cooch Behar district BPL ~32% (2011); WB poverty fell ~5pp 2011-19 → ~28%; high SC share drives higher BPL,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,,no
+economic_status,Lower_middle,22.00,E,,no
+economic_status,Middle,12.00,E,,no
+economic_status,Upper_middle_well_off,3.00,E,Muni small affluent fringe,no
+gp_location,U1_Tufanganj_Municipality,9.20,E,"2011: Muni 20,998 / AC ~228,000 projected = ~9.2%; urban anchor",no
+gp_location,U2_Tufanganj_II_CDB_and_rural,90.80,E,"Tufanganj II CDB (186,726) + 4 GPs of Tufanganj I (~13,800) = ~200,500 / AC ~228,000",no
+household_composition,Avg_HH_size,4.5 persons,E,WB 2011: 4.3 persons; North Bengal slightly higher; minor projection,no
+household_composition,Nuclear_HH,66.00,E,NFHS-4 WB rural pattern; North Bengal slight joint-family retention,no
+household_composition,Joint_HH,27.00,E,,no
+household_composition,Extended_multi_generation,7.00,E,,no
+marital_status,Never_married,26.00,E,Census 2011 Cooch Behar pattern; first-time-voter cohort,no
+marital_status,Currently_married,65.00,E,Rural-dominant AC; high marriage rate,no
+marital_status,Widowed,8.00,E,Concentrated in 60+; female-skewed,no
+marital_status,Separated_divorced,1.00,E,,no
+asset_media,Television,68.00,C,"NFHS-4 WB rural ~60%, urban ~89%; North Bengal rural slightly lower than state; AC ~68%",no
+asset_media,Radio,6.00,C,Declining nationally; slightly higher in rural North Bengal,no
+asset_media,Mobile_phone,82.00,C,"NFHS-4 WB rural ~70%, +growth → ~82% by 2019",no
+asset_media,Smartphone_with_internet,38.00,C,NFHS-4 baseline + Jio rollout 2016-19; rural North Bengal lag vs South Bengal,no
+asset_media,Computer,5.00,C,NFHS-4 WB rural ~4%; Muni slightly higher; AC weighted ~5%,no
+asset_media,Two_wheeler,22.00,C,NFHS-4 WB rural ~18%; growth to ~22%,no
+asset_media,Four_wheeler,4.00,C,Limited rural penetration,no
+asset_media,Banking_access,85.00,B,PMJDY 2014+ saturation; Cooch Behar high PMJDY enrollment,no
+amenities,Improved_drinking_water_source,88.00,C,NFHS-4 WB rural 84%; North Bengal river-plain area with tubewell access; AC ~88%,no
+amenities,Improved_sanitation,55.00,C,NFHS-4 WB rural ~51%; Swachh Bharat rollout 2014-19 (+10pp rural) → ~55%,no
+amenities,LPG_clean_cooking_fuel,28.00,C,NFHS-4 WB rural ~24%; Ujjwala 2016-19 rollout (+8pp rural) → ~28%,no
+amenities,Wood_biomass_fuel,67.00,C,Dominant fuel in rural North Bengal,no
+amenities,Other_fuel,5.00,C,"Kerosene, dung, etc.",no
+amenities,Electricity,92.00,A,Census 2011 Cooch Behar + Saubhagya 2017-19 saturation; North Bengal electrification,no
+migration,Native,78.00,D,Rajbanshi community historically settled; Cooch Behar princely state integrated 1949; high native share,no
+migration,WB_other_district,8.00,D,"Some in-migration from Jalpaiguri, North Dinajpur",no
+migration,Other_Indian_state,3.00,D,"Assamese, Bihari, migrant workers",no
+migration,Bangladesh_origin,8.00,D,Hindu refugee population (post-1947 + 1971); lower than South Bengal but present; some Rajbanshi from East Pakistan origin,no
+migration,Outside_India,0.50,E,Negligible; minor Nepal/Bhutan-origin in border fringe,no
+migration,Out_migrant,2.50,E,Limited; some working in Assam tea gardens or metro cities,no
+migration,Nepal_Bhutan_origin,0.00,E,Border area; set 0 — negligible for AC level,no

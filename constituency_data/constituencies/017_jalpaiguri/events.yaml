@@ -1,0 +1,16 @@
+# AC 017 — Jalpaiguri events
+# Stub created during batch-1 expansion.
+cutoff_date: '2026-04-26'
+events:
+- slug: ls_2019_jalpaiguri_result
+  date: '2019-05-23'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: "2019 LS result for Jalpaiguri segment: BJP 52.3%, AITC 34.0%, CPIM 7.6%"
+  summary: "2019 Lok Sabha result within AC 017 segment. Calibration anchor."
+  tags: []
+  valence: {}
+  broadcast: true
+  sources:
+  - data/2019_AssemblySegmentLevelVotingData.csv

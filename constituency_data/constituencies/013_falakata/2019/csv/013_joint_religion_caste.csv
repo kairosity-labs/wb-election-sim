@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,43.00,14.00,6.00,4.80,32.20,0,0,E,SC_total 40.7%/82.5%×Hindu=49.3% of Hindu → adj to 43% excl some STs counted under ST; ST 15.9%/82.5%=19.3% Hindu-adj to 14% for ST religious distribution; Rajbongshi SC dominant
+Muslim,0,0,0,0,0,100,0,A,self-evident
+Christian,0,60,0,0,0,0,40,E,"Tea-belt Christians overwhelmingly ST (Oraon, Munda); some SC Christians"
+Sarna_ORP,0,90,0,5,5,0,0,E,Sarna practitioners are predominantly ST Adivasis
+Other_residual,0,0,30,10,30,0,30,E,"Mixed; Nepali Buddhist, Sikh trader"

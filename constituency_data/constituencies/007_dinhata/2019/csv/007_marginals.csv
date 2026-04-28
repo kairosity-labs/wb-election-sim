@@ -1,0 +1,96 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,64.50,A,Weighted blend: Dinhata II CDB 63.11% + Dinhata I 4-GP partial + Muni; Census 2011,no
+religion,Muslim,34.60,A,"Dinhata II 36.68%, Dinhata I 36.98%; Muni ~24%; weighted; Census 2011",no
+religion,Christian,0.15,A,"Dinhata I CDB 0.19%, Dinhata II 0.09%; Census 2011",no
+religion,Sarna_ORP,0.10,E,Negligible tribal religion in this block,no
+religion,Other_residual,0.65,E,Sikh + Jain + Buddhist + Not_stated; residual,no
+caste,SC_total,43.80,A,"Dinhata II CDB 43.78%, Dinhata I 43.97%; Census 2011",no
+caste,Rajbanshi_SC,37.00,C,~85% of SC pool; dominant caste in Cooch Behar district,yes
+caste,Other_SC,6.80,E,Residual SC sub-groups,yes
+caste,ST_total,0.45,A,"Dinhata II 0.51%, Dinhata I 0.41%; Census 2011",no
+caste,UC_bhadralok,3.50,E,Brahmin/Kayastha/Baidya; smaller fraction in ex-Koch kingdom territory,no
+caste,OBC,5.00,E,"Teli, Sutradhar, Kurmi, Nai, etc.; Cooch Behar OBC pool",no
+caste,Other_Hindu_middle,11.75,E,Residual Hindu: 64.50 − 43.80 − 0.45 − 3.50 − 5.00,no
+caste,Muslim,34.60,E,All Muslim sub-castes pooled; see C.1,no
+caste,Christian_plus_Sarna_plus_Other,0.90,E,Christian 0.15 + Sarna 0.10 + Other_residual 0.65,no
+age_cohort,18_22,10.50,E,Projected from Cooch Behar Census 2011 age pyramid; 18+ renormalized,no
+age_cohort,23_27,11.00,E,,no
+age_cohort,28_32,10.50,E,,no
+age_cohort,33_37,9.50,E,,no
+age_cohort,38_42,8.50,E,,no
+age_cohort,43_47,8.00,E,,no
+age_cohort,48_52,7.00,E,,no
+age_cohort,53_57,6.00,E,,no
+age_cohort,58_62,5.00,E,,no
+age_cohort,63_67,4.00,E,,no
+age_cohort,68,20.00,E,68+ open-ended cohort; residual after above,no
+gender,Male,51.43,E,Cooch Behar district sex ratio 2011 ~941 F per 1000 M → 51.43% M,no
+gender,Female,48.56,E,941/(1000+941) = 48.57%; minor rounding,no
+gender,Third_gender,0.01,E,Negligible; WB SIR pattern,no
+mother_tongue,Bengali,95.50,A,Cooch Behar district 2011: 94.79% Bengali + Rajbongshi speakers; Census 2011,no
+mother_tongue,Hindi,1.00,A,Cooch Behar district 1.17%; Census 2011,no
+mother_tongue,Urdu,0.50,E,Small Urdu-speaking Muslim fringe in urban Dinhata,no
+mother_tongue,Rajbongshi,2.50,C,Rajbongshi-speaking population distinct from Bengali; under-counted; AC-local,no
+mother_tongue,Other,0.50,E,"Assamese fringe, Santali, residual",no
+education,Illiterate,22.00,A,Dinhata II CDB 27.67% illiterate (2011); trend improvement ~-5pp to 2019 → ~22%,no
+education,Primary,25.00,E,Census 2011 education distribution for Cooch Behar district scaled,no
+education,Middle,22.00,E,,no
+education,Secondary,16.00,E,,no
+education,Higher_Secondary,8.00,E,,no
+education,Graduate,5.00,E,,no
+education,Postgraduate,2.00,E,,no
+workforce_status,Main_worker,32.00,E,Cooch Behar district Census 2011 main worker pattern; agrarian AC ~32%,no
+workforce_status,Marginal_worker,12.00,E,High marginal worker share in agricultural districts,no
+workforce_status,Non_worker,37.00,E,Housewife + elderly + retired; high in rural Muslim households,no
+workforce_status,Student,11.00,E,18–22 cohort in education,no
+workforce_status,Unemployed,8.00,E,Educated job-seekers; graduate unemployment significant,no
+occupation,Cultivator,22.00,E,Cooch Behar district predominantly agricultural; large cultivator share,no
+occupation,Agricultural_labourer,30.00,E,High ag-labourer share; Rajbanshi SC and Muslim landless labourers,no
+occupation,Household_industry,5.00,E,"Handloom, jute processing, small cottage industry",no
+occupation,Manufacturing,3.00,E,Limited; some rice mills,no
+occupation,Construction,6.00,E,Local construction + some out-migrants in construction trades,no
+occupation,Trade_retail,12.00,E,Dinhata Muni hub; market town; retail trade significant,no
+occupation,Transport_logistics,5.00,E,"NH17 corridor; truck operators, bus drivers",no
+occupation,Services,8.00,E,Private services in town,no
+occupation,Government_services_teachers,5.00,E,Government employees; teachers salient in this district,no
+occupation,Out_migrant_worker,4.00,D,Seasonal out-migration to Assam tea estates and Siliguri construction,no
+class_of_worker,Employer,2.00,E,Small employer class; Census WB rural pattern,no
+class_of_worker,Employee,25.00,E,Govt + organized + retail employees,no
+class_of_worker,Single_worker,48.00,E,Own-account cultivator + own-account artisan + small trader,no
+class_of_worker,Family_worker,25.00,E,Unpaid family labour in agriculture; high in agrarian households,no
+economic_status,BPL_household,30.00,C,Cooch Behar district BPL proportion elevated; WB average ~22%; Cooch Behar ~30% (Census 2011 BPL survey pattern),no
+economic_status,Above_Poverty_Line_low_income,38.00,E,Near-BPL; subsistence agricultural families,no
+economic_status,Lower_middle,20.00,E,"Small traders, govt employees at lower grade",no
+economic_status,Middle,9.00,E,,no
+economic_status,Upper_middle_well_off,3.00,E,Urban Dinhata Muni professional class,no
+gp_location,U1_Dinhata_Municipality,12.00,E,"Dinhata Muni 36,124 / ~280k AC base ≈ 12.9%; rounded; Census 2011",no
+gp_location,U2_CDB_Dinhata_II,63.00,E,"Dinhata II CDB 244,066 / AC base; Census 2011",no
+gp_location,U3_Dinhata_I_partial,25.00,E,"4 GPs of Dinhata I CDB (Bhetaguri I, Dinhata Gram I, Dinhata Gram II, Putimari I) — estimated ~1/3 of CDB population",no
+household_composition,Avg_HH_size,4.5 persons,E,WB 2011: 4.3; Cooch Behar agrarian households slightly larger; 2019 projection,no
+household_composition,Nuclear_HH,65.00,E,NFHS-4 WB rural pattern; higher nuclear proportion in Muslim households,no
+household_composition,Joint_HH,28.00,E,Higher joint-HH in Rajbanshi SC agrarian households,no
+household_composition,Extended_multi_generation,7.00,E,Extended family pattern in older households,no
+marital_status,Never_married,26.00,E,Cooch Behar Census 2011 pattern; first-time-voter pool,no
+marital_status,Currently_married,65.00,E,High marriage rate; early marriage common in rural areas,no
+marital_status,Widowed,8.00,E,Female-skewed; Cooch Behar district pattern,no
+marital_status,Separated_divorced,1.00,E,,no
+asset_media,Television,70.00,C,"NFHS-4 WB rural ~60%, urban ~89%; Cooch Behar rural weighting → ~70% by 2019",no
+asset_media,Radio,5.00,C,Declining nationally,no
+asset_media,Mobile_phone,82.00,C,NFHS-4 WB ~78%; Jio rollout 2016-19 improved access in North Bengal,no
+asset_media,Smartphone_with_internet,40.00,C,Lower than South WB; Cooch Behar rural lag; +Jio growth 2016-19,no
+asset_media,Computer,6.00,C,"NFHS-4 WB rural 4%, urban 27%; Cooch Behar rural weighted ~6%",no
+asset_media,Two_wheeler,25.00,C,"NFHS-4 WB rural 18%, urban 35%; Cooch Behar AC",no
+asset_media,Four_wheeler,4.00,E,Low; government/business class limited,no
+asset_media,Banking_access,82.00,C,PMJDY 2014 saturation; NFHS-4 WB baseline,no
+amenities,Improved_drinking_water_source,82.00,C,NFHS-4 WB rural ~84%; Cooch Behar comparable,no
+amenities,Improved_sanitation,55.00,C,NFHS-4 WB rural ~51%; +Swachh Bharat 2014-19 (+10pp rural),no
+amenities,LPG_clean_cooking_fuel,35.00,C,NFHS-4 WB rural ~24%; +Ujjwala 2016-19 rollout in North Bengal,no
+amenities,Wood_biomass_fuel,58.00,C,Still dominant in rural Cooch Behar,no
+amenities,Other_fuel,7.00,E,"Kerosene, dung, etc.",no
+amenities,Electricity,92.00,A,Census 2011 + Saubhagya 2017-19 saturation; Cooch Behar rural electrification high,no
+migration,Native,80.00,D,Predominantly native population; Cooch Behar has low in-migration; historical stability,no
+migration,WB_other_district,5.00,D,"Some in-migration from Jalpaiguri, Alipurduar, Murshidabad",no
+migration,Other_Indian_state,2.00,E,"Assamese, Bihari traders; NH17 corridor",no
+migration,Bangladesh_origin,8.00,D,Smaller than East WB border districts; historical Hindu refugees from East Bengal partition era,no
+migration,Outside_India,0.50,E,Negligible,no
+migration,Out_migrant,4.50,D,Seasonal workers in Assam tea estates; Siliguri construction workers,no

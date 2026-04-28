@@ -1,0 +1,98 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,83.50,E,Jalpaiguri district 81.51% Hindu (Census 2011 A); municipality skews slightly higher Hindu; projected 2011→2019,no
+religion,Muslim,11.80,E,District 11.51% (A); AC municipal segment slightly higher; projected +1.3%/yr relative gain,no
+religion,Christian,4.00,E,District 4.81% (A); urban municipality dilutes Christian share vs tea-belt blocks,no
+religion,Sarna_ORP,0.30,E,Small tribal community fringe; district ST 18.9% but AC is district-HQ urban-heavy,no
+religion,Other_residual,0.40,E,Buddhist 1.31% district but low in urban AC; Sikh+Jain+Not_stated residual,no
+caste,SC_total,42.00,B,Jalpaiguri municipality 22.14% SC (Census 2011 A); CDB Jalpaiguri block 60.8% SC (A); AC weighted ~42%,no
+caste,Rajbanshi_SC,36.00,C,Rajbanshi (Koch-Rajbanshi) dominant SC in Jalpaiguri district; largest SC community in North Bengal,yes
+caste,Other_SC,6.00,E,"Residual SC sub-groups (Bagdi, Hari, Bauri etc.)",yes
+caste,ST_total,4.50,B,District 18.9% ST but AC is urban/peri-urban; Muni ST 0.91% (A); CDB rural fringe ~8% ST,no
+caste,Koch_ST,2.00,C,Koch classified as ST in WB; distinct from Rajbanshi-SC despite shared heritage,yes
+caste,Other_ST,2.50,E,"Oraon, Munda, other tribal fringe in rural GP portion",yes
+caste,UC_bhadralok,7.00,E,Brahmin/Kayastha/Baidya; district-HQ bureaucrat/professional pool,no
+caste,OBC,5.00,E,"Teli, Mahishya, Sutradhar, Kurmi; moderate presence in Jalpaiguri town",no
+caste,Other_Hindu_middle,24.00,E,Residual within Hindu (83.50 − 42 SC − 4.5 ST − 7 UC − 5 OBC),no
+caste,Muslim,11.80,E,All sub-castes pooled; see C.1,no
+caste,Christian_plus_Sarna_plus_Other,5.70,E,Christian 4.0 + Sarna_ORP 0.3 + Other_residual 0.4 + rounding,no
+age_cohort,18_22,9.40,E,"Renormalized from Jalpaiguri district Census 2011 age pyramid, adults 18+ only",no
+age_cohort,23_27,10.00,E,,no
+age_cohort,28_32,10.20,E,,no
+age_cohort,33_37,9.50,E,,no
+age_cohort,38_42,8.80,E,,no
+age_cohort,43_47,8.50,E,,no
+age_cohort,48_52,8.00,E,,no
+age_cohort,53_57,7.20,E,,no
+age_cohort,58_62,6.80,E,,no
+age_cohort,63_67,5.60,E,,no
+age_cohort,68,16.00,E,68+ open-ended; renormalized from Census 2011 after excluding 0–17,no
+gender,Male,51.18,E,Jalpaiguri district sex ratio 953 F per 1000 M → 51.18% M / 48.81% F; projected stable,no
+gender,Female,48.81,E,,no
+gender,Third_gender,0.01,E,Standard 0.01% placeholder,no
+mother_tongue,Bengali,78.00,E,Jalpaiguri district Bengali-dominant; Rajbanshi speakers often recorded as Bengali in Census; projected stable,no
+mother_tongue,Hindi,4.00,E,"Bihari, Marwari, UP migrant traders in Jalpaiguri town",no
+mother_tongue,Urdu,1.50,E,"Muslim community, district town fringe",no
+mother_tongue,Other,1.50,E,"Sadri, Oraon, Mundari residual",no
+mother_tongue,Rajbongshi,15.00,C,Rajbongshi (Kamtapuri) mother-tongue speakers; often self-identify separately from Bengali; prominent in Jalpaiguri,no
+education,Illiterate,15.00,E,Jalpaiguri district literacy ~72% (Census 2011 A); urban AC slightly better; 2019 ~85% literate → 15% illiterate,no
+education,Primary,22.00,E,Census 2011 education distribution scaled for district,no
+education,Middle,20.00,E,,no
+education,Secondary,18.00,E,,no
+education,Higher_Secondary,12.00,E,,no
+education,Graduate,10.00,E,District HQ; higher graduate share than rural ACs,no
+education,Postgraduate,3.00,E,,no
+workforce_status,Main_worker,33.00,E,Jalpaiguri CDB main-worker share ~33%; urban municipality boosts this slightly,no
+workforce_status,Marginal_worker,9.00,E,Lower than purely rural ACs due to urban permanency,no
+workforce_status,Non_worker,37.00,E,Housewife + elderly + retired,no
+workforce_status,Student,11.00,E,18–22 cohort in education; urban college access,no
+workforce_status,Unemployed,10.00,E,Educated unemployment; district HQ job-aspirant pool,no
+occupation,Cultivator,12.00,E,Jalpaiguri CDB rural GP portion; Muni dilutes farm share,no
+occupation,Agricultural_labourer,20.00,E,CDB rural high ag-labour; urban portion lower,no
+occupation,Household_industry,5.00,E,"Weaving, handicrafts in peri-urban",no
+occupation,Manufacturing,6.00,E,Small industries in Jalpaiguri town,no
+occupation,Construction,7.00,E,Town expansion; migrant labour,no
+occupation,Trade_retail,16.00,E,Jalpaiguri town is sub-regional market hub,no
+occupation,Transport_logistics,8.00,E,Road transport hub; Teesta bridge; trucking,no
+occupation,Services,14.00,E,Private services in district HQ,no
+occupation,Government_services_teachers,8.00,E,"District HQ civil servants, teachers",no
+occupation,Out_migrant_worker,4.00,D,"Out-migration to tea belt, construction elsewhere; relatively low vs coastal ACs",no
+class_of_worker,Employer,3.00,E,Small-business owners; district town,no
+class_of_worker,Employee,35.00,E,Govt + organised sector + retail; elevated by district HQ,no
+class_of_worker,Single_worker,44.00,E,"Cultivators, own-account traders, artisans",no
+class_of_worker,Family_worker,18.00,E,Agricultural household helpers; peri-urban family enterprise,no
+economic_status,BPL_household,23.00,C,Jalpaiguri district poverty ~28% (2011); urban dilution; 2019 ~23%,no
+economic_status,Above_Poverty_Line_low_income,37.00,E,,no
+economic_status,Lower_middle,24.00,E,,no
+economic_status,Middle,12.00,E,,no
+economic_status,Upper_middle_well_off,4.00,E,District HQ; slightly higher affluent share than rural ACs,no
+gp_location,U1_Jalpaiguri_Municipality,52.00,E,"2011: Muni 107,341 / AC ~207,000 = 51.9%; held stable to 2019",no
+gp_location,U2_Jalpaiguri_CDB_rural_share,48.00,E,10 GPs of CDB Jalpaiguri; v0 collapses 10 GPs into one cell,no
+household_composition,Avg_HH_size,4.3 persons,E,WB 2011 average 4.3; Jalpaiguri district baseline,no
+household_composition,Nuclear_HH,68.00,E,NFHS-4 WB pattern; slightly lower joint HH in urban setting,no
+household_composition,Joint_HH,25.00,E,,no
+household_composition,Extended_multi_generation,7.00,E,,no
+marital_status,Never_married,27.00,E,Census 2011 Jalpaiguri district pattern; large first-time-voter cohort,no
+marital_status,Currently_married,65.00,E,,no
+marital_status,Widowed,7.00,E,"Concentrated in 60+, female-skewed",no
+marital_status,Separated_divorced,1.00,E,,no
+asset_media,Television,78.00,C,"NFHS-4 WB rural 60%, urban 89%; AC mixed urban-rural weighted ~78%",no
+asset_media,Radio,6.00,C,Declining nationally,no
+asset_media,Mobile_phone,86.00,C,NFHS-4 WB baseline + Jio rollout 2016-19,no
+asset_media,Smartphone_with_internet,48.00,C,NFHS-4 baseline + Jio diffusion; slightly lower than Kolkata-belt,no
+asset_media,Computer,11.00,C,"NFHS-4 WB rural 4%, urban 27%; AC weighted",no
+asset_media,Two_wheeler,30.00,C,NFHS-4 WB pattern; moderate in North Bengal,no
+asset_media,Four_wheeler,7.00,C,District HQ commercial and official vehicles,no
+asset_media,Banking_access,87.00,B,PMJDY saturation; NFHS-4 WB baseline + rollout,no
+amenities,Improved_drinking_water_source,84.00,C,"NFHS-4 WB rural 84%, urban 93%; AC weighted",no
+amenities,Improved_sanitation,72.00,C,NFHS-4 WB + Swachh Bharat 2014-19 rollout,no
+amenities,LPG_clean_cooking_fuel,46.00,C,"NFHS-4 WB rural 24%, urban 81%; +Ujjwala 2016-19 (+15pp rural)",no
+amenities,Wood_biomass_fuel,48.00,C,Declining as LPG rises,no
+amenities,Other_fuel,6.00,C,"Kerosene, dung cake residual",no
+amenities,Electricity,96.00,A,Census 2011 + Saubhagya 2017-19; high urban electrification,no
+migration,Native,72.00,D,Jalpaiguri HQ predominantly long-settled Rajbanshi and Bengali native population,no
+migration,WB_other_district,8.00,D,"In-migrants from Cooch Behar, North Dinajpur, other WB districts; govt service transfers",no
+migration,Other_Indian_state,5.00,D,"Bihari, UP, Rajasthani trader community in Jalpaiguri town",no
+migration,Bangladesh_origin,10.00,D,Partition-era Hindu refugee community (Rajbanshi-SC from East Bengal); moderate presence,no
+migration,Outside_India,0.50,E,Negligible; some Nepal-origin in fringe,no
+migration,Out_migrant,4.50,E,Registered here but working elsewhere,no
+migration,Nepal_Bhutan_origin,0.00,E,Not significant in this AC (more prominent in Darjeeling belt),no

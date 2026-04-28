@@ -1,0 +1,16 @@
+# AC 013 — Falakata events
+# Stub created during batch-1 expansion.
+cutoff_date: '2026-04-26'
+events:
+- slug: ls_2019_falakata_result
+  date: '2019-05-23'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: "2019 LS result for Falakata segment: BJP 52.9%, AITC 39.8%, RSP 5.0%"
+  summary: "2019 Lok Sabha result within AC 013 segment. Calibration anchor."
+  tags: []
+  valence: {}
+  broadcast: true
+  sources:
+  - data/2019_AssemblySegmentLevelVotingData.csv

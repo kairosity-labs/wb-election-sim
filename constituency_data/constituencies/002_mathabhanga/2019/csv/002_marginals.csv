@@ -1,0 +1,96 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,82.50,B,"Weighted: Muni SC-23.89% (predominantly Hindu), Mathabhanga II 84.46% Hindu, Mathabhanga I 3 GPs ~80.77%; 2011→2019 projection (+0.3pp gain over 8yr for relative growth)",no
+religion,Muslim,16.90,B,Mathabhanga II 15.26% + Mathabhanga I 18.61% CDB; weighted and projected (+0.3pp relative gain); border AC with higher Muslim share than district average,no
+religion,Christian,0.25,E,Mathabhanga II 0.18% + Mathabhanga I 0.02%; weighted; small Christian pocket,no
+religion,Sarna_ORP,0.20,E,Minimal; Cooch Behar district ST share 0.98% overall; mostly Hindu,no
+religion,Other_residual,0.15,E,Sikh + Jain + Buddhist + Not_stated; residual,no
+caste,SC_total,61.50,B,Mathabhanga II SC 64.92% + Muni SC 23.89% + 3 GPs of Mathabhanga I ~68.77% SC (CDB I avg); weighted population-share; Cooch Behar is India's highest-SC district,no
+caste,Rajbanshi_SC,55.00,C,Dominant SC sub-group in Cooch Behar; ~75% of SC pool per Print/Census pattern; Rajbanshi = Koch-Rajbanshi SC in WB,yes
+caste,Namasudra_SC,3.50,E,Second SC group in region; smaller presence here vs Bangaon,yes
+caste,Other_SC,3.00,E,Residual SC sub-groups,yes
+caste,ST_total,1.00,B,Mathabhanga II ST 1.31%; Mathabhanga I ST 0.06%; Muni ST negligible; weighted ~1%,no
+caste,UC_bhadralok,4.00,E,Brahmin/Kayastha/Baidya; very small in this predominantly SC-Rajbanshi district,no
+caste,OBC,3.50,E,Smaller OBC presence; some Koch-OBC and artisan communities,no
+caste,Other_Hindu_middle,12.85,E,Residual within Hindu (82.50 − 61.50 SC − 1.00 ST − 4.00 UC − 3.50 OBC = 12.50; rounded to balance),no
+caste,Muslim,16.90,E,All sub-castes pooled; see C.1,no
+caste,Christian_plus_Sarna_plus_Other,0.25,E,Christian 0.25 + Sarna 0.20 + Other 0.15 = 0.60; lumped per schema,no
+age_cohort,18_22,12.50,E,Renormalized from Cooch Behar district Census 2011 age pyramid; 18+ only,no
+age_cohort,23_27,12.00,E,,no
+age_cohort,28_32,11.50,E,,no
+age_cohort,33_37,10.50,E,,no
+age_cohort,38_42,10.00,E,,no
+age_cohort,43_47,9.50,E,,no
+age_cohort,48_52,8.50,E,,no
+age_cohort,53_57,7.50,E,,no
+age_cohort,58_62,6.50,E,,no
+age_cohort,63_67,6.00,E,,no
+age_cohort,68,5.50,E,68+ open-ended,no
+gender,Male,51.31,E,Cooch Behar district sex ratio 949 → 51.31% M / 48.68% F; projected stable to 2019,no
+gender,Female,48.68,E,,no
+gender,Third_gender,0.01,E,Marginal fraction; state pattern,no
+mother_tongue,Bengali,91.00,B,Dominant language; Cooch Behar CDBs majority Bengali-speaking; Rajbanshi community uses Bengali literary language though Rajbanshi dialect in home,no
+mother_tongue,Hindi,0.50,E,Small trader and migrant fringe,no
+mother_tongue,Urdu,1.50,E,Muslim pockets in border area,no
+mother_tongue,Other,0.50,E,Residual,no
+mother_tongue,Rajbongshi,6.50,C,Rajbanshi/Rajbongshi dialect spoken by Koch-Rajbanshi SC community; AC-local; significant in rural areas of Cooch Behar; classified under Bengali in census but functionally distinct,no
+education,Illiterate,18.00,E,Cooch Behar district literacy ~75% (2011); Mathabhanga subdivision slightly lower; projected +4pp improvement 2011→2019 → ~22% illiterate 2011 → ~18% 2019,no
+education,Primary,24.00,E,Census 2011 WB education distribution scaled for Cooch Behar district,no
+education,Middle,22.00,E,,no
+education,Secondary,17.00,E,,no
+education,Higher_Secondary,10.00,E,,no
+education,Graduate,7.00,E,Lower than state average given SC-heavy rural constituency,no
+education,Postgraduate,2.00,E,,no
+workforce_status,Main_worker,33.00,B,Mathabhanga II total workers 39.76% of total pop; age-restricted 18+ proxy; Mathabhanga I 44.94%; weighted avg adjusted for 18+,no
+workforce_status,Marginal_worker,12.00,E,Seasonal agricultural work; significant in SC-dominant rural AC,no
+workforce_status,Non_worker,37.00,E,Housewife + elderly + retired; heavy rural HH-work component,no
+workforce_status,Student,10.00,E,18–22 in education,no
+workforce_status,Unemployed,8.00,E,Educated job-seekers; limited urban employment,no
+occupation,Cultivator,38.00,B,Mathabhanga I: 47.24% cultivators; Mathabhanga II: 34.25%; weighted CDB average ~40%; Muni dilution brings AC to ~38%,no
+occupation,Agricultural_labourer,32.00,B,Mathabhanga I: 31.21%; Mathabhanga II: 39.06%; weighted ~35%; Muni dilution → ~32%,no
+occupation,Household_industry,2.00,B,Mathabhanga I: 1.71%; Mathabhanga II: 2.64%; weighted ~2%,no
+occupation,Manufacturing,3.00,E,Limited manufacturing; some agro-processing,no
+occupation,Construction,5.00,E,Local construction + small migration for construction work,no
+occupation,Trade_retail,8.00,E,Mathabhanga Muni as sub-divisional hub; retail trade concentration,no
+occupation,Transport_logistics,3.00,E,Local transport; limited,no
+occupation,Services,5.00,E,Private services in Muni and block HQ,no
+occupation,Government_services_teachers,4.00,E,Govt + teachers; block and sub-division offices,no
+occupation,Out_migrant_worker,0.00,E,Low out-migration; predominantly local economy,no
+class_of_worker,Employer,1.50,E,Census B-04 WB rural pattern; limited employer class in SC-heavy AG economy,no
+class_of_worker,Employee,22.00,E,Govt workers + organised sector employees,no
+class_of_worker,Single_worker,52.00,E,Own-account cultivators + small traders; dominant in Rajbanshi farming community,no
+class_of_worker,Family_worker,24.50,E,Unpaid family helpers in agriculture; high share in SC farm households,no
+economic_status,BPL_household,30.00,E,Cooch Behar is one of WB's poorer districts; SC-dominant area with high BPL share; Census 2011 proxy + state poverty trend (-6pp 2011→2019) → ~30%,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,,no
+economic_status,Lower_middle,22.00,E,,no
+economic_status,Middle,10.00,E,,no
+economic_status,Upper_middle_well_off,3.00,E,Limited affluence; small Muni trader class,no
+gp_location,U1_Mathabhanga_Municipality,8.30,E,"2011: Muni 23,890 / AC ~265,000 = 9.0%; slight urban decline relative to rural growth → ~8.3% by 2019",no
+gp_location,U2_Mathabhanga_II_CDB_and_GPs,91.70,E,"Remainder; Mathabhanga II full CDB (227,397 in 2011) + 3 GPs of Mathabhanga I; v0 collapses to one rural cell",no
+household_composition,Avg_HH_size,4.5 persons,E,WB 2011: 4.3; Cooch Behar slightly larger household pattern; minor projection,no
+household_composition,Nuclear_HH,65.00,E,NFHS-4 WB rural pattern; SC Rajbanshi families slightly more nuclear,no
+household_composition,Joint_HH,28.00,E,,no
+household_composition,Extended_multi_generation,7.00,E,,no
+marital_status,Never_married,26.00,E,Census 2011 Cooch Behar pattern; first-time-voter cohort,no
+marital_status,Currently_married,66.00,E,High marriage prevalence in rural SC community,no
+marital_status,Widowed,7.00,E,"Concentrated in 60+, female-skewed",no
+marital_status,Separated_divorced,1.00,E,,no
+asset_media,Television,70.00,C,"NFHS-4 WB rural ~60%, urban 89%; Cooch Behar below-average income; AC weighted ~70% by 2019 after diffusion",no
+asset_media,Radio,6.00,C,Slightly higher than N24P; rural Cooch Behar,no
+asset_media,Mobile_phone,82.00,C,NFHS-4 WB ~78%; +growth; lower smartphone penetration district,no
+asset_media,Smartphone_with_internet,38.00,C,NFHS-4 baseline + Jio rollout 2016-19; lower than state average due to income/literacy constraint,no
+asset_media,Computer,6.00,C,NFHS-4 WB rural 4%; Muni fraction higher; AC weighted ~6%,no
+asset_media,Two_wheeler,22.00,C,NFHS-4 WB rural 18%; limited income growth,no
+asset_media,Four_wheeler,3.00,C,Limited; Muni trader fraction,no
+asset_media,Banking_access,85.00,B,PMJDY 2014-onwards saturation; NFHS-4 WB baseline + rollout,no
+amenities,Improved_drinking_water_source,82.00,C,NFHS-4 WB rural 84%; Cooch Behar slightly below; river-dependent areas,no
+amenities,Improved_sanitation,60.00,C,NFHS-4 WB rural 51% + Swachh Bharat 2014-19 (+15pp rural trend); lower income constrains adoption,no
+amenities,LPG_clean_cooking_fuel,35.00,C,NFHS-4 WB rural 24% + Ujjwala 2016-19 (+15pp rural); SC-targeted Ujjwala beneficiaries,no
+amenities,Wood_biomass_fuel,60.00,C,Declining as LPG rises; still dominant in this income tier,no
+amenities,Other_fuel,5.00,C,"Kerosene, dung, crop residue",no
+amenities,Electricity,90.00,B,Census 2011 + Saubhagya 2017-19; near-saturation by 2019,no
+migration,Native,80.00,E,Predominantly settled Rajbanshi-SC farming community; very low in-migration into rural Cooch Behar,no
+migration,WB_other_district,5.00,E,Small fraction of in-migrants from other WB districts to Muni,no
+migration,Other_Indian_state,1.50,E,Hindi-speaking traders; limited,no
+migration,Bangladesh_origin,11.00,D,Border AC; significant post-1947 / 1971 Hindu migration; lower than Bangaon belt but notable given proximity to Bangladesh border; includes older refugee families,no
+migration,Outside_India,0.50,E,Negligible; excluding Bangladesh,no
+migration,Out_migrant,2.00,E,"Small fraction working outside, registered here",no

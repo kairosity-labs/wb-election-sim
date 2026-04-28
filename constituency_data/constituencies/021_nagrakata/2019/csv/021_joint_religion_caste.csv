@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,11.40,27.10,5.70,8.60,47.20,0,0,E,"Hindu in Nagrakata includes Rajbongshi (OBC/middle), Nepali Hindu, Bengali middle; ST-coded Adivasi who practice Hindu syncretically counted under ST_total"
+Muslim,0,0,0,0,0,100,0,A,self-evident
+Christian,0,85.00,0,0,0,0,15.00,E,Christian converts overwhelmingly ST Adivasi (Oraon/Munda/Santhali); small non-tribal Christian fringe
+Sarna_ORP,0,95.00,0,3.00,2.00,0,0,E,Sarna practitioners almost entirely ST; marginal OBC and other Hindu syncretic
+Other_residual,0,0,0,0,0,0,100,A,self-evident

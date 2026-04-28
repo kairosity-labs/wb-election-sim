@@ -1,0 +1,98 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,72.00,E,Cooch Behar district Census 2011: 75.6% Hindu; projected with Muslim growth +0.3pp/yr → ~72% by 2019 for this AC (Sitalkuchi block has higher Muslim share than district avg),no
+religion,Muslim,26.50,E,Sitalkuchi block estimated ~25% Muslim 2011; 8-yr growth to ~26.5%,no
+religion,Christian,0.30,E,Cooch Behar district 2011 ~0.35% Christian; minimal in rural block,no
+religion,Sarna_ORP,0.80,E,Rajbanshi community carries tribal religion trace; Cooch Behar district ST ~4.7%,no
+religion,Other_residual,0.40,E,Sikh + Buddhist + Not_stated residual,no
+caste,SC_total,38.50,A,Cooch Behar district SC 40.0% Census 2011; Sitalkuchi block slightly lower given Muslim share; A-tier district figure used as proxy,no
+caste,Rajbanshi_SC,34.00,C,Dominant SC community in Cooch Behar; Rajbanshi is largest SC sub-group district-wide (Rajbanshi community straddles SC/OBC boundary; those listed as SC dominate),yes
+caste,Namasudra_SC,2.50,E,Secondary SC sub-group in Cooch Behar,yes
+caste,Other_SC,2.00,E,"Remaining SC sub-groups (Koch, Bagdi etc.)",yes
+caste,ST_total,4.70,A,Cooch Behar district ST 4.7% Census 2011,no
+caste,Rajbanshi_ST,3.50,C,Rajbanshi community with ST listing in some classifications; Cooch Behar tribal fringe,yes
+caste,Other_ST,1.20,E,"Mech, Toto and smaller tribal groups",yes
+caste,UC_bhadralok,4.00,E,Small upper-caste share in rural Cooch Behar; Brahmin/Kayastha fringe in market towns,no
+caste,OBC,8.00,E,OBC Rajbanshi (non-SC registered) + Koch-Rajbanshi + other backward communities,no
+caste,Other_Hindu_middle,16.30,E,Residual within Hindu (72.00 − 38.50 SC − 4.70 ST − 4.00 UC − 8.00 OBC = 16.80; minus Muslim overlap),no
+caste,Muslim,26.50,E,See C.1; primarily Bengali-speaking peasantry and agricultural labourers,no
+caste,Christian_plus_Sarna_plus_Other,2.00,E,See C.1,no
+age_cohort,18_22,12.50,E,Cooch Behar district age pyramid 2011; renormalized to 18+ voters only,no
+age_cohort,23_27,12.00,E,,no
+age_cohort,28_32,11.50,E,,no
+age_cohort,33_37,10.50,E,,no
+age_cohort,38_42,10.00,E,,no
+age_cohort,43_47,9.00,E,,no
+age_cohort,48_52,8.00,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.00,E,,no
+age_cohort,63_67,7.00,E,,no
+age_cohort,68,6.50,E,68+ open-ended,no
+gender,Male,51.40,E,Cooch Behar district sex ratio 946 F per 1000 M → 51.4% M,no
+gender,Female,48.59,E,Derived from sex ratio,no
+gender,Third_gender,0.01,E,WB state norm ~0.01%,no
+mother_tongue,Bengali,85.00,E,Dominant language in Cooch Behar; Rajbanshi community increasingly Bengali-medium,no
+mother_tongue,Hindi,0.50,E,Trader/migrant fringe in Sitalkuchi bazaar,no
+mother_tongue,Urdu,0.50,E,Small Muslim pocket using Urdu script,no
+mother_tongue,Other,0.50,E,Residual catch-all,no
+mother_tongue,Rajbongshi,13.50,E,Rajbongshi/Rajbanshi language spoken by Koch-Rajbanshi community; AC-local addition (sub-set of Bengali/Other registrations in Census but distinct dialect),no
+education,Illiterate,22.00,E,"Cooch Behar district literacy 75.3% (Census 2011 A); AC literacy ~75%, +3pp/8yr improvement → ~22% illiterate 2019",no
+education,Primary,24.00,E,Census 2011 education distribution scaled to district pattern,no
+education,Middle,20.00,E,,no
+education,Secondary,16.00,E,,no
+education,Higher_Secondary,10.00,E,,no
+education,Graduate,6.00,E,,no
+education,Postgraduate,2.00,E,,no
+workforce_status,Main_worker,33.00,E,Cooch Behar district Census 2011 main-worker share ~33%; rural agricultural AC,no
+workforce_status,Marginal_worker,13.00,E,High marginal-worker share typical in Cooch Behar (seasonal agriculture),no
+workforce_status,Non_worker,36.00,E,Housewives + elderly + retired; rural WB pattern,no
+workforce_status,Student,10.00,E,18–22 cohort partly in education,no
+workforce_status,Unemployed,8.00,E,Educated job-seeking pool; rural-urban aspiration gap,no
+occupation,Cultivator,28.00,E,Cooch Behar district Census 2011: ~30% cultivators (A); Sitalkuchi rural — slight adjustment,no
+occupation,Agricultural_labourer,35.00,E,Very high ag-labour share; landless Rajbanshi SC and Muslim labourers dominant,no
+occupation,Household_industry,4.00,E,Cooch Behar district HH industry ~4.5%,no
+occupation,Manufacturing,2.00,E,Limited organised manufacturing in rural block,no
+occupation,Construction,5.00,E,Includes local construction and seasonal migration,no
+occupation,Trade_retail,10.00,E,Sitalkuchi bazaar traders; border-area petty trade,no
+occupation,Transport_logistics,4.00,E,Road transport; no rail/river port in this block,no
+occupation,Services,6.00,E,Private services in Sitalkuchi town fringe,no
+occupation,Government_services_teachers,4.00,E,Government employees + school teachers,no
+occupation,Out_migrant_worker,2.00,D,Limited compared to other WB districts; some to Siliguri and Guwahati,no
+class_of_worker,Employer,1.50,E,Census B-04 WB rural pattern; very low in agricultural AC,no
+class_of_worker,Employee,22.00,E,Government + organised sector + wage earners,no
+class_of_worker,Single_worker,46.00,E,Cultivator (own-account) + own-account artisan + petty trader,no
+class_of_worker,Family_worker,30.50,E,High family-worker share in agricultural households typical of Cooch Behar rural,no
+economic_status,BPL_household,32.00,C,Cooch Behar district BPL share ~35% (state BPL 2011 ~31%); rural Sitalkuchi estimated ~32% after WB poverty reduction trend,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,Working poor — subsistence agriculture,no
+economic_status,Lower_middle,20.00,E,Small cultivators + lower-grade government employees,no
+economic_status,Middle,10.00,E,Mid-level government employees + medium traders,no
+economic_status,Upper_middle_well_off,3.00,E,Small fraction; Sitalkuchi bazaar traders + larger landowners,no
+gp_location,U1_Sitalkuchi_CD_Block_north,50.00,E,v0 equal-split assumption pending DCHB Part-A; northern GPs of Sitalkuchi block,no
+gp_location,U2_Sitalkuchi_CD_Block_south,50.00,E,Southern GPs including Sitalkuchi town fringe; refine when block-level Census tables available,no
+household_composition,Avg_HH_size,4.5 persons,E,WB rural 2011: 4.5; Cooch Behar district consistent with state rural,no
+household_composition,Nuclear_HH,65.00,E,NFHS-4 WB rural pattern; Cooch Behar,no
+household_composition,Joint_HH,28.00,E,Higher joint-family share in farming communities,no
+household_composition,Extended_multi_generation,7.00,E,Extended households; elderly grandparents pattern,no
+marital_status,Never_married,25.00,E,Census 2011 Cooch Behar pattern; includes first-time voter cohort,no
+marital_status,Currently_married,66.00,E,High married share in rural AC,no
+marital_status,Widowed,8.00,E,Concentrated in 60+; female-skewed (higher female widowhood),no
+marital_status,Separated_divorced,1.00,E,,no
+asset_media,Television,65.00,C,"NFHS-4 WB rural 60%, +5pp/yr → ~65% by 2019; Cooch Behar rural slightly below state urban",no
+asset_media,Radio,8.00,C,Slightly higher than Bengal average; still used in border-area rural households,no
+asset_media,Mobile_phone,82.00,C,"NFHS-4 WB ~78%, +growth → ~82% by 2019",no
+asset_media,Smartphone_with_internet,35.00,C,Below state average; Jio rollout slower in remote Cooch Behar border block,no
+asset_media,Computer,4.00,C,NFHS-4 WB rural ~4%; very low in rural agricultural AC,no
+asset_media,Two_wheeler,22.00,C,NFHS-4 WB rural 18%; Cooch Behar modest motorisation,no
+asset_media,Four_wheeler,3.00,C,Negligible in rural block,no
+asset_media,Banking_access,82.00,B,PMJDY 2014– saturation; Cooch Behar rural PMJDY enrollment high,no
+amenities,Improved_drinking_water_source,80.00,C,NFHS-4 WB rural 84%; Cooch Behar border-area slightly lower access,no
+amenities,Improved_sanitation,60.00,C,NFHS-4 WB rural 51% + Swachh Bharat 2014-19 (+15pp rural) → ~60-65%,no
+amenities,LPG_clean_cooking_fuel,35.00,C,NFHS-4 WB rural 24%; +Ujjwala 2016-19 (+12pp rural) → ~35%,no
+amenities,Wood_biomass_fuel,58.00,C,Dominant fuel; gradual Ujjwala displacement,no
+amenities,Other_fuel,7.00,C,Kerosene + dung cakes residual,no
+amenities,Electricity,90.00,A,Census 2011 Cooch Behar electrification + Saubhagya 2017-19 near-saturation,no
+migration,Native,75.00,D,Estimate; Sitalkuchi is deep rural Cooch Behar with low in-migration; most population native to district,no
+migration,WB_other_district,5.00,D,"Small in-migrant fraction from Jalpaiguri, Koch Bihar neighbours",no
+migration,Other_Indian_state,1.00,D,Very small trader/service migrant fraction,no
+migration,Bangladesh_origin,17.00,D,Significant Hindu refugee/migrant presence from East Pakistan/Bangladesh partition and post-1971; Cooch Behar border district pattern,no
+migration,Outside_India,0.50,E,Negligible,no
+migration,Out_migrant,1.50,E,Working outside AC but registered here; lower than other WB districts,no

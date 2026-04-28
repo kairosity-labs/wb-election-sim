@@ -1,0 +1,11 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,30.00,65.00,C,Rural agri baseline; below-state in CB
+Agricultural_labourer,22.00,55.00,C,Lowest income bracket
+Household_industry,35.00,70.00,C,
+Manufacturing,48.00,80.00,C,
+Construction,42.00,72.00,C,
+Trade_retail,62.00,85.00,C,Muni concentrated
+Transport_logistics,55.00,78.00,C,
+Services,68.00,88.00,C,
+Government_services_teachers,82.00,92.00,C,Highest; district HQ
+Out_migrant_worker,65.00,78.00,D,Smartphone-heavy when outside

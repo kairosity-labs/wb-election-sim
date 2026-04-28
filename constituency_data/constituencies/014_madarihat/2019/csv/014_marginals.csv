@@ -1,0 +1,107 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,72.00,E,Alipurduar district 2011: ~74% Hindu; tribal Sarna-ORP split uncertain; tea-garden ST population partly Hindu partly Sarna,no
+religion,Muslim,9.00,E,Alipurduar district 2011: ~9% Muslim; Jaigaon border area has Muslim traders,no
+religion,Christian,2.50,E,Christian missionary presence in tribal belt; some tea garden workers converted,no
+religion,Sarna_ORP,15.50,E,"Substantial Adivasi (Oraon, Munda, Santhali) tea-garden workers; tribal religion estimate",no
+religion,Other_residual,1.00,E,"Buddhist (Bhutia/Nepali), Sikh, Jain, not-stated",no
+caste,SC_total,8.00,E,Alipurduar district SC share ~7–9%; lower in tea-belt AC,no
+caste,Rajbanshi_SC,4.00,E,Dominant SC sub-group in Dooars (Rajbanshi classified SC in WB),yes
+caste,Other_SC,4.00,E,"Residual (Bagdi, Hari, Dome)",yes
+caste,ST_total,35.00,E,"Very high tribal share: Oraon, Munda, Santhali, Kurmi tea-garden Adivasi; also Toto, Koch-Rajbanshi ST",no
+caste,Oraon_ST,15.00,E,Largest ST sub-group in Dooars tea gardens; Jharkhand-origin,yes
+caste,Munda_ST,8.00,E,Second Adivasi sub-group in tea estates,yes
+caste,Santhali_ST,6.00,E,Present in tea belt and forest fringe,yes
+caste,Other_ST,6.00,E,"Toto (endangered tribe near Totopara), Koch, Rajbanshi-ST, Bhutia",yes
+caste,UC_bhadralok,4.00,E,"Small bhadralok fraction; tea-company managerial class, Bengali settlers",no
+caste,OBC,8.00,E,"Rajbanshi (OBC), Kurmi, Teli, Chamar-OBC fraction",no
+caste,Other_Hindu_middle,27.00,E,"Nepali/Gorkha Hindu (Bahun, Chhetri), Marwari trader, Bengali settled middle",no
+caste,Muslim,9.00,E,See C.1,no
+caste,Christian_plus_Sarna_plus_Other,9.00,E,Christian 2.5% + Sarna routed here; see note: Sarna_ORP in C.1 is the tribal-religion residual,no
+age_cohort,18_22,12.00,E,"Alipurduar district age pyramid, Census 2011; renormalized to 18+ adults only",no
+age_cohort,23_27,12.50,E,,no
+age_cohort,28_32,11.50,E,,no
+age_cohort,33_37,10.50,E,,no
+age_cohort,38_42,10.00,E,,no
+age_cohort,43_47,9.00,E,,no
+age_cohort,48_52,8.00,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.50,E,,no
+age_cohort,63_67,6.50,E,,no
+age_cohort,68,6.50,E,68+ open-ended; renormalized from Census 2011 adult cohort,no
+gender,Male,51.11,E,Alipurduar district 2011 sex ratio 957 → 51.11% M / 48.88% F,no
+gender,Female,48.88,E,,no
+gender,Third_gender,0.01,E,Negligible fraction; WB 2021 SIR pattern,no
+mother_tongue,Bengali,35.00,E,Bengali settlers + Rajbanshi first-language some consider Bengali; Alipurduar district complex; estimate,no
+mother_tongue,Hindi,5.00,E,"Marwari traders, Hindi-belt migrant workers, some Bihar-origin tea-garden workers",no
+mother_tongue,Urdu,1.00,E,Muslim traders in Jaigaon border belt,no
+mother_tongue,Other,4.00,E,"Residual (Bhutia, Nepali sub-groups, etc.)",no
+mother_tongue,Rajbongshi,15.00,E,Rajbanshi/Rajbongshi — historically dominant Dooars language,no
+mother_tongue,Sadri,20.00,E,"Sadri (Nagpuri) — lingua franca of tea-garden Adivasi workers (Oraon, Munda, Kurmi)",no
+mother_tongue,Nepali,10.00,E,Gorkha/Nepali speakers in foothills fringe,no
+mother_tongue,Santali,7.00,E,Santhali speakers in tea belt,no
+mother_tongue,Mundari,3.00,E,Munda-language speakers,no
+education,Illiterate,26.00,E,"Alipurduar district literacy ~69% (2011, A); tea-garden workers lower; tribal belt; ~26% illiterate by 2019",no
+education,Primary,24.00,E,Census 2011 education distribution scaled to district pattern,no
+education,Middle,20.00,E,,no
+education,Secondary,15.00,E,,no
+education,Higher_Secondary,8.00,E,,no
+education,Graduate,5.50,E,Limited higher education access in remote Dooars,no
+education,Postgraduate,1.50,E,Concentrated in managerial/teacher class,no
+workforce_status,Main_worker,38.00,E,Tea-garden employment creates high main-worker rate; Alipurduar district Census 2011 ~37% main-worker,no
+workforce_status,Main_worker_tea_garden,22.00,E,Tea-estate permanent labour (Adivasi-dominated),yes
+workforce_status,Main_worker_non_tea,16.00,E,"Agricultural, trade, forest, services",yes
+workforce_status,Marginal_worker,12.00,E,Seasonal tea-harvest labour + marginal cultivators,no
+workforce_status,Non_worker,32.00,E,Housewife-heavy; tribal women high household economy contribution,no
+workforce_status,Student,10.00,E,18–22 cohort in colleges/schools,no
+workforce_status,Unemployed,8.00,E,Educated job-aspirants; tea-garden closures create seasonal unemployment,no
+occupation,Cultivator,10.00,E,Limited cultivable land (forest reserve + tea estate); smallholder patches,no
+occupation,Agricultural_labourer,44.00,E,"Tea-garden labourers (plucking, processing); dominant occupation",no
+occupation,Household_industry,4.00,E,"Bamboo, bidi rolling, handloom fringe",no
+occupation,Manufacturing,3.00,E,Tea factory processing workers,no
+occupation,Construction,5.00,E,Infrastructure including road workers,no
+occupation,Trade_retail,10.00,E,"Jaigaon border market, Madarihat town bazaar",no
+occupation,Transport_logistics,4.00,E,"Bhutan trade transit, truck operators, jeep services",no
+occupation,Services,8.00,E,"Private services including tourism, forest-sector",no
+occupation,Government_services_teachers,6.00,E,"School teachers, forest department, block office",no
+occupation,Out_migrant_worker,6.00,D,Some Adivasi men to Assam/Meghalaya tea belts or construction,no
+class_of_worker,Employer,1.50,E,"Tea-garden managers, large traders",no
+class_of_worker,Employee,55.00,E,Tea-estate regular wage labour (permanent workers); govt employees,no
+class_of_worker,Single_worker,28.00,E,"Own-account cultivators, small traders, bidi rollers",no
+class_of_worker,Family_worker,15.50,E,Unpaid family labour in agriculture and household industry,no
+economic_status,BPL_household,35.00,E,Tea-garden Adivasi workers historically poor; tribal belt WB BPL ~35–40%; Alipurduar district pattern,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,Tea-estate permanent workers above BPL but low income,no
+economic_status,Lower_middle,18.00,E,"Petty traders, some teachers, skilled workers",no
+economic_status,Middle,9.00,E,"Small business owners, mid-level govt employees",no
+economic_status,Upper_middle_well_off,3.00,E,"Tea-company managerial staff, Jaigaon exporters",no
+gp_location,U1_Tea_garden_belt,65.00,E,Birpara-Madarihat tea estate zone: majority of electorate; proportional to number of tea gardens,no
+gp_location,U2_Non_tea_forest_fringe,35.00,E,"Jaigaon border area, forest-fringe villages, Buxa BTR buffer zone settlements",no
+household_composition,Avg_HH_size,4.6 persons,E,Tribal belt slightly larger HH; WB 2011: 4.3 average; tea-garden line housing tends toward larger families,no
+household_composition,Nuclear_HH,60.00,E,NFHS-4 WB tribal/rural pattern; tea-garden line housing nuclear-dominant,no
+household_composition,Joint_HH,30.00,E,Higher joint-family rate in tribal communities,no
+household_composition,Extended_multi_generation,10.00,E,,no
+marital_status,Never_married,25.00,E,Census 2011 Alipurduar pattern; tea-garden workers marry younger,no
+marital_status,Currently_married,66.00,E,,no
+marital_status,Widowed,8.00,E,Slightly elevated in older tribal female cohort,no
+marital_status,Separated_divorced,1.00,E,,no
+asset_media,Television,55.00,C,NFHS-4 WB rural 60%; Alipurduar lower due to tribal/tea-garden poverty; ~55%,no
+asset_media,Radio,8.00,C,Slightly higher than state average in forest fringe (no TV alternative),no
+asset_media,Mobile_phone,80.00,C,NFHS-4 WB ~78%; Jio penetration 2016-19; tea-garden workers adopted mobile,no
+asset_media,Smartphone_with_internet,30.00,C,Below state average; Alipurduar rural digital lag; tea-garden limited,no
+asset_media,Computer,4.00,C,Very low; only managerial/teacher households,no
+asset_media,Two_wheeler,20.00,C,NFHS-4 WB rural 18%; slightly below due to income level,no
+asset_media,Four_wheeler,3.00,C,Mostly tea-garden managers and Jaigaon traders,no
+asset_media,Banking_access,75.00,B,PMJDY 2014-19; tribal belt moderate penetration; some tea-garden accounts via employer,no
+amenities,Improved_drinking_water_source,70.00,C,NFHS-4 WB rural 84%; Alipurduar lower; forest/tea-garden area stream reliance,no
+amenities,Improved_sanitation,45.00,C,NFHS-4 WB rural 51% + Swachh Bharat; tea-garden line housing lagging,no
+amenities,LPG_clean_cooking_fuel,25.00,C,NFHS-4 WB rural 24% + Ujjwala 2016-19; tea-garden workers low adoption,no
+amenities,Wood_biomass_fuel,68.00,C,Forest-belt high firewood use; primary cooking fuel in tribal households,no
+amenities,Other_fuel,7.00,C,"Kerosene, dung-cake",no
+amenities,Electricity,80.00,C,Census 2011 + Saubhagya 2017-19; tea-garden internal electrification but some fringe villages still off-grid,no
+migration,Native,55.00,D,Second/third-generation Adivasi tea-garden workers born in WB; Rajbanshi native,no
+migration,WB_other_district,5.00,D,Bengali settlers from other WB districts,no
+migration,Other_Indian_state,5.00,D,Marwari traders; some Bihar-origin workers,no
+migration,Bangladesh_origin,2.00,D,Small; some Hindu refugees in border belt; not a primary refugee AC,no
+migration,Outside_India,1.00,E,Bhutia/Nepali-origin from Bhutan side,no
+migration,Out_migrant,2.00,E,Some registered here but working in Assam/Meghalaya tea belts,no
+migration,Jharkhand_origin,25.00,D,Adivasi ancestors brought from Chota Nagpur Plateau (Jharkhand/Bihar/Odisha) as tea-garden indentured labour from 19th century; multi-generational now WB-born but ancestral origin tracked,no
+migration,Nepal_Bhutan_origin,5.00,D,Nepali and Bhutia communities in foothills fringe,no

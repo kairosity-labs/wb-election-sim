@@ -1,0 +1,11 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,35.00,72.00,C,Rural ag baseline; GP pockets
+Agricultural_labourer,25.00,60.00,C,Lowest income; GP rural
+Household_industry,40.00,78.00,C,
+Manufacturing,52.00,85.00,C,
+Construction,48.00,78.00,C,In-migrant labour: lower smartphone
+Trade_retail,78.00,92.00,C,Siliguri trade hub; high smartphone access
+Transport_logistics,72.00,88.00,C,Logistics / trucking; smartphone for route navigation
+Services,80.00,93.00,C,Urban private services
+Government_services_teachers,88.00,96.00,C,Highest
+Out_migrant_worker,70.00,82.00,D,Remittance earners; smartphone-heavy

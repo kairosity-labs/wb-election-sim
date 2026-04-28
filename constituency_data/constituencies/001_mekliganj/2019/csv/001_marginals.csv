@@ -1,0 +1,96 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,75.25,B,"Weighted 2011: Mekli-Muni 79.75%, Mekli-CDB 80.41%, Haldi-Muni 83.91%, Haldi-CDB 66.53%; AC weighted ~75.46%; adjusted -0.21pp for 8yr differential growth",no
+religion,Muslim,24.42,B,Weighted 2011: ~24.21%; adjusted +0.21pp for 8yr differential growth,no
+religion,Christian,0.29,B,Weighted from four sub-units 2011,no
+religion,Sarna_ORP,0.02,E,Negligible in Cooch Behar CDBs; set near-zero,no
+religion,Other_residual,0.02,E,Sikh + Jain + Buddhist + Not_stated; residual,no
+caste,SC_total,65.00,B,"Weighted 2011: Mekli-Muni 48.98%, Mekli-CDB 71.24%, Haldi-Muni 35.47%, Haldi-CDB 61.18%; AC weighted 65.00%",no
+caste,Rajbanshi_SC,58.50,C,Koch-Rajbanshi SC dominant sub-group in Cooch Behar; ~90% of SC pool; Cooch Behar district Rajbanshi concentration (journalistic + Cooch Behar Govt),yes
+caste,Namasudra_SC,4.55,E,Smaller pool; ~7% of SC pool,yes
+caste,Other_SC,1.95,E,Residual SC sub-castes,yes
+caste,ST_total,0.88,B,"Weighted 2011: Mekli-CDB 1.24%, Haldi-CDB 0.30%; AC weighted 0.88%",no
+caste,UC_bhadralok,2.00,E,Very small bhadralok fraction in Cooch Behar frontier AC,no
+caste,OBC,3.00,E,"Small OBC fraction; Cooch Behar OBC pool (Sutradhar, Teli, etc.)",no
+caste,Other_Hindu_middle,4.37,E,Residual within Hindu non-SC/ST/UC/OBC: 75.25 Hindu − 65.0 SC − 0.88 ST − 2.0 UC − 3.0 OBC = 4.37,no
+caste,Muslim,24.42,B,See C.1; all sub-castes pooled,no
+caste,Christian_plus_Sarna_plus_Other,0.33,E,See C.1,no
+age_cohort,18_22,11.50,E,Cooch Behar district age pyramid Census 2011; first-time voter cohort,no
+age_cohort,23_27,11.00,E,,no
+age_cohort,28_32,10.50,E,,no
+age_cohort,33_37,10.00,E,,no
+age_cohort,38_42,9.50,E,,no
+age_cohort,43_47,9.00,E,,no
+age_cohort,48_52,8.00,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.50,E,,no
+age_cohort,63_67,4.50,E,,no
+age_cohort,68,12.50,E,68+ open-ended cohort; includes widowed elderly,no
+gender,Male,51.20,E,Cooch Behar district 2011 sex ratio ~948 F per 1000 M → 51.31% M; slight adjustment to 51.20 for projection,no
+gender,Female,48.79,E,,no
+gender,Third_gender,0.01,E,State-level trace,no
+mother_tongue,Bengali,88.00,B,Mekliganj CDB 93.9% Bengali; Cooch Behar district 94.79%; Haldibari CDB has higher Rajbongshi share; AC weighted ~88%,no
+mother_tongue,Hindi,1.20,B,Cooch Behar district ~1.17% Hindi; slightly higher in border/transit zones,no
+mother_tongue,Urdu,0.50,E,Small Muslim pocket in Haldibari (33% Muslim); some Urdu-speakers,no
+mother_tongue,Other,0.30,E,Residual catch-all,no
+mother_tongue,Rajbongshi,10.00,C,Rajbanshi (Koch-Rajbanshi) community speaks Rajbongshi dialect; distinct from Bengali; Mekliganj CDB 2.34% (Wikipedia) but likely under-counted as many register as Bengali; AC-local estimate,no
+education,Illiterate,26.00,B,Weighted CDB literacy ~70.2% (2011); adjusted for 8yr trend; below WB state average of 76%,no
+education,Primary,24.00,E,Census 2011 WB education distribution scaled for Cooch Behar,no
+education,Middle,20.00,E,,no
+education,Secondary,14.00,E,,no
+education,Higher_Secondary,9.00,E,,no
+education,Graduate,5.50,E,Lower than state average given frontier rural AC,no
+education,Postgraduate,1.50,E,,no
+workforce_status,Main_worker,35.00,E,Census 2011 Mekliganj CDB pattern; rural dominance,no
+workforce_status,Marginal_worker,13.00,E,High marginal-worker share typical in agrarian Cooch Behar,no
+workforce_status,Non_worker,37.00,E,Housewife + elderly + retired; large non-worker share in female-heavy rural HHs,no
+workforce_status,Student,9.00,E,18–22 in education cohort,no
+workforce_status,Unemployed,6.00,E,Educated job-aspirant pool; lower than urban ACs,no
+occupation,Cultivator,40.00,B,Mekli CDB 48.22% (A); weighted down by Haldibari higher Muslim ag-labourer share and Muni dilution,no
+occupation,Agricultural_labourer,33.00,B,Mekli CDB 34.04% (A); high landless SC-labourer pool given 65% SC,no
+occupation,Household_industry,3.00,B,Mekli CDB 1.70%; slightly higher in Haldibari,no
+occupation,Manufacturing,2.50,E,Limited; some rice mills in Haldibari area,no
+occupation,Construction,5.00,E,Seasonal migrant construction workers,no
+occupation,Trade_retail,8.00,E,Muni-based retail; Changrabandha border trade; Haldibari market,no
+occupation,Transport_logistics,3.00,E,Haldibari rail terminus; Changrabandha land-port logistics,no
+occupation,Services,3.00,E,Private services,no
+occupation,Government_services_teachers,2.50,E,"Government teachers, block-level admin",no
+occupation,Out_migrant_worker,0.00,E,Low out-migration; set to residual 0 here (absorbed into other categories),no
+class_of_worker,Employer,1.50,E,Very low; some small traders and landowners,no
+class_of_worker,Employee,18.00,E,Govt employees + regular-wage workers,no
+class_of_worker,Single_worker,52.00,E,Own-account cultivator + petty trader + artisan; high in SC cultivator community,no
+class_of_worker,Family_worker,28.50,E,Unpaid family farm labour; high given ag dominance and joint-family farming,no
+economic_status,BPL_household,30.00,C,Cooch Behar district high poverty; census 2001-based BPL estimates ~35%; projected down ~5pp by 2019 given PMJDY/welfare rollout,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,Near-poor households,no
+economic_status,Lower_middle,22.00,E,,no
+economic_status,Middle,10.00,E,,no
+economic_status,Upper_middle_well_off,3.00,E,Thin upper stratum; some Muni-based traders and govt employees,no
+gp_location,U1_Mekliganj_area,58.10,A,"Mekliganj Muni (9,127) + Mekliganj CDB (155,250) = 164,377 of 282,750 total; Census 2011",no
+gp_location,U2_Haldibari_area,41.90,A,"Haldibari Muni (14,404) + Haldibari CDB (103,969) = 118,373 of 282,750; Census 2011",no
+household_composition,Avg_HH_size,4.5 persons,E,Cooch Behar district slightly above WB state average 4.3,no
+household_composition,Nuclear_HH,65.00,E,NFHS-4 WB rural pattern; slightly lower joint-HH share in SC Rajbanshi community vs Bengal average,no
+household_composition,Joint_HH,28.00,E,,no
+household_composition,Extended_multi_generation,7.00,E,,no
+marital_status,Never_married,26.00,E,Census 2011 Cooch Behar pattern; first-time voter cohort 18–22,no
+marital_status,Currently_married,64.00,E,,no
+marital_status,Widowed,8.50,E,Slightly higher than WB average; older demographic + lower life expectancy in poor rural AC,no
+marital_status,Separated_divorced,1.50,E,,no
+asset_media,Television,65.00,C,NFHS-4 WB rural 60%; Cooch Behar below-average income → ~65% by 2019,no
+asset_media,Radio,7.00,C,Slightly higher than WB average in rural Cooch Behar,no
+asset_media,Mobile_phone,82.00,C,NFHS-4 WB rural ~78%; +Jio expansion 2016-19,no
+asset_media,Smartphone_with_internet,35.00,C,Lower than WB average; rural frontier AC; NFHS baseline + Jio rollout,no
+asset_media,Computer,4.00,C,NFHS-4 WB rural ~4%,no
+asset_media,Two_wheeler,18.00,C,NFHS-4 WB rural 18%,no
+asset_media,Four_wheeler,3.00,C,Limited,no
+asset_media,Banking_access,85.00,B,PMJDY saturation; NFHS-4 WB rural baseline + rollout; Cooch Behar PMJDY enrollment high,no
+amenities,Improved_drinking_water_source,85.00,C,NFHS-4 WB rural 84%; Cooch Behar CDB data slightly above average for drinking water,no
+amenities,Improved_sanitation,60.00,C,NFHS-4 WB rural 51% + Swachh Bharat 2014-19 (+15pp rural); lower in Cooch Behar than urban,no
+amenities,LPG_clean_cooking_fuel,30.00,C,NFHS-4 WB rural 24% + Ujjwala 2016-19 (+~10pp); rural Cooch Behar lag,no
+amenities,Wood_biomass_fuel,65.00,C,Dominant in rural Cooch Behar; declining as LPG rises,no
+amenities,Other_fuel,5.00,C,"Kerosene, dung, etc.",no
+amenities,Electricity,90.00,C,Census 2011 Cooch Behar + Saubhagya 2017-19 rollout; estimated ~90% by 2019,no
+migration,Native,70.00,D,Rajbanshi SC are mostly indigenous to Cooch Behar; high nativeness,no
+migration,WB_other_district,6.00,D,Limited in-migration from other WB districts,no
+migration,Other_Indian_state,2.00,D,Small trader fringe in Muni areas,no
+migration,Bangladesh_origin,20.00,D,Significant: Rajbanshi displaced in 1947 partition + subsequent Hindu refugee flows; Haldibari area heavily affected; journalistic and regional studies estimate,no
+migration,Outside_India,0.50,E,Bhutan / Nepal origin; minor,no
+migration,Out_migrant,1.50,E,Seasonal / permanent out-migrants registered here,no

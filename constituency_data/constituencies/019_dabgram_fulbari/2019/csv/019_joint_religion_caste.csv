@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,34.50,1.10,9.00,11.00,44.40,0,0,E,88.5% Hindu: SC 32.35%÷88.5%×100=36.6% of Hindu; blended with OBC/other-middle estimate
+Muslim,0,0,0,0,0,100,0,A,self-evident
+Christian,0,0,0,0,0,0,100,A,self-evident
+Sarna_ORP,0,90,0,5,5,0,0,E,Tribal: overwhelmingly ST; small OBC/Hindu fringe
+Other_residual,0,0,0,0,0,0,100,A,self-evident

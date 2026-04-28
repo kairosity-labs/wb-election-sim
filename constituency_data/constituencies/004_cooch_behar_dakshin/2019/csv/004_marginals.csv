@@ -1,0 +1,98 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,66.50,E,CB-I CDB 2011: 66.00% Hindu (Census via censusindia.co.in); Muni slightly higher ~70%; AC weighted ~66.5%; +0.5pp Hindu over 8yr relative to Muslim,no
+religion,Muslim,33.10,E,CB-I CDB 2011: 33.71% Muslim; Muni urban lower ~29%; AC weighted ~33.1%; -0.5pp vs 2011,no
+religion,Christian,0.20,E,CB-I CDB 2011: 0.17% Christian; rounded up for 2019,no
+religion,Sarna_ORP,0.10,E,Marginal tribal pocket; CB-I block ST 0.4% of which fraction Sarna,no
+religion,Other_residual,0.10,E,Sikh + Jain + Buddhist + Not_stated residual,no
+caste,SC_total,39.80,B,CB-I block Census 2011: SC 39.8% (censusindia.co.in); Cooch Behar district SC majority 50.17% reflects all blocks; AC CB-Dakshin coverage of CB-I block portion,no
+caste,Rajbanshi_SC,36.50,C,Rajbanshi ~75.2% of district SC pool (The Print 2021 citing 2011 data); majority SC sub-caste in CB-I,yes
+caste,Other_SC,3.30,E,"Residual SC (Kaibarta, Bagdi, Hari etc.)",yes
+caste,ST_total,0.40,B,CB-I block Census 2011: ST 0.4%,no
+caste,UC_bhadralok,5.00,E,Brahmin/Kayastha/Baidya; limited in Cooch Behar; concentrated in municipality,no
+caste,OBC,4.00,E,OBC non-SC non-ST Hindu; smaller population in this AC,no
+caste,Other_Hindu_middle,17.30,E,Residual within Hindu (66.50 − 39.80 SC − 0.40 ST − 5.00 UC − 4.00 OBC = 17.30; Goala/Sutradhar/Tanti/unclassified Hindu),no
+caste,Muslim,33.10,E,All sub-castes pooled; see C.1,no
+caste,Muslim_Sheikh,25.00,D,Sheikh dominant in Cooch Behar Muslim community (Bengali Muslim peasantry),yes
+caste,Muslim_OBC,5.50,D,"OBC Muslims (Jolaha, Nai, etc.)",yes
+caste,Muslim_other,2.60,D,"Pathan, Sayyid, Nasya-Sheikh residual",yes
+caste,Christian_plus_Sarna_plus_Other,0.40,E,See C.1 Christian + Sarna_ORP + Other_residual,no
+age_cohort,18_22,11.50,E,Cooch Behar district age pyramid Census 2011; renormalized to 18+ only,no
+age_cohort,23_27,11.00,E,,no
+age_cohort,28_32,10.50,E,,no
+age_cohort,33_37,9.50,E,,no
+age_cohort,38_42,9.00,E,,no
+age_cohort,43_47,8.50,E,,no
+age_cohort,48_52,8.00,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,7.00,E,,no
+age_cohort,63_67,9.50,E,,no
+age_cohort,68,8.50,E,68+ open-ended; district pattern including elderly rural concentration,no
+gender,Male,51.05,E,Cooch Behar district sex ratio 942 F/1000 M → 51.5% M; CB-I block 942; Muni 972; AC weighted ~958 → ~51.05% M,no
+gender,Female,48.94,E,,no
+gender,Third_gender,0.01,E,Estimated ~0.01% per WB average,no
+mother_tongue,Bengali,56.50,E,Bengali-speaking Hindu and Muslim population; Cooch Behar municipality Bengali dominant,no
+mother_tongue,Hindi,1.00,E,Trader community in Muni; Bihar migrant workers,no
+mother_tongue,Urdu,1.50,E,Muslim population some Urdu-medium; primarily Bengali-speaking however,no
+mother_tongue,Other,2.00,E,"Residual — Santhali, Bodo fringe",no
+mother_tongue,Rajbongshi,39.00,E,AC-local: Rajbanshi community primary language; dominant in rural CDB-I GPs; ~75% of SC speaks Rajbongshi; adjusting for Muslim Bengali-speakers; est. ~39% of AC,no
+education,Illiterate,24.50,E,"CB-I block literacy 76.56% (2011, Census); district 74.78%; Muni higher; AC weighted ~75.5% literate → ~24.5% illiterate; small improvement 2011-19",no
+education,Primary,22.00,E,Census 2011 education distribution Cooch Behar district scaled to AC,no
+education,Middle,19.00,E,,no
+education,Secondary,15.00,E,,no
+education,Higher_Secondary,10.00,E,,no
+education,Graduate,7.00,E,,no
+education,Postgraduate,2.50,E,,no
+workforce_status,Main_worker,32.00,E,CB-I block Census 2011 main-worker share ~41% of total pop; adult-only renormalization ~32%,no
+workforce_status,Marginal_worker,10.00,E,Seasonal agricultural workers; crop cycle,no
+workforce_status,Non_worker,38.00,E,Housewife + elderly + retired; heavy in rural areas,no
+workforce_status,Student,12.00,E,18–22 in education; aligned with age cohort,no
+workforce_status,Unemployed,8.00,E,Educated job-seekers; district level unemployment pattern,no
+occupation,Cultivator,22.00,E,"CB-I block 2011: 30,381 cultivators / 134,573 main workers = 22.6%; AC weighted ~22%",no
+occupation,Agricultural_labourer,25.00,E,"CB-I block 2011: 28,496 ag-labourers / 134,573 = 21.2%; plus marginal workers inflate share; ~25%",no
+occupation,Household_industry,5.00,E,CB-I block pattern; weaving/handicraft small fraction,no
+occupation,Manufacturing,4.00,E,Limited in CB district,no
+occupation,Construction,7.00,E,Town expansion + migrant construction workers,no
+occupation,Trade_retail,12.00,E,Cooch Behar Muni hub; market economy,no
+occupation,Transport_logistics,5.00,E,Road-based; no major port/rail node,no
+occupation,Services,11.00,E,Private services in Muni,no
+occupation,Government_services_teachers,6.00,E,District headquarter town; govt employment higher than average,no
+occupation,Out_migrant_worker,3.00,D,Limited out-migration; North Bengal retains workers,no
+class_of_worker,Employer,2.00,E,Census B-04 WB rural pattern,no
+class_of_worker,Employee,30.00,E,Govt + organised + retail employees; district HQ inflates,no
+class_of_worker,Single_worker,48.00,E,Own-account cultivator + artisan + small trader,no
+class_of_worker,Family_worker,20.00,E,Unpaid agri-household labour,no
+economic_status,BPL_household,26.00,C,Cooch Behar district BPL ~30% (2011 pattern); WB poverty reduction trend -4pp by 2019 → ~26%,no
+economic_status,Above_Poverty_Line_low_income,36.00,E,,no
+economic_status,Lower_middle,24.00,E,,no
+economic_status,Middle,11.00,E,,no
+economic_status,Upper_middle_well_off,3.00,E,Cooch Behar Muni professional/trader fringe,no
+gp_location,U1_Cooch_Behar_Municipality,27.07,B,"Cooch Behar Muni population 77,935 / AC total 287,879 = 27.07% (Census 2011; indiastatpublications)",no
+gp_location,U2_CDB_Cooch_Behar_I_rural,72.93,B,Remainder — 9 GPs of CDB Cooch Behar I; v0 collapses 9 GPs into one rural cell,no
+household_composition,Avg_HH_size,4.5 persons,E,WB 2011: 4.3; Cooch Behar rural slightly larger; projection 4.5,no
+household_composition,Nuclear_HH,68.00,E,NFHS-4 WB rural pattern,no
+household_composition,Joint_HH,26.00,E,,no
+household_composition,Extended_multi_generation,6.00,E,,no
+marital_status,Never_married,27.00,E,Census 2011 Cooch Behar district pattern; first-time-voter cohort,no
+marital_status,Currently_married,64.00,E,,no
+marital_status,Widowed,8.00,E,"Concentrated in 60+, female-skewed; rural elderly concentration",no
+marital_status,Separated_divorced,1.00,E,,no
+asset_media,Television,72.00,C,"NFHS-4 WB rural 60%, urban 89%; CB district below-state average; AC weighted ~72%",no
+asset_media,Radio,6.00,C,Declining nationally; North Bengal slightly higher residual,no
+asset_media,Mobile_phone,82.00,C,NFHS-4 WB ~78%; +growth → ~82% by 2019,no
+asset_media,Smartphone_with_internet,40.00,C,NFHS-4 baseline + Jio rollout 2016-19; rural North Bengal below WB avg,no
+asset_media,Computer,7.00,C,"NFHS-4 WB rural 4%, urban 27%; AC weighted ~7%",no
+asset_media,Two_wheeler,28.00,C,"NFHS-4 WB rural 18%, urban 41%; AC weighted ~28%",no
+asset_media,Four_wheeler,5.00,C,Limited; district HQ traders,no
+asset_media,Banking_access,85.00,B,PMJDY 2014- saturation; CB district pattern,no
+amenities,Improved_drinking_water_source,80.00,C,"NFHS-4 WB rural 84%, urban 93%; CB district below-state; AC weighted ~80%",no
+amenities,Improved_sanitation,60.00,C,"NFHS-4 WB rural 51%, urban 84%; +Swachh Bharat 2014-19 (+12pp rural) → ~60%",no
+amenities,LPG_clean_cooking_fuel,40.00,C,"NFHS-4 WB rural 24%, urban 81%; +Ujjwala 2016-19 (+14pp rural) → AC ~40%",no
+amenities,Wood_biomass_fuel,55.00,C,Dominant cooking fuel rural CB district,no
+amenities,Other_fuel,5.00,C,"Kerosene, dung, etc. residual",no
+amenities,Electricity,92.00,B,Census 2011 + Saubhagya 2017-19 rollout; CB district below-average initially but Saubhagya nearly saturated,no
+migration,Native,75.00,D,Cooch Behar historically low out/in-migration; Rajbanshi and Bengali communities rooted; estimated ~75% native,no
+migration,WB_other_district,8.00,D,Some Kolkata service-class migrants in Muni; North Bengal internal migrants,no
+migration,Other_Indian_state,3.00,D,Bihari/UP trader fringe in Muni; construction workers,no
+migration,Bangladesh_origin,12.00,D,Cooch Behar is a border district; post-1947 and post-1971 Hindu Bengali refugee community; lower than Matua-belt ACs,no
+migration,Outside_India,0.50,E,Negligible; no significant non-Bangladesh foreign origin,no
+migration,Out_migrant,1.50,E,Small fraction registered here but working outside,no

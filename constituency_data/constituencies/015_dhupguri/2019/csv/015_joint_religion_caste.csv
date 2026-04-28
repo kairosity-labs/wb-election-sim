@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,38.89,8.33,6.94,11.11,34.72,0,0,E,SC 28/72 + ST 6/72 + UC 5/72 + OBC 8/72 + residual; each leaf/Hindu share
+Muslim,0,0,0,0,0,100,0,A,self-evident
+Christian,0,0,0,0,0,0,100,A,self-evident
+Sarna_ORP,0,88,0,5,7,0,0,E,Tribal sub-castes mostly route to ST_total; some Rajbanshi OBC crossover
+Other_residual,0,0,0,0,0,0,100,A,self-evident

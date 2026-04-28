@@ -1,0 +1,16 @@
+# AC 009 — Tufanganj events
+# Stub created during batch-1 expansion.
+cutoff_date: '2026-04-26'
+events:
+- slug: ls_2019_tufanganj_result
+  date: '2019-05-23'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: "2019 LS result for Tufanganj segment: BJP 49.5%, AITC 45.7%, RSP 2.7%"
+  summary: "2019 Lok Sabha result within AC 009 segment. Calibration anchor."
+  tags: []
+  valence: {}
+  broadcast: true
+  sources:
+  - data/2019_AssemblySegmentLevelVotingData.csv

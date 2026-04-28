@@ -1,0 +1,99 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,90.20,A,Maynaguri CDB 2011: 90.02% Hindu; minimal drift 2011→2019 (+0.2pp projection),no
+religion,Muslim,9.55,A,Maynaguri CDB 2011: 9.79% Muslim; slight relative decline as Hindu growth slightly faster,no
+religion,Christian,0.05,E,Maynaguri CDB 2011: 0.03%; small upward trend,no
+religion,Sarna_ORP,0.10,E,Tribal religion; ST population 1.3% with fraction Sarna,no
+religion,Other_residual,0.10,E,"Sikh + Jain + Buddhist + Not_stated, lumped; 2011 Others 0.16%",no
+caste,SC_total,71.20,A,Maynaguri Block Census 2011: SC = 71.2% — overwhelmingly SC-dominant block,no
+caste,Rajbanshi_SC,65.00,C,Rajbanshi is the dominant SC in northern Jalpaiguri; ~91% of SC pool (journalistic + district pattern),yes
+caste,Other_SC,6.20,E,"Residual SC sub-castes (Namasudra, Bagdi, etc.)",yes
+caste,ST_total,1.30,A,Maynaguri Block Census 2011: ST = 1.3%,no
+caste,Other_ST,1.30,E,Small adivasi pockets; Boro/Rabha community traces,yes
+caste,UC_bhadralok,3.00,E,Low bhadralok presence; SC-dominant AC; Brahmin/Kayastha/Baidya minimal,no
+caste,OBC,4.00,E,"OBC Hindus including Kurmi, Mahishya fringe; Jalpaiguri district pattern",no
+caste,Other_Hindu_middle,10.70,E,Residual within Hindu (90.20 − 71.20 SC − 1.30 ST − 3.0 UC − 4.0 OBC − small rounding adj),no
+caste,Muslim,9.55,E,See C.1; predominantly Bengali-speaking peasantry,no
+caste,Christian_plus_Sarna_plus_Other,0.25,E,Sarna_ORP + Christian + Other_residual combined,no
+age_cohort,18_22,11.50,E,Jalpaiguri district 2011 age pyramid; first-time voter cohort renormalised to 18+ adults,no
+age_cohort,23_27,11.80,E,,no
+age_cohort,28_32,11.60,E,,no
+age_cohort,33_37,10.80,E,,no
+age_cohort,38_42,10.20,E,,no
+age_cohort,43_47,9.50,E,,no
+age_cohort,48_52,8.80,E,,no
+age_cohort,53_57,7.50,E,,no
+age_cohort,58_62,6.50,E,,no
+age_cohort,63_67,5.30,E,,no
+age_cohort,68,6.50,E,68+ open-ended; elderly cohort,no
+gender,Male,51.58,E,Maynaguri Block 2011 sex ratio 935 → ~51.6% M; rounded,no
+gender,Female,48.41,E,Complement,no
+gender,Third_gender,0.01,E,WB SIR pattern,no
+mother_tongue,Bengali,84.26,A,Maynaguri Block 2011: 84.26% Bengali first language (Census language data),no
+mother_tongue,Hindi,0.80,E,Small trader/migrant Hindi-speaking minority; district pattern,no
+mother_tongue,Urdu,0.50,E,Muslim population Bengali-dominant; small Urdu fringe,no
+mother_tongue,Other,2.14,E,"Residual catch-all (Nepali, Sadri, etc.)",no
+mother_tongue,Rajbongshi,5.08,A,Maynaguri Block 2011: 5.08% Rajbongshi first language (Census language data),no
+mother_tongue,Sadri,1.02,A,Maynaguri Block 2011: 1.02% Sadri (tea garden worker language),no
+mother_tongue,Nepali,6.20,E,Significant Nepali-speaking population in Jalpaiguri district terai zone,no
+education,Illiterate,23.50,E,Maynaguri Block 2011 literacy 75.63%; 2019 ~+2pp trend → ~22.5% illiterate; rounded,no
+education,Primary,26.00,E,Jalpaiguri district education distribution scaled to block literacy level,no
+education,Middle,21.00,E,,no
+education,Secondary,15.00,E,,no
+education,Higher_Secondary,8.00,E,,no
+education,Graduate,5.00,E,"Lower than state average; SC-dominant, rural AC",no
+education,Postgraduate,1.50,E,,no
+workforce_status,Main_worker,36.00,E,Maynaguri CDB rural-dominant; Census 2011 main worker ~35%; slight +1pp trend,no
+workforce_status,Marginal_worker,13.00,E,Seasonal agricultural marginal workers; typical for agrarian SC belt,no
+workforce_status,Non_worker,37.00,E,Housewives + elderly + retired; heavy in rural households,no
+workforce_status,Student,8.00,E,18–22 in education; lower than urban areas,no
+workforce_status,Unemployed,6.00,E,Educated job-seekers; depressed rural economy,no
+occupation,Cultivator,28.00,E,Maynaguri CDB rural belt; dominant agricultural cultivators,no
+occupation,Agricultural_labourer,32.00,E,High SC labourer share; Rajbanshi community pattern,no
+occupation,Household_industry,5.00,E,"Bidi-rolling, weaving, cottage industry",no
+occupation,Manufacturing,3.00,E,Limited organised manufacturing in block,no
+occupation,Construction,6.00,E,Includes seasonal migrant construction workers,no
+occupation,Trade_retail,10.00,E,Mainaguri town retail hub for block,no
+occupation,Transport_logistics,4.00,E,NH-27 (Siliguri–Assam corridor) passes through area,no
+occupation,Services,7.00,E,Private services; hospitality,no
+occupation,Government_services_teachers,3.00,E,"SC-reserved quota positions; teachers, panchayat staff",no
+occupation,Out_migrant_worker,2.00,D,Relatively low out-migration compared to South Bengal; some to Siliguri/Kolkata,no
+class_of_worker,Employer,1.50,E,Census B-04 WB rural pattern; low employer share,no
+class_of_worker,Employee,22.00,E,Govt employees + organised sector; moderate,no
+class_of_worker,Single_worker,48.00,E,Own-account cultivators + petty traders,no
+class_of_worker,Family_worker,28.50,E,High unpaid family worker share in agricultural households,no
+economic_status,BPL_household,28.00,D,Jalpaiguri rural BPL ~35% in 2012; WB poverty fell ~7pp 2011–19 → ~28%; SC-dominated AC skews higher than state,no
+economic_status,Above_Poverty_Line_low_income,37.00,E,Just above BPL; near-poor agrarian households,no
+economic_status,Lower_middle,22.00,E,,no
+economic_status,Middle,11.00,E,Mainaguri town / government employee households,no
+economic_status,Upper_middle_well_off,2.00,E,Very limited affluent class in SC-dominated rural AC,no
+gp_location,U1_Mainaguri_town,9.27,A,"Mainaguri census town pop 30,490 / CDB total 329,032 = 9.27%; held stable 2011→2019",no
+gp_location,U2_Maynaguri_CDB_rural,90.73,A,Remainder: rural GPs of Maynaguri CDB; dominant share,no
+household_composition,Avg_HH_size,4.6 persons,E,WB 2011: 4.3 state average; Jalpaiguri rural slightly higher; projected stable,no
+household_composition,Nuclear_HH,65.00,E,NFHS-4 WB rural pattern; lower than urban areas,no
+household_composition,Joint_HH,28.00,E,Higher joint HH share in SC agricultural communities,no
+household_composition,Extended_multi_generation,7.00,E,,no
+marital_status,Never_married,25.00,E,Census 2011 Jalpaiguri district pattern; first-time-voter cohort lower in rural areas,no
+marital_status,Currently_married,66.00,E,High marriage rate in rural SC communities; younger marriage age,no
+marital_status,Widowed,7.50,E,Female-skewed; concentrated in 60+ cohort,no
+marital_status,Separated_divorced,1.50,E,Rural WB pattern,no
+asset_media,Television,68.00,C,NFHS-4 WB rural 60%; +Jalpaiguri slightly higher district; +trend to 2019 ~68%,no
+asset_media,Radio,8.00,C,Higher than South Bengal; North Bengal AM radio traditionally stronger,no
+asset_media,Mobile_phone,82.00,C,NFHS-4 WB rural ~74%; Jio rollout 2016–19 growth → ~82%,no
+asset_media,Smartphone_with_internet,38.00,C,NFHS-4 baseline + Jio 4G rural rollout; lower than South Bengal metro-adjacent ACs,no
+asset_media,Computer,4.00,C,Very low; rural SC-dominant AC,no
+asset_media,Two_wheeler,22.00,C,NFHS-4 WB rural 18%; modest growth to 2019,no
+asset_media,Four_wheeler,3.00,E,Minimal in this income bracket,no
+asset_media,Banking_access,85.00,B,PMJDY saturation 2016–19; Jan Dhan accounts; slight lag vs South Bengal,no
+amenities,Improved_drinking_water_source,89.00,C,NFHS-4 WB rural 84%; Jalpaiguri river-fed groundwater access slightly higher,no
+amenities,Improved_sanitation,55.00,C,NFHS-4 WB rural 51%; +Swachh Bharat 2014–19 rural gains (~+4pp),no
+amenities,LPG_clean_cooking_fuel,35.00,C,NFHS-4 WB rural 24%; +Ujjwala 2016–19 rural push (~+11pp); lower uptake in remote blocks,no
+amenities,Wood_biomass_fuel,60.00,C,Dominant fuel in forested/semi-forested terai zone; declining as LPG rises,no
+amenities,Other_fuel,5.00,E,Kerosene + dung + other; residual,no
+amenities,Electricity,90.00,E,Census 2011 Maynaguri CDB; +Saubhagya 2017–19 gains; estimated ~90% by 2019,no
+migration,Native,82.00,E,Predominantly native Rajbanshi SC community; low outmigration from North Bengal,no
+migration,WB_other_district,5.00,E,"Some in-migrants from Cooch Behar, Darjeeling; Jalpaiguri district pattern",no
+migration,Other_Indian_state,2.50,E,Hindi/Bihari trader fringe in Mainaguri town; Nepali-origin settled families,no
+migration,Bangladesh_origin,4.00,D,Smaller refugee fraction than South Bengal; some Namasudra/SC inflow from partition,no
+migration,Outside_India,0.50,E,Negligible; some Nepal-origin registered households,no
+migration,Out_migrant,3.00,E,Seasonal/permanent out-migrants to Siliguri and Kolkata; registered here,no
+migration,Nepal_Bhutan_origin,3.00,E,AC-local: significant Nepali-speaking settled community in terai zone,no

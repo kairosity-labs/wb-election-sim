@@ -1,0 +1,105 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,72.00,E,Jalpaiguri district 2011 Census: Hindu 72.6%; Dhupguri block ~72%; projected stable; Muslim growth +0.3pp over 8yr,no
+religion,Muslim,23.50,E,Jalpaiguri district 2011: ~23%; Dhupguri block slightly higher; projected +0.3pp over 8yr,no
+religion,Christian,1.50,E,Jalpaiguri district 2011: ~1.5%; tea-garden and mission-school population,no
+religion,Sarna_ORP,2.50,E,Rajbanshi tribal and Santal Adivasi population in CD block rural areas,no
+religion,Other_residual,0.50,E,Sikh + Jain + Buddhist + Not_stated; small trader fringe,no
+caste,SC_total,30.00,E,Jalpaiguri district SC share ~28%; Dhupguri block slightly higher; Census 2011,no
+caste,Rajbanshi_SC,22.00,C,Rajbanshi (Koch-Rajbanshi) dominant SC in Jalpaiguri; ~73% of SC pool,yes
+caste,Namasudra_SC,3.00,E,Smaller settlement; partition-era migrants,yes
+caste,Other_SC,5.00,E,"Bagdi, Hari, Mochi and other SC residual",yes
+caste,ST_total,8.00,E,Jalpaiguri district ST ~12%; Dhupguri block lower due to municipal area; ~8%,no
+caste,Santal_ST,4.00,E,Dominant ST; Adivasi tea-garden worker families,yes
+caste,Oraon_ST,2.50,E,Second largest ST; tea-belt presence,yes
+caste,Other_ST,1.50,E,"Munda, Garo, Bodo, Toto residual",yes
+caste,UC_bhadralok,5.00,E,Brahmin/Kayastha/Baidya; small professional class in Dhupguri Muni,no
+caste,OBC,8.00,E,"Mahishya, Kurmi, Teli, Rajbangshi OBC subgroup not in SC list",no
+caste,Other_Hindu_middle,21.00,E,Residual within Hindu (72% − 30 SC − 8 ST − 5 UC − 8 OBC) = 21%,no
+caste,Muslim,23.50,E,See C.1; Bengali-Sheikh predominant in Dhupguri block rural; Urdu-speaking fringe in town,no
+caste,Christian_plus_Sarna_plus_Other,4.50,E,See C.1; Christian 1.5% + Sarna 2.5% + Other 0.5% combined,no
+age_cohort,18_22,12.00,E,Renormalized from Census 2011 Jalpaiguri age pyramid (18+ adults only; 0–17 excluded),no
+age_cohort,23_27,12.50,E,High youth share in North Bengal terai,no
+age_cohort,28_32,12.00,E,,no
+age_cohort,33_37,11.00,E,,no
+age_cohort,38_42,10.00,E,,no
+age_cohort,43_47,9.00,E,,no
+age_cohort,48_52,8.00,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.00,E,,no
+age_cohort,63_67,6.50,E,,no
+age_cohort,68,6.00,E,68+ open-ended,no
+gender,Male,51.27,E,Jalpaiguri district sex ratio 954 F per 1000 M → 51.27% M,no
+gender,Female,48.72,E,Computed residual,no
+gender,Third_gender,0.01,E,WB SIR pattern; negligible in rural-semi-urban AC,no
+mother_tongue,Bengali,62.00,E,Jalpaiguri district 2011: ~62% Bengali; Dhupguri town majority Bengali,no
+mother_tongue,Hindi,4.00,E,Bihari labour migrants; small Marwari trader community in Dhupguri town,no
+mother_tongue,Urdu,2.00,E,Muslim Bengali-Urdu bilingual fringe in town area,no
+mother_tongue,Other,3.00,E,"Nepali, Sadri, English-medium Christian; residual catch-all",no
+mother_tongue,Rajbongshi,16.00,E,Rajbangshi / Koch-Rajbangshi mother tongue; dominant in SC-OBC rural population,no
+mother_tongue,Santali,8.00,E,Santal Adivasi tea-belt families,no
+mother_tongue,Sadri,3.00,E,Oraon/other Adivasi lingua franca in tea gardens,no
+mother_tongue,Nepali,2.00,E,Small Gorkha/Nepali origin settled community in terai,no
+education,Illiterate,22.00,E,Jalpaiguri district literacy 73.8% (2011); Dhupguri block slightly lower; ~26% illiterate 2011; trend to ~22% by 2019,no
+education,Primary,24.00,E,Census 2011 Jalpaiguri education distribution scaled,no
+education,Middle,20.00,E,,no
+education,Secondary,16.00,E,,no
+education,Higher_Secondary,9.00,E,,no
+education,Graduate,7.00,E,Limited higher education in semi-urban AC,no
+education,Postgraduate,2.00,E,,no
+workforce_status,Main_worker,38.00,E,Jalpaiguri district Census 2011 main-worker share ~38%; tea-garden and agriculture dominant,no
+workforce_status,Main_worker_tea_garden,8.00,E,Sub-row; tea-garden patta workers in CD block rural (is_subgroup=yes),yes
+workforce_status,Main_worker_non_tea,30.00,E,Sub-row; agriculture + services (is_subgroup=yes),yes
+workforce_status,Marginal_worker,14.00,E,High marginal-worker share typical in North Bengal terai,no
+workforce_status,Non_worker,32.00,E,Housewife + elderly + retired,no
+workforce_status,Student,10.00,E,18–22 in education; local college presence,no
+workforce_status,Unemployed,6.00,E,Educated job-seekers; limited local white-collar absorption,no
+occupation,Cultivator,22.00,E,Jalpaiguri block 2011: ~25% cultivators; Muni dilution → ~22% AC weighted,no
+occupation,Agricultural_labourer,28.00,E,High agricultural-labourer share in rural terai; includes tea-garden wage workers,no
+occupation,Household_industry,5.00,E,"Weaving, bamboo craft, traditional industry",no
+occupation,Manufacturing,4.00,E,"Rice mills, small processing; limited organised",no
+occupation,Construction,6.00,E,Seasonal labour; NH-17 corridor construction,no
+occupation,Trade_retail,10.00,E,Dhupguri town market hub; retail traders,no
+occupation,Transport_logistics,5.00,E,"NH-17 transport economy; auto-rickshaw, truck",no
+occupation,Services,8.00,E,Private services in town area,no
+occupation,Government_services_teachers,5.00,E,"State govt, school teachers; stable employment class",no
+occupation,Out_migrant_worker,7.00,D,North Bengal seasonal migrants to Kerala/Andhra for construction; also tea-estate closures push out-migration,no
+class_of_worker,Employer,2.00,E,Census B-04 WB pattern,no
+class_of_worker,Employee,36.00,E,Tea-garden patta workers + govt employees + organised retail,no
+class_of_worker,Single_worker,42.00,E,Own-account cultivators + petty traders + artisans,no
+class_of_worker,Family_worker,20.00,E,Unpaid family help in agriculture and household industry,no
+economic_status,BPL_household,30.00,C,Jalpaiguri district BPL ~32% (Census 2001 baseline); WB poverty fell ~6pp 2011–19 → ~30% by 2019; tea-belt poverty elevated,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,,no
+economic_status,Lower_middle,22.00,E,Market-town and service-class households,no
+economic_status,Middle,10.00,E,"Government employees, small traders",no
+economic_status,Upper_middle_well_off,3.00,E,Dhupguri Muni affluent fringe; rice-mill owners,no
+gp_location,U1_Dhupguri_Municipality,20.00,E,"Dhupguri Paurashava ~45,000 / 230,000 AC total ≈ 20%; Census 2011 Jalpaiguri district municipality",no
+gp_location,U2_Dhupguri_CDB_rural,80.00,E,Remainder; Dhupguri CD Block GP share collapsed to single rural sub-unit in v0,no
+household_composition,Avg_HH_size,4.5 persons,E,WB 2011: 4.3; North Bengal slightly higher; projection,no
+household_composition,Nuclear_HH,65.00,E,NFHS-4 WB rural pattern; slightly lower joint family in North Bengal terai,no
+household_composition,Joint_HH,28.00,E,Higher joint family in Rajbanshi and Muslim communities,no
+household_composition,Extended_multi_generation,7.00,E,Multi-generation households in rural areas,no
+marital_status,Never_married,26.00,E,Census 2011 Jalpaiguri pattern; first-time-voter and young cohort,no
+marital_status,Currently_married,65.00,E,High rural marriage rate; early marriage in Adivasi and Muslim communities,no
+marital_status,Widowed,8.00,E,Concentrated in 60+; female-skewed; tea-garden mortality slightly elevated,no
+marital_status,Separated_divorced,1.00,E,,no
+asset_media,Television,62.00,C,"NFHS-4 WB rural 60%, urban 89%; North Bengal rural-dominated AC ~62% by 2019",no
+asset_media,Radio,8.00,C,Slightly higher than south WB; North Bengal radio listenership,no
+asset_media,Mobile_phone,80.00,C,NFHS-4 WB ~78%; Jio rollout 2016–19; ~80% by 2019,no
+asset_media,Smartphone_with_internet,35.00,C,NFHS-4 baseline + Jio rollout; rural North Bengal lagging south WB,no
+asset_media,Computer,5.00,C,Low; semi-urban AC; mainly govt office and college,no
+asset_media,Two_wheeler,25.00,C,NFHS-4 WB rural 18%; market-town effect → ~25%,no
+asset_media,Four_wheeler,4.00,C,Limited; rice-mill owners and traders,no
+asset_media,Banking_access,82.00,B,PMJDY 2014-19 saturation; NFHS-4 WB baseline,no
+amenities,Improved_drinking_water_source,80.00,C,NFHS-4 WB rural 84%; North Bengal slightly lower ground-water quality issues → ~80%,no
+amenities,Improved_sanitation,55.00,C,NFHS-4 WB rural 51%; +Swachh Bharat 2014–19 (+8pp rural in lower-income ACs),no
+amenities,LPG_clean_cooking_fuel,30.00,C,NFHS-4 WB rural 24%; +Ujjwala 2016–19 (+8pp); North Bengal rural lower than south,no
+amenities,Wood_biomass_fuel,64.00,C,High wood-fuel dependency in North Bengal rural; forest proximity,no
+amenities,Other_fuel,6.00,C,"Kerosene, dung-cake; residual",no
+amenities,Electricity,88.00,C,Census 2011 + Saubhagya 2017–19 rollout; North Bengal slightly behind south WB,no
+migration,Native,72.00,D,Estimate from Jalpaiguri district Census D-series pattern; long-settled Rajbanshi and Adivasi communities,no
+migration,WB_other_district,6.00,D,Some Kolkata and South WB service-class in Dhupguri town,no
+migration,Other_Indian_state,4.00,E,Bihari and UP labour migrants; small Marwari trader community,no
+migration,Bangladesh_origin,10.00,D,Hindu Bengali refugees (partition-era and post-1971) in rural GPs; lower concentration than in border districts,no
+migration,Outside_India,0.50,E,Negligible,no
+migration,Out_migrant,3.50,E,Seasonal workers registered here but working outside; tea-estate displacement,no
+migration,Nepal_Bhutan_origin,4.00,E,Small Nepali-origin settled community; Bhutanese refugee residual in North Bengal,no

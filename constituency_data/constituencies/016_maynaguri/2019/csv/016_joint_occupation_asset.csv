@@ -1,0 +1,11 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,28.00,60.00,C,Rural cultivator baseline; Jalpaiguri district
+Agricultural_labourer,20.00,50.00,C,Lowest income; lowest smartphone access
+Household_industry,35.00,65.00,C,Slightly higher; cottage industry exposure
+Manufacturing,48.00,78.00,C,
+Construction,42.00,68.00,C,
+Trade_retail,65.00,85.00,C,Mainaguri town concentration
+Transport_logistics,60.00,80.00,C,NH-27 corridor workers
+Services,70.00,88.00,C,Private services
+Government_services_teachers,85.00,95.00,C,Highest access
+Out_migrant_worker,65.00,72.00,D,Working outside; smartphone-dependent for remittances

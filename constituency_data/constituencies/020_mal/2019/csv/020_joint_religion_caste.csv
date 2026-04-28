@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,28.00,14.00,5.50,8.00,44.50,0,0,E,"SC_total/Hindu: 26.05/72% ~36%; adj for Hindu-ST overlap; UC small; Other_Hindu_middle = Goala, Sutradhar, Koch"
+Muslim,0,0,0,0,0,100,0,A,self-evident
+Christian,0,70.00,0,0,0,0,30.00,E,Christian in Mal overwhelmingly converted ST; some non-ST Christian in municipality
+Sarna_ORP,0,95.00,0,3.00,2.00,0,0,E,Sarna/ORP practitioners are almost entirely ST
+Other_residual,0,0,0,0,0,0,100,E,self-evident for residual

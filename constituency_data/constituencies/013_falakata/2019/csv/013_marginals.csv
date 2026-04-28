@@ -1,0 +1,107 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,82.50,A,Census 2011 Falakata Block: Hindu 82%; adjusted +0.5pp for 8-yr differential (censusindia.co.in),no
+religion,Muslim,15.50,A,Census 2011 Falakata Block: Muslim 15.79%; slight relative decline vs Hindu growth rate,no
+religion,Christian,1.50,E,Tea garden belt pattern; Alipurduar-I block 2.54% Christian; Falakata lower (less plantation density),no
+religion,Sarna_ORP,0.40,E,Adivasi tribal religion fringe; small given majority Hindu-identified Adivasis in Dooars,no
+religion,Other_residual,0.10,E,Buddhist (Nepali fringe) + Sikh + Not_stated lumped,no
+caste,SC_total,40.70,A,Census 2011 Falakata Block: SC 40.7% (censusindia.co.in),no
+caste,Rajbanshi_SC,26.00,C,Dominant SC in Dooars-Terai; Rajbanshi concentrated in Falakata; ~64% of SC pool,yes
+caste,Tea_garden_SC,8.00,D,"Chamar, Muchi, Hari and other SC communities in tea estates; ~20% of SC pool",yes
+caste,Other_SC,6.70,E,Residual SC (Bagdi etc.),yes
+caste,ST_total,15.90,A,Census 2011 Falakata Block: ST 15.9% (censusindia.co.in),no
+caste,Oraon_ST,7.00,D,Largest ST group in Dooars tea gardens; Mili Oraon (RSP candidate 2019) reflects salience,yes
+caste,Munda_ST,3.50,D,Second major tea garden ST,yes
+caste,Koch_ST,2.50,D,Koch community (categorised ST in WB); Koch-Rajbongshi belt,yes
+caste,Other_ST,2.90,E,"Santali, Rava, Rabha, Toto and others",yes
+caste,UC_bhadralok,5.00,E,Small bhadralok (Brahmin/Kayastha/Baidya) presence; concentrated in Falakata town,no
+caste,OBC,4.00,E,"Teli, Sutradhar, other OBC; modest in this tea-belt district",no
+caste,Other_Hindu_middle,16.90,E,Residual within Hindu: 82.5% − 40.7% SC − 15.9% ST − 5% UC − 4% OBC = 16.9%,no
+caste,Muslim,15.50,E,All sub-castes pooled; mostly Bengali-Muslim peasantry,no
+caste,Christian_plus_Sarna_plus_Other,2.00,E,Christian 1.50% + Sarna 0.40% + Other_residual 0.10%,no
+age_cohort,18_22,11.50,E,Renormalized from Alipurduar district Census 2011 age pyramid (18+ only),no
+age_cohort,23_27,11.00,E,,no
+age_cohort,28_32,10.50,E,,no
+age_cohort,33_37,10.00,E,,no
+age_cohort,38_42,9.50,E,,no
+age_cohort,43_47,9.00,E,,no
+age_cohort,48_52,8.00,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.00,E,,no
+age_cohort,63_67,4.50,E,,no
+age_cohort,68,13.00,E,68+ open-ended; includes 63_67 overflow; renormalized to 100,no
+gender,Male,51.47,A,Sex ratio 943 F per 1000 M → 1000/(1000+943) = 51.47% M,no
+gender,Female,48.52,A,943/(1000+943),no
+gender,Third_gender,0.01,E,Nominal; consistent with WB pattern,no
+mother_tongue,Bengali,62.00,E,Dominant plains population; Rajbanshi community mostly Bengali-speaking; estimate,no
+mother_tongue,Hindi,3.00,E,Bihari/UP migrant workers; some tea garden Hindi belt,no
+mother_tongue,Urdu,2.00,E,Muslim community fraction,no
+mother_tongue,Other,3.00,E,"Residual catch-all (Nepali fringe, Bodo fringe)",no
+mother_tongue,Rajbongshi,14.00,D,Rajbongshi/Koch-Rajbongshi mother tongue; significant in Dooars North Bengal (journalistic),no
+mother_tongue,Sadri,8.00,D,"Lingua franca of tea garden Adivasis (Oraon, Munda, etc.); widely spoken in Dooars",no
+mother_tongue,Oraon_Kurukh,5.00,D,Native language of Oraon ST community; Dooars tea belt,no
+mother_tongue,Nepali,3.00,E,Small Nepali-speaking community in foothills,no
+education,Illiterate,27.00,A,Falakata Block literacy 72.64% in 2011 → ~27.4% illiterate; 8yr trend minimal → ~27% in 2019,no
+education,Primary,24.00,E,Census 2011 education distribution for block; primary share large in tea garden belt,no
+education,Middle,18.00,E,,no
+education,Secondary,14.00,E,,no
+education,Higher_Secondary,9.00,E,,no
+education,Graduate,6.00,E,Below WB average; limited higher-ed access in tea belt,no
+education,Postgraduate,2.00,E,,no
+workforce_status,Main_worker,36.00,E,Census 2011 Falakata Block main-worker pattern; tea garden employment high,no
+workforce_status,Main_worker_tea_garden,14.00,D,"Tea garden permanent workers; sub-row, is_subgroup=yes",yes
+workforce_status,Main_worker_non_tea,22.00,E,"Agriculture, trade, services; sub-row",yes
+workforce_status,Marginal_worker,12.00,E,Seasonal and marginal workers; tea garden casual labor,no
+workforce_status,Non_worker,34.00,E,Housewife + elderly + retired,no
+workforce_status,Student,10.00,E,18–22 cohort in education,no
+workforce_status,Unemployed,8.00,E,Educated job-seekers; tea estate closures create unemployed pool,no
+occupation,Cultivator,16.00,E,Falakata plains agriculture; smaller than pure agrarian ACs due to tea sector,no
+occupation,Agricultural_labourer,20.00,E,Farm laborers excluding tea garden workers,no
+occupation,Household_industry,4.00,E,"Weaving, bamboo craft, small cottage industries",no
+occupation,Manufacturing,6.00,E,"Small-scale; tea processing, agro-processing",no
+occupation,Construction,5.00,E,,no
+occupation,Trade_retail,10.00,E,Falakata town retail + local markets,no
+occupation,Transport_logistics,5.00,E,Road freight; NH-31C access,no
+occupation,Services,9.00,E,"Private services, domestic workers",no
+occupation,Government_services_teachers,5.00,E,Below state average; limited govt presence in tea belt,no
+occupation,Out_migrant_worker,5.00,D,Youth out-migration from tea estates to other states; growing trend,no
+occupation,Tea_garden_worker,15.00,D,Tea garden permanent and casual workers; AC-local occupation category,no
+class_of_worker,Employer,1.50,E,Small traders and contractors,no
+class_of_worker,Employee,40.00,E,Tea garden employees (largest employee pool in North Bengal) + govt employees,no
+class_of_worker,Single_worker,38.00,E,"Own-account cultivators, artisans, small traders",no
+class_of_worker,Family_worker,20.50,E,Unpaid family labor in agriculture and household industry,no
+economic_status,BPL_household,28.00,C,Alipurduar district poverty high; tea garden belt historically high BPL; NFHS-4 WB pattern adjusted upward for north Bengal,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,,no
+economic_status,Lower_middle,22.00,E,,no
+economic_status,Middle,12.00,E,,no
+economic_status,Upper_middle_well_off,3.00,E,Falakata town small affluent class,no
+gp_location,U1_Falakata_Municipality_CDB_core,86.00,E,"Falakata CDB 290,722 / ~295,000 total AC base ≈ 98.5%; adjusted down to ~86% to account for urban/semi-urban weight and GP coverage",no
+gp_location,U2_Purba_Kanthalbari_Alipurduar_I,14.00,E,"Purba Kanthalbari GP estimated ~4,000-4,500 persons out of ~295,000 AC base; v0 approximate",no
+household_composition,Avg_HH_size,4.4 persons,E,WB 2011 district average 4.3; tea garden quarters typically slightly larger,no
+household_composition,Nuclear_HH,68.00,E,NFHS-4 WB rural/semi-rural pattern,no
+household_composition,Joint_HH,25.00,E,Higher than WB average in Rajbongshi community,no
+household_composition,Extended_multi_generation,7.00,E,,no
+marital_status,Never_married,25.00,E,Census 2011 Alipurduar district pattern; first-time voter cohort,no
+marital_status,Currently_married,66.00,E,,no
+marital_status,Widowed,8.00,E,Slightly elevated due to tea garden occupational health issues,no
+marital_status,Separated_divorced,1.00,E,,no
+asset_media,Television,68.00,C,"NFHS-4 WB rural 60%, urban 89%; Alipurduar below WB avg; tea garden quarters lower; AC ~68%",no
+asset_media,Radio,8.00,C,Slightly higher in tea garden belt (traditional media),no
+asset_media,Mobile_phone,80.00,C,NFHS-4 WB ~78% + Jio rollout 2016-19; tea estate lines,no
+asset_media,Smartphone_with_internet,38.00,C,Below WB average; lower internet penetration in north Bengal tea belt; NFHS-4 + Jio rollout,no
+asset_media,Computer,5.00,C,Very low; limited among tea garden workers,no
+asset_media,Two_wheeler,22.00,C,NFHS-4 WB rural 18%; Alipurduar modestly above due to terrain,no
+asset_media,Four_wheeler,4.00,C,Low; mostly larger traders,no
+asset_media,Banking_access,78.00,B,PMJDY 2014- enrollment; below WB avg; tea garden communities had delayed bank access,no
+amenities,Improved_drinking_water_source,80.00,C,NFHS-4 WB rural 84%; tea estate water supply varies; AC ~80%,no
+amenities,Improved_sanitation,55.00,C,NFHS-4 WB rural 51%; below WB avg; tea garden latrine coverage low; +Swachh Bharat partial,no
+amenities,LPG_clean_cooking_fuel,35.00,C,NFHS-4 WB rural 24%; +Ujjwala 2016-19 rollout; tea belt lower than plains,no
+amenities,Wood_biomass_fuel,60.00,C,High wood/firewood use in forest-adjacent tea belt,no
+amenities,Other_fuel,5.00,E,"Kerosene, coal, etc.",no
+amenities,Electricity,88.00,C,Saubhagya 2017-19 rollout; some tea garden quarters still unelectrified in 2019,no
+migration,Native,68.00,D,Rajbongshi and local community broadly native to Dooars region; estimate,no
+migration,WB_other_district,7.00,D,"In-migrants from Jalpaiguri, Cooch Behar, Darjeeling districts",no
+migration,Other_Indian_state,8.00,D,"Tea garden laborers' descendants with roots in Jharkhand, Bihar, Odisha, Chhattisgarh",no
+migration,Bangladesh_origin,3.00,D,Small Hindu refugee fringe from Bengal partition; less prominent than South Bengal,no
+migration,Outside_India,0.50,E,Nepal-origin fringe in foothills,no
+migration,Out_migrant,3.50,E,Youth from tea estates working outside; registered here,no
+migration,Jharkhand_origin,10.00,D,AC-local: Oraon/Munda tea garden population with Chota Nagpur/Jharkhand origins; brought as indentured labor; multi-generation settled,no

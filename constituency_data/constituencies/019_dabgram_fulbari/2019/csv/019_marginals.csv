@@ -1,0 +1,99 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,88.50,E,Siliguri city 91.98% Hindu (Census 2011 A); Rajganj block 79.17% Hindu (A); AC weighted blend ~88.5%; Hindu growth +0.8%/yr 2011-19,no
+religion,Muslim,7.80,E,Siliguri 5.37% + Rajganj block 19.35%; AC blended ~7.8%; Muslim growth +1.1%/yr,no
+religion,Christian,1.40,E,Siliguri 0.94% + Rajganj block 1.06%; AC ~1.4% incl. tea-belt Christian fringe,no
+religion,Sarna_ORP,1.50,E,ST tribal population in Rajganj GP pocket; tea-plantation proximate,no
+religion,Other_residual,0.80,E,"Buddhist (Siliguri urban), Sikh, Jain, Nepali fringe; Siliguri 0.65% Buddhist + others",no
+caste,SC_total,32.35,A,"Census 2011 Dabgram-Fulbari estimate — 32.35% SC (constituency factbook, tier A)",no
+caste,Rajbanshi_SC,27.00,C,Dominant SC in Jalpaiguri; Rajbanshi ~75% of WB SC in North Bengal; forms bulk of SC pool here,yes
+caste,Other_SC,5.35,E,"Residual SC sub-groups (Bagdi, Namasudra fringe, etc.)",yes
+caste,ST_total,1.16,A,"Census 2011 Dabgram-Fulbari: 1.16% ST (constituency factbook, tier A)",no
+caste,Oraon_Munda_other,1.16,E,Small tribal pool; mostly in Rajganj GP portion; tea-plantation adjacent,yes
+caste,UC_bhadralok,8.00,E,Brahmin/Kayastha/Baidya; Siliguri urban professional class; higher in SMC wards,no
+caste,OBC,10.00,E,"Rajbanshi OBC classification in some states — but WB classifies Rajbanshi as SC; other OBCs (Kumhar, Teli, Sutradhar) present in Siliguri trade; ~10% estimate",no
+caste,Other_Hindu_middle,36.49,E,Residual within Hindu (88.5 − 32.35 SC − 1.16 ST − 8 UC − 10 OBC = 37% Hindu middle; minus ~0.5 non-Hindu portion),no
+caste,Muslim,7.80,E,See C.1,no
+caste,Christian_plus_Sarna_plus_Other,4.20,E,Christian 1.4% + Sarna_ORP 1.5% + Other_residual 0.8% + small fringe = 3.7% → ~4.20% rounded to align,no
+age_cohort,18_22,12.00,E,Jalpaiguri district age pyramid 2011 + projection; large first-time-voter cohort (urban growth),no
+age_cohort,23_27,13.00,E,Young adult urban in-migration,no
+age_cohort,28_32,12.50,E,,no
+age_cohort,33_37,11.50,E,,no
+age_cohort,38_42,10.00,E,,no
+age_cohort,43_47,9.00,E,,no
+age_cohort,48_52,8.00,E,,no
+age_cohort,53_57,7.00,E,,no
+age_cohort,58_62,6.00,E,,no
+age_cohort,63_67,5.50,E,,no
+age_cohort,68,5.50,E,68+ open-ended,no
+gender,Male,51.28,E,Jalpaiguri district sex ratio 953 F/1000 M → 51.28% M / 48.72% F; projected stable to 2019,no
+gender,Female,48.71,E,,no
+gender,Third_gender,0.01,E,Negligible; ~0.01% standard WB estimate,no
+mother_tongue,Bengali,62.00,E,SMC 2011: 60.88% Bengali (A); Rajganj block 81.43% Bengali (A); AC blended weighted estimate,no
+mother_tongue,Hindi,18.00,E,SMC 2011: 25.24% Hindi (A); Rajganj 5.09%; blended ~18%,no
+mother_tongue,Urdu,1.00,E,Small Muslim Urdu-speaker pocket in Siliguri urban,no
+mother_tongue,Other,3.00,E,Sadri 1.70% in Rajganj (A); other residual,no
+mother_tongue,Rajbongshi,12.00,E,Rajganj block 2.98% Rajbongshi (A); higher in GP portion; AC-local Rajbanshi SC community,no
+mother_tongue,Nepali,3.00,E,SMC Siliguri 4.66% Nepali (A); diluted in AC portion,no
+mother_tongue,Bhojpuri,1.00,E,SMC fringe; North India in-migrant labour,no
+education,Illiterate,15.00,E,"Jalpaiguri literacy 73.25% (2011, A); urban Siliguri higher; AC peri-urban estimate ~15% illiterate by 2019",no
+education,Primary,20.00,E,Census 2011 Jalpaiguri district education distribution scaled,no
+education,Middle,20.00,E,,no
+education,Secondary,18.00,E,,no
+education,Higher_Secondary,13.00,E,Urban Siliguri wards boost HS share,no
+education,Graduate,10.00,E,Professional class in SMC wards,no
+education,Postgraduate,4.00,E,Urban university / college graduates,no
+workforce_status,Main_worker,34.00,E,"Rajganj block main-worker share ~37.6% (Census 2011, A); urban SMC dilution of ag workers; AC ~34%",no
+workforce_status,Marginal_worker,8.00,E,Rajganj block 20.2% marginal share within workers (A); scaled to AC with urban offset,no
+workforce_status,Non_worker,36.00,E,Housewife + elderly + retired; high in urban HH,no
+workforce_status,Student,13.00,E,Urban 18–22 in education; Siliguri college town fringe,no
+workforce_status,Unemployed,9.00,E,Educated unemployment salience in urban peri-urban; job-aspirant pool,no
+occupation,Cultivator,8.00,E,Rajganj block cultivator 10.56% (A); urban wards dilute → AC ~8%,no
+occupation,Agricultural_labourer,10.00,E,Rajganj block 15.08% (A); urban dilution,no
+occupation,Household_industry,4.00,E,Rajganj block 3.31% (A); some urban small enterprise,no
+occupation,Manufacturing,6.00,E,Small manufacturing in Siliguri fringe,no
+occupation,Construction,8.00,E,Urban construction boom in Siliguri; in-migrant labour,no
+occupation,Trade_retail,22.00,E,Siliguri is major trading hub for North-East India; high trade/retail share,no
+occupation,Transport_logistics,10.00,E,"Siliguri is gateway city; trucking, logistics, freight; elevated transport share",no
+occupation,Services,18.00,E,Urban private services; Siliguri service economy,no
+occupation,Government_services_teachers,8.00,E,Administrative town; government sector significant,no
+occupation,Out_migrant_worker,6.00,D,Some Rajbanshi men to Assam/Bhutan tea estates or other states,no
+class_of_worker,Employer,3.00,E,Siliguri trade hub has larger employer class than rural WB,no
+class_of_worker,Employee,38.00,E,Govt + organised retail + service employees; urban skew,no
+class_of_worker,Single_worker,42.00,E,"Own-account traders, cultivators, transport operators",no
+class_of_worker,Family_worker,17.00,E,Unpaid family labour; higher in GP rural portion,no
+economic_status,BPL_household,22.00,C,WB state BPL ~23% (2011); urban peri-urban has lower BPL than deep rural; Rajganj block offsets; ~22% estimate,no
+economic_status,Above_Poverty_Line_low_income,35.00,E,,no
+economic_status,Lower_middle,25.00,E,Siliguri trade / service class,no
+economic_status,Middle,13.00,E,Urban middle class in SMC wards,no
+economic_status,Upper_middle_well_off,5.00,E,Siliguri affluent trader / professional class; higher than typical WB AC,no
+gp_location,U1_SMC_wards_31_44,62.00,E,14 SMC wards; SMC Jalpaiguri portion ~157k / total AC ~253k; urban dominant share,no
+gp_location,U2_Rajganj_GP_rural,38.00,E,"4 GPs (Dabgram-I, Dabgram-II, Fulbari-I, Fulbari-II) of Rajganj CD block; rural/semi-rural",no
+household_composition,Avg_HH_size,4.2 persons,E,Jalpaiguri district 4.3 (2011); urban Siliguri slightly lower; ~4.2,no
+household_composition,Nuclear_HH,72.00,E,NFHS-4 WB urban pattern; urban AC has higher nuclear share,no
+household_composition,Joint_HH,22.00,E,,no
+household_composition,Extended_multi_generation,6.00,E,,no
+marital_status,Never_married,27.00,E,Census 2011 Jalpaiguri pattern; large young urban cohort,no
+marital_status,Currently_married,64.50,E,,no
+marital_status,Widowed,7.00,E,"Concentrated in 60+, female-skewed",no
+marital_status,Separated_divorced,1.50,E,Slightly higher in urban area vs rural WB,no
+asset_media,Television,85.00,C,"NFHS-4 WB urban 89%, rural 60%; AC blended peri-urban ~85%; +projection to 2019",no
+asset_media,Radio,4.00,C,Declining nationally; urban lower,no
+asset_media,Mobile_phone,90.00,C,High urban penetration; Siliguri telecom hub; ~90% by 2019,no
+asset_media,Smartphone_with_internet,58.00,C,NFHS-4 baseline + Jio rollout 2016-19; urban Siliguri higher than rural WB,no
+asset_media,Computer,15.00,C,NFHS-4 WB urban 27%; AC blended ~15%,no
+asset_media,Two_wheeler,40.00,C,Higher in urban Siliguri; transport / trade economy,no
+asset_media,Four_wheeler,10.00,C,Siliguri trader / logistics class; above-average four-wheeler,no
+asset_media,Banking_access,90.00,B,PMJDY saturation + urban banking infrastructure; high in Siliguri,no
+amenities,Improved_drinking_water_source,92.00,C,NFHS-4 WB urban 93%; Rajganj GP lower; AC ~92%,no
+amenities,Improved_sanitation,80.00,C,NFHS-4 WB urban 84%; Rajganj rural lower 51%; blended ~80%,no
+amenities,LPG_clean_cooking_fuel,60.00,C,NFHS-4 WB urban 81%; GP rural 24%; blended ~60%; Ujjwala 2016-19 boost,no
+amenities,Wood_biomass_fuel,36.00,C,Declining as LPG rises; higher in GP rural portion,no
+amenities,Other_fuel,4.00,C,Kerosene / dung cake fringe,no
+amenities,Electricity,98.00,A,Census 2011 + Saubhagya 2017-19 saturation; SMC wards near 100%,no
+migration,Native,55.00,D,Siliguri is major in-migration destination; native share lower than rural WB,no
+migration,WB_other_district,15.00,D,"In-migration from Darjeeling, Cooch Behar, Murshidabad etc. for trade/services",no
+migration,Other_Indian_state,18.00,D,Significant Bihar / UP / Jharkhand / Rajasthan in-migration; Siliguri Hindi-speaker 25%,no
+migration,Bangladesh_origin,4.00,D,Smaller than South Bengal border ACs; some Hindu refugee / economic migrant pool,no
+migration,Outside_India,0.50,E,Nepal-origin (Nepali-speaking 3%); Bhutan fringe; small,no
+migration,Out_migrant,3.00,E,Some Rajbanshi youth to Assam tea belt / other states; registered here,no
+migration,Nepal_Bhutan_origin,4.50,D,Siliguri is gateway city; Nepali community 3% SMC mother tongue; includes Bhutan-origin residents,no

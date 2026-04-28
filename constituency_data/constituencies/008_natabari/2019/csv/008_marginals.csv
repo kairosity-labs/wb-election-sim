@@ -1,0 +1,97 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,79.50,E,Cooch Behar district Census 2011 Hindu 79.7%; Natabari block slightly below district average; projected stable 2011→2019,no
+religion,Muslim,18.80,E,Cooch Behar district Muslim 18.4%; Natabari block slightly above district; Tufanganj subdivision higher Muslim share; projected +0.2pp relative gain 8yr,no
+religion,Christian,0.80,E,Cooch Behar district 2011 ~0.9%; small Rajbanshi Christian fringe + Bengali Christian,no
+religion,Sarna_ORP,0.50,E,Small tribal pocket; Cooch Behar district tribal-religion fringe,no
+religion,Other_residual,0.40,E,Sikh + Jain + Buddhist + Not_stated,no
+caste,SC_total,28.00,A,Cooch Behar district SC 28.36% (Census 2011); Natabari block ~28% estimated,no
+caste,Rajbanshi_SC,22.00,C,Rajbanshi is the dominant SC in Cooch Behar; ~78% of SC pool; also found among OBC and General,yes
+caste,Namasudra_SC,3.50,E,Smaller SC sub-group in Cooch Behar,yes
+caste,Other_SC,2.50,E,"Residual SC (Bagdi, Koch, Jhalo-Malo, etc.)",yes
+caste,ST_total,1.50,A,Cooch Behar district ST 1.54% (Census 2011),no
+caste,UC_bhadralok,4.00,E,Brahmin/Kayastha/Baidya; small in this predominantly Rajbanshi-dominated AC,no
+caste,OBC,12.00,E,Rajbanshi OBC (non-SC fraction of Rajbanshi community) + Koch-Rajbanshi + other OBC; Cooch Behar pattern,no
+caste,Other_Hindu_middle,34.00,E,Residual Hindu middle castes — Rajbanshi General + Saha + Sutradhar + Kaibarta + others; 79.50 − 28.0 SC − 1.5 ST − 4.0 UC − 12.0 OBC − 18.8 Muslim − 0.8 Chr − 0.5 Sarna = 33.9 ≈ 34,no
+caste,Muslim,18.80,E,All sub-castes pooled (mostly Bengali-Sheikh in Cooch Behar),no
+caste,Christian_plus_Sarna_plus_Other,1.70,E,Christian 0.80 + Sarna_ORP 0.50 + Other_residual 0.40,no
+age_cohort,18_22,11.00,E,"Renormalized from Cooch Behar district Census 2011 age pyramid, 18+ only",no
+age_cohort,23_27,11.50,E,,no
+age_cohort,28_32,11.00,E,,no
+age_cohort,33_37,10.50,E,,no
+age_cohort,38_42,10.00,E,,no
+age_cohort,43_47,9.50,E,,no
+age_cohort,48_52,9.00,E,,no
+age_cohort,53_57,8.00,E,,no
+age_cohort,58_62,7.00,E,,no
+age_cohort,63_67,6.50,E,,no
+age_cohort,68,6.00,E,68+ open-ended cohort,no
+gender,Male,50.93,E,District sex ratio 963 F per 1000 M → 1000/(1963)=50.94% M; rounded,no
+gender,Female,49.06,E,963/(1963)=49.06% F,no
+gender,Third_gender,0.01,E,State pattern; negligible,no
+mother_tongue,Bengali,68.50,E,Cooch Behar district 2011: Bengali ~67%; slight increase with urbanization trend,no
+mother_tongue,Hindi,1.50,E,Trader and migrant worker fringe,no
+mother_tongue,Urdu,1.00,E,Small Muslim minority in urban pockets,no
+mother_tongue,Other,1.50,E,"Residual catch-all (Assamese fringe, Nepali border communities, others)",no
+mother_tongue,Rajbongshi,27.50,E,Rajbongshi/Rajbanshi language; AC-local dominant language; Cooch Behar district ~27-30% Rajbongshi-speaking,no
+education,Illiterate,18.00,E,Cooch Behar district literacy 75.7% (Census 2011); Natabari block rural pull; ~18% illiterate after +3pp improvement 2011→2019,no
+education,Primary,25.00,E,"Census 2011 education distribution, Cooch Behar district scaled",no
+education,Middle,22.00,E,,no
+education,Secondary,16.00,E,,no
+education,Higher_Secondary,10.00,E,,no
+education,Graduate,7.00,E,,no
+education,Postgraduate,2.00,E,,no
+workforce_status,Main_worker,33.00,E,Cooch Behar district Census 2011 main-worker share ~32-34%; predominantly agricultural,no
+workforce_status,Marginal_worker,12.00,E,Seasonal agricultural labour,no
+workforce_status,Non_worker,37.00,E,Housewife + elderly + retired; heavy in rural Rajbanshi households,no
+workforce_status,Student,10.00,E,18–22 cohort in education,no
+workforce_status,Unemployed,8.00,E,Educated job-seekers; young aspirant pool in Cooch Behar,no
+occupation,Cultivator,28.00,E,Cooch Behar district 2011 rural cultivator share ~30%; AC slightly below with some urban fringe,no
+occupation,Agricultural_labourer,30.00,E,Dominant in flat terai-plain; large landless SC/OBC pool,no
+occupation,Household_industry,5.00,E,Handloom + cottage industries; small Rajbanshi weaving tradition,no
+occupation,Manufacturing,3.00,E,Limited organised manufacturing in Natabari block,no
+occupation,Construction,7.00,E,Local construction + seasonal migration to larger towns,no
+occupation,Trade_retail,10.00,E,Block-level market towns (Natabari haat),no
+occupation,Transport_logistics,4.00,E,Road transport; border-adjacent trade route,no
+occupation,Services,8.00,E,Private sector services in block-level towns,no
+occupation,Government_services_teachers,3.00,E,"Block-level govt offices, schools",no
+occupation,Out_migrant_worker,2.00,D,Rajbanshi men to brick kilns in Siliguri/Kolkata; modest flow,no
+class_of_worker,Employer,2.00,E,Census B-04 WB rural pattern; small trader/landowner employers,no
+class_of_worker,Employee,22.00,E,Govt + organised sector + retail; moderate in this rural AC,no
+class_of_worker,Single_worker,52.00,E,Own-account cultivator + artisan + small trader; dominant,no
+class_of_worker,Family_worker,24.00,E,Unpaid family labour in agriculture; common in Rajbanshi cultivator households,no
+economic_status,BPL_household,26.00,C,Cooch Behar district BPL ~30% (Census 2001 baseline); WB poverty fell ~6pp 2011-19 → ~24-28% estimate,no
+economic_status,Above_Poverty_Line_low_income,36.00,E,Low-income rural agricultural households,no
+economic_status,Lower_middle,22.00,E,"Modest income cultivators, small traders",no
+economic_status,Middle,12.00,E,"Block-level service class, government employees",no
+economic_status,Upper_middle_well_off,4.00,E,Very small affluent fringe; no significant urban centre in this AC,no
+gp_location,U1_Natabari_CDB_core,72.00,E,"Natabari CD Block core GPs; majority of AC population; Census 2011 Natabari block ~190,000 population",no
+gp_location,U2_Tufanganj_I_partial,28.00,E,"Overlap GPs from Tufanganj-I CD Block that fall within AC boundary per Delimitation 2008; ~75,000 population estimate",no
+household_composition,Avg_HH_size,4.5 persons,E,Cooch Behar district 2011: average HH size ~4.5; rural Rajbanshi households slightly larger,no
+household_composition,Nuclear_HH,65.00,E,NFHS-4 WB rural pattern; dominant nuclear form in Rajbanshi households,no
+household_composition,Joint_HH,27.00,E,Traditional joint family arrangement in agricultural households,no
+household_composition,Extended_multi_generation,8.00,E,Multi-generation in older Rajbanshi extended families,no
+marital_status,Never_married,25.00,E,Census 2011 Cooch Behar pattern; earlier marriage age in rural communities,no
+marital_status,Currently_married,66.00,E,High marriage rate; Rajbanshi cultural norm of early marriage,no
+marital_status,Widowed,8.00,E,"Concentrated in 60+, female-skewed",no
+marital_status,Separated_divorced,1.00,E,Low formal divorce rate; some separation in migrant households,no
+asset_media,Television,70.00,C,"NFHS-4 WB rural 60%, +5pp/yr → AC ~70% (2019); Cooch Behar slightly below state average",no
+asset_media,Radio,6.00,C,Declining nationally; slightly higher in rural Cooch Behar,no
+asset_media,Mobile_phone,82.00,C,NFHS-4 WB ~78%; +growth → ~82% by 2019,no
+asset_media,Smartphone_with_internet,38.00,C,NFHS-4 rural baseline + Jio rollout 2016-19; Cooch Behar below state average,no
+asset_media,Computer,5.00,E,Very low in rural Cooch Behar; mostly government offices,no
+asset_media,Two_wheeler,22.00,C,NFHS-4 WB rural 18%; +growth; common among OBC/SC rural household,no
+asset_media,Four_wheeler,4.00,E,Very limited; mainly large landowners and block-level traders,no
+asset_media,Banking_access,84.00,B,PMJDY saturation 2014-; slightly lower than state average due to rural remoteness,no
+amenities,Improved_drinking_water_source,78.00,C,NFHS-4 WB rural 84%; Cooch Behar slightly below state; ground water access good,no
+amenities,Improved_sanitation,55.00,C,NFHS-4 WB rural 51%; +Swachh Bharat 2014-19 (+12pp rural),no
+amenities,LPG_clean_cooking_fuel,32.00,C,NFHS-4 WB rural 24%; +Ujjwala 2016-19 (+8pp rural); Cooch Behar below state average,no
+amenities,Wood_biomass_fuel,62.00,C,Primary cooking fuel in rural Cooch Behar; declining as LPG rises,no
+amenities,Other_fuel,6.00,E,"Kerosene, dung, other",no
+amenities,Electricity,90.00,C,Census 2011 + Saubhagya 2017-19; Cooch Behar rural ~90% electrified by 2019,no
+migration,Native,75.00,D,Predominantly native Rajbanshi community; very low historic migration out of Cooch Behar,no
+migration,WB_other_district,7.00,D,"Some in-migrants from Jalpaiguri, North Dinajpur for agricultural labour; Cooch Behar absorption limited",no
+migration,Other_Indian_state,2.00,D,Assamese and Bihari trading fringe,no
+migration,Bangladesh_origin,12.00,D,Partition-era and post-1971 Hindu migrant fraction; significant but below Bangaon levels; mainly Namasudra/lower-caste Hindu,no
+migration,Outside_India,0.50,E,Negligible (some Bhutanese traders),no
+migration,Out_migrant,3.50,E,Working outside (mainly Siliguri/Kolkata/brick kilns); registered here,no
+migration,Nepal_Bhutan_origin,0.00,E,Not applicable to this AC (set to 0),no

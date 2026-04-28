@@ -1,0 +1,11 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,22,55,C,Rural ag baseline; lower than state avg in Cooch Behar
+Agricultural_labourer,15,45,C,Lowest income; lowest asset ownership
+Household_industry,28,60,C,
+Manufacturing,40,70,C,
+Construction,38,65,C,
+Trade_retail,55,78,C,Rural market traders; higher smartphone use
+Transport_logistics,50,72,C,
+Services,60,80,C,
+Government_services_teachers,78,90,C,Highest
+Out_migrant_worker,62,75,D,Working outside; smartphone-heavy

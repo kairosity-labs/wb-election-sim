@@ -1,0 +1,11 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,28.00,60.00,C,Rural agricultural baseline; below state average
+Agricultural_labourer,18.00,50.00,C,Lowest income stratum
+Household_industry,32.00,65.00,C,Small artisan/weaver households
+Manufacturing,45.00,75.00,C,
+Construction,40.00,68.00,C,
+Trade_retail,60.00,82.00,C,Sitalkuchi bazaar traders
+Transport_logistics,55.00,78.00,C,
+Services,65.00,85.00,C,
+Government_services_teachers,80.00,92.00,C,Highest connectivity
+Out_migrant_worker,65.00,72.00,D,Working outside; smartphone-heavy for remittance transfers

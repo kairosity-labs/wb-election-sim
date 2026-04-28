@@ -1,0 +1,6 @@
+Religion,SC_total,ST_total,UC_bhadralok,OBC,Other_Hindu_middle,Muslim,Christian_plus_Sarna_plus_Other,Tier,Source
+Hindu,43.50,3.50,4.52,5.65,42.83,0,0,E,SC 40%/Hindu 88.5%×pop-weight; residual to Other_Hindu_middle; rows sum ~100
+Muslim,0,0,0,0,0,100,0,A,self-evident
+Christian,0,0,0,0,0,0,100,A,self-evident; tea-garden Christian mostly ST-background but map to Christian_plus_Sarna_plus_Other
+Sarna_ORP,0,92,0,5,3,0,0,E,Sarna practitioners predominantly from ST communities
+Other_residual,0,0,0,0,0,0,100,A,self-evident

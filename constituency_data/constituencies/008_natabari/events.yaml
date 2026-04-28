@@ -1,0 +1,16 @@
+# AC 008 — Natabari events
+# Stub created during batch-1 expansion.
+cutoff_date: '2026-04-26'
+events:
+- slug: ls_2019_natabari_result
+  date: '2019-05-23'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: "2019 LS result for Natabari segment: BJP 51.0%, AITC 42.0%, AIFB 3.7%"
+  summary: "2019 Lok Sabha result within AC 008 segment. Calibration anchor."
+  tags: []
+  valence: {}
+  broadcast: true
+  sources:
+  - data/2019_AssemblySegmentLevelVotingData.csv

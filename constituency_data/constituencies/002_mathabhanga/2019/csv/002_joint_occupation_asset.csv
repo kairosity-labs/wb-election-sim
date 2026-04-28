@@ -1,0 +1,11 @@
+Occupation,Smartphone_with_internet,Television,Tier,Source
+Cultivator,28.00,62.00,E,Rural agri SC baseline; lower than state avg
+Agricultural_labourer,20.00,55.00,E,Lowest income group
+Household_industry,32.00,68.00,E,
+Manufacturing,45.00,78.00,E,
+Construction,42.00,72.00,E,
+Trade_retail,62.00,85.00,E,Muni concentrated
+Transport_logistics,55.00,78.00,E,
+Services,65.00,88.00,E,
+Government_services_teachers,80.00,92.00,E,Highest
+Out_migrant_worker,60.00,75.00,E,"Working outside, smartphone-heavy"
