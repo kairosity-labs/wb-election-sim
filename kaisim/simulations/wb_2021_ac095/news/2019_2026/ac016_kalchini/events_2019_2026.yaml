@@ -1,0 +1,1668 @@
+cutoff_date: '2026-04-26'
+events:
+- slug: alipurduar_ls_2019_john_barla_wins
+  date: '2019-05-23'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: BJP's John Barla (tribal, ex-tea worker) wins Alipurduar LS by 2.44 lakh
+  summary: 'John Barla, a tribal leader who worked in Alipurduar tea gardens as a
+
+    youth, swept the constituency with 54.4% (7.5 lakh votes) against TMC''s
+
+    Dasrath Tirkey (36.7%). Kalchini block contributed to this sweeping BJP
+
+    surge, driven by anti-TMC incumbency and tribal solidarity. The win
+
+    established BJP as the dominant force in the Dooars belt and foreshadowed
+
+    the 2021 assembly sweep.
+
+    '
+  tags:
+  - ag_labourer
+  - bjp_supporter
+  - tmc_supporter
+  - out_migrant_household
+  valence:
+    ag_labourer: positive
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Alipurduars_Lok_Sabha_constituency
+  - https://www.elections.in/west-bengal/parliamentary-constituencies/alipurduars.html
+- slug: kalchini_tea_estate_closure_2019
+  date: '2019-02-08'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Kalchini Tea Estate shuts; ~2,003 workers on FAWLI subsistence at Rs 1,500/month
+  summary: 'Kalchini Tea Estate management announced closure, leaving over 2,000
+
+    workers dependent on FAWLI (Financial Assistance for Workers of Lockout
+
+    Industries) at Rs 1,500/month — far below the daily wage. The garden
+
+    remained closed through most of 2019-2023, creating enduring economic
+
+    distress in the constituency. Workers'' anger at management and state
+
+    failure to reopen the garden was a principal driver of the 2021 BJP
+
+    landslide in Kalchini.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - out_migrant_household
+  - khadya_sathi_beneficiary
+  valence:
+    ag_labourer: negative
+    woman: negative
+    out_migrant_household: negative
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.facebook.com/DarjeelingTimes/posts/kalchini-tea-garden-closedalipurduar-feb-8-the-management-of-kalchini-tea-estate/1540603895967433/
+  - https://101reporters.com/article/agriculture/No_work_PF_or_gratuity_for_tea_workers_of_North_Bengal_as_plantations_close_managements_flout_rules
+- slug: nrc_assam_documentation_anxiety
+  date: '2019-08-31'
+  temporal: episodic
+  scope: national
+  intensity: 5
+  headline: Assam NRC excludes 19 lakh; Dooars tea-garden tribal workers face acute
+    documentation anxiety
+  summary: 'The NRC final list triggered deep fear among Kalchini tea-garden workers
+
+    whose families migrated from Jharkhand and Odisha generations ago. Many
+
+    second-generation workers lack formal birth records. Garden management
+
+    withholding of employment records for identity proof amplified the
+
+    citizenship-threat narrative. Mamata Banerjee promised WB would not
+
+    implement NRC, providing partial reassurance.
+
+    '
+  tags:
+  - ag_labourer
+  - out_migrant_household
+  - woman
+  - elderly
+  valence:
+    ag_labourer: negative
+    out_migrant_household: negative
+    tmc_supporter: ambient
+    bjp_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/National_Register_of_Citizens_(Assam)
+  - https://scroll.in/latest/1089936/tea-garden-work-records-to-be-held-as-valid-id-proof-for-sir-in-north-bengal-says-ec
+- slug: puja_bonus_dispute_2019_dooars
+  date: '2019-09-25'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: 'Puja bonus stalemate: Dooars workers demand 20%, owners offer 10%'
+  summary: 'Pre-Durga Puja negotiations broke down across 164 Dooars gardens in
+
+    September 2019. Workers in Kalchini block staged agitations. Compromise
+
+    was eventual but delayed, shortening festival spending and stoking
+
+    resentment. The annual bonus brinkmanship pattern signals structural
+
+    insecurity in the garden labour contract.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  valence:
+    ag_labourer: negative
+    woman: negative
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.newsclick.in/bengal-tea-garden-workers-launch-stir-demand-20-puja-season-bonus
+  - https://www.thestatesman.com/bengal/tea-bonus-talks-remain-unresolved-another-round-planned-next-week-1503342681.html
+- slug: tea_garden_pf_esi_chronic_non_payment
+  date: '2019-09-15'
+  temporal: chronic
+  scope: district
+  intensity: 4
+  headline: Chronic PF/ESI non-payment by Alipurduar gardens; Jalpaiguri PF office
+    files 36 FIRs over five years
+  summary: 'Widespread non-deposit of Provident Fund contributions by Alipurduar
+
+    garden managements is documented in court filings. The Jalpaiguri PF
+
+    regional office filed FIRs against 36 garden authorities over five years.
+
+    ESI coverage is absent for most Dooars workers. The chronic PF/ESI
+
+    failure is a key driver of out-migration and persistent union grievance
+
+    in Kalchini''s labour lines.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - elderly
+  - out_migrant_household
+  valence:
+    ag_labourer: negative
+    woman: negative
+    elderly: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://101reporters.com/article/agriculture/No_work_PF_or_gratuity_for_tea_workers_of_North_Bengal_as_plantations_close_managements_flout_rules
+  - https://www.etvbharat.com/en/state/north-bengal-tea-garden-workers-take-legal-route-for-undeposited-pf-amount-enn25112002315
+- slug: caa_passed_parliament_dooars_anxiety
+  date: '2019-12-11'
+  temporal: episodic
+  scope: national
+  intensity: 4
+  headline: CAA passed; tribal Dooars workers feel NRC spillover anxiety; Mamata opposes
+    CAA loudly
+  summary: 'CAA''s passage deepened NRC anxieties in Kalchini even though tribal
+
+    Hindu workers are not directly targeted under CAA categories. Workers
+
+    fear a future WB NRC would expose documentation gaps of second-generation
+
+    plantation migrants. Mamata''s outright opposition to CAA+NRC provided
+
+    political shelter and began partially offsetting the BJP tribal surge.
+
+    '
+  tags:
+  - ag_labourer
+  - out_migrant_household
+  - woman
+  valence:
+    ag_labourer: negative
+    out_migrant_household: negative
+    tmc_supporter: positive
+    bjp_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Citizenship_(Amendment)_Act,_2019
+- slug: buxa_forest_rights_rejection_chronic
+  date: '2019-11-01'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Van Adhikar Patta claims rejected in Buxa Tiger Reserve fringe villages;
+    relocation proceedings continue
+  summary: 'Tribal communities on the Buxa Tiger Reserve fringe adjacent to Kalchini
+
+    block report systematic FRA claim rejection by the Forest Department.
+
+    Relocation proceedings against Jayanti and Bhutia Basti settlements
+
+    continued without resolving community forest rights. This dispossession
+
+    anxiety compounds economic stress and is a perennial mobilisation issue
+
+    for CITU and independent tribal organisations.
+
+    '
+  tags:
+  - ag_labourer
+  - out_migrant_household
+  - elderly
+  valence:
+    ag_labourer: negative
+    out_migrant_household: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://www.landconflictwatch.org/conflicts/residents-of-buxa-tiger-reserve-in-west-bengal-demand-recognition-of-forest-rights
+  - https://dialogue.earth/en/nature/relocation-of-communities-from-buxa-tiger-reserve-stirs-mistrust-2/
+- slug: covid_lockdown_tea_garden_wage_loss
+  date: '2020-03-25'
+  temporal: episodic
+  scope: national
+  intensity: 5
+  headline: 'COVID lockdown: Dooars tea estates shut; Kalchini workers without wages
+    for weeks'
+  summary: 'National lockdown (25 March) closed tea estates across the Dooars.
+
+    Workers received no wages from March 25 to April 12. WB gardens reopened
+
+    at 25% capacity (Assam allowed 50%), compounding the inequity. Temporary
+
+    workers (50% of workforce) had no legal wage claim. COVID created layered
+
+    distress: lost wages, food shortage, and eviction fear from garden quarters.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - out_migrant_household
+  - school_age_household
+  valence:
+    ag_labourer: negative
+    woman: negative
+    out_migrant_household: negative
+    school_age_household: negative
+  broadcast: true
+  sources:
+  - https://globalvoices.org/2020/09/05/covid-19-leaves-indian-tea-workers-struggling-for-survival/
+  - https://scroll.in/article/960142/one-reason-why-tea-garden-employees-went-back-to-work-despite-covid-19-fears-hunger
+- slug: dooars_flood_2020_jaldhaka_torsa
+  date: '2020-07-10'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Jaldhaka and Torsa overflow; Kalchini belt tea-garden labour lines inundated
+  summary: 'Heavy monsoon rainfall caused Jaldhaka and Torsa rivers to breach banks
+
+    in Alipurduar district. Timber from Bhutan''s forests blocked drainage,
+
+    worsening destruction. Losses in North Bengal tea gardens exceeded Rs 50
+
+    crore. Workers in Kalchini faced simultaneous COVID wage loss and flood
+
+    damage to homes — a compound crisis with no state compensation mechanism.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - cultivator
+  valence:
+    ag_labourer: negative
+    woman: negative
+    cultivator: negative
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.thestatesman.com/cities/siliguri/floodwaters-landslides-devastate-north-bengals-tea-belt-1503497665.html
+  - https://www.downtoearth.org.in/climate-change/extraction-floods-and-forgotten-landscapes-undeline-north-bengals-climate-debt
+- slug: cyclone_amphan_north_bengal_peripheral
+  date: '2020-05-20'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: Cyclone Amphan devastates coastal WB; Alipurduar/Dooars peripheral but
+    state resources diverted
+  summary: 'Super Cyclone Amphan caused over ₹1 trillion damage in coastal WB.
+
+    Alipurduar was not in the direct path but experienced heavy rainfall, and
+
+    state disaster resources were fully committed to South Bengal. Kalchini''s
+
+    tea-garden workers — already COVID-impacted — received minimal attention,
+
+    deepening North Bengal''s perception of geographic neglect by the TMC
+
+    government.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  valence:
+    ag_labourer: negative
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Cyclone_Amphan
+- slug: duare_sarkar_launch_2020
+  date: '2020-12-01'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: Duare Sarkar launched; camps in Kalchini gram panchayats enroll tea-garden
+    women in welfare schemes
+  summary: 'WB''s Duare Sarkar doorstep delivery program began in December 2020,
+
+    deploying TMC workers to enrol beneficiaries for Swasthya Sathi, Khadya
+
+    Sathi, Jai Johar (tribal welfare), and Kanyashree at gram panchayat
+
+    level. Camps in Kalchini''s labour lines gave TMC a visible service-
+
+    delivery role ahead of the 2021 assembly election, though critics noted
+
+    barriers for temporary and contract workers.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - swasthya_sathi_beneficiary
+  - khadya_sathi_beneficiary
+  - kanyashree_household
+  valence:
+    ag_labourer: positive
+    woman: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://wb.gov.in/duare-sarkar.aspx
+- slug: bjp_2021_manifesto_tea_land_ownership
+  date: '2021-03-21'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: BJP 'Sonar Bangla' manifesto promises land ownership and Tea Workers Development
+    Board
+  summary: 'BJP''s 2021 WB manifesto pledged land ownership rights for tea-garden
+
+    workers, a Tea Workers'' Development Board, and PF/ESI arrear recovery
+
+    from closed gardens. In Kalchini (ST), the land ownership promise
+
+    resonated deeply with Oraon and Munda workers who have lived in garden
+
+    quarters for generations without title. Candidate Bishal Lama campaigned
+
+    aggressively on this plank in garden-line meetings.
+
+    '
+  tags:
+  - ag_labourer
+  - bjp_supporter
+  - out_migrant_household
+  valence:
+    ag_labourer: positive
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.bjp.org/pressreleases/west-bangal-election-manifesto-2021
+- slug: kalchini_ae_2021_bishal_lama_wins
+  date: '2021-05-02'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Bishal Lama (BJP) wins Kalchini AC-16 by 28,576 votes with 53% share
+  summary: 'BJP''s Bishal Lama won Kalchini (ST) with 1,03,104 votes, defeating TMC''s
+
+    Pasang Lama by 28,576 — one of North Bengal''s largest margins. North
+
+    Bengal gave BJP 31 of 54 seats; Alipurduar was a clean BJP sweep.
+
+    Bishal Lama''s tribal identity, land-rights manifesto pledge, and John
+
+    Barla''s coattail effect were credited for the scale of the victory.
+
+    '
+  tags:
+  - ag_labourer
+  - bjp_supporter
+  - tmc_supporter
+  - woman
+  valence:
+    ag_labourer: positive
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Bishal_Lama
+  - https://statisticstimes.com/politics/west-bengal-assembly-election-results.php
+- slug: john_barla_union_minister
+  date: '2021-07-07'
+  temporal: episodic
+  scope: national
+  intensity: 4
+  headline: John Barla (Alipurduar BJP MP, tribal tea-garden background) appointed
+    Union Minister of State
+  summary: 'John Barla was sworn in as Union Minister of State for Minority Affairs
+
+    on 7 July 2021. BJP portrayed this as fulfilling the tribal community''s
+
+    political aspirations. Barla immediately pledged to work for tea labourers.
+
+    In Kalchini, expectations rose that PF arrears and garden closures would
+
+    be resolved through central intervention — expectations that would remain
+
+    largely unmet, building later disillusionment.
+
+    '
+  tags:
+  - ag_labourer
+  - bjp_supporter
+  - out_migrant_household
+  valence:
+    ag_labourer: positive
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/John_Barla
+  - https://www.indiatvnews.com/news/india/who-is-john-barla-new-minister-in-modi-cabinet-once-worked-in-tea-garden-govt-reshuffle-717560
+- slug: sarna_religion_code_demand_late_2021
+  date: '2021-11-10'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: TMC demands Sarna/Sari religion code for tribals; BJP stays silent, creating
+    cultural wedge
+  summary: 'TMC''s Rajya Sabha MP formally demanded a separate census religious code
+
+    for Sarna and Sari tribal religions in Parliament in late 2021. In
+
+    Kalchini, Oraon, Munda, and Santali communities — for whom Sarna identity
+
+    is central — welcomed the demand. BJP''s silence began creating an opening
+
+    for TMC to chip at tribal solidarity on cultural-identity grounds distinct
+
+    from the economic wage narrative.
+
+    '
+  tags:
+  - ag_labourer
+  - out_migrant_household
+  - woman
+  valence:
+    ag_labourer: positive
+    out_migrant_household: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.outlookindia.com/national/tmc-demands-religious-codes-for-sari-sarna-religion-of-the-tribals
+- slug: north_bengal_ut_demand_bjp_mla
+  date: '2021-07-20'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: John Barla raises North Bengal UT demand; TMC accuses BJP of dividing
+    state
+  summary: 'Union Minister Barla and BJP MLAs raised the demand to carve North Bengal
+
+    districts including Alipurduar into a Union Territory. TMC accused BJP of
+
+    trying to divide Bengal. In Kalchini, tribal workers were divided: some
+
+    saw the UT demand as a path to direct central investment, others feared
+
+    loss of state welfare schemes already reaching them.
+
+    '
+  tags:
+  - ag_labourer
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    ag_labourer: ambient
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.aninews.in/news/national/politics/people-of-bengal-scared-of-state-govt-we-will-bring-peace-union-minister-john-barla20210708175459/
+- slug: tea_wage_hike_rs232_jan2022
+  date: '2022-06-10'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: WB interim tea-wage hike to Rs 232/day (from Rs 202) — effective Jan 2022
+  summary: 'After a tripartite meeting at Siliguri''s Shramik Bhawan, the WB Labour
+
+    Commissioner notified an interim hike from Rs 202 to Rs 232 per day,
+
+    effective 1 January 2022, with arrears in two installments by July 2022.
+
+    The hike was welcomed in Kalchini''s labour lines but fell well short of
+
+    union demands (Rs 351+). It was framed as an interim measure pending
+
+    statutory minimum wage finalisation, meaning the core wage dispute
+
+    remained open.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  valence:
+    ag_labourer: positive
+    woman: positive
+    tmc_supporter: positive
+    bjp_supporter: ambient
+  broadcast: true
+  sources:
+  - https://www.millenniumpost.in/kolkata/state-announces-interim-hike-in-wages-salary-for-tea-garden-workers-482140
+- slug: mgnrega_funds_blocked_march2022
+  date: '2022-03-09'
+  temporal: chronic
+  scope: national
+  intensity: 4
+  headline: Centre blocks MGNREGA funds to WB from March 2022; Rs 5,583 crore in dues
+    piles up
+  summary: 'The Union government stopped MGNREGA releases to West Bengal from
+
+    9 March 2022 (Section 27 non-compliance), with Rs 5,583 crore in dues
+
+    (including Rs 2,770 crore in pending wages) by August 2023. In Kalchini
+
+    block, MGNREGA had supplemented tea-garden household incomes in lean
+
+    periods. The fund blockage removed this buffer, especially hurting single-
+
+    woman households in the labour lines.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - cultivator
+  - out_migrant_household
+  valence:
+    ag_labourer: negative
+    woman: negative
+    cultivator: negative
+    bjp_supporter: negative
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.moneylife.in/article/union-govt-withheld-rs7500-crore-of-mgnrega-funds-for-west-bengal-claiming-noncompliance-it-is-affecting-lives-of-needy-people/69318.html
+  - https://www.aninews.in/news/national/politics/bjp-led-central-govt-should-either-release-mnrega-funds-or-vacate-office-mamata-banerjee20231210221638/
+- slug: ssc_scam_exposed_2022
+  date: '2022-07-21'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: 'WB SSC teacher scam: Calcutta HC orders CBI probe into 25,000+ fraudulent
+    appointments'
+  summary: 'The WB School Service Commission''s 2016 teacher recruitment process was
+
+    exposed: OMR tampering, inflated merit lists, bribery (Rs 15-20 lakh
+
+    per appointment). Calcutta HC ordered CBI investigation. In school-age-
+
+    household families across Kalchini''s tea belt — who had invested in
+
+    children''s education as an escape from garden labour — the scam
+
+    represented a betrayal of the state''s institutional integrity.
+
+    '
+  tags:
+  - school_age_household
+  - ag_labourer
+  valence:
+    school_age_household: negative
+    ag_labourer: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.scconline.com/blog/post/2025/04/09/supreme-court-verdict-west-bengal-ssc-teacher-recruitment-scam/
+- slug: anandadhara_shg_tea_belt_alipurduar
+  date: '2022-03-15'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: Alipurduar district pushes Anandadhara SHG expansion into tea-belt; 2
+    lakh women still unconnected
+  summary: 'District administration reported 26,202 Anandadhara (WBSRLM) SHGs with
+
+    2.65 lakh women members in Alipurduar, and a targeted drive to reach the
+
+    estimated two lakh tea-garden women not yet in any SHG. In Kalchini block,
+
+    SHG membership provides women Rs 30,000 revolving credit and links to
+
+    state welfare entitlements. Garden managements have at times obstructed
+
+    SHG meetings in labour quarters.
+
+    '
+  tags:
+  - woman
+  - ag_labourer
+  - lakshmir_bhandar_beneficiary
+  valence:
+    woman: positive
+    ag_labourer: positive
+    tmc_supporter: positive
+  broadcast: false
+  sources:
+  - https://www.millenniumpost.in/bengal/push-to-strengthen-self-help-groups-in-alipurduar-609033
+  - https://anandadhara.wb.gov.in/index.php/home/benefits
+- slug: wb_assembly_sarna_motion_feb2023
+  date: '2023-02-17'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: WB Assembly passes Sarna/Sari religion code motion; BJP MLA Manoj Tigga
+    opposes
+  summary: 'The WB Legislative Assembly passed a motion on 17 February 2023 seeking
+
+    recognition of Sarna and Sari as distinct religious denominations. BJP
+
+    MLA Manoj Tigga (future Alipurduar MP) opposed the motion. In Kalchini,
+
+    Oraon, Munda, and Santali communities widely supported the motion.
+
+    TMC used BJP''s opposition to Sarna recognition to chip at tribal solidarity
+
+    with BJP on cultural-identity grounds.
+
+    '
+  tags:
+  - ag_labourer
+  - out_migrant_household
+  - woman
+  valence:
+    ag_labourer: positive
+    out_migrant_household: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://theprint.in/india/wb-assembly-passes-motion-seeking-to-recognise-tribal-religions-sari-sarna/
+  - https://www.outlookindia.com/national/tmc-demands-religious-codes-for-sari-sarna-religion-of-the-tribals
+- slug: tea_wage_hike_rs250_june2023
+  date: '2023-04-27'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: WB tea wage interim hike to Rs 250/day from June 2023; HC upholds against
+    owner challenge
+  summary: 'WB Labour Commissioner''s April 2023 advisory raised the interim minimum
+
+    wage for tea plantation workers to Rs 250/day from 1 June 2023. Garden
+
+    owners challenged in Calcutta HC; the court upheld the interim hike and
+
+    directed statutory minimum wage finalisation within six months. In
+
+    Kalchini, the hike was welcomed but Rs 250 remained far short of the
+
+    Rs 351+ living-wage demand, keeping the dispute open.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  valence:
+    ag_labourer: positive
+    woman: positive
+    tmc_supporter: positive
+    bjp_supporter: ambient
+  broadcast: true
+  sources:
+  - https://www.livelaw.in/high-court/calcutta-high-court/calcutta-high-court-tea-plantation-workers-minimum-wage-west-bengal-government-minimum-wages-act-234257
+  - https://www.scconline.com/blog/post/2023/08/07/calcutta-hc-rejected-plea-challenging-minimum-wage-advisory-for-tea-plantations/
+- slug: panchayat_2023_violence_alipurduar
+  date: '2023-07-08'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Panchayat 2023 marred by violence statewide; TMC consolidates Alipurduar
+    gram panchayats
+  summary: 'WB panchayat elections on 8 July 2023 saw 55 deaths statewide. TMC won
+
+    ~35,000 gram panchayat seats against BJP''s ~10,000. In Alipurduar
+
+    district, TMC consolidated panchayat control over BJP-held territory
+
+    from 2021, with reported booth-capture incidents in Kalchini block.
+
+    The violent character reinforced opposition claims of TMC authoritarian
+
+    control and deterred voter participation in some labour lines.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    ag_labourer: negative
+    woman: negative
+    bjp_supporter: negative
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2023_West_Bengal_local_elections_violence
+  - https://thewire.in/politics/bengal-panchayat-polls-tmc-position-violence
+- slug: patkapara_pf_fir_alipurduar_2023
+  date: '2023-11-15'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: FIR filed against Patkapara Tea Garden (Alipurduar) for PF non-deposit
+    — pattern of 36 FIRs in five years
+  summary: 'The Jalpaiguri regional PF office filed an FIR against Patkapara Tea
+
+    Garden Authority in Alipurduar for non-deposit of worker PF. Fines of
+
+    Rs 12.71 crore were imposed on garden managements across the
+
+    Alipurduar-Jalpaiguri belt. In Kalchini, CITU and NTW union leaders
+
+    used each FIR filing to demonstrate legal effectiveness against management
+
+    malfeasance and to mobilise workers.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - elderly
+  valence:
+    ag_labourer: negative
+    woman: negative
+    tmc_supporter: ambient
+  broadcast: false
+  sources:
+  - https://www.etvbharat.com/en/state/north-bengal-tea-garden-workers-take-legal-route-for-undeposited-pf-amount-enn25112002315
+- slug: mamata_darjeeling_tea_garden_dance_dec2023
+  date: '2023-12-07'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: Mamata dances with Darjeeling tea workers; symbolic campaign for the 2024
+    election
+  summary: 'CM Mamata Banerjee visited Makaibari Tea Garden in Darjeeling in December
+
+    2023, dancing with workers and pledging attention to the tea belt. Heavily
+
+    covered in North Bengal Bangla media, the visit provided TMC a soft-
+
+    mobilisation moment heading into the 2024 LS campaign. In Kalchini,
+
+    union leaders noted the gesture while pointing out that MGNREGA funds
+
+    remained blocked and statutory minimum wage was still unfinished.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - tmc_supporter
+  valence:
+    ag_labourer: ambient
+    woman: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.aninews.in/news/national/general-news/mamata-banerjee-visits-tea-garden-in-darjeeling-dances-with-workers20231207223034/
+- slug: alipurduar_four_gardens_reopen_2023
+  date: '2023-12-20'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Four closed Alipurduar gardens reopen ahead of Mamata's visit — government
+    frames as delivery win
+  summary: 'Four tea gardens in Alipurduar district reopened after tripartite
+
+    negotiations by the state Labour Department, timed ahead of CM Banerjee''s
+
+    district visit. The reopenings — including gardens near Kalchini block —
+
+    gave TMC a concrete achievement narrative ahead of the 2024 LS election,
+
+    countering BJP''s argument that the TMC government was indifferent to
+
+    garden closures.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - tmc_supporter
+  valence:
+    ag_labourer: positive
+    woman: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.millenniumpost.in/bengal/alipurduar-four-tea-gardens-reopen-ahead-of-mamatas-visit-595566
+- slug: ram_mandir_inauguration_tribal_response
+  date: '2024-01-22'
+  temporal: episodic
+  scope: national
+  intensity: 4
+  headline: Ram Mandir consecrated; BJP celebrates in Kalchini but Adivasi Sengel
+    Abhiyan calls 'No Vote to BJP'
+  summary: 'Ram Mandir consecration in Ayodhya was a major BJP mobilisation moment.
+
+    BJP held celebrations in Kalchini block. However, the Adivasi Sengel
+
+    Abhiyan (ASA) called for "No Vote to BJP" over BJP''s refusal to support
+
+    the Sarna religion code, arguing Hindutva conflates tribal spirituality
+
+    with Hindu identity. The mixed impact in Kalchini signalled that the
+
+    BJP''s tribal coalition had structural fault lines.
+
+    '
+  tags:
+  - ag_labourer
+  - out_migrant_household
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    ag_labourer: ambient
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://thefederal.com/category/elections-2024//revival-of-tribal-identity-dominates-poll-mood-in-bengals-jangalmahal-123654
+- slug: calcutta_hc_tea_wage_6_week_order
+  date: '2024-01-15'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Calcutta HC Jalpaiguri bench orders WB to finalise tea minimum wage in
+    6 weeks
+  summary: 'The Calcutta HC circuit bench at Jalpaiguri directed WB to finalise the
+
+    statutory minimum wage for tea plantation workers within 6 weeks under
+
+    the Minimum Wages Act, calling it a "statutory and legal right." The
+
+    court cited the state''s failure to comply with the 2023 coordinate bench
+
+    order. In Kalchini, the direction was covered as a potential breakthrough
+
+    on the wage front ahead of the 2024 LS election.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  valence:
+    ag_labourer: positive
+    woman: positive
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://www.livelaw.in/high-court/calcutta-high-court/calcutta-high-court-directs-govt-to-finalise-minimum-wage-of-tea-plantation-workers-within-6-weeks-calls-it-a-statutory-legal-right-255261
+- slug: alipurduar_ls_2024_manoj_tigga_wins
+  date: '2024-06-04'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: BJP's Manoj Tigga wins Alipurduar LS 2024 by 75,447; John Barla denied
+    ticket, begins to drift
+  summary: 'BJP fielded Manoj Tigga (replacing John Barla) in the 2024 LS election;
+
+    Tigga won by 75,447 over TMC''s Prakash Chik Baraik, confirming BJP''s
+
+    continued dominance in the tribal belt. However, the sidelining of Barla
+
+    — a tribal icon — generated quiet discontent within BJP''s tribal
+
+    constituency. Barla began openly criticising BJP leadership for blocking
+
+    tribal welfare projects, setting up his eventual defection.
+
+    '
+  tags:
+  - ag_labourer
+  - bjp_supporter
+  - tmc_supporter
+  - out_migrant_household
+  valence:
+    ag_labourer: ambient
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.oneindia.com/alipurduars-lok-sabha-election-result-503/
+  - https://en.wikipedia.org/wiki/Alipurduars_Lok_Sabha_constituency
+- slug: rg_kar_protests_alipurduar_2024
+  date: '2024-08-12'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: RG Kar rape-murder sparks statewide protests; tea-garden women in Alipurduar
+    join demonstrations
+  summary: 'Murder of a trainee doctor at RG Kar Medical College on 9 August 2024
+
+    triggered protests in Alipurduar, including participation by tea-garden
+
+    women workers in Kalchini block. The case became a significant anti-TMC
+
+    narrative on law-and-order and gender safety in the tea belt, reinforcing
+
+    BJP''s women''s brigade mobilisation ahead of the 2026 election cycle.
+
+    '
+  tags:
+  - woman
+  - ag_labourer
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    woman: negative
+    ag_labourer: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.deccanherald.com/india/west-bengal/we-want-justice-thousands-march-across-bengal-seeking-justice-for-rg-kar-doctor-killed-in-2024-3681661
+- slug: puja_bonus_2024_mechpara_kalchini_protest
+  date: '2024-09-24'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: Workers protest at Mechpara Tea Garden (Kalchini block) demanding 20%
+    Puja bonus; 16% advisory issued
+  summary: 'Workers at Mechpara Tea Garden in Kalchini block staged protests on
+
+    24 September 2024 demanding 20% Puja bonus as owners offered only 10%.
+
+    The Assistant Labour Commissioner issued an advisory settling at 16%.
+
+    The annual bonus confrontation in Kalchini reinforced the pattern of
+
+    management-worker conflict as the defining electoral mobilisation dynamic
+
+    in the constituency.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  valence:
+    ag_labourer: negative
+    woman: negative
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://siliguritimes.com/tea-workers-protest-demanding-bonus-at-mechpara-tea-garden-in-alipurduar/
+  - https://www.business-standard.com/industry/agriculture/tea-garden-workers-in-north-bengal-s-dooars-terai-to-get-16-bonus-124092300830_1.html
+- slug: bangladesh_hasina_ouster_border_anxiety
+  date: '2024-08-05'
+  temporal: episodic
+  scope: national
+  intensity: 3
+  headline: Sheikh Hasina ousted in Bangladesh; border anxiety rises in Alipurduar
+    tea-belt communities
+  summary: 'Student-led protests toppled Bangladesh PM Sheikh Hasina in August 2024,
+
+    ushering in an interim government. In Alipurduar, which borders Bangladesh-
+
+    adjacent West Bengal territory, border security was tightened. BSF
+
+    deployed on heightened vigil. Some tea-garden communities expressed anxiety
+
+    about cross-border infiltration, which BJP used in its law-and-order
+
+    narrative against TMC''s "appeasement" framing.
+
+    '
+  tags:
+  - ag_labourer
+  - bjp_supporter
+  - out_migrant_household
+  valence:
+    ag_labourer: negative
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://diplomatist.com/2024/09/27/how-the-bangladesh-crisis-is-influencing-indias-border-security-measuresin-the-northeast/
+- slug: kalchini_raimatang_gardens_reopen_dec2024_jan2025
+  date: '2025-01-05'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: Kalchini and Raimatang Tea Estates reopen after nearly a year; Mechpara
+    follows January 23
+  summary: 'After a closure beginning October 2023, Kalchini Tea Estate (2,003 workers)
+
+    and Raimatang (1,258 workers) reopened in December 2024 under new investor
+
+    Merchant Monger Agrotech Pvt. Ltd. Mechpara Tea Estate in Kalchini block
+
+    reopened on 23 January 2025. Workers received 8 days'' wages at reopening.
+
+    The multi-garden reopening was framed by TMC as a state-facilitated
+
+    delivery win ahead of the 2026 election campaign.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - out_migrant_household
+  valence:
+    ag_labourer: positive
+    woman: positive
+    tmc_supporter: positive
+    bjp_supporter: ambient
+  broadcast: true
+  sources:
+  - https://siliguritimes.com/kalchini-and-raimatang-tea-estates-to-reopen-after-nearly-a-year-workers-celebrate/
+  - https://siliguritimes.com/mechpara-tea-estate-in-kalchini-block-reopens-workers-return-to-work/
+- slug: sc_ssc_verdict_april2025_25000_appointments_cancelled
+  date: '2025-04-03'
+  temporal: episodic
+  scope: national
+  intensity: 5
+  headline: Supreme Court cancels 25,753 WB SSC teacher appointments; 'systemic fraud'
+    — major TMC setback
+  summary: 'The Supreme Court on 3 April 2025 upheld quashing of 25,753 teacher and
+
+    staff appointments by the WB School Service Commission (2016 recruitment),
+
+    calling the selection process "vitiated and tainted beyond resolution"
+
+    due to OMR tampering and bribery. In Kalchini, where tea-garden families
+
+    had invested in children''s education hoping for government jobs, the verdict
+
+    was a devastating confirmation of the TMC government''s institutional
+
+    corruption — a significant anti-incumbency driver for the 2026 election.
+
+    '
+  tags:
+  - school_age_household
+  - ag_labourer
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    school_age_household: negative
+    ag_labourer: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.scconline.com/blog/post/2025/04/09/supreme-court-verdict-west-bengal-ssc-teacher-recruitment-scam/
+  - https://www.zeebiz.com/india/news-supreme-court-judgement-today-west-bengal-ssc-2016-scam-wbssc-353800
+- slug: john_barla_joins_tmc_may2025
+  date: '2025-05-15'
+  temporal: episodic
+  scope: district
+  intensity: 5
+  headline: Former Union Minister John Barla (tribal BJP icon) joins TMC; cites BJP
+    blocking tribal welfare
+  summary: 'John Barla — Alipurduar''s former BJP MP and Union Minister with deep
+    tribal
+
+    and tea-garden roots — joined the Trinamool Congress on 15 May 2025. Barla
+
+    accused BJP of blocking his Rs 160 crore tribal hospital project and
+
+    "neglecting Adivasis." The defection was a major symbolic blow to BJP''s
+
+    tribal narrative in Kalchini. For Oraon, Munda, and Santali workers who
+
+    had backed Barla in 2019-2021, the switch complicated the "BJP as tribal
+
+    champion" narrative ahead of the 2026 election.
+
+    '
+  tags:
+  - ag_labourer
+  - bjp_supporter
+  - tmc_supporter
+  - out_migrant_household
+  valence:
+    ag_labourer: ambient
+    bjp_supporter: negative
+    tmc_supporter: positive
+    out_migrant_household: ambient
+  broadcast: true
+  sources:
+  - https://www.theweek.in/news/india/2025/05/15/ex-union-minister-john-barla-joins-tmc-lashes-out-at-bjp-for-neglecting-adivasis.html
+  - https://www.nationalheraldindia.com/national/ex-bjp-minister-john-barla-switches-to-tmc-says-tribal-development-efforts-were-blocked
+- slug: tea_garden_pf_legal_route_nov2025
+  date: '2025-11-20'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: North Bengal tea workers take legal route for undeposited PF; FIRs and
+    Lok Adalat proceedings increase
+  summary: 'North Bengal tea garden workers across Alipurduar and Jalpaiguri filed
+
+    fresh complaints in November 2025 over non-deposited PF amounts. FIRs
+
+    filed against multiple garden authorities; a Lok Adalat ordered
+
+    management to pay up to Rs 35,000 per worker in outstanding dues.
+
+    In Kalchini, CITU and NTW union leaders used the court proceedings as
+
+    a political mobilisation tool ahead of the 2026 assembly elections.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - elderly
+  valence:
+    ag_labourer: negative
+    woman: negative
+    tmc_supporter: ambient
+    bjp_supporter: ambient
+  broadcast: false
+  sources:
+  - https://www.etvbharat.com/en/state/north-bengal-tea-garden-workers-take-legal-route-for-undeposited-pf-amount-enn25112002315
+- slug: tmc_esi_rollout_plan_tea_workers_2026
+  date: '2025-12-15'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: TMC plans ESI scheme extension to tea-garden workers in North Bengal ahead
+    of 2026 elections
+  summary: 'Chief Minister Mamata Banerjee announced plans to extend ESI (Employees''
+
+    State Insurance) health coverage to tea garden workers in North Bengal,
+
+    with a formal government notification expected in early 2026. For Kalchini''s
+
+    Oraon and Munda workers — who currently lack health insurance and depend
+
+    on government hospitals — ESI access would represent a significant welfare
+
+    advance. BJP characterised the timing as election-eve largesse.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - swasthya_sathi_beneficiary
+  valence:
+    ag_labourer: positive
+    woman: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.millenniumpost.in/nation/tmc-plans-esi-rollout-for-north-bengal-tea-workers-ahead-of-polls-648967
+- slug: abhishek_alipurduar_rs300_wage_pledge_jan2026
+  date: '2026-01-03'
+  temporal: episodic
+  scope: district
+  intensity: 5
+  headline: 'Abhishek Banerjee rallies in Alipurduar: promises Rs 300/day tea wage
+    within 30 days of TMC return'
+  summary: 'TMC national general secretary Abhishek Banerjee, addressing a rally in
+
+    Alipurduar on 3 January 2026 as part of his ''Abar Jitbe Bangla'' tour,
+
+    pledged to raise the daily tea wage to Rs 300 within 30 days of TMC
+
+    forming the government — via a tripartite meeting within 30 days and
+
+    wage notification within seven days. He met representatives from 61 tea
+
+    gardens. In Kalchini, the promise was closely watched by Mechpara,
+
+    Kalchini, and Raimatang workers.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    ag_labourer: positive
+    woman: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.business-standard.com/politics/abhishek-promises-rs-300-daily-wage-for-tea-workers-bjp-turf-in-north-bengal-126010300679_1.html
+  - https://theprint.in/india/abhishek-promises-rs-300-daily-wage-for-tea-workers-eyes-bjp-turf-in-north-bengal/2818061/
+- slug: sir_voter_roll_ec_tea_garden_records_jan2026
+  date: '2026-01-12'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: ECI accepts tea garden employment records as valid ID for SIR voter roll
+    revision in North Bengal
+  summary: 'The Election Commission of India announced that tea garden and cinchona
+
+    plantation employment records would be accepted as valid proof of identity
+
+    and residence for the Special Intensive Revision (SIR) of electoral rolls
+
+    in seven North Bengal districts including Alipurduar. For Kalchini''s
+
+    workers — many of whom lack Aadhaar, voter ID, or land documents — this
+
+    decision directly addressed the documentation-gap fear that had
+
+    crystallised around NRC/CAA since 2019.
+
+    '
+  tags:
+  - ag_labourer
+  - out_migrant_household
+  - woman
+  - elderly
+  valence:
+    ag_labourer: positive
+    out_migrant_household: positive
+    woman: positive
+    bjp_supporter: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://scroll.in/latest/1089936/tea-garden-work-records-to-be-held-as-valid-id-proof-for-sir-in-north-bengal-says-ec
+  - https://organiser.org/2026/01/12/334583/bharat/bengal-eci-allows-tea-garden-employment-records-for-electoral-roll-revisio-bjp-calls-it-restoration-of-rights/
+- slug: bjp_sonar_bangla_manifesto_2026_tea_ucc
+  date: '2026-04-10'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: 'BJP releases ''Sonar Bangla'' manifesto 2026: Rs 3,000 for women, tea-garden
+    land, UCC — but UCC threatens tribal customs'
+  summary: 'BJP''s 15-point ''Sonar Bangla'' manifesto for WB 2026 promised Rs 3,000
+
+    monthly for women, 7th Pay Commission, and UCC. The UCC promise alarmed
+
+    tribal organisations in Kalchini, as TMC argued UCC would override Oraon
+
+    and Munda customary land and inheritance laws. BJP also pledged land
+
+    ownership for tea-garden workers, repeating the 2021 promise that
+
+    remained undelivered. The manifesto was received with scepticism in
+
+    Kalchini given 2021 pledges on land and PF were not honoured.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - bjp_supporter
+  - out_migrant_household
+  valence:
+    ag_labourer: ambient
+    woman: positive
+    bjp_supporter: positive
+    out_migrant_household: negative
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.business-standard.com/elections/west-bengal-elections/west-bengal-polls-bjp-manifesto-reaches-out-to-govt-staff-women-youth-126041000997_1.html
+  - https://www.newkerala.com/news/a/sonar-bangla-roadmap-bjp-unveils-15-point-manifesto-2026-986.htm
+- slug: tmc_2026_manifesto_tea_wage_300_esi
+  date: '2026-03-20'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: 'TMC 2026 manifesto: Rs 300 tea wage, ESI extension, Chaa Sundari housing,
+    85 gardens reopened'
+  summary: 'TMC''s 2026 manifesto formalised the Rs 300/day tea wage pledge, ESI
+
+    health coverage extension for tea workers, expansion of Chaa Sundari
+
+    housing (28,500+ beneficiaries), and highlighted that 85 tea gardens
+
+    had been reopened under its governance. Kanyashree, Lakshmir Bhandar, and
+
+    Swasthya Sathi were pitched as continued commitments for tea-garden women.
+
+    In Kalchini, the manifesto''s specificity on tea issues contrasted with
+
+    the more generic 2021 TMC pitch.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - lakshmir_bhandar_beneficiary
+  - swasthya_sathi_beneficiary
+  - tmc_supporter
+  valence:
+    ag_labourer: positive
+    woman: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.business-standard.com/elections/west-bengal-elections/tmc-manifesto-10-pledges-roadmap-five-years-mamata-banerjee-126032000847_1.html
+  - https://www.devdiscourse.com/article/business/3845105-tmc-pledges-economic-boost-for-tea-garden-workers-in-west-bengal
+- slug: bishal_lama_bjp_candidate_repeat_2026
+  date: '2026-03-05'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: BJP re-fields Bishal Lama for Kalchini 2026; incumbent MLA faces challenge
+    of undelivered 2021 promises
+  summary: 'BJP confirmed incumbent Kalchini MLA Bishal Lama as its 2026 candidate
+    for
+
+    the Kalchini (ST) assembly seat. Lama''s 2021 promises of tea-garden land
+
+    ownership and PF arrear resolution through the BJP government remained
+
+    largely undelivered, providing TMC and opposition with a specific
+
+    accountability narrative. Lama''s continued tribal identity and local
+
+    roots remained his core political asset.
+
+    '
+  tags:
+  - ag_labourer
+  - bjp_supporter
+  - out_migrant_household
+  valence:
+    ag_labourer: ambient
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.bjp.org/west-bengal-assembly-election-2026
+  - https://voterlist.co.in/bjp-candidate-list-2026-west-bengal/
+- slug: birendra_bara_tmc_candidate_kalchini_2026
+  date: '2026-03-15'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: TMC fields Birendra Bara for Kalchini 2026; Abhishek Banerjee campaigns
+    with hospital promise
+  summary: 'TMC nominated Birendra Bara as its candidate for Kalchini (ST) in the
+    2026
+
+    assembly election. During a campaign roadshow on 26 March 2026, Abhishek
+
+    Banerjee canvassed for Bara and promised construction of a full-fledged
+
+    government hospital in Kalchini — a long-standing demand in a constituency
+
+    with poor healthcare infrastructure. Former Kalchini MLA Wilson
+
+    Champramari also rejoined TMC from BJP during the campaign event.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    ag_labourer: positive
+    woman: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.socialnews.xyz/2026/03/26/alipurduar-abhishek-banerjee-campaigns-for-birendra-bara-gallery/
+  - https://www.millenniumpost.in/bengal/abhishek-promises-municipality-in-jaigaon-hospital-for-kalchini-653533
+- slug: wilson_champramari_bjp_to_tmc_defection
+  date: '2026-03-26'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: Former Kalchini MLA Wilson Champramari returns to TMC from BJP; symbolic
+    blow to BJP's booth machine
+  summary: 'Wilson Champramari, a former Kalchini MLA who had joined the BJP, rejoined
+
+    the Trinamool Congress during Abhishek Banerjee''s Alipurduar campaign
+
+    visit on 26 March 2026. The defection — following John Barla''s switch
+
+    to TMC in May 2025 — represented a pattern of senior tribal figures
+
+    leaving BJP in the Dooars. In Kalchini''s tribal communities, the
+
+    defection of established local leaders undermined BJP''s claim to being
+
+    the sole champion of tribal interests.
+
+    '
+  tags:
+  - ag_labourer
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    ag_labourer: ambient
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.socialnews.xyz/2026/03/26/alipurduar-abhishek-banerjee-campaigns-for-birendra-bara-gallery/
+  - https://www.millenniumpost.in/bengal/abhishek-promises-municipality-in-jaigaon-hospital-for-kalchini-653533
+- slug: capf_mass_deployment_north_bengal_2026
+  date: '2026-03-10'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: 480 CAPF companies deployed ahead of WB 2026 election; later expanded
+    to 2,550 — boosting North Bengal security
+  summary: 'The Election Commission deployed an unprecedented 2,400-2,550 CAPF
+
+    companies for the 2026 WB elections, with initial deployments from
+
+    March 1 and reinforcements through March. In Alipurduar district, CAPF
+
+    deployment was designed to prevent the kind of booth-level intimidation
+
+    reported in the 2023 panchayat polls. For tea-garden workers in Kalchini
+
+    — many of whom feared management or union pressure at the booth — the
+
+    heavy central-force presence was a significant determinant of whether they
+
+    would vote their actual preference.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    ag_labourer: positive
+    woman: positive
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.newsonair.gov.in/home-ministry-to-deploy-480-companies-of-paramilitary-forces-in-west-bengal-before-assembly-election/
+  - https://newsable.asianetnews.com/india/wb-elections-2026-capf-dgs-meet-in-kolkata-for-foolproof-security-articleshow-2up52xp
+- slug: modi_campaign_north_bengal_anti_tmc_tribal
+  date: '2026-04-05'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: PM Modi campaigns in North Bengal; calls TMC 'anti-tribal, anti-tea garden,
+    anti-women'
+  summary: 'Prime Minister Modi held rallies in North Bengal ahead of Phase-1 polling,
+
+    calling the TMC "anti-North Bengal, anti-tribal, anti-tea garden workers
+
+    and anti-women." BJP sought to counter TMC''s Rs 300 wage pledge and Barla-
+
+    defection narrative by highlighting central schemes (PM Awas, Jal Jeevan
+
+    Mission) and pointing to WB government''s pending wage arrears. In Kalchini,
+
+    the rally was viewed through the lens of the undelivered 2021 manifesto
+
+    commitments on land and PF.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    ag_labourer: ambient
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.uniindia.com/tmc-is-anti-north-bengal-anti-tribal-anti-tea-garden-workers-and-anti-women-party-modi/east/news/3807489.html
+- slug: lakshmir_bhandar_st_women_kalchini
+  date: '2021-04-15'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: 'Lakshmir Bhandar launched: Rs 1,200/month for ST women; Kalchini tea-garden
+    women among primary beneficiaries'
+  summary: 'Lakshmir Bhandar provides Rs 1,200/month to ST women (Rs 1,000 to others),
+
+    making Oraon, Munda, and Santali women in Kalchini''s tea-garden labour
+
+    lines among the primary beneficiaries. By 2026, crores of WB women are
+
+    enrolled, making it the single most politically salient TMC welfare scheme.
+
+    For tea-garden women workers who earn Rs 250/day (when employed), the
+
+    monthly stipend represents a significant supplementary income.
+
+    '
+  tags:
+  - woman
+  - ag_labourer
+  - lakshmir_bhandar_beneficiary
+  - tmc_supporter
+  valence:
+    woman: positive
+    ag_labourer: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.govtschemes.in/west-bengal-lakshmir-bhandar-scheme
+  - https://www.myscheme.gov.in/schemes/lbs-wb
+- slug: swasthya_sathi_access_barriers_tea_belt
+  date: '2022-08-01'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: 'Swasthya Sathi access challenges in Kalchini: management blocks enrolment,
+    distant empanelled hospitals'
+  summary: 'While Swasthya Sathi provides Rs 5 lakh annual health cover, tea-garden
+
+    workers in Kalchini face barriers: management at times obstructs Duare
+
+    Sarkar camp access to labour lines (where cards are issued), and the
+
+    nearest empanelled hospitals are in Alipurduar town. Malaria and dengue in
+
+    forest-fringe Kalchini villages remain inadequately addressed. The gap
+
+    between scheme promise and delivery access is a standing grievance.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - swasthya_sathi_beneficiary
+  - elderly
+  valence:
+    ag_labourer: negative
+    woman: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://swasthyasathi.gov.in/DistrictWiseHealth
+- slug: floods_tea_gardens_north_bengal_oct2025
+  date: '2025-10-08'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: 'Floods devastate North Bengal tea gardens Oct 2025: Rs 100 crore+ loss,
+    Kalchini belt inundated'
+  summary: 'Torrential rainfall in October 2025 caused flooding across North Bengal''s
+
+    tea belt, with losses estimated at over Rs 100 crore in Dooars gardens.
+
+    Approximately 500-700 hectares of tea gardens were destroyed; damage to
+
+    labour lines, irrigation equipment, and prepared tea leaves was
+
+    documented. Mamata Banerjee visited Alipurduar to distribute relief
+
+    materials and interact with tea-garden workers. The floods underscored
+
+    climate vulnerability as an enduring economic risk for Kalchini''s workers.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - cultivator
+  - tmc_supporter
+  valence:
+    ag_labourer: negative
+    woman: negative
+    cultivator: negative
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://www.etvbharat.com/en/state/floods-devastate-tea-gardens-in-north-bengal-losses-estimated-at-over-rs-100-crore-enn25100800415
+  - https://aninews.in/news/national/general-news/w-bengal-cm-mamata-banerjee-distributes-relief-materials-in-alipurduar-in-wake-of-floods-interact-with-tea-garden-workers20251012182833/
+- slug: phase1_polling_day_kalchini_apr2026
+  date: '2026-04-23'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: 'Phase-1 polling in Kalchini (AC-16): heavy CAPF, high turnout (~91%)
+    reported in North Bengal'
+  summary: 'Kalchini (AC-16, ST) voted in Phase-1 of the WB 2026 Assembly elections
+
+    on 23 April 2026. North Bengal reported over 91% voter turnout, among the
+
+    highest in the state, reflecting intense competitive mobilisation by BJP
+
+    (with Bishal Lama) and TMC (with Birendra Bara). CAPF presence at booths
+
+    across the tea-garden labour lines was widely reported to have reduced
+
+    management-related booth intimidation. The result is to be declared on
+
+    4 May 2026.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - bjp_supporter
+  - tmc_supporter
+  - out_migrant_household
+  valence:
+    ag_labourer: positive
+    woman: positive
+    bjp_supporter: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.indiatvnews.com/west-bengal/news-west-bengal-assembly-elections-2026-phase-1-polling-live-updates-voter-turnout-bjp-tmc-mamata-banerjee-suvendu-adhikari-nandigram-live-blog-1038557
+  - https://www.oneindia.com/kalchini-assembly-elections-wb-11/
+- slug: ae_2026_candidates_kalchini
+  date: '2026-03-16'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: '2026 AE Kalchini (AC-11): TMC Birendra Bara vs BJP Bishal Lama (sitting
+    MLA rematch)'
+  summary: 'Source: Wikipedia 2026 WB AE PDF (PDF AC-11). TMC fields Birendra Bara;
+    BJP re-nominates sitting MLA Bishal Lama (won 2021 by 28,576 votes). RSP fields
+    Passang Sherpa; INC fields Anjan Chik Baraik. Tea-garden wage promise (TMC Rs
+    300/day pledge), MGNREGA restoration, and tribal welfare are decisive frames.
+    John Barla''s TMC defection reshapes BJP organisation.'
+  tags:
+  - bjp_supporter
+  - tmc_supporter
+  - ag_labourer
+  - woman
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2026_West_Bengal_Legislative_Assembly_election

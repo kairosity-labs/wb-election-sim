@@ -1,0 +1,830 @@
+# Sandeshkhali (AC-130) — voter-salient event chronology, Jan 2019 → 25 May 2024.
+# Window terminates at Basirhat LS Phase-7 polling day (June 1 2024; cutoff set to May 25 for pre-poll frame).
+# Constituency: North 24 Parganas, Basirhat sub-division, Sandarbans fringe.
+# Reserved: Scheduled Tribe (ST).
+
+cutoff_date: "2024-05-25"   # Basirhat LS Phase-7 eve
+
+events:
+  # ───────────── 2019 ─────────────
+
+  - slug: ls_2019_basirhat_tmc_win
+    date: "2019-05-23"
+    temporal: episodic
+    scope: AC
+    intensity: 4
+    headline: "Basirhat LS retained by TMC's Nusrat Jahan; Sandeshkhali segment shows BJP surge"
+    summary: |
+      Nusrat Jahan (TMC) won Basirhat Lok Sabha with 54.56% vote share, but BJP's
+      gains across North 24 Parganas signalled competitive 2021 AE terrain.
+      In the Sandeshkhali assembly segment, BJP inroads were visible among upper-caste
+      Hindu and Namasudra voters angry over cut-money and local TMC strongman rule.
+      BJP won 18 of 42 WB LS seats statewide, its best ever performance.
+    tags: [tmc_supporter, bjp_supporter, muslim_voter, upper_caste_hindu]
+    valence:
+      tmc_supporter: positive
+      bjp_supporter: ambient
+      muslim_voter: positive
+      upper_caste_hindu: negative
+    broadcast: true
+    sources:
+      - https://www.india.com/lok-sabha-election-2019/west-bengal/basirhat/
+      - https://en.wikipedia.org/wiki/2019_Indian_general_election_in_West_Bengal
+
+  - slug: post_ls2019_basirhat_violence
+    date: "2019-05-26"
+    temporal: episodic
+    scope: district
+    intensity: 4
+    headline: "Post-poll violence kills TMC and BJP workers across Basirhat-North 24 Parganas"
+    summary: |
+      Clashes between TMC and BJP workers erupted in Basirhat subdivision after
+      the 2019 LS result. Workers from both parties were killed, with the violence
+      reinforcing perceptions of TMC muscleman dominance in the Sandeshkhali belt.
+      Home Minister Amit Shah sought a report from the state government.
+    tags: [bjp_supporter, tmc_supporter, ag_labourer]
+    valence:
+      bjp_supporter: negative
+      tmc_supporter: ambient
+      ag_labourer: negative
+    broadcast: true
+    sources:
+      - https://scroll.in/latest/926454/west-bengal-toll-in-basirhat-violence-rises-to-three-amit-shah-seeks-report-from-state-government
+
+  - slug: krishak_bandhu_launch
+    date: "2019-01-31"
+    temporal: episodic
+    scope: state
+    intensity: 4
+    headline: "TMC's Krishak Bandhu scheme launched — up to Rs 10,000/year direct cash for farmers"
+    summary: |
+      Krishak Bandhu, launched in January 2019, provides annual income support to
+      all registered farmers in West Bengal — Rs 10,000/acre for large holdings,
+      Rs 4,000 for marginal farmers — plus a Rs 2 lakh death benefit. In
+      Sandeshkhali, where paddy and fish farming dominate livelihoods, landholding
+      cultivators enrolled in large numbers. Over 90 lakh farmers were covered
+      statewide; sharecroppers were also made eligible.
+    tags: [cultivator, krishak_bandhu_beneficiary, ag_labourer]
+    valence:
+      cultivator: positive
+      krishak_bandhu_beneficiary: positive
+      tmc_supporter: positive
+      bjp_supporter: ambient
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/Krishak_Bandhu_Scheme
+      - https://krishakbandhu.wb.gov.in/about_kb
+
+  - slug: nrc_assam_final_list_2019
+    date: "2019-08-31"
+    temporal: episodic
+    scope: national
+    intensity: 5
+    headline: "Assam NRC excludes 19 lakh; Muslim Bengali communities in Sandeshkhali fear extension"
+    summary: |
+      The Assam NRC final list excluded 19 lakh people. In Sandeshkhali, where
+      Muslim families (~35-40% of electorate) have incomplete land documentation
+      as multi-generation Sundarban settlers, the NRC sparked existential anxiety
+      about statelessness. TMC's immediate vow not to implement NRC in Bengal
+      consolidated the Muslim vote and deepened the community's dependence on
+      Mamata's protective umbrella.
+    tags: [muslim_voter, ag_labourer, cultivator]
+    valence:
+      muslim_voter: negative
+      tmc_supporter: positive
+      bjp_supporter: negative
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/No_NRC_movement
+
+  - slug: caa_passed_dec2019
+    date: "2019-12-11"
+    temporal: episodic
+    scope: national
+    intensity: 5
+    headline: "CAA passed; Mamata leads Bengal resistance; Muslim voters in Sandeshkhali alarmed"
+    summary: |
+      Parliament passed the Citizenship Amendment Act on December 11, 2019,
+      fast-tracking citizenship for non-Muslim refugees from Bangladesh, Pakistan
+      and Afghanistan. In Sandeshkhali, Muslim voters interpreted this as a
+      discriminatory citizenship regime paired with NRC threat. Upper-caste Hindu
+      and Namasudra voters cautiously welcomed it as recognition of Hindu refugee
+      rights. Mamata declared West Bengal would not implement CAA, deepening the
+      communal polarisation ahead of 2021.
+    tags: [muslim_voter, upper_caste_hindu, tmc_supporter, bjp_supporter]
+    valence:
+      muslim_voter: negative
+      upper_caste_hindu: positive
+      tmc_supporter: positive
+      bjp_supporter: positive
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/Citizenship_Amendment_Act_protests
+      - https://aljazeera.com/news/2024/3/12/why-is-indias-citizenship-amendment-act-so-controversial
+
+  # ───────────── 2020 ─────────────
+
+  - slug: covid_lockdown_march2020
+    date: "2020-03-25"
+    temporal: episodic
+    scope: national
+    intensity: 5
+    headline: "COVID lockdown traps Sandeshkhali out-migrants; 2.5-3 lakh return to Sundarban fringe"
+    summary: |
+      India's nationwide lockdown from March 25, 2020 stranded hundreds of
+      Sandeshkhali residents working in Kerala, Gujarat, and Kolkata factories.
+      Distressed reverse migration flooded the Sundarban fringe; returning migrants
+      faced stigma as COVID carriers. Fishing was banned or restricted; MGNREGA
+      provided partial relief. Combined income shock created severe food insecurity
+      among ag-labourer and out-migrant households.
+    tags: [out_migrant_household, ag_labourer, cultivator, khadya_sathi_beneficiary]
+    valence:
+      out_migrant_household: negative
+      ag_labourer: negative
+      cultivator: negative
+      khadya_sathi_beneficiary: positive
+    broadcast: true
+    sources:
+      - https://pmc.ncbi.nlm.nih.gov/articles/PMC9435617/
+
+  - slug: cyclone_amphan_may2020
+    date: "2020-05-20"
+    temporal: episodic
+    scope: district
+    intensity: 5
+    headline: "Super Cyclone Amphan devastates Sandeshkhali; embankments breached, fish stock wiped out"
+    summary: |
+      Amphan made landfall on May 20, 2020, directly striking Sandeshkhali and
+      Minakhan blocks. Embankments on the Bidhyadhari river suffered three major
+      breaches; entire fish farming stock was destroyed. North 24 Parganas saw
+      5,500 homes damaged and 420 sq km inundated. 38 NDRF teams were deployed in
+      Sandeshkhali and Hasnabad; 200,000 people were evacuated from the district.
+      Paddy fields remained saline-inundated for months, devastating the 2020 kharif.
+    tags: [cultivator, ag_labourer, woman, elderly, khadya_sathi_beneficiary]
+    valence:
+      cultivator: negative
+      ag_labourer: negative
+      woman: negative
+      elderly: negative
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/Effects_of_Cyclone_Amphan_in_India
+      - https://www.downtoearth.org.in/news/climate-change/cyclone-amphan-and-high-tide-a-1-hour-gap-saved-sundarbans-from-an-even-bigger-disaster-71332
+      - https://www.ndrf.gov.in/en/operations/super-cyclone-amphan-2020
+
+  - slug: amphan_relief_cutmoney_scam
+    date: "2020-06-20"
+    temporal: episodic
+    scope: district
+    intensity: 5
+    headline: "TMC panchayat leaders divert Amphan relief to relatives; 2,100+ complaints flood state govt"
+    summary: |
+      Widespread Amphan relief corruption emerged within weeks of the cyclone,
+      with North 24 Parganas generating hundreds of complaints. In Sandeshkhali,
+      local TMC strongmen — including those linked to Sheikh Shahjahan's network —
+      allegedly controlled compensation lists, diverting funds to ineligible
+      relatives. Three months after Amphan, genuine victims in North 24 Parganas
+      had yet to receive compensation, per media investigations.
+    tags: [cultivator, ag_labourer, woman, tmc_supporter, bjp_supporter]
+    valence:
+      cultivator: negative
+      ag_labourer: negative
+      woman: negative
+      tmc_supporter: negative
+      bjp_supporter: positive
+    broadcast: true
+    sources:
+      - https://thewire.in/government/west-bengal-cyclone-amphan-victims-compensation-corruption-irregularities
+      - https://theprint.in/india/mamata-govt-now-in-trouble-over-amphan-relief-scam-after-cut-money-and-pds-corruption/451774/
+
+  - slug: swasthya_sathi_universalised_dec2020
+    date: "2020-12-01"
+    temporal: episodic
+    scope: state
+    intensity: 4
+    headline: "Swasthya Sathi health cover universalised to all WB families from December 2020"
+    summary: |
+      Swasthya Sathi — providing cashless hospital cover up to Rs 5 lakh per
+      annum — was extended to all West Bengal families from December 2020.
+      In Sandeshkhali, where sudden medical costs from tiger attacks and fishing
+      injuries strain households, the scheme provided critical financial protection.
+      Duare Sarkar camps simultaneously enabled rapid enrollment across remote
+      Sundarban gram panchayats.
+    tags: [swasthya_sathi_beneficiary, woman, elderly, cultivator, ag_labourer]
+    valence:
+      swasthya_sathi_beneficiary: positive
+      tmc_supporter: positive
+      woman: positive
+      elderly: positive
+    broadcast: true
+    sources:
+      - https://swasthyasathi.gov.in/
+
+  - slug: duare_sarkar_dec2020
+    date: "2020-12-01"
+    temporal: episodic
+    scope: state
+    intensity: 4
+    headline: "Duare Sarkar rolls out welfare scheme camps at panchayat level; 2.75 cr enrolled statewide"
+    summary: |
+      The Mamata government's Duare Sarkar programme launched doorstep welfare
+      camps at gram panchayat level from December 2020. In Sandeshkhali's remote
+      island blocks, where travel to block office is difficult, the programme
+      dramatically increased access to Swasthya Sathi, Khadya Sathi and
+      Kanyashree. Phase I enrolled over 2.75 crore beneficiaries statewide before
+      the 2021 Assembly Election.
+    tags: [swasthya_sathi_beneficiary, khadya_sathi_beneficiary, woman, elderly, kanyashree_household]
+    valence:
+      tmc_supporter: positive
+      woman: positive
+      khadya_sathi_beneficiary: positive
+    broadcast: true
+    sources:
+      - https://wb.nic.in/news/duare-sarkar-govt-at-doorstep-and-paray-samadhan-solution-at-mohalla-two-massive-outreach-program-of-government-of-west-bengal-developed-by-nic-west-bengal/
+
+  - slug: suvendu_joins_bjp_dec2020
+    date: "2020-12-19"
+    temporal: episodic
+    scope: state
+    intensity: 4
+    headline: "Suvendu Adhikari joins BJP with nine MLAs; energises BJP's Basirhat belt campaign"
+    summary: |
+      Suvendu Adhikari's defection to BJP on December 19, 2020 was the largest
+      single blow to TMC before the 2021 election. His organisational network
+      extended into North 24 Parganas. In Sandeshkhali, local BJP workers used
+      the defection to recruit TMC-aligned voters disillusioned by Amphan
+      relief corruption and local muscle rule.
+    tags: [bjp_supporter, tmc_supporter, upper_caste_hindu]
+    valence:
+      bjp_supporter: positive
+      tmc_supporter: negative
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/Suvendu_Adhikari
+
+  # ───────────── 2021 ─────────────
+
+  - slug: tmc_2021_manifesto_lakshmir_bhandar
+    date: "2021-03-07"
+    temporal: episodic
+    scope: state
+    intensity: 5
+    headline: "TMC 2021 manifesto: Lakshmir Bhandar Rs 1,000/month for SC/ST women, Rs 500 for others"
+    summary: |
+      TMC's 2021 manifesto promised Lakshmir Bhandar as its headline scheme —
+      Rs 1,000/month for SC/ST women aged 25-60, Rs 500 for general-category women.
+      In Sandeshkhali (ST reserved), the higher Rs 1,000 tier applied to most
+      women. This was the most-discussed electoral promise in pre-poll campaigning
+      in the constituency, directly addressing women's independent income security.
+    tags: [woman, lakshmir_bhandar_beneficiary, tmc_supporter, cultivator]
+    valence:
+      woman: positive
+      lakshmir_bhandar_beneficiary: positive
+      tmc_supporter: positive
+      bjp_supporter: negative
+    broadcast: true
+    sources:
+      - https://www.govtschemes.in/west-bengal-lakshmir-bhandar-scheme
+
+  - slug: bjp_2021_sonar_bangla_manifesto
+    date: "2021-03-21"
+    temporal: episodic
+    scope: state
+    intensity: 4
+    headline: "BJP releases Sonar Bangla manifesto — CAA implementation, 1 crore jobs, women's battalions"
+    summary: |
+      BJP's 2021 manifesto released by Amit Shah promised immediate CAA
+      implementation, one crore jobs, Rs 3,000/month for women, and all-women
+      police battalions. In Sandeshkhali, the CAA pledge further cemented Muslim
+      vote behind TMC while the women-safety promise appealed to Hindu households
+      experiencing local TMC muscle. The manifesto framed corruption as the central
+      governance failure of TMC rule.
+    tags: [upper_caste_hindu, woman, bjp_supporter, muslim_voter]
+    valence:
+      bjp_supporter: positive
+      upper_caste_hindu: positive
+      muslim_voter: negative
+      woman: ambient
+    broadcast: true
+    sources:
+      - https://www.business-standard.com/article/elections/bjp-releases-west-bengal-poll-manifesto-promises-33-reservation-for-women-121032100955_1.html
+
+  - slug: cyclone_yaas_may2021
+    date: "2021-05-26"
+    temporal: episodic
+    scope: district
+    intensity: 5
+    headline: "Cyclone Yaas inundates Sandeshkhali; embankments washed away, villages flooded"
+    summary: |
+      Cyclone Yaas made landfall on May 26, 2021 as a very severe cyclonic storm,
+      striking the Sundarban coast. In Sandeshkhali block, embankments were washed
+      away and whole villages were flooded with saline water. Namkhana, Gosaba,
+      Basanti, Hingalganj and Sandeshkhali were the worst affected North 24 Parganas
+      blocks. Over 10 million people were affected in West Bengal; the estimated
+      loss was Rs 21,000 crore statewide.
+    tags: [cultivator, ag_labourer, woman, elderly, out_migrant_household]
+    valence:
+      cultivator: negative
+      ag_labourer: negative
+      woman: negative
+      elderly: negative
+    broadcast: true
+    sources:
+      - https://science.thewire.in/environment/cyclone-yaas-and-spring-tide-inundate-medinipur-sundarbans-coastal-line/
+      - https://en.wikipedia.org/wiki/Cyclone_Yaas
+      - https://sundayguardianlive.com/news/yaas-leaves-trail-destruction-bengals-coastal-areas
+
+  - slug: ae2021_sandeshkhali_result
+    date: "2021-05-02"
+    temporal: episodic
+    scope: AC
+    intensity: 5
+    headline: "TMC wins Sandeshkhali by 39,685 votes; BJP's Bhaskar Sardar distant second"
+    summary: |
+      Sukumar Mahata (TMC) won Sandeshkhali with 112,450 votes (54.64%); Dr.
+      Bhaskar Sardar (BJP) received 72,765 votes (35.36%). CPM was negligible.
+      TMC's margin was driven by near-total Muslim bloc voting, Lakshmir Bhandar
+      expectations, and Duare Sarkar beneficiary mobilisation. Despite Amphan
+      relief anger, BJP could not convert anti-incumbency into a constituency win.
+    tags: [tmc_supporter, bjp_supporter, woman, muslim_voter, cultivator]
+    valence:
+      tmc_supporter: positive
+      bjp_supporter: negative
+      woman: positive
+      muslim_voter: positive
+    broadcast: true
+    sources:
+      - https://www.indiavotes.com/ac/summary/45173
+      - https://resultuniversity.com/election/sandeshkhali-west-bengal-assembly-constituency
+
+  - slug: ae2021_wb_tmc_landslide
+    date: "2021-05-02"
+    temporal: episodic
+    scope: state
+    intensity: 5
+    headline: "TMC wins WB AE 2021 with 213 of 294 seats; BJP held to 77 seats"
+    summary: |
+      TMC's landslide victory — 213 seats to BJP's 77 — validated Mamata's
+      governance and welfare model. Sandeshkhali returned TMC comfortably. The
+      result deflated the BJP's Bengal project significantly and restored TMC
+      confidence in its panchayat-and-welfare electoral machine across Sundarban
+      constituencies.
+    tags: [tmc_supporter, bjp_supporter, woman, muslim_voter]
+    valence:
+      tmc_supporter: positive
+      bjp_supporter: negative
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/2021_West_Bengal_legislative_assembly_election
+
+  - slug: lakshmir_bhandar_implementation_aug2021
+    date: "2021-08-16"
+    temporal: episodic
+    scope: state
+    intensity: 5
+    headline: "Lakshmir Bhandar transfers begin; Sandeshkhali women receive first Rs 1,000 installment"
+    summary: |
+      Cash transfers under Lakshmir Bhandar began in August 2021, with SC/ST women
+      receiving Rs 1,000 and general-category women Rs 500 monthly. In Sandeshkhali,
+      where the ST-reserved constituency has a high proportion of SC/ST households
+      in Namasudra and tribal communities, coverage was high. Over 2.11 crore women
+      statewide enrolled; the scheme became the most visible symbol of TMC's
+      governance dividend.
+    tags: [woman, lakshmir_bhandar_beneficiary, cultivator, ag_labourer, tmc_supporter]
+    valence:
+      woman: positive
+      lakshmir_bhandar_beneficiary: positive
+      tmc_supporter: positive
+    broadcast: true
+    sources:
+      - https://www.govtschemes.in/west-bengal-lakshmir-bhandar-scheme
+      - https://cleartax.in/s/lakshmir-bhandar-scheme
+
+  - slug: covid_delta_wave_2021
+    date: "2021-05-10"
+    temporal: episodic
+    scope: national
+    intensity: 4
+    headline: "COVID Delta wave overwhelms Bengal; rural Sandeshkhali cut off from hospital care"
+    summary: |
+      The Delta variant surge of May-July 2021 hit West Bengal hard, with
+      Kolkata hospitals overwhelmed. In Sandeshkhali, with no sub-district
+      hospital, COVID patients had to travel to Basirhat or Kolkata in a collapsing
+      transport system. Swasthya Sathi coverage helped those who reached hospitals,
+      but many seriously ill residents had no access to oxygen or ICU care.
+      Fishermen and farming households lost working members to the outbreak.
+    tags: [swasthya_sathi_beneficiary, elderly, cultivator, ag_labourer, woman]
+    valence:
+      elderly: negative
+      ag_labourer: negative
+      cultivator: negative
+      swasthya_sathi_beneficiary: ambient
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/2021_West_Bengal_legislative_assembly_election
+
+  # ───────────── 2022 ─────────────
+
+  - slug: mgnrega_funds_blocked_march2022
+    date: "2022-03-09"
+    temporal: chronic
+    scope: state
+    intensity: 5
+    headline: "Centre blocks MGNREGA funds to West Bengal; 70 lakh rural workers lose guaranteed wages"
+    summary: |
+      The Union government froze MGNREGA funds to West Bengal from March 2022
+      under Section 27, citing compliance failures, halting work allocation for
+      an estimated 70 lakh workers. In Sandeshkhali, where fishing income is
+      seasonal and agriculture flood-disrupted, MGNREGA was a critical income
+      bridge for ag-labourers and women SHG members between harvests. The freeze
+      drove renewed out-migration and deepened rural distress in the Sundarban belt.
+    tags: [ag_labourer, cultivator, woman, out_migrant_household]
+    valence:
+      ag_labourer: negative
+      cultivator: negative
+      woman: negative
+      bjp_supporter: positive
+      tmc_supporter: negative
+    broadcast: true
+    sources:
+      - https://thefederal.com/category/states/east/west-bengal/centre-sc-orders-mgnregs-frozen-bengal-70-lakh-workers-tmc-218532
+      - https://scroll.in/article/1041183/why-the-centre-has-not-paid-mgnrega-wages-in-bengal-for-a-year
+
+  - slug: ssc_scam_partha_arrested_july2022
+    date: "2022-07-23"
+    temporal: episodic
+    scope: state
+    intensity: 5
+    headline: "ED arrests TMC minister Partha Chatterjee in SSC teacher recruitment scam; Rs 21 crore cash seized"
+    summary: |
+      Enforcement Directorate arrested TMC Education Minister Partha Chatterjee
+      on July 23, 2022 in connection with the West Bengal School Service Commission
+      (SSC) teacher recruitment scam. Rs 21 crore in cash was seized from his
+      associate Arpita Mukherjee's flat. In Sandeshkhali, where school_age_household
+      aspirations for government teaching jobs are common, the scam deepened
+      anti-TMC sentiment among educated families and strengthened BJP's
+      corruption narrative.
+    tags: [school_age_household, tmc_supporter, bjp_supporter, bhadralok]
+    valence:
+      tmc_supporter: negative
+      bjp_supporter: positive
+      school_age_household: negative
+      bhadralok: negative
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/2022_West_Bengal_School_Service_Commission_recruitment_scam
+      - https://www.indiatvnews.com/news/india/partha-chatterjee-arrested-by-ed-in-west-bengal-ssc-scam-after-26-hours-of-questioning-2022-07-23-794257
+
+  - slug: tiger_attacks_chronic_sundarban_2022
+    date: "2022-06-01"
+    temporal: chronic
+    scope: AC
+    intensity: 3
+    headline: "Tiger attacks on Sundarban fishermen average 2/month; forest ban limits legal livelihood"
+    summary: |
+      Human-tiger conflict in the Sundarbans runs at approximately two incidents
+      per month, with fishermen the primary victims. Sandeshkhali and adjacent
+      blocks sit on the forest fringe; illegal entry into the tiger reserve is
+      driven by poverty after Amphan and Yaas destroyed legal fishing grounds.
+      High Court restrictions on boat licenses further restrict community access,
+      pushing fishermen toward riskier unlicensed trips into the forest.
+    tags: [cultivator, ag_labourer, out_migrant_household]
+    valence:
+      ag_labourer: negative
+      cultivator: negative
+    broadcast: false
+    sources:
+      - https://villagesquare.in/sundarbans-tiger-attacks-impact-climate-change/
+      - https://www.downtoearth.org.in/environment/ethos-of-a-sinking-space-fishers-in-sundarbans-surmount-tiger-attacks-bureaucracy-to-earn-livelihoods-78175
+
+  # ───────────── 2023 ─────────────
+
+  - slug: panchayat_2023_violence_basirhat
+    date: "2023-07-08"
+    temporal: episodic
+    scope: district
+    intensity: 4
+    headline: "West Bengal Panchayat 2023 polls marred by violence; Basirhat-North 24 Parganas among worst hit"
+    summary: |
+      The July 2023 panchayat elections saw 55 deaths statewide; North 24 Parganas
+      was among the three most violence-affected districts alongside South 24
+      Parganas and Murshidabad. Sandeshkhali panchayats remained under TMC control,
+      with BJP and independent candidates facing intimidation. The Governor planned
+      a visit to Basirhat amid protests. The violence reinforced TMC's panchayat
+      grip but damaged its governance image ahead of the 2024 Lok Sabha.
+    tags: [bjp_supporter, tmc_supporter, ag_labourer, cultivator, woman]
+    valence:
+      bjp_supporter: negative
+      tmc_supporter: negative
+      ag_labourer: negative
+      woman: negative
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/2023_West_Bengal_local_elections_violence
+      - https://www.ptcnews.tv/politics/west-bengal-panchayat-election-2023-violence-mars-panchayat-polls-5-tmc-members-among-9-dead-727671
+
+  - slug: shg_women_rainwater_sundarban
+    date: "2023-03-01"
+    temporal: chronic
+    scope: AC
+    intensity: 2
+    headline: "Women SHGs in Sandeshkhali implement rainwater harvesting to counter post-cyclone salinity"
+    summary: |
+      Women's self-help groups (SHGs) in Sandeshkhali and surrounding Sundarban
+      blocks began implementing rainwater harvesting systems to counter the
+      persistent salinity of freshwater ponds after Amphan and Yaas. SHGs also
+      planted mangroves along embankments. Sandeshkhali Maa Saroda Women & Rural
+      Welfare Society, active since 2009, continued providing skill training in
+      fish farming, crab farming, and food processing to SHG members.
+    tags: [woman, cultivator, ag_labourer, lakshmir_bhandar_beneficiary]
+    valence:
+      woman: positive
+      cultivator: ambient
+    broadcast: false
+    sources:
+      - https://www.deccanherald.com/india/west-bengal/self-help-group-women-implementing-rainwater-harvesting-in-sundarbans-area-to-counter-salinity-3422702
+
+  # ───────────── 2024 ─────────────
+
+  - slug: ed_attack_sandeshkhali_jan2024
+    date: "2024-01-05"
+    temporal: episodic
+    scope: AC
+    intensity: 5
+    headline: "Enforcement Directorate raided Sheikh Shahjahan's Sandeshkhali associates; mob attacks officers"
+    summary: |
+      On January 5, 2024, an ED team arrived in Sandeshkhali to interrogate TMC
+      local leader Sheikh Shahjahan in connection with the Jyotipriya Mallick ration
+      scam. Shahjahan's supporters attacked the ED officers, injuring three, destroyed
+      their phones and documents, and vandalised media vehicles. Shahjahan fled and
+      remained a fugitive for 55 days. The incident placed Sandeshkhali at the centre
+      of national news and triggered a constitutional and political crisis in West Bengal.
+    tags: [tmc_supporter, bjp_supporter, woman, muslim_voter]
+    valence:
+      tmc_supporter: negative
+      bjp_supporter: positive
+      woman: ambient
+      muslim_voter: ambient
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/Sandeshkhali_violence
+      - https://www.businesstoday.in/india/story/sandeshkhali-violence-west-bengal-police-arrests-tmc-leader-sheikh-shahjahan-from-north-24-parganas-419404-2024-02-29
+
+  - slug: sandeshkhali_womens_protests_feb2024
+    date: "2024-02-08"
+    temporal: episodic
+    scope: AC
+    intensity: 5
+    headline: "Hundreds of women in Sandeshkhali protest with brooms against land grab and sexual assault by TMC men"
+    summary: |
+      On February 8, 2024, hundreds of women from Sandeshkhali took to the streets
+      with brooms, sticks and farming tools, demanding arrest of Sheikh Shahjahan,
+      Shiba Prasad Hazra and Uttam Sardar for land grabbing and sexual assault.
+      Women alleged Shahjahan's men had forcibly converted paddy fields into fish
+      ponds and sexually harassed Dalit and Adivasi women over years. The Calcutta
+      High Court took suo motu cognizance on February 13. Rekha Patra emerged as
+      a protest leader.
+    tags: [woman, ag_labourer, cultivator, bjp_supporter, tmc_supporter, upper_caste_hindu]
+    valence:
+      woman: negative
+      ag_labourer: negative
+      cultivator: negative
+      bjp_supporter: positive
+      tmc_supporter: negative
+      upper_caste_hindu: negative
+    broadcast: true
+    sources:
+      - https://theprint.in/opinion/sandeshkhali-protest-is-not-tmc-vs-bjp-its-the-arrival-of-sc-st-women-to-the-mainstream/1982821/
+      - https://www.thestatesman.com/bengal/sandeshkhali-tmc-leader-sheikh-shahjahan-arrested-in-land-grab-sexual-assault-cases-1503274195.html
+      - https://feminisminindia.com/2024/02/26/the-sandeshkhali-unrest-a-horrifying-story-of-patriarchy-power-and-corruption/
+
+  - slug: shahjahan_sheikh_arrested_feb2024
+    date: "2024-02-29"
+    temporal: episodic
+    scope: AC
+    intensity: 5
+    headline: "Sheikh Shahjahan arrested by West Bengal police from Minakhan after 55 days as fugitive"
+    summary: |
+      Sheikh Shahjahan, the TMC strongman at the centre of Sandeshkhali's land-grab
+      and sexual-assault scandal, was arrested from Minakhan area on February 29,
+      2024 — 55 days after fleeing following the ED attack. He was sent to 10-day
+      police custody. TMC immediately suspended him. The CBI subsequently took over
+      the investigation and filed a chargesheet against him and six others. The arrest
+      partially defused the political crisis but came after enormous national attention.
+    tags: [tmc_supporter, bjp_supporter, woman, ag_labourer, cultivator]
+    valence:
+      woman: positive
+      bjp_supporter: positive
+      tmc_supporter: negative
+      ag_labourer: positive
+    broadcast: true
+    sources:
+      - https://www.businesstoday.in/india/story/sandeshkhali-violence-west-bengal-police-arrests-tmc-leader-sheikh-shahjahan-from-north-24-parganas-419404-2024-02-29
+      - https://en.wikipedia.org/wiki/Sandeshkhali_violence
+
+  - slug: ram_mandir_consecration_jan2024
+    date: "2024-01-22"
+    temporal: episodic
+    scope: national
+    intensity: 4
+    headline: "Ram Mandir consecration in Ayodhya; BJP rallies Hindu voters; Mamata holds counter-rally"
+    summary: |
+      PM Modi consecrated the Ram Mandir at Ayodhya on January 22, 2024.
+      West Bengal BJP sought a holiday declaration; Mamata held a counter
+      'All-Faith Harmony Rally' in Kolkata. In Sandeshkhali, where the Ram Mandir
+      event coincided with the Shahjahan ED episode, Hindu voters were pulled between
+      the temple narrative and local TMC strongman anger. Muslim voters saw the
+      consecration as BJP's divisive agenda, reinforcing consolidation behind TMC.
+    tags: [upper_caste_hindu, bjp_supporter, muslim_voter, tmc_supporter]
+    valence:
+      upper_caste_hindu: positive
+      bjp_supporter: positive
+      muslim_voter: negative
+      tmc_supporter: ambient
+    broadcast: true
+    sources:
+      - https://www.prokerala.com/news/articles/a1500731.html
+      - https://www.outlookindia.com/national/ram-consecration-ceremony-vs-all-faith-rally-kolkata-sees-a-visual-contrast-of-saffron-and-green-news-345181
+
+  - slug: rekha_patra_bjp_candidate_basirhat
+    date: "2024-03-25"
+    temporal: episodic
+    scope: AC
+    intensity: 5
+    headline: "BJP fields Sandeshkhali protest face Rekha Patra from Basirhat LS; X-category security granted"
+    summary: |
+      BJP announced Rekha Patra — the Sandeshkhali woman who first filed a complaint
+      against Sheikh Shahjahan and became the face of the February protests — as its
+      Basirhat Lok Sabha candidate on March 25, 2024. She was given X-category
+      security by the Union Home Ministry. In Sandeshkhali, her candidacy transformed
+      the local narrative into a direct referendum on women's safety under TMC versus
+      BJP protection. It energised women voters who had participated in the protests.
+    tags: [woman, bjp_supporter, tmc_supporter, upper_caste_hindu, ag_labourer]
+    valence:
+      woman: positive
+      bjp_supporter: positive
+      tmc_supporter: negative
+      upper_caste_hindu: positive
+    broadcast: true
+    sources:
+      - https://www.indiatvnews.com/west-bengal/news-lok-sabha-election-2024-bjp-fields-sandeshkhali-survivor-rekha-patra-from-basirhat-seat-of-west-bengal-reactions-latest-updates-2024-03-25-923096
+      - https://www.indiatvnews.com/news/india/lok-sabha-elections-2024-rekha-patra-sandeshkhali-survivor-and-bjp-candidate-from-basirhat-gets-x-category-security-union-home-ministry-2024-04-30-928687
+
+  - slug: sc_ssc_verdict_april2024
+    date: "2024-04-22"
+    temporal: episodic
+    scope: state
+    intensity: 4
+    headline: "Calcutta HC declares 2016 SSC recruitment null and void; 25,753 teachers face dismissal"
+    summary: |
+      The Calcutta High Court on April 22, 2024 declared the entire 2016 SSC
+      recruitment process null and void, ordering dismissal of 25,753 teachers and
+      non-teaching staff. In Sandeshkhali, where school employment is a prized
+      aspiration and several families had members benefiting from the 2016 batch,
+      the verdict created anxiety about income loss and amplified anti-TMC sentiment
+      ahead of the June 1 LS poll.
+    tags: [school_age_household, bhadralok, tmc_supporter, bjp_supporter]
+    valence:
+      school_age_household: negative
+      bhadralok: negative
+      tmc_supporter: negative
+      bjp_supporter: positive
+    broadcast: true
+    sources:
+      - https://ddnews.gov.in/en/west-bengal-teacher-recruitment-scam-calcutta-hc-declares-2016-ssc-recruitment-null-and-void-orders-fresh-appointments/
+
+  - slug: basirhat_ls2024_polling_eve
+    date: "2024-05-25"
+    temporal: episodic
+    scope: AC
+    intensity: 5
+    headline: "Basirhat LS Phase 7 scheduled for June 1; Sandeshkhali on edge ahead of high-stakes poll"
+    summary: |
+      With Basirhat Lok Sabha polling scheduled for June 1, 2024 (Phase 7), the
+      eve of campaigning showed Sandeshkhali as the most nationally watched assembly
+      segment. TMC fielded Haji Nurul Islam against BJP's Rekha Patra. CAPF companies
+      were pre-positioned; ECI set strict model-code enforcement. Both parties held
+      intense final mobilisation in the constituency where the 2024 women's movement
+      had made Sandeshkhali synonymous with TMC governance failure.
+    tags: [woman, bjp_supporter, tmc_supporter, muslim_voter, cultivator]
+    valence:
+      tmc_supporter: ambient
+      bjp_supporter: ambient
+      woman: ambient
+    broadcast: true
+    sources:
+      - https://www.businesstoday.in/india/story/west-bengal-basirhat-sandeshkhali-lok-sabha-election-results-2024-live-updates-bjp-rekha-patra-shahjahan-sheikh-haji-nurul-islam-trinamool-nirapada-sarkar-cpm-mamata-banerjee-pm-narendra-modi-rahul-431991-2024-06-04
+
+  - slug: khadya_sathi_free_ration_covid_2020
+    date: "2020-06-01"
+    temporal: episodic
+    scope: state
+    intensity: 4
+    headline: "West Bengal extends free ration under Khadya Sathi through June 2021; 10 crore beneficiaries"
+    summary: |
+      During the COVID-19 pandemic, the West Bengal government extended free grain
+      distribution under Khadya Sathi — covering approximately 10 crore people
+      statewide — from June 2020 through June 2021. In Sandeshkhali, where the
+      simultaneous Amphan cyclone destruction and COVID lockdown had cut household
+      incomes to near-zero, this free ration was a critical food security lifeline.
+      SC/ST communities and cyclone-affected families received priority.
+    tags: [khadya_sathi_beneficiary, ag_labourer, cultivator, woman, elderly]
+    valence:
+      khadya_sathi_beneficiary: positive
+      ag_labourer: positive
+      cultivator: positive
+      tmc_supporter: positive
+    broadcast: true
+    sources:
+      - https://www.govtschemes.in/west-bengal-khadya-sathi-scheme
+
+  - slug: sundarban_fishing_ban_blc_2021
+    date: "2021-06-01"
+    temporal: chronic
+    scope: AC
+    intensity: 3
+    headline: "65-day fishing ban extended to 3 months in Sundarban; BLC bottleneck leaves 60,000 fishermen unlicensed"
+    summary: |
+      From June 2021, fishing restrictions in the Sundarban Tiger Reserve were
+      extended to three months, compounding post-Amphan and post-Yaas livelihood
+      losses. Only 706 of 923 original Boat License Certificates issued in 1973
+      remain active for the roughly 60,000 fishermen who depend on forest access.
+      Calcutta High Court verdicts upheld conservation restrictions over community
+      rights, forcing thousands into illegal and dangerous forest entry — exposing
+      them to tiger attacks and criminal penalties.
+    tags: [cultivator, ag_labourer, out_migrant_household]
+    valence:
+      ag_labourer: negative
+      cultivator: negative
+    broadcast: false
+    sources:
+      - https://icsf.net/newss/west-bengal-boat-licence-delay-hits-sundarbans-fishermen-a-threat-to-progress-in-livelihood/
+      - https://news.mongabay.com/2024/07/sundarbans-fisherfolk-are-battered-by-cyclones-amid-fishing-bans/
+
+  - slug: lakshmir_bhandar_hiked_1200_2023
+    date: "2023-06-01"
+    temporal: episodic
+    scope: state
+    intensity: 3
+    headline: "Lakshmir Bhandar payment hiked — SC/ST women now receive Rs 1,200/month"
+    summary: |
+      The Mamata government hiked Lakshmir Bhandar monthly payments from Rs 1,000
+      to Rs 1,200 for SC/ST women and from Rs 500 to Rs 1,000 for general-category
+      women. In Sandeshkhali (ST constituency), the enhanced payment reinforced TMC
+      loyalty among women beneficiaries even as underground anger at Shahjahan's
+      network was building. Over 2.11 crore women statewide received the hike.
+    tags: [woman, lakshmir_bhandar_beneficiary, tmc_supporter]
+    valence:
+      woman: positive
+      lakshmir_bhandar_beneficiary: positive
+      tmc_supporter: positive
+    broadcast: true
+    sources:
+      - https://www.angelone.in/news/market-updates/west-bengal-lakshmir-bhandar-allowance-hiked-new-amount-eligibility-and-key-rules-explained
+
+  - slug: cbi_custody_shahjahan_march2024
+    date: "2024-03-06"
+    temporal: episodic
+    scope: AC
+    intensity: 3
+    headline: "CBI takes custody of Sheikh Shahjahan; Calcutta HC directs CBI probe"
+    summary: |
+      The Calcutta High Court directed CBI to take over the Sandeshkhali case and
+      CBI got custody of Sheikh Shahjahan on March 6, 2024. The CBI registered
+      separate FIRs covering the ED attack, land-grab allegations, and sexual assault
+      complaints. CBI also arrested Shahjahan's close aide Duranta Mollah. The legal
+      process sustained national media attention on Sandeshkhali through the 2024
+      Lok Sabha election campaign period.
+    tags: [tmc_supporter, bjp_supporter, woman, ag_labourer]
+    valence:
+      tmc_supporter: negative
+      bjp_supporter: positive
+      woman: positive
+    broadcast: true
+    sources:
+      - https://www.theweek.in/news/india/2024/03/06/cbi-gets-custody-of-shahjahan-sheikh-after-calcutta-hcs-fresh-directive.html
+      - https://www.deccanherald.com/india/west-bengal/cbi-arrests-close-aide-of-sheikh-shahjahan-in-connection-with-attack-on-ed-officers-in-jan-2024-3810820
+
+  - slug: basirhat_ls2024_final_campaign_push
+    date: "2024-05-24"
+    temporal: episodic
+    scope: AC
+    intensity: 4
+    headline: "Final campaign push in Basirhat; Rekha Patra holds Sandeshkhali rally, TMC counters with welfare messaging"
+    summary: |
+      In the final days before the June 1 Basirhat LS poll (Phase 7), BJP's
+      Rekha Patra held a large rally in Sandeshkhali invoking the women's movement.
+      TMC countered with intensive outreach by Lakshmir Bhandar beneficiaries and
+      Muslim community networks. Analysts noted that despite the Sandeshkhali
+      controversy dominating national media, TMC's structural advantages — Muslim
+      bloc cohesion, scheme beneficiary loyalty, and panchayat infrastructure —
+      were difficult to overcome.
+    tags: [woman, bjp_supporter, tmc_supporter, muslim_voter, cultivator]
+    valence:
+      bjp_supporter: positive
+      tmc_supporter: ambient
+      woman: ambient
+      muslim_voter: ambient
+    broadcast: true
+    sources:
+      - https://www.indiatvnews.com/west-bengal/news-basirhat-lok-sabha-elections-2024-sandeshkhali-survivor-bjp-rekha-patra-tmc-haji-nurul-islam-cpm-nirapada-sardar-winner-latest-updates-2024-05-06-929775

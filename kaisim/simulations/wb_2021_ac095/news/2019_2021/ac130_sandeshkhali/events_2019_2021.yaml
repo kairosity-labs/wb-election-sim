@@ -1,0 +1,429 @@
+# Sandeshkhali (AC-130) — voter-salient event chronology, Jan 2019 → 02 May 2021.
+# Window terminates at WB Assembly Election 2021 result day.
+# Constituency: North 24 Parganas, Basirhat sub-division, Sandarbans fringe.
+# Reserved: Scheduled Tribe (ST).
+
+cutoff_date: "2021-05-02"   # WB AE 2021 counting day
+
+events:
+  # ───────────── 2019 ─────────────
+
+  - slug: ls_2019_basirhat_tmc_win
+    date: "2019-05-23"
+    temporal: episodic
+    scope: AC
+    intensity: 4
+    headline: "Basirhat LS retained by TMC's Nusrat Jahan over BJP; Sandeshkhali segment narrowly TMC"
+    summary: |
+      Nusrat Jahan (TMC) won Basirhat Lok Sabha constituency by a reduced margin,
+      with BJP riding a surge across North 24 Parganas. Within the Sandeshkhali
+      assembly segment, TMC's lead shrank from 2014 as BJP mobilised Hindu voters
+      on CAA/NRC anxieties and anti-cut-money anger. BJP won 18 WB LS seats
+      statewide, signalling a competitive 2021 AE challenge.
+    tags: [tmc_supporter, bjp_supporter, muslim_voter, upper_caste_hindu]
+    valence:
+      tmc_supporter: positive
+      bjp_supporter: ambient
+      muslim_voter: positive
+      upper_caste_hindu: negative
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/2019_Indian_general_election_in_West_Bengal
+      - https://www.india.com/lok-sabha-election-2019/west-bengal/basirhat/
+
+  - slug: post_ls2019_basirhat_violence
+    date: "2019-05-26"
+    temporal: episodic
+    scope: district
+    intensity: 4
+    headline: "Post-election violence in Basirhat-North 24 Parganas kills TMC and BJP workers"
+    summary: |
+      Following the 2019 Lok Sabha result, clashes between TMC and BJP workers
+      erupted across North 24 Parganas, including Basirhat subdivision, leaving
+      multiple workers dead. A TMC worker identified as Qayyum Mollah was shot and
+      hacked to death; BJP leaders Pradip and Sukanta Mondal were also killed.
+      Violence reinforced fear of TMC muscle among non-TMC voters in Sandeshkhali.
+    tags: [bjp_supporter, tmc_supporter, ag_labourer]
+    valence:
+      bjp_supporter: negative
+      tmc_supporter: ambient
+      ag_labourer: negative
+    broadcast: true
+    sources:
+      - https://scroll.in/latest/926454/west-bengal-toll-in-basirhat-violence-rises-to-three-amit-shah-seeks-report-from-state-government
+
+  - slug: krishak_bandhu_launch
+    date: "2019-01-31"
+    temporal: episodic
+    scope: state
+    intensity: 4
+    headline: "TMC launches Krishak Bandhu scheme — Rs 5,000/acre/year direct income for farmers"
+    summary: |
+      The Mamata government launched Krishak Bandhu in January 2019, providing
+      annual income support of up to Rs 10,000 per acre per farmer plus a Rs 2 lakh
+      death benefit for farming families. In Sandeshkhali, where paddy cultivation
+      and fish farming are the primary livelihoods, landholding cultivators welcomed
+      the scheme, although landless ag-labourers and sharecroppers received less
+      benefit. Over 90 lakh farmers statewide were enrolled.
+    tags: [cultivator, krishak_bandhu_beneficiary, ag_labourer]
+    valence:
+      cultivator: positive
+      krishak_bandhu_beneficiary: positive
+      ag_labourer: ambient
+      tmc_supporter: positive
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/Krishak_Bandhu_Scheme
+      - https://krishakbandhu.wb.gov.in/about_kb
+
+  - slug: nrc_assam_final_list_2019
+    date: "2019-08-31"
+    temporal: episodic
+    scope: national
+    intensity: 5
+    headline: "Assam NRC final list excludes 19 lakh; Muslim Bengali families fear statelessness"
+    summary: |
+      The Assam NRC final list excluded approximately 19 lakh people, including
+      significant numbers of Bengali Muslims. In Sandeshkhali, where Muslim voters
+      comprise roughly 35-40% of the electorate and many families have tenuous
+      documentation as Sundarban settlers, the NRC triggered acute anxiety about
+      possible extension to West Bengal. TMC's vocal opposition to NRC extension
+      consolidated Muslim vote behind Mamata.
+    tags: [muslim_voter, ag_labourer, cultivator]
+    valence:
+      muslim_voter: negative
+      ag_labourer: negative
+      tmc_supporter: positive
+      bjp_supporter: negative
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/No_NRC_movement
+      - https://foreignpolicy.com/2020/12/18/one-year-mass-caa-protests-india-muslims-citizenship-amendment-act-modi/
+
+  - slug: caa_passed_parliament_dec2019
+    date: "2019-12-11"
+    temporal: episodic
+    scope: national
+    intensity: 5
+    headline: "Citizenship Amendment Act passed in Parliament; Bengal erupts in protests"
+    summary: |
+      Parliament passed CAA on December 11, 2019, offering citizenship to
+      non-Muslim refugees from Bangladesh, Pakistan and Afghanistan. In
+      Sandeshkhali, Muslim voters viewed this as discriminatory and feared
+      CAA-NRC combination would render them stateless. Hindu Namasudra and
+      upper-caste Hindu residents saw it as relief for persecuted Bangladeshi
+      Hindus. CM Mamata Banerjee declared she would not implement CAA in Bengal.
+    tags: [muslim_voter, upper_caste_hindu, tmc_supporter, bjp_supporter]
+    valence:
+      muslim_voter: negative
+      upper_caste_hindu: positive
+      tmc_supporter: positive
+      bjp_supporter: positive
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/Citizenship_Amendment_Act_protests
+      - https://aljazeera.com/news/2024/3/12/why-is-indias-citizenship-amendment-act-so-controversial
+
+  - slug: mamata_anti_caa_rally_dec2019
+    date: "2019-12-26"
+    temporal: episodic
+    scope: state
+    intensity: 4
+    headline: "Mamata leads massive anti-NRC-CAA march in Kolkata, reassures Muslim voters"
+    summary: |
+      CM Mamata Banerjee led a large procession from Raja Bazar to Mullick Bazar,
+      declaring West Bengal would never implement NRC or CAA. The rally drew
+      widespread Muslim participation and signalled TMC's protection strategy
+      for minority voters. In Sandeshkhali, local TMC networks amplified
+      the message through mosques and SHG networks, strengthening the TMC-Muslim
+      voter bond ahead of the 2021 assembly election.
+    tags: [muslim_voter, tmc_supporter, woman]
+    valence:
+      muslim_voter: positive
+      tmc_supporter: positive
+      bjp_supporter: negative
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/No_NRC_movement
+
+  # ───────────── 2020 ─────────────
+
+  - slug: covid_lockdown_march2020
+    date: "2020-03-25"
+    temporal: episodic
+    scope: national
+    intensity: 5
+    headline: "India-wide COVID lockdown strands Sandeshkhali's out-migrant fishermen and labourers"
+    summary: |
+      The nationwide COVID-19 lockdown from March 25, 2020, cut off hundreds of
+      Sandeshkhali residents working as migrant labourers in Kerala, Gujarat and
+      Kolkata. Reverse migration flooded the Sundarban fringe villages, creating
+      acute food insecurity. With fishing operations curtailed and MGNREGA still
+      functioning, the community faced distress; returning migrants were
+      stigmatised as potential virus carriers by neighbours.
+    tags: [out_migrant_household, ag_labourer, cultivator, muslim_voter]
+    valence:
+      out_migrant_household: negative
+      ag_labourer: negative
+      cultivator: negative
+    broadcast: true
+    sources:
+      - https://pmc.ncbi.nlm.nih.gov/articles/PMC9435617/
+      - https://www.business-standard.com/article/economy-policy/rural-wages-in-west-bengal-set-to-take-a-hit-as-migrant-workers-return-home-120032900600_1.html
+
+  - slug: covid_reverse_migration_sundarban_tiger
+    date: "2020-05-15"
+    temporal: chronic
+    scope: district
+    intensity: 3
+    headline: "COVID-forced reverse migration into Sundarban spikes human-tiger conflict"
+    summary: |
+      As 2.5-3 lakh out-migrants returned to the Sundarban fringe including
+      Sandeshkhali, poverty drove many into restricted forest zones for fishing
+      and honey collection, elevating tiger attacks. Research documented an
+      unprecedented increase in fatal human-tiger encounters after the lockdown.
+      Fishing community households bore the worst of the combined COVID-cyclone
+      economic shock, with no government safety net reaching deep-forest workers.
+    tags: [cultivator, ag_labourer, out_migrant_household]
+    valence:
+      ag_labourer: negative
+      cultivator: negative
+      out_migrant_household: negative
+    broadcast: false
+    sources:
+      - https://pmc.ncbi.nlm.nih.gov/articles/PMC9435617/
+      - https://thefederal.com/states/east/west-bengal/man-tiger-conflicts-spike-in-sundarbans-as-covid-cyclone-affect-livelihoods
+
+  - slug: cyclone_amphan_may2020
+    date: "2020-05-20"
+    temporal: episodic
+    scope: district
+    intensity: 5
+    headline: "Super Cyclone Amphan makes direct hit on Sandeshkhali; embankments breach, fish stock wiped"
+    summary: |
+      Amphan, the strongest Bay of Bengal cyclone in two decades, made landfall
+      near Sagar on May 20, 2020, and devastated Sandeshkhali and Minakhan blocks.
+      Embankments breached in Sandeshkhali II block; the Bidhyadhari river
+      embankment suffered three breaches in Minakhan, destroying fish stocks.
+      Government evacuated 200,000 people from North 24 Parganas; 5,500 homes
+      were damaged district-wide. Paddy fields were inundated with saline water.
+    tags: [cultivator, ag_labourer, woman, elderly, khadya_sathi_beneficiary]
+    valence:
+      cultivator: negative
+      ag_labourer: negative
+      woman: negative
+      elderly: negative
+      tmc_supporter: ambient
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/Effects_of_Cyclone_Amphan_in_India
+      - https://www.downtoearth.org.in/news/climate-change/cyclone-amphan-and-high-tide-a-1-hour-gap-saved-sundarbans-from-an-even-bigger-disaster-71332
+
+  - slug: amphan_relief_cutmoney_scam
+    date: "2020-06-20"
+    temporal: episodic
+    scope: district
+    intensity: 5
+    headline: "TMC panchayat leaders in North 24 Parganas accused of siphoning Amphan relief funds"
+    summary: |
+      Over 2,100 complaints of Amphan relief corruption poured in to the state
+      government within weeks of the cyclone, including from North 24 Parganas.
+      Local TMC panchayat members were accused of funnelling compensation to
+      relatives whose homes were undamaged, denying funds to genuine victims.
+      In Sandeshkhali and surrounding Minakhan blocks, where TMC strongmen already
+      ran a parallel authority, this eroded residual goodwill toward the party
+      among non-partisan cultivators and women.
+    tags: [cultivator, ag_labourer, woman, lakshmir_bhandar_beneficiary, tmc_supporter]
+    valence:
+      cultivator: negative
+      ag_labourer: negative
+      woman: negative
+      tmc_supporter: negative
+      bjp_supporter: positive
+    broadcast: true
+    sources:
+      - https://thewire.in/government/west-bengal-cyclone-amphan-victims-compensation-corruption-irregularities
+      - https://theprint.in/india/mamata-govt-now-in-trouble-over-amphan-relief-scam-after-cut-money-and-pds-corruption/451774/
+      - https://sabrangindia.in/amphan-relief-fund-scam-hits-wb/
+
+  - slug: swasthya_sathi_universalised_dec2020
+    date: "2020-12-01"
+    temporal: episodic
+    scope: state
+    intensity: 4
+    headline: "Swasthya Sathi health insurance universalised to all WB residents from December 2020"
+    summary: |
+      Chief Minister Mamata Banerjee extended Swasthya Sathi — providing up to
+      Rs 5 lakh annual health cover — to all West Bengal residents irrespective
+      of caste, religion or income, effective December 1, 2020. In Sandeshkhali,
+      where access to tertiary healthcare is difficult and tiger-attack injuries
+      create sudden medical costs, this scheme's universalisation was particularly
+      significant for poor fishing and cultivator households.
+    tags: [swasthya_sathi_beneficiary, woman, elderly, cultivator, ag_labourer]
+    valence:
+      swasthya_sathi_beneficiary: positive
+      tmc_supporter: positive
+      woman: positive
+      elderly: positive
+    broadcast: true
+    sources:
+      - https://swasthyasathi.gov.in/
+      - https://www.bajajfinserv.in/insurance/swasthya-sathi-health-insurance-scheme
+
+  - slug: duare_sarkar_launch_dec2020
+    date: "2020-12-01"
+    temporal: episodic
+    scope: state
+    intensity: 4
+    headline: "Duare Sarkar programme rolls out; scheme enrollment camps reach Sandeshkhali gram panchayats"
+    summary: |
+      The Duare Sarkar initiative — delivering 11 state welfare schemes at
+      gram panchayat-level camps — launched on December 1, 2020. In Sandeshkhali
+      and surrounding Sundarban blocks, where paved road access is limited and
+      government offices distant, the doorstep delivery model enabled mass
+      enrollment in Swasthya Sathi, Khadya Sathi, and Kanyashree. Over 2.75 crore
+      beneficiaries enrolled statewide in Phase I.
+    tags: [swasthya_sathi_beneficiary, khadya_sathi_beneficiary, woman, elderly, cultivator]
+    valence:
+      tmc_supporter: positive
+      woman: positive
+      swasthya_sathi_beneficiary: positive
+      khadya_sathi_beneficiary: positive
+    broadcast: true
+    sources:
+      - https://wb.nic.in/news/duare-sarkar-govt-at-doorstep-and-paray-samadhan-solution-at-mohalla-two-massive-outreach-program-of-government-of-west-bengal-developed-by-nic-west-bengal/
+
+  - slug: suvendu_adhikari_joins_bjp_dec2020
+    date: "2020-12-19"
+    temporal: episodic
+    scope: state
+    intensity: 4
+    headline: "Suvendu Adhikari resigns from TMC, joins BJP with nine MLAs; shakes Bengal politics"
+    summary: |
+      Suvendu Adhikari, a heavyweight TMC organiser from Nandigram, formally
+      joined BJP in the presence of Amit Shah on December 19, 2020, along with
+      nine TMC MLAs and one MP. The mass defection signalled the most serious
+      threat to TMC since 2011 and emboldened BJP's Basirhat belt candidates.
+      In Sandeshkhali, where BJP had been gaining ground since 2019, the defection
+      raised expectations of anti-TMC consolidation.
+    tags: [bjp_supporter, tmc_supporter, upper_caste_hindu]
+    valence:
+      bjp_supporter: positive
+      tmc_supporter: negative
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/Suvendu_Adhikari
+
+  # ───────────── 2021 ─────────────
+
+  - slug: tmc_2021_manifesto_lakshmir_bhandar
+    date: "2021-03-07"
+    temporal: episodic
+    scope: state
+    intensity: 5
+    headline: "TMC 2021 manifesto promises Lakshmir Bhandar — Rs 500-1000/month cash for women"
+    summary: |
+      TMC's 2021 election manifesto, released with 10 guarantees, headlined the
+      Lakshmir Bhandar scheme offering monthly cash of Rs 1,000 to SC/ST women
+      and Rs 500 to general-category women aged 25-60. In Sandeshkhali, a
+      predominantly SC/ST reserved constituency with high female poverty, this
+      was the single most-discussed welfare promise. Women in fishing and
+      agricultural households saw it as tangible income security.
+    tags: [woman, lakshmir_bhandar_beneficiary, cultivator, ag_labourer, tmc_supporter]
+    valence:
+      woman: positive
+      lakshmir_bhandar_beneficiary: positive
+      tmc_supporter: positive
+      bjp_supporter: negative
+    broadcast: true
+    sources:
+      - https://www.govtschemes.in/west-bengal-lakshmir-bhandar-scheme
+
+  - slug: bjp_2021_sonar_bangla_manifesto
+    date: "2021-03-21"
+    temporal: episodic
+    scope: state
+    intensity: 4
+    headline: "BJP releases 'Sonar Bangla' manifesto — promises 1 crore jobs, women's safety battalions, CAA implementation"
+    summary: |
+      Amit Shah released the BJP's 2021 manifesto on March 21, promising one crore
+      jobs, Rs 3,000/month for women, 33% job reservation for women, and
+      implementation of CAA in the first cabinet meeting. In Sandeshkhali, BJP's
+      women-safety promise resonated with Hindu households wary of local TMC
+      strongmen, while the CAA pledge alienated the ~35-40% Muslim electorate and
+      consolidated them further behind TMC.
+    tags: [woman, upper_caste_hindu, bjp_supporter, tmc_supporter, muslim_voter]
+    valence:
+      bjp_supporter: positive
+      upper_caste_hindu: positive
+      muslim_voter: negative
+      woman: ambient
+    broadcast: true
+    sources:
+      - https://www.business-standard.com/article/elections/bjp-releases-west-bengal-poll-manifesto-promises-33-reservation-for-women-121032100955_1.html
+
+  - slug: ae2021_sandeshkhali_poll_day
+    date: "2021-04-06"
+    temporal: episodic
+    scope: AC
+    intensity: 5
+    headline: "Sandeshkhali AC-130 goes to polls in Phase 1; CAPF deployed amid TMC muscle concerns"
+    summary: |
+      Sandeshkhali (ST) went to the polls in Phase 1 of the 2021 WB Assembly
+      Election on April 6. Central forces were deployed across the Sundarban fringe
+      constituencies after BJP filed multiple complaints of TMC booth management.
+      Turnout was high. The TMC candidate Sukumar Mahata faced BJP's Dr. Bhaskar
+      Sardar in a straight fight, with the CPM fielding a token candidate.
+    tags: [bjp_supporter, tmc_supporter, cultivator, woman, muslim_voter]
+    valence:
+      tmc_supporter: ambient
+      bjp_supporter: ambient
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/Sandeshkhali_Assembly_constituency
+
+  - slug: ae2021_sandeshkhali_tmc_wins
+    date: "2021-05-02"
+    temporal: episodic
+    scope: AC
+    intensity: 5
+    headline: "TMC's Sukumar Mahata wins Sandeshkhali by 39,685 votes; BJP's Bhaskar Sardar distant second"
+    summary: |
+      TMC candidate Sukumar Mahata won Sandeshkhali (ST) with 112,450 votes
+      against BJP's Dr. Bhaskar Sardar's 72,765 — a comfortable 39,685-vote
+      margin. TMC's vote share was 54.64% against BJP's 35.36%. The result
+      reflected the combined pull of Lakshmir Bhandar promises, Muslim bloc
+      voting, and TMC's panchayat infrastructure, despite Amphan relief anger.
+      CPM was a distant third with negligible share.
+    tags: [tmc_supporter, bjp_supporter, woman, muslim_voter, cultivator]
+    valence:
+      tmc_supporter: positive
+      bjp_supporter: negative
+      woman: positive
+    broadcast: true
+    sources:
+      - https://www.indiavotes.com/ac/summary/45173
+      - https://www.indiastatpublications.com/assembly_factbook/west_bengal/basirhat/sandeshkhali
+
+  - slug: ae2021_wb_tmc_landslide
+    date: "2021-05-02"
+    temporal: episodic
+    scope: state
+    intensity: 5
+    headline: "TMC wins WB AE 2021 with 213/294 seats; Mamata returns for third term"
+    summary: |
+      TMC swept the 2021 West Bengal Assembly Election with 213 seats against
+      BJP's 77, a decisive mandate. In North 24 Parganas, TMC won the bulk of
+      seats including Sandeshkhali. Mamata's personal victory over Suvendu
+      Adhikari was reversed in Nandigram, but she returned to power comfortably
+      from Bhabanipur in a by-poll. In Sandeshkhali, Lakshmir Bhandar and
+      anti-NRC sentiment proved decisive.
+    tags: [tmc_supporter, bjp_supporter, woman, muslim_voter]
+    valence:
+      tmc_supporter: positive
+      bjp_supporter: negative
+      woman: positive
+      muslim_voter: positive
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/2021_West_Bengal_legislative_assembly_election

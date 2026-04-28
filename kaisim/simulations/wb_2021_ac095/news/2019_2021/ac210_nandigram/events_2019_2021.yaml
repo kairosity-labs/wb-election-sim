@@ -1,0 +1,828 @@
+cutoff_date: '2021-05-02'
+events:
+- slug: nandigram_2007_land_firing_chronic
+  date_start: '2007-01-02'
+  date_end: '2009-12-31'
+  temporal: chronic
+  scope: national
+  intensity: 5
+  headline: 'Nandigram 2007: CPM police firing kills 14 peasants opposing SEZ land
+    acquisition'
+  summary: 'On 14 March 2007 police opened fire on farmers resisting forced acquisition
+    of
+
+    10,000 acres for a Salim Group chemical SEZ, killing at least 14 and leaving
+
+    over 100 missing. The Bhumi Uchhed Pratirodh Committee (BUPC) had blockaded
+
+    Nandigram since January 2007. The massacre became a national scandal that
+
+    ended 34 years of Left Front rule and made Mamata Banerjee a peasant hero —
+
+    yet also embedded a deep distrust of any state land-acquisition in cultivator
+
+    and ag_labourer memory that persists into 2021.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - upper_caste_hindu
+  - bhadralok
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    upper_caste_hindu: negative
+    bhadralok: negative
+    bjp_supporter: ambient
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Nandigram_violence
+  - https://www.business-standard.com/politics/from-cossipore-to-nandigram-bengal-s-last-marxist-cm-buddhadeb-bids-adieu-124080800545_1.html
+- slug: ls_2019_tamluk_nandigram_bjp_surge
+  date: '2019-05-23'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: 'Tamluk LS 2019: BJP surges in Nandigram segment, TMC holds but margin
+    narrows'
+  summary: 'In the 2019 Lok Sabha election, Nandigram falls under Tamluk constituency.
+
+    BJP made significant inroads in Purba Medinipur on a Hindu consolidation and
+
+    anti-TMC wave; Suvendu Adhikari''s own assembly segment witnessed BJP gaining
+
+    ground for the first time. The national Modi wave combined with local discontent
+
+    over TMC muscleman culture gave BJP a foothold that would define the 2021 battle.
+
+    '
+  tags:
+  - cultivator
+  - upper_caste_hindu
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    cultivator: ambient
+    upper_caste_hindu: positive
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Tamluk_Lok_Sabha_constituency
+  - https://www.business-standard.com/elections/lok-sabha-election/ls-polls-bjp-gains-ground-as-tmc-struggles-in-adhikari-s-backyard-kanthi-124052200226_1.html
+- slug: nrc_assam_final_list_2019
+  date: '2019-08-31'
+  temporal: episodic
+  scope: national
+  intensity: 3
+  headline: Assam NRC final list excludes 19 lakh; Bengali Hindu anxiety spreads to
+    Purba Medinipur
+  summary: 'The Assam NRC final list published 31 August 2019 left out ~19.6 lakh
+    people,
+
+    including a large share of Bengali Hindus, contradicting BJP''s initial anti-Muslim
+
+    framing. In Nandigram, where Hindu cultivators retain memory of displacement anxieties,
+
+    the result created confusion: TMC exploited it as an "anti-Bengali" BJP betrayal
+
+    while BJP promised CAA as the protective shield.
+
+    '
+  tags:
+  - cultivator
+  - upper_caste_hindu
+  - bhadralok
+  - muslim_voter
+  valence:
+    cultivator: negative
+    upper_caste_hindu: negative
+    bhadralok: negative
+    muslim_voter: negative
+    bjp_supporter: ambient
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/National_Register_of_Citizens_for_Assam
+  - https://www.business-standard.com/article/pti-stories/exclusion-of-hindu-bengalis-from-assam-nrc-changing-political-119092200259_1.html
+- slug: caa_passed_parliament_2019
+  date: '2019-12-11'
+  temporal: episodic
+  scope: national
+  intensity: 4
+  headline: CAA 2019 passed; BJP frames it as Hindu protection, TMC leads protests
+    in Bengal
+  summary: 'Parliament passed the Citizenship Amendment Act on 11 December 2019, offering
+
+    fast-track citizenship to non-Muslim minorities from three neighbouring countries.
+
+    In predominantly Hindu Nandigram, upper-caste Hindu and bhadralok voters broadly
+
+    welcomed it as a Hindu security measure. Muslim voters (~34% in Nandigram-I block)
+
+    viewed it with alarm. CM Mamata Banerjee declared she would not implement it in
+
+    West Bengal, winning Muslim loyalty but alienating Hindu consolidation.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bhadralok
+  - muslim_voter
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    upper_caste_hindu: positive
+    bhadralok: positive
+    muslim_voter: negative
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Citizenship_(Amendment)_Act,_2019
+  - https://en.wikipedia.org/wiki/Citizenship_Amendment_Act_protests
+- slug: anti_caa_protests_chronic_2019_2020
+  date_start: '2019-12-12'
+  date_end: '2020-03-15'
+  temporal: chronic
+  scope: state
+  intensity: 3
+  headline: Anti-CAA protests sweep Bengal; TMC organises rallies, BJP holds counter-demonstrations
+  summary: 'Mamata Banerjee led large anti-CAA marches across West Bengal through
+    early 2020,
+
+    including in Purba Medinipur towns. In Nandigram, with its 34% Muslim minority
+
+    in Nandigram-I block, mosques and community leaders actively backed anti-CAA
+
+    positions while Hindu village clusters stayed divided. Suvendu Adhikari, still
+
+    in TMC, maintained an ambiguous public stance even as he began quiet outreach
+
+    to BJP leadership.
+
+    '
+  tags:
+  - muslim_voter
+  - upper_caste_hindu
+  - bhadralok
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    muslim_voter: positive
+    upper_caste_hindu: ambient
+    bhadralok: ambient
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Citizenship_Amendment_Act_protests
+  - https://en.wikipedia.org/wiki/No_NRC_movement
+- slug: covid_lockdown_march_2020
+  date: '2020-03-24'
+  temporal: episodic
+  scope: national
+  intensity: 4
+  headline: National COVID lockdown announced; agricultural labourers in Nandigram
+    lose daily wages
+  summary: 'PM Modi announced a nationwide lockdown from 25 March 2020, halting all
+
+    non-essential activity. In Nandigram''s agrarian economy, cultivators and
+
+    agricultural labourers lost both farm market access and MGNREGA work.
+
+    Out-migrant households faced crisis as family members returned from
+
+    cities. The lockdown triggered acute economic distress that coloured
+
+    all subsequent welfare-scheme delivery perception.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - out_migrant_household
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    out_migrant_household: negative
+    bjp_supporter: ambient
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/COVID-19_pandemic_in_India
+- slug: cyclone_amphan_may_2020
+  date: '2020-05-20'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: Super Cyclone Amphan devastates Purba Medinipur; Nandigram farmland and
+    housing destroyed
+  summary: 'Super Cyclone Amphan made landfall on 20 May 2020 with 175 km/h winds,
+
+    directly hitting Purba Medinipur. In Nandigram, coastal low-lying farmlands
+
+    were inundated, mud-and-thatch housing collapsed, and standing kharif crops
+
+    were destroyed. Damage compounded COVID-19 economic stress. Relief distribution
+
+    became immediately politicised: TMC panchayat leaders controlled allocation;
+
+    BJP accused them of partisan distribution. The event created lasting grievances
+
+    about relief adequacy among cultivator and ag_labourer communities.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - woman
+  - elderly
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    woman: negative
+    elderly: negative
+    tmc_supporter: ambient
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Cyclone_Amphan
+  - https://www.indiatvnews.com/news/india/video-cyclone-amphan-high-tide-digha-purba-medinipur-kolkata-618788
+- slug: duare_sarkar_phase1_dec_2020
+  date: '2020-12-01'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: Duare Sarkar phase 1 launched; camp-based scheme delivery reaches Nandigram
+    panchayats
+  summary: 'CM Mamata Banerjee launched Duare Sarkar on 1 December 2020, deploying
+
+    government outreach camps at gram panchayat level across West Bengal.
+
+    In Nandigram, camps registered beneficiaries for Swasthya Sathi, Krishak
+
+    Bandhu, and Kanyashree while distributing Lakshmir Bhandar applications.
+
+    The initiative reinforced TMC''s delivery machinery ahead of 2021 elections
+
+    and created a direct state-to-citizen channel bypassing local BJP offices.
+
+    '
+  tags:
+  - woman
+  - cultivator
+  - kanyashree_household
+  - swasthya_sathi_beneficiary
+  - krishak_bandhu_beneficiary
+  valence:
+    woman: positive
+    cultivator: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://ds.wb.gov.in/
+- slug: swasthya_sathi_universalised_dec_2020
+  date: '2020-12-01'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: Swasthya Sathi universalised to all West Bengal families; Nandigram households
+    enroll
+  summary: 'The TMC government universalised the Swasthya Sathi health insurance scheme
+
+    in December 2020, extending Rs 5 lakh annual coverage to all families via
+
+    Duare Sarkar camps. In Nandigram''s rural households where private hospitalisation
+
+    costs were catastrophic, the scheme enrolment created strong positive association
+
+    with the TMC state government even as BJP sought to claim credit for central
+
+    Ayushman Bharat, which the state had not implemented.
+
+    '
+  tags:
+  - swasthya_sathi_beneficiary
+  - woman
+  - elderly
+  - cultivator
+  valence:
+    swasthya_sathi_beneficiary: positive
+    woman: positive
+    elderly: positive
+    cultivator: positive
+    tmc_supporter: positive
+    bjp_supporter: ambient
+  broadcast: true
+  sources:
+  - https://swasthyasathi.gov.in/
+- slug: suvendu_adhikari_joins_bjp_dec_2020
+  date: '2020-12-19'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: Suvendu Adhikari quits TMC, joins BJP at Amit Shah rally; Nandigram goes
+    to its own MLA
+  summary: 'On 19 December 2020, Suvendu Adhikari formally joined BJP at a Midnapore
+    rally
+
+    in the presence of Home Minister Amit Shah, ending his decade-long career as
+
+    Mamata Banerjee''s most powerful lieutenant in Purba Medinipur. For Nandigram
+
+    voters who knew him as their sitting MLA since 2016 and the 2007 land-agitation
+
+    hero, his defection was the most consequential single event of the pre-election
+
+    period: his booth-level machine and the Adhikari family network (father Sisir
+
+    as Kanthi MP) immediately pivoted to BJP, rewiring the constituency''s entire
+
+    political calculus overnight.
+
+    '
+  tags:
+  - cultivator
+  - upper_caste_hindu
+  - bjp_supporter
+  - tmc_supporter
+  - bhadralok
+  valence:
+    cultivator: ambient
+    upper_caste_hindu: positive
+    bhadralok: positive
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Suvendu_Adhikari
+  - https://theprint.in/politics/its-official-bjps-suvendu-adhikari-will-take-on-once-mentor-mamata-at-nandigram/616335/
+- slug: mamata_announces_nandigram_candidacy_jan_2021
+  date: '2021-01-18'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: Mamata Banerjee announces she will contest from Nandigram, challenging
+    Suvendu directly
+  summary: 'At a rally in Nandigram on 18 January 2021, Chief Minister Mamata Banerjee
+
+    announced she would abandon her safe Bhawanipur seat and contest from Nandigram
+
+    against her former protégé Suvendu Adhikari. Suvendu immediately accepted,
+
+    vowing to quit politics if he did not win by 50,000 votes. The announcement
+
+    transformed Nandigram from a district-level contest into the most-watched
+
+    constituency in India — making every local grievance and welfare delivery
+
+    outcome a nationally televised political event.
+
+    '
+  tags:
+  - cultivator
+  - upper_caste_hindu
+  - bhadralok
+  - woman
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    cultivator: ambient
+    upper_caste_hindu: ambient
+    bhadralok: ambient
+    woman: positive
+    bjp_supporter: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Nandigram_in_the_2021_West_Bengal_Legislative_Assembly_election
+  - https://scroll.in/latest/993891/nandigram-mamata-banerjee-alleges-cheating-in-counting-as-confusion-prevails-over-final-result
+- slug: tmc_didir_shopoth_manifesto_mar_2021
+  date: '2021-03-07'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: TMC releases 'Didir Shopoth' 2021 manifesto; Lakshmir Bhandar Rs 500/1000
+    monthly for women
+  summary: 'The TMC 2021 manifesto "Didir Shopoth" (Didi''s Pledge) promised Rs 500/month
+
+    for general category women and Rs 1,000/month for SC/ST women under the new
+
+    Lakshmir Bhandar scheme, along with Krishak Bandhu expansion and free ration
+
+    (Khadya Sathi) universalisation. In Nandigram''s large SHG-linked women''s
+
+    network and cultivator households, these promises were enthusiastically received
+
+    and became primary poll-time conversation among woman voters.
+
+    '
+  tags:
+  - woman
+  - lakshmir_bhandar_beneficiary
+  - krishak_bandhu_beneficiary
+  - khadya_sathi_beneficiary
+  - cultivator
+  valence:
+    woman: positive
+    lakshmir_bhandar_beneficiary: positive
+    krishak_bandhu_beneficiary: positive
+    khadya_sathi_beneficiary: positive
+    cultivator: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.businesstoday.in/elections/west-bengal/story/rise-in-lakshmir-bhandar-allocation-by-rs500-rs30000-crore-agriculture-budget-key-highlights-of-tmcs-manifesto-for-west-bengal-polls-521659-2026-03-20
+- slug: bjp_sonar_bangla_manifesto_mar_2021
+  date: '2021-03-21'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: BJP releases 'Sonar Bangla Sankalp Patra'; promises Ayushman Bharat, farmer
+    MSP in Nandigram
+  summary: 'BJP''s 2021 West Bengal manifesto "Sonar Bangla Sankalp Patra" promised
+    to
+
+    implement central Ayushman Bharat (which TMC had refused), provide PM-KISAN
+
+    directly to farmers, and investigate post-Amphan relief corruption. For
+
+    Nandigram''s cultivators, the MSP support and direct benefit transfer promises
+
+    were attractive, though BJP''s organisational gap relative to Suvendu''s personal
+
+    machine was the real driver of its appeal in this constituency.
+
+    '
+  tags:
+  - cultivator
+  - upper_caste_hindu
+  - bjp_supporter
+  - swasthya_sathi_beneficiary
+  valence:
+    cultivator: positive
+    upper_caste_hindu: positive
+    bjp_supporter: positive
+    tmc_supporter: negative
+    swasthya_sathi_beneficiary: ambient
+  broadcast: true
+  sources:
+  - https://www.bjp.org/pressreleases/west-bengal-election-manifesto-2026
+- slug: mamata_leg_injury_nandigram_mar_2021
+  date: '2021-03-10'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Mamata Banerjee injured at Birulia market, Nandigram; alleges BJP attack,
+    EC rules accident
+  summary: 'On 10 March 2021, after filing her nomination at Haldia SDO, CM Mamata
+    Banerjee
+
+    sustained serious leg injuries at Birulia market in Nandigram under disputed
+
+    circumstances. She alleged a BJP-orchestrated attack; EC special observers ruled
+
+    it accidental (car door hitting an iron pillar). Banerjee campaigned in a wheelchair
+
+    thereafter, generating national sympathy and making "beti-bachao" a TMC counter-
+
+    narrative. Nandigram voters were sharply divided on whether the injury was staged
+
+    or genuine — Hindu and Muslim communities split differently on the allegation.
+
+    '
+  tags:
+  - woman
+  - upper_caste_hindu
+  - bhadralok
+  - muslim_voter
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    woman: positive
+    upper_caste_hindu: ambient
+    bhadralok: ambient
+    muslim_voter: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Nandigram_in_the_2021_West_Bengal_Legislative_Assembly_election
+  - https://theprint.in/india/nandigram-incident-that-left-mamata-injured-was-accident-not-attack-police-report-to-ec/619762/
+- slug: nandigram_candidate_profile_suvendu_2021
+  date: '2021-03-10'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Suvendu Adhikari (BJP) files nomination for Nandigram; Adhikari dynasty's
+    full weight behind him
+  summary: 'Suvendu Adhikari, son of Kanthi MP Sisir Adhikari and sitting Nandigram
+    MLA,
+
+    filed as BJP candidate on the day Mamata filed hers. His affidavit showed
+
+    substantial declared assets; he carried no criminal conviction record at
+
+    nomination. His ground machine — built over a decade as TMC transport minister
+
+    and inherited from his father''s Kanthi belt political network — gave BJP a
+
+    booth-level presence in Nandigram far superior to any other seat. Upper caste
+
+    Hindu and bhadralok voters saw him as a known quantity defending Hindu interests.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bhadralok
+  - cultivator
+  - bjp_supporter
+  valence:
+    upper_caste_hindu: positive
+    bhadralok: positive
+    cultivator: ambient
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.myneta.info/WestBengal2021/candidate.php?candidate_id=381
+  - https://en.wikipedia.org/wiki/Suvendu_Adhikari
+- slug: nandigram_candidate_profile_mamata_2021
+  date: '2021-03-10'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Mamata Banerjee (TMC) files nomination from Nandigram; sitting CM faces
+    home test
+  summary: 'Chief Minister Mamata Banerjee''s nomination filing at Haldia turned into
+    a
+
+    mass TMC rally. Her affidavit declared modest assets consistent with her
+
+    "common person" political brand. Contesting on the platform of Didir Shopoth
+
+    welfare delivery, her campaign particularly targeted woman voters through Lakshmir
+
+    Bhandar promises and SHG networks. Muslim voters in Nandigram-I block (~34%)
+
+    were solidly mobilised behind her. Upper caste Hindus, however, were drawn
+
+    toward Suvendu''s Hindu-consolidation narrative.
+
+    '
+  tags:
+  - woman
+  - muslim_voter
+  - lakshmir_bhandar_beneficiary
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    woman: positive
+    muslim_voter: positive
+    lakshmir_bhandar_beneficiary: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.myneta.info/WestBengal2021/candidate.php?candidate_id=271
+  - https://en.wikipedia.org/wiki/Nandigram_in_the_2021_West_Bengal_Legislative_Assembly_election
+- slug: nandigram_hindutva_consolidation_campaign_2021
+  date_start: '2021-02-01'
+  date_end: '2021-03-31'
+  temporal: chronic
+  scope: AC
+  intensity: 4
+  headline: BJP runs Hindu consolidation campaign in Nandigram linking 2007 Muslim-TMC-CPM
+    narrative
+  summary: 'During the 2021 campaign BJP and Suvendu''s team circulated a counter-narrative
+
+    about the 2007 Nandigram protests: that Muslim TMC cadres had later captured
+
+    the panchayats and marginalised the Hindu peasants who fought the land agitation.
+
+    This frame — "Hindus fought and Muslims benefited" — resonated deeply among
+
+    cultivator households in Nandigram-II block (87% Hindu) and among upper caste
+
+    Hindus who perceived TMC''s Muslim-appeasing politics as threatening. Suvendu''s
+
+    personal credibility as a 2007 agitation participant gave the narrative force.
+
+    '
+  tags:
+  - cultivator
+  - upper_caste_hindu
+  - muslim_voter
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    cultivator: positive
+    upper_caste_hindu: positive
+    muslim_voter: negative
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://thefederal.com/elections-2026/nandigram-west-bengal-elections-2026-hindutva-ground-zero-bjp-trinamool-suvendu-adhikari-240182
+  - https://www.etvbharat.com/english/state/west-bengal/mamata-vs-suvendu-vs-minakshi-nandigram-and-the-70-30-formula/na20210318153921195
+- slug: nandigram_polling_day_violence_apr_2021
+  date: '2021-04-01'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: 'Nandigram polling day: Mamata sits in booth for 2 hours, TMC-BJP clashes,
+    63 complaints filed'
+  summary: 'On 1 April 2021 (Phase 2 of WB AE), Nandigram saw intense electoral violence
+
+    and mutual accusations. Mamata Banerjee remained at a Boyal village booth for
+
+    nearly two hours alleging BJP workers were blocking voters; she telephoned
+
+    Governor Jagdeep Dhankar from the booth. TMC filed 63 complaints in a single
+
+    day; BJP counter-alleged voter intimidation by TMC musclemen. CAPF was deployed
+
+    throughout but both sides accused forces of bias. The day cemented Nandigram as
+
+    a booth-level warfare constituency where counting results would be disputed.
+
+    '
+  tags:
+  - cultivator
+  - upper_caste_hindu
+  - muslim_voter
+  - bjp_supporter
+  - tmc_supporter
+  - woman
+  valence:
+    cultivator: negative
+    upper_caste_hindu: negative
+    muslim_voter: negative
+    woman: negative
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://thewire.in/politics/nandigram-boyal-west-bengal-election-day-mamata-banerjee-suvendu
+  - https://en.wikipedia.org/wiki/Nandigram_in_the_2021_West_Bengal_Legislative_Assembly_election
+- slug: covid_delta_wave_apr_2021
+  date: '2021-04-01'
+  temporal: episodic
+  scope: national
+  intensity: 3
+  headline: COVID Delta wave peaks during WB election campaign; mass rallies draw
+    criticism
+  summary: 'The deadly COVID Delta wave swept India from April–June 2021. Election
+    rallies
+
+    in Nandigram and across Bengal continued despite public health concerns, drawing
+
+    Supreme Court and Election Commission warnings. For Nandigram''s elderly and
+
+    school-age households, the simultaneous election intensity and health crisis
+
+    created an atmosphere of fear; out-migrant household members who returned for
+
+    voting brought virus exposure risk.
+
+    '
+  tags:
+  - elderly
+  - school_age_household
+  - out_migrant_household
+  valence:
+    elderly: negative
+    school_age_household: negative
+    out_migrant_household: negative
+    bjp_supporter: ambient
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/COVID-19_pandemic_in_India
+- slug: nandigram_2021_result_suvendu_wins
+  date: '2021-05-02'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: Suvendu Adhikari (BJP) defeats Mamata Banerjee (TMC) by 1,956 votes; India's
+    most-watched result
+  summary: 'On 2 May 2021, Suvendu Adhikari won Nandigram by 1,956 votes (BJP 1,10,764
+    vs
+
+    TMC 1,08,808), the narrowest margin in the most-watched constituency in India.
+
+    The 17-round count was marred by server failures, a 4-hour delay, and a dramatic
+
+    17th-round postal ballot swing that reversed earlier TMC leads. Mamata immediately
+
+    alleged fraud, demanded a recount; EC rejected the demand, directing her to court.
+
+    Suvendu''s win made him BJP''s LoP in the West Bengal Assembly. TMC won the state
+
+    with 213 seats — leaving Nandigram as BJP''s symbolic fortress in south Bengal.
+
+    '
+  tags:
+  - cultivator
+  - upper_caste_hindu
+  - bhadralok
+  - muslim_voter
+  - woman
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    cultivator: ambient
+    upper_caste_hindu: positive
+    bhadralok: positive
+    muslim_voter: negative
+    woman: negative
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Nandigram_in_the_2021_West_Bengal_Legislative_Assembly_election
+  - https://scroll.in/latest/993891/nandigram-mamata-banerjee-alleges-cheating-in-counting-as-confusion-prevails-over-final-result
+- slug: nandigram_post_poll_violence_may_2021
+  date: '2021-05-02'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: 'Post-poll violence in Nandigram: BJP offices ransacked, workers attacked;
+    TMC counter-allegations'
+  summary: 'In the days following the 2 May result, Nandigram witnessed severe post-poll
+
+    violence. BJP alleged its workers were attacked by TMC cadres, party offices
+
+    ransacked, and families forced to flee villages. The BJP shared videos of a
+
+    destroyed Nandigram party office. The Home Ministry sought a state report.
+
+    TMC alleged BJP''s central forces had intimidated their supporters. For cultivator
+
+    and ag_labourer families in remote Nandigram villages, the violence created acute
+
+    insecurity that lasted weeks, with many displaced families unable to return home.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - bjp_supporter
+  - tmc_supporter
+  - woman
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    woman: negative
+    bjp_supporter: negative
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2021_West_Bengal_post-poll_violence
+  - https://www.indiatvnews.com/news/india/post-poll-violence-j-p-nadda-to-take-two-day-trip-to-bengal-702277
+- slug: mamata_court_challenge_nandigram_result
+  date: '2021-05-02'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: Mamata Banerjee files election petition in Calcutta HC challenging Nandigram
+    result
+  summary: 'Mamata Banerjee filed an election petition in the Calcutta High Court
+    challenging
+
+    the Nandigram result, alleging corrupt practices including religious polarisation,
+
+    bribery, and counting discrepancies (12 uncounted EVMs from Samsabad, postal
+
+    ballot irregularities). The HC directed EC to preserve all documents and videos.
+
+    The case remained pending through 2021, keeping Nandigram''s political wound open
+
+    and providing a legal narrative that TMC mobilised in subsequent years.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - muslim_voter
+  - bhadralok
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    upper_caste_hindu: ambient
+    muslim_voter: positive
+    bhadralok: ambient
+    bjp_supporter: ambient
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://theleaflet.in/wb-cms-challenge-to-suvendu-adhikaris-win-from-nandigram-calcutta-hc-issues-notice/
+  - https://www.newkerala.com/news/2021/99390.htm

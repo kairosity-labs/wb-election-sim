@@ -1,0 +1,460 @@
+# Murshidabad (AC-60) — voter-salient event chronology, Jan 2019 → 02 May 2021.
+# Window terminates at WB Assembly Election 2021 result day.
+# AC-60 is Murshidabad constituency in Murshidabad district (Murshidabad sub-division).
+# Muslim-majority (~70% Muslim); historically a nawabi capital with Hazarduari Palace.
+# Congress stronghold (Adhir Ranjan's base); 2021 AE: BJP won Murshidabad AC by 2,491 votes.
+
+cutoff_date: "2021-05-02"   # WB AE 2021 counting day
+
+events:
+  # ───────────── 2019 ─────────────
+
+  - slug: ls_2019_berhampore_adhir_wins
+    date: "2019-05-23"
+    temporal: episodic
+    scope: district
+    intensity: 5
+    headline: "Adhir Ranjan Chowdhury wins Berhampore Lok Sabha for fifth consecutive time, consolidating Congress hold in Murshidabad"
+    summary: |
+      Congress veteran Adhir Ranjan Chowdhury retained the Berhampore LS seat for a fifth
+      straight term in 2019, defeating TMC and BJP candidates and cementing Congress dominance
+      in the Muslim-majority Murshidabad district. Within the Murshidabad AC segment, Congress
+      retained strong street-level organisation through mosque networks and block-level workers.
+      This victory reinforced Congress as the primary protector of Muslim interests in the district,
+      setting up the Congress-TMC contest as the defining rivalry for the 2021 AE.
+    tags: [muslim_voter, bjp_supporter, tmc_supporter]
+    valence:
+      muslim_voter: positive
+      tmc_supporter: negative
+      bjp_supporter: negative
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/Adhir_Ranjan_Chowdhury
+      - https://www.thequint.com/elections/adhir-ranjan-chowdhury-berhampore-congress-trinamool-bjp-2024-lok-sabha-elections
+
+  - slug: nrc_assam_final_list_2019
+    date: "2019-08-31"
+    temporal: episodic
+    scope: national
+    intensity: 5
+    headline: "Assam NRC final list excludes 19 lakh; Muslim community in Murshidabad gripped by fear of WB extension"
+    summary: |
+      The final Assam NRC list excluded ~19 lakh people, a large proportion Muslim. In
+      Murshidabad — a district with 66% Muslim population and a shared border history with
+      Bangladesh — the news triggered intense anxiety about a potential nationwide NRC.
+      Community leaders at mosques across Murshidabad town warned congregations that their
+      citizenship could be questioned despite generations of residence. Imam associations
+      organised awareness meetings about documentation requirements.
+    tags: [muslim_voter, bhadralok]
+    valence:
+      muslim_voter: negative
+      bhadralok: negative
+      bjp_supporter: ambient
+      tmc_supporter: ambient
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/National_Register_of_Citizens_of_India
+      - https://foreignpolicy.com/2020/12/18/one-year-mass-caa-protests-india-muslims-citizenship-amendment-act-modi/
+
+  - slug: caa_passed_december_2019
+    date: "2019-12-12"
+    temporal: episodic
+    scope: national
+    intensity: 5
+    headline: "Citizenship Amendment Act passed; Murshidabad's Muslim majority faces existential dread over NRC-CAA combination"
+    summary: |
+      The Citizenship Amendment Act's passage excluded Muslims from fast-track citizenship,
+      creating maximum salience in Muslim-majority Murshidabad where ~70% of residents are
+      Muslim. The CAA-NRC combination was interpreted as a direct threat to Muslim citizenship
+      status. Mass anxiety spread through silk-weaving quarters, agricultural hamlets and
+      madrassa networks in the constituency. Adhir Ranjan Chowdhury immediately condemned
+      CAA as "unconstitutional anti-Muslim legislation."
+    tags: [muslim_voter, bhadralok, tmc_supporter, bjp_supporter]
+    valence:
+      muslim_voter: negative
+      bhadralok: negative
+      bjp_supporter: positive
+      tmc_supporter: negative
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/Citizenship_Amendment_Act_protests
+      - https://theintercept.com/2020/01/30/india-citizenship-act-caa-nrc-assam/
+
+  - slug: murshidabad_anti_caa_protests_december_2019
+    date: "2019-12-14"
+    temporal: episodic
+    scope: district
+    intensity: 4
+    headline: "Mass anti-CAA demonstrations sweep Murshidabad town; thousands gather near Hazarduari"
+    summary: |
+      Within days of CAA's passage, thousands of Muslim residents, madrassa students and
+      civil society activists staged large demonstrations in Murshidabad town near the
+      Hazarduari complex. The protests were peaceful but intense, with imams leading prayers
+      for constitutional protection. Congress and Left leaders joined the rallies, positioning
+      against BJP's citizenship agenda. The scale of mobilisation reflected the constituency's
+      deep political consciousness on citizenship rights.
+    tags: [muslim_voter, bhadralok, urban_trader]
+    valence:
+      muslim_voter: negative
+      bhadralok: negative
+      bjp_supporter: positive
+      tmc_supporter: ambient
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/Citizenship_Amendment_Act_protests
+      - https://www.nationalheraldindia.com/india/bharat-bandh-today-caa-nrc-protest-shaheen-bagh-delhi-live-updates
+
+  # ───────────── 2020 ─────────────
+
+  - slug: anti_caa_bandh_deaths_jalangi_january_2020
+    date: "2020-01-29"
+    temporal: episodic
+    scope: district
+    intensity: 5
+    headline: "Two killed in Jalangi, Murshidabad during anti-CAA Bharat Bandh; protesters shot allegedly by TMC convoy"
+    summary: |
+      Two people — Anarul Biswas (50) and Slauddin Sheikh (17) — were killed at Sahebnagar
+      village in Jalangi block, Murshidabad, when anti-CAA protesters were allegedly shot by
+      a convoy of cars led by the local TMC block president. Three others were injured. The
+      incident shocked Murshidabad's Muslim community and created a sharp rupture between
+      TMC and the anti-CAA movement. Congress and CPI(M) accused TMC of repressing
+      Muslim protesters to maintain political dominance.
+    tags: [muslim_voter, tmc_supporter]
+    valence:
+      muslim_voter: negative
+      tmc_supporter: negative
+      bjp_supporter: positive
+    broadcast: true
+    sources:
+      - https://www.nationalheraldindia.com/india/bharat-bandh-today-caa-nrc-protest-shaheen-bagh-delhi-live-updates
+      - https://scroll.in/latest/951481/citizenship-act-protest-two-killed-in-west-bengals-murshidabad-district-after-violence-erupts
+      - https://www.deccanherald.com/national/east-and-northeast/west-bengal-two-killed-in-clash-during-anti-caa-protest-799378.html
+
+  - slug: covid_lockdown_march_2020
+    date: "2020-03-25"
+    temporal: episodic
+    scope: national
+    intensity: 5
+    headline: "National COVID lockdown halts Murshidabad's silk industry and forces thousands of migrant workers to return"
+    summary: |
+      The nationwide COVID lockdown devastated Murshidabad's twin economic pillars:
+      the silk/mulberry weaving sector and out-migration labour. Tens of thousands of
+      Murshidabad residents working in Kerala, Maharashtra, and Gujarat were stranded
+      and subsequently returned home by Shramik Special trains through May 2020.
+      Silk weaving — the livelihood of Muslim families in Jiaganj, Azimganj and
+      Murshidabad town — ground to a halt as wholesale orders collapsed.
+    tags: [muslim_voter, urban_trader, ag_labourer, cultivator, out_migrant_household]
+    valence:
+      muslim_voter: negative
+      urban_trader: negative
+      ag_labourer: negative
+      out_migrant_household: negative
+      bjp_supporter: negative
+      tmc_supporter: negative
+    broadcast: true
+    sources:
+      - https://citizenmatters.in/migrant-workers-murshidabad-west-bengal-challenges-economy-labour-deaths/
+      - https://link.springer.com/chapter/10.1007/978-3-031-77596-3_8
+
+  - slug: silk_weaving_crisis_covid_2020
+    date: "2020-04-15"
+    temporal: chronic
+    scope: district
+    intensity: 4
+    headline: "Murshidabad silk weavers face existential crisis as COVID kills demand; weavers sit idle beside looms"
+    summary: |
+      The lockdown-induced collapse of wholesale demand devastated Murshidabad's
+      centuries-old silk weaving industry. Muslim families in Jiaganj, Azimganj and
+      Murshidabad town who depend on the Baluchar silk trade — producing sarees worth
+      thousands per piece — found themselves with no orders and no wages. NGO surveys
+      documented weavers sitting idle beside their pit-looms, unable to access social
+      security schemes. The crisis deepened a pre-existing structural decline marked by
+      low wages driving youth away from weaving.
+    tags: [muslim_voter, urban_trader, out_migrant_household]
+    valence:
+      muslim_voter: negative
+      urban_trader: negative
+      tmc_supporter: negative
+      bjp_supporter: negative
+    broadcast: false
+    sources:
+      - https://thefederal.com/the-eighth-column/lockdown-leaves-handloom-weavers-hanging-by-a-thread
+      - https://www.academia.edu/77463194/Murshidabad_Silk_Industry_in_West_Bengal_A_Study_of_Its_Glorious_Past_and_amp_Present_Crisis
+      - https://www.newkerala.com/news/a/west-bengal-low-wages-drive-youth-away-from-251.htm
+
+  - slug: migrant_return_shramik_trains_2020
+    date: "2020-05-10"
+    temporal: episodic
+    scope: district
+    intensity: 4
+    headline: "Thousands of Murshidabad migrants return by Shramik Special trains from Maharashtra and Kerala; relief camp shortfalls"
+    summary: |
+      Murshidabad, which has the highest out-migration rate in West Bengal, saw
+      thousands of workers return by special trains from southern and western states
+      in May 2020. Many returned to find their silk-weaving enterprises shuttered and
+      agricultural land waterlogged from late-season rains. Relief camps organised by
+      both state government and local Congress panchayat bodies were documented as
+      inadequate, providing limited food and no cash. The experience hardened
+      out_migrant_household grievances about safety nets.
+    tags: [out_migrant_household, muslim_voter, ag_labourer]
+    valence:
+      out_migrant_household: negative
+      muslim_voter: negative
+      tmc_supporter: ambient
+      bjp_supporter: negative
+    broadcast: true
+    sources:
+      - https://citizenmatters.in/migrant-workers-murshidabad-west-bengal-challenges-economy-labour-deaths/
+      - https://link.springer.com/chapter/10.1007/978-3-031-77596-3_8
+
+  - slug: murshidabad_monsoon_flood_2020
+    date: "2020-07-20"
+    temporal: episodic
+    scope: district
+    intensity: 4
+    headline: "Bhagirathi and Padma rivers breach embankments; tens of thousands displaced in Murshidabad district"
+    summary: |
+      Annual monsoon floods inundated large swathes of Murshidabad district in July 2020,
+      with the Bhagirathi and Padma rivers breaching embankments at multiple points. Farming
+      households in low-lying areas lost standing crops of paddy and vegetables. The flood
+      compounded COVID-related economic distress, as no MGNREGA work had been available and
+      migrant remittances had collapsed. State relief delivery was patchy, reinforcing
+      community dependence on local Congress panchayat networks.
+    tags: [cultivator, ag_labourer, muslim_voter, woman]
+    valence:
+      cultivator: negative
+      ag_labourer: negative
+      muslim_voter: negative
+      tmc_supporter: negative
+    broadcast: false
+    sources:
+      - https://floodlist.com/asia/india-west-bengal-floods-august-2021
+      - https://wbiwd.gov.in/index.php/applications/flood_mgmt
+      - https://m.thewire.in/article/environment/in-bengals-murshidabad-a-village-the-river-ate-away
+
+  # ───────────── 2021 ─────────────
+
+  - slug: covid_second_wave_delta_2021
+    date: "2021-04-15"
+    temporal: episodic
+    scope: national
+    intensity: 5
+    headline: "Delta wave Covid-19 devastates West Bengal; Murshidabad's hospitals overwhelmed with excess deaths 30x official count"
+    summary: |
+      The Delta variant's second wave hit Bengal hard in April-May 2021. In Murshidabad
+      district, researchers estimated an undercount factor of 30.4 — meaning actual deaths
+      were about 30 times official figures. Hospitals in Berhampore were overwhelmed. The
+      wave struck during the ongoing AE 2021 campaign, forcing Mamata Banerjee to curtail
+      rallies and Election Commission to defer later phases. For Muslim households with
+      out-migrant members, the double shock of COVID mortality and income loss was severe.
+    tags: [muslim_voter, woman, elderly, school_age_household, swasthya_sathi_beneficiary]
+    valence:
+      muslim_voter: negative
+      woman: negative
+      elderly: negative
+      tmc_supporter: negative
+      bjp_supporter: negative
+    broadcast: true
+    sources:
+      - https://scroll.in/latest/1001134/excess-deaths-in-west-bengal-11-times-the-official-covid-toll-between-april-2020-and-may-2021
+      - https://grokipedia.com/page/COVID-19_pandemic_in_West_Bengal
+
+  - slug: wb_ae_2021_murshidabad_bjp_win
+    date: "2021-05-02"
+    temporal: episodic
+    scope: AC
+    intensity: 5
+    headline: "BJP's Mohan Haldar wins Murshidabad AC by 2,491 votes over TMC's Shaoni Singha Roy in historic upset"
+    summary: |
+      In a major upset, BJP's Mohan Haldar won the Murshidabad Assembly seat (AC-60) in the
+      2021 AE, defeating TMC's Shaoni Singha Roy by just 2,491 votes out of ~2.27 lakh cast.
+      Haldar received 95,967 votes (42%) to Roy's 93,476 (41.3%). It was one of only two seats
+      BJP captured in the entire Murshidabad district, where TMC swept 18 of 20 seats.
+      The result reflected Hindu bhadralok consolidation behind BJP in this mixed-composition
+      constituency; Congress collapsed entirely, with its base partly absorbed by TMC's Roy
+      who had switched from Congress in 2021.
+    tags: [muslim_voter, bhadralok, bjp_supporter, tmc_supporter, upper_caste_hindu]
+    valence:
+      bjp_supporter: positive
+      tmc_supporter: negative
+      muslim_voter: negative
+      bhadralok: positive
+      upper_caste_hindu: positive
+    broadcast: true
+    sources:
+      - https://www.indiavotes.com/ac/summary/45114
+      - https://www.newkerala.com/news/a/murshidabad-assembly-constituency-can-bjps-gouri-shankar-ghosh-776.htm
+      - https://www.indiatvnews.com/west-bengal/news-murshidabad-constituency-west-bengal-assembly-election-2026-profile-past-winners-vote-margin-and-party-wise-candidates-2026-02-28-1032095
+
+  - slug: wb_2021_tmc_sweeps_district
+    date: "2021-05-02"
+    temporal: episodic
+    scope: district
+    intensity: 5
+    headline: "TMC sweeps 18 of 20 Murshidabad district seats on Muslim vote consolidation; Congress wiped out at assembly level"
+    summary: |
+      TMC won 18 of 20 seats in Murshidabad district in the 2021 AE, capturing 54% of
+      district votes. Despite Adhir Ranjan's dominance at the Lok Sabha level, Congress
+      collapsed at the state assembly level, winning zero seats and polling only 14% in
+      the district. The result confirmed the shift of Muslim voters from Congress to TMC,
+      driven by Mamata Banerjee's strong anti-CAA/NRC stance and the welfare promises
+      including Duare Sarkar and Lakshmir Bhandar (announced post-election). BJP won
+      only Murshidabad and Baharampur ACs.
+    tags: [muslim_voter, tmc_supporter, bjp_supporter]
+    valence:
+      tmc_supporter: positive
+      muslim_voter: positive
+      bjp_supporter: negative
+    broadcast: true
+    sources:
+      - https://www.indiavotes.com/district/ac/284/2284
+      - https://www.orfonline.org/expert-speak/bengal-elections-2021-a-factsheet
+
+  - slug: tmc_manifesto_2021_welfare_promise
+    date: "2021-03-15"
+    temporal: episodic
+    scope: state
+    intensity: 4
+    headline: "TMC's 'Didi'r 10 Angikar' manifesto promises Lakshmir Bhandar cash transfers to women, free health card, student credit card"
+    summary: |
+      Mamata Banerjee's TMC manifesto for the 2021 AE promised Lakshmir Bhandar
+      (Rs 500/month for general women, Rs 1,000 for SC/ST), Swasthya Sathi health
+      insurance for all families, and a student credit card scheme. In Muslim-majority
+      Murshidabad where women's economic insecurity is high, the Lakshmir Bhandar
+      promise carried strong electoral appeal. Mamata also reaffirmed that CAA and
+      NRC would not be implemented in Bengal, directly targeting the Muslim constituency.
+    tags: [woman, muslim_voter, lakshmir_bhandar_beneficiary, swasthya_sathi_beneficiary, school_age_household]
+    valence:
+      woman: positive
+      muslim_voter: positive
+      lakshmir_bhandar_beneficiary: positive
+      swasthya_sathi_beneficiary: positive
+      tmc_supporter: positive
+      bjp_supporter: negative
+    broadcast: true
+    sources:
+      - https://www.thebridgechronicle.com/politics/from-income-to-all-to-student-credit-card-heres-what-tmcs-manifesto-says
+      - https://theprint.in/opinion/mamatas-lakshmir-bhandar-was-a-secret-weapon-bengal-tmc-is-now-reaping-electoral-fruits/2099238/
+
+  - slug: bjp_sonar_bangla_manifesto_2021
+    date: "2021-03-21"
+    temporal: episodic
+    scope: state
+    intensity: 4
+    headline: "BJP releases 'Sonar Bangla Sankalp Patra'; promises CAA implementation and Rs 3,000/month for women — deeply divisive in Muslim-majority Murshidabad"
+    summary: |
+      BJP's Sonar Bangla manifesto, released by Amit Shah, promised immediate CAA
+      implementation (granting citizenship to non-Muslim refugees), Rs 3,000 monthly
+      for women, and a "detect-delete-deport" policy on infiltrators. In Murshidabad,
+      where 70% are Muslim, the CAA promise was experienced as a direct threat —
+      imams warned that CAA combined with NRC would render Muslims stateless. The
+      Rs 3,000 women's payment promise was dismissed as a "jumla" in Muslim households
+      given the anti-Muslim framing of the broader manifesto.
+    tags: [muslim_voter, woman, bhadralok, bjp_supporter]
+    valence:
+      muslim_voter: negative
+      bhadralok: positive
+      bjp_supporter: positive
+      tmc_supporter: negative
+      woman: ambient
+    broadcast: true
+    sources:
+      - https://www.oneindia.com/india/amit-shah-releases-bjp-manifesto-for-west-bengal-polls-3233599.html
+      - https://www.business-standard.com/article/elections/bjp-releases-west-bengal-poll-manifesto-promises-33-reservation-for-women-121032100955_1.html
+
+  - slug: mamata_anti_caa_campaign_murshidabad_2021
+    date: "2021-03-25"
+    temporal: episodic
+    scope: district
+    intensity: 4
+    headline: "Mamata Banerjee holds campaign rally in Murshidabad district, pledges CAA-NRC will never be implemented in Bengal"
+    summary: |
+      During the 2021 assembly election campaign, Mamata Banerjee held rallies in
+      Murshidabad district reiterating her pledge that CAA and NRC would not be
+      implemented while she is CM. The promise was the single most galvanising message
+      for the Muslim electorate. TMC also highlighted welfare schemes including Duare
+      Sarkar, Swasthya Sathi health cards, and food grain entitlements under Khadya
+      Sathi. Mamata's personal credibility as protector of Muslim citizenship rights
+      drove significant Congress-to-TMC vote migration in the district.
+    tags: [muslim_voter, woman, khadya_sathi_beneficiary, swasthya_sathi_beneficiary]
+    valence:
+      muslim_voter: positive
+      tmc_supporter: positive
+      bjp_supporter: negative
+    broadcast: true
+    sources:
+      - https://www.outlookindia.com/elections/lok-sabha-2024-how-has-the-muslim-appeasement-debate-affected-west-bengal-politics
+      - https://theprint.in/opinion/mamatas-lakshmir-bhandar-was-a-secret-weapon-bengal-tmc-is-now-reaping-electoral-fruits/2099238/
+
+  - slug: murshidabad_flood_2021_pre_election
+    date: "2021-04-01"
+    temporal: episodic
+    scope: district
+    intensity: 3
+    headline: "Pre-monsoon Bhagirathi river erosion displaces families in Murshidabad sub-division ahead of AE 2021 polls"
+    summary: |
+      Annual erosion of the Bhagirathi riverbank continued to displace families in
+      Murshidabad town's riverfront wards in early 2021. The river-erosion issue —
+      a chronic problem compounding Farakka barrage silt accumulation — became
+      a local campaign talking point. Congress and TMC both promised embankment
+      reinforcement works. Affected farming and fishing households were sensitised
+      by local campaign workers as the election approached.
+    tags: [cultivator, ag_labourer, muslim_voter]
+    valence:
+      cultivator: negative
+      ag_labourer: negative
+      muslim_voter: negative
+      tmc_supporter: negative
+    broadcast: false
+    sources:
+      - https://m.thewire.in/article/environment/in-bengals-murshidabad-a-village-the-river-ate-away
+      - https://wbiwd.gov.in/index.php/applications/flood_mgmt
+
+  - slug: murshidabad_khadya_sathi_covid_2020
+    date: "2020-04-01"
+    temporal: episodic
+    scope: state
+    intensity: 3
+    headline: "West Bengal expands Khadya Sathi food grain entitlement during COVID; Murshidabad's Muslim households access free rice and wheat"
+    summary: |
+      The West Bengal government expanded Khadya Sathi food grain distribution during
+      COVID lockdown, providing free rice and wheat to BPL and near-poor households.
+      In Murshidabad, where poverty rates are high among Muslim agricultural labourers
+      and weavers thrown out of work by lockdown, the food entitlement provided essential
+      relief. TMC claimed credit for the scheme delivery through ration shops. The
+      scheme covered millions of beneficiaries in Muslim-majority areas of the district.
+    tags: [khadya_sathi_beneficiary, muslim_voter, ag_labourer, cultivator]
+    valence:
+      khadya_sathi_beneficiary: positive
+      muslim_voter: positive
+      ag_labourer: positive
+      tmc_supporter: positive
+      bjp_supporter: negative
+    broadcast: false
+    sources:
+      - https://wb.gov.in/duare-sarkar.aspx
+
+  - slug: swasthya_sathi_expansion_2021
+    date: "2021-02-01"
+    temporal: episodic
+    scope: state
+    intensity: 3
+    headline: "TMC government expands Swasthya Sathi health insurance to all families in Bengal ahead of election"
+    summary: |
+      The West Bengal government expanded Swasthya Sathi — its flagship health
+      insurance scheme providing Rs 5 lakh annual cashless hospitalisation — to
+      all families in the state ahead of the 2021 AE. In Murshidabad, where access
+      to private healthcare is limited and public hospitals underfunded, Muslim
+      households welcomed the extension. Distribution of Swasthya Sathi cards through
+      Duare Sarkar camps created positive TMC touchpoints at grassroots level.
+    tags: [swasthya_sathi_beneficiary, muslim_voter, woman, elderly]
+    valence:
+      swasthya_sathi_beneficiary: positive
+      muslim_voter: positive
+      woman: positive
+      tmc_supporter: positive
+      bjp_supporter: negative
+    broadcast: true
+    sources:
+      - https://swasthyasathi.gov.in/DistrictWiseHealth
+      - https://theprint.in/opinion/mamatas-lakshmir-bhandar-was-a-secret-weapon-bengal-tmc-is-now-reaping-electoral-fruits/2099238/

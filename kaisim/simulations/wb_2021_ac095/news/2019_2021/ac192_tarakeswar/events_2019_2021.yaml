@@ -1,0 +1,622 @@
+cutoff_date: '2021-05-02'
+events:
+- slug: ls_2019_hooghly_locket_wins
+  date: '2019-05-23'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Locket Chatterjee (BJP) wins Hooghly LS seat, defeating TMC's Ratna De
+    Nag by 73,362 votes
+  summary: 'BJP''s Locket Chatterjee swept the Hooghly Lok Sabha constituency — which
+    covers Tarakeswar AC —
+
+    with a margin of 73,362 votes, riding a strong Hindu-consolidation wave. Within
+    Tarakeswar AC,
+
+    BJP polled ahead of TMC, signalling growing upper-caste Hindu and trader-community
+    disenchantment
+
+    with the Mamata government. The result energised BJP''s local panchayat networks.
+
+    '
+  tags:
+  - bjp_supporter
+  - tmc_supporter
+  - upper_caste_hindu
+  - urban_trader
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: negative
+    upper_caste_hindu: positive
+    urban_trader: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Hooghly_(Lok_Sabha_constituency)
+  - https://www.oneindia.com/hooghly-lok-sabha-election-result-529/
+- slug: caa_passed_parliament
+  date: '2019-12-11'
+  temporal: episodic
+  scope: national
+  intensity: 5
+  headline: Citizenship (Amendment) Act 2019 passed; Hindu-majority Tarakeswar reacts
+    with cautious approval
+  summary: 'Parliament passed the CAA, granting fast-track citizenship to persecuted
+    Hindus from
+
+    Bangladesh, Pakistan and Afghanistan. In Hindu-majority Tarakeswar — a temple-town
+    where
+
+    upper-caste bhadralok households are politically attentive — the law was broadly
+    welcomed
+
+    as a BJP-delivered Hindu protection measure. Muslim minority voters and secular
+    sections
+
+    expressed anxiety, while TMC led anti-CAA protests at the state level.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bhadralok
+  - muslim_voter
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    upper_caste_hindu: positive
+    bhadralok: positive
+    bjp_supporter: positive
+    muslim_voter: negative
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Citizenship_Amendment_Act_protests
+  - https://www.thehindu.com/news/national/parliament-passes-citizenship-amendment-bill/article30278260.ece
+- slug: wb_assembly_anti_caa_resolution
+  date: '2020-01-27'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: West Bengal Assembly passes resolution against CAA; Mamata leads torchlight
+    marches
+  summary: 'The West Bengal Legislative Assembly passed a resolution calling for repeal
+    of the CAA on
+
+    27 January 2020. Mamata Banerjee had led massive anti-CAA marches in Kolkata.
+    In Hooghly
+
+    district, anti-CAA marches were held at Konnagar. In Tarakeswar, the temple-town
+    Hindu
+
+    majority viewed the TMC''s anti-CAA stance with ambivalence, seeing it as appeasement
+    politics.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - muslim_voter
+  - upper_caste_hindu
+  valence:
+    tmc_supporter: positive
+    bjp_supporter: negative
+    muslim_voter: positive
+    upper_caste_hindu: negative
+  broadcast: true
+  sources:
+  - https://journals.openedition.org/samaj/6916?lang=en
+  - https://en.wikipedia.org/wiki/No_NRC_movement
+- slug: tarakeswar_temple_management_row_firhad
+  date: '2019-06-01'
+  temporal: chronic
+  scope: AC
+  intensity: 4
+  headline: BJP-linked Hindu groups protest Mamata's appointment of Firhad Hakim as
+    Tarakeswar Temple Board chair
+  summary: 'A lingering controversy from 2017 — Mamata Banerjee''s appointment of
+    Muslim TMC minister
+
+    Firhad Hakim as chairman of the Tarakeswar Development Board — continued to animate
+    BJP
+
+    and Hindu nationalist activists in the constituency through the 2019 pre-election
+    period.
+
+    Subramanian Swamy had threatened to sue but backed off after Mamata assured non-interference
+
+    in religious activities. The episode remained a recurring BJP talking point on
+    "appeasement"
+
+    among bhadralok and upper-caste Hindu voters in Tarakeswar.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bhadralok
+  - bjp_supporter
+  - tmc_supporter
+  - urban_trader
+  valence:
+    upper_caste_hindu: negative
+    bhadralok: negative
+    bjp_supporter: positive
+    tmc_supporter: negative
+    urban_trader: negative
+  broadcast: true
+  sources:
+  - https://www.business-standard.com/article/pti-stories/tarakeswar-temple-row-swamy-not-to-move-court-on-mamata-s-word-118050801461_1.html
+  - https://www.republicworld.com/india-news/politics/dr-subramanian-swamy-meets-west-bengal-chief-minister-mamata-banerjee-to-discuss-tarakeshwar-temple-issue.html
+- slug: shravan_mela_2019_tarakeswar
+  date: '2019-07-17'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: 'Shravan mela 2019: Nearly 10 lakh pilgrims walk to Tarakeswar Taraknath
+    temple in Shrawan month'
+  summary: 'The Shravani Mela at Tarakeswar — the largest fair in West Bengal — drew
+    nearly 10 lakh
+
+    devotees who walked barefoot from Baidyabati''s Nimai Tirtha Ghat (~39 km) carrying
+    Ganga
+
+    jal to offer to Lord Shiva. Flower sellers, dhaba operators, puja-material vendors
+    and
+
+    the entire temple-economy of Tarakeswar — which depends on this annual pilgrimage
+    for a
+
+    large share of annual income — thrived. Rail and administration arranged special
+    trains.
+
+    '
+  tags:
+  - urban_trader
+  - upper_caste_hindu
+  - elderly
+  - woman
+  valence:
+    urban_trader: positive
+    upper_caste_hindu: positive
+    elderly: positive
+    woman: positive
+  broadcast: false
+  sources:
+  - https://tarakeswarshrabanimela.wb.gov.in/Introduction?language=en
+  - https://hindupad.com/tarakeswar-shravani-mela/
+- slug: hindustan_motors_worker_crisis_ongoing
+  date: '2019-09-17'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Hindustan Motors Uttarpara families still without water, electricity five
+    years after factory closure
+  summary: 'Five years after Hindustan Motors shuttered its iconic Ambassador car
+    factory at Uttarpara
+
+    in Hooghly in May 2014, around 70 families remained stranded in the defunct factory
+    township
+
+    without basic amenities. Over 1,300 workers had accepted voluntary retirement
+    at meagre terms.
+
+    This long-term industrial decline in the Hooghly belt contributed to out-migration
+    from
+
+    surrounding areas including Tarakeswar block, swelling the out_migrant_household
+    demographic.
+
+    '
+  tags:
+  - out_migrant_household
+  - urban_trader
+  - cultivator
+  valence:
+    out_migrant_household: negative
+    urban_trader: negative
+    cultivator: ambient
+  broadcast: false
+  sources:
+  - https://en.wikipedia.org/wiki/Hindustan_Motors_factory,_Uttarpara
+  - https://www.team-bhp.com/forum/indian-car-scene/239219-visit-now-defunct-hindustan-motors-factory-uttarpara-hooghly.html
+- slug: nrc_assam_final_list_2019
+  date: '2019-08-31'
+  temporal: episodic
+  scope: national
+  intensity: 4
+  headline: Assam NRC final list excludes 19 lakh; Bengali Hindu anxiety rises in
+    West Bengal
+  summary: 'Publication of Assam''s final NRC list excluding ~19 lakh people — a significant
+    share
+
+    of whom were Hindu Bengalis — caused widespread anxiety across West Bengal. In
+    Tarakeswar,
+
+    bhadralok households and upper-caste Hindus became acutely attentive to BJP''s
+    promise
+
+    of CAA protection. TMC sought to calm fears while BJP leveraged NRC to mobilise
+    Hindu voters.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bhadralok
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    upper_caste_hindu: negative
+    bhadralok: negative
+    bjp_supporter: ambient
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/National_Register_of_Citizens_(Assam)
+- slug: covid_lockdown_march_2020
+  date: '2020-03-25'
+  temporal: episodic
+  scope: national
+  intensity: 5
+  headline: India-wide COVID lockdown announced; Tarakeswar temple closed, pilgrimage
+    economy collapses
+  summary: 'Prime Minister Modi announced a 21-day national lockdown on 24 March 2020.
+    Tarakeswar
+
+    Taraknath temple, which draws hundreds of thousands of devotees throughout the
+    year,
+
+    shut immediately. Flower sellers, prasad vendors, dhaba operators and puja-material
+
+    traders — the backbone of Tarakeswar''s temple economy — lost their livelihoods
+    overnight.
+
+    The economic shock was immediate and severe for this pilgrimage-dependent constituency.
+
+    '
+  tags:
+  - urban_trader
+  - upper_caste_hindu
+  - elderly
+  - woman
+  - out_migrant_household
+  valence:
+    urban_trader: negative
+    upper_caste_hindu: negative
+    elderly: negative
+    woman: negative
+    out_migrant_household: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/COVID-19_pandemic_in_West_Bengal
+  - https://tarakeswarshrabanimela.wb.gov.in/
+- slug: shravan_mela_2020_cancelled
+  date: '2020-07-14'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Shravani Mela 2020 cancelled for first time in living memory due to COVID-19;
+    temple economy devastated
+  summary: 'For the first time in decades, the Tarakeswar Shravani Mela — the massive
+    month-long
+
+    pilgrimage gathering that draws millions of Shiva devotees every Shravan (July-August)
+    —
+
+    was completely cancelled due to COVID-19 restrictions. Flower sellers, puja-material
+
+    traders, dhabas, lodge owners and the panda/pujari community lost their single
+    largest
+
+    annual income event. Economic distress in Tarakeswar''s temple-dependent urban
+    trader
+
+    community reached crisis levels.
+
+    '
+  tags:
+  - urban_trader
+  - upper_caste_hindu
+  - elderly
+  - woman
+  valence:
+    urban_trader: negative
+    upper_caste_hindu: negative
+    elderly: negative
+    woman: negative
+  broadcast: true
+  sources:
+  - https://hindupad.com/tarakeswar-shravani-mela/
+  - https://tarakeswarshrabanimela.wb.gov.in/Introduction?language=en
+- slug: duare_sarkar_launch_dec2020
+  date: '2020-12-01'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Mamata launches 'Duare Sarkar' — doorstep delivery of 11 welfare schemes
+    across West Bengal
+  summary: 'The Duare Sarkar (Government at Your Doorstep) programme launched on 1
+    December 2020,
+
+    setting up camps at gram panchayat and municipal ward level to deliver Swasthya
+    Sathi,
+
+    Khadya Sathi, Kanyashree and other schemes. In Tarakeswar''s peri-urban areas,
+    camps
+
+    registered many beneficiaries who had not previously accessed welfare services,
+    boosting
+
+    TMC''s grassroots visibility ahead of the 2021 Assembly elections.
+
+    '
+  tags:
+  - woman
+  - elderly
+  - lakshmir_bhandar_beneficiary
+  - swasthya_sathi_beneficiary
+  - khadya_sathi_beneficiary
+  - tmc_supporter
+  valence:
+    woman: positive
+    elderly: positive
+    tmc_supporter: positive
+    bjp_supporter: ambient
+  broadcast: true
+  sources:
+  - https://civils.pteducation.com/2021/10/UPSC-IAS-exam-preparation-West-Bengal-govt-launches-Duare-Sarkar-programme-for-doorstep-delivery-of-govt-schemes.html
+  - https://wb.gov.in/duare-sarkar.aspx
+- slug: swasthya_sathi_universal_expansion
+  date: '2020-12-01'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Swasthya Sathi extended to all West Bengal families; Rs 5 lakh health
+    cover universalised
+  summary: 'From December 2020, West Bengal''s Swasthya Sathi health insurance scheme
+    — providing
+
+    Rs 5 lakh annual health coverage per family — was extended to cover all residents
+
+    regardless of caste, religion or profession. In Tarakeswar''s peri-urban households,
+
+    including trader and cultivator families, enrolment surged through Duare Sarkar
+    camps.
+
+    The scheme became a key TMC welfare plank in the run-up to the 2021 elections.
+
+    '
+  tags:
+  - woman
+  - elderly
+  - swasthya_sathi_beneficiary
+  - urban_trader
+  - cultivator
+  - tmc_supporter
+  valence:
+    woman: positive
+    elderly: positive
+    urban_trader: positive
+    cultivator: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://swasthyasathi.gov.in/
+  - https://www.hdfcergo.com/blogs/health-insurance/swasthya-sathi-scheme-west-bengal
+- slug: wb_covid_delta_wave_april2021
+  date: '2021-04-15'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: West Bengal's COVID Delta second wave peaks; elections proceed amid health
+    crisis
+  summary: 'India''s devastating Delta second wave struck West Bengal in April–May
+    2021, overwhelming
+
+    Kolkata and district hospitals. West Bengal conducted eight phases of Assembly
+    elections
+
+    despite WHO and opposition concerns. Hooghly district health infrastructure came
+    under
+
+    strain; peri-urban Tarakeswar residents faced difficulties accessing medical care
+    during
+
+    the wave, which peaked just as election results were announced on 2 May 2021.
+
+    '
+  tags:
+  - elderly
+  - woman
+  - swasthya_sathi_beneficiary
+  - school_age_household
+  valence:
+    elderly: negative
+    woman: negative
+    swasthya_sathi_beneficiary: negative
+    tmc_supporter: negative
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/COVID-19_pandemic_in_West_Bengal
+  - https://www.epw.in/engage/article/covid-19-examining-impact-lockdown-india-after-one
+- slug: mamata_temple_visits_hindu_outreach_2021
+  date: '2021-02-28'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Mamata visits 19 temples, recites Chandi-path in Nandigram — soft-Hindutva
+    campaign launched
+  summary: 'During the 2021 election campaign, Mamata Banerjee made a strategic Hindu
+    outreach effort,
+
+    visiting 19 temples and one Muslim shrine in Nandigram and declaring "I am also
+    a Brahmin"
+
+    while reciting Chandi-path mantras. In Tarakeswar — a deeply Shiva-devotional
+    constituency —
+
+    this signalling was noted by upper-caste Hindu and bhadralok voters, though BJP
+    countered
+
+    that her "Chandi-path was full of faults" and her Hindu credentials were theatrical.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bhadralok
+  - woman
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    upper_caste_hindu: ambient
+    bhadralok: ambient
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://theprint.in/politics/mamata-visited-19-temples-1-muslim-shrine-in-28-hr-nandigram-tour-before-returning-injured/619813/
+  - https://m.thewire.in/article/communalism/with-a-marked-shift-in-her-use-of-religion-mamata-banerjee-is-rewriting-bengals-battle-rules
+- slug: bjp_2021_sonar_bangla_manifesto
+  date: '2021-03-21'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: BJP releases 'Sonar Bangla Sankalp Patra' — temple freedom, anti-CAA repeal
+    prominent for Hindu voters
+  summary: 'BJP''s 2021 West Bengal manifesto ''Sonar Bangla Sankalp Patra'' promised
+    implementation of
+
+    CAA, freeing temples from government control, and religious freedom protections
+    that resonated
+
+    strongly with upper-caste Hindu and bhadralok voters in temple-towns like Tarakeswar.
+
+    The manifesto''s commitment to remove the Tarakeswar Development Board''s perceived
+    government
+
+    interference in temple management was a specific local talking point.
+
+    '
+  tags:
+  - bjp_supporter
+  - upper_caste_hindu
+  - bhadralok
+  - urban_trader
+  valence:
+    bjp_supporter: positive
+    upper_caste_hindu: positive
+    bhadralok: positive
+    urban_trader: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2021_West_Bengal_Legislative_Assembly_election
+- slug: tmc_2021_manifesto_welfare_push
+  date: '2021-03-16'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: TMC 2021 manifesto promises Lakshmir Bhandar Rs 500-1000/month for all
+    women — galvanises women voters
+  summary: 'The TMC''s 2021 ''Banglar Gorbo Mamata'' election manifesto promised the
+    Lakshmir Bhandar
+
+    scheme — Rs 500/month for general category women and Rs 1000 for SC/ST women —
+    and
+
+    expansion of Swasthya Sathi and Krishak Bandhu. In Tarakeswar''s peri-urban electorate,
+
+    the welfare promise energised women voters, small cultivator families and out-migrant
+
+    households dependent on supplemental income, creating a significant pro-TMC vote
+    bank.
+
+    '
+  tags:
+  - woman
+  - lakshmir_bhandar_beneficiary
+  - krishak_bandhu_beneficiary
+  - cultivator
+  - tmc_supporter
+  valence:
+    woman: positive
+    lakshmir_bhandar_beneficiary: positive
+    krishak_bandhu_beneficiary: positive
+    cultivator: positive
+    tmc_supporter: positive
+    bjp_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2021_West_Bengal_Legislative_Assembly_election
+- slug: swapan_dasgupta_bjp_candidate_tarakeswar
+  date: '2021-03-12'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: BJP fields veteran journalist Swapan Dasgupta — a Rajya Sabha MP — as
+    candidate from Tarakeswar AC
+  summary: 'BJP fielded high-profile ideologue and Rajya Sabha MP Swapan Dasgupta
+    as its candidate
+
+    from Tarakeswar, in a seat it believed it could swing. Dasgupta — a prominent
+    voice for
+
+    Hindu nationalism — was expected to consolidate upper-caste Hindu, bhadralok and
+    trader
+
+    votes who had favoured BJP in 2019 LS. His candidature made Tarakeswar a nationally
+
+    watched constituency and intensified BJP ground activity.
+
+    '
+  tags:
+  - bjp_supporter
+  - upper_caste_hindu
+  - bhadralok
+  valence:
+    bjp_supporter: positive
+    upper_caste_hindu: positive
+    bhadralok: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.myneta.info/WestBengal2021/candidate.php?candidate_id=660
+  - https://en.wikipedia.org/wiki/2021_West_Bengal_Legislative_Assembly_election
+- slug: wb_ae_2021_tarakeswar_tmc_win
+  date: '2021-05-02'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Ramendu Singha Roy (TMC) wins Tarakeswar AC by 7,484 over BJP's Swapan
+    Dasgupta; TMC sweeps WB with 213 seats
+  summary: 'In a closely watched contest, TMC''s Ramendu Singha Roy defeated high-profile
+    BJP candidate
+
+    Swapan Dasgupta by 7,484 votes (96,698 vs ~89,214) in Tarakeswar AC. TMC''s welfare
+
+    promises — especially Lakshmir Bhandar for women — and incumbency advantage outweighed
+
+    BJP''s Hindu consolidation strategy. At the state level, TMC returned to power
+    with 213
+
+    of 292 seats, crushing BJP''s bid for power. Dasgupta''s loss was seen as a repudiation
+
+    of BJP''s outsider-candidate strategy in a temple-economy seat.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - woman
+  - upper_caste_hindu
+  - bhadralok
+  - urban_trader
+  valence:
+    tmc_supporter: positive
+    bjp_supporter: negative
+    woman: positive
+    upper_caste_hindu: ambient
+    bhadralok: ambient
+  broadcast: true
+  sources:
+  - https://www.indiavotes.com/ac/summary/45249
+  - https://www.myneta.info/WestBengal2021/candidate.php?candidate_id=660
+  - https://en.wikipedia.org/wiki/2021_West_Bengal_Legislative_Assembly_election

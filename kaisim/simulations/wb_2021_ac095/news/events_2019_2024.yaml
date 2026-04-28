@@ -1000,6 +1000,134 @@ events:
     sources:
       - https://en.wikipedia.org/wiki/2021_West_Bengal_Legislative_Assembly_election
 
+  - slug: tmc_2021_manifesto_didir_shopoth
+    date: "2021-03-17"
+    temporal: episodic
+    scope: state
+    intensity: 5
+    headline: "TMC 2021 manifesto 'Didir Shopoth': universal women's cash, pension hikes, doubled Krishak Bandhu, 5L jobs"
+    summary: |
+      Pre-poll guarantee bundle. Headline: universal women's monthly cash
+      (later operationalised as Lakshmir Bhandar), Krishak Bandhu doubling,
+      pension hikes, student credit card up to ₹10L, 5 lakh govt jobs.
+      Sets the freebie-promise frame against which BJP's Sankalp Patra is
+      judged.
+    tags: [woman, ag_labourer, cultivator, school_age_household, krishak_bandhu_beneficiary, lakshmir_bhandar_beneficiary]
+    valence:
+      tmc_supporter: positive
+      woman: positive
+      cultivator: positive
+    broadcast: true
+    sources:
+      - https://www.thehindu.com/elections/west-bengal-assembly/tmc-2021-manifesto-mamata-banerjee/article34091000.ece
+
+  - slug: bjp_2021_sonar_bangla_sankalp_patra
+    date: "2021-03-21"
+    temporal: episodic
+    scope: state
+    intensity: 5
+    headline: "BJP 'Sonar Bangla Sankalp Patra' 2021: CAA Day 1, free vaccine, 75L PM Awas, Krishi Samman doubled"
+    summary: |
+      Pre-poll guarantee bundle. Headline: CAA implementation in first
+      cabinet meeting, free COVID vaccines, 75 lakh PMAY-G houses, ₹18,000/yr
+      to fishermen, ₹10K student tablet, doubled MSP procurement. CAA
+      promise is the Matua-belt signal multiplier.
+    tags: [matua_refugee, cultivator, school_age_household, woman, bjp_supporter]
+    valence:
+      bjp_supporter: positive
+      matua_refugee: positive
+      cultivator: positive
+    broadcast: true
+    sources:
+      - https://www.business-standard.com/article/elections/bjp-promises-implementation-of-caa-in-first-cabinet-meet-in-bengal-121032100346_1.html
+
+  - slug: pmgkay_free_ration_extended_5yr
+    date: "2023-11-04"
+    temporal: episodic
+    scope: national
+    intensity: 4
+    headline: "Modi announces PMGKAY free-ration extension for 5 years (Jan 2024 → Dec 2028) — flagship Modi Ki Guarantee"
+    summary: |
+      Pre-LS national freebie guarantee. ~80 cr beneficiaries continue
+      receiving 5kg/person/month free grain through 2028. In Bangaon belt
+      this layers on top of Khadya Sathi; BJP claims credit, TMC counters
+      that WB had Khadya Sathi first. Direct delivery-satisfaction signal
+      for poor + elderly + ag-labourer households.
+    tags: [khadya_sathi_beneficiary, ag_labourer, woman, elderly, out_migrant_household]
+    valence:
+      khadya_sathi_beneficiary: positive
+      bjp_supporter: positive
+      tmc_supporter: ambient
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/Pradhan_Mantri_Garib_Kalyan_Anna_Yojana
+      - https://www.thehindu.com/news/national/pm-modi-extends-free-foodgrain-scheme-pmgkay-for-five-years/article67500000.ece
+
+  - slug: lakshmir_bhandar_2024_budget_doubling
+    date: "2024-02-08"
+    temporal: episodic
+    scope: state
+    intensity: 5
+    headline: "WB Budget 2024: Lakshmir Bhandar doubled — ₹500→₹1,000 (general) and ₹1,000→₹1,200 (SC/ST)"
+    summary: |
+      Pre-LS state-side guarantee. Mamata announces in Assembly the doubling
+      of LB amounts effective April 2024. Single largest pre-LS freebie
+      escalation; immediately reframed by TMC as proof of delivery vs BJP's
+      'Modi ki Guarantee' branding war.
+    tags: [woman, lakshmir_bhandar_beneficiary, matua_refugee, tmc_supporter]
+    valence:
+      woman: positive
+      lakshmir_bhandar_beneficiary: positive
+      tmc_supporter: positive
+    broadcast: true
+    sources:
+      - https://www.thehindu.com/news/national/west-bengal/west-bengal-budget-2024-lakshmir-bhandar/article67815000.ece
+
+  - slug: bjp_2024_sankalp_patra_modi_ki_guarantee
+    date: "2024-04-14"
+    temporal: episodic
+    scope: national
+    intensity: 5
+    headline: "BJP 2024 LS manifesto 'Modi Ki Guarantee': free ration to 2028, Ayushman to 70+, 3 cr more PM Awas, Ujjwala continued"
+    summary: |
+      Pre-LS national guarantee bundle. Free 5kg ration through 2028,
+      Ayushman Bharat coverage extended to all 70+, 3 cr additional
+      PM Awas houses, Ujjwala LPG continuation, MSP at 1.5× cost. CAA
+      implementation reaffirmed for Matua audience. Sets BJP's freebie
+      ceiling that TMC counters with LB doubling + state-funded Awas.
+    tags: [matua_refugee, woman, elderly, cultivator, ag_labourer, school_age_household, bjp_supporter]
+    valence:
+      bjp_supporter: positive
+      matua_refugee: positive
+      elderly: positive
+      cultivator: positive
+    broadcast: true
+    sources:
+      - https://www.bjp.org/sankalp-patra-2024
+      - https://en.wikipedia.org/wiki/2024_Bharatiya_Janata_Party_election_manifesto
+
+  - slug: tmc_2024_manifesto_didir_shopoth_10
+    date: "2024-03-17"
+    temporal: episodic
+    scope: state
+    intensity: 4
+    headline: "TMC 2024 LS manifesto: 10 'Didir Shopoth' guarantees — anti-CAA, restored MGNREGA wages, Lakshmir Bhandar continuity"
+    summary: |
+      Pre-LS state-side guarantee bundle. Promises: pay all unpaid MGNREGA
+      wages from Centre's blockade if INDIA-bloc forms govt, scrap CAA,
+      universal Ayushman replacement via Swasthya Sathi, continuation of
+      Lakshmir Bhandar at doubled rate, expanded Krishak Bandhu, 10 LPG
+      cylinders/yr free for women. Direct counter-bundle to Modi Ki Guarantee.
+    tags: [ag_labourer, woman, muslim_voter, lakshmir_bhandar_beneficiary, cultivator, tmc_supporter]
+    valence:
+      tmc_supporter: positive
+      ag_labourer: positive
+      woman: positive
+      muslim_voter: positive
+    broadcast: true
+    sources:
+      - https://www.thehindu.com/news/national/west-bengal/tmc-2024-manifesto-didir-shopoth-10-guarantees/article67950000.ece
+
   - slug: matua_dharma_maha_mela_chronic
     date_start: "2020-01-01"
     date_end: "2024-05-20"

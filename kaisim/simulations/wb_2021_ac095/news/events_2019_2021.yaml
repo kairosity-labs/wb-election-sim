@@ -417,6 +417,71 @@ events:
     sources:
       - https://en.wikipedia.org/wiki/2021_West_Bengal_Legislative_Assembly_election
 
+  - slug: pmgkay_free_ration_covid
+    date_start: "2020-04-01"
+    date_end: "2021-05-02"
+    temporal: chronic
+    scope: national
+    intensity: 4
+    headline: "Centre's PMGKAY free 5kg/person/month ration scheme launched + repeatedly extended through pandemic"
+    summary: |
+      Centre-side freebie / guarantee. Direct food-security DBT-in-kind for
+      ~80 cr beneficiaries nationally. In Bangaon belt, layered on top of
+      WB's Khadya Sathi. BJP claims credit; TMC frames as Centre belatedly
+      doing what WB already did via Khadya Sathi.
+    tags: [khadya_sathi_beneficiary, ag_labourer, woman, elderly, out_migrant_household]
+    valence:
+      khadya_sathi_beneficiary: positive
+      bjp_supporter: positive
+      tmc_supporter: ambient
+    broadcast: true
+    sources:
+      - https://en.wikipedia.org/wiki/Pradhan_Mantri_Garib_Kalyan_Anna_Yojana
+
+  - slug: tmc_2021_manifesto_didir_shopoth
+    date: "2021-03-17"
+    temporal: episodic
+    scope: state
+    intensity: 5
+    headline: "TMC 2021 manifesto 'Didir Shopoth': promises ₹500-1000/mo to women, pension hikes, doubled Krishak Bandhu, 5L jobs"
+    summary: |
+      Pre-poll guarantee bundle. Headline promise was the universal women's
+      cash transfer (later operationalised as Lakshmir Bhandar Aug 2021),
+      doubling Krishak Bandhu, pension hikes (Bidhoba/Manabik), free student
+      credit card up to ₹10L, 5 lakh govt jobs, expanded Khadya Sathi. Sets
+      the freebie-promise frame against which BJP's Sankalp Patra is judged.
+    tags: [woman, ag_labourer, cultivator, school_age_household, krishak_bandhu_beneficiary, lakshmir_bhandar_beneficiary]
+    valence:
+      tmc_supporter: positive
+      woman: positive
+      cultivator: positive
+    broadcast: true
+    sources:
+      - https://www.thehindu.com/elections/west-bengal-assembly/tmc-2021-manifesto-mamata-banerjee/article34091000.ece
+      - https://en.wikipedia.org/wiki/All_India_Trinamool_Congress
+
+  - slug: bjp_2021_sonar_bangla_sankalp_patra
+    date: "2021-03-21"
+    temporal: episodic
+    scope: state
+    intensity: 5
+    headline: "BJP 'Sonar Bangla Sankalp Patra' 2021: CAA implementation Day 1, free vaccine, 75L PM Awas, Krishi Samman doubled"
+    summary: |
+      Pre-poll guarantee bundle. Headline promises: CAA implementation in
+      first cabinet meeting, free COVID vaccines for all, 75 lakh PMAY-G
+      houses for WB, ₹18,000/yr to fishermen, ₹10K student tablet, doubling
+      MSP procurement. Frames BJP's bundle directly against TMC's. CAA
+      promise is the Matua-belt signal multiplier.
+    tags: [matua_refugee, cultivator, school_age_household, woman, bjp_supporter]
+    valence:
+      bjp_supporter: positive
+      matua_refugee: positive
+      cultivator: positive
+    broadcast: true
+    sources:
+      - https://www.thehindu.com/elections/west-bengal-assembly/bjp-sonar-bangla-sankalp-patra-2021-amit-shah/article34111000.ece
+      - https://www.business-standard.com/article/elections/bjp-promises-implementation-of-caa-in-first-cabinet-meet-in-bengal-121032100346_1.html
+
   - slug: wb_assembly_results_2021
     date: "2021-05-02"
     temporal: episodic

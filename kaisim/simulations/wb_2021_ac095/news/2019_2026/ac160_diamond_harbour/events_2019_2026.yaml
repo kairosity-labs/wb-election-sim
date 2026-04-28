@@ -1,0 +1,1845 @@
+cutoff_date: '2026-04-26'
+events:
+- slug: abhishek_ls2019_diamond_harbour_win
+  date: '2019-05-23'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Abhishek Banerjee wins Diamond Harbour LS by 3,20,594 votes; fortress
+    established
+  summary: 'Abhishek Banerjee''s 2019 Lok Sabha victory by 3.2 lakh votes set the
+    baseline for
+
+    TMC''s dominance in Diamond Harbour constituency. His second consecutive LS win
+    confirmed
+
+    the seat as a personal stronghold, enabling sustained MPLAD investment and constituency
+
+    infrastructure. Muslim voter consolidation (30-35% of electorate) and women-voter
+
+    support were decisive.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - woman
+  - muslim_voter
+  valence:
+    tmc_supporter: positive
+    bjp_supporter: negative
+    muslim_voter: positive
+    woman: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Diamond_Harbour_Lok_Sabha_constituency
+  - https://www.oneindia.com/diamond-harbour-lok-sabha-election-result-522/
+- slug: nrc_assam_final_list
+  date: '2019-08-31'
+  temporal: episodic
+  scope: national
+  intensity: 3
+  headline: Assam NRC excludes 19 lakh; Muslim-voter anxiety resonates in Diamond
+    Harbour
+  summary: 'The Assam NRC final list excluded roughly 19 lakh people, triggering nationwide
+    Muslim
+
+    fear of statelessness. Diamond Harbour''s 30-35% Muslim electorate was directly
+    anxious;
+
+    TMC''s firm opposition to both NRC and CAA consolidated Muslim bloc loyalty, which
+    it
+
+    maintained through 2021 and 2024 without significant splits.
+
+    '
+  tags:
+  - muslim_voter
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    muslim_voter: negative
+    tmc_supporter: positive
+    bjp_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/National_Register_of_Citizens_(Assam)
+- slug: caa_passed_parliament
+  date: '2019-12-11'
+  temporal: episodic
+  scope: national
+  intensity: 4
+  headline: 'CAA passed: Muslim voters in Diamond Harbour face citizenship anxiety;
+    TMC consolidates bloc'
+  summary: 'The Citizenship (Amendment) Act 2019 excluded Muslims from fast-track
+    citizenship.
+
+    In Diamond Harbour, anti-CAA protests erupted; the Muslim voter bloc — decisive
+    in
+
+    AC-160 — consolidated firmly with TMC. The CAA-NRC nexus fear remained a persistent
+
+    mobilisation frame through 2026, particularly when linked to the SIR voter-roll
+
+    revision that disproportionately deleted Muslim names.
+
+    '
+  tags:
+  - muslim_voter
+  - tmc_supporter
+  - bjp_supporter
+  - upper_caste_hindu
+  valence:
+    muslim_voter: negative
+    tmc_supporter: positive
+    bjp_supporter: positive
+    upper_caste_hindu: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Citizenship_Amendment_Act_protests
+  - https://www.boomlive.in/explainers/citizenship-amendment-act-west-bengal-24906
+- slug: covid_lockdown_march2020
+  date: '2020-03-24'
+  temporal: episodic
+  scope: national
+  intensity: 5
+  headline: COVID lockdown strands Gulf and interstate migrants; Diamond Harbour out-migrant
+    economy collapses
+  summary: 'India''s March 2020 lockdown stranded tens of thousands of seasonal workers
+    from South
+
+    24 Parganas in Gulf countries (UAE, Qatar, Saudi Arabia, Kuwait) and Indian states
+
+    (Kerala, Maharashtra). Diamond Harbour''s large out-migrant-household economy
+    suffered
+
+    immediate income loss. Families dependent on Gulf remittances faced extreme hardship;
+
+    state MLAs were flooded with SOS calls.
+
+    '
+  tags:
+  - out_migrant_household
+  - ag_labourer
+  - cultivator
+  - muslim_voter
+  - woman
+  valence:
+    out_migrant_household: negative
+    ag_labourer: negative
+    cultivator: negative
+    muslim_voter: negative
+    woman: negative
+  broadcast: true
+  sources:
+  - https://scroll.in/article/963102/how-much-can-we-suffer-bengals-migrant-workers-reel-from-twin-blows-of-lockdown-and-cyclone
+  - https://thefederal.com/states/east/west-bengal/mlas-flooded-with-sos-calls-as-stranded-workers-cry-for-help/
+- slug: cyclone_amphan_landfall
+  date: '2020-05-20'
+  temporal: episodic
+  scope: district
+  intensity: 5
+  headline: Super Cyclone Amphan directly hits Diamond Harbour, Kakdwip, Sagar Island
+  summary: 'Super Cyclone Amphan — India''s costliest tropical cyclone — made landfall
+    on 20 May 2020,
+
+    battering Diamond Harbour, Kakdwip, Namkhana, Sagar Island, and adjacent Sundarban
+    blocks
+
+    with ferocious winds and flooding. Thousands of homes, crops, and livelihoods
+    were
+
+    destroyed in AC-160. The simultaneous COVID lockdown and Amphan devastation created
+    a
+
+    humanitarian crisis with no parallel in recent South 24 Parganas history.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - woman
+  - elderly
+  - out_migrant_household
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    woman: negative
+    elderly: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Cyclone_Amphan
+  - https://pmc.ncbi.nlm.nih.gov/articles/PMC8140585/
+  - https://en.wikipedia.org/wiki/Effects_of_Cyclone_Amphan_in_India
+- slug: amphan_relief_cut_money_allegations
+  date: '2020-06-10'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: 'Amphan relief corruption: TMC panchayat leaders in Diamond Harbour-Kakdwip
+    area accused'
+  summary: 'Widespread allegations emerged that TMC-aligned panchayat officials in
+    Diamond Harbour,
+
+    Kakdwip, and Patharpratima distributed Amphan relief (Rs 20,000/household) to
+    ineligible
+
+    relatives. Over 2,000 statewide complaints reached Nabanna; TMC suspended 18 panchayat
+
+    members and show-caused South 24 Parganas BDOs. The cut-money scandal dented TMC''s
+
+    welfare-delivery credibility and boosted BJP''s anti-corruption pitch.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - tmc_supporter
+  - bjp_supporter
+  - woman
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://theprint.in/politics/no-amphan-relief-cut-money-violence-rule-but-this-bengal-district-will-vote-for-didi/632016/
+  - https://theprint.in/india/mamata-govt-now-in-trouble-over-amphan-relief-scam-after-cut-money-and-pds-corruption/451774/
+- slug: gulf_workers_stranded_covid
+  date: '2020-04-01'
+  temporal: chronic
+  scope: district
+  intensity: 4
+  headline: Gulf migrant workers from Diamond Harbour stranded; remittances cut off
+    for 3-6 months
+  summary: 'Diamond Harbour has a significant Gulf-migrant sending community — workers
+    in UAE, Qatar,
+
+    Saudi Arabia and Kuwait. COVID lockdowns in Gulf countries from April 2020 meant
+    workers
+
+    could not return and stopped sending remittances for 3-6 months. Muslim households
+    in
+
+    AC-160, disproportionately represented in Gulf migration, bore the brunt of the
+    income shock.
+
+    '
+  tags:
+  - out_migrant_household
+  - muslim_voter
+  - woman
+  - elderly
+  valence:
+    out_migrant_household: negative
+    muslim_voter: negative
+    woman: negative
+  broadcast: false
+  sources:
+  - https://www.merip.org/2020/04/no-good-options-for-migrant-workers-in-gulf-covid-19-lockdown/
+- slug: abhishek_coal_scam_cbi_fir
+  date: '2020-11-27'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: CBI coal-scam FIR links to Abhishek Banerjee's networks; BJP escalates
+    probe narrative
+  summary: 'The CBI''s November 2020 FIR in the Eastern Coalfields coal pilferage
+    case in Asansol
+
+    named networks allegedly connected to Abhishek Banerjee. BJP used the FIR as a
+    key
+
+    campaign issue in Diamond Harbour, where Abhishek is the dominant figure. TMC
+    framed
+
+    the CBI action as BJP''s vendetta against Mamata''s nephew ahead of the 2021 election.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - bhadralok
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: positive
+    bhadralok: negative
+  broadcast: true
+  sources:
+  - https://www.thequint.com/quint-news-feed/west-bengal-politics-the-coal-scam-how-is-abhishek-banerjee-wife-rujira-naroola-allegedly-involved
+- slug: swasthya_sathi_expansion_dec2020
+  date: '2020-12-01'
+  temporal: chronic
+  scope: state
+  intensity: 4
+  headline: 'Swasthya Sathi universalised: Diamond Harbour rural and Sundarban-fringe
+    households enrolled'
+  summary: 'West Bengal expanded Swasthya Sathi to cover all households with Rs 5
+    lakh/year
+
+    cashless health coverage. South 24 Parganas organised boat-based mobile enrolment
+
+    camps reaching Patharpratima, Namkhana, and Sagar within Diamond Harbour LS constituency.
+
+    The scheme became the most cited TMC welfare achievement and a cornerstone of
+    Abhishek''s
+
+    constituency narrative through 2026.
+
+    '
+  tags:
+  - swasthya_sathi_beneficiary
+  - woman
+  - elderly
+  - ag_labourer
+  - cultivator
+  - tmc_supporter
+  valence:
+    swasthya_sathi_beneficiary: positive
+    woman: positive
+    elderly: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://s24pgs.gov.in/scheme/swasthyasathi-and-rsby/
+  - https://swasthyasathi.gov.in/AboutScheme
+- slug: duare_sarkar_first_phase
+  date: '2020-12-01'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: 'Duare Sarkar welfare camps launched: Diamond Harbour blocks deliver 18
+    schemes at doorstep'
+  summary: 'The Duare Sarkar programme launched 1 December 2020 organised welfare
+    camps at gram
+
+    panchayat level across Diamond Harbour constituency, delivering Swasthya Sathi,
+    Khadya
+
+    Sathi, Kanyashree, Krishak Bandhu, and Sabuj Sathi in person. The programme created
+
+    a direct patronage-delivery link between state welfare and TMC''s booth-level
+    machine
+
+    that proved decisive in 2021 and shaped voter expectations through 2026.
+
+    '
+  tags:
+  - swasthya_sathi_beneficiary
+  - kanyashree_household
+  - krishak_bandhu_beneficiary
+  - khadya_sathi_beneficiary
+  - sabuj_sathi_household
+  - woman
+  - cultivator
+  - tmc_supporter
+  valence:
+    tmc_supporter: positive
+    woman: positive
+    cultivator: positive
+    ag_labourer: positive
+  broadcast: true
+  sources:
+  - https://wb.gov.in/duare-sarkar.aspx
+  - https://wb.nic.in/news/duare-sarkar-govt-at-doorstep-and-paray-samadhan-solution-at-mohalla-two-massive-outreach-program-of-government-of-west-bengal-developed-by-nic-west-bengal/
+- slug: sebaashray_health_camps_2021
+  date: '2021-02-15'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: Abhishek's Sebaashray health mega-camps cover all 7 assembly segments;
+    7.5 lakh treated
+  summary: 'Abhishek Banerjee organised Sebaashray free health camps across all seven
+    assembly
+
+    constituencies in his Diamond Harbour LS seat, deploying 1,200+ doctors with digital
+
+    diagnostics. Over 7.5 lakh people were treated in 50 days — directly ahead of
+    the 2021
+
+    AE. The programme cemented Abhishek''s reputation as an activist-MP with a governance
+
+    model distinct from TMC''s panchayat machine.
+
+    '
+  tags:
+  - swasthya_sathi_beneficiary
+  - woman
+  - elderly
+  - cultivator
+  - ag_labourer
+  - tmc_supporter
+  valence:
+    swasthya_sathi_beneficiary: positive
+    woman: positive
+    elderly: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://theprint.in/india/abhishek-banerjee-launches-sebashray-health-camps-in-diamond-harbour/2428334/
+  - https://aitcofficial.org/not-just-in-diamond-harbour-people-from-across-bengal-come-to-avail-our-services-abhishek-banerjee/
+- slug: tmc_manifesto_2021
+  date: '2021-03-17'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: 'TMC 2021 manifesto: Lakshmir Bhandar, Krishak Bandhu hike, Rs 10 lakh
+    Student Credit Card'
+  summary: 'TMC''s 2021 manifesto promised Lakshmir Bhandar income support for women
+    (Rs 500-1,000/month),
+
+    Krishak Bandhu agricultural aid hike, and a Student Credit Card at 4% interest
+    up to
+
+    Rs 10 lakh. The welfare package was directly mobilised through Abhishek''s panchayat
+
+    machine in Diamond Harbour, drawing in women, cultivators, and school-age households.
+
+    '
+  tags:
+  - woman
+  - cultivator
+  - ag_labourer
+  - lakshmir_bhandar_beneficiary
+  - krishak_bandhu_beneficiary
+  - school_age_household
+  - tmc_supporter
+  valence:
+    woman: positive
+    cultivator: positive
+    ag_labourer: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.business-standard.com/article/elections/bengal-cm-mamata-releases-tmc-manifesto-promises-income-for-all-121031701043_1.html
+- slug: bjp_sonar_bangla_manifesto_2021
+  date: '2021-03-21'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: 'BJP Sonar Bangla manifesto: Ayushman Bharat, CAA, anti-cut-money — limited
+    traction in Diamond Harbour'
+  summary: 'BJP''s 2021 Sonar Bangla manifesto promised Ayushman Bharat, CAA implementation,
+    and
+
+    anti-corruption measures. In Diamond Harbour, the CAA pitch alienated Muslim voters
+
+    decisively; cultivators and ag-labourers preferred TMC''s existing welfare delivery;
+
+    Abhishek''s organisational machine limited BJP''s penetration even at the booth
+    level.
+
+    '
+  tags:
+  - bjp_supporter
+  - tmc_supporter
+  - muslim_voter
+  - upper_caste_hindu
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: negative
+    muslim_voter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2021_West_Bengal_Legislative_Assembly_election
+- slug: we2021_ae_result_pannalal_wins
+  date: '2021-05-02'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Pannalal Halder (TMC) wins AC-160 Diamond Harbour by 16,996; retains TMC
+    fortress
+  summary: 'TMC''s Pannalal Halder won Diamond Harbour AC-160 with 98,478 votes (43.7%),
+    beating
+
+    BJP''s Dipak Kumar Halder (81,482 votes) by 16,996. Muslim voter and women-voter
+
+    consolidation, backed by Abhishek''s personal constituency machine, was decisive
+    despite
+
+    the Amphan relief cut-money controversy. The seat remained a secure TMC hold within
+
+    Abhishek''s LS fortress.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - muslim_voter
+  - woman
+  - cultivator
+  valence:
+    tmc_supporter: positive
+    bjp_supporter: negative
+    muslim_voter: positive
+  broadcast: true
+  sources:
+  - https://www.indiavotes.com/vidhan-sabha-details/2021/west-bengal/diamond-harbour/9/45193/284
+  - https://www.oneindia.com/diamond-harbour-assembly-elections-wb-143/
+- slug: post_poll_violence_s24p_2021
+  date: '2021-05-03'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: 'Post-poll violence in S24P: BJP candidate attacked near Diamond Harbour;
+    BJP files national complaints'
+  summary: 'Post-poll violence broke out across South 24 Parganas following TMC''s
+    2021 landslide.
+
+    BJP''s Diamond Harbour candidate Dipak Kumar Halder was attacked in Haridebpur.
+    BJP
+
+    claimed 6+ workers killed statewide; multiple women reportedly attacked. CBI later
+
+    raided TMC-linked suspects. The violence entrenched ''TMC terror'' as a BJP narrative
+
+    and is cited by Dipak Halder as he contests again in 2026.
+
+    '
+  tags:
+  - bjp_supporter
+  - tmc_supporter
+  - woman
+  - elderly
+  valence:
+    bjp_supporter: negative
+    tmc_supporter: negative
+    bhadralok: negative
+  broadcast: true
+  sources:
+  - https://www.oneindia.com/india/bengal-elections-2021-bjp-candidate-beaten-up-in-diamond-harbour-3239490.html
+  - https://en.wikipedia.org/wiki/2021_West_Bengal_post-poll_violence
+  - https://www.deccanherald.com/india/west-bengal/west-bengal-2021-post-poll-violence-case-cbi-raids-residence-of-2-tmc-leaders-3026664
+- slug: cyclone_yaas_may2021
+  date: '2021-05-26'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: 'Cyclone Yaas: Diamond Harbour records 57mm rain; S24P coastal villages
+    submerged'
+  summary: 'Cyclone Yaas struck on 26 May 2021, coinciding with a lunar spring tide
+    that caused
+
+    severe storm surge inundation across South 24 Parganas coastal blocks. Diamond
+    Harbour
+
+    logged 57mm rainfall. Joynagar, Basanti, Kultali, Namkhana, and Kakdwip saw embankment
+
+    breaches. Over 300,000 homes were damaged statewide; fishing and cultivator households
+
+    in Diamond Harbour faced a third major shock within 12 months.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - woman
+  - elderly
+  - out_migrant_household
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    woman: negative
+    elderly: negative
+  broadcast: true
+  sources:
+  - https://floodlist.com/asia/india-cyclone-yaas-may-2021
+  - https://en.wikipedia.org/wiki/Cyclone_Yaas
+  - https://science.thewire.in/politics/government/cyclone-yaas-and-spring-tide-inundate-medinipur-sundarbans-coastal-line/
+- slug: lakshmir_bhandar_launch
+  date: '2021-08-16'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: 'Lakshmir Bhandar launched: S24P records highest enrolment — 4.7 lakh
+    in first 2 days'
+  summary: 'West Bengal launched Lakshmir Bhandar, providing Rs 500/month (general)
+    or Rs 1,000/month
+
+    (SC/ST) direct bank transfers to women heads of household. South 24 Parganas recorded
+    the
+
+    highest statewide enrolment — 4.7 lakh applications in the first two days — driven
+    by
+
+    Diamond Harbour''s dense rural women population. The scheme became the dominant
+    pro-TMC
+
+    narrative in AC-160 through the 2026 election.
+
+    '
+  tags:
+  - lakshmir_bhandar_beneficiary
+  - woman
+  - tmc_supporter
+  - cultivator
+  - ag_labourer
+  valence:
+    lakshmir_bhandar_beneficiary: positive
+    woman: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://s24pgs.gov.in/lakshmir-bhandar/
+  - https://sarkariyojana.com/lakshmi-bhandar-scheme-west-bengal/
+- slug: abhishek_appointed_tmc_general_secretary
+  date: '2021-06-05'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: Abhishek Banerjee becomes TMC National General Secretary; Diamond Harbour
+    status elevated
+  summary: 'After TMC''s 2021 victory, Abhishek Banerjee was appointed All India Trinamool
+    Congress
+
+    National General Secretary. In Diamond Harbour, his elevation consolidated his
+    role as
+
+    the second most powerful figure in West Bengal politics, giving his constituency
+    machine
+
+    direct access to party resources. BJP escalated ED-CBI pressure following his
+    promotion.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - bhadralok
+  valence:
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Abhishek_Banerjee_(politician)
+- slug: abhishek_ed_interrogation_delhi_2021
+  date: '2021-09-06'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: ED interrogates Abhishek Banerjee in Delhi coal scam; TMC protests across
+    Diamond Harbour
+  summary: 'ED summoned and questioned Abhishek Banerjee at its Delhi office in 2021
+    in the coal
+
+    pilferage case. TMC organised protests in Diamond Harbour; Abhishek declared he
+    would
+
+    not bow to BJP. His supporters viewed the interrogation as BJP''s political persecution
+
+    of their LS MP. The probe remained a live issue through the 2026 assembly election
+
+    campaign.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - bhadralok
+  - muslim_voter
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: positive
+    bhadralok: negative
+  broadcast: true
+  sources:
+  - https://www.oneindia.com/india/won-t-bow-my-head-before-bjp-tmc-s-abhishek-banerjee-after-ed-interrogation-in-cattle-scam-3456615.html
+- slug: mgnrega_funds_blocked_wb_2022
+  date: '2022-03-01'
+  temporal: chronic
+  scope: state
+  intensity: 4
+  headline: Centre blocks MGNREGA funds to WB; Diamond Harbour ag-labourers lose guaranteed
+    employment
+  summary: 'The Union government suspended MGNREGS funds to West Bengal from March
+    2022, citing
+
+    alleged irregularities. In Diamond Harbour, ag-labourer and cultivator households
+    who
+
+    depended on MGNREGA for lean-season income were severely impacted. An estimated
+    70 lakh
+
+    WB workers were affected statewide. TMC blamed BJP; BJP blamed TMC corruption.
+    The
+
+    freeze became a persistent anti-Centre grievance through the 2026 election.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - tmc_supporter
+  - bjp_supporter
+  - woman
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    tmc_supporter: negative
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://scroll.in/article/1041183/why-the-centre-has-not-paid-mgnrega-wages-in-bengal-for-a-year
+  - https://thefederal.com/category/states/east/west-bengal/centre-sc-orders-mgnregs-frozen-bengal-70-lakh-workers-tmc-218532
+- slug: partha_chatterjee_arrested_ssc_scam
+  date: '2022-07-23'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: ED arrests education minister Partha Chatterjee; Rs 21 crore cash seized
+    in SSC scam
+  summary: 'TMC education minister Partha Chatterjee was arrested by ED on 23 July
+    2022 in the
+
+    SSC teacher recruitment scam. Rs 21 crore cash was found at associate Arpita Mukherjee''s
+
+    flat. The scam involved roughly 26,000 illegal appointments. In Diamond Harbour,
+    school-age
+
+    households felt betrayed; educated youth who had lost out on legitimate teaching
+    jobs were
+
+    furious. The scam became BJP''s primary anti-TMC governance weapon through 2026.
+
+    '
+  tags:
+  - school_age_household
+  - tmc_supporter
+  - bjp_supporter
+  - bhadralok
+  - woman
+  valence:
+    school_age_household: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+    bhadralok: negative
+  broadcast: true
+  sources:
+  - https://www.indiatvnews.com/news/india/partha-chatterjee-arrested-by-ed-in-west-bengal-ssc-scam-after-26-hours-of-questioning-2022-07-23-794257
+  - https://en.wikipedia.org/wiki/2022_West_Bengal_School_Service_Commission_recruitment_scam
+- slug: abhishek_rujira_loc_ed_2022
+  date: '2022-10-01'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: ED issues Look Out Circular against Abhishek and wife Rujira in coal scam
+  summary: 'The ED issued an LOC against Abhishek Banerjee and wife Rujira Naroola
+    in the coal
+
+    pilferage money-laundering case, restricting foreign travel. The Supreme Court
+    directed
+
+    interrogation to be conducted at Kolkata rather than Delhi. TMC framed the LOC
+    as BJP''s
+
+    political harassment of their MP. Diamond Harbour''s TMC cadres staged local protests.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - bhadralok
+  - woman
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.livelaw.in/top-stories/supreme-court-stay-delhi-hc-order-abhishek-banerjee-rujira-banerjee-coal-scam-case-199304
+- slug: rujira_stopped_airport_loc_2023
+  date: '2023-06-05'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: Rujira Banerjee stopped at airport under ED LOC; SC orders withdrawal
+  summary: 'Abhishek Banerjee''s wife Rujira was stopped from boarding a flight abroad
+    on 5 June 2023.
+
+    The Supreme Court directed ED to withdraw the LOC in July 2023, permitting travel
+    for
+
+    medical treatment. TMC, with Mamata calling it "inhuman," used the airport incident
+
+    to consolidate sympathy in Diamond Harbour. Women voters were particularly receptive
+
+    to the narrative of family-level persecution by BJP''s central agencies.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - woman
+  - bhadralok
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: positive
+    woman: negative
+  broadcast: true
+  sources:
+  - https://www.livelaw.in/top-stories/supreme-court-directs-ed-to-withdraw-loc-against-tmc-mp-abhishek-banerjee-wife-rujira-banerjee-233841
+  - https://www.millenniumpost.in/bengal/rujira-banerjee-stopped-from-boarding-flight-mamata-calls-it-inhuman-521088
+- slug: panchayat_election_2023_violence_s24p
+  date: '2023-07-08'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: 'WB panchayat elections 2023: Violence in S24P; bombings alleged in Basanti;
+    repolling ordered'
+  summary: 'West Bengal''s July 2023 panchayat elections saw 55 deaths statewide between
+    June-July.
+
+    South 24 Parganas saw bombings alleged in Basanti, clashes between TMC and ISF
+    in
+
+    Bhangar, and repolling ordered in 697 booths including S24P booths. TMC retained
+
+    overwhelming panchayat dominance in Diamond Harbour area. BJP''s complaints of
+
+    nomination suppression and booth rigging fed into its 2026 election violence narrative.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - cultivator
+  - ag_labourer
+  - woman
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: negative
+    cultivator: negative
+  broadcast: true
+  sources:
+  - https://organiser.org/2023/07/12/183409/bharat/west-bengal-panchayat-election-violence-section-144-imposed-in-south-24-parganas-bhangar-and-kashipur/
+  - https://en.wikipedia.org/wiki/2023_West_Bengal_local_elections_violence
+- slug: tmc_panchayat_landslide_2023
+  date: '2023-07-11'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: TMC sweeps WB panchayat elections; Diamond Harbour panchayat machine remains
+    intact
+  summary: 'TMC won the 2023 panchayat elections by a landslide statewide, with BJP
+    as distant second.
+
+    Diamond Harbour''s panchayat bodies remained firmly under TMC control under Abhishek''s
+
+    direct supervision, maintaining the grassroots welfare-delivery and voter-mobilisation
+
+    infrastructure ahead of the 2024 LS and 2026 AE contests.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - cultivator
+  - ag_labourer
+  - woman
+  valence:
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.indiatvnews.com/west-bengal/news-west-bengal-panchayat-elections-result-2023-tmc-bjp-congress-cpi-gram-panchayat-zila-parishad-panchayat-samiti-winner-latest-updates-2023-07-12-880626
+- slug: ram_mandir_inauguration_jan2024
+  date: '2024-01-22'
+  temporal: episodic
+  scope: national
+  intensity: 3
+  headline: 'Ram Mandir consecration: BJP temple politics meets Muslim-majority concern
+    in Diamond Harbour'
+  summary: 'PM Modi consecrated the Ram Mandir in Ayodhya on 22 January 2024. TMC
+    boycotted the event,
+
+    with Mamata calling it a "BJP political gimmick." In Diamond Harbour, Hindu upper-caste
+
+    and OBC voters responded positively to the temple; Muslim voters (~30-35%) were
+    alienated.
+
+    The event had mixed net effect: it reinforced BJP''s Hindu consolidation attempt
+    but
+
+    failed to dent TMC''s Muslim bloc advantage in AC-160.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - muslim_voter
+  - bjp_supporter
+  - tmc_supporter
+  - bhadralok
+  valence:
+    upper_caste_hindu: positive
+    muslim_voter: negative
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.businesstoday.in/latest/trends/story/ayodhya-ram-temple-inauguration-west-bengal-cm-mamata-banerjee-likely-to-skip-event-on-jan-22-410939-2023-12-27
+- slug: sandeshkhali_communal_spillover
+  date: '2024-02-05'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Sandeshkhali violence and BJP communal frame spills into Diamond Harbour
+    campaign
+  summary: 'TMC leader Sheikh Shahjahan''s alleged land-grab and sexual assault in
+    Sandeshkhali
+
+    (North 24 Parganas) from January 2024 generated massive national outrage. BJP
+    framed
+
+    Sandeshkhali as evidence of TMC-Muslim impunity, resonating with Hindu (Namasudra
+    SC,
+
+    Mahishya OBC) voters in Diamond Harbour. Muslim voters and TMC cadres rejected
+    the
+
+    frame as BJP propaganda. Shahjahan was arrested on 29 February 2024.
+
+    '
+  tags:
+  - woman
+  - upper_caste_hindu
+  - muslim_voter
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    woman: negative
+    upper_caste_hindu: negative
+    muslim_voter: ambient
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Sandeshkhali_violence
+  - https://www.businesstoday.in/india/story/sandeshkhali-violence-west-bengal-police-arrests-tmc-leader-sheikh-shahjahan-from-north-24-parganas-419404-2024-02-29
+- slug: ssc_calcutta_hc_cancels_teachers
+  date: '2024-04-04'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Calcutta HC cancels 2016 SSC recruitment; 25,000+ teachers face dismissal
+  summary: 'The Calcutta High Court declared the 2016 SSC teacher recruitment entirely
+    null and void,
+
+    affecting approximately 25,000 teaching and non-teaching staff. In Diamond Harbour,
+
+    school-age households with affected members faced acute economic anxiety; BJP
+    framed the
+
+    ruling as proof of TMC''s governance failure. Youth unemployment became an acute
+    issue
+
+    ahead of the 2024 LS election.
+
+    '
+  tags:
+  - school_age_household
+  - tmc_supporter
+  - bjp_supporter
+  - bhadralok
+  - woman
+  valence:
+    school_age_household: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+    bhadralok: negative
+  broadcast: true
+  sources:
+  - https://ddnews.gov.in/en/west-bengal-teacher-recruitment-scam-calcutta-hc-declares-2016-ssc-recruitment-null-and-void-orders-fresh-appointments/
+- slug: abhishek_ls2024_wins_710930_margin
+  date: '2024-06-04'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Abhishek wins Diamond Harbour LS 2024 by record 7,10,930 votes; BJP calls
+    it 'fraud'
+  summary: 'Abhishek Banerjee''s 2024 Lok Sabha victory by 7.1 lakh votes over BJP''s
+    Abhijit Das
+
+    (Bobby) set a new constituency record. The result — more than double his 2019
+    margin —
+
+    validated TMC''s welfare-delivery machine, Sebaashray health camps, and Abhishek''s
+
+    personal constituency organisation. BJP publicly questioned the margin, calling
+    it an
+
+    "electoral aberration or organised fraud." The landmark victory defined AC-160''s
+    political
+
+    landscape for the 2026 assembly election.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - muslim_voter
+  - woman
+  - cultivator
+  - ag_labourer
+  valence:
+    tmc_supporter: positive
+    bjp_supporter: negative
+    muslim_voter: positive
+    woman: positive
+  broadcast: true
+  sources:
+  - https://results.eci.gov.in/PcResultGenJune2024/ConstituencywiseS2521.htm
+  - https://www.freepressjournal.in/india/west-bengal-lok-sabha-election-results-2024-diamond-harbour-candidate-abhishek-banerjee-shatters-cpims-2004-victory-margin
+  - https://www.prokerala.com/news/articles/a1687570.html
+- slug: rg_kar_rape_murder_protest_2024
+  date: '2024-08-09'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: 'RG Kar trainee doctor rape-murder: ''Reclaim the Night'' protests across
+    WB; TMC under fire'
+  summary: 'A 31-year-old resident doctor was raped and murdered at Kolkata''s RG
+    Kar Medical College
+
+    on 9 August 2024. Mass protests — including South 24 Parganas — erupted statewide.
+
+    The Supreme Court took suo motu cognizance; doctors struck work for 50 days. In
+    Diamond
+
+    Harbour, women voters'' sense of safety and trust in TMC''s governance were significantly
+
+    damaged. The case remained alive through the 2026 election as a BJP anti-TMC charge.
+
+    '
+  tags:
+  - woman
+  - bhadralok
+  - tmc_supporter
+  - bjp_supporter
+  - school_age_household
+  valence:
+    woman: negative
+    bhadralok: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2024_R._G._Kar_Medical_College_and_Hospital_rape_and_murder
+  - https://www.business-standard.com/india-news/rg-kar-medic-rape-murder-unprecedented-protests-and-the-quest-for-justice-124123100524_1.html
+- slug: bangladesh_hasina_ouster_august2024
+  date: '2024-08-05'
+  temporal: episodic
+  scope: national
+  intensity: 4
+  headline: Hasina flees Bangladesh; anti-Hindu violence; hilsa ban hits Diamond Harbour
+    fishing economy
+  summary: 'Bangladesh PM Hasina resigned on 5 August 2024; widespread anti-Hindu
+    violence followed
+
+    (2,010 incidents in 16 days). Hindu voters in Diamond Harbour were alarmed; Muslim
+    voters
+
+    expressed anxiety over India-Bangladesh diplomatic rupture. Bangladesh''s subsequent
+    hilsa
+
+    export ban raised fish prices 30% (to Rs 1,800/kg), directly hurting Diamond Harbour''s
+
+    fishing community and seasonal fish traders ahead of Durga Puja.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - muslim_voter
+  - out_migrant_household
+  - cultivator
+  - bhadralok
+  valence:
+    upper_caste_hindu: negative
+    muslim_voter: negative
+    out_migrant_household: negative
+    cultivator: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2024_Bangladesh_anti-Hindu_violence
+  - https://thedailyguardian.com/west-bengal-faces-festive-fish-famine-as-bangladesh-halts-hilsa-exports/
+  - https://www.thedailystar.net/business/news/fishy-business-caught-fraying-india-bangladesh-ties-3710876
+- slug: sc_upholds_ed_summons_abhishek_2024
+  date: '2024-09-09'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: Supreme Court upholds ED summons against Abhishek Banerjee in coal scam
+  summary: 'The Supreme Court dismissed Abhishek Banerjee''s appeals against ED summons
+    in the coal
+
+    money-laundering case on 9 September 2024, directing him to appear before the
+    agency.
+
+    BJP framed the ruling as judicial confirmation of TMC corruption. TMC maintained
+    the
+
+    probe was BJP political vendetta. In Diamond Harbour, the ruling had limited negative
+
+    effect on Abhishek''s support base, which views the ED as a BJP tool.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - bhadralok
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: positive
+    bhadralok: negative
+  broadcast: true
+  sources:
+  - https://www.scconline.com/blog/post/2024/09/09/abhishek-banerjee-rujira-banerjee-coal-scam-pmla-ed-summons-sc-legal-news/
+  - https://www.business-standard.com/india-news/sc-upholds-ed-s-summons-against-tmc-leader-abhishek-wife-in-coal-case-124090901218_1.html
+- slug: sebaashray2_health_camp_2024_25
+  date: '2024-12-01'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: 'Sebaashray 2 launched: 12.3 lakh treated free across Diamond Harbour
+    LS constituency'
+  summary: 'Abhishek Banerjee launched ''Sebaashray 2'' in December 2024, running
+    through January 2026
+
+    across all 7 assembly segments within his Diamond Harbour LS constituency — covering
+    71
+
+    gram panchayats and 93 wards. Over 12.3 lakh people received free consultations,
+
+    diagnostics, and medicines. Timed directly ahead of the 2026 AE cycle, the programme
+
+    was Abhishek''s most visible pre-election constituency-building investment.
+
+    '
+  tags:
+  - swasthya_sathi_beneficiary
+  - woman
+  - elderly
+  - cultivator
+  - ag_labourer
+  - tmc_supporter
+  valence:
+    swasthya_sathi_beneficiary: positive
+    woman: positive
+    elderly: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.devdiscourse.com/article/health/3699042-sebaashray-2-expanding-compassionate-healthcare-in-diamond-harbour
+  - https://www.thestatesman.com/bengal/abhishek-launches-sebashray-2-in-diamond-harbour-1503509024.html
+- slug: ssc_sc_verdict_april2025
+  date: '2025-04-03'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: Supreme Court upholds cancellation of 25,000 SSC teachers; WB youth betrayal
+    confirmed
+  summary: 'The Supreme Court on 3 April 2025 upheld the dismissal of over 25,000
+    teaching and
+
+    non-teaching staff recruited through the WB SSC scam, calling the process "vitiated
+    and
+
+    tainted." The WB government''s review petition was subsequently dismissed in August
+    2025.
+
+    In Diamond Harbour, school-age households with dismissed teachers faced economic
+    ruin;
+
+    the verdict gave BJP its most potent anti-TMC governance charge ahead of the 2026
+    election.
+
+    '
+  tags:
+  - school_age_household
+  - tmc_supporter
+  - bjp_supporter
+  - bhadralok
+  - woman
+  valence:
+    school_age_household: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+    bhadralok: negative
+  broadcast: true
+  sources:
+  - https://www.scconline.com/blog/post/2025/04/09/supreme-court-verdict-west-bengal-ssc-teacher-recruitment-scam/
+  - https://lawtrend.in/supreme-court-upholds-dismissal-of-25000-west-bengal-teachers-over-recruitment-irregularities/
+- slug: mgnrega_calcutta_hc_order_aug2025
+  date: '2025-08-01'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Calcutta HC orders MGNREGA resumed in WB; Centre delays compliance
+  summary: 'The Calcutta High Court ordered MGNREGA resumed in West Bengal from 1
+    August 2025 after
+
+    three years of suspension. The Supreme Court upheld the order; the Centre challenged
+
+    implementation. In Diamond Harbour, ag-labourers who had gone without MGNREGA
+    income
+
+    since 2022 awaited the restoration with urgency. TMC highlighted the Centre''s
+    continued
+
+    non-compliance as BJP''s hostility to WB''s rural poor.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - tmc_supporter
+  - bjp_supporter
+  - woman
+  valence:
+    ag_labourer: positive
+    cultivator: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.business-standard.com/economy/news/centre-examines-kolkata-high-court-order-on-mgnrega-in-west-bengal-125061901413_1.html
+- slug: sir_voter_roll_revision_2025
+  date: '2025-10-01'
+  temporal: chronic
+  scope: state
+  intensity: 5
+  headline: SIR voter roll revision deletes 91 lakh names in WB; Muslim voters disproportionately
+    affected
+  summary: 'The Election Commission''s Special Intensive Revision (SIR) exercise deleted
+    approximately
+
+    91 lakh voters from West Bengal''s rolls — 12% of the pre-SIR electorate — between
+    October
+
+    2025 and April 2026. Muslim voters in Diamond Harbour were disproportionately
+    affected
+
+    due to ''logical discrepancy'' deletions (spelling variations in names). TMC opposed
+    SIR
+
+    as ECI-BJP collusion; the revision directly threatened Muslim bloc participation
+    in AC-160.
+
+    '
+  tags:
+  - muslim_voter
+  - tmc_supporter
+  - bjp_supporter
+  - elderly
+  - out_migrant_household
+  valence:
+    muslim_voter: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+    elderly: negative
+  broadcast: true
+  sources:
+  - https://www.freepressjournal.in/analysis/west-bengal-sir-controversy-is-voter-roll-cleanup-quietly-disenfranchising-millions
+  - https://www.altnews.in/bengal-sir-the-wall-eci-built-around-electoral-data-and-how-we-broke-through-it/
+  - https://www.csmonitor.com/World/Asia-South-Central/2026/0423/India-voter-purge-West-Bengal-elections
+- slug: abhishek_ed_case_ongoing_2025
+  date: '2025-12-01'
+  temporal: chronic
+  scope: state
+  intensity: 3
+  headline: Abhishek Banerjee's ED coal-scam case remains open; 2026 election campaign
+    backdrop
+  summary: 'Abhishek Banerjee''s Enforcement Directorate coal-scam case continued
+    through 2025 with
+
+    ongoing summons and court hearings. The case remained a persistent BJP attack
+    point in
+
+    Diamond Harbour while TMC maintained the charges were politically motivated. In
+    late 2025,
+
+    ED also arrested I-PAC co-founder Vinesh Chandel in the same coal scam, generating
+    further
+
+    pre-election tension in the constituency.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - bhadralok
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: positive
+    bhadralok: negative
+  broadcast: true
+  sources:
+  - https://thefederal.com/elections-2026/ed-arrests-i-pac-co-founder-vinesh-chandel-in-coal-scam-ahead-of-bengal-elections-238918
+  - https://neherald.com/national/level-playing-field-shaken-abhishek-banerjee-slams-ed-arrest-of-i-pac-co-founder-ahead-of-bengal-polls
+- slug: lakshmir_bhandar_hike_budget_2026
+  date: '2026-02-05'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: 'WB Budget 2026: Lakshmir Bhandar raised to Rs 1,500/month; pre-election
+    welfare hike'
+  summary: 'The West Bengal state budget for 2026, presented on 5 February, raised
+    Lakshmir Bhandar
+
+    monthly payments to Rs 1,500 (general) and Rs 1,700 (SC/ST) — an increase of Rs
+    500
+
+    per month. In Diamond Harbour, where South 24 Parganas has the highest number
+    of
+
+    beneficiaries statewide, the hike directly benefited the constituency''s women
+    voters
+
+    and reinforced TMC''s welfare-delivery advantage ahead of the April 2026 AE.
+
+    '
+  tags:
+  - lakshmir_bhandar_beneficiary
+  - woman
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    lakshmir_bhandar_beneficiary: positive
+    woman: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://sarkariyojana.com/lakshmi-bhandar-scheme-west-bengal/
+  - https://www.dnaindia.com/india/report-tmc-manifesto-2026-mamata-banerjee-led-tmc-makes-10-pratigyas-rs-500-hike-in-lakshmir-bhandar-to-rs-1500-monthly-support-to-unemployed-youth-west-bengal-election-2026-3203760
+- slug: tmc_manifesto_2026_ten_pledges
+  date: '2026-03-20'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: 'TMC 2026 manifesto: 10 pledges — Duare Chikitsa, Yuba-Sathi, Karmanjali,
+    Lakshmir Bhandar hike'
+  summary: 'Mamata Banerjee released TMC''s 2026 election manifesto on 20 March with
+    10 pledges:
+
+    Lakshmir Bhandar raised to Rs 1,500/month, Rs 1,500/month Banglar Yuba-Sathi for
+
+    unemployed youth, Duare Chikitsa health camps at every booth, modernised schools,
+    and
+
+    Rs 30,000 crore agriculture budget. In Diamond Harbour, the manifesto directly
+    addressed
+
+    women voters, cultivators, and ag-labourers — Abhishek''s core constituency.
+
+    '
+  tags:
+  - woman
+  - cultivator
+  - ag_labourer
+  - lakshmir_bhandar_beneficiary
+  - school_age_household
+  - swasthya_sathi_beneficiary
+  - tmc_supporter
+  valence:
+    woman: positive
+    cultivator: positive
+    ag_labourer: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.business-standard.com/elections/west-bengal-elections/tmc-manifesto-10-pledges-roadmap-five-years-mamata-banerjee-126032000847_1.html
+  - https://www.deccanherald.com/india/west-bengal/tmc-makes-10-pledges-in-poll-manifesto-duare-chikitsa-camps-rs-500-hike-in-lakshmir-bhandar-3938850
+- slug: bjp_sankalp_patra_2026
+  date: '2026-04-10'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: 'BJP Sankalp Patra 2026: UCC in 6 months, Rs 3,000 for women, fishing-community
+    insurance'
+  summary: 'Amit Shah released BJP''s West Bengal 2026 manifesto (Sankalp Patra),
+    promising UCC within
+
+    6 months, Rs 3,000/month for women (vs TMC''s Rs 1,500 Lakshmir Bhandar), Ayushman
+    Bharat
+
+    integration, modern trawlers and insurance for fishermen, and 1 crore jobs. In
+    Diamond
+
+    Harbour, BJP''s fishermen-insurance pledge was specifically relevant to the Sundarban-fringe
+
+    fishing community; the UCC promise resonated with Hindu voters but alienated Muslim
+    voters.
+
+    '
+  tags:
+  - bjp_supporter
+  - tmc_supporter
+  - woman
+  - upper_caste_hindu
+  - muslim_voter
+  - cultivator
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: negative
+    woman: positive
+    upper_caste_hindu: positive
+    muslim_voter: negative
+  broadcast: true
+  sources:
+  - https://www.newsonair.gov.in/hm-amit-shah-releases-bjp-sankalp-patra-for-west-bengal-assembly-elections/
+  - https://eng.ruralvoice.in/politics/bjp-releases-sankalp-patra-for-west-bengal-assembly-elections-2026-promises-jobs-women-empowerment-and-farm-push.html
+- slug: ac160_candidates_2026_confirmed
+  date: '2026-03-25'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: 'AC-160 2026 candidates confirmed: Pannalal Halder (TMC incumbent) vs
+    Dipak Kumar Halder (BJP)'
+  summary: 'For the 2026 West Bengal Assembly Election, Diamond Harbour AC-160 is
+    a rematch of 2021:
+
+    TMC incumbent MLA Pannalal Halder defends the seat against BJP''s Dipak Kumar
+    Halder.
+
+    Dipak Halder, who lost to Pannalal by 16,996 votes in 2021 and cites post-poll
+    violence
+
+    as a grievance, ran as a BJP candidate backed by Abhishek Banerjee''s LS dominance
+    (7.1 lakh
+
+    margin in 2024). Abhishek has pledged to increase the assembly margin significantly.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - muslim_voter
+  - woman
+  - cultivator
+  valence:
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.deccanherald.com/elections/west-bengal/west-bengal-assembly-elections-2026-key-battles-to-watch-out-for-tmc-eyes-strong-show-in-diamond-harbour-3979242
+  - https://www.businesstoday.in/elections/west-bengal/diamond-harbour-constituency-result-19143
+- slug: sir_voter_deletion_muslim_anxiety_2026
+  date: '2026-04-01'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: SIR voter deletions generate Muslim-voter anxiety in Diamond Harbour;
+    TMC files complaints
+  summary: 'The SIR exercise''s deletion of 91 lakh names from WB voter rolls — with
+    Muslim voters
+
+    disproportionately affected due to name-transliteration ''logical discrepancies''
+    — was
+
+    acutely felt in Diamond Harbour where Muslim voters constitute 30-35% of AC-160.
+    TMC
+
+    and local mosque networks organised outreach to help deleted voters file appeals.
+    BJP
+
+    defended the SIR as removal of illegal Bangladeshi immigrants. The controversy
+
+    dominated Diamond Harbour''s pre-election discourse.
+
+    '
+  tags:
+  - muslim_voter
+  - tmc_supporter
+  - bjp_supporter
+  - elderly
+  - woman
+  valence:
+    muslim_voter: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+    elderly: negative
+  broadcast: true
+  sources:
+  - https://www.newslaundry.com/2026/04/19/deleted-despite-documents-inside-west-bengals-political-sir
+  - https://kashmirtimes.com/opinion/comment-articles/amid-sir-row-ram-rajya-versus-bengali-ness-bengals-reckoning
+- slug: capf_deployment_2026_ac160
+  date: '2026-04-10'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Record 2.4 lakh CAPF deployed for WB 2026; Diamond Harbour Phase-2 sees
+    3.5x coverage
+  summary: 'The Election Commission deployed a record 2.4 lakh CAPF personnel for
+    the 2026 WB assembly
+
+    election — the highest-ever for any single state. Diamond Harbour, in Phase 2
+    (29 April
+
+    2026), received significantly higher central force deployment than 2021. 7,384
+    booths were
+
+    classified "super sensitive/critical" statewide. TMC alleged CAPF was being weaponised
+
+    to intimidate its cadres; BJP welcomed the deployment as essential deterrence.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - cultivator
+  - ag_labourer
+  - woman
+  - elderly
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.businessleague.in/record-2-4-lakh-capf-personnel-for-west-bengal-polls-2026/
+  - https://www.w3epapers.com/latest-news/eci-central-force-deployment-west-bengal-election-2026-phase-1/
+- slug: abhishek_diamond_harbour_roadshow_april2026
+  date: '2026-04-24'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Abhishek Banerjee holds Diamond Harbour roadshow; pledges to increase
+    AC-160 margin
+  summary: 'On 24 April 2026, Abhishek Banerjee held a massive roadshow in Diamond
+    Harbour for the
+
+    Phase-2 assembly election (29 April). He predicted TMC dominance in 152 seats
+    statewide
+
+    and pledged to dramatically increase the margin in Diamond Harbour and Magrahat
+    Purba
+
+    to over one lakh. He also alleged a secret meeting between the BJP candidate and
+    an election
+
+    official (Observer Purushottam Das) at a local hotel, filing an ECI complaint.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - woman
+  - muslim_voter
+  - cultivator
+  - ag_labourer
+  valence:
+    tmc_supporter: positive
+    bjp_supporter: negative
+    woman: positive
+    muslim_voter: positive
+  broadcast: true
+  sources:
+  - https://www.socialnews.xyz/2026/04/24/south-24-parganas-abhishek-banerjee-holds-roadshow-in-diamond-harbour-gallery/
+  - https://thenewsmill.com/2026/04/abhishek-banerjee-alleges-secret-meeting-between-bjp-and-election-official-in-west-bengal/
+- slug: tmc_fir_voter_intimidation_diamond_harbour
+  date: '2026-04-15'
+  temporal: episodic
+  scope: AC
+  intensity: 3
+  headline: ECI orders FIR in Diamond Harbour over voter intimidation; TMC and BJP
+    trade accusations
+  summary: 'The Election Commission ordered an FIR in Diamond Harbour after complaints
+    of voter
+
+    intimidation involving motorcycle-riding groups. Both TMC and BJP filed complaints
+    with
+
+    the ECI; TMC alleged police observers colluded with BJP candidates; BJP alleged
+    TMC
+
+    booth-level muscle intimidation. The incident highlighted Diamond Harbour''s reputation
+
+    as a highly contested but TMC-machine-dominated seat.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - cultivator
+  - ag_labourer
+  - woman
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://newstrack.com/india/west-bengal-election-2026-eci-fir-diamond-harbour-voter-intimidation-police-action-595729
+  - https://www.tribuneindia.com/news/diamond-harbour-police-observer-held-secret-meet-with-bjp-candidate-tmc/
+- slug: ec_suspends_diamond_harbour_cops_2026
+  date: '2026-04-18'
+  temporal: episodic
+  scope: AC
+  intensity: 3
+  headline: ECI suspends senior police officers in Diamond Harbour over misconduct
+    during election
+  summary: 'The Election Commission suspended five senior Bengal police officers in
+    the Diamond Harbour
+
+    area for alleged misconduct during the 2026 election campaign. TMC filed a complaint
+
+    alleging a police observer held a secret meeting with the BJP candidate at a local
+    hotel.
+
+    The ECI action was cited by TMC as evidence of BJP-administration nexus; BJP claimed
+
+    police in Diamond Harbour remained loyally TMC-aligned despite CAPF deployment.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://english.dainikjagranmpcg.com/special-news/ec-suspends-5-bengal-cops-over-misconduct/article-17342
+  - https://bengalinfo.com/newsdetail.php?newsid=479874
+- slug: fishing_community_sundarban_ecology_2026
+  date: '2026-04-01'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Sundarban fishermen face declining catch, trawler competition; livelihood
+    crisis persists in 2026
+  summary: 'Diamond Harbour''s fishing community continues to face structural crisis:
+    declining fish
+
+    catch in Sundarban waters due to ecological degradation, competition from industrial
+
+    trawlers using bottom-trawling, and lack of access to formal credit. Approximately
+
+    10,000 fishermen from the area have migrated to other coastal states. BJP''s 2026
+    Sankalp
+
+    Patra specifically promised modern trawlers and fishing insurance — an attempt
+    to peel
+
+    off this historically TMC-aligned bloc.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    out_migrant_household: negative
+    tmc_supporter: ambient
+    bjp_supporter: positive
+  broadcast: false
+  sources:
+  - https://icsf.net/newss/west-bengal-crisis-of-small-fishermen-in-diamond-harbour-sundarbans-echoes/
+  - https://india.mongabay.com/2020/08/with-depleting-fish-catch-sundarbans-fishers-migrate-to-other-coastal-states/
+- slug: gulf_out_migration_remittance_economy_2026
+  date: '2026-04-01'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Diamond Harbour out-migration economy partially recovered; Gulf remittances
+    remain key household income
+  summary: 'Diamond Harbour''s Gulf-migrant out-migration economy partially recovered
+    post-COVID by
+
+    2023-24, with workers returning to UAE, Qatar, and Saudi Arabia. However, global
+    economic
+
+    uncertainty in Gulf states and competition from other South Asian labour-sending
+    countries
+
+    kept remittance income volatile. Muslim households in AC-160 with Gulf-migrant
+    members
+
+    are disproportionately represented; their economic anxiety tracks diplomatic signals
+    from
+
+    India-Bangladesh and India-Gulf relations.
+
+    '
+  tags:
+  - out_migrant_household
+  - muslim_voter
+  - woman
+  - elderly
+  valence:
+    out_migrant_household: ambient
+    muslim_voter: ambient
+  broadcast: false
+  sources:
+  - https://thefederal.com/states/east/west-bengal/lack-of-jobs-at-home-packs-off-bengal-labourers-to-foreign-lands-again
+- slug: kanyashree_sabuj_sathi_delivery_2026
+  date: '2026-04-01'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Kanyashree and Sabuj Sathi scheme delivery sustained; school-age households
+    retain TMC loyalty
+  summary: 'Through 2023-2026, Kanyashree (scholarships for girls 13-18) and Sabuj
+    Sathi (bicycles
+
+    for school students) continued to deliver benefits across Diamond Harbour''s gram
+    panchayats.
+
+    The schemes built sustained cross-generational loyalty among school-age households
+    and their
+
+    parents, particularly women. Despite SSC scam anger among affected youth, welfare-dependent
+
+    households with Kanyashree and Sabuj Sathi recipients remained solidly TMC-aligned.
+
+    '
+  tags:
+  - kanyashree_household
+  - sabuj_sathi_household
+  - school_age_household
+  - woman
+  - tmc_supporter
+  valence:
+    kanyashree_household: positive
+    sabuj_sathi_household: positive
+    school_age_household: positive
+    woman: positive
+    tmc_supporter: positive
+  broadcast: false
+  sources:
+  - https://s24pgs.gov.in/kanyashree-prakalpa/
+  - https://en.wikipedia.org/wiki/Kanyashree_Prakalpa
+- slug: mosque_network_tmcpanchayat_gatekeeper_2026
+  date: '2026-04-01'
+  temporal: chronic
+  scope: AC
+  intensity: 3
+  headline: TMC mosque network and panchayat gatekeepers mobilise Muslim vote in Diamond
+    Harbour pre-election
+  summary: 'Diamond Harbour''s mosque networks and TMC-aligned panchayat leaders serve
+    as key community
+
+    gatekeepers for Muslim voter mobilisation in AC-160. Pre-election, the network
+    is activated
+
+    to counter BJP''s SIR-linked voter deletion narrative and reinforce TMC''s CAA-NRC
+    opposition.
+
+    Panchayat leaders also distribute welfare scheme benefits (Lakshmir Bhandar, Krishak
+    Bandhu)
+
+    through mosque-community contact chains in Muslim-majority wards.
+
+    '
+  tags:
+  - muslim_voter
+  - tmc_supporter
+  - ag_labourer
+  - woman
+  - elderly
+  valence:
+    muslim_voter: positive
+    tmc_supporter: positive
+  broadcast: false
+  sources:
+  - https://m.thewire.in/article/politics/will-bengals-muslims-vote-differently-this-time
+- slug: abhishek_helpline_ek_daake_abhishek
+  date: '2022-06-15'
+  temporal: chronic
+  scope: AC
+  intensity: 3
+  headline: Abhishek launches 'Ek Daake Abhishek' helpline for Diamond Harbour constituents
+  summary: 'Abhishek Banerjee launched a direct-access helpline (78877 78877) — ''Ek
+    Daake Abhishek''
+
+    — enabling Diamond Harbour residents to reach his office with concerns and suggestions.
+
+    The helpline supplemented Sebaashray health camps as a constituency-management
+    tool,
+
+    reinforcing his image as an accessible, activist-MP distinct from the remote TMC
+    panchayat
+
+    machine. The service became operational through the 2026 election cycle.
+
+    '
+  tags:
+  - tmc_supporter
+  - woman
+  - elderly
+  - cultivator
+  - ag_labourer
+  valence:
+    tmc_supporter: positive
+    woman: positive
+    elderly: positive
+  broadcast: false
+  sources:
+  - https://x.com/abhishekaitc/status/1538126327655518208
+- slug: tmc_eyes_easy_win_diamond_harbour_2026
+  date: '2026-04-20'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: 'Deccan Herald: TMC eyes easy win in Diamond Harbour; Abhishek''s machine
+    at peak'
+  summary: 'Pre-election analyses including Deccan Herald reported TMC as overwhelming
+    favourite in
+
+    Diamond Harbour AC-160 for the 2026 assembly election. Abhishek Banerjee''s 7.1
+    lakh LS
+
+    margin, his Sebaashray health camps, Lakshmir Bhandar''s 4.7 lakh S24P beneficiaries,
+    and
+
+    a consolidated Muslim-women-cultivator coalition gave TMC commanding position.
+    BJP''s Dipak
+
+    Kumar Halder faced a steep climb against both the incumbent MLA and Abhishek''s
+    personal machine.
+
+    '
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - muslim_voter
+  - woman
+  - cultivator
+  - ag_labourer
+  valence:
+    tmc_supporter: positive
+    bjp_supporter: negative
+    muslim_voter: positive
+    woman: positive
+  broadcast: true
+  sources:
+  - https://www.deccanherald.com/elections/west-bengal/west-bengal-assembly-elections-2026-key-battles-to-watch-out-for-tmc-eyes-strong-show-in-diamond-harbour-3979242
+  - https://navbharatlive.com/elections/diamond-harbour-assembly-election-2026-tmc-vs-bjp-abhishek-banerjee-1679947.html
+- slug: ae_2026_candidates_diamond_harbour
+  date: '2026-03-17'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: '2026 AE Diamond Harbour (AC-143): TMC Pannalal Halder vs BJP Dipak Kumar
+    Halder; CPI(M) Samarendra Naskar'
+  summary: 'Source: Wikipedia 2026 WB AE PDF (PDF AC-143; sometimes listed as AC-160
+    in older delimitation). TMC re-nominates sitting MLA Pannalal Halder (won 2021
+    by 16,996 votes / 98,478 total). BJP re-fields Dipak Kumar Halder (2021 runner-up,
+    81,482 votes). CPI(M) fields Samarendra Naskar. Exact 2021 rematch with higher
+    stakes: Lakshmir Bhandar at Rs 1,500, SIR deletions in Muslim pockets, Abhishek''s
+    expanded ground machine as 2026 differentiators.'
+  tags:
+  - tmc_supporter
+  - bjp_supporter
+  - woman
+  - muslim_voter
+  - ag_labourer
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2026_West_Bengal_Legislative_Assembly_election

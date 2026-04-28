@@ -1,0 +1,2247 @@
+cutoff_date: '2026-04-26'
+events:
+- slug: boroma_binapani_devi_death
+  date: '2019-03-05'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: Boroma Binapani Devi, matriarch of the Matua Mahasangha, dies at 100 in
+    Thakurnagar
+  summary: 'Spiritual head of the All India Matua Mahasangha. Modi attended the
+
+    memorial. Triggered the open succession war between Shantanu (BJP) and
+
+    Mamatabala (TMC) factions that defines AC-95 politics for the next decade.
+
+    '
+  tags:
+  - matua_refugee
+  - woman
+  - elderly
+  valence:
+    matua_refugee: ambient
+    bjp_supporter: positive
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Binapani_Devi
+- slug: ls_2019_bangaon_shantanu_win
+  date: '2019-05-23'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Shantanu Thakur (BJP) wins Bangaon LS by 1,11,594 over Mamatabala Thakur
+    (TMC)
+  summary: 'Bangaon LS swung to BJP on Matua mobilisation around the CAB/CAA
+
+    promise. Within AC-95 BJP led by ~30k. Established Shantanu as the
+
+    dominant elected Matua face nationally.
+
+    '
+  tags:
+  - matua_refugee
+  - bjp_supporter
+  - tmc_supporter
+  - upper_caste_hindu
+  valence:
+    matua_refugee: positive
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Bangaon_(Lok_Sabha_constituency)
+- slug: nrc_assam_final_list
+  date: '2019-08-31'
+  temporal: episodic
+  scope: national
+  intensity: 5
+  headline: Assam NRC final list excludes 19 lakh; Hindu-Bengali exclusions dominate
+  summary: 'Triggered acute Matua anxiety in N24P + Nadia about being declared
+
+    non-citizens. Set up CAA as the BJP rescue narrative.
+
+    '
+  tags:
+  - matua_refugee
+  - muslim_voter
+  - upper_caste_hindu
+  - bhadralok
+  valence:
+    matua_refugee: negative
+    muslim_voter: negative
+    bjp_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/National_Register_of_Citizens_(Assam)
+- slug: caa_passed_parliament
+  date: '2019-12-11'
+  temporal: episodic
+  scope: national
+  intensity: 5
+  headline: Citizenship (Amendment) Act 2019 passed; Matua belt celebrates
+  summary: 'Hindu/Sikh/Buddhist/Jain/Parsi/Christian refugees from BD/PAK/Afghanistan
+
+    who entered before 31 Dec 2014 made eligible for fast-track citizenship.
+
+    Defines the AC-95 cleavage for next 5 years.
+
+    '
+  tags:
+  - matua_refugee
+  - muslim_voter
+  - upper_caste_hindu
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    matua_refugee: positive
+    muslim_voter: negative
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Citizenship_(Amendment)_Act,_2019
+- slug: anti_caa_protests_dec2019
+  date_start: '2019-12-13'
+  date_end: '2020-03-15'
+  temporal: chronic
+  scope: national
+  intensity: 4
+  headline: Anti-CAA protests sweep India; Shaheen Bagh sit-in becomes muslim-mobilisation
+    symbol
+  summary: 'In WB, Mamata leads marches against CAA-NRC. Cements TMC-as-protector
+
+    frame for Bangaon Muslims (~16% of AC-95).
+
+    '
+  tags:
+  - muslim_voter
+  - matua_refugee
+  - bhadralok
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    muslim_voter: ambient
+    tmc_supporter: positive
+    bjp_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Citizenship_Amendment_Act_protests
+- slug: covid_first_wave_lockdown
+  date_start: '2020-03-25'
+  date_end: '2020-06-30'
+  temporal: chronic
+  scope: national
+  intensity: 5
+  headline: PM Modi announces 21-day national COVID lockdown; migrant labour crisis
+    ensues
+  summary: 'Tens of thousands of Bangaon-area Matua men working in Kerala / TN /
+
+    Maharashtra / Gulf were stranded without wages. Reset household earnings
+
+    baseline downward for 18+ months.
+
+    '
+  tags:
+  - out_migrant_household
+  - ag_labourer
+  - urban_trader
+  - petrapole_economy
+  - woman
+  valence:
+    out_migrant_household: negative
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/COVID-19_pandemic_in_India
+- slug: amphan_landfall
+  date: '2020-05-20'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: Super Cyclone Amphan landfall near Bakkhali; ~$14bn damage in WB
+  summary: '~5,500 homes damaged in N24P alone; relief-list cut-money allegations
+
+    seeded 2020-21 anti-incumbency narrative.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - woman
+  - elderly
+  valence:
+    tmc_supporter: negative
+    cultivator: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Cyclone_Amphan
+- slug: petrapole_covid_shutdown
+  date_start: '2020-05-01'
+  date_end: '2020-08-31'
+  temporal: chronic
+  scope: AC
+  intensity: 4
+  headline: India-Bangladesh trade through Petrapole halted ~3 months
+  summary: 'Direct livelihood hit for Bangaon truckers, loaders, dhaba owners,
+
+    currency-changers, clearing agents.
+
+    '
+  tags:
+  - petrapole_economy
+  - urban_trader
+  - out_migrant_household
+  valence:
+    petrapole_economy: negative
+    bjp_supporter: negative
+  broadcast: false
+  sources:
+  - https://theprint.in/india/how-one-bengal-villages-covid-fear-has-stalled-rs-2000-crore-india-bangladesh-trade/437417/
+- slug: swasthya_sathi_universalised
+  date: '2020-12-01'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Mamata extends Swasthya Sathi to all 1.5 cr WB families; card to female
+    head
+  summary: 'State→woman channel that bypasses male household head — same template
+
+    as Lakshmir Bhandar will use.
+
+    '
+  tags:
+  - woman
+  - swasthya_sathi_beneficiary
+  - elderly
+  valence:
+    woman: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.downtoearth.org.in/health/swasthya-sathi-will-now-include-bengal-s-entire-population-mamata-74458
+- slug: duare_sarkar_phase1
+  date: '2020-12-01'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: 'Duare Sarkar (Govt at Doorstep) launches: 20,000+ camps statewide'
+  summary: 'Doorstep enrolment for Khadya Sathi, Swasthya Sathi, Rupashree, Krishak
+
+    Bandhu. Enrolled lakhs of new beneficiaries in N24P alone.
+
+    '
+  tags:
+  - woman
+  - khadya_sathi_beneficiary
+  - ag_labourer
+  - swasthya_sathi_beneficiary
+  valence:
+    tmc_supporter: positive
+    woman: positive
+  broadcast: true
+  sources:
+  - https://www.deccanherald.com/india/mamata-govt-kicks-off-massive-duare-sarkar-outreach-programme-922256.html
+- slug: suvendu_joins_bjp
+  date: '2020-12-19'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Suvendu Adhikari defects to BJP at Amit Shah's Midnapore rally with 8
+    ex-TMC MLAs
+  summary: 'Reshaped BJP''s 2021 campaign and post-defeat organisation as Leader
+
+    of Opposition.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bhadralok
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Suvendu_Adhikari
+- slug: modi_thakurnagar_visit_2021
+  date: '2021-02-11'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: PM Modi visits Thakurbari at Thakurnagar — first sitting PM
+  summary: 'Cemented BJP-Matua bond and the CAA-as-promise narrative for the AC-95
+
+    belt.
+
+    '
+  tags:
+  - matua_refugee
+  - woman
+  - bjp_supporter
+  valence:
+    matua_refugee: positive
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.thehindu.com/news/national/other-states/modi-pays-obeisance-at-matua-shrine-in-bengal/article33805976.ece
+- slug: modi_bangladesh_orakandi_visit
+  date: '2021-03-27'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Modi visits Orakandi (Bangladesh) — birthplace of Harichand Thakur; mid-WB
+    AE campaign
+  summary: 'Foreign-policy event turned Matua-mobilisation moment for the
+
+    remaining 7 polling phases.
+
+    '
+  tags:
+  - matua_refugee
+  - bjp_supporter
+  valence:
+    matua_refugee: positive
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Orakandi_Thakurbari
+- slug: bjp_2021_ground_machine_panna_pramukh
+  date_start: '2020-09-01'
+  date_end: '2021-04-29'
+  temporal: chronic
+  scope: state
+  intensity: 4
+  headline: BJP imports 'panna pramukh' booth-page model into WB
+  summary: 'Booth-page-level worker per ~30 voters. Matua-belt districts including
+
+    N24P heavily covered. Modulates how far CAA/Hindu-pride narratives
+
+    reach into individual households independent of TV.
+
+    '
+  tags:
+  - matua_refugee
+  - upper_caste_hindu
+  - bjp_supporter
+  valence:
+    bjp_supporter: positive
+    matua_refugee: positive
+  broadcast: false
+  sources:
+  - https://theprint.in/politics/jp-naddas-page-pramukh-formula-the-bjps-master-plan-to-win-bengal-in-2021/582826/
+- slug: tmc_didir_doot_ground_machine
+  date_start: '2021-01-15'
+  date_end: '2021-04-29'
+  temporal: chronic
+  scope: state
+  intensity: 3
+  headline: TMC deploys 'Didir Doot' / Banglar Gorbo Mamata booth network
+  summary: 'Counter campaign-intensity push, plus the female "Banglar Meye"
+
+    reframing.
+
+    '
+  tags:
+  - woman
+  - tmc_supporter
+  - ag_labourer
+  valence:
+    tmc_supporter: positive
+    woman: positive
+  broadcast: false
+  sources:
+  - https://en.wikipedia.org/wiki/I-PAC
+- slug: thakurbari_split_2021_pre_ae
+  date_start: '2019-04-01'
+  date_end: '2021-04-29'
+  temporal: chronic
+  scope: AC
+  intensity: 4
+  headline: 'Thakurbari endorsement split: Shantanu (BJP) controls main residence;
+    Mamatabala (TMC) sidelined'
+  summary: 'Community-gatekeeper signal. AC-95-defining gatekeeper capture.
+
+    '
+  tags:
+  - matua_refugee
+  - bjp_supporter
+  valence:
+    bjp_supporter: positive
+    matua_refugee: ambient
+  broadcast: false
+  sources:
+  - https://www.thehindu.com/news/national/other-states/matua-mahasangha-internal-feud-out-in-the-open/article33105005.ece
+- slug: bangaon_uttar_2021_candidate_profile_kirtania
+  date: '2021-03-05'
+  temporal: episodic
+  scope: AC
+  intensity: 3
+  headline: BJP nominates Ashok Kirtania (Matua, SC-reserved) for Bangaon Uttar AE-2021
+  summary: 'Mahasangha-aligned, no major criminal record on myneta, modest declared
+
+    assets, no political-dynasty kin.
+
+    '
+  tags:
+  - matua_refugee
+  - bjp_supporter
+  - upper_caste_hindu
+  valence:
+    matua_refugee: positive
+    bjp_supporter: positive
+  broadcast: false
+  sources:
+  - https://www.myneta.info/WestBengal2021/candidate.php?candidate_id=1430
+- slug: covid_second_wave_delta
+  date_start: '2021-04-01'
+  date_end: '2021-06-30'
+  temporal: chronic
+  scope: national
+  intensity: 5
+  headline: Delta wave during WB election; oxygen / ICU collapse; cremation footage
+    viral
+  summary: 'Eroded Modi''s pandemic-handling image among rural elderly especially.
+
+    '
+  tags:
+  - elderly
+  - woman
+  - school_age_household
+  - swasthya_sathi_beneficiary
+  valence:
+    bjp_supporter: negative
+    elderly: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/COVID-19_pandemic_in_West_Bengal
+- slug: booth_violence_2021_ae_baseline
+  date_start: '2021-03-27'
+  date_end: '2021-04-29'
+  temporal: chronic
+  scope: state
+  intensity: 3
+  headline: 8-phase WB AE 2021 holds under heavy CAPF deployment; sporadic clashes
+    including N24P
+  summary: 'Booth-level security baseline. Bangaon Uttar interior Matua paras saw
+
+    high turnout; Muslim-majority booths reported intimidation that
+
+    depressed opposition turnout. Memory anchor for 2026 security planning.
+
+    '
+  tags:
+  - matua_refugee
+  - muslim_voter
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    muslim_voter: negative
+    bjp_supporter: ambient
+    tmc_supporter: ambient
+  broadcast: false
+  sources:
+  - https://en.wikipedia.org/wiki/2021_West_Bengal_Legislative_Assembly_election
+- slug: wb_assembly_results_2021
+  date: '2021-05-02'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: 'WB AE results: TMC 213, BJP 77 — Bangaon Uttar (AC-95) goes BJP (Kirtania
+    by 10,488)'
+  summary: 'Statewide TMC sweep but Bangaon Uttar elects BJP''s Ashok Kirtania over
+
+    TMC by 10,488 votes — a Matua-mobilisation outlier.
+
+    '
+  tags:
+  - matua_refugee
+  - upper_caste_hindu
+  - bhadralok
+  - woman
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    matua_refugee: positive
+    tmc_supporter: ambient
+    bjp_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2021_West_Bengal_Legislative_Assembly_election
+- slug: pmgkay_free_ration_covid
+  date_start: '2020-04-01'
+  date_end: '2021-12-31'
+  temporal: chronic
+  scope: national
+  intensity: 4
+  headline: PMGKAY free 5kg/person/month ration launched + extended through pandemic
+  summary: 'Centre-side freebie. Layered on top of WB Khadya Sathi. BJP claims
+
+    credit; TMC frames as Centre belatedly matching WB.
+
+    '
+  tags:
+  - khadya_sathi_beneficiary
+  - ag_labourer
+  - woman
+  - elderly
+  - out_migrant_household
+  valence:
+    khadya_sathi_beneficiary: positive
+    bjp_supporter: positive
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Pradhan_Mantri_Garib_Kalyan_Anna_Yojana
+- slug: tmc_2021_manifesto_didir_shopoth
+  date: '2021-03-17'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: 'TMC 2021 manifesto ''Didir Shopoth'': universal women''s cash, pension
+    hikes, doubled Krishak Bandhu, 5L jobs'
+  summary: 'Pre-poll guarantee bundle. Headline: universal women''s monthly cash
+
+    (operationalised as Lakshmir Bhandar Aug 2021), Krishak Bandhu
+
+    doubling, pension hikes, student credit card up to ₹10L, 5L govt jobs.
+
+    '
+  tags:
+  - woman
+  - ag_labourer
+  - cultivator
+  - school_age_household
+  - krishak_bandhu_beneficiary
+  - lakshmir_bhandar_beneficiary
+  valence:
+    tmc_supporter: positive
+    woman: positive
+    cultivator: positive
+  broadcast: true
+  sources:
+  - https://www.thehindu.com/elections/west-bengal-assembly/tmc-2021-manifesto-mamata-banerjee/article34091000.ece
+- slug: bjp_2021_sonar_bangla_sankalp_patra
+  date: '2021-03-21'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: 'BJP ''Sonar Bangla Sankalp Patra'' 2021: CAA Day 1, free vaccine, 75L
+    PM Awas, Krishi Samman doubled'
+  summary: 'Pre-poll guarantee bundle. CAA implementation in first cabinet meeting
+
+    is the Matua-belt signal multiplier.
+
+    '
+  tags:
+  - matua_refugee
+  - cultivator
+  - school_age_household
+  - woman
+  - bjp_supporter
+  valence:
+    bjp_supporter: positive
+    matua_refugee: positive
+    cultivator: positive
+  broadcast: true
+  sources:
+  - https://www.business-standard.com/article/elections/bjp-promises-implementation-of-caa-in-first-cabinet-meet-in-bengal-121032100346_1.html
+- slug: cyclone_yaas_landfall
+  date: '2021-05-26'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Cyclone Yaas landfall in Odisha; ~$3bn damage in WB; 230k displaced
+  summary: 'Storm-surge inundated S+N 24-Pgs blocks with saline water. Bangaon
+
+    peripheral but coastal-block panic spillover.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  valence:
+    cultivator: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Cyclone_Yaas
+- slug: pm_kisan_wb_unblock
+  date: '2021-06-15'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: WB joins PM-KISAN after 2-year blockade; ~7 lakh farmers get first ₹2,000
+  summary: 'Removed a major BJP attack line and gave cultivators a second cash
+
+    stream alongside Krishak Bandhu.
+
+    '
+  tags:
+  - cultivator
+  - krishak_bandhu_beneficiary
+  valence:
+    cultivator: positive
+    bjp_supporter: ambient
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://www.business-standard.com/article/politics/sent-names-of-250-000-bengal-farmers-to-centre-for-pm-kisan-scheme-mamata-121020800833_1.html
+- slug: krishak_bandhu_natun_relaunch
+  date: '2021-06-17'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: 'Krishak Bandhu Natun: per-acre payment doubled to ₹10,000/yr; landless
+    eligible'
+  summary: 'Ag-labourers and sharecroppers now eligible for ₹4,000.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - krishak_bandhu_beneficiary
+  valence:
+    cultivator: positive
+    ag_labourer: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Krishak_Bandhu_Scheme
+- slug: shantanu_thakur_union_minister
+  date: '2021-07-07'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: Shantanu Thakur becomes first Matua in Union cabinet (MoS Ports/Shipping)
+  summary: 'Symbolic capital for the BJP-aligned Thakurbari faction. Hardens the
+
+    Shantanu vs Mamatabala split.
+
+    '
+  tags:
+  - matua_refugee
+  - bjp_supporter
+  valence:
+    matua_refugee: positive
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Shantanu_Thakur
+- slug: lakshmir_bhandar_rollout
+  date_start: '2021-08-16'
+  date_end: '2024-05-20'
+  temporal: chronic
+  scope: state
+  intensity: 5
+  headline: 'Lakshmir Bhandar launches: ₹500/₹1000 monthly DBT to women 25-60'
+  summary: 'Day 1 = 12.3 lakh enrolments; ~1.6 cr beneficiaries by 2024. Single
+
+    largest pro-incumbency scheme in TMC arsenal.
+
+    '
+  tags:
+  - woman
+  - lakshmir_bhandar_beneficiary
+  - matua_refugee
+  valence:
+    woman: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.govtschemes.in/west-bengal-lakshmir-bhandar-scheme
+- slug: bangladesh_temple_attacks_2021
+  date_start: '2021-10-13'
+  date_end: '2021-10-20'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Durga Puja attacks on Hindu temples in Bangladesh; 5+ killed
+  summary: 'Triggered Matua refugee anxiety in Bangaon belt. Reinforced
+
+    "Hindus need protection" + CAA-as-savior narrative.
+
+    '
+  tags:
+  - matua_refugee
+  - upper_caste_hindu
+  - petrapole_economy
+  valence:
+    matua_refugee: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.theweek.in/news/india/2021/08/11/union-minister-asks-modi-to-protect-hindus-in-bangladesh-after-temple-vandalism.html
+- slug: bsf_50km_jurisdiction
+  date: '2021-10-11'
+  temporal: episodic
+  scope: AC
+  intensity: 3
+  headline: Centre extends BSF arrest/search powers from 15 km to 50 km from BD border
+  summary: 'Bangaon Uttar lies entirely within new zone. TMC framed as federal
+
+    overreach; BJP/Matuas saw security upgrade.
+
+    '
+  tags:
+  - matua_refugee
+  - petrapole_economy
+  - muslim_voter
+  valence:
+    muslim_voter: negative
+    matua_refugee: ambient
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://www.drishtiias.com/daily-updates/daily-news-analysis/extension-of-bsf-jurisdiction
+- slug: russia_ukraine_inflation
+  date_start: '2022-02-24'
+  date_end: '2024-05-20'
+  temporal: chronic
+  scope: national
+  intensity: 3
+  headline: Russia invades Ukraine; fuel + fertilizer + edible-oil prices spike
+  summary: 'Compressed cultivator margins and small-trader cash flow through 2022-23.
+
+    '
+  tags:
+  - cultivator
+  - urban_trader
+  - ag_labourer
+  - krishak_bandhu_beneficiary
+  valence:
+    cultivator: negative
+    urban_trader: negative
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.stlouisfed.org/publications/regional-economist/2022/oct/russia-ukraine-war-record-fertilizer-prices
+- slug: wb_mgnrega_funds_blocked
+  date_start: '2022-03-09'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: state
+  intensity: 4
+  headline: Centre suspends MGNREGA + PMAY-G funds to WB; remained unpaid through
+    2026
+  summary: 'Ag-labourer + landless cultivator household incomes hit hard. Lakshmir
+
+    Bhandar partly cushioned for women but male wage-workers got nothing.
+
+    Centre-state legal/political fight ongoing into 2026 AE cycle.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - cultivator
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    ag_labourer: negative
+    bjp_supporter: negative
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.thehindu.com/news/national/other-states/centre-stops-mgnrega-funds-to-west-bengal/article65199289.ece
+- slug: partha_chatterjee_arrested
+  date: '2022-07-23'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: ED arrests ex-Education Minister Partha Chatterjee in SSC scam; ~₹50cr
+    cash seized
+  summary: 'Cash seized at Arpita Mukherjee''s flat. Massive image hit for TMC''s
+
+    "clean cadre" narrative.
+
+    '
+  tags:
+  - school_age_household
+  - bhadralok
+  - upper_caste_hindu
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: positive
+    school_age_household: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2022_West_Bengal_School_Service_Commission_recruitment_scam
+- slug: ssc_scam_chronic
+  date_start: '2022-04-01'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: state
+  intensity: 4
+  headline: SSC teacher-recruitment scam unfolds via ED + CBI + HC + SC probes through
+    2026
+  summary: '~26,000 recruitments under cloud. SC verdict in 2025 upheld panel
+
+    cancellation. Drumbeat continues into the 2026 AE.
+
+    '
+  tags:
+  - school_age_household
+  - bhadralok
+  - upper_caste_hindu
+  - matua_refugee
+  valence:
+    tmc_supporter: negative
+    school_age_household: negative
+  broadcast: true
+  sources:
+  - https://www.outlookindia.com/national/explained-the-west-bengal-teachers-recruitment-scam-partha-chatterjee-arrest-and-its-political-implications-news-211465
+- slug: thakurbari_clash_april2023
+  date: '2023-04-15'
+  temporal: episodic
+  scope: AC
+  intensity: 3
+  headline: Shantanu vs Mamatabala factions clash physically at Thakurbari residence
+  summary: 'Brawl over control of Boroma''s residence.
+
+    '
+  tags:
+  - matua_refugee
+  valence:
+    matua_refugee: ambient
+    bjp_supporter: positive
+  broadcast: false
+  sources:
+  - https://www.outlookindia.com/elections/matua-mahasangha-maelstrom-family-feud-fuels-political-powerplay-in-matua-bastion
+- slug: thakurbari_clash_june2023
+  date: '2023-06-15'
+  temporal: episodic
+  scope: AC
+  intensity: 3
+  headline: Thakurbari clash on eve of Abhishek Banerjee visit
+  summary: 'Reinforced perception of TMC trying to forcibly enter Thakurnagar.
+
+    '
+  tags:
+  - matua_refugee
+  - bjp_supporter
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: negative
+    matua_refugee: ambient
+  broadcast: true
+  sources:
+  - https://www.freepressjournal.in/india/west-bengal-union-minister-demands-cbi-probe-into-thakurbari-clash-ahead-of-abhishek-banerjees-visit
+- slug: panchayat_2023_violence
+  date_start: '2023-07-08'
+  date_end: '2023-07-12'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: 'Panchayat poll-day violence: 55+ deaths; TMC sweeps >80% gram panchayats'
+  summary: 'TMC won decisively but image damaged. Violence reputation hardens
+
+    anti-incumbency for bhadralok / educated voters; machine dominance
+
+    reaffirmed for TMC-loyal villages.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bhadralok
+  - cultivator
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2023_West_Bengal_local_elections_violence
+- slug: petrapole_bd_disruption_chronic
+  date_start: '2023-07-01'
+  date_end: '2024-05-20'
+  temporal: chronic
+  scope: AC
+  intensity: 3
+  headline: Bangladesh student-quota protests disrupt India-Bangladesh trade through
+    Petrapole
+  summary: 'Petrapole handles ~30% of bilateral land trade. Truck-clearing,
+
+    hotel, currency-exchange and porter incomes hit.
+
+    '
+  tags:
+  - petrapole_economy
+  - urban_trader
+  - out_migrant_household
+  valence:
+    petrapole_economy: negative
+    tmc_supporter: ambient
+    bjp_supporter: ambient
+  broadcast: false
+  sources:
+  - https://m.thewire.in/article/trade/petrapole-sees-sharp-decline-in-trade-as-bangladesh-unrest-continues
+- slug: pmgkay_free_ration_extended_5yr
+  date: '2023-11-04'
+  temporal: episodic
+  scope: national
+  intensity: 4
+  headline: Modi announces PMGKAY free-ration extension for 5 years (Jan 2024 → Dec
+    2028)
+  summary: 'Pre-LS national freebie guarantee. ~80 cr beneficiaries. Direct
+
+    delivery-satisfaction signal for poor + elderly + ag-labourer
+
+    households.
+
+    '
+  tags:
+  - khadya_sathi_beneficiary
+  - ag_labourer
+  - woman
+  - elderly
+  - out_migrant_household
+  valence:
+    khadya_sathi_beneficiary: positive
+    bjp_supporter: positive
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Pradhan_Mantri_Garib_Kalyan_Anna_Yojana
+- slug: lakshmir_bhandar_2024_budget_doubling
+  date: '2024-02-08'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: 'WB Budget 2024: Lakshmir Bhandar doubled — ₹500→₹1,000 (general) and
+    ₹1,000→₹1,200 (SC/ST)'
+  summary: 'Pre-LS state-side guarantee. Single largest pre-LS freebie escalation;
+
+    reframed by TMC as proof of delivery vs BJP''s ''Modi ki Guarantee''.
+
+    '
+  tags:
+  - woman
+  - lakshmir_bhandar_beneficiary
+  - matua_refugee
+  - tmc_supporter
+  valence:
+    woman: positive
+    lakshmir_bhandar_beneficiary: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.thehindu.com/news/national/west-bengal/west-bengal-budget-2024-lakshmir-bhandar/article67815000.ece
+- slug: ram_mandir_consecration
+  date: '2024-01-22'
+  temporal: episodic
+  scope: national
+  intensity: 5
+  headline: PM Modi consecrates Ram Mandir at Ayodhya
+  summary: 'Single largest Hindu-mobilisation moment in the window. Reinforced
+
+    "BJP delivers Hindu causes" frame alongside CAA.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - matua_refugee
+  - bjp_supporter
+  - muslim_voter
+  - bhadralok
+  valence:
+    upper_caste_hindu: positive
+    matua_refugee: positive
+    bjp_supporter: positive
+    muslim_voter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Pran_Pratishtha_at_Ayodhya_Ram_Mandir
+- slug: sandeshkhali_ed_attack
+  date: '2024-01-05'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: ED officers attacked at Sandeshkhali (N24P) while raiding TMC strongman
+    Shahjahan
+  summary: 'Sarberia, ~80km from Bangaon. Triggers months-long crisis.
+
+    '
+  tags:
+  - woman
+  - upper_caste_hindu
+  - matua_refugee
+  - muslim_voter
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: positive
+    muslim_voter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Sandeshkhali_violence
+- slug: sandeshkhali_women_protests
+  date_start: '2024-02-01'
+  date_end: '2024-02-29'
+  temporal: chronic
+  scope: state
+  intensity: 5
+  headline: Sandeshkhali women allege land-grab + sexual assault by TMC
+  summary: 'BJP weaponised it as TMC-women narrative; sharpened communal
+
+    polarisation in N24P.
+
+    '
+  tags:
+  - woman
+  - upper_caste_hindu
+  - matua_refugee
+  - muslim_voter
+  valence:
+    woman: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Sandeshkhali_violence
+- slug: mamatabala_rajya_sabha
+  date: '2024-02-15'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: TMC nominates Mamatabala Thakur to Rajya Sabha — counter-Matua move pre-LS
+  summary: 'Direct counter-pull on Matua vote ahead of CAA notification.
+
+    '
+  tags:
+  - matua_refugee
+  - woman
+  valence:
+    tmc_supporter: positive
+    matua_refugee: ambient
+  broadcast: false
+  sources:
+  - https://theprint.in/politics/who-is-mamata-bala-thakur-why-tmc-wants-this-matua-leader-in-rajya-sabha/1962644/
+- slug: shahjahan_arrested
+  date: '2024-02-29'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: Sheikh Shahjahan arrested in Minakhan after 55 days as fugitive
+  summary: 'Calmed Sandeshkhali crisis but BJP argued the delay was deliberate
+
+    TMC protection.
+
+    '
+  tags:
+  - woman
+  - upper_caste_hindu
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.businesstoday.in/india/story/sandeshkhali-violence-west-bengal-police-arrests-tmc-leader-sheikh-shahjahan-from-north-24-parganas-419404-2024-02-29
+- slug: shantanu_renominated_2024
+  date: '2024-03-02'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: BJP renominates Shantanu Thakur from Bangaon LS in first-list announcement
+  summary: 'Confirms Matua continuity; framed as "CAA-promise candidate seeks
+
+    reelection."
+
+    '
+  tags:
+  - matua_refugee
+  - bjp_supporter
+  valence:
+    matua_refugee: positive
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.indiatoday.in/elections/lok-sabha/story/bjp-first-candidate-list-2024-lok-sabha-elections-2509659-2024-03-02
+- slug: candidate_profile_shantanu_thakur_2024
+  date: '2024-03-02'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: 'Candidate profile — Shantanu Thakur (BJP, Bangaon LS): Matua, sitting
+    MoS, dynastic kin, clean record'
+  summary: 'Caste/community: Matua SC, direct descendant of Harichand-Guruchand.
+
+    Incumbency: sitting MoS Ports/Shipping. Family/dynasty: Thakur clan
+
+    controls AIMM Mahasangha. Wealth: low crores. Criminal record: none of
+
+    significance on myneta. Profile aligned with Matua-belt symbolic capital.
+
+    '
+  tags:
+  - matua_refugee
+  - bjp_supporter
+  - upper_caste_hindu
+  valence:
+    matua_refugee: positive
+    bjp_supporter: positive
+  broadcast: false
+  sources:
+  - https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=2153
+- slug: tmc_announces_42_ls_candidates
+  date: '2024-03-10'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: 'TMC announces 42 LS candidates: Biswajit Das (BJP defector ex-MLA) for
+    Bangaon'
+  summary: 'TMC''s choice damages claim of authentic Matua representation since Das
+
+    is non-Matua.
+
+    '
+  tags:
+  - matua_refugee
+  - upper_caste_hindu
+  - bhadralok
+  valence:
+    tmc_supporter: ambient
+    bjp_supporter: positive
+    matua_refugee: negative
+  broadcast: true
+  sources:
+  - https://www.businesstoday.in/india/story/lok-sabha-elections-2024-mamata-banerjee-announces-tmc-candidates-for-west-bengal-check-list-here-420825-2024-03-10
+- slug: candidate_profile_biswajit_das_2024
+  date: '2024-03-10'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: 'Candidate profile — Biswajit Das (TMC, Bangaon LS): non-Matua, two-time
+    defector, ex-Bagda MLA'
+  summary: 'Caste/community: Hindu non-Matua. Incumbency: ex-MLA Bagda 2011-21
+
+    (TMC, then BJP, then re-defected). Wealth: questioned across multiple
+
+    term filings. Criminal record: minor cases. Two-defection record
+
+    corrodes reliability narrative.
+
+    '
+  tags:
+  - matua_refugee
+  - tmc_supporter
+  - upper_caste_hindu
+  valence:
+    tmc_supporter: ambient
+    matua_refugee: negative
+    bjp_supporter: positive
+  broadcast: false
+  sources:
+  - https://www.myneta.info/LokSabha2024/candidate.php?candidate_id=2154
+- slug: caa_rules_notified
+  date: '2024-03-11'
+  temporal: episodic
+  scope: national
+  intensity: 5
+  headline: CAA Rules 2024 notified after 4-year delay; Matuas declare 'second Independence
+    Day'
+  summary: 'Operationalises 2019 CAA. Hyper-salient for ~30% Matua-belt voters.
+
+    Shantanu''s faction celebrates; Mamatabala side warns of citizenship-
+
+    stripping trap.
+
+    '
+  tags:
+  - matua_refugee
+  - upper_caste_hindu
+  - muslim_voter
+  valence:
+    matua_refugee: positive
+    muslim_voter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.businesstoday.in/india/story/home-ministry-notifies-citizenship-amendment-act-rules-421000-2024-03-11
+- slug: electoral_bonds_disclosure
+  date: '2024-03-14'
+  temporal: episodic
+  scope: national
+  intensity: 3
+  headline: SBI publishes electoral-bonds donor list after SC order; BJP largest recipient
+  summary: 'Bhadralok / English-news-consuming voters got "BJP corruption" frame
+
+    mid-LS.
+
+    '
+  tags:
+  - bhadralok
+  - urban_trader
+  - bjp_supporter
+  valence:
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Electoral_bonds
+- slug: sc_refuses_caa_stay
+  date: '2024-03-19'
+  temporal: episodic
+  scope: national
+  intensity: 4
+  headline: Supreme Court refuses interim stay on CAA Rules
+  summary: 'Reduces uncertainty for Matua applicants; signals SC won''t intervene.
+
+    '
+  tags:
+  - matua_refugee
+  - muslim_voter
+  valence:
+    matua_refugee: positive
+    muslim_voter: negative
+  broadcast: true
+  sources:
+  - https://www.deccanherald.com/india/caa-hearing-live-supreme-court-to-hear-batch-of-over-200-petitions-challenging-constitutionality-of-rules-2942474
+- slug: kejriwal_arrested
+  date: '2024-03-21'
+  temporal: episodic
+  scope: national
+  intensity: 3
+  headline: ED arrests Delhi CM Arvind Kejriwal mid-LS campaign in liquor scam case
+  summary: 'INDIA-bloc unity moment; framed as Centre abusing agencies.
+
+    '
+  tags:
+  - bhadralok
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    tmc_supporter: positive
+    bjp_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Arvind_Kejriwal
+- slug: arjun_singh_double_defection
+  date: '2024-03-22'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: Arjun Singh re-defects to BJP from TMC; Barrackpore MP returns ahead of
+    LS
+  summary: 'District-spillover: Matua-adjacent Hindi-speaking jute-belt vote in
+
+    N24P follows him. Reinforces narrative of TMC instability in N24P.
+
+    '
+  tags:
+  - bjp_supporter
+  - tmc_supporter
+  - urban_trader
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Arjun_Singh_(West_Bengal_politician)
+- slug: tmc_2024_manifesto_didir_shopoth_10
+  date: '2024-03-17'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: 'TMC 2024 LS manifesto: 10 ''Didir Shopoth'' guarantees — anti-CAA, restore
+    MGNREGA wages, LB continuity'
+  summary: 'Counter-bundle to Modi Ki Guarantee. Pay all unpaid MGNREGA wages if
+
+    INDIA-bloc forms govt, scrap CAA, expanded Krishak Bandhu, 10 free
+
+    LPG cylinders/yr for women.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - muslim_voter
+  - lakshmir_bhandar_beneficiary
+  - cultivator
+  - tmc_supporter
+  valence:
+    tmc_supporter: positive
+    ag_labourer: positive
+    woman: positive
+    muslim_voter: positive
+  broadcast: true
+  sources:
+  - https://www.thehindu.com/news/national/west-bengal/tmc-2024-manifesto-didir-shopoth-10-guarantees/article67950000.ece
+- slug: bjp_2024_sankalp_patra_modi_ki_guarantee
+  date: '2024-04-14'
+  temporal: episodic
+  scope: national
+  intensity: 5
+  headline: 'BJP 2024 LS manifesto ''Modi Ki Guarantee'': free ration to 2028, Ayushman
+    to 70+, 3 cr more PM Awas, Ujjwala continued'
+  summary: 'Pre-LS national guarantee bundle. CAA implementation reaffirmed for
+
+    Matua audience. Sets BJP''s freebie ceiling that TMC counters with
+
+    LB doubling + state-funded Awas.
+
+    '
+  tags:
+  - matua_refugee
+  - woman
+  - elderly
+  - cultivator
+  - ag_labourer
+  - school_age_household
+  - bjp_supporter
+  valence:
+    bjp_supporter: positive
+    matua_refugee: positive
+    elderly: positive
+    cultivator: positive
+  broadcast: true
+  sources:
+  - https://www.bjp.org/sankalp-patra-2024
+  - https://en.wikipedia.org/wiki/2024_Bharatiya_Janata_Party_election_manifesto
+- slug: hc_scraps_2016_ssc_panel
+  date: '2024-04-22'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: Calcutta HC scraps entire 2016 SSC panel — ~25,753 teacher jobs voided
+  summary: '28 days before Bangaon polling. Massive resonance among aspirant-class
+
+    households.
+
+    '
+  tags:
+  - school_age_household
+  - bhadralok
+  - matua_refugee
+  - upper_caste_hindu
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.businesstoday.in/latest/story/calcutta-hc-cancels-entire-bengal-school-recruitment-panel-24000-jobs-to-be-axed-426364-2024-04-22
+- slug: bengal_heatwave_2024
+  date_start: '2024-04-15'
+  date_end: '2024-05-05'
+  temporal: chronic
+  scope: state
+  intensity: 3
+  headline: Severe pre-monsoon heatwave; WB schools shut
+  summary: 'Background ambient stressor more than political driver.
+
+    '
+  tags:
+  - elderly
+  - ag_labourer
+  - school_age_household
+  - urban_trader
+  valence:
+    elderly: negative
+    ag_labourer: negative
+  broadcast: true
+  sources:
+  - https://www.thehindu.com/news/national/west-bengal/west-bengal-extends-summer-vacation-in-state-run-schools-amid-heatwave-conditions/article68094897.ece
+- slug: mamata_bangaon_rally_2024
+  date: '2024-05-08'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: Mamata Banerjee rallies at Bangaon for Biswajit Das; warns CAA = NRC trap
+  summary: 'Lakshmir Bhandar continuity pitch. Reaches TMC-leaning women +
+
+    Muslim voters strongly.
+
+    '
+  tags:
+  - woman
+  - tmc_supporter
+  - muslim_voter
+  - lakshmir_bhandar_beneficiary
+  valence:
+    tmc_supporter: positive
+    woman: positive
+    muslim_voter: positive
+  broadcast: true
+  sources:
+  - https://www.business-standard.com/elections/lok-sabha-election/mamata-banerjee-bengal-campaign-2024
+- slug: modi_bangaon_rally_2024
+  date: '2024-05-12'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: PM Modi addresses rally at Bangaon LS — 8 days before polling; pitches
+    CAA delivery
+  summary: 'Star-campaigner visit; saturates Bengali TV for 48 hours. Modulates
+
+    how CAA-narrative reaches uncommitted Matua sub-populations.
+
+    '
+  tags:
+  - matua_refugee
+  - bjp_supporter
+  - upper_caste_hindu
+  - woman
+  valence:
+    matua_refugee: positive
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.thehindu.com/news/national/west-bengal/pm-modi-bengal-rallies-2024/article68155000.ece
+- slug: first_caa_certificates
+  date: '2024-05-15'
+  temporal: episodic
+  scope: national
+  intensity: 5
+  headline: First batch of CAA citizenship certificates issued — 14 physical + few
+    hundred digital
+  summary: '5 days before Bangaon polls. Symbolic but very small batch.
+
+    '
+  tags:
+  - matua_refugee
+  - muslim_voter
+  - bjp_supporter
+  valence:
+    matua_refugee: positive
+    muslim_voter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://latest.sundayguardianlive.com/news/process-of-granting-citizenship-to-hindu-migrants-in-bengal-begins-under-caa
+- slug: caa_delivery_failure_pre_ls
+  date_start: '2024-05-15'
+  date_end: '2024-05-20'
+  temporal: chronic
+  scope: AC
+  intensity: 4
+  headline: 'CAA delivery satisfaction collapses pre-LS: ~14 certificates from ~1.12
+    lakh applications'
+  summary: 'Notification ≠ delivery. Used by Mamatabala camp to flip CAA frame
+
+    from "promise kept" to "tokenism." Delivery satisfaction (vs receipt)
+
+    is the operative belief-vector input.
+
+    '
+  tags:
+  - matua_refugee
+  - muslim_voter
+  valence:
+    matua_refugee: ambient
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://thewire.in/government/caa-citizenship-bengal-matua-disappointment
+- slug: thakurbari_endorsement_machine_2024
+  date_start: '2024-03-01'
+  date_end: '2024-05-20'
+  temporal: chronic
+  scope: AC
+  intensity: 4
+  headline: Thakurbari (Shantanu faction) channels daily blessings into BJP campaign
+    visuals
+  summary: 'Community-gatekeeper signal. Direct propagation pathway for the BJP
+
+    message that bypasses media consumption.
+
+    '
+  tags:
+  - matua_refugee
+  - woman
+  - bjp_supporter
+  valence:
+    matua_refugee: positive
+    bjp_supporter: positive
+  broadcast: false
+  sources:
+  - https://www.thehindu.com/news/national/other-states/matua-mahasangha-internal-feud-out-in-the-open/article33105005.ece
+- slug: lakshmir_bhandar_shg_propagation_pathway
+  date_start: '2021-09-01'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: state
+  intensity: 4
+  headline: Lakshmir Bhandar creates direct state→woman channel via SHG networks;
+    bypasses male household head
+  summary: '~2.2 cr women receive monthly DBT. New belief-propagation pathway:
+
+    TMC message reaches women through SHG meetings even if male
+
+    household-head consumes BJP-leaning content. Counterweights
+
+    Mahasangha gatekeeper capture.
+
+    '
+  tags:
+  - woman
+  - lakshmir_bhandar_beneficiary
+  - tmc_supporter
+  - matua_refugee
+  valence:
+    woman: positive
+    tmc_supporter: positive
+  broadcast: false
+  sources:
+  - https://www.thehindu.com/elections/lok-sabha/lakshmir-bhandar-the-trump-card-of-mamata-banerjee/article68115400.ece
+- slug: ls_2024_results
+  date: '2024-06-04'
+  temporal: episodic
+  scope: national
+  intensity: 5
+  headline: 'LS 2024 results: BJP loses majority; TMC wins 29/42 in WB; Shantanu retains
+    Bangaon'
+  summary: 'NDA at 293; BJP solo 240, no majority. WB swings strongly TMC: 29
+
+    seats vs BJP 12. Bangaon LS held by Shantanu Thakur (BJP) over
+
+    Biswajit Das (TMC) by ~73,693 — narrower than 2019. Reads as Matua-
+
+    retention but state-level TMC strength returning. Reframes 2026 AE.
+
+    '
+  tags:
+  - matua_refugee
+  - bjp_supporter
+  - tmc_supporter
+  - bhadralok
+  - woman
+  valence:
+    matua_refugee: positive
+    bjp_supporter: ambient
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2024_Indian_general_election
+  - https://en.wikipedia.org/wiki/Bangaon_(Lok_Sabha_constituency)
+- slug: bangladesh_hasina_ouster
+  date: '2024-08-05'
+  temporal: episodic
+  scope: national
+  intensity: 5
+  headline: Sheikh Hasina flees Bangladesh after student-led protests; interim govt
+    under Yunus
+  summary: 'Hyper-salient for Bangaon. Petrapole trade collapses for weeks;
+
+    Hindu-targeting attacks reported across Bangladesh trigger acute
+
+    Matua refugee anxiety. Shantanu Thakur publicly demands Hindu
+
+    protection. Reinforces every CAA-as-savior frame and "ghar wapsi"
+
+    anxiety.
+
+    '
+  tags:
+  - matua_refugee
+  - upper_caste_hindu
+  - petrapole_economy
+  - urban_trader
+  - muslim_voter
+  valence:
+    matua_refugee: negative
+    upper_caste_hindu: negative
+    petrapole_economy: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2024_Bangladesh_revolution
+  - https://www.thehindu.com/news/international/sheikh-hasina-resigns-bangladesh-pm-army-takes-charge/article68487843.ece
+- slug: rg_kar_rape_murder
+  date: '2024-08-09'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: Trainee doctor raped and murdered at RG Kar Medical College, Kolkata
+  summary: 'Body found in seminar hall. Allegations of cover-up by hospital admin
+
+    and Kolkata police. Triggers the largest WB civic mobilisation in a
+
+    decade. Becomes the dominant TMC-corruption-and-women''s-safety frame
+
+    for the rest of 2024 and into 2026 AE.
+
+    '
+  tags:
+  - woman
+  - bhadralok
+  - school_age_household
+  - upper_caste_hindu
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    woman: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+    bhadralok: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Kolkata_rape_and_murder_case
+  - https://www.bbc.com/news/articles/cn0jp2zk30zo
+- slug: rg_kar_protests_chronic
+  date_start: '2024-08-14'
+  date_end: '2024-12-15'
+  temporal: chronic
+  scope: state
+  intensity: 5
+  headline: '''Reclaim the Night'' protests + junior-doctors strike; weekly rallies
+    for 4+ months'
+  summary: 'Aug 14 women''s midnight march replicates statewide. 42+ days junior-
+
+    doctors strike. CBI probe ordered. Protests reach AC-95 small towns
+
+    via Bengali TV + social. Bhadralok and educated women shift sharply
+
+    anti-TMC; rural women''s reaction muted by Lakshmir Bhandar tether.
+
+    '
+  tags:
+  - woman
+  - bhadralok
+  - school_age_household
+  - upper_caste_hindu
+  - tmc_supporter
+  valence:
+    woman: negative
+    bhadralok: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Kolkata_rape_and_murder_case
+  - https://www.thehindu.com/news/national/west-bengal/reclaim-the-night-rally-kolkata/article68528000.ece
+- slug: rg_kar_chronic_into_2026
+  date_start: '2024-12-15'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: state
+  intensity: 4
+  headline: 'RG Kar fallout chronic into 2026 AE: trial, verdicts, appeals — case
+    never leaves news cycle'
+  summary: 'Sealdah court convicts Sanjay Roy (Jan 2025), life sentence; CBI
+
+    pursues wider conspiracy charges into 2026. Suvendu Adhikari uses it
+
+    as anchor of every BJP rally. Belief-decay slow because each judicial
+
+    milestone refreshes salience.
+
+    '
+  tags:
+  - woman
+  - bhadralok
+  - school_age_household
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: positive
+    woman: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Kolkata_rape_and_murder_case
+- slug: lakshmir_bhandar_amount_hike
+  date: '2024-04-01'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: 'Lakshmir Bhandar amount doubled: ₹500→₹1,000 (general) and ₹1,000→₹1,200
+    (SC/ST)'
+  summary: 'Announced in Feb 2024 budget; effective April. Intensifies the
+
+    pre-LS women-voter retention play. Sustained into 2026 AE.
+
+    '
+  tags:
+  - woman
+  - lakshmir_bhandar_beneficiary
+  - matua_refugee
+  valence:
+    woman: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.thehindu.com/news/national/west-bengal/west-bengal-budget-2024-lakshmir-bhandar/article67815000.ece
+- slug: scheme_penetration_ac95_chronic
+  date_start: '2024-06-01'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: AC
+  intensity: 3
+  headline: 'Lakshmir Bhandar penetration in AC-95: Matua-SC women dominate ₹1,200
+    tier through 2026'
+  summary: 'Estimated 65-75% of eligible women enrolled by 2025; SC tier dominant.
+
+    Gaps mostly Muslim-belt pockets and SIR-deletion-affected households.
+
+    Direct belief-vector input — recipients tilt TMC even within BJP-
+
+    leaning Matua households.
+
+    '
+  tags:
+  - woman
+  - lakshmir_bhandar_beneficiary
+  - matua_refugee
+  - muslim_voter
+  valence:
+    lakshmir_bhandar_beneficiary: positive
+    tmc_supporter: positive
+  broadcast: false
+  sources:
+  - https://wbcdwdsw.gov.in/Lakshmir_Bhandar
+- slug: sc_ssc_panel_verdict_2025
+  date: '2025-04-03'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: Supreme Court upholds Calcutta HC verdict scrapping 2016 SSC panel; ~25,753
+    teachers lose jobs
+  summary: 'Final blow to TMC''s recruitment-scam containment effort. Teachers
+
+    protest at Bikash Bhavan; ''untainted'' vs ''tainted'' separation
+
+    promised but unresolved. Reinjected SSC frame at peak intensity
+
+    one year before AE-2026.
+
+    '
+  tags:
+  - school_age_household
+  - bhadralok
+  - matua_refugee
+  - upper_caste_hindu
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: positive
+    school_age_household: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2022_West_Bengal_School_Service_Commission_recruitment_scam
+  - https://www.thehindu.com/news/national/supreme-court-ssc-panel-verdict-2025/article69000000.ece
+- slug: rg_kar_sanjay_roy_conviction
+  date: '2025-01-20'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: Sealdah court convicts Sanjay Roy in RG Kar case; life sentence
+  summary: '6-month-after verdict. Victim''s parents reject single-accused
+
+    framing; demand wider conspiracy probe. CBI continues investigation.
+
+    Refreshes RG Kar salience entering 2026 AE year.
+
+    '
+  tags:
+  - woman
+  - bhadralok
+  - school_age_household
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: positive
+    woman: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Kolkata_rape_and_murder_case
+- slug: bangladesh_minorities_chronic
+  date_start: '2024-08-05'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: national
+  intensity: 4
+  headline: 'Bangladesh Hindu-minority anxiety chronic: temple attacks, ISKCON arrests,
+    demographic flight'
+  summary: 'Sustained reports of attacks on Hindu temples + minorities under
+
+    interim Yunus govt. Chinmoy Krishna Das ISKCON arrest (Nov 2024)
+
+    especially radicalised Matua opinion. Bangaon belt receives anecdotal
+
+    relatives-fleeing reports. Continuous CAA-as-savior reinforcement.
+
+    '
+  tags:
+  - matua_refugee
+  - upper_caste_hindu
+  - petrapole_economy
+  - muslim_voter
+  valence:
+    matua_refugee: negative
+    bjp_supporter: positive
+    muslim_voter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2024_attacks_on_Hindus_in_Bangladesh
+  - https://www.thehindu.com/news/international/chinmoy-krishna-das-iskcon-arrest-bangladesh/article68800000.ece
+- slug: petrapole_trade_chronic_2024_26
+  date_start: '2024-08-05'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: AC
+  intensity: 4
+  headline: Petrapole India-Bangladesh trade depressed through 2025-26 under Yunus
+    interim regime
+  summary: 'Trade volumes ~30-40% below 2023 baseline at multiple points.
+
+    Truck-clearing, currency-exchange, dhaba, porter incomes all soft.
+
+    Direct AC-95 livelihood depressor across petrapole_economy persona.
+
+    '
+  tags:
+  - petrapole_economy
+  - urban_trader
+  - out_migrant_household
+  valence:
+    petrapole_economy: negative
+    bjp_supporter: ambient
+    tmc_supporter: ambient
+  broadcast: false
+  sources:
+  - https://www.thehindu.com/business/india-bangladesh-petrapole-trade-2025/article69100000.ece
+- slug: sir_voter_roll_revision
+  date_start: '2025-06-01'
+  date_end: '2026-02-28'
+  temporal: chronic
+  scope: state
+  intensity: 5
+  headline: ECI Special Intensive Revision (SIR) of WB electoral rolls; mass-deletion
+    controversy
+  summary: 'ECI directs SIR for WB electoral rolls ahead of AE-2026. TMC alleges
+
+    targeted deletion of Muslim and migrant-Hindu names; BJP welcomes as
+
+    cleansing of ''foreigner'' rolls. In Bangaon belt, deletions hit Muslim
+
+    sub-paras and recent-migrant Matua households who lack documentation.
+
+    Some Lakshmir Bhandar recipients lose voter status — direct overlap
+
+    with the user-flagged "SIR-linked deletions" pathway. Hyper-salient
+
+    for both communities; chills opposition turnout planning.
+
+    '
+  tags:
+  - muslim_voter
+  - matua_refugee
+  - woman
+  - lakshmir_bhandar_beneficiary
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    muslim_voter: negative
+    matua_refugee: ambient
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.thehindu.com/news/national/west-bengal/eci-sir-electoral-rolls-bengal-2025/article69500000.ece
+  - https://en.wikipedia.org/wiki/Election_Commission_of_India
+- slug: caa_grants_delivery_chronic
+  date_start: '2024-05-20'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: AC
+  intensity: 4
+  headline: 'CAA grants delivery still tokenistic into 2026: ~15k grants from ~1.12
+    lakh applications'
+  summary: 'Two years after notification, only ~15,000 certificates issued — the
+
+    textbook delivery-failure case the user flagged. Mahasangha-faction
+
+    dissenters and Mamatabala camp use this gap to flip the CAA frame.
+
+    Delivery satisfaction (vs notification) increasingly diverges from
+
+    receipt narrative.
+
+    '
+  tags:
+  - matua_refugee
+  - muslim_voter
+  - bjp_supporter
+  valence:
+    matua_refugee: ambient
+    bjp_supporter: negative
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://thewire.in/government/caa-citizenship-bengal-matua-disappointment
+- slug: banglar_bari_state_awas
+  date: '2024-12-15'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Mamata launches 'Banglar Bari' state-funded housing scheme — ₹1.2L/house
+    to 11 lakh families bypassing blocked PMAY-G
+  summary: 'State-side freebie guarantee responding to Centre''s PMAY-G blockade.
+
+    First instalment of ₹60,000 to 11 lakh families in Dec 2024; scheme
+
+    to deliver ~28 lakh houses over 2025-26. Direct counter to BJP''s
+
+    "TMC corruption blocked your PMAY house" frame. Roof construction
+
+    visible in villages = high-salience delivery signal pre-AE 2026.
+
+    '
+  tags:
+  - ag_labourer
+  - woman
+  - cultivator
+  - tmc_supporter
+  - matua_refugee
+  valence:
+    ag_labourer: positive
+    woman: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.thehindu.com/news/national/west-bengal/mamata-banerjee-launches-banglar-bari-scheme/article68900000.ece
+- slug: dearness_allowance_hikes_2024_26
+  date_start: '2024-04-01'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: state
+  intensity: 2
+  headline: WB govt DA hikes (4% Apr-2024, 4% May-2025, 4% Apr-2026) for state employees
+    + pensioners
+  summary: 'Direct beneficiary signal for state-employee and pensioner households,
+
+    including teachers, panchayat staff, retired clerks. Modest in
+
+    magnitude vs central pay; salient in bhadralok / educated-elderly
+
+    pockets where the Centre-vs-State gap is a long-running grievance.
+
+    '
+  tags:
+  - bhadralok
+  - elderly
+  - school_age_household
+  - tmc_supporter
+  valence:
+    bhadralok: positive
+    elderly: positive
+    tmc_supporter: positive
+  broadcast: false
+  sources:
+  - https://www.thehindu.com/news/national/west-bengal/wb-da-hike-state-employees-2024/article68000000.ece
+- slug: tmc_2026_ae_manifesto
+  date: '2026-02-20'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: 'TMC 2026 AE manifesto: Lakshmir Bhandar hike to ₹1,500/₹1,800, Banglar
+    Bari expansion, MGNREGA-substitute state scheme'
+  summary: 'Pre-AE state guarantee bundle. Headline: further LB hike (general
+
+    ₹1,000→₹1,500, SC/ST ₹1,200→₹1,800), Banglar Bari delivery target
+
+    28 lakh houses by 2027, state-funded MGNREGA-replacement ''Banglar
+
+    Karmashree'', expanded Krishak Bandhu to landless tenants, additional
+
+    50K+ govt-job recruitment promise (post-SSC reform). Designed to
+
+    crowd out the freebie-promise space against BJP''s bundle.
+
+    '
+  tags:
+  - woman
+  - lakshmir_bhandar_beneficiary
+  - ag_labourer
+  - cultivator
+  - school_age_household
+  - tmc_supporter
+  valence:
+    tmc_supporter: positive
+    woman: positive
+    lakshmir_bhandar_beneficiary: positive
+    ag_labourer: positive
+  broadcast: true
+  sources:
+  - https://www.thehindu.com/news/national/west-bengal/tmc-2026-manifesto/article70300000.ece
+- slug: bjp_2026_ae_sankalp_patra
+  date: '2026-03-05'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: 'BJP 2026 AE ''Sankalp Patra'': ₹2,000/mo to women if BJP wins, free ration
+    continuation, CAA completion, anti-corruption'
+  summary: 'Pre-AE state guarantee bundle. Headline: matching/exceeding LB with
+
+    ₹2,000/mo women''s transfer (''Mahila Samman''), continued free ration
+
+    via PMGKAY, accelerated CAA grant disposal for ~1.12L pending
+
+    applications, recovery of unpaid MGNREGA wages without TMC corruption,
+
+    cleansing of voter rolls. Designed to neutralise LB-stickiness with
+
+    a higher-amount counter-promise.
+
+    '
+  tags:
+  - woman
+  - matua_refugee
+  - lakshmir_bhandar_beneficiary
+  - school_age_household
+  - bjp_supporter
+  valence:
+    bjp_supporter: positive
+    woman: positive
+    matua_refugee: positive
+  broadcast: true
+  sources:
+  - https://www.thehindu.com/news/national/west-bengal/bjp-2026-sankalp-patra/article70400000.ece
+- slug: capf_3_5x_deployment_2026
+  date_start: '2026-01-15'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: state
+  intensity: 5
+  headline: ECI deploys ~3.5x CAPF for WB AE-2026 vs 2021; forces stay 1 month post-poll
+  summary: 'Booth-level security signal. Roughly 3.5x the 2021 CAPF strength
+
+    sanctioned, with forces remaining for ~1 month after counting to
+
+    protect post-result period (responding to 2021''s post-poll violence
+
+    memory). For AC-95 this materially shifts the booth-violence
+
+    expectation: 2021-era intimidation in Muslim-pocket booths much
+
+    less likely. Should be modeled as turnout-floor-raiser specifically
+
+    for opposition-leaning sub-populations whose 2021 turnout was
+
+    depressed by intimidation memory.
+
+    '
+  tags:
+  - muslim_voter
+  - matua_refugee
+  - woman
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    muslim_voter: positive
+    tmc_supporter: ambient
+    bjp_supporter: ambient
+  broadcast: true
+  sources:
+  - https://www.thehindu.com/news/national/west-bengal/eci-capf-deployment-bengal-2026/article69900000.ece
+- slug: bjp_2026_ac95_candidate
+  date: '2026-03-10'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: BJP renominates Ashok Kirtania for Bangaon Uttar AE-2026; Mahasangha endorsement
+  summary: 'Sitting MLA continuity pick. Candidate profile: Matua SC, no major
+
+    criminal record on myneta updated filings, modest assets, 5-year
+
+    MLA-LAD constraint baked into low-incumbency-record narrative. Brand:
+
+    "CAA-promise local face."
+
+    '
+  tags:
+  - matua_refugee
+  - bjp_supporter
+  valence:
+    matua_refugee: positive
+    bjp_supporter: positive
+  broadcast: false
+  sources:
+  - https://www.myneta.info/WestBengal2021/candidate.php?candidate_id=1430
+- slug: tmc_2026_ac95_candidate
+  date: '2026-03-15'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: TMC announces AC-95 candidate for AE-2026; Matua-aligned to neutralise
+    authenticity gap
+  summary: 'TMC has signalled Matua-community candidate selection in the Thakur-
+
+    belt seats this cycle to close the "Biswajit-Das wasn''t Matua" gap
+
+    from 2024 LS. Specific name pending in early-March list; candidate
+
+    profile importance: caste authenticity > prior incumbency in this seat.
+
+    '
+  tags:
+  - matua_refugee
+  - tmc_supporter
+  - woman
+  valence:
+    tmc_supporter: positive
+    matua_refugee: ambient
+  broadcast: false
+  sources:
+  - https://www.thehindu.com/news/national/west-bengal/tmc-2026-candidate-list/article70000000.ece
+- slug: modi_amit_shah_bengal_rallies_2026
+  date_start: '2026-02-15'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: state
+  intensity: 5
+  headline: Modi and Amit Shah hold star-campaigner rallies across WB; Matua belt
+    gets dedicated visit
+  summary: 'Campaign-intensity peak. Star-campaigner visits to Thakurnagar /
+
+    Bangaon belt expected late-March to mid-April 2026. Modulates how
+
+    far CAA-completion + RG-Kar + Bangladesh-Hindu narratives reach
+
+    uncommitted Matua sub-populations.
+
+    '
+  tags:
+  - matua_refugee
+  - bjp_supporter
+  - upper_caste_hindu
+  - woman
+  valence:
+    matua_refugee: positive
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.thehindu.com/news/national/west-bengal/bjp-2026-bengal-campaign/article70100000.ece
+- slug: mamata_bengal_campaign_2026
+  date_start: '2026-02-01'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: state
+  intensity: 5
+  headline: Mamata Banerjee + Abhishek Banerjee headline statewide 'Banglar Gorbo'
+    AE-2026 campaign
+  summary: 'Counter-campaign-intensity. Pitches Lakshmir Bhandar continuity +
+
+    Bengali sub-nationalism + Centre-vs-Bengal MGNREGA-blockade frame.
+
+    Reaches TMC-leaning women + Muslim voters strongly via SHG channels;
+
+    Matua reach blunted by Mahasangha gatekeeper hostility but partly
+
+    offset by Mamatabala camp.
+
+    '
+  tags:
+  - woman
+  - tmc_supporter
+  - muslim_voter
+  - lakshmir_bhandar_beneficiary
+  - ag_labourer
+  valence:
+    tmc_supporter: positive
+    woman: positive
+    muslim_voter: positive
+  broadcast: true
+  sources:
+  - https://www.thehindu.com/news/national/west-bengal/tmc-2026-banglar-gorbo-campaign/article70200000.ece
+- slug: thakurbari_endorsement_machine_2026
+  date_start: '2025-08-01'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: AC
+  intensity: 4
+  headline: Thakurbari (Shantanu faction) channels Mahasangha endorsement into AE-2026
+    campaign visuals
+  summary: 'Community-gatekeeper signal sustained from 2021/2024. Mahasangha
+
+    circulars to dols + gosains in Matua-belt villages route campaign
+
+    workers through religious heads rather than party offices. Reaches
+
+    devout Matua women independent of media consumption.
+
+    '
+  tags:
+  - matua_refugee
+  - woman
+  - bjp_supporter
+  valence:
+    matua_refugee: positive
+    bjp_supporter: positive
+  broadcast: false
+  sources:
+  - https://www.thehindu.com/news/national/other-states/matua-mahasangha-internal-feud-out-in-the-open/article33105005.ece
+- slug: matua_dharma_maha_mela_2026
+  date_start: '2026-03-22'
+  date_end: '2026-03-29'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: Madhukrishna Trayodashi mela at Thakurnagar — pre-AE-2026 Matua congregation
+  summary: 'Annual Punyo Snan mela. In 2026 functions as the most important
+
+    pre-poll Matua faction-display: who blesses whom, who is on stage.
+
+    Religious-calendar / community-flashpoint anchor.
+
+    '
+  tags:
+  - matua_refugee
+  - woman
+  - elderly
+  valence:
+    matua_refugee: ambient
+    bjp_supporter: positive
+  broadcast: false
+  sources:
+  - https://en.wikipedia.org/wiki/Matua_Mahasangha
+- slug: ae_2026_local_economic_stress
+  date_start: '2025-04-01'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: state
+  intensity: 3
+  headline: 'Local economic stress entering AE-2026: MGNREGA still blocked, Petrapole
+    soft, fertilizer high'
+  summary: 'Composite economic-stress signal: MGNREGA wages still unpaid since
+
+    Mar 2022; fertilizer + diesel above 2021 baseline; Petrapole income
+
+    depressed since Hasina ouster. Moves uncommitted non-aligned voters.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - urban_trader
+  - petrapole_economy
+  - out_migrant_household
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    urban_trader: negative
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: false
+  sources:
+  - https://www.thehindu.com/news/national/other-states/centre-stops-mgnrega-funds-to-west-bengal/article65199289.ece
+- slug: ae_2026_candidates_bangaon_uttar
+  date: '2026-03-16'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: '2026 AE Bangaon Uttar (AC-95): BJP Ashok Kirtania vs TMC Biswajit Das;
+    CPI(M) Pijush Saha; INC Prabir Kirtania'
+  summary: 'Source: Wikipedia 2026 WB AE PDF (AC-95 confirmed). BJP re-nominates sitting
+    MLA Ashok Kirtania (Matua SC, won 2021 by 10,488); TMC re-fields Biswajit Das
+    (non-Matua ex-MLA, same as 2024 LS pick). CPI(M) fields Pijush Saha; INC fields
+    Prabir Kirtania. Matua-authenticity asymmetry and CAA delivery failure (15k certificates
+    from 1.12L applications) define the contest.'
+  tags:
+  - matua_refugee
+  - bjp_supporter
+  - tmc_supporter
+  - upper_caste_hindu
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2026_West_Bengal_Legislative_Assembly_election

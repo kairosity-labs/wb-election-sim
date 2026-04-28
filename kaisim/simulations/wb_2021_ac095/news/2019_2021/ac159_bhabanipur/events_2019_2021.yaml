@@ -1,0 +1,629 @@
+cutoff_date: '2021-05-02'
+events:
+- slug: ls_2019_kolkata_south_tmc_win
+  date: '2019-05-23'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: TMC's Mala Roy retains Kolkata Dakshin LS seat; BJP surges to second place
+  summary: 'Mala Roy (TMC) won Kolkata Dakshin Lok Sabha by ~80,000 votes but the
+    BJP''s
+
+    Chandra Kumar Bose significantly closed the gap, signalling an urban Hindu swing.
+
+    Bhabanipur wards showed a tighter race than 2014, reflecting bhadralok dissatisfaction
+
+    with governance and the BJP''s Hindutva pitch resonating among upper-caste voters.
+
+    '
+  tags:
+  - bhadralok
+  - upper_caste_hindu
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    bhadralok: ambient
+    upper_caste_hindu: ambient
+    bjp_supporter: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Kolkata_Dakshin_Lok_Sabha_constituency
+- slug: nrc_assam_final_list
+  date: '2019-08-31'
+  temporal: episodic
+  scope: national
+  intensity: 4
+  headline: Assam NRC final list excludes 19 lakh; Bengali Hindu anxieties spike across
+    Bengal
+  summary: 'The final NRC list excluded ~19 lakh people from Assam, disproportionately
+    Bengali
+
+    Hindus. In Bhabanipur, educated bhadralok and the large Marwari-Gujarati trading
+    community
+
+    watched closely; Muslim residents feared the NRC template could spread to West
+    Bengal.
+
+    Mamata called the NRC a ''conspiracy'' — her stand resonated strongly in this
+    mixed-religion
+
+    urban constituency.
+
+    '
+  tags:
+  - bhadralok
+  - muslim_voter
+  - upper_caste_hindu
+  valence:
+    bhadralok: negative
+    muslim_voter: negative
+    upper_caste_hindu: negative
+    bjp_supporter: ambient
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/National_Register_of_Citizens_(Assam)
+  - https://www.thehindu.com/news/national/assam-nrc-final-list-published-19-lakh-excluded/article29307713.ece
+- slug: caa_passed_parliament
+  date: '2019-12-11'
+  temporal: episodic
+  scope: national
+  intensity: 5
+  headline: CAA passed in Parliament; Bhabanipur's Gujarati-Jain community celebrates,
+    Muslim pocket anxious
+  summary: 'The Citizenship (Amendment) Act 2019 granted fast-track citizenship to
+    Hindu, Sikh,
+
+    Buddhist, Jain, Parsi and Christian refugees from three Muslim-majority neighbours.
+
+    In Bhabanipur, wards 70-72 housing Gujarati, Marwari and Jain traders broadly
+    welcomed
+
+    the measure. The ~25% Muslim electorate — concentrated in adjacent areas — felt
+
+    directly excluded and feared the CAA-NRC combination. Mamata declared WB would
+
+    never implement NRC, making Bhabanipur a front-row seat for this national fault-line.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - muslim_voter
+  - urban_trader
+  - bhadralok
+  valence:
+    upper_caste_hindu: positive
+    urban_trader: positive
+    muslim_voter: negative
+    bhadralok: ambient
+    bjp_supporter: positive
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Citizenship_Amendment_Act_2019
+  - https://www.thehindu.com/news/national/parliament-passes-citizenship-amendment-bill-2019/article30282661.ece
+- slug: anticaa_kolkata_march_dec2019
+  date: '2019-12-19'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Mamata leads massive anti-CAA march in Kolkata from Raja Bazar to Mullick
+    Bazar
+  summary: 'Chief Minister Mamata Banerjee led a large protest march through central
+    Kolkata against
+
+    the CAA and NRC on 19 December 2019, passing through mixed-religion areas close
+    to
+
+    Bhabanipur. The march consolidated her as the dominant anti-CAA leader nationally
+    and
+
+    reassured Bhabanipur''s Muslim residents of state protection while signalling
+    to
+
+    liberal bhadralok her commitment to constitutional values over BJP majoritarianism.
+
+    '
+  tags:
+  - muslim_voter
+  - bhadralok
+  - woman
+  - tmc_supporter
+  valence:
+    muslim_voter: positive
+    bhadralok: positive
+    woman: positive
+    bjp_supporter: negative
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.business-standard.com/article/pti-stories/mamata-leads-protest-march-against-caa-nrc-in-kolkata-119121900181_1.html
+  - https://en.wikipedia.org/wiki/Citizenship_Amendment_Act_protests
+- slug: anticaa_protests_ongoing_2020
+  date_start: '2020-01-01'
+  date_end: '2020-03-10'
+  temporal: chronic
+  scope: state
+  intensity: 3
+  headline: Anti-CAA sit-in protests at Park Circus, Kolkata — sustained through Jan-Mar
+    2020
+  summary: 'Park Circus maidan in south Kolkata, adjacent to Bhabanipur, hosted sustained
+    anti-CAA
+
+    sit-in protests modelled on Delhi''s Shaheen Bagh. Muslim women led the demonstrations,
+
+    drawing solidarity from bhadralok intellectuals and students. The protests kept
+    CAA-NRC
+
+    anxiety high among Bhabanipur''s Muslim pocket and reinforced Mamata''s protective
+
+    narrative as the BJP accused her of ''appeasement.''
+
+    '
+  tags:
+  - muslim_voter
+  - woman
+  - bhadralok
+  - tmc_supporter
+  valence:
+    muslim_voter: positive
+    woman: positive
+    bhadralok: ambient
+    bjp_supporter: negative
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Citizenship_Amendment_Act_protests
+- slug: covid_lockdown_march2020
+  date: '2020-03-25'
+  temporal: episodic
+  scope: national
+  intensity: 5
+  headline: National COVID lockdown collapses Kolkata's urban economy; Bhabanipur
+    traders hit
+  summary: 'The Modi government''s 21-day nationwide lockdown from 25 March 2020 shuttered
+
+    Bhabanipur''s dense commercial zones — Rashbehari Connector, Gariahat, Hazra Road
+    markets —
+
+    overnight. Gujarati and Marwari wholesale and retail traders faced acute cash-flow
+
+    disruption. The bhadralok professional class moved to work-from-home. Both groups
+
+    blamed central government mismanagement; the state government''s relief packages
+
+    were limited but visible.
+
+    '
+  tags:
+  - urban_trader
+  - bhadralok
+  - school_age_household
+  valence:
+    urban_trader: negative
+    bhadralok: negative
+    school_age_household: negative
+    bjp_supporter: negative
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/COVID-19_lockdown_in_India
+- slug: amphan_cyclone_may2020
+  date: '2020-05-20'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Super-cyclone Amphan devastates Kolkata; Bhabanipur suffers tree-fall,
+    power outages
+  summary: 'Super-cyclone Amphan made landfall near Digha on 20 May 2020, causing
+    widespread
+
+    destruction across Kolkata including Bhabanipur. Uprooted trees blocked major
+    roads
+
+    and power cuts lasted days in urban south Kolkata. Mamata''s immediate field presence
+
+    and the state''s relief operations boosted her credibility; however, TMC''s reportedly
+
+    uneven distribution of relief funds drew some criticism from opposition.
+
+    '
+  tags:
+  - bhadralok
+  - urban_trader
+  - woman
+  valence:
+    bhadralok: negative
+    urban_trader: negative
+    woman: negative
+    bjp_supporter: negative
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Cyclone_Amphan
+- slug: swasthya_sathi_universalised
+  date: '2020-12-01'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Swasthya Sathi health scheme extended to all WB residents from 1 December
+    2020
+  summary: 'Mamata Banerjee universalised the Swasthya Sathi cashless health insurance
+    (up to
+
+    Rs 5 lakh/family) to cover every West Bengal resident regardless of income or
+    caste.
+
+    In urban Bhabanipur, this was especially salient for the city''s large domestic-worker
+
+    and small-trader workforce who lacked formal health coverage. The scheme''s smart-card
+
+    linkage and broad private-hospital empanelment made it tangible to the urban middle
+    class.
+
+    '
+  tags:
+  - woman
+  - bhadralok
+  - urban_trader
+  - swasthya_sathi_beneficiary
+  valence:
+    woman: positive
+    bhadralok: positive
+    urban_trader: positive
+    swasthya_sathi_beneficiary: positive
+    bjp_supporter: ambient
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.downtoearth.org.in/health/swasthya-sathi-will-now-include-bengal-s-entire-population-mamata-74458
+  - https://swasthyasathi.gov.in/AboutScheme
+- slug: duare_sarkar_phase1
+  date: '2020-12-01'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: Duare Sarkar 'government at doorstep' camps roll out in Kolkata Municipal
+    wards from December 2020
+  summary: 'The TMC government''s Duare Sarkar programme held multi-scheme enrollment
+    camps at
+
+    municipal ward level in Kolkata from 1 December 2020. In Bhabanipur''s wards,
+    residents
+
+    enrolled for Swasthya Sathi, Khadya Sathi, and Kanyashree. The camps created a
+
+    visible TMC service-delivery presence in the urban constituency ahead of the 2021
+
+    elections, counter-programming BJP''s ''Sonar Bangla'' governance attack.
+
+    '
+  tags:
+  - woman
+  - bhadralok
+  - urban_trader
+  - kanyashree_household
+  - swasthya_sathi_beneficiary
+  valence:
+    woman: positive
+    bhadralok: positive
+    urban_trader: positive
+    bjp_supporter: ambient
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://wb.gov.in/duare-sarkar.aspx
+  - https://wb.nic.in/news/duare-sarkar-govt-at-doorstep-and-paray-samadhan-solution-at-mohalla-two-massive-outreach-program-of-government-of-west-bengal-developed-by-nic-west-bengal/
+- slug: suvendu_joins_bjp_dec2020
+  date: '2020-12-19'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Suvendu Adhikari quits TMC, joins BJP at Amit Shah rally in Midnapore
+  summary: 'Suvendu Adhikari, a powerful TMC leader, resigned from the party and joined
+    the BJP at
+
+    an Amit Shah rally on 19 December 2020. For Bhabanipur''s political class, the
+    defection
+
+    — the most significant since TMC''s founding — signalled an internal TMC crisis
+    and gave
+
+    BJP momentum. The bhadralok and trading communities watched closely whether this
+
+    would prompt further TMC splits ahead of the 2021 elections.
+
+    '
+  tags:
+  - bhadralok
+  - upper_caste_hindu
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    bhadralok: ambient
+    bjp_supporter: positive
+    tmc_supporter: negative
+    upper_caste_hindu: ambient
+  broadcast: true
+  sources:
+  - https://www.aninews.in/news/national/general-news/former-tmc-leader-suvendu-adhikari-joins-bjp-at-amit-shahs-midnapore-rally20201219152128/
+  - https://en.wikipedia.org/wiki/Suvendu_Adhikari
+- slug: tmc_manifesto_didir_shopoth_2021
+  date: '2021-03-17'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: 'TMC releases ''Didir Shopoth'' manifesto: Lakshmir Bhandar Rs 500/month
+    for every women'
+  summary: 'Mamata Banerjee released the TMC''s 2021 election manifesto ''Didir Shopoth''
+    (Didi''s
+
+    Pledge), headlined by the Lakshmir Bhandar scheme giving Rs 500/month (Rs 1,000
+    for SC/ST)
+
+    to women heads of household. For Bhabanipur''s large domestic-worker and homemaker
+
+    population, this was a direct cash transfer promise. The manifesto also promised
+
+    continued free ration (Khadya Sathi) and 10 lakh government jobs.
+
+    '
+  tags:
+  - woman
+  - lakshmir_bhandar_beneficiary
+  - bhadralok
+  - khadya_sathi_beneficiary
+  valence:
+    woman: positive
+    lakshmir_bhandar_beneficiary: positive
+    bhadralok: positive
+    bjp_supporter: ambient
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2021_West_Bengal_Legislative_Assembly_election
+- slug: bjp_manifesto_sonar_bangla_2021
+  date: '2021-03-20'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: BJP releases 'Sonar Bangla' manifesto for 2021 WB polls; promises CAA
+    implementation, 33% women reservation
+  summary: 'The BJP''s 2021 manifesto promised full CAA implementation, a Hindutva
+    cultural agenda,
+
+    33% reservation for women in government jobs, and a uniform civil code study commission.
+
+    In Bhabanipur, the CAA promise appealed to the Gujarati/Jain community while alarming
+
+    Muslim voters. The manifesto''s ''double engine'' governance pitch resonated with
+    some
+
+    bhadralok who saw TMC''s decade as corruption-ridden.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - urban_trader
+  - muslim_voter
+  - woman
+  valence:
+    upper_caste_hindu: positive
+    urban_trader: positive
+    muslim_voter: negative
+    woman: ambient
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2021_West_Bengal_Legislative_Assembly_election
+- slug: mamata_nandigram_campaign_2021
+  date: '2021-03-27'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Mamata chooses Nandigram over Bhabanipur to fight Suvendu; Sovandeb Chattopadhyay
+    holds fort
+  summary: 'Mamata Banerjee announced she would contest from Nandigram (her challenger
+    Suvendu
+
+    Adhikari''s stronghold) rather than her safe Bhabanipur seat, where she installed
+    senior
+
+    TMC minister Sovandeb Chattopadhyay. The move was a high-risk personal statement
+    but left
+
+    Bhabanipur as a managed seat. Local Bhabanipur voters felt a mix of pride in Mamata''s
+
+    boldness and concern about her winning from an unfamiliar seat.
+
+    '
+  tags:
+  - bhadralok
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    bhadralok: ambient
+    tmc_supporter: positive
+    bjp_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Nandigram_Assembly_constituency
+  - https://en.wikipedia.org/wiki/Sovandeb_Chattopadhyay
+- slug: mamata_leg_injury_campaign
+  date: '2021-03-10'
+  temporal: episodic
+  scope: state
+  intensity: 3
+  headline: Mamata injured in Nandigram, campaigns from wheelchair; TMC alleges BJP
+    conspiracy
+  summary: 'Mamata Banerjee suffered a leg injury in Nandigram on 10 March 2021 which
+    she and
+
+    TMC attributed to a BJP-engineered attack. She continued campaigning from a wheelchair,
+
+    generating massive sympathy especially among women voters. In Bhabanipur, the
+    incident
+
+    hardened TMC support; the wheelchair imagery became a rallying symbol for ''Didi''
+    loyalists
+
+    and the woman voter bloc.
+
+    '
+  tags:
+  - woman
+  - bhadralok
+  - tmc_supporter
+  valence:
+    woman: positive
+    bhadralok: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Mamata_Banerjee
+- slug: covid_delta_wave_apr2021
+  date_start: '2021-04-01'
+  date_end: '2021-05-31'
+  temporal: chronic
+  scope: national
+  intensity: 5
+  headline: COVID second wave (Delta) devastates Kolkata; hospitals overwhelmed, oxygen
+    shortage
+  summary: 'The Delta variant-driven second COVID wave hit Kolkata hard from April
+    2021. Kolkata''s
+
+    urban hospitals, including SSKM and NRS adjacent to Bhabanipur, ran out of beds
+    and
+
+    oxygen. Bhabanipur''s professional and bhadralok families directly experienced
+    the crisis
+
+    or knew those who did. Election campaigns were curtailed; the daily death toll
+    became
+
+    the dominant political subtext.
+
+    '
+  tags:
+  - bhadralok
+  - elderly
+  - school_age_household
+  - swasthya_sathi_beneficiary
+  valence:
+    bhadralok: negative
+    elderly: negative
+    school_age_household: negative
+    bjp_supporter: negative
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://theprint.in/health/bengal-yet-to-touch-covid-peak-but-kolkata-is-already-running-out-of-hospital-beds/658594/
+- slug: wb_ae2021_bhabanipur_sovandeb_wins
+  date: '2021-05-02'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Sovandeb Chattopadhyay (TMC) wins Bhabanipur by 28,719 votes over BJP's
+    Rudranil Ghosh
+  summary: 'In the 2021 West Bengal Assembly election, TMC''s Sovandeb Chattopadhyay
+    secured 73,505
+
+    votes, defeating BJP''s Rudranil Ghosh (44,786). The margin reflected strong TMC
+    support
+
+    among Muslim voters (~25%) and the bhadralok, while BJP performed well in Gujarati-Marwari
+
+    wards. The seat was held for Mamata Banerjee who had simultaneously lost Nandigram
+    to
+
+    Suvendu Adhikari by a razor-thin margin — necessitating a by-election.
+
+    '
+  tags:
+  - bhadralok
+  - upper_caste_hindu
+  - muslim_voter
+  - urban_trader
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    bhadralok: positive
+    muslim_voter: positive
+    urban_trader: ambient
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Bhabanipur,_West_Bengal_Assembly_constituency
+  - https://www.india.com/west-bengal/bhabanipur-election-result-2021-tmcs-sobhandeb-chattopadhyay-wins-defeats-bjps-rudranil-ghosh-4616949/
+- slug: wb_ae2021_state_result_tmc_landslide
+  date: '2021-05-02'
+  temporal: episodic
+  scope: state
+  intensity: 5
+  headline: TMC wins 213/294 seats; Mamata re-elected CM but loses Nandigram to Suvendu
+  summary: 'TMC won a decisive third term, securing 213 seats against BJP''s 77. But
+    the shock of
+
+    Mamata personally losing Nandigram (officially by 1,956 votes, disputed by TMC)
+    meant she
+
+    needed a by-election to become MLA within six months to retain the Chief Ministership.
+
+    Bhabanipur was the obvious seat; Sovandeb Chattopadhyay would need to vacate it
+    for her.
+
+    The Bhabanipur by-election became the defining post-election political moment.
+
+    '
+  tags:
+  - bhadralok
+  - tmc_supporter
+  - bjp_supporter
+  - muslim_voter
+  valence:
+    bhadralok: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+    muslim_voter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2021_West_Bengal_Legislative_Assembly_election
+  - https://www.business-standard.com/article/elections/west-bengal-election-result-2021-live-updates-mamata-banerjee-tmc-defeat-bjp-cpim-modi-counting-highlights-121050200047_1.html
+- slug: post_poll_violence_kolkata_2021
+  date: '2021-05-02'
+  temporal: episodic
+  scope: state
+  intensity: 4
+  headline: Post-poll violence erupts across Bengal after TMC win; Kolkata sees BJP
+    worker attacks
+  summary: 'Following the TMC landslide, violence broke out in multiple districts
+    and in Kolkata
+
+    against BJP workers and supporters. The NHRC documented ~1,979 complaints and
+    ~15,000
+
+    victims statewide. In urban Kolkata including areas adjacent to Bhabanipur, some
+    BJP
+
+    supporters were attacked or displaced. The violence became a BJP rallying issue
+    nationally
+
+    and fed into the narrative of ''TMC goonda raj'' in the by-election campaign.
+
+    '
+  tags:
+  - bjp_supporter
+  - bhadralok
+  - upper_caste_hindu
+  valence:
+    bjp_supporter: negative
+    bhadralok: negative
+    tmc_supporter: ambient
+    upper_caste_hindu: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2021_West_Bengal_post-poll_violence
