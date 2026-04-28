@@ -1,0 +1,111 @@
+axis,category,pct,tier,source,is_subgroup
+religion,"Hindu (self-identified, including many syncretic Adivasi)",84.04,A,"Weighted block average: Muni 94.72% × 22.8% + Jhargram CDB 91.03% × 19.4% + Binpur I 77.47% × 57.8% = 84.03%; projected stable 2011→2019. Note: ~10.9% of total population practices Sarna/ORP religion — they appear in Census 2011 ""Hindu"" or ""Other religions"" categories; the Sarna row below is a disaggregation within the Census ""Other"" + part of nominal ""Hindu""",no
+religion,Muslim,3.44,E,Weighted: Muni 1.66% × 22.8% + Jhargram CDB 3.70% × 19.4% + Binpur I 3.89% × 57.8% = 3.34%; projected +0.1pp 2011→2019,no
+religion,Sarna / ORP (tribal nature-worship),10.90,E,"Weighted ""Others"" share: Jhargram CDB 4.66% × 19.4% + Binpur I 16.29% × 57.8% + Muni 2.53% × 22.8% ≈ 10.9%; these are embedded within the Census ""Other religions"" category and partly within nominal Hindu; the 10.90% is NET of Hindu row above (no double-count) — see Census note",no
+religion,Christian,0.43,E,Muni 0.75% × 22.8% + CDB 0.30% × 19.4% + Binpur I 0.35% × 57.8%,no
+religion,Other / not stated,1.19,E,Weighted residual: Muni 0.34% × 22.8% + CDB 0.61% × 19.4% + Binpur I 2.35% × 57.8%,no
+caste,ST total,22.92,A,Weighted Census 2011: Muni 9.85% × 22.8% + Jhargram CDB 22.71% × 19.4% + Binpur I 28.15% × 57.8%,no
+caste,Santhal,11.50,D,"~50% of ST pool; dominant tribe across Jhargram district and Jangalmahal; Wikipedia ""Jhargram district"" + Ramakrishna Mission Jhargram narrative; largest tribe in sub-division",yes
+caste,Munda,3.90,D,~17% of ST pool; Lalgarh area and Binpur I concentrated; Mundari speaker data corroborates,yes
+caste,Bhumij,2.75,D,~12% of ST pool; Bhumij present across Jhargram and Gopiballavpur blocks; semi-Hinduised,yes
+caste,Lodha,1.40,D,~6% of ST pool; Lodhasuli GP (Jhargram CDB) by name; one of most marginalised tribes (PVTG category); forest-dependent,yes
+caste,Ho,1.15,D,~5% of ST pool; present in Binpur I and Lalgarh area; Ho language related to Mundari,yes
+caste,"Other ST (Mahali, Sabar, Kheriya, Korwa etc.)",2.22,E,~10% of ST pool; residual,yes
+caste,SC total,19.52,A,Weighted Census 2011: Muni 9.59% × 22.8% + Jhargram CDB 14.83% × 19.4% + Binpur I 25.02% × 57.8%,no
+caste,Bagdi,7.00,D,Largest SC sub-group in Jhargram; rural agricultural labour; ~36% of SC pool,yes
+caste,Bauri,4.00,D,~20% of SC pool; also forest-adjacent labour caste,yes
+caste,Hari (Bhangi),1.56,E,~8% of SC pool; sanitation caste in town,yes
+caste,Chamar / Mochi,1.20,E,~6% of SC pool,yes
+caste,Other SC (Rajbanshi / Malo / Pod etc.),5.76,E,Residual ~30% of SC pool,yes
+caste,UC / bhadralok (Brahmin / Kayastha / Baidya),6.50,E,"Concentrated in Jhargram Muni; district admin, teachers, traders",no
+caste,OBC (Mahato / Kurmi / Teli / Sutradhar),12.00,D,Mahato (Kudumi Mahato) is significant OBC group in Jangalmahal; Chhatradhar Mahato was from this community; Mahato OBC ~8-10% alone; Wikipedia + academic notes on Jangalmahal,no
+caste,Other Hindu middle castes (unclassified),34.00,E,Residual within total: 100 − 22.92 ST − 19.52 SC − 6.50 UC − 12.00 OBC − 3.44 Muslim − 1.62 Christian+Other = 34.00%,no
+caste,Muslim (all sub-castes pooled),3.44,E,See C.1,no
+caste,Christian + Other,1.62,E,Christian 0.43% + Other 1.19%; see C.1,no
+age_cohort,0–4,8.5,E,Jhargram district child (0-6) share ~17%; higher fertility in tribal rural belt vs state average,no
+age_cohort,5–9,9.0,E,,no
+age_cohort,10–14,9.0,E,,no
+age_cohort,15–17 (pre-voter),5.5,E,,no
+age_cohort,18–22 (first-time voters at 2019),9.0,E,,no
+age_cohort,23–27,9.5,E,,no
+age_cohort,28–32,9.0,E,,no
+age_cohort,33–37,8.0,E,,no
+age_cohort,38–42,7.0,E,,no
+age_cohort,43–47,6.0,E,,no
+age_cohort,48–52,5.5,E,,no
+age_cohort,53–57,4.5,E,,no
+age_cohort,58–62,3.5,E,,no
+age_cohort,63–67,2.5,E,,no
+age_cohort,68+,3.5,E,Older profile in rural tribal belt; Census 2011 Jhargram dist age pyramid,no
+gender,Male,50.56,A,District sex ratio 977 F/1000 M = 50.56% M; Muni 999/2000 slightly higher F,no
+gender,Female,49.43,A,,no
+gender,Third gender,0.01,E,Negligible,no
+mother_tongue,Bengali,81.50,A,Weighted: Muni ~91% × 22.8% + Jhargram CDB 86.83% × 19.4% + Binpur I 76.63% × 57.8% ≈ 81.9%; minor 2019 drift → 81.5%,no
+mother_tongue,Santali (Ol Chiki script),16.00,A,Weighted: Muni ~7% × 22.8% + Jhargram CDB 11.66% × 19.4% + Binpur I 22.28% × 57.8% ≈ 16.7%; slight downward drift toward Bengali bilingualism by 2019,no
+mother_tongue,Mundari,1.50,A,Jhargram district Census 2011: Mundari 1.45% of district; higher in Binpur I,no
+mother_tongue,Kurmali (Kudumi Mahato language),0.50,A,Jhargram district Census 2011: Kurmali 1.16%; diluted in AC 222 by Muni weight,no
+mother_tongue,Hindi,0.30,E,Muni trader fringe; transport workers,no
+mother_tongue,Other (Ho / Bengali-Hindi bilingual / Urdu),0.20,E,Residual,no
+education,Illiterate,24.50,E,2011 literacy ~74.5% → illiterate ~25.5%; +0.5pp/yr × 8yr improvement → ~21.5% illiterate; weighted female drag: female literacy 2011 was ~68% in Binpur I (2019 ~71%); weighted mean → ~24.5% illiterate,no
+education,Primary (Class 1–5),24.00,E,Census 2011 education distribution for tribal-rural WB scaled,no
+education,Middle (Class 6–8),20.00,E,,no
+education,Secondary (Class 9–10),14.00,E,,no
+education,Higher Secondary (Class 11–12),9.00,E,,no
+education,Graduate,6.00,E,Lower grad rate than N24P urban ACs; consistent with Jhargram literacy profile,no
+education,Postgraduate,2.50,E,,no
+workforce_status,Main worker,35.0,E,Binpur I main-worker share ~38% (Census 2011); Muni slightly lower; AC weighted,no
+workforce_status,Marginal worker,15.0,E,"High in ST/SC rural: seasonal forest labour, MGNREGA casual",no
+workforce_status,Non-worker (housewife / elderly / retired),34.0,E,Lower than N24P urban due to tribal female participation in forest work,no
+workforce_status,Student (18–22 in education),10.0,E,First-time voter cohort,no
+workforce_status,"Unemployed (educated, actively seeking)",6.0,E,Lower educated-unemployment rate than N24P; smaller graduate pool,no
+occupation,"Cultivator (own land, incl. marginal)",20.0,E,Weighted: Binpur I patta-holders 23.62% + marginal farmers 23.37% ≈ 28% of agri-worker pool; AC-level cultivator ~20%,no
+occupation,Agricultural labourer,38.0,E,"Dominant: Binpur I 46.54%, Jhargram CDB 39.5%; AC-weighted ~40%; women overrepresented",no
+occupation,"Forest produce collection (sal leaf, mahua, NTFP)",8.0,D,"Not separately captured in Census; estimated from literature (Jhargram NTFP dependence); Lodha, Ho, Santal women primary collectors",no
+occupation,"Household industry (handloom, basket, pottery)",4.0,E,Census 2011 WB rural household-industry share,no
+occupation,Construction,5.0,E,Some male migration to construction sites,no
+occupation,Trade / retail,8.0,E,Jhargram Muni-centric; smaller than N24P,no
+occupation,Transport (NH-60 / state road logistics),3.0,E,,no
+occupation,"Services (private, incl. hotel / domestic)",6.0,E,Town-concentrated,no
+occupation,Government services / teachers / health workers,5.0,E,Slightly higher than state average due to tribal sub-quotas in WB govt,no
+occupation,Out-migrant / remittance worker,3.0,D,Lower than N24P; Jangalmahal out-migration to Jharkhand / Odisha mines; press reports,no
+class_of_worker,Employer,1.0,E,Census B-04 WB rural pattern; smaller than N24P,no
+class_of_worker,Employee (regular wage),22.0,E,Govt + organised workers; lower than urban ACs,no
+class_of_worker,Single worker (own-account),45.0,E,Own cultivator + petty trader + forest-produce seller,no
+class_of_worker,Family worker (unpaid),22.0,E,High in tribal agriculture household,no
+class_of_worker,Casual / MGNREGA day labourer,10.0,D,MGNREGA-generated casual labour very high in tribal belt; Jhargram dist among top MGNREGA districts in WB; estimated from NREGA portal patterns,no
+economic_status,"BPL household (including SECC ""auto-included"" deprived)",42.0,D,Binpur I BPL 47.46% (2007); Jhargram CDB rural ~35%; Muni ~15%; AC weighted ~42%; decline from 2007 baseline due to poverty-reduction programs; upper-bound estimate,no
+economic_status,"Above-Poverty-Line, low-income (₹3,000–₹8,000/month HH)",33.0,E,,no
+economic_status,"Lower-middle (₹8,000–₹15,000/month HH)",16.0,E,,no
+economic_status,"Middle (₹15,000–₹30,000/month HH)",7.0,E,"Muni-concentrated; Jhargram town traders, teachers",no
+economic_status,"Upper-middle / well-off (>₹30,000/month HH)",2.0,E,Small urban professional fringe in Muni,no
+gp_location,"U1: Jhargram Municipality (urban, 18 wards)",22.8,E,"2011: Muni 61,712 / AC total ~270,200 = 22.8%; held stable to 2019",no
+gp_location,"U2: Jhargram-CDB-4GP-rural-share (Bandhgora, Manikpara, Radhanagar, Sapdhara)",19.4,E,"4/13 × Jhargram CDB 170,097 = 52,338 / 270,203 = 19.4%; 4 GPs per Delimitation 2008",no
+gp_location,"U3: Binpur I CD Block (10 GPs: Andharia, Belatikri, Binpur, Boita, Dahijuri, Dharampur, Lalgarh, Nepuria, Ramgarh, Sijua)",57.8,E,"156,153 / 270,203 = 57.8%; dominant rural sub-unit; includes Lalgarh",no
+household_composition,Avg HH size,4.6 persons,E,Slightly larger than WB 4.3 due to tribal joint household pattern; Census 2011 tribal block data,no
+household_composition,Nuclear HH,62.0,E,NFHS-4 WB rural tribal pattern — somewhat lower nuclearity than non-tribal,no
+household_composition,Joint HH,28.0,E,Tribal patrilineal joint family (particularly Santhal and Munda),no
+household_composition,Extended / multi-generation,10.0,E,,no
+marital_status,Never married,26.0,E,First-time-voter cohort; tribal communities have younger marriage age,no
+marital_status,Currently married,65.0,E,,no
+marital_status,Widowed,8.0,E,Higher than N24P: male forest-labour mortality; older rural age profile,no
+marital_status,Separated / divorced,1.0,E,,no
+asset_media,Television,58.0,C,"NFHS-4 WB rural 60%, NFHS-5 WB rural ~71%; Jhargram district is poorer than WB average — estimated 55% rural, 85% Muni; AC-weighted ~58%",no
+asset_media,Radio,8.0,C,Higher than N24P: radio remains relevant in forest-fringe areas with limited TV access,no
+asset_media,Mobile phone (any),75.0,C,NFHS-4 WB rural ~72%; +growth → ~75% by 2019; lower than N24P urban ACs,no
+asset_media,Smartphone with internet,30.0,C,Jio Dhan Dhana Dhan scheme 2017-onwards reached tribal belt but lower smartphone adoption vs urban; NFHS-4 WB rural baseline ~25% → ~30% by 2019,no
+asset_media,Computer,5.0,C,NFHS-4 WB rural 4%; minimal uplift in poor tribal AC,no
+asset_media,Two-wheeler,18.0,C,Lower than N24P; household bicycle more common; NFHS-4 WB rural,no
+asset_media,Four-wheeler,3.0,C,Minimal,no
+asset_media,Banking access (any),82.0,B,PMJDY 2014– saturation; Jhargram tribal HHs prioritized in Jan Dhan drive; NFHS-4 WB rural banking baseline,no
+amenities,Improved drinking water source,78.0,C,NFHS-4 WB rural 84%; Jhargram forest-belt lower due to river/pond dependence; AC-weighted ~78%,no
+amenities,Improved sanitation (latrine),48.0,C,NFHS-4 WB rural 51%; +Swachh Bharat 2014–19 (+10pp rural in LWE districts at slower pace); estimated 48%,no
+amenities,LPG / clean cooking fuel,25.0,C,NFHS-4 WB rural 24%; +Ujjwala 2016–19 (~+8pp in tribal belt); tribal HH lower take-up; estimated 25%,no
+amenities,Wood / biomass fuel (sal / other forest),68.0,D,High: forest-fringe HHs collect fuel wood as primary cooking fuel; compensates lower LPG,no
+amenities,Other fuel (kerosene / dung),7.0,C,,no
+amenities,Electricity,88.0,C,Census 2011 WB rural electrification + Saubhagya 2017–19; Jhargram behind N24P; estimated ~88% by 2019,no
+migration,Native (born in Jhargram district or same village/town),84.0,D,Primarily sedentary tribal and SC population; much lower refugee/migrant component than N24P,no
+migration,WB other district (in-migrant),6.0,D,"Government employees, traders, teachers from other districts; Muni-concentrated",no
+migration,Other Indian state (in-migrant),4.0,D,"Bihari/Jharkhand railway workers, traders; some seasonal labour from Odisha",no
+migration,Jharkhand-origin (tribal cross-border),3.0,D,"Santhals, Mundas with kin-ties to Jharkhand; some forest-labour seasonal settlers; Jhargram-Jharkhand border area",no
+migration,Bangladesh-origin,1.5,D,Very small; Jangalmahal has no significant refugee stream unlike N24P,no
+migration,"Out-migrant (registered here, working elsewhere)",1.5,E,Male out-migration to Jharkhand/Odisha mines; registered voter roll,no

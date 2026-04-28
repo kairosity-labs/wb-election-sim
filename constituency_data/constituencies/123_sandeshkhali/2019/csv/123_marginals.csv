@@ -1,0 +1,103 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu (incl. ST population census-classified as Hindu),72.42,A/E,CDB-I 2011: 69.19% Hindu (A); CDB-II 2011: 77.17% Hindu (A); weighted to AC; projected 2011→2019 at +1.0%/yr differential,no
+religion,Muslim,27.15,A/E,CDB-I 2011: 30.42%; CDB-II 2011: 22.27%; weighted; projected +1.3%/yr differential,no
+religion,Christian,0.25,A,CDB-I: 0.21%; CDB-II: 0.43%; weighted — tiny base,no
+religion,Sarna / ORP,0.10,E,"Census counts most ST practitioners under 'Hindu'; residual Sarna fraction estimated; CDB-I 'Other' 0.18%, CDB-II 0.11% — fraction attributable to Sarna/tribal religion",no
+religion,Other (Sikh / Jain / Buddhist),0.08,E,Census 'Other/Not stated' residual,no
+caste,ST total,24.78,A,"CDB-I: 42,674 (25.95%); CDB-II 7/8: ~33,234 (23.59%); weighted AC aggregate (Census 2011)",no
+caste,Santhal,15.0,D,"Dominant ST group in Sundarbans/North 24 Parganas — Santhal, Munda, Oraon brought to reclaim delta land; Santhal largest sub-group",yes
+caste,Munda,5.0,D,Second major group in Sundarbans fringe,yes
+caste,Oraon / Bhumij / Other ST,4.78,E,Residual,yes
+caste,SC total,37.36,A,"CDB-I: 50,812 (30.90%); CDB-II 7/8: ~63,262 (44.91%); weighted (Census 2011)",no
+caste,Bagdi,18.0,D,Dominant SC community in delta; fishing/labouring caste,yes
+caste,Namasudra,10.0,D,Present in both CDBs; lower share than in Bangaon belt,yes
+caste,Halpati / Hari / Dom / other SC,9.36,E,Residual SC,yes
+caste,UC bhadralok (Brahmin / Kayastha / Baidya),3.0,E,Minimal presence in this rural delta AC,no
+caste,OBC specific (Mahishya / Sadgop / Teli / Kurmi),5.0,E,Some Mahishya fishing-community presence,no
+caste,Other Hindu middle castes (Goala / Sutradhar / other unclassified),2.28,E,Residual: 100 − 24.78 ST − 37.36 SC − 3.0 UC − 5.0 OBC − 27.15 Muslim − 0.43 non-Hindu non-Muslim = 2.28,no
+caste,Muslim (all sub-castes pooled),27.15,E,See C.1,no
+caste,Christian + Sarna + Other,0.43,E,See C.1 residuals,no
+age_cohort,0–4,7.5,E,"Projected from Census 2011 N24P age pyramid; under-6 share CDB-I 22,394/164,465 = 13.6%; similar CDB-II; adjusted for 5-yr cohort",no
+age_cohort,5–9,9.0,E,,no
+age_cohort,10–14,8.5,E,,no
+age_cohort,15–17 (pre-voter),5.0,E,,no
+age_cohort,18–22 (first-time voters at 2019 LS),9.0,E,,no
+age_cohort,23–27,9.5,E,,no
+age_cohort,28–32,9.5,E,,no
+age_cohort,33–37,8.5,E,,no
+age_cohort,38–42,7.5,E,,no
+age_cohort,43–47,7.0,E,,no
+age_cohort,48–52,6.0,E,,no
+age_cohort,53–57,5.0,E,,no
+age_cohort,58–62,3.5,E,,no
+age_cohort,63–67,2.5,E,,no
+age_cohort,68+,2.0,E,,no
+gender,Male,50.96,A/E,"Sex ratio 962 (Census 2011 CDB-I 960, CDB-II 965; weighted); 1000/(1000+962) = 50.96% M; minimal projection drift to 2019",no
+gender,Female,49.03,A/E,962/(1000+962) = 49.03% F,no
+gender,Third gender,0.01,E,National pattern,no
+mother_tongue,Bengali,97.80,A,CDB-I 2011: 97.64% Bengali (Census language data; A); CDB-II: ~99.64% Bengali (A); weighted AC ~98.5%; slight downward adjustment for tribal-language pockets,no
+mother_tongue,Sadri (Sadani / Sadri-Nagpuri),1.50,A,CDB-I: 2.03% Sadri (Census 2011; A); spoken by Munda/Oraon communities; weighted down by CDB-II near-zero,no
+mother_tongue,Santali,0.40,E,Santhal community mother tongue; small fraction retains Santali — most code-switch to Bengali,no
+mother_tongue,Urdu,0.20,E,Small Muslim pocket; most WB rural Muslims speak Bengali,no
+mother_tongue,Other,0.10,E,Residual,no
+education,Illiterate,25.0,E,"CDB-I literacy 71.08% (2011; A), CDB-II 70.96% (A) → AC literacy ~71.02% in 2011; project +0.5pp/yr over 8yr → ~75.0% literate by 2019; illiterate ~25%",no
+education,Primary (Class 1–5),25.0,E,Rural delta pattern; Census 2011 WB education distribution scaled,no
+education,Middle (Class 6–8),20.0,E,,no
+education,Secondary (Class 9–10),14.0,E,,no
+education,Higher Secondary (Class 11–12),9.0,E,,no
+education,Graduate,5.5,E,Low — limited tertiary infrastructure in delta blocks,no
+education,Postgraduate,1.5,E,,no
+workforce_status,Main worker,28.0,A/E,"CDB-I main worker rate 40,131/164,465=24.4%; CDB-II: 34,118/160,976=21.2%; AC weighted ~22.8% of total pop; as % of 18+ (68.8% of pop) → ~33%; adjusted slightly for 2019 marginal expansion",no
+workforce_status,Marginal worker,14.0,A/E,"CDB-I marginal 20,874/164,465=12.7%; CDB-II marginal 27,631/160,976=17.2%; AC weighted ~14.8%; projected slightly down by 2019 as marginals convert to main",no
+workforce_status,Non-worker (housewife / elderly / retired),42.0,E,Includes high female housewife share typical of rural delta,no
+workforce_status,"Student (18–22, in education)",10.0,E,,no
+workforce_status,"Unemployed (educated, seeking)",6.0,E,Lower than urbanised ACs; educated youth migrate or remain underemployed in bheri/fishing economy,no
+occupation,Cultivator,14.4,A,"CDB-I: 8,503/61,005=13.94% (A); CDB-II: 9,134/61,749=14.79% (A); weighted AC 14.37%; rounded",no
+occupation,Agricultural labourer,50.5,A,"CDB-I: 27,851/61,005=45.65% (A); CDB-II: 34,182/61,749=55.36% (A); weighted 50.49%; delta AC heavily ag-labourer dependent",no
+occupation,Household industry,3.5,A,"CDB-I: 2,392/61,005=3.92%; CDB-II: 1,863/61,749=3.02%; weighted 3.47%",no
+occupation,Fishing / prawn / bheri (aquaculture),10.0,D,Significant bheri (prawn pond) economy in Sandeshkhali; major livelihood not captured separately in Census classification (counted under 'Other worker'); D estimate from Dialogue Earth / Sundarbans Affairs data,no
+occupation,Trade / retail (small),6.0,E,Limited — no major commercial hub,no
+occupation,Construction / building labour,5.0,E,Out-migration to construction sector in Kolkata / suburban areas,no
+occupation,Transport,3.0,E,River/boat-based transport; limited road-based,no
+occupation,Services (private / government),7.0,E,"Teachers, health workers, block-level staff",no
+occupation,Other worker (unclassified),0.6,E,Residual to 100,no
+class_of_worker,Employer,1.0,E,Rare in subsistence delta economy,no
+class_of_worker,Employee (regular wage — govt + organised),12.0,E,"Teachers, health, block office; smaller share than urbanised ACs",no
+class_of_worker,"Single worker (own-account — cultivator, fisherman, bheri operator)",52.0,E,"Dominant mode; own-account farming, fishing, small bheri",no
+class_of_worker,Family worker (unpaid — within ag / fishing HH),35.0,E,High family-labour intensity in fishing + ag labourer HHs,no
+economic_status,BPL household,32.0,D,North 24 Parganas Basirhat sub-division rural BPL estimated ~38% (2001); WB poverty headcount fell ~6pp over 2011-19 in rural areas → ~32%; higher than state average due to delta geography and low asset base,no
+economic_status,"Above-Poverty-Line, low-income",35.0,E,,no
+economic_status,Lower-middle,22.0,E,,no
+economic_status,Middle,9.0,E,,no
+economic_status,Upper-middle / well-off,2.0,E,Very limited non-farming affluence in AC,no
+gp_location,U1: CDB Sandeshkhali-I (all 8 GPs),53.9,E,"2011: CDB-I 164,465 / AC-total 305,319 = 53.87%; held stable to 2019",no
+gp_location,U2: CDB Sandeshkhali-II AC-share (7 of 8 GPs; excl. Khulna),46.1,E,"2011: 140,854 / 305,319 = 46.13%; v0 collapses 7 GPs into one sub-unit",no
+household_composition,Avg HH size,4.1 persons,E,"CDB-I: 164,465 pop / 37,344 families = 4.40; CDB-II: 160,976 / 37,771 = 4.26; weighted ~4.33; slight decline projected to 2019",no
+household_composition,Nuclear HH,72.0,E,NFHS-4 WB rural pattern; delta poor HHs tend nuclear,no
+household_composition,Joint HH,22.0,E,,no
+household_composition,Extended / multi-generation,6.0,E,,no
+marital_status,Never married,26.0,E,Census 2011 N24P rural pattern; first-time-voter cohort,no
+marital_status,Currently married,65.0,E,,no
+marital_status,Widowed,8.0,E,"Slightly elevated vs state average; concentrated in 60+; sea/river fishing hazard, male mortality",no
+marital_status,Separated / divorced,1.0,E,,no
+asset_media,Television,60.0,C,NFHS-4 WB rural 60% (2015-16); delta geography limits grid power stability; lower than Bangaon belt; +2pp/yr → ~68% but offset by geography; conservative 60%,no
+asset_media,Radio,8.0,C,Higher than state average — radio more practical in flood-prone tidal areas with irregular electricity,no
+asset_media,Mobile phone (any),78.0,C,NFHS-4 WB rural ~70%; +growth → ~78% by 2019; below state urban average,no
+asset_media,Smartphone with internet,32.0,C,NFHS-4 baseline + Jio rollout 2016-19; but lower penetration than mainland ACs due to connectivity and affordability constraints in delta,no
+asset_media,Computer,4.0,C,Very limited; Bangaon Muni analog was 12%; this is fully rural AC,no
+asset_media,Two-wheeler,18.0,C,Limited road infrastructure; boat transport common,no
+asset_media,Four-wheeler,2.0,E,Rare,no
+asset_media,Banking access (any),82.0,B,PMJDY 2014- saturation; NFHS-4 WB baseline; slightly lower than mainland due to connectivity,no
+amenities,Improved drinking water source,76.0,C,NFHS-4 WB rural 84%; delta salinity and flooding reduces access; conservative 76% for Sundarbans fringe; Aila 2009 damaged water infrastructure — partial restoration by 2019,no
+amenities,Improved sanitation (latrine),55.0,C,NFHS-4 WB rural 51%; +Swachh Bharat 2014-19 (+10pp rural in delta); tidal geography limits pucca latrine construction → lower than mainland,no
+amenities,LPG / clean cooking fuel,35.0,C,NFHS-4 WB rural 24%; +Ujjwala 2016-19 (+10pp rural delta); lower than mainland due to access constraints,no
+amenities,Wood / biomass fuel,58.0,C,Dominant fuel — mangrove wood / paddy straw; higher than state average,no
+amenities,Other fuel (kerosene / dung / other),7.0,C,,no
+amenities,Electricity,88.0,B,Census 2011 + Saubhagya 2017-19; CDB-I 100% villages electrified per Sundarbans Affairs; but HH-level connection lower due to household connectivity gaps and tidal flooding risks,no
+migration,Native (born in Sandeshkhali / N24P or same village),78.0,D,Estimate: delta population is historically settled; low in-migration; predominantly native Santhal/Bagdi/Muslim peasantry,no
+migration,WB other district (in-migrant),8.0,D,Some Kolkata periphery linkages; returning migrants,no
+migration,Other Indian state,1.0,E,Very small — no commercial/industrial node to attract inter-state migrants,no
+migration,Cyclone Aila displacement (2009) — internal displacement anchor,—,D,Cyclone Aila (May 2009) severely affected both Sandeshkhali-I and II blocks; households displaced temporarily to embankments and relief camps; a fraction (~5–8% of HHs) migrated semi-permanently to Kolkata periphery; those who remained are counted as native,no
+migration,Bangladesh-origin (long-term Hindu/Muslim settlers),10.0,D,Lower than Bangaon belt; some older Hindu SC/ST settlement traceable to pre-1971 migration; Muslim fishing community with Bangladesh tidal border ties,no
+migration,Outside India (other than Bangladesh),0.0,E,Negligible,no
+migration,"Out-migrant (registered here, working outside)",3.0,D,Male out-migration for construction / fishing labour in Kolkata / suburban WB; registered voters in AC,no

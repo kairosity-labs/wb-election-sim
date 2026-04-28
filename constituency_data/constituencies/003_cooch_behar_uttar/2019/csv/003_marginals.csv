@@ -1,0 +1,100 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,82.30,E,CDB-II 2011: 81.85% (A); Muslim growth +1.3%/yr over 8yr → Hindu share dips ~0.45pp; projected 82.30%,no
+religion,Muslim,17.20,E,CDB-II 2011: 17.64%; Muslim share grows slightly relative to Hindu; after 8yr projection,no
+religion,Christian,0.18,E,CDB-II 2011: 0.18% (A); stable,no
+religion,Other (Sarna / Sikh / Jain / Buddhist),0.32,E,CDB-II 2011: 0.34%; stable,no
+caste,SC total,45.20,A,"CDB-II 2011: SC 154,656 = 44.97% (A); minor growth in SC cohort by 2019",no
+caste,Rajbanshi / Koch-Rajbanshi,38.50,C,Dominant SC sub-group in Cooch Behar — district SC majority (50.17% of total pop is SC); Rajbanshi ~85% of SC pool in Cooch Behar; Outlook India: ~40% of Cooch Behar LS electorate Rajbanshi,yes
+caste,Namasudra / Poundra,3.20,E,~7% of SC pool; secondary SC sub-group,yes
+caste,Bagdi / Hari / Jhalo-Malo,1.70,E,~3.8% of SC pool; fishing/agricultural labouring communities,yes
+caste,"Other SC (Rajbhar, Kahar, Dom etc.)",1.80,E,~4% of SC pool; residual,yes
+caste,ST total,1.00,A,"CDB-II 2011: ST 3,429 = 1.00% (A); Mech, Rajbongshi tribal; stable",no
+caste,UC bhadralok (Brahmin / Kayastha / Baidya),4.50,E,Lower in rural North Bengal vs. South Bengal; service class + professionals in census towns,no
+caste,OBC (Saha / Teli / Nai / Kurmi / Sutradhar),10.00,E,Mixed artisan + service OBC; more prominent in Cooch Behar town area,no
+caste,Other Hindu forward / middle (Goala / Barman / Malo / unclassified),21.60,E,Residual Hindu non-SC-non-ST-non-OBC; 82.30 − 45.20 SC − 1.00 ST − 4.50 UC − 10.00 OBC = 21.60,no
+caste,Muslim (all sub-castes pooled),17.20,E,See C.1; Bengali-Sheikh peasantry dominant sub-structure,no
+caste,Christian + Other,0.50,E,See C.1,no
+age_cohort,0–4,8.0,E,Projected from Census 2011 Cooch Behar district age pyramid; rural North Bengal slightly higher fertility,no
+age_cohort,5–9,8.5,E,,no
+age_cohort,10–14,8.5,E,,no
+age_cohort,15–17 (pre-voter),5.5,E,,no
+age_cohort,18–22 (first-time voters at 2019),9.0,E,,no
+age_cohort,23–27,9.5,E,,no
+age_cohort,28–32,9.5,E,,no
+age_cohort,33–37,8.5,E,,no
+age_cohort,38–42,7.5,E,,no
+age_cohort,43–47,7.0,E,,no
+age_cohort,48–52,5.5,E,,no
+age_cohort,53–57,4.5,E,,no
+age_cohort,58–62,3.5,E,,no
+age_cohort,63–67,2.5,E,,no
+age_cohort,68+,2.5,E,,no
+gender,Male,52.00,E,CDB-II 2011: 52.19% M; slight convergence; Cooch Behar district sex ratio 942 (lower F share),no
+gender,Female,48.00,E,,no
+gender,Third gender,<0.01,E,Negligible; rounding not applied,no
+mother_tongue,Bengali,93.49,A,CDB-II 2011: 93.49% Bengali (A; Wikipedia Cooch Behar II),no
+mother_tongue,Rajbongshi / Rajbanshi,1.23,A,"CDB-II 2011: 1.23% Rajbongshi (A); distinct Koch-Rajbanshi language, closely related to but distinct from Bengali; language-identity marker for Kamatapur movement",no
+mother_tongue,Hindi,1.85,A,CDB-II 2011: 1.85% Hindi (A); Marwari/Bihari trader + migrant labour fringe in census towns,no
+mother_tongue,Urdu,1.00,E,Estimated Muslim Urdu-speaking pocket; Cooch Behar district 1.17% Hindi+Urdu per district data,no
+mother_tongue,Other (Mech / Koch / Nepali / Santhali),2.43,E,Residual including tribal languages,no
+education,Illiterate,12.0,E,CDB-II 2011: literacy 81.39% (A); projected improvement +0.5pp/yr over 8yr → ~85.5% literate; ~14.5% of age-7+ illiterate; adult-corrected ≈ 12%,no
+education,Primary (Class 1–5),22.0,E,"Census 2011 education distribution, Cooch Behar district scaled",no
+education,Middle (Class 6–8),22.0,E,,no
+education,Secondary (Class 9–10),19.0,E,,no
+education,Higher Secondary (Class 11–12),12.0,E,,no
+education,Graduate,9.0,E,,no
+education,Postgraduate,4.0,E,UBKV (Uttar Banga Krishi Vishwavidyalaya) located near constituency; slightly elevated postgrad rate,no
+workforce_status,Main worker,32.0,E,CDB-II 2011: total workers 37.31% of population; age-18+ adult worker share slightly higher; stable trend,no
+workforce_status,Marginal worker,12.0,E,High marginal agricultural labour in rural GPs,no
+workforce_status,Non-worker (housewife / elderly / retired),36.0,E,Female non-worker share high in rural North Bengal,no
+workforce_status,"Student (18–22 only, in education)",11.0,E,,no
+workforce_status,"Unemployed (educated, actively seeking)",9.0,E,Educated unemployment salience in North Bengal towns,no
+occupation,Cultivator,20.0,E,"CDB-II 2011: 21.35% cultivators; paddy, jute, potato — slight decline by 2019",no
+occupation,Agricultural labourer,32.0,E,CDB-II 2011: 33.77% ag-labour; dominant occupational category,no
+occupation,Household industry,4.0,E,"CDB-II 2011: 3.04%; hand-loom, tobacco processing",no
+occupation,Manufacturing (organised),3.0,E,Limited industrial base; some agro-processing,no
+occupation,Construction,6.0,E,Includes out-migrants returning seasonally,no
+occupation,Trade / retail,12.0,E,"Census-town (Khagrabari, Takagachh) commercial hubs",no
+occupation,Transport / logistics,5.0,E,Road transport; North Bengal highway connectivity,no
+occupation,Services (private),10.0,E,"Including pisciculture workers (17,863 persons in CDB-II fisheries)",no
+occupation,Government services / teachers,5.0,E,WB government employees; teachers; local administration,no
+occupation,Out-migrant worker (working outside WB),3.0,D,Smaller than South Bengal out-migration; some to Assam tea industry,no
+class_of_worker,Employer,2.0,E,Census B-04 WB rural pattern,no
+class_of_worker,Employee (regular wage),25.0,E,Govt + organised sector + retail employees,no
+class_of_worker,Single worker (own-account),48.0,E,Cultivator + artisan + small trader,no
+class_of_worker,Family worker (unpaid),25.0,E,Within agri-household; female family labour high in paddy harvest,no
+economic_status,BPL household,24.0,C,Cooch Behar district: 48% SC majority + North Bengal poverty levels; WB overall BPL ~22% (2011 Tendulkar); Cooch Behar above-average poverty,no
+economic_status,"Above-Poverty-Line, low-income",36.0,E,Ag-labourer + marginal cultivator households,no
+economic_status,Lower-middle,24.0,E,"Small traders, petty services, census-town working class",no
+economic_status,Middle,12.0,E,"Govt employees, established businesses",no
+economic_status,Upper-middle / well-off,4.0,E,Khagrabari census-town commercial class + Rajbanshi zamindari remnants,no
+gp_location,"U1: Census-towns cluster (Khagrabari 23,122 + Takagachh 12,414 + Chakchaka 8,582 + Baisguri 5,021 + Baneswar 4,841)",15.70,A,"Census 2011: 53,984 urban / 343,901 total = 15.70%; held stable to 2019",no
+gp_location,"U2: CDB-II rural GPs (13 GPs: Ambari, Baneswar-GP, Bararangras, Chakchaka-GP, Dhandhingguri, Gopalpur, Khagrabari-GP, Khapaidanga, Madhupur, Marichbari Kholta, Patlakhawa, Pundibari, Takagachh Rajarhat)",84.30,A,"Remainder: 289,917 / 343,901; v0 collapses 13 GPs into one rural cell — refine when DCHB Part-A accessible",no
+household_composition,Avg HH size,4.5 persons,E,WB rural North Bengal: Census 2011 ~4.4–4.6; Cooch Behar slightly higher fertility than state average,no
+household_composition,Nuclear HH,65.0,E,NFHS-4 WB rural pattern; slightly more joint HH in Rajbanshi agriculture communities,no
+household_composition,Joint HH,28.0,E,Agricultural joint households common in paddy-farming Rajbanshi families,no
+household_composition,Extended / multi-generation,7.0,E,,no
+marital_status,Never married,27.0,E,Census 2011 Cooch Behar district pattern; young voter cohort,no
+marital_status,Currently married,64.0,E,,no
+marital_status,Widowed,8.0,E,"Slightly elevated vs. state average; concentrated in 60+, female-skewed",no
+marital_status,Separated / divorced,1.0,E,,no
+asset_media,Television,74.0,C,"NFHS-4 WB rural ~60%, urban ~89%; North Bengal rural lower than state; CDB-II 84% rural → weighted ~70–74% by 2019",no
+asset_media,Radio,4.0,C,Declining nationally; rural North Bengal slightly higher than state,no
+asset_media,Mobile phone (any),84.0,C,NFHS-4 WB ~78%; +Jio rollout 2016–19; rural AC → ~84%,no
+asset_media,Smartphone with internet,40.0,C,NFHS-4 WB rural ~30–35%; Jio-driven growth; lower than South Bengal urban; ~40% by 2019,no
+asset_media,Computer,6.0,C,NFHS-4 WB rural 4%; urban 15%; CDB-II 84% rural → ~6%,no
+asset_media,Two-wheeler,30.0,C,NFHS-4 WB rural 18%; growth; North Bengal ~25–30%,no
+asset_media,Four-wheeler,5.0,C,Limited in predominantly rural AC,no
+asset_media,Banking access (any),88.0,B,PMJDY 2014– saturation in WB; Cooch Behar district PMJDY enrollment high,no
+amenities,Improved drinking water source,85.0,C,NFHS-4 WB rural ~82%; +minor improvement; North Bengal surface water dominance,no
+amenities,Improved sanitation (latrine),68.0,C,NFHS-4 WB rural ~51%; +Swachh Bharat 2014–19 (+15pp rural); North Bengal lower baseline than South Bengal,no
+amenities,LPG / clean cooking fuel,38.0,C,NFHS-4 WB rural ~24%; +Ujjwala 2016–19 (+12pp rural); North Bengal rural Ujjwala rollout significant but wood-fuel habits persist,no
+amenities,Wood / biomass fuel,57.0,C,Dominant; declines as LPG rises,no
+amenities,Other fuel (kerosene / dung),5.0,C,,no
+amenities,Electricity,94.0,C,Census 2011 Cooch Behar CDB-II electrification lower than state average; +Saubhagya 2017–19,no
+migration,Native (born in Cooch Behar district or same village/town),84.0,D,Cooch Behar was a princely state with closed borders until 1949; low historical out-migration/in-migration; predominantly local-born population,no
+migration,WB other district (in-migrant),6.0,D,Some service class from Jalpaiguri / Siliguri corridor; Kolkata-connected traders,no
+migration,Other Indian state,4.0,D,Marwari/Bihari traders (Hindi-speaking fringe) in Khagrabari/Takagachh census towns,no
+migration,Bangladesh-origin (refugee / border community),4.0,D,"Unlike South Bengal, Cooch Behar Rajbanshi community is largely locally settled (pre-partition); some border-area Muslim families with Bangladesh connections; smaller refugee footprint than Matua belt",no
+migration,Nepal / Bhutan-origin,1.0,E,North Bengal proximity; tea-garden linked population fringe,no
+migration,Out-migrant (registered here but working outside),1.0,E,Census reverse; mostly seasonal,no

@@ -1,0 +1,11 @@
+Occupation,Smartphone-internet,TV,Tier,Source
+Cultivator,28,62,C,Rural agricultural baseline; below state rural average due to Murshidabad poverty
+Ag-labourer,20,52,C,Lowest income group
+Household industry (weaver),30,65,C,Weavers have some smartphone access but income constrained; ~400 Rs/day ceiling
+Manufacturing,45,78,C,
+Construction,42,72,C,
+Trade / retail,68,88,C,Urban Muni commercial class
+Transport,55,80,C,
+Services (private),72,90,C,
+Govt services,85,95,C,Highest
+Out-migrant,65,75,D,"Working outside, smartphone-heavy"

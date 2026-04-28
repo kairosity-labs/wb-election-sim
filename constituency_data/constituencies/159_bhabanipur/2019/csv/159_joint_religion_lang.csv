@@ -1,0 +1,7 @@
+Religion,Bengali,Hindi,Gujarati,Urdu,Punjabi,Odia,Other,Tier,Source
+Hindu (Bengali),100,0,0,0,0,0,0,E,By definition — Bengali Hindu uses Bengali
+Hindu (non-Bengali),5,52,22,5,5,6,5,D,Marwari/Bihari: Hindi; Gujarati: Gujarati; Odia: Odia; Sikh: Punjabi
+Muslim,50,20,0,28,0,1,1,D,Bhabanipur: ~50% Bengali-speaking Muslims (Sheikh/local) + ~20% Hindi-speaking (Bihar-origin) + ~28% Urdu-dominant
+Sikh,10,30,0,0,60,0,0,E,Sikh: Punjabi dominant
+Jain,10,30,55,0,0,0,5,E,Jain: Gujarati or Hindi
+Marginal Bengali,,,,,,,,,0.735×(Bengali-H ~42/73.5=57.1%→100%) + 0.24×Muslim 50% = ~0.42×100 + 0.24×50 ≈ 42+12 = 54 + NB-Hindu ~5% = ~58% ✓ matches C.5

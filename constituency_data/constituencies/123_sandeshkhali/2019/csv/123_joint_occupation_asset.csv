@@ -1,0 +1,11 @@
+Occupation,Smartphone-internet,TV,Tier,Source
+Cultivator,25,55,C,Rural ag baseline; delta geography — lower than mainland
+Ag labourer,18,45,C,"Lowest income, poorest connectivity"
+Fisher / bheri worker,22,50,C,"Seasonal, low income; similar to ag labourer"
+Household industry,28,58,C,
+Construction,38,65,C,Workers often have smartphone for urban contacts
+Trade / retail,55,75,C,
+Transport (boat / road),40,65,C,
+Services (private),60,78,C,
+Govt services / teachers,78,88,C,Highest in AC
+"Out-migrant (registered, working outside)",65,72,D,Smartphone for remittance / family contact

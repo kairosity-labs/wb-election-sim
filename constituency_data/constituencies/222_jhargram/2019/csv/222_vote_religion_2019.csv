@@ -1,0 +1,6 @@
+Religion,BJP,AITC,CPIM,Other,Tier,Source
+Hindu (non-Sarna),47,42,5,6,C,CSDS 2019 WB Hindu BJP majority adjusted downward for Jangalmahal tribal-Hindu + Mahato OBC complexity; row sums: 47+42+5+6=100
+"Sarna/ORP (tribal, Santhal/Munda)",38,49,3,10,D,"Sarna vote split in 2019; ~10% went to tribal protest parties (JKP(N), AKBJHP); BJP slightly behind AITC among Sarna voters; D estimate from AC-222 result structure; row sums: 38+49+3+10=100"
+Muslim,5,80,10,5,C,CSDS 2019 WB Muslim vote; small Muslim share in AC; row sums: 5+80+10+5=100
+Christian (tribal Christian),35,50,8,7,E,Tribal Christian vote — slightly TMC-leaning; row sums: 35+50+8+7=100
+Other religion,40,20,20,20,E,Residual; row sums: 40+20+20+20=100

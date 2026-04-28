@@ -1,0 +1,5 @@
+Religion,BJP,AITC,CPI(M)+LF,INC,Other,Tier,Source
+Hindu,58,31,8,1,2,C,CSDS-Lokniti 2019 WB; Bangaon comparator; S24P Hindu leans BJP in 2019 LS wave
+Muslim,2,82,12,2,2,C,Muslim bloc-vote TMC in S24P; significant CPI(M) Muslim residual in this AC (higher than state avg given 2016 result history)
+Other,40,45,5,5,5,E,Small base; mixed
+Recovery check,58×0.5811+2×0.4157 = 33.71+0.83 = 34.54% BJP,31×0.5811+82×0.4157 = 18.01+34.09 = 52.10% AITC,8×0.5811+12×0.4157 = 9.64% LF,—,—,—,"Recovers: BJP 34.5% (vs CSV 35.69%, Δ=1.2pp); AITC 52.1% (vs CSV 52.86%, Δ=0.8pp) — within ±2pp ✓"

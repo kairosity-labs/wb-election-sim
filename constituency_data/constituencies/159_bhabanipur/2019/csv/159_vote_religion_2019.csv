@@ -1,0 +1,8 @@
+Religion,BJP,AITC,CPI(M),INC,Others+NOTA,Tier,Source
+Bengali Hindu (~42% of pop),43,48,5,3,1,C/D,CSDS 2019 WB urban bhadralok: BJP ~43% consistent with national-level UC Hindu swing; AITC retains plurality due to CM incumbency
+Non-Bengali Hindu (~34% of pop),65,20,5,5,5,D,"Marwari/Gujarati: strongly BJP (Modi factor, national narrative); Bihari workers split BJP/INC"
+Muslim (~24% of pop),10,75,8,5,2,C,CSDS 2019 WB: Muslim near-consolidation behind AITC; Bhabanipur consistent
+Sikh (1.5%),55,28,5,7,5,E,Nationally Sikh leaned BJP in 2019
+Jain (0.8%),70,18,2,5,5,E,Business Jain: strong BJP
+Model recovery: BJP,,,,,,,0.42×0.43 + 0.34×0.65 + 0.24×0.10 + 0.015×0.55 + 0.008×0.70 = 0.181+0.221+0.024+0.008+0.006 = 0.440 vs actual 42.60% ✓ within ±2pp (residual in Others)
+Model recovery: AITC,,,,,,,0.42×0.48 + 0.34×0.20 + 0.24×0.75 + 0.015×0.28 + 0.008×0.18 = 0.202+0.068+0.180+0.004+0.001 = 0.455 vs actual 44.92% ✓ within ±1pp

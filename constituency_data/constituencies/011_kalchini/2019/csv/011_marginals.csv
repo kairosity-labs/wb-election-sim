@@ -1,0 +1,111 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,66.00,E,Kalchini CDB 2011: 67.08% (A); projected slight decline ~1pp over 8yr as Christian/Tribal-ORP shares hold or grow; v0 uses 66%,no
+religion,Christian,15.00,E,Kalchini CDB 2011: 14.33% (A); tea-belt missions active among Adivasi; +0.5pp projected,no
+religion,Buddhist,7.00,E,Kalchini CDB 2011: 7.28% (A); Nepali-Gorkha Buddhist community; stable,no
+religion,Muslim,8.00,E,Kalchini CDB 2011: 8.57% (A); projected +0.2pp/yr → ~9% by 2019; anchored to 8% with Majherdabri GP (Alipurduar II more Hindu-dominant),no
+religion,Sarna / Tribal ORP,3.00,E,Kalchini CDB 2011: ~2.00%; small upward drift as some Adivasi reclaim Sarna identity; projected 3% by 2019,no
+religion,Sikh,0.50,E,Kalchini CDB 2011: 0.50%; stable,no
+religion,Other / Not stated,0.50,E,Residual,no
+caste,ST total,40.00,A,"Kalchini CDB 2011: 120,282 ST = 40.30%; v0 rounds to 40.00% for AC-weighted estimate (Majherdabri is Alipurduar II which has lower ST ~18%)",no
+caste,Oraon (Kurukh-speaking),16.00,D,Dominant Adivasi group in Kalchini tea gardens; Kurukh 2.99% of Kalchini CDB + the Oraon designation; journalistic sources; Oraon ~40% of ST pool,yes
+caste,Munda,8.00,D,~20% of ST pool; Kalchini Tea Garden majority Munda (journalistic),yes
+caste,Santhal,6.00,D,~15% of ST pool; Jharkhand-origin labor in Dooars,yes
+caste,Kharia / Gond / Kurmi (tea-belt Adivasi),6.00,D,Remaining ST pool; mixed Chhattisgarh/Jharkhand origin,yes
+caste,"Nepali/Gorkha ST (Tamang, Rai etc.)",4.00,D,Tea-belt Nepali-origin ST; also part of Buddhist share,yes
+caste,SC total,10.00,A,"Kalchini CDB 2011: 30,157 SC = 10.10%; AC-11 weighted (Majherdabri is SC-heavy ~41% — see Alipurduar II) → AC-weighted estimate remains ~10% since Majherdabri is a small GP",no
+caste,"Nepali/Gorkha (non-ST, Hindu/Buddhist)",12.00,D,Kalchini CDB: Nepali 26.3% mother-tongue speakers; significant non-tribal Nepali/Gorkha community in Dooars; not all Nepali-speakers are ST; overlap with Buddhist share,no
+caste,"Bengali (Hindu, upper/middle caste)",10.00,D,"Garden managers, small traders, Jaigaon town Bengali residents; minority but economically salient",no
+caste,Bengali OBC / Rajbanshi,6.00,D,Rajbanshi: 3.17% Alipurduar district average; other OBC; residual non-Adivasi non-bhadralok,no
+caste,Muslim (all sub-castes pooled),8.00,E,See C.1; mainly Bengali-Muslim and some tribal-origin Muslim in peripheral GPs,no
+caste,Christian (Adivasi-origin),7.00,E,Substantial share of ST converted to Christianity through 19th-20th century missions; sub-caste in C.2 D.2 joint,no
+caste,Other / Sarna / Buddhist,7.00,E,See C.1; Buddhist Nepali non-tribal; Sarna residual,no
+age_cohort,0–4,8.5,E,"Kalchini CDB 2011: 34,627 age 0-6 = 11.6%; projected decline as fertility falls; 0-4 ≈ 8.5% by 2019",no
+age_cohort,5–9,9.0,E,,no
+age_cohort,10–14,9.0,E,,no
+age_cohort,15–17 (pre-voter),5.5,E,,no
+age_cohort,18–22 (first-time voters at 2019),8.5,E,,no
+age_cohort,23–27,9.0,E,,no
+age_cohort,28–32,9.0,E,,no
+age_cohort,33–37,8.5,E,,no
+age_cohort,38–42,7.5,E,,no
+age_cohort,43–47,7.0,E,,no
+age_cohort,48–52,6.0,E,,no
+age_cohort,53–57,4.5,E,,no
+age_cohort,58–62,3.5,E,,no
+age_cohort,63–67,2.0,E,,no
+age_cohort,68+,2.5,E,Tea-garden pattern: premature mortality from occupational exposure; smaller elderly cohort,no
+gender,Male,51.97,E,"Kalchini CDB 2011: 154,829 M / 298,548 = 51.87%; marginal shift toward balance by 2019 → ~51.97% (male labour in-migration stabilizes)",no
+gender,Female,48.02,E,,no
+gender,Third gender,0.01,E,Negligible; consistent with WB pattern,no
+mother_tongue,Sadri / Nagpuri (tea-belt lingua franca),30.00,A,"Kalchini CDB 2011: 30.1% Sadri — DOMINANT in tea gardens; lingua franca among Oraon, Munda, Kharia, Gond workers regardless of tribal origin; load-bearing for media-consumption modelling",no
+mother_tongue,Nepali,26.00,A,Kalchini CDB 2011: 26.3%; Gorkha/Nepali community in Dooars; second-largest language group,no
+mother_tongue,Bengali,14.00,A,Kalchini CDB 2011: 14.2%; Bengali-speakers concentrated in Jaigaon town and managerial/trader class,no
+mother_tongue,Hindi,8.00,A,Kalchini CDB 2011: 8.17%; Hindi-belt migrants + Hindi as second language for some Sadri-speakers,no
+mother_tongue,Kurukh (Oraon language),3.00,A,Kalchini CDB 2011: 2.99%; Oraon home language alongside Sadri,no
+mother_tongue,Bhojpuri,4.00,A,Kalchini CDB 2011: 3.93%; Bihari-origin tea labor,no
+mother_tongue,Boro,3.00,A,Kalchini CDB 2011: 2.85%; Bodo community in eastern Dooars fringe,no
+mother_tongue,Rabha,2.00,A,Kalchini CDB 2011: 1.73%; Rabha tribal community,no
+mother_tongue,Santali,1.00,E,Santali-speakers; subset of Santhal ST,no
+mother_tongue,"Other (Mundari, Ho, Kharia, etc.)",9.00,E,Residual tribal languages; many shift to Sadri for inter-community communication,no
+education,Illiterate,26.00,E,Kalchini CDB 2011 literacy 68.96% → ~31% illiterate in 2011; projected improvement +0.7pp/yr → ~26% illiterate by 2019; female literacy 59.77% anchors high gender gap,no
+education,Primary (Class 1–5),24.00,E,Census 2011 age-education distribution; tea-garden children have high drop-out after primary,no
+education,Middle (Class 6–8),20.00,E,,no
+education,Secondary (Class 9–10),14.00,E,,no
+education,Higher Secondary (Class 11–12),9.00,E,,no
+education,Graduate,5.50,E,Low; managerial/trader class; tea-garden worker families rarely reach graduate level,no
+education,Postgraduate,1.50,E,,no
+workforce_status,Main worker — tea-garden wage labor (organised sector),34.00,A,"Kalchini CDB 2011: total workers 120,238 = 40.29% of pop; ""other workers"" (overwhelmingly tea) = 84.86% of workers → ~34% of total pop are permanent/temporary tea wage workers; this is the dominant workforce category unlike any other WB AC",no
+workforce_status,"Main worker — non-tea (cultivator, ag-labor, trade, govt)",6.00,A,Kalchini CDB 2011: cultivators 6.20% + ag-laborers 7.06% + household industry 1.88% of workers = ~15% of workers = ~6% of total pop; small non-bagan sector,no
+workforce_status,Marginal worker (seasonal / casual tea picking),8.00,E,Tea-garden seasonal picking employs women and youth; marginal worker share above WB average for tea-belt,no
+workforce_status,Non-worker (housewife / elderly / retired),38.00,E,"Kalchini CDB 2011: non-workers 178,220 = 59.71% of pop; tea-garden women often listed as non-worker even when active in picking; v0 projects 38% adult non-worker",no
+workforce_status,"Student (18–22 only, in education)",6.00,E,Low post-secondary enrollment in tea gardens,no
+workforce_status,Unemployed (closed-garden / displaced),8.00,D,"Closed tea gardens (19 closed in broader Dooars-Jalpaiguri region); closed-garden workers neither employed nor formally unemployed; modeled as 8% (journalistic: ~60,000 workers displaced)",no
+occupation,Tea-garden plucking / processing (organized sector),72.00,A,"Computed: ""other workers"" = 84.86% of Kalchini CDB 2011 total workers; majority are bagan wage-earners; v0 uses 72% to allow for non-tea ""other workers""",no
+occupation,"Cultivator (own-field, outside bagan)",4.00,A,"Kalchini CDB 2011: 7,459 cultivators = 6.20% of workers; v0 adjusts to 4% to account for small landholding in tea-belt",no
+occupation,"Agricultural labourer (non-tea, seasonal)",5.00,A,"Kalchini CDB 2011: 8,487 ag-laborers = 7.06% of workers",no
+occupation,Household industry,2.00,A,"Kalchini CDB 2011: 2,256 = 1.88% of workers",no
+occupation,Trade / retail (Jaigaon border town),7.00,D,Jaigaon is a busy India-Bhutan border trading town; retail/trade for border economy,no
+occupation,Transport / border logistics (Jaigaon-Phuentsholing),3.00,D,Cross-border trade logistics; small but economically distinct,no
+occupation,Government services / teachers,3.00,E,BDO / school / health center workers,no
+occupation,"Services (private, non-bagan)",3.00,E,"Small non-bagan private sector; healthcare workers, mechanics",no
+occupation,Construction (out-migrant seasonal),1.00,E,Low compared to other WB ACs; closed-garden displaced workers,no
+class_of_worker,Employee (regular wage / salary — bagan + govt),70.00,E,Tea-garden is ORGANIZED SECTOR with nominal employment contracts; ~72% of workers are bagan wage-earners (=organized-sector employees); includes govt employees,no
+class_of_worker,Employer,1.00,E,Very few; bagan management and large traders in Jaigaon,no
+class_of_worker,Single worker (own-account — cultivator / trader),18.00,E,Own-account cultivators + Jaigaon traders + household industry,no
+class_of_worker,"Family worker (unpaid, within HH)",11.00,E,Women and children helping on small plots or in household industry,no
+economic_status,BPL household,45.00,D,"Tea-garden wages ₹176/day (pre-2021 = 2015 revision baseline) × ~275 work-days = ~₹48,400/yr ≈ ₹4,000/month; below WB BPL threshold; journalistic: ""majority of household income does not exceed ₹6,000/month""; v0 uses 45% BPL (much higher than WB state average ~20%)",no
+economic_status,"Above-poverty-line, low-income",30.00,E,Bagan workers slightly above BPL threshold; regular wage but low,no
+economic_status,Lower-middle,15.00,E,Jaigaon border traders; head-clerks / sirdars in garden management,no
+economic_status,Middle,8.00,E,Garden supervisory staff; govt employees; prosperous Jaigaon traders,no
+economic_status,Upper-middle / well-off,2.00,E,Garden managers; Jaigaon commercial class,no
+gp_location,U1: Kalchini CDB core (all 11 GPs),93.8,E,"2011: 298,548 / 318,391 = 93.8%",no
+gp_location,U2: Majherdabri GP (Alipurduar II),6.2,E,"~19,843 / 318,391 = 6.2%; more Bengali-dominant, higher SC, less tea-garden",no
+household_composition,Avg HH size,4.8 persons,E,"Tea-garden ""lines"" housing: large family units in crowded bagan quarters; WB 2011 average 4.3; tea-belt higher",no
+household_composition,Nuclear HH,60.0,E,Bagan lines break extended family structures over generations; still more nuclear than joint,no
+household_composition,Joint HH,30.0,E,More joint HH than WB average; inter-generational bagan employment,no
+household_composition,Extended / multi-generation,10.0,E,,no
+marital_status,Never married,24.0,E,Younger first-voter cohort; tribal early marriage patterns,no
+marital_status,Currently married,66.0,E,Tribal communities: marriage earlier and near-universal,no
+marital_status,Widowed,9.0,E,"Higher than WB average; premature male mortality from occupational diseases (silicosis, fluorosis) in tea areas; female-skewed widowhood",no
+marital_status,Separated / divorced,1.0,E,,no
+asset_media,Television,50.0,D,Tea-garden housing lines: significantly lower than WB rural average (~60% NFHS-4); sanitation survey (only 15.81% latrine access) signals general deprivation; The Bastion (2021) notes infrastructure deficits; v0 uses 50%,no
+asset_media,Radio,15.0,D,Higher than WB average; radio remains important in tea-garden areas with low TV penetration; used for Sadri/Hindi broadcasts,no
+asset_media,Mobile phone (any),70.0,D,Growing post-Jio 2016 rollout; but tea-garden workers with low wages have lower penetration than WB rural average (~78% NFHS-4); v0 uses 70%,no
+asset_media,Smartphone with internet,28.0,D,Significantly below WB rural average (~50%); low disposable income + Sadri-language internet barrier; v0 uses 28% — load-bearing for narrative-injection weighting,no
+asset_media,Computer,4.0,E,Very low; bagan quarters have no computer culture,no
+asset_media,Two-wheeler,12.0,E,Below WB rural average; limited disposable income for capital assets,no
+asset_media,Four-wheeler,2.0,E,Only managers and Jaigaon traders,no
+asset_media,Banking access (any),75.0,B,PMJDY 2014 rollout; lower than WB state average due to identification challenges for Adivasi tea workers (identity documents); v0 uses 75%,no
+amenities,Improved drinking water source,60.0,D,Tea-plantation sanitation survey (The Bastion): only 30.7% of plantation HH receive drinking water via tube wells in some studies; v0 uses 60% allowing for piped supply within bagan complex,no
+amenities,Improved sanitation (latrine),25.0,D,Tea-plantation survey: only 15.81% have latrines; majority defecate in open; Swachh Bharat had limited reach in tea-garden private land; v0 uses 25% as conservative improvement,no
+amenities,LPG / clean cooking fuel,25.0,D,Below WB rural average; Ujjwala 2016-19 had limited penetration in tea-belt due to address/identity issues; bagan wood collection still dominant,no
+amenities,Wood / biomass fuel,70.0,E,Dominant cooking fuel; bagan land provides access to firewood,no
+amenities,"Other fuel (kerosene, dung)",5.0,E,,no
+amenities,Electricity,80.0,D,Lower than WB state average (Saubhagya 2017-19); bagan housing lines: older electrification but quality poor; journalistic sources note infrastructure gaps in closed gardens; v0 uses 80%,no
+migration,Native (born in Alipurduar / Jalpaiguri or same bagan),60.0,D,4th–5th generation descendants of original indentured labor; born in the bagan,no
+migration,WB other district (in-migrant),5.0,D,Limited internal WB in-migration to tea belt,no
+migration,"Jharkhand / Chhattisgarh / Odisha origin (Adivasi, multi-generation)",25.0,D,"Load-bearing: Oraon, Munda, Santhal, Kharia, Gond forebears brought from Chhotanagpur plateau as indentured labor in 19th–early 20th century; 3rd–5th generation now ""native"" by birthplace but maintain Jharkhand-origin identity and tribal culture",no
+migration,"Bihar / UP (Hindi-belt, Bhojpuri-speaking)",5.0,D,Bhojpuri 4% in CDB; some direct in-migration continued into 20th century,no
+migration,"Nepal-origin (Gorkha/Nepali, multi-generation)",4.0,D,Nepali 26% speaker share implies substantial Nepal-heritage population in Dooars,no
+migration,Other Indian state,0.5,E,Marginal,no
+migration,Outside India,0.5,E,Negligible; some recent Nepal in-migration,no

@@ -1,0 +1,112 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,73.50,D,"Bhabanipur AC: ~42% Bengali Hindu + ~31.5% non-Bengali Hindu = ~73.5% Census-Hindu (i.e. excludes Sikh, Jain counted separately per Census religion taxonomy); consistent with 24% Muslim and KMC-district average",no
+religion,Muslim,24.00,D,"Multiple journalistic sources: ""20% Muslim voters""; The Federal cites ~21.9% Muslim voters; rounded to 24% total pop (voters skew slightly lower — Muslim pop is younger with more sub-18 share)",no
+religion,Sikh,1.50,D,"Bhabanipur has a noted Sikh community along Gurudwara corridor (Bhowanipore area); journalistic sources cite ""Sikh households"" as visible bloc",no
+religion,Jain,0.80,D,Marwari-Jain community; Bhowanipore + Elgin Road area; Census counts Jain separately from Hindu,no
+religion,Christian,0.20,E,Small urban Christian fringe,no
+caste,SC total,2.23,A,Census 2011 direct for AC 159,no
+caste,Namasudra / Rajbanshi / other SC,2.23,E,No Matua concentration in Kolkata urban; generic urban SC pool,yes
+caste,ST total,0.26,A,Census 2011 direct for AC 159,no
+caste,Bengali bhadralok UC (Brahmin / Kayastha / Baidya),25.00,D,"Bhowanipore historically bhadralok residential; Kayastha-Brahmin dominant in older parts; ~25% est. (journalistic sources on ""South Kolkata bhadralok character"")",no
+caste,Bengali OBC / middle-caste Hindu (Sadgop / Tili / Subarnabanik / Tanti / unclassified),15.00,E,South Kolkata urban middle-caste pool; Subarnabanik merchant community notable; subtotal Bengali Hindu ~42% (UC 25 + OBC 15 + SC 2.23 + ST 0.26),no
+caste,Marwari (Rajasthani Hindu),10.40,D,"The Print cites ""10.4% Marwaris"" in Bhabanipur electorate",no
+caste,Gujarati Hindu,8.00,D,Bhowanipore: Gujarati business families in Lansdowne-Chakraberia-Pudda Pukur belt; journalistic sources,no
+caste,Bihari / UP migrant Hindu,7.00,D,Labour + trade migrants from Hindi belt; ward 82 fringe + service workers,no
+caste,Sikh,1.50,D,See C.1; Punjabi community with Gurudwara presence,no
+caste,Oriya Hindu,2.00,D,South Kolkata domestic workers + traders from Odisha,no
+caste,Jain,0.80,D,Marwari-Jain business families; Elgin Road area; Census classifies Jain separately,no
+caste,Other non-Bengali Hindu / South Indian / Anglo-Indian,3.60,E,"Residual non-Bengali non-Muslim bloc; South Indian professionals, small Tamil/Nepali communities",no
+caste,Muslim (all sub-groups),24.00,D,See C.1; sub-structure in D.2,no
+caste,Christian + Buddhist + other religion,0.21,E,Residual; small Christian + Parsi fringe,no
+age_cohort,0–4,6.5,E,Kolkata urban TFR ~1.5-1.6; low child share vs rural WB,no
+age_cohort,5–9,7.0,E,,no
+age_cohort,10–14,7.5,E,,no
+age_cohort,15–17 (pre-voter),5.0,E,,no
+age_cohort,18–22 (first-time voters at 2019),9.5,E,Urban youth bulge with in-migration,no
+age_cohort,23–27,10.5,E,Working-age in-migrants peak here,no
+age_cohort,28–32,10.0,E,,no
+age_cohort,33–37,9.0,E,,no
+age_cohort,38–42,8.0,E,,no
+age_cohort,43–47,7.5,E,,no
+age_cohort,48–52,6.5,E,,no
+age_cohort,53–57,5.0,E,,no
+age_cohort,58–62,4.0,E,,no
+age_cohort,63–67,2.5,E,,no
+age_cohort,68+,1.5,E,Kolkata urban elderly share lower than rural; out-migration to satellite towns,no
+gender,Male,51.53,E,Kolkata district 2011 sex ratio 941 (F per 1000 M) → 51.53% M / 48.46% F; male in-migration slightly increases male share over 8yr,no
+gender,Female,48.46,E,,no
+gender,Third gender,0.01,E,Urban Kolkata; small registered TG population,no
+mother_tongue,Bengali,58.00,D,Bengali Hindu + Bengali Muslim (roughly 42% Bengali Hindu + ~12% Bengali-speaking Muslims) ≈ 58% first language Bengali,no
+mother_tongue,Hindi,20.00,D,Marwari + Bihari/UP + some Gujarati Hindi-Hindi speakers; Bhowanipore has significant Hindi-belt diaspora,no
+mother_tongue,Gujarati,7.00,D,Gujarati business families; mother tongue distinct from Hindi,no
+mother_tongue,Urdu,8.00,D,A portion of Muslim population; Urdu-speaking sub-set; overlaps with Hindi-belt Muslim migrants in Ward 82 fringe,no
+mother_tongue,Punjabi,1.50,D,Sikh community,no
+mother_tongue,Odia,2.00,D,Odia workers/traders,no
+mother_tongue,English-dominant (Anglo-Indian / expat / elite school),0.50,E,Small elite bilingual urban fringe,no
+mother_tongue,Other (Tamil/Marathi/Sindhi/Nepali),3.00,E,Residual urban diversity in Kolkata,no
+education,Illiterate,7.0,E,"Kolkata city literacy ~87.14% (Census 2011, A); AC 159 as premium urban area likely ~90%+ literate by 2019 → ~7% illiterate (mainly elderly women + migrant-labour fringe)",no
+education,Primary (Class 1–5),10.0,E,Census 2011 Kolkata education distribution,no
+education,Middle (Class 6–8),13.0,E,,no
+education,Secondary (Class 9–10),19.0,E,,no
+education,Higher Secondary (Class 11–12),20.0,E,Urban premium: HS share much higher than state average,no
+education,Graduate,22.0,E,Kolkata bhadralok + business community: very high graduate share,no
+education,Postgraduate,9.0,E,Notable research/professional class in South Kolkata,no
+workforce_status,Main worker,42.0,E,Kolkata urban main-worker rate higher than WB rural; Census 2011 Kolkata main-worker ~42%,no
+workforce_status,Marginal worker,5.0,E,Low marginal workers in urban Kolkata,no
+workforce_status,Non-worker (housewife / retired / elderly),35.0,E,Includes housewife share among non-Bengali women + retired bhadralok,no
+workforce_status,"Student (18–22, in education)",10.0,E,Large student population in South Kolkata university belt,no
+workforce_status,"Unemployed (educated, actively seeking)",8.0,E,Educated unemployment significant; graduate job-aspirant pool,no
+occupation,Cultivator,0.0,E,100% urban; no agriculture,no
+occupation,Agricultural labourer,0.0,E,Same,no
+occupation,Household industry,3.0,E,"Small-scale tailoring, handicraft, home-based retail",no
+occupation,Manufacturing (organised),6.0,E,Small factories + workshops; declining in Kolkata proper,no
+occupation,Construction,4.0,E,Urban construction labour in-migrants,no
+occupation,Trade / retail,22.0,E,"Dominant sector: Marwari/Gujarati merchants + Bengali small traders; Rashbehari Ave, Gariahat proximity",no
+occupation,"Transport (auto, taxi, logistics)",8.0,E,Kolkata urban transport; Bhabanipur has major road corridors,no
+occupation,"Services (private) — banking, IT, hospitality",22.0,E,South Kolkata professional / service sector,no
+occupation,Government services / teachers,18.0,E,High concentration of govt employees + teachers in bhadralok households,no
+occupation,Domestic workers,5.0,E,Employed in affluent households within constituency,no
+occupation,Petty vendor / street commerce,7.0,E,Urban informal economy,no
+occupation,"Other professionals (doctor, lawyer, CA)",5.0,E,South Kolkata professional cluster,no
+class_of_worker,Employer,8.0,E,Higher than state average; Marwari/Gujarati business ownership,no
+class_of_worker,Employee (regular wage / salary),52.0,E,Govt + private service dominant in urban Kolkata,no
+class_of_worker,Single worker (own-account),32.0,E,"Small traders, vendors, professionals",no
+class_of_worker,Family worker (unpaid),8.0,E,Family businesses (Marwari/Gujarati HH),no
+economic_status,BPL household,8.0,E,Kolkata urban poverty much lower than rural WB; ~8% est. (WB urban BPL ~12-13% in 2011; Bhabanipur above-average affluence → ~8%),no
+economic_status,"Above-Poverty-Line, low-income",22.0,E,"Construction labour, domestic workers, petty vendors",no
+economic_status,Lower-middle,28.0,E,"Clerical govt, small trade, semi-skilled services",no
+economic_status,Middle,25.0,E,"Teachers, officers, established small business",no
+economic_status,Upper-middle,12.0,E,"Senior govt / corporate, large trade",no
+economic_status,Well-off / affluent,5.0,E,"Marwari/Gujarati business elite, senior professionals; Bhowanipore + Elgin Road pockets",no
+gp_location,"U1: North ward cluster (Wards 63, 70, 71, 72 — Bhowanipore core, Hazra Rd, Naktala fringe)",52.0,E,"Ward 71 pop 29,922 + Ward 73 pop 23,512 (Census 2011 via Wikipedia) used as anchor; 4 of 8 wards roughly ~52% of AC pop; lower Muslim share, more Bengali + Marwari-Gujarati",no
+gp_location,"U2: South-west ward cluster (Wards 73, 74, 77, 82 — Kalighat, Patuapara, Elgin Rd, Kidderpur fringe)",48.0,E,Ward 82 carries Kidderpur-adjacent Muslim-concentrated blocks; higher Muslim share in U2,no
+household_composition,Avg HH size,3.8 persons,E,Urban Kolkata HH size ~3.7-3.9 (Census 2011 Kolkata 3.7); slightly higher for Muslim HH,no
+household_composition,Nuclear HH,75.0,E,NFHS-4 WB urban pattern; high in bhadralok + non-Bengali communities,no
+household_composition,Joint HH,18.0,E,Marwari/Gujarati business families tend toward joint structure,no
+household_composition,Extended / multi-generation,7.0,E,,no
+marital_status,Never married,30.0,E,Urban youth + student population; large single working cohort,no
+marital_status,Currently married,61.0,E,,no
+marital_status,Widowed,7.5,E,Concentrated in 60+ female cohort,no
+marital_status,Separated / divorced,1.5,E,Slightly higher than rural WB; urban educated population,no
+asset_media,Television,95.0,C,NFHS-4 WB urban ~89%; South Kolkata upper-income → ~95% by 2019,no
+asset_media,Radio,6.0,C,Very low; declining urban media,no
+asset_media,Mobile phone (any),97.0,C,Near-saturation in urban Kolkata by 2019,no
+asset_media,Smartphone with internet,78.0,C,NFHS-4 WB urban ~60%; +Jio rollout 2016-19 + bhadralok high income → ~78%,no
+asset_media,Computer / laptop,38.0,C,South Kolkata professional class; much higher than state average,no
+asset_media,Two-wheeler,30.0,C,Lower than suburban; Kolkata has dense public transport reducing motorcycle need,no
+asset_media,Four-wheeler,20.0,C,Much higher than state average; 1-in-5 HHs has a car in this constituency,no
+asset_media,Banking access (any),98.0,B,Near-saturation in urban Kolkata; PMJDY + prior formal banking history,no
+asset_media,Cable / satellite TV subscription,85.0,C,Bengali news channels + Hindi news heavy consumption,no
+amenities,Improved drinking water (piped municipal),98.0,C,KMC piped water — near-universal in this constituency,no
+amenities,Improved sanitation (flush latrine),97.0,C,Urban Kolkata near-universal; KMC sewage network,no
+amenities,LPG / clean cooking fuel,90.0,C,NFHS-4 WB urban 81%; South Kolkata affluence → ~90%,no
+amenities,Kerosene / biomass fuel,8.0,C,Declining; petty-vendor and domestic-worker households,no
+amenities,Other fuel,2.0,E,,no
+amenities,Electricity (metered),99.5,A,Census 2011 Kolkata ~99% + Saubhagya 2017-19,no
+migration,Native Kolkata-born (born in Kolkata or KMC area),50.0,D,South Kolkata old-neighbourhood families; bhadralok multigenerational residents,no
+migration,WB other district (in-migrant from rest of WB),10.0,D,"Service class from Hooghly, Howrah, 24 Parganas migrating for work / education",no
+migration,Hindi belt (UP/Bihar/Rajasthan/Gujarat) in-migrant,28.0,D,"Load-bearing: Marwari (~10.4%), Gujarati (~8%), Bihari/UP labour and trade (~7%), Rajasthani others — all sourced from Hindi-belt or Gujarati-speaking states; settled 1–3 generations ago or recent",no
+migration,"Other Indian state (Orissa, South India, Maharashtra, Punjab)",8.0,D,Odia workers + Sikh Punjabi community + South Indian professionals,no
+migration,Bangladesh-origin Hindu,2.5,D,Very low in Kolkata Dakshin vs North WB; a small refugee-SC fringe,no
+migration,Outside India (other),0.5,E,NRI families; small Anglo-Indian / Parsi fraction,no
+migration,Out-migrant (registered here but working elsewhere),1.0,E,Bhadralok professionals working in Mumbai/Delhi/abroad; return-vote pattern,no

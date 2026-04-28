@@ -1,0 +1,96 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,73.51,A/E,"Census 2011 block aggregate: Hindu 244,867 / 331,054 = 73.97%; projected 8 yr (+1.0%/yr Hindu, +1.3%/yr Muslim → Hindu share falls ~0.5pp)",no
+religion,Muslim,26.35,A/E,"Census 2011 block aggregate: Muslim 85,696 / 331,054 = 25.89%; projected share rises ~0.5pp by 2019; consistent with Purba Medinipur Muslim growth trend (tier D journalistic contextualisation)",no
+religion,Other (Christian / Sarna / other),0.14,A/E,"Census 2011 block other/not-stated 491 / 331,054 = 0.15%; projected stable",no
+caste,SC total,16.46,A,"Census 2011 block aggregate: 54,503 / 331,054 (Nandigram I: 18.58%; Nandigram II: 12.89%)",no
+caste,Bagdi (dominant SC in coastal Medinipur),8.0,E,Bagdi is the principal SC community in Purba Medinipur; estimated ~50% of SC pool in this AC,yes
+caste,Namasudra,3.5,E,Secondary SC in Purba Medinipur; ~21% of SC pool,yes
+caste,Bauri,2.0,E,~12% of SC pool,yes
+caste,"Other SC (Hari, Kora, etc.)",2.96,E,Residual SC sub-groups; ~18% of SC pool,yes
+caste,ST total,0.10,A,"Census 2011 block aggregate: 335 / 331,054; negligible ST presence",no
+caste,"Mahishya (general caste, dominant)",27.00,D,"Mahishya is the numerically dominant middle caste in coastal Purba Medinipur; not SC/ST/OBC — general category. Estimated ~45–50% of non-SC, non-ST, non-Muslim Hindu = ~27% of total AC population. Tier D: no caste census post-1931. Sources: Wikipedia ""Mahishya"", journalistic analysis of Purba Medinipur caste dynamics",no
+caste,Tili / Teli (OBC),3.00,E,Secondary OBC in coastal Medinipur context,no
+caste,Kayastha / Brahmin / UC bhadralok,5.00,E,Modest upper-caste presence; concentrated in Nandigram census town,no
+caste,"Other Hindu middle castes (Goala, Kumbhar, Sutradhar, Sadgop, etc.)",21.95,E,Residual general Hindu after subtracting SC+ST+Mahishya+OBC+UC: 100 − 16.46 − 0.10 − 27.00 − 3.00 − 5.00 − 26.35 − 0.14 = 21.95,no
+caste,Muslim (all sub-castes pooled),26.35,A/E,See C.1; sub-structure in D.2,no
+caste,Christian + Other,0.14,E,See C.1,no
+age_cohort,0–4,7.5,E,"Projected from Census 2011 Purba Medinipur age pyramid; below-6 was 13.09% of 331,054 → age 0–4 ~7.5%",no
+age_cohort,5–9,8.0,E,,no
+age_cohort,10–14,8.5,E,,no
+age_cohort,15–17 (pre-voter),5.5,E,,no
+age_cohort,18–22 (first-time voters at 2019),9.0,E,,no
+age_cohort,23–27,9.5,E,,no
+age_cohort,28–32,9.5,E,,no
+age_cohort,33–37,8.5,E,,no
+age_cohort,38–42,7.5,E,,no
+age_cohort,43–47,7.0,E,,no
+age_cohort,48–52,6.0,E,,no
+age_cohort,53–57,5.0,E,,no
+age_cohort,58–62,4.0,E,,no
+age_cohort,63–67,2.5,E,,no
+age_cohort,68+,2.0,E,,no
+gender,Male,51.40,A,"Census 2011 block aggregate: males 170,150 / 331,054 = 51.40%",no
+gender,Female,48.59,A,"Females 160,904 / 331,054 = 48.59%; sex ratio 946",no
+gender,Third gender,0.01,E,Negligible; standard national estimate,no
+mother_tongue,Bengali,99.95,A,Nandigram I: 99.97% Bengali (Census 2011); Nandigram II: 99.94% Bengali (Census 2011),no
+mother_tongue,Other (Oriya / Hindi / Urdu fringe),0.05,E,Residual; maritime/port fringe in Haldia sub-division,no
+education,Illiterate,12.5,A/E,"Census 2011 overall literacy 86.50% (AC aggregate: (152,339+96,395)/(331,054−28,384−15,105) = 86.50%); projected +0.5pp/yr over 8yr → ~90.5% literate in 2019 → ~9.5% illiterate. But including age 7+ population structure: ~12.5% illiterate conservative estimate",no
+education,Primary (Class 1–5),22.0,E,Purba Medinipur district education distribution pattern,no
+education,Middle (Class 6–8),22.0,E,,no
+education,Secondary (Class 9–10),19.0,E,,no
+education,Higher Secondary (Class 11–12),12.5,E,Slightly higher than N24P due to coastal district urban-rural gradient,no
+education,Graduate,9.0,E,,no
+education,Postgraduate,3.0,E,,no
+workforce_status,Main worker,33.0,A/E,Census 2011 block weighted: Nandigram I 31.87% + Nandigram II 34.90% workers of total pop → AC average ~33%; includes marginal workers; in age-18+ terms the main-worker share is higher,no
+workforce_status,Marginal worker,8.0,E,WB rural pattern; agricultural marginal workers; seasonal,no
+workforce_status,Non-worker (housewife / elderly / retired),37.0,E,Dominated by housewives and elderly,no
+workforce_status,"Student (18–22 only, in education)",12.0,E,,no
+workforce_status,"Unemployed (educated, actively seeking)",10.0,E,Elevated educated unemployment; post-protest land disruption legacy,no
+occupation,Cultivator,16.19,A,Census 2011 weighted: (14.92%×Nandigram I workers + 18.15%×Nandigram II workers) / total workers = 16.19%,no
+occupation,Agricultural labourer,46.43,A,Census 2011 weighted: (43.89%×N-I workers + 50.33%×N-II workers) / total = 46.43%,no
+occupation,Household industry,3.68,A,Census 2011 weighted: (4.50%×N-I + 2.42%×N-II) = 3.68%,no
+occupation,"Manufacturing (organised, Haldia industrial)",4.0,E,Haldia industrial belt fringe labour; limited in Nandigram block area,no
+occupation,Construction,5.0,E,Local construction; some out-migrants returning,no
+occupation,Trade / retail,8.0,E,Local market trade; Nandigram census town,no
+occupation,Transport / fishing,6.0,E,Coastal fishing and river transport (Haldi river mouth),no
+occupation,Services (private),6.70,E,"Residual within ""other workers"" (Census 2011 ""other workers"" 33.70% → split across Manuf/Construction/Trade/Transport/Services/Govt)",no
+occupation,Government services / teachers,4.0,E,,no
+class_of_worker,Employer,1.5,E,Census B-04 WB rural; lower than N24P due to smaller commercial base,no
+class_of_worker,Employee (regular wage),22.0,E,Govt + organised industrial (Haldia fringe) + service sector,no
+class_of_worker,Single worker (own-account),55.0,E,Dominant: cultivator + fisherman + own-account artisan + small trader; high in coastal agrarian AC,no
+class_of_worker,Family worker (unpaid),21.5,E,Within agri/fishing household assisting family enterprise,no
+economic_status,BPL household,20.0,E,Purba Medinipur district BPL ~20-22% (2011 baseline; WB poverty fell ~4pp 2011-19); Nandigram blocks are rural agrarian — consistent with district pattern,no
+economic_status,"Above-Poverty-Line, low-income",40.0,E,Bulk of rural agrarian households,no
+economic_status,Lower-middle,24.0,E,,no
+economic_status,Middle,13.0,E,Somewhat higher than N24P due to Mahishya landowner class and fishing economy,no
+economic_status,Upper-middle / well-off,3.0,E,Marginal affluent fringe; some Haldia-linked salaried households,no
+gp_location,U1: Nandigram I CDB,62.78,A,"Census 2011: 207,835 / 331,054 = 62.78%",no
+gp_location,U2: Nandigram II CDB,37.22,A,"Census 2011: 123,219 / 331,054 = 37.22%",no
+household_composition,Avg HH size,4.5 persons,E,WB 2011 rural 4.4–4.6; Purba Medinipur coastal pattern slightly larger,no
+household_composition,Nuclear HH,66.0,E,NFHS-4 WB rural pattern; slightly lower than urban areas,no
+household_composition,Joint HH,28.0,E,Higher than urban; agrarian joint family common in Mahishya landowner households,no
+household_composition,Extended / multi-generation,6.0,E,,no
+marital_status,Never married,27.0,E,Census 2011 Purba Medinipur pattern; young cohort,no
+marital_status,Currently married,65.0,E,,no
+marital_status,Widowed,7.0,E,"Concentrated in 60+, female-skewed",no
+marital_status,Separated / divorced,1.0,E,,no
+asset_media,Television,75.0,C,"NFHS-4 WB rural ~60%, urban ~89%; +5pp/yr → ~78% by 2019; AC slightly below WB rural average (more remote coastal rural) → ~75%",no
+asset_media,Radio,6.0,C,Declining; still used in coastal fishing communities,no
+asset_media,Mobile phone (any),85.0,C,NFHS-4 WB ~78% + Jio rollout 2016-19 → ~85%,no
+asset_media,Smartphone with internet,45.0,C,NFHS-4 WB rural baseline + Jio diffusion 2016-19; slightly lower than N24P semi-urban AC,no
+asset_media,Computer,6.0,C,"NFHS-4 WB rural ~4%, urban 27%; AC mostly rural → ~6%",no
+asset_media,Two-wheeler,30.0,C,"NFHS-4 WB rural ~18%, urban ~41%; Purba Medinipur coastal rural → ~30%",no
+asset_media,Four-wheeler,5.0,C,Limited; Mahishya medium-farmer class fringe,no
+asset_media,Banking access (any),87.0,B,PMJDY 2014– saturation; NFHS-4 WB baseline + Jan Dhan rollout; WB rural ~88% by 2019,no
+amenities,Improved drinking water source,85.0,C,NFHS-4 WB rural ~84%; Purba Medinipur coastal: similar → ~85%,no
+amenities,Improved sanitation (latrine),72.0,C,NFHS-4 WB rural ~51%; +Swachh Bharat 2014-19 (+15pp rural) → ~66-72%; Purba Medinipur slightly above WB rural average (lower open-defecation: 1.16% district per NFHS-5),no
+amenities,LPG / clean cooking fuel,45.0,C,NFHS-4 WB rural ~24%; +Ujjwala 2016-19 (+15pp rural); WB rural ~40% by 2019; Purba Medinipur slightly higher → ~45%,no
+amenities,Wood / biomass fuel,50.0,C,Declining as LPG rises; coastal wood/crop-residue use,no
+amenities,"Other fuel (kerosene, dung, etc.)",5.0,C,,no
+amenities,Electricity,96.0,A/E,Census 2011 + Saubhagya 2017-19 rural saturation; Purba Medinipur electrification near-complete by 2019,no
+migration,Native (born in Purba Medinipur or same village),88.0,D,"Coastal agrarian AC; very low in-migration. Nandigram is historically stable settlement; unlike N24P border districts, no large refugee inflow. Journalistic estimate.",no
+migration,WB other district (in-migrant),6.0,D,Some in-migration from adjacent Paschim Medinipur / Hooghly,no
+migration,Other Indian state,2.5,D,Haldia industrial fringe workers; some Bihari/Oriya labour,no
+migration,Bangladesh-origin (historical),2.0,D,Very small compared to N24P; some Namasudra SC households with pre-1947 / 1971 roots in coastal Bangladesh (Khulna / Barisal corridor). Much smaller than Bangaon belt.,no
+migration,Outside India (other),0.5,E,Negligible,no
+migration,"Out-migrant (registered here, working outside)",1.0,E,Haldia-Kolkata commuter and out-migrant fraction; smaller than N24P,no
