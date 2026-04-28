@@ -1,4 +1,1449 @@
-# Constituency-specific events timeline
-# Format: date | headline | scope | tags
-# Populate when local events data is available.
-events: []
+cutoff_date: '2026-04-26'
+events:
+- slug: gcpa_rajbanshi_statehood_political_alignment
+  date_start: '2019-01-01'
+  date_end: '2021-04-29'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Greater Cooch Behar People's Association (GCPA) factional alignments shape Rajbanshi
+    gatekeeper politics
+  summary: 'GCPA (est. 1998) seeks a separate ''Greater Cooch Behar'' state and Rajbanshi
+
+    language recognition. Its two factions split between TMC-leaning (Bangshi Badan
+
+    Barman) and BJP-leaning (Anant Maharaj/Ananta Rai). In Cooch Behar Uttar, the
+
+    GCPA functions as a community gatekeeper: its local leaders'' endorsements influence
+
+    Rajbanshi bloc votes. BJP successfully courted Anant Rai''s faction, signalling
+
+    sympathy for Cooch Behar statehood demand and Rajbanshi OBC/ST recognition.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bjp_supporter
+  - tmc_supporter
+  - ag_labourer
+  valence:
+    bjp_supporter: positive
+    upper_caste_hindu: ambient
+    tmc_supporter: ambient
+  broadcast: false
+  sources:
+  - https://theprint.in/politics/who-are-rajbanshis-caught-in-shah-mamata-scrap-why-theyre-key-for-bjp-in-assam-bengal/639069/
+  - https://scroll.in/article/807134/west-bengal-polls-in-cooch-behar-bjp-stokes-statehood-demands-in-order-to-get-in-the-door
+- slug: gcpa_rajbanshi_statehood_demand_ongoing
+  date_start: '2019-01-01'
+  date_end: '2024-05-07'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: 'GCPA Greater Cooch Behar statehood demand: BJP courts Anant Maharaj faction;
+    TMC retains Bangshi Badan Barman''s'
+  summary: 'GCPA''s two factions maintain their split alignment through the full 2019-2024
+
+    period. BJP''s use of Anant Maharaj (Rajya Sabha) vs TMC''s use of the Bangshi
+
+    Badan Barman faction as a state-government allied body creates duelling community-
+
+    gatekeeper signals for Rajbanshi voters in AC-1. The statehood demand — separate
+
+    Cooch Behar state — is never formally promised by either party but is perpetually
+
+    dangled. Rajbanshi language recognition in the Eighth Schedule is a BJP 2024-2026
+
+    promise.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    bjp_supporter: positive
+    upper_caste_hindu: ambient
+  broadcast: false
+  sources:
+  - https://theprint.in/politics/why-bjp-picked-anant-maharaj-campaigner-for-cooch-behar-statehood-as-1st-rs-candidate-from-bengal/1667784/
+  - https://www.theweek.in/news/india/2024/12/11/west-bengal-separatist-outfit-renews-call-for-coochbehar-state-holds-rail-roko-stir.html
+- slug: d_voter_frontier_tribunal_chronic
+  date_start: '2019-01-01'
+  date_end: '2024-05-07'
+  temporal: chronic
+  scope: AC
+  intensity: 4
+  headline: 'D-voter and Foreigners Tribunal: Cooch Behar Rajbanshis face chronic citizenship
+    anxiety at the border'
+  summary: 'WB voter rolls in Cooch Behar carry "D" (declared foreign) markings against
+
+    contested entries, disenfranchising affected voters. Assam Foreigners Tribunal
+
+    notices to WB Rajbanshi residents (e.g., Uttam Kumar Brajabasi, Dinhata Block)
+
+    created fear that the citizenship dragnet could reach any family. The D-voter
+
+    problem is distinct from CAA — it applies to long-settled Rajbanshi Hindus, not
+
+    just Muslim immigrants. Mamata raised it as BJP''s citizenship harassment of Bengali
+
+    Hindus. The anxiety remained unresolved through the 2024 LS election.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - muslim_voter
+  - ag_labourer
+  - elderly
+  - woman
+  valence:
+    upper_caste_hindu: negative
+    muslim_voter: negative
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: false
+  sources:
+  - https://www.thestatesman.com/cities/siliguri/mamata-slams-nrc-notice-to-cooch-behar-man-1503455234.html
+- slug: gcpa_rajbanshi_gatekeeper_split_2019_2024
+  date_start: '2019-01-01'
+  date_end: '2024-05-07'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: 'GCPA Rajbanshi gatekeeper split: Anant Maharaj faction leans BJP; Bangshi Badan
+    Barman faction aligns with TMC'
+  summary: 'The Greater Cooch Behar People''s Association''s two factions maintained opposing
+
+    party alignments through the full 2019-2024 period. BJP courted Anant Maharaj
+
+    (later Rajya Sabha 2023) for Rajbanshi statehood-and-recognition messaging; TMC
+
+    kept Bangshi Badan Barman in state government positions. In AC-1, the competing
+
+    community endorsements created duelling signals in Rajbanshi paras: which faction
+
+    head''s word counted more at the booth level was contested bloc by bloc.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    bjp_supporter: positive
+    upper_caste_hindu: ambient
+  broadcast: false
+  sources:
+  - https://theprint.in/politics/why-bjp-picked-anant-maharaj-campaigner-for-cooch-behar-statehood-as-1st-rs-candidate-from-bengal/1667784/
+  - https://www.theweek.in/news/india/2024/12/11/west-bengal-separatist-outfit-renews-call-for-coochbehar-state-holds-rail-roko-stir.html
+- slug: cooch_behar_flood_chronic_vulnerability
+  date_start: '2019-01-01'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: 'Chronic Torsa-Kaljani-Teesta flood vulnerability: annual crop damage, silt burial,
+    inadequate state response'
+  summary: 'Cooch Behar faces annual flooding from the Torsa, Kaljani and Teesta rivers (Himalayan
+
+    glacier melt + monsoon). Each year, thousands of acres of aman paddy and jute are
+
+    damaged or destroyed; farmers lose 20-40% of annual income in bad years. State flood
+
+    relief is slow and is perceived as politically biased. Neither TMC nor BJP has
+
+    delivered comprehensive embankment repair. The chronic vulnerability shapes a
+
+    durable economic grievance in all Cooch Behar rural blocks including AC-1.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - woman
+  - elderly
+  - krishak_bandhu_beneficiary
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    tmc_supporter: negative
+    bjp_supporter: negative
+  broadcast: false
+  sources:
+  - https://ijellh.com/index.php/OJS/article/view/569/569
+  - https://www.downtoearth.org.in/climate-change/extraction-floods-and-forgotten-landscapes-undeline-north-bengals-climate-debt
+- slug: d_voter_frontier_tribunal_chronic_anxiety
+  date_start: '2019-01-01'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: AC
+  intensity: 4
+  headline: 'D-voter / Foreigners Tribunal: Cooch Behar Rajbanshis face chronic citizenship
+    anxiety distinct from CAA'
+  summary: 'The D-voter (declared foreigner) problem in Cooch Behar predates CAA and NRC.
+
+    WB voter rolls in border districts have historically had "D" markings against
+
+    contested entries, barring those voters from elections. Assam FT notices to WB
+
+    Rajbanshi residents (e.g., the Brajabasi case) created fear that the citizenship
+
+    dragnet could reach any family. The 2025-26 SIR (91 lakh deletions, 2.42 lakh
+
+    in Cooch Behar) rekindled these fears acutely. The D-voter issue is the single
+
+    most emotionally raw citizenship anxiety in AC-1, distinct from and sharper than
+
+    CAA for this community.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - muslim_voter
+  - ag_labourer
+  - elderly
+  - woman
+  valence:
+    upper_caste_hindu: negative
+    muslim_voter: negative
+    bjp_supporter: negative
+    tmc_supporter: positive
+  broadcast: false
+  sources:
+  - https://www.thestatesman.com/cities/siliguri/mamata-slams-nrc-notice-to-cooch-behar-man-1503455234.html
+  - https://www.businesstoday.in/india/story/from-north-bengal-to-kolkata-seat-wise-break-up-of-voter-deletions-in-west-bengal-sir-506939-2025-12-17
+- slug: gcpa_rajbanshi_language_eighth_schedule_demand
+  date_start: '2019-01-01'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: 'Rajbanshi language 8th Schedule demand: BJP 2026 promise; GCPA community gatekeeper
+    splits between TMC-BJP factions'
+  summary: 'GCPA (est. 1998, ~33 lakh Rajbanshi population in Bengal) has consistently demanded
+
+    Rajbanshi language recognition in the Constitution''s Eighth Schedule and a separate
+
+    Cooch Behar state. BJP''s 2026 Sankalp Patra explicitly promised Rajbanshi inclusion
+
+    in the 8th Schedule. TMC''s GCPA faction (Bangshi Badan Barman, holding state govt
+
+    positions) offered parity in scheme delivery. BJP''s Anant Maharaj (Rajya Sabha)
+
+    leads the other faction. The gatekeeper split creates competing community signals
+
+    in each AC-1 Rajbanshi para — whose endorsement matters more at the booth level.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bjp_supporter
+  - tmc_supporter
+  - ag_labourer
+  valence:
+    bjp_supporter: positive
+    upper_caste_hindu: ambient
+    tmc_supporter: ambient
+  broadcast: false
+  sources:
+  - https://theprint.in/politics/why-bjp-picked-anant-maharaj-campaigner-for-cooch-behar-statehood-as-1st-rs-candidate-from-bengal/1667784/
+  - https://zeenews.india.com/india/bjp-releases-bengal-poll-manifesto-promises-7th-cpc-implementation-da-hike-ladali-behan-aid-jobs-and-more-3035759.html
+- slug: ls_2019_nisith_pramanik_wins_cooch_behar
+  date: '2019-05-23'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Nisith Pramanik (BJP) wins Cooch Behar LS by 54,321 — BJP sweeps North Bengal
+    on Rajbanshi wave
+  summary: 'Pramanik (BJP) 731,594 vs Paresh Adhikary (TMC) 677,363, margin 54,321. Cooch
+
+    Behar Uttar (AC-1) delivered large BJP leads on Rajbanshi Hindu consolidation.
+
+    Pramanik — a local Dinhata strongman — became the BJP''s organisational anchor for
+
+    all nine Cooch Behar assembly segments. His block-level camp offices and BJYM
+
+    network were the skeleton of BJP''s subsequent 2021 AE machine.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - ag_labourer
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    upper_caste_hindu: positive
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.dnaindia.com/india/report-cooch-behar-lok-sabha-poll-results-2019-bengal-bjp-s-nisith-pramanik-and-tmc-s-paresh-chandra-adhikary-in-close-contest-2751964
+  - https://en.wikipedia.org/wiki/Nisith_Pramanik
+- slug: tobacco_jute_farm_income_stress_chronic
+  date_start: '2020-01-01'
+  date_end: '2024-05-07'
+  temporal: chronic
+  scope: AC
+  intensity: 3
+  headline: 'Chronic farm stress: tobacco MSP stagnation and jute mill closures depress Cooch
+    Behar Uttar rural incomes'
+  summary: 'Cooch Behar Uttar cultivates tobacco (winter), paddy and jute (kharif). Post-2020,
+
+    tobacco prices at mandis stagnated while input costs (fertiliser, pesticide) rose
+
+    20-30%. Several jute mills in North Bengal reduced operations or closed. Combined
+
+    with MGNREGA block from 2022 and annual flood damage, per-household farm income
+
+    in Rajbanshi cultivator families fell over the 2020-2024 period. This was the
+
+    durable economic grievance beneath partisan swings.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - woman
+  - elderly
+  - out_migrant_household
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    bjp_supporter: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://www.agriculturejournal.org/volume8number2/effect-of-covid-19-pandemic-on-the-market-price-of-jute-in-india/
+- slug: tobacco_jute_farm_stress_chronic
+  date_start: '2020-01-01'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: AC
+  intensity: 3
+  headline: 'Tobacco MSP stagnation + jute mill decline: Cooch Behar Uttar farm incomes under
+    multi-year stress'
+  summary: 'Tobacco prices at Cooch Behar mandis stagnated while fertiliser/pesticide input
+
+    costs rose 20-30% post-2020. Jute mills in North Bengal reduced production. Annual
+
+    flooding and MGNREGA withdrawal compounded the stress. Per-household farm income
+
+    in Rajbanshi cultivator families declined significantly over 2020-2026. The economic
+
+    grievance provided fertile ground for anti-incumbency messaging by whichever party
+
+    was in opposition — Centre or state — at any given moment.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - woman
+  - out_migrant_household
+  - elderly
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+  broadcast: false
+  sources:
+  - https://www.agriculturejournal.org/volume8number2/effect-of-covid-19-pandemic-on-the-market-price-of-jute-in-india/
+- slug: cooch_behar_flood_2020_torsa_kaljani
+  date_start: '2020-07-15'
+  date_end: '2020-08-31'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Torsa and Kaljani rivers flood Cooch Behar district 2020; standing paddy and jute
+    crop damaged
+  summary: 'Annual monsoon flooding, exacerbated by Himalayan glacier melt, inundated
+
+    large parts of Cooch Behar district including northern segments adjacent to
+
+    AC-1. Thousands of acres of aman paddy, jute and tobacco seedlings were
+
+    destroyed. Flood-affected Rajbanshi cultivator households demanded relief;
+
+    allegations of TMC panchayat bias in distributing compensation followed.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - woman
+  - elderly
+  - krishak_bandhu_beneficiary
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://ijellh.com/index.php/OJS/article/view/569/569
+  - https://www.downtoearth.org.in/climate-change/extraction-floods-and-forgotten-landscapes-undeline-north-bengals-climate-debt
+- slug: cooch_behar_flood_torsa_kaljani_2020
+  date_start: '2020-07-15'
+  date_end: '2020-08-31'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Torsa and Kaljani river floods inundate northern Cooch Behar — aman paddy and
+    jute crops lost
+  summary: 'Annual monsoon floods in the Torsa-Kaljani basin — worsened by Himalayan glacier
+
+    melt — damaged thousands of acres of standing aman paddy and jute across Cooch
+
+    Behar Uttar''s rural blocks. Rajbanshi cultivator households demanded flood relief;
+
+    allegations of TMC panchayat bias in relief distribution seeded anti-TMC sentiment.
+
+    The flood cycle repeats every year and became a durable grievance in agricultural
+
+    communities.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - woman
+  - elderly
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://ijellh.com/index.php/OJS/article/view/569/569
+  - https://www.downtoearth.org.in/climate-change/extraction-floods-and-forgotten-landscapes-undeline-north-bengals-climate-debt
+- slug: cooch_behar_flood_2020
+  date_start: '2020-07-15'
+  date_end: '2020-08-31'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: 'Torsa-Kaljani floods 2020 inundate Cooch Behar: aman paddy and jute crop losses
+    across northern blocks'
+  summary: 'Annual monsoon floods worsened by Himalayan glacier melt damaged thousands of
+    acres
+
+    of standing aman paddy and jute in Cooch Behar Uttar''s northern blocks. Rajbanshi
+
+    cultivator households demanded relief. Allegations of TMC panchayat bias in
+
+    distributing state flood compensation seeded anti-TMC sentiment that BJP''s
+
+    booth machine would later exploit.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - woman
+  - elderly
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://ijellh.com/index.php/OJS/article/view/569/569
+- slug: bjp_panna_pramukh_booth_machine_cooch_behar
+  date_start: '2020-09-01'
+  date_end: '2021-04-29'
+  temporal: chronic
+  scope: AC
+  intensity: 4
+  headline: BJP's booth-page 'panna pramukh' model densely deployed in Cooch Behar under Nisith
+    Pramanik's organisation
+  summary: 'Nisith Pramanik''s network organised booth-level BJP workers (one per ~30 voters)
+
+    across all nine Cooch Behar assembly segments. Cooch Behar Uttar, being the
+
+    northernmost SC-reserved seat, received intensive coverage through Rajbanshi
+
+    community networks and BJYM youth clubs. Pramanik''s personal outreach — including
+
+    camp offices in each block — made BJP''s ground machine visibly stronger than
+
+    TMC''s panchayat machine in several booths.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bjp_supporter
+  - ag_labourer
+  valence:
+    bjp_supporter: positive
+    upper_caste_hindu: positive
+  broadcast: false
+  sources:
+  - https://theprint.in/politics/jp-naddas-page-pramukh-formula-the-bjps-master-plan-to-win-bengal-in-2021/582826/
+  - https://theprint.in/politics/cooch-behar-strongman-11-firs-now-in-tmcs-crosshairs-who-is-union-minister-nisith-pramanik/1235295/
+- slug: bjp_panna_pramukh_booth_machine_cooch_behar_2021
+  date_start: '2020-09-01'
+  date_end: '2021-04-29'
+  temporal: chronic
+  scope: AC
+  intensity: 4
+  headline: BJP's panna pramukh booth-page model densely deployed in Cooch Behar by Nisith
+    Pramanik's network
+  summary: 'One-worker-per-30-voters model rolled out in all nine Cooch Behar AE segments.
+
+    In Cooch Behar Uttar, BJYM and Rajbanshi community networks provided the
+
+    backbone. Pramanik personally supervised booth coverage in AC-1, turning
+
+    community halls and Rajbanshi puja committees into campaign infrastructure.
+
+    The model''s success in 2021 made it the template for BJP''s 2024 and 2026
+
+    ground operations in the district.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bjp_supporter
+  - ag_labourer
+  valence:
+    bjp_supporter: positive
+  broadcast: false
+  sources:
+  - https://theprint.in/politics/jp-naddas-page-pramukh-formula-the-bjps-master-plan-to-win-bengal-in-2021/582826/
+- slug: bjp_booth_machine_cooch_behar_2021
+  date_start: '2020-09-01'
+  date_end: '2021-04-29'
+  temporal: chronic
+  scope: AC
+  intensity: 4
+  headline: 'Nisith Pramanik''s panna pramukh network: one BJP worker per 30 voters across
+    Cooch Behar Uttar'
+  summary: 'BJP''s booth-page model deployed with particular density in Cooch Behar under
+
+    Pramanik''s personal supervision. AC-1''s Rajbanshi community clubs and BJYM
+
+    units provided the booth-level workers. The machine made BJP''s canvassing reach
+
+    deeper into individual households than TMC''s panchayat network in most Rajbanshi-
+
+    dominant blocks. This organisational asymmetry was a key factor in Sukumar Roy''s
+
+    14,615-vote win.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bjp_supporter
+  - ag_labourer
+  valence:
+    bjp_supporter: positive
+  broadcast: false
+  sources:
+  - https://theprint.in/politics/jp-naddas-page-pramukh-formula-the-bjps-master-plan-to-win-bengal-in-2021/582826/
+- slug: cooch_behar_uttar_2021_candidate_profile
+  date: '2021-03-15'
+  temporal: episodic
+  scope: AC
+  intensity: 3
+  headline: BJP fields Sukumar Roy (SC, Rajbanshi) vs TMC's Binay Krishna Barman in Cooch
+    Behar Uttar AE 2021
+  summary: 'Sukumar Roy (BJP), a Rajbanshi SC candidate backed by Nisith Pramanik''s machine,
+
+    faced TMC''s Binay Krishna Barman (who had held the seat for AIFB/TMC previously).
+
+    BJP''s candidate profile — local Rajbanshi, community organisational links, Pramanik
+
+    backing — gave him strong name-recognition in the Rajbanshi-dominant northern
+
+    blocks. TMC''s incumbent-party advantage was offset by CAA-NRC discourse and
+
+    BJP''s intensive booth organisation.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bjp_supporter
+  - tmc_supporter
+  - ag_labourer
+  valence:
+    bjp_supporter: positive
+    upper_caste_hindu: positive
+  broadcast: false
+  sources:
+  - https://www.myneta.info/WestBengal2021/candidate.php?candidate_id=966
+  - https://www.myneta.info/WestBengal2021/candidate.php?candidate_id=576
+- slug: dilip_ghosh_convoy_attacked_cooch_behar_2021
+  date: '2021-04-09'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: BJP WB president Dilip Ghosh's convoy attacked with bombs in Cooch Behar during
+    Phase 4 campaign
+  summary: 'Crude bombs and bricks hurled at Dilip Ghosh''s vehicles near Sitalkuchi the day
+
+    before Phase 4 polling. BJP blamed TMC; incident amplified the district''s
+
+    reputation for poll violence. In Cooch Behar Uttar booths, election-eve tension
+
+    was high; security forces pre-positioned overnight ahead of April 10 polling.
+
+    '
+  tags:
+  - bjp_supporter
+  - tmc_supporter
+  - upper_caste_hindu
+  valence:
+    bjp_supporter: negative
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://www.indiatvnews.com/elections/news-dilip-ghosh-attack-cooch-behar-sitalkuchi-car-damage-photos-video-bengal-polls-bjp-tmc-latest-updates-696143
+- slug: dilip_ghosh_convoy_attack_sitalkuchi_apr2021
+  date: '2021-04-09'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: BJP WB chief Dilip Ghosh convoy bombed in Sitalkuchi (Cooch Behar) day before
+    Phase 4 polling
+  summary: 'Crude bombs and bricks hurled at Ghosh''s convoy near Sitalkuchi on April 9, 2021
+    —
+
+    the eve of Phase 4 voting that included Cooch Behar Uttar. BJP blamed TMC; the
+
+    incident amplified pre-poll tension across the district. Security forces
+
+    pre-positioned overnight. Ghosh''s subsequent remark — that Sitalkuchi-like
+
+    "firings" would happen to "naughty boys" — drew an Election Commission notice.
+
+    '
+  tags:
+  - bjp_supporter
+  - tmc_supporter
+  - upper_caste_hindu
+  valence:
+    bjp_supporter: negative
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://www.indiatvnews.com/elections/news-dilip-ghosh-attack-cooch-behar-sitalkuchi-car-damage-photos-video-bengal-polls-bjp-tmc-latest-updates-696143
+- slug: sitalkuchi_cisf_shooting_apr10_2021
+  date: '2021-04-10'
+  temporal: episodic
+  scope: district
+  intensity: 5
+  headline: CISF kills 4 voters at Sitalkuchi Booth 126 on Phase 4 day — shadow over entire
+    Cooch Behar district including AC-1
+  summary: 'CISF jawans at PS 126, Sitalkuchi AC (AC-9, same district) fired 6-8 rounds killing
+
+    four persons (Nur Alam Mian, Maniruzzaman Mian, Samiul Haq, Hamidul Mian); first-
+
+    time voter Anand Burman shot at another booth. EC suspended polling at PS 126 and
+
+    banned politicians from Cooch Behar for 72 hours. AC-1 booths also experienced
+
+    elevated fear and depressed Muslim turnout on the same Phase 4 day. TMC framed it
+
+    as BJP-CISF murder; BJP claimed self-defence against booth capturers. This became
+
+    Cooch Behar''s defining political wound for the following five years.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - muslim_voter
+  - ag_labourer
+  - bjp_supporter
+  - tmc_supporter
+  - elderly
+  valence:
+    muslim_voter: negative
+    tmc_supporter: negative
+    bjp_supporter: ambient
+  broadcast: true
+  sources:
+  - https://www.thequint.com/elections/west-bengal-election/cooch-behar-firing-dead-cisf-west-bengal-elections-phase-4
+  - https://www.business-standard.com/article/elections/bengal-polls-4-killed-as-central-forces-open-fire-after-being-attacked-121041000404_1.html
+  - https://m.thewire.in/article/communalism/sitalkuchis-lingering-fear-2021-firing-shadows-west-bengal-polls-again
+- slug: sitalkuchi_2021_cisf_calcutta_hc_cbi_plea
+  date_start: '2021-04-16'
+  date_end: '2024-05-07'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: 'Sitalkuchi CISF case: WB-CID probe vs CBI transfer plea drag through Calcutta
+    HC for years'
+  summary: 'WB CID took over the Sitalkuchi firing case April 16, 2021. CBI filed a plea in
+
+    Calcutta HC for transfer of the case from CID; court directed WB-CID to submit
+
+    interim status reports. CID summoned 6 CISF personnel for questioning. The legal
+
+    process dragged without resolution into 2024, keeping the Sitalkuchi shooting as a
+
+    live political wound — cited by TMC in every election as proof of BJP-engineered
+
+    violence and by BJP as proof that WB police cannot deliver justice.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - muslim_voter
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: negative
+  broadcast: false
+  sources:
+  - https://www.livelaw.in/news-updates/cisf-firing-sitalkuchi-calcutta-high-court-transfer-probe-cbi-202018
+  - https://www.livelaw.in/news-updates/cisf-firing-in-sitalkuchi-cooch-bihar-wb-cid-submits-interim-status-report-before-calcutta-high-court-185398
+- slug: sitalkuchi_cisf_calcutta_hc_cbi_probe
+  date_start: '2021-04-16'
+  date_end: '2024-05-07'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Sitalkuchi CISF case drags through Calcutta HC for years — live political wound
+    in every Cooch Behar election
+  summary: 'WB CID took over the case; CBI filed transfer plea in Calcutta HC. CID summoned
+    6
+
+    CISF personnel. Case remained unresolved into 2024. TMC cited the shooting in every
+
+    Cooch Behar campaign as proof of BJP''s violence; BJP said TMC-backed mobs attacked
+
+    security forces. The unresolved case kept Sitalkuchi''s memory politically active
+
+    and fed demands for CAPF accountability in future elections.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - muslim_voter
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    tmc_supporter: negative
+    bjp_supporter: negative
+  broadcast: false
+  sources:
+  - https://www.livelaw.in/news-updates/cisf-firing-sitalkuchi-calcutta-high-court-transfer-probe-cbi-202018
+  - https://www.theweek.in/wire-updates/national/2024/04/17/eln149-wb-election-sitalkuchi-ec.html
+- slug: wb_ae_2021_results_cooch_behar_uttar
+  date: '2021-05-02'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: BJP's Sukumar Roy wins Cooch Behar Uttar 2021 by 14,615; BJP takes 7 of 9 seats
+    in district
+  summary: 'Sukumar Roy (BJP) 120,483 vs Binay Krishna Barman (TMC) 105,868, margin 14,615.
+
+    BJP 49.4% vs TMC 43.4% vote share. BJP won 7 of 9 Cooch Behar AE seats. Statewide
+
+    TMC won 213 seats; Cooch Behar was among BJP''s strongest districts despite the
+
+    loss. Nisith Pramanik''s simultaneous Dinhata MLA win (by just 57 votes) followed
+
+    by his Union Minister appointment and resignation from the assembly seat kept his
+
+    name dominant in district politics.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bjp_supporter
+  - tmc_supporter
+  - ag_labourer
+  - woman
+  - elderly
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: negative
+    upper_caste_hindu: positive
+  broadcast: true
+  sources:
+  - https://www.india.com/west-bengal/cooch-behar-uttar-election-result-updates-sukumar-roy-wins-4627953/
+  - https://www.business-standard.com/elections/west-bengal-assembly-election-2021/cooch-behar-uttar-election-results-36_3193.html-36_3193.html
+- slug: wb_ae_2021_cooch_behar_uttar_bjp_wins
+  date: '2021-05-02'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Sukumar Roy (BJP) wins Cooch Behar Uttar by 14,615 — BJP takes 7 of 9 Cooch Behar
+    seats; TMC wins state
+  summary: 'Sukumar Roy (BJP) 120,483 vs Binay Krishna Barman (TMC) 105,868; margin 14,615.
+
+    Vote share: BJP 49.4%, TMC 43.4%. BJP swept North Bengal (30 of 54 North Bengal
+
+    seats) and won 7 of 9 Cooch Behar seats. Statewide TMC won 213 (BJP 77). Cooch
+
+    Behar Uttar, once held by AIFB (Left front), became a BJP stronghold. Sitalkuchi
+
+    shooting and Rajbanshi consolidation were both major factors in the district.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bjp_supporter
+  - tmc_supporter
+  - ag_labourer
+  - woman
+  - elderly
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: negative
+    upper_caste_hindu: positive
+  broadcast: true
+  sources:
+  - https://www.india.com/west-bengal/cooch-behar-uttar-election-result-updates-sukumar-roy-wins-4627953/
+  - https://www.business-standard.com/elections/west-bengal-assembly-election-2021/cooch-behar-uttar-election-results-36_3193.html-36_3193.html
+- slug: post_election_violence_cooch_behar_2021
+  date_start: '2021-05-03'
+  date_end: '2021-07-31'
+  temporal: chronic
+  scope: district
+  intensity: 4
+  headline: 'Post-election violence in Cooch Behar 2021: BJP alleges retributive attacks on
+    workers by TMC'
+  summary: 'After the results, sporadic violence broke out in Cooch Behar between TMC and
+    BJP
+
+    networks. BJP alleged house-burnings, worker expulsion and killings in its blocks.
+
+    TMC denied orchestrating violence. The pattern became the BJP''s core "jungle raj"
+
+    narrative for Cooch Behar in the lead-up to 2024 LS and 2026 AE campaigns.
+
+    '
+  tags:
+  - bjp_supporter
+  - tmc_supporter
+  - upper_caste_hindu
+  valence:
+    bjp_supporter: negative
+    tmc_supporter: ambient
+  broadcast: false
+  sources:
+  - https://www.orfonline.org/research/understanding-the-unique-nature-of-political-violence-in-bengal
+- slug: nisith_pramanik_union_minister_july2021
+  date: '2021-07-07'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: 'Nisith Pramanik: Union MoS Home Affairs + Youth/Sports — Dinhata MLA seat vacated;
+    district politics reordered'
+  summary: 'Pramanik resigned Dinhata MLA seat (won by 57 votes) within ten days to retain
+
+    Cooch Behar LS seat and accept cabinet post. For Cooch Behar Uttar voters, having
+
+    a Union Minister of Home Affairs from their district was a significant status event:
+
+    BJP used his MHA position to accelerate border fencing, BSF deployment and central
+
+    scheme disbursements to Cooch Behar. Pramanik''s national profile became the
+
+    district''s dominant political brand through 2021-2024.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bjp_supporter
+  - ag_labourer
+  valence:
+    bjp_supporter: positive
+    upper_caste_hindu: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Nisith_Pramanik
+  - https://theprint.in/politics/cooch-behar-strongman-11-firs-now-in-tmcs-crosshairs-who-is-union-minister-nisith-pramanik/1235295/
+- slug: cooch_behar_flood_2022
+  date_start: '2022-07-01'
+  date_end: '2022-09-30'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Annual Torsa-Kaljani floods 2022 submerge Cooch Behar Uttar northern blocks; aman
+    crop damaged
+  summary: 'Above-normal rainfall in 2022 flooded northern blocks of Cooch Behar Uttar for
+
+    weeks. Aman paddy and jute seedlings were destroyed. State flood relief was slower
+
+    than expected; cultivator complaints about panchayat bias in relief distribution
+
+    continued the anti-TMC grievance pattern. The annual flood cycle is a chronic
+
+    vulnerability that neither party has comprehensively addressed.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - woman
+  - elderly
+  - krishak_bandhu_beneficiary
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://india.mongabay.com/2024/03/sikkim-flood-drowned-farming-and-fishing-in-west-bengal/
+- slug: wb_panchayat_2023_violence_cooch_behar
+  date: '2023-07-08'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: 'WB Panchayat 2023: TMC-BJP clashes kill 1 in Cooch Behar; ballot box set on fire
+    in Dinhata'
+  summary: 'On Panchayat election day, Cooch Behar was one of the most violent districts.
+    BJP
+
+    polling agent Madhav Vishwas was killed in Falimari GP; 4 others injured in TMC-
+
+    BJP clashes. A Dinhata ballot box was set on fire by voters alleging bogus voting.
+
+    TMC won an overwhelming majority of GP seats statewide. The violence reinforced
+
+    Sitalkuchi-era fears and amplified demands for central force deployment in 2026 AE.
+
+    '
+  tags:
+  - bjp_supporter
+  - tmc_supporter
+  - upper_caste_hindu
+  - ag_labourer
+  valence:
+    bjp_supporter: negative
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://aninews.in/news/national/politics/wb-panchayat-polls-3-bjp-workers-were-shot-at-by-tmc-workers-in-cooch-behar-claims-bjp-leader20230708194318/
+  - https://www.latestly.com/india/news/west-bengal-panchayat-elections-2023-one-killed-four-injured-in-clashes-between-tmc-and-bjp-in-cooch-behar-death-toll-rises-to-11-5228535.html
+- slug: anant_maharaj_rajya_sabha_2023
+  date: '2023-07-12'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: BJP nominates Anant Maharaj (GCPA/Rajbanshi leader) as first-ever BJP Rajya Sabha
+    candidate from Bengal
+  summary: 'Ananta Rai (Anant Maharaj), head of a GCPA faction and Rajbanshi community leader
+
+    from Cooch Behar, elected uncontested to Rajya Sabha August 8, 2023. For AC-1
+
+    Rajbanshi voters, his nomination signalled BJP''s seriousness about Cooch Behar
+
+    statehood sympathy and Rajbanshi recognition. He became a second community
+
+    gatekeeper alongside TMC''s GCPA-aligned Bangshi Badan Barman, who held state
+
+    government positions.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bjp_supporter
+  - ag_labourer
+  valence:
+    bjp_supporter: positive
+    upper_caste_hindu: positive
+  broadcast: true
+  sources:
+  - https://theprint.in/politics/why-bjp-picked-anant-maharaj-campaigner-for-cooch-behar-statehood-as-1st-rs-candidate-from-bengal/1667784/
+  - https://en.wikipedia.org/wiki/Anant_Maharaj
+- slug: cooch_behar_flood_2023_sikkim
+  date_start: '2023-10-04'
+  date_end: '2023-10-31'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: 'Sikkim flash floods Oct 2023: downstream Teesta surge buries farmland in Cooch
+    Behar under silt'
+  summary: 'October 2023 Sikkim glacial lake outburst caused catastrophic Teesta flooding
+
+    downstream in Cooch Behar district. Fertile fields (approximately 202 hectares,
+
+    ~200 farmer families) were buried under thick grey silt. Cooch Behar Uttar''s
+
+    Teesta-adjacent villages were among the worst affected. Rehabilitation was slow
+
+    and became a campaign talking point for both parties in the 2024 LS election.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - woman
+  - elderly
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    tmc_supporter: negative
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://india.mongabay.com/2024/03/sikkim-flood-drowned-farming-and-fishing-in-west-bengal/
+  - https://en.wikipedia.org/wiki/2023_Sikkim_flash_floods
+- slug: rajbanshi_obc_st_recognition_demand_2024_2026
+  date_start: '2024-01-01'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Rajbanshi ST/OBC reclassification demand resurfaces ahead of 2026 AE — BJP promises
+    8th Schedule, TMC offers scheme parity
+  summary: 'The Rajbanshi community (18% of WB''s SC population; 30% of North Bengal electorate)
+
+    has long sought enhanced reservation status — ST classification in some states, OBC
+
+    recognition in Assam vs SC status in WB. Ahead of 2026, this demand was voiced by
+
+    both GCPA factions. BJP''s Sankalp Patra 2026 promised Rajbanshi language inclusion
+
+    in the Eighth Schedule (a symbolic-cultural win). TMC offered scheme delivery
+
+    parity (higher Lakshmir Bhandar for SC/ST, Krishak Bandhu for smallholders).
+
+    The reclassification question remained unresolved but generated gatekeeper-level
+
+    engagement across Cooch Behar Uttar''s Rajbanshi community councils.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bjp_supporter
+  - tmc_supporter
+  - ag_labourer
+  - cultivator
+  valence:
+    upper_caste_hindu: ambient
+    bjp_supporter: positive
+    tmc_supporter: ambient
+  broadcast: false
+  sources:
+  - https://www.deccanherald.com/elections/west-bengal/lok-sabha-polls-2024-rajbanshi-vote-key-factor-in-north-bengal-2982435
+  - https://en.wikipedia.org/wiki/Rajbanshi_people
+- slug: tmc_ec_complaint_nisith_pramanik_2026
+  date: '2024-03-01'
+  temporal: episodic
+  scope: district
+  intensity: 2
+  headline: TMC files EC complaints against Pramanik's alleged voter intimidation in Cooch
+    Behar
+  summary: 'TMC filed multiple Election Commission complaints against Nisith Pramanik alleging
+
+    use of his Union Minister position and criminal networks to intimidate voters in
+
+    Cooch Behar ahead of 2024 LS polls. EC acknowledged receipt; Pramanik denied
+
+    charges. The complaint pattern — filed before each election — became a ritual of
+
+    Cooch Behar political combat, rarely resulting in disqualification but keeping
+
+    accountability discourse alive.
+
+    '
+  tags:
+  - bjp_supporter
+  - tmc_supporter
+  - upper_caste_hindu
+  valence:
+    bjp_supporter: negative
+    tmc_supporter: positive
+  broadcast: false
+  sources:
+  - https://www.millenniumpost.in/bengal/tmc-to-knock-ec-door-with-complaints-against-bjps-nisith-pramanik-657340
+- slug: nisith_pramanik_14_criminal_cases_2024
+  date: '2024-03-23'
+  temporal: episodic
+  scope: AC
+  intensity: 3
+  headline: 'Pramanik''s LS 2024 affidavit: 14 criminal cases (attempt-to-murder, rioting)
+    — SC grants interim protection'
+  summary: 'Pramanik disclosed 14 pending criminal cases in his nomination affidavit; Supreme
+
+    Court granted interim protection from arrest in one. For AC-1 voters, Pramanik''s
+
+    strongman image was simultaneously an asset (protector in a violent district) and
+
+    a liability (rule-of-law credibility). Anti-Pramanik sentiment, combined with TMC''s
+
+    women-voter retention through Lakshmir Bhandar, contributed to his eventual LS
+
+    defeat.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    bjp_supporter: ambient
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.business-standard.com/elections/lok-sabha-election/union-minister-pramanik-has-14-criminal-cases-against-him-affidavit-124032300345_1.html
+  - https://www.barandbench.com/news/supreme-court-grants-interim-protection-from-arrest-bjps-nisith-pramanik-attempt-to-murdernisith-pramanik-supr
+- slug: sitalkuchi_cisf_2026_ec_intervention
+  date: '2024-04-17'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: EC decides to keep CISF out of Sitalkuchi Booth 126 in 2024; pattern shapes 2026
+    security protocols for Cooch Behar
+  summary: 'Ahead of the 2024 LS election, EC decided to keep CISF personnel away from the
+
+    specific Sitalkuchi booth where the 2021 shooting occurred — a symbolic gesture
+
+    acknowledging community trauma. The decision informed broader security protocols
+
+    for 2026: unprecedented CAPF deployment was designed to guarantee security without
+
+    repeating Sitalkuchi-style incidents. For AC-1 voters, the visibility of CAPF
+
+    at every booth reduced pre-poll fear but also reminded them of 2021.
+
+    '
+  tags:
+  - muslim_voter
+  - upper_caste_hindu
+  - tmc_supporter
+  - bjp_supporter
+  - elderly
+  valence:
+    tmc_supporter: positive
+    muslim_voter: positive
+    bjp_supporter: ambient
+  broadcast: false
+  sources:
+  - https://www.theweek.in/wire-updates/national/2024/04/17/eln149-wb-election-sitalkuchi-ec.html
+- slug: cooch_behar_ls_2024_tmc_wins
+  date: '2024-06-04'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: 'LS 2024: TMC''s Basunia defeats Pramanik by 39,250 — BJP loses Cooch Behar LS
+    seat for first time'
+  summary: 'Jagadish Chandra Barma Basunia (TMC) 788,375 vs Nisith Pramanik (BJP) 749,125;
+
+    margin 39,250. TMC opened its North Bengal LS account for the first time since
+
+    BJP swept in 2019. Cumulative factors: Lakshmir Bhandar women retention, SSC scam
+
+    anti-incumbency, Pramanik''s criminal case image, MGNREGA block hurting ag-labourers,
+
+    Sitalkuchi lingering resentment. Cooch Behar Uttar assembly segment likely showed
+
+    TMC improvement even as Sukumar Roy held the MLA seat.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - ag_labourer
+  - woman
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    bjp_supporter: negative
+    tmc_supporter: positive
+    woman: positive
+  broadcast: true
+  sources:
+  - https://www.oneindia.com/cooch-behar-lok-sabha-election-result-502/
+  - https://timelinedaily.com/lok-sabha-election-2024/lok-sabha-election-results-2024-tmc-candidate-jagadish-chandra-barma-basunia-won-cooch-behar-seat
+- slug: bangladesh_hasina_ouster_border_anxiety_aug2024
+  date: '2024-08-05'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Hasina ousted Aug 5 — Bangladesh-Cooch Behar border goes on alert; Hindu attack
+    reports trigger Rajbanshi anxiety
+  summary: 'Sheikh Hasina fled Bangladesh August 5, 2024. Within 16 days, 2,010 incidents
+    of
+
+    anti-Hindu attacks (homes, temples, businesses) were documented across Bangladesh.
+
+    About 700-800 Hindus near the WB border attempted to enter India. Cooch Behar, with
+
+    a porous Bangladesh border, went on high alert with BSF fortifying crossing points.
+
+    For Rajbanshi Hindu voters in AC-1 — who share cultural and often family links
+
+    with Bangladesh Rajbanshis — the attacks triggered acute anxiety about border
+
+    security, refugee flows, and what BJP framed as "Islamic extremism" threatening
+
+    Hindus. BJP used the imagery extensively in 2026 AE campaigning.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - muslim_voter
+  - bjp_supporter
+  - tmc_supporter
+  - ag_labourer
+  valence:
+    upper_caste_hindu: negative
+    muslim_voter: ambient
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2024_Bangladesh_anti-Hindu_violence
+  - https://www.voanews.com/a/the-violence-in-bangladesh-after-hasina-s-ouster-stirs-fear-within-the-country-s-hindu-minority-/7740333.html
+- slug: bangladesh_border_anxiety_ongoing_2025_2026
+  date_start: '2024-08-05'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: 'Post-Hasina Bangladesh: Hindu attacks ongoing 2024-26; Cooch Behar border stays
+    on alert; BJP leverages anxiety'
+  summary: 'Anti-Hindu violence in Bangladesh continued after Hasina''s August 2024 ouster
+
+    through 2025-26, with NPR reporting a surge in attacks on the Hindu minority.
+
+    Cooch Behar''s porous border with Bangladesh — where cross-border cultural and
+
+    family links are strong among Rajbanshis — kept border anxiety alive. BJP
+
+    consistently framed TMC as soft on Bangladeshi infiltrators and inadequate in
+
+    protecting border Hindus. For AC-1 Rajbanshi farmers near the border, the threat
+
+    felt real and personal.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - muslim_voter
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    upper_caste_hindu: negative
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.npr.org/2026/03/25/nx-s1-5727796/hindu-minority-in-bangladesh-faces-surge-in-attacks-after-2024-uprising
+  - https://en.wikipedia.org/wiki/2024_Bangladesh_anti-Hindu_violence
+- slug: gcpa_rail_roko_dec2024
+  date: '2024-12-11'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: GCPA renews Greater Cooch Behar state demand with rail-roko agitation — disrupts
+    North Bengal services
+  summary: 'The Greater Cooch Behar People''s Association held a rail-roko agitation in December
+
+    2024, renewing its call for a separate Cooch Behar state. Services on North Bengal
+
+    rail routes were disrupted. BJP-aligned Anant Maharaj faction''s demands for Cooch
+
+    Behar statehood and Rajbanshi language inclusion in the Eighth Schedule resurfaced
+
+    prominently in the 2026 AE campaign season. TMC''s GCPA faction tried to claim
+
+    credit for statewide Rajbanshi OBC benefits.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    upper_caste_hindu: ambient
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.theweek.in/news/india/2024/12/11/west-bengal-separatist-outfit-renews-call-for-coochbehar-state-holds-rail-roko-stir.html
+- slug: sir_voter_roll_cooch_behar_2025_2026
+  date_start: '2025-10-01'
+  date_end: '2026-02-15'
+  temporal: chronic
+  scope: district
+  intensity: 5
+  headline: 'SIR 2026: 2.42 lakh voter deletions in Cooch Behar — Dinhata and Sitai top the
+    list; D-voter anxiety explodes'
+  summary: 'Special Intensive Revision (SIR) of WB electoral rolls deleted ~91 lakh names
+
+    statewide; Cooch Behar saw 2.42 lakh deletions (Dinhata 16,442; Sitai 15,999 top
+
+    sub-district figures). In Cooch Behar Uttar, Rajbanshi households with informal
+
+    land records and Muslim families in border villages faced disproportionate deletion
+
+    risk. TMC called it BJP-engineered disenfranchisement targeting minorities and
+
+    border communities. BJP called it legitimate foreigners-removal. The controversy
+
+    dominated AC-1 campaign discourse in early 2026.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - muslim_voter
+  - ag_labourer
+  - elderly
+  - woman
+  valence:
+    upper_caste_hindu: negative
+    muslim_voter: negative
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.businesstoday.in/india/story/from-north-bengal-to-kolkata-seat-wise-break-up-of-voter-deletions-in-west-bengal-sir-506939-2025-12-17
+  - https://organiser.org/2026/04/13/348444/bharat/west-bengal-sir-2026-understanding-the-90-lakh-voter-deletion-debate/
+  - https://coochbehar.gov.in/sir-2026/
+- slug: shg_women_networks_cooch_behar_2026_campaign
+  date_start: '2026-01-01'
+  date_end: '2026-04-26'
+  temporal: chronic
+  scope: AC
+  intensity: 3
+  headline: SHG and anganwadi networks in Cooch Behar Uttar become key TMC voter mobilisation
+    channels for 2026
+  summary: 'TMC leveraged its Lakshmir Bhandar delivery infrastructure — SHG block-level
+
+    groups, anganwadi workers, ICDS networks — as the primary ground-level mobilisation
+
+    channel in Cooch Behar Uttar. SHG women who had received Lakshmir Bhandar and
+
+    Swasthya Sathi were deployed in door-to-door outreach. In Rajbanshi-dominant
+
+    blocks where BJP held strong booth-level presence, SHG women were the most
+
+    effective counter-network TMC had. Their presence at mahila sabhas and kisan
+
+    melas made the women''s welfare-delivery argument tangible.
+
+    '
+  tags:
+  - woman
+  - lakshmir_bhandar_beneficiary
+  - ag_labourer
+  - tmc_supporter
+  - swasthya_sathi_beneficiary
+  valence:
+    tmc_supporter: positive
+    woman: positive
+  broadcast: false
+  sources:
+  - https://services.india.gov.in/service/detail/west-bengal-lakshmir-bhandar-scheme
+- slug: cooch_behar_uttar_2026_candidate_profile_sukumar_roy_bjp
+  date: '2026-03-16'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: BJP re-nominates Sukumar Roy for Cooch Behar Uttar 2026; workers celebrate sitting
+    MLA's re-candidacy
+  summary: 'BJP announced Sukumar Roy as its candidate for Cooch Behar Uttar (SC-reserved)
+    for
+
+    the 2026 AE — the sitting MLA seeking re-election. BJP workers celebrated outside
+
+    the party office. Roy''s incumbency advantage was tempered by TMC''s improved LS 2024
+
+    performance in the district and the SIR voter-roll controversy. Nisith Pramanik,
+
+    now shifted to Mathabhanga constituency for his own 2026 AE contest, remained the
+
+    overarching BJP district organiser.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bjp_supporter
+  - ag_labourer
+  valence:
+    bjp_supporter: positive
+    upper_caste_hindu: positive
+  broadcast: true
+  sources:
+  - https://x.com/ians_india/status/2033610718902440208
+  - https://www.socialnews.xyz/2026/04/02/coochbehar-bjp-candidates-sukumar-roy-and-rathindra-nath-bose-arrive-to-file-nominations-gallery/
+- slug: ae_2026_candidates_cooch_behar_uttar
+  date: '2026-03-16'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: '2026 AE Cooch Behar Uttar (AC-3): TMC Partha Pratim Roy vs BJP Sukumar Roy'
+  summary: 'Source: Wikipedia 2026 WB AE PDF (PDF AC-3; constituency sometimes listed as AC-1
+    in older rolls). TMC fields Partha Pratim Roy; BJP fields Sukumar Roy (sitting MLA, re-nominated).
+    CPI(M) fields Pranay Karji; INC fields Partha Pratim Ishore. Contest framed around Rajbanshi
+    identity, D-voter/SIR deletions (2.42 lakh in Cooch Behar), and MGNREGA deprivation vs
+    BJP''s citizenship-security frame.'
+  tags:
+  - bjp_supporter
+  - tmc_supporter
+  - upper_caste_hindu
+  - woman
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2026_West_Bengal_Legislative_Assembly_election
+- slug: modi_cooch_behar_ras_mela_rally_apr2026
+  date: '2026-04-05'
+  temporal: episodic
+  scope: district
+  intensity: 5
+  headline: PM Modi launches BJP Bengal campaign from Cooch Behar Ras Mela grounds — 'fear
+    will be driven out of Bengal'
+  summary: 'PM Modi chose the Ras Mela grounds in Cooch Behar — where he had previously held
+
+    LS 2019 and 2024 rallies — to launch BJP''s 2026 Bengal campaign. He cited the
+
+    ₹1,010-crore city gas project and central infrastructure spending in Cooch Behar.
+
+    He said, "In this election, fear will be driven out of Bengal." The rally
+
+    underscored Cooch Behar''s symbolic centrality to BJP''s North Bengal strategy and
+
+    signalled that AC-1 is within the top-priority retention zone.
+
+    '
+  tags:
+  - upper_caste_hindu
+  - bjp_supporter
+  - ag_labourer
+  - cultivator
+  valence:
+    bjp_supporter: positive
+    upper_caste_hindu: positive
+  broadcast: true
+  sources:
+  - https://www.theweek.in/news/india/2026/04/05/pm-modis-cooch-behar-rally-to-boost-bjps-west-bengal-poll-campaign.html
+  - https://news.webindia123.com/news/Articles/India/20260405/4435533.html
+- slug: nisith_pramanik_mathabhanga_2026
+  date: '2026-04-15'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: Nisith Pramanik files nomination for Mathabhanga (not Dinhata) in 2026 AE — 4-cornered
+    contest; district organiser role shifts
+  summary: 'BJP fields former Union Minister Pramanik at Mathabhanga constituency (SC-reserved)
+
+    for the 2026 AE in a four-cornered contest against TMC, Congress and CPI(M). His
+
+    move from Dinhata to Mathabhanga signals BJP''s attempt to shore up multiple weak
+
+    seats; his absence from Dinhata and refocus on Mathabhanga slightly reduces his
+
+    direct organisational presence in the AC-1 immediate neighbourhood. TMC workers
+
+    clashed with BJP workers during filing of nominations in Cooch Behar.
+
+    '
+  tags:
+  - bjp_supporter
+  - tmc_supporter
+  - upper_caste_hindu
+  valence:
+    bjp_supporter: ambient
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://aninews.in/news/national/politics/2026-bengal-assembly-polls-bjp-fields-nisith-pramanik-in-mathabhangas-4-cornered-battle20260415224001/
+  - https://www.millenniumpost.in/bengal/tmc-bjp-workers-clash-while-filing-nomination-in-cooch-behar-654411

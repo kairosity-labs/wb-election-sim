@@ -5,16 +5,12 @@ events:
   temporal: episodic
   scope: AC
   intensity: 4
-  headline: TMC's Mala Roy retains Kolkata Dakshin LS; BJP surges to credible second
-    place
-  summary: 'Mala Roy (TMC) won Kolkata Dakshin Lok Sabha but BJP''s Chandra Kumar
-    Bose significantly
+  headline: TMC's Mala Roy retains Kolkata Dakshin LS; BJP surges to credible second place
+  summary: 'Mala Roy (TMC) won Kolkata Dakshin Lok Sabha but BJP''s Chandra Kumar Bose significantly
 
-    closed the gap, signalling an urban Hindu swing. Bhabanipur wards showed a tighter
-    race
+    closed the gap, signalling an urban Hindu swing. Bhabanipur wards showed a tighter race
 
-    than 2014, reflecting bhadralok dissatisfaction with governance and BJP''s Hindutva
-    pitch
+    than 2014, reflecting bhadralok dissatisfaction with governance and BJP''s Hindutva pitch
 
     resonating among upper-caste voters. BJP''s entry into urban Kolkata was now credible
     —
@@ -35,463 +31,16 @@ events:
   broadcast: true
   sources:
   - https://en.wikipedia.org/wiki/Kolkata_Dakshin_Lok_Sabha_constituency
-- slug: nrc_assam_final_list
-  date: '2019-08-31'
-  temporal: episodic
-  scope: national
-  intensity: 4
-  headline: Assam NRC final list excludes 19 lakh; Bengali Hindu anxieties spike across
-    Bengal
-  summary: 'The final NRC list excluded ~19 lakh people from Assam, disproportionately
-    Bengali
-
-    Hindus. In Bhabanipur, educated bhadralok and the large Marwari-Gujarati trading
-    community
-
-    watched closely. Muslim residents feared the NRC template spreading to West Bengal.
-
-    Mamata called the NRC a ''conspiracy'' — her stand resonated strongly in this
-    mixed-religion
-
-    urban constituency.
-
-    '
-  tags:
-  - bhadralok
-  - muslim_voter
-  - upper_caste_hindu
-  valence:
-    bhadralok: negative
-    muslim_voter: negative
-    upper_caste_hindu: negative
-    bjp_supporter: ambient
-    tmc_supporter: positive
-  broadcast: true
-  sources:
-  - https://en.wikipedia.org/wiki/National_Register_of_Citizens_(Assam)
-- slug: caa_passed_parliament
-  date: '2019-12-11'
-  temporal: episodic
-  scope: national
-  intensity: 5
-  headline: CAA passed; Bhabanipur's Gujarati-Jain community celebrates, Muslim pocket
-    anxious
-  summary: 'The Citizenship (Amendment) Act 2019 granted fast-track citizenship to
-    Hindu, Sikh,
-
-    Buddhist, Jain, Parsi and Christian refugees from three Muslim-majority neighbours.
-
-    In Bhabanipur, wards 70-72 housing Gujarati, Marwari and Jain traders broadly
-    welcomed
-
-    the measure. The ~25% Muslim electorate felt directly excluded and feared the
-    CAA-NRC
-
-    combination. Mamata declared WB would never implement NRC, making Bhabanipur a
-    front-row
-
-    seat for this national fault-line.
-
-    '
-  tags:
-  - upper_caste_hindu
-  - muslim_voter
-  - urban_trader
-  - bhadralok
-  valence:
-    upper_caste_hindu: positive
-    urban_trader: positive
-    muslim_voter: negative
-    bhadralok: ambient
-    bjp_supporter: positive
-    tmc_supporter: ambient
-  broadcast: true
-  sources:
-  - https://en.wikipedia.org/wiki/Citizenship_Amendment_Act_2019
-  - https://www.thehindu.com/news/national/parliament-passes-citizenship-amendment-bill-2019/article30282661.ece
-- slug: anticaa_kolkata_march_dec2019
-  date: '2019-12-19'
-  temporal: episodic
-  scope: state
-  intensity: 4
-  headline: Mamata leads massive anti-CAA march in Kolkata from Raja Bazar to Mullick
-    Bazar
-  summary: 'CM Mamata Banerjee led a large protest march through central Kolkata against
-    the CAA
-
-    and NRC on 19 December 2019. The march consolidated her as the dominant anti-CAA
-
-    leader nationally and reassured Bhabanipur''s Muslim residents of state protection,
-
-    while signalling to liberal bhadralok her commitment to constitutional pluralism
-    over
-
-    BJP majoritarianism.
-
-    '
-  tags:
-  - muslim_voter
-  - bhadralok
-  - woman
-  - tmc_supporter
-  valence:
-    muslim_voter: positive
-    bhadralok: positive
-    woman: positive
-    bjp_supporter: negative
-    tmc_supporter: positive
-  broadcast: true
-  sources:
-  - https://www.business-standard.com/article/pti-stories/mamata-leads-protest-march-against-caa-nrc-in-kolkata-119121900181_1.html
-- slug: anticaa_park_circus_sitin
-  date_start: '2020-01-07'
-  date_end: '2020-03-10'
-  temporal: chronic
-  scope: state
-  intensity: 3
-  headline: Sustained anti-CAA sit-in at Park Circus Maidan, adjacent to Bhabanipur
-  summary: 'Muslim women led a sustained Shaheen Bagh-style protest at Park Circus
-    maidan in south
-
-    Kolkata, very close to Bhabanipur. The protests drew solidarity from bhadralok
-
-    intellectuals and students. For Bhabanipur''s Muslim electorate, Park Circus became
-    a
-
-    symbol of resistance; for the urban trader community, the growing street politics
-
-    created some unease.
-
-    '
-  tags:
-  - muslim_voter
-  - woman
-  - bhadralok
-  valence:
-    muslim_voter: positive
-    woman: positive
-    bhadralok: ambient
-    bjp_supporter: negative
-    tmc_supporter: positive
-  broadcast: true
-  sources:
-  - https://en.wikipedia.org/wiki/Citizenship_Amendment_Act_protests
-- slug: covid_lockdown_march2020
-  date: '2020-03-25'
-  temporal: episodic
-  scope: national
-  intensity: 5
-  headline: National COVID lockdown collapses Kolkata's urban economy; Bhabanipur
-    traders devastated
-  summary: 'India''s 21-day nationwide lockdown from 25 March 2020 shuttered Bhabanipur''s
-    dense
-
-    commercial zones — Rashbehari Connector, Gariahat, Hazra Road — overnight. Gujarati
-    and
-
-    Marwari wholesale and retail traders faced acute cash-flow disruption; GST compliance
-
-    deadlines added to the pain. The bhadralok professional class shifted to work-from-home.
-
-    Both groups blamed central government mismanagement; state relief packages were
-    limited.
-
-    '
-  tags:
-  - urban_trader
-  - bhadralok
-  - school_age_household
-  valence:
-    urban_trader: negative
-    bhadralok: negative
-    school_age_household: negative
-    bjp_supporter: negative
-    tmc_supporter: ambient
-  broadcast: true
-  sources:
-  - https://en.wikipedia.org/wiki/COVID-19_lockdown_in_India
-- slug: amphan_cyclone_may2020
-  date: '2020-05-20'
-  temporal: episodic
-  scope: state
-  intensity: 4
-  headline: Super-cyclone Amphan devastates Kolkata; Bhabanipur suffers tree-fall
-    and power outages
-  summary: 'Super-cyclone Amphan made landfall near Digha on 20 May 2020, causing
-    widespread
-
-    destruction across Kolkata including Bhabanipur. Uprooted trees blocked major
-    roads and
-
-    power cuts lasted days in urban south Kolkata. Mamata''s immediate field presence
-    boosted
-
-    her credibility, though TMC''s reportedly uneven distribution of Amphan relief
-    funds drew
-
-    criticism — a governance narrative the opposition sustained.
-
-    '
-  tags:
-  - bhadralok
-  - urban_trader
-  - woman
-  valence:
-    bhadralok: negative
-    urban_trader: negative
-    woman: negative
-    bjp_supporter: negative
-    tmc_supporter: ambient
-  broadcast: true
-  sources:
-  - https://en.wikipedia.org/wiki/Cyclone_Amphan
-- slug: swasthya_sathi_universalised
-  date: '2020-12-01'
-  temporal: episodic
-  scope: state
-  intensity: 4
-  headline: Swasthya Sathi health scheme extended to all WB residents from 1 December
-    2020
-  summary: 'Mamata Banerjee universalised Swasthya Sathi cashless health insurance
-    (up to Rs 5 lakh/
-
-    family) to cover every West Bengal resident. In urban Bhabanipur, this was especially
-
-    salient for domestic workers and small traders who lacked formal health coverage.
-    The
-
-    scheme''s smart-card linkage and private-hospital empanelment made it tangible
-    to the
-
-    urban middle class in the pre-election period.
-
-    '
-  tags:
-  - woman
-  - bhadralok
-  - urban_trader
-  - swasthya_sathi_beneficiary
-  valence:
-    woman: positive
-    bhadralok: positive
-    urban_trader: positive
-    swasthya_sathi_beneficiary: positive
-    bjp_supporter: ambient
-    tmc_supporter: positive
-  broadcast: true
-  sources:
-  - https://www.downtoearth.org.in/health/swasthya-sathi-will-now-include-bengal-s-entire-population-mamata-74458
-- slug: duare_sarkar_phase1
-  date: '2020-12-01'
-  temporal: episodic
-  scope: state
-  intensity: 3
-  headline: Duare Sarkar 'government at doorstep' camps launched in Kolkata wards,
-    December 2020
-  summary: 'The TMC government''s Duare Sarkar programme held multi-scheme enrollment
-    camps at
-
-    municipal ward level in Kolkata from 1 December 2020. Bhabanipur residents enrolled
-    for
-
-    Swasthya Sathi, Khadya Sathi and Kanyashree. The camps created a visible TMC
-
-    service-delivery presence in the urban constituency, counter-programming BJP''s
-    governance
-
-    critique ahead of the 2021 elections.
-
-    '
-  tags:
-  - woman
-  - bhadralok
-  - urban_trader
-  - kanyashree_household
-  - swasthya_sathi_beneficiary
-  valence:
-    woman: positive
-    bhadralok: positive
-    urban_trader: positive
-    bjp_supporter: ambient
-    tmc_supporter: positive
-  broadcast: true
-  sources:
-  - https://wb.gov.in/duare-sarkar.aspx
-- slug: suvendu_joins_bjp_dec2020
-  date: '2020-12-19'
-  temporal: episodic
-  scope: state
-  intensity: 4
-  headline: Suvendu Adhikari quits TMC, joins BJP at Amit Shah rally in Midnapore
-  summary: 'Suvendu Adhikari resigned from TMC and joined the BJP at an Amit Shah
-    rally on 19
-
-    December 2020. For Bhabanipur''s political class, the defection signalled an internal
-
-    TMC crisis. The bhadralok and trading communities watched whether this would trigger
-
-    further splits. Suvendu — who would become Mamata''s 2026 Bhabanipur challenger
-    — began
-
-    his BJP trajectory here.
-
-    '
-  tags:
-  - bhadralok
-  - upper_caste_hindu
-  - bjp_supporter
-  - tmc_supporter
-  valence:
-    bhadralok: ambient
-    bjp_supporter: positive
-    tmc_supporter: negative
-    upper_caste_hindu: ambient
-  broadcast: true
-  sources:
-  - https://www.aninews.in/news/national/general-news/former-tmc-leader-suvendu-adhikari-joins-bjp-at-amit-shahs-midnapore-rally20201219152128/
-- slug: tmc_manifesto_didir_shopoth_2021
-  date: '2021-03-17'
-  temporal: episodic
-  scope: state
-  intensity: 4
-  headline: 'TMC ''Didir Shopoth'' manifesto: Lakshmir Bhandar Rs 500/month for women
-    households'
-  summary: 'TMC''s 2021 manifesto ''Didir Shopoth'' headlined the Lakshmir Bhandar
-    cash transfer to
-
-    women heads of household. For Bhabanipur''s large domestic-worker and homemaker
-    population,
-
-    this was a direct cash promise. The manifesto also included continued free ration
-    (Khadya
-
-    Sathi) and 10 lakh jobs, keeping the welfare-delivery narrative central.
-
-    '
-  tags:
-  - woman
-  - lakshmir_bhandar_beneficiary
-  - bhadralok
-  - khadya_sathi_beneficiary
-  valence:
-    woman: positive
-    lakshmir_bhandar_beneficiary: positive
-    bhadralok: positive
-    bjp_supporter: ambient
-    tmc_supporter: positive
-  broadcast: true
-  sources:
-  - https://en.wikipedia.org/wiki/2021_West_Bengal_Legislative_Assembly_election
-- slug: bjp_manifesto_sonar_bangla_2021
-  date: '2021-03-20'
-  temporal: episodic
-  scope: state
-  intensity: 3
-  headline: BJP 'Sonar Bangla' manifesto promises CAA implementation, 33% women reservation
-  summary: 'BJP''s 2021 manifesto promised full CAA implementation, 33% reservation
-    for women in
-
-    government jobs, and a uniform civil code study commission. In Bhabanipur, the
-    CAA promise
-
-    appealed to the Gujarati/Jain community while alarming Muslim voters. The ''double
-    engine''
-
-    governance pitch resonated with some bhadralok who saw a decade of TMC as corruption-ridden.
-
-    '
-  tags:
-  - upper_caste_hindu
-  - urban_trader
-  - muslim_voter
-  - woman
-  valence:
-    upper_caste_hindu: positive
-    urban_trader: positive
-    muslim_voter: negative
-    woman: ambient
-    bjp_supporter: positive
-    tmc_supporter: negative
-  broadcast: true
-  sources:
-  - https://en.wikipedia.org/wiki/2021_West_Bengal_Legislative_Assembly_election
-- slug: mamata_leg_injury_campaign
-  date: '2021-03-10'
-  temporal: episodic
-  scope: state
-  intensity: 3
-  headline: Mamata injured in Nandigram, campaigns from wheelchair; TMC alleges BJP
-    conspiracy
-  summary: 'Mamata Banerjee suffered a leg injury in Nandigram on 10 March 2021, attributed
-    by TMC
-
-    to a BJP-engineered attack. She continued campaigning from a wheelchair, generating
-    massive
-
-    sympathy especially among women voters. In Bhabanipur, the wheelchair imagery
-    hardened
-
-    TMC support among loyal ''Didi'' supporters and consolidated the woman voter bloc.
-
-    '
-  tags:
-  - woman
-  - bhadralok
-  - tmc_supporter
-  valence:
-    woman: positive
-    bhadralok: positive
-    tmc_supporter: positive
-    bjp_supporter: negative
-  broadcast: true
-  sources:
-  - https://en.wikipedia.org/wiki/Mamata_Banerjee
-- slug: covid_delta_wave_apr2021
-  date_start: '2021-04-01'
-  date_end: '2021-05-31'
-  temporal: chronic
-  scope: national
-  intensity: 5
-  headline: COVID second wave (Delta) devastates Kolkata; hospitals overwhelmed, oxygen
-    shortage
-  summary: 'The Delta variant-driven second COVID wave hit Kolkata hard from April
-    2021. Urban hospitals
-
-    adjacent to Bhabanipur ran out of beds and oxygen. Bhabanipur''s professional
-    bhadralok
-
-    families directly experienced the crisis. Election campaigns were curtailed; the
-    daily
-
-    death toll became the dominant political subtext in the weeks before the final
-    polling phases.
-
-    '
-  tags:
-  - bhadralok
-  - elderly
-  - school_age_household
-  - swasthya_sathi_beneficiary
-  valence:
-    bhadralok: negative
-    elderly: negative
-    school_age_household: negative
-    bjp_supporter: negative
-    tmc_supporter: negative
-  broadcast: true
-  sources:
-  - https://theprint.in/health/bengal-yet-to-touch-covid-peak-but-kolkata-is-already-running-out-of-hospital-beds/658594/
 - slug: wb_ae2021_bhabanipur_sovandeb_wins
   date: '2021-05-02'
   temporal: episodic
   scope: AC
   intensity: 5
   headline: Sovandeb Chattopadhyay (TMC) wins Bhabanipur AE 2021 by 28,719 votes
-  summary: 'In the May 2021 Assembly election, TMC''s Sovandeb Chattopadhyay secured
-    73,505 votes,
+  summary: 'In the May 2021 Assembly election, TMC''s Sovandeb Chattopadhyay secured 73,505
+    votes,
 
-    defeating BJP''s Rudranil Ghosh (44,786). The margin reflected strong TMC support
-    among
+    defeating BJP''s Rudranil Ghosh (44,786). The margin reflected strong TMC support among
 
     Muslims and the bhadralok. Simultaneously, Mamata lost Nandigram to Suvendu Adhikari,
 
@@ -517,85 +66,19 @@ events:
   sources:
   - https://en.wikipedia.org/wiki/Bhabanipur,_West_Bengal_Assembly_constituency
   - https://www.india.com/west-bengal/bhabanipur-election-result-2021-tmcs-sobhandeb-chattopadhyay-wins-defeats-bjps-rudranil-ghosh-4616949/
-- slug: post_poll_violence_kolkata_2021
-  date: '2021-05-03'
-  temporal: episodic
-  scope: state
-  intensity: 3
-  headline: Post-poll violence after TMC win; Kolkata areas see BJP worker attacks
-  summary: 'Following the TMC landslide, violence broke out in multiple districts
-    and in Kolkata
-
-    against BJP workers. The NHRC documented ~1,979 complaints statewide. In urban
-    Kolkata
-
-    areas adjacent to Bhabanipur, BJP supporters were attacked. The violence became
-    a BJP
-
-    rallying issue nationally and fed the narrative of ''TMC goonda raj'' in the by-election
-
-    campaign.
-
-    '
-  tags:
-  - bjp_supporter
-  - bhadralok
-  - upper_caste_hindu
-  valence:
-    bjp_supporter: negative
-    bhadralok: negative
-    tmc_supporter: ambient
-    upper_caste_hindu: negative
-  broadcast: true
-  sources:
-  - https://en.wikipedia.org/wiki/2021_West_Bengal_post-poll_violence
-- slug: lakshmir_bhandar_rollout_aug2021
-  date: '2021-08-16'
-  temporal: episodic
-  scope: state
-  intensity: 5
-  headline: Lakshmir Bhandar first DBT disbursements to 1.6 crore WB women; timed
-    before Bhabanipur bypoll
-  summary: 'Lakshmir Bhandar scheme began direct benefit transfers to women heads
-    of household from
-
-    Independence Day 2021. In Bhabanipur, urban women who had enrolled through Duare
-    Sarkar
-
-    camps began receiving Rs 500/month. The timing — six weeks before the Bhabanipur
-    by-election
-
-    — made the scheme a live campaign asset for Mamata''s candidacy in her home constituency.
-
-    '
-  tags:
-  - woman
-  - lakshmir_bhandar_beneficiary
-  - bhadralok
-  valence:
-    woman: positive
-    lakshmir_bhandar_beneficiary: positive
-    bhadralok: positive
-    bjp_supporter: ambient
-    tmc_supporter: positive
-  broadcast: true
-  sources:
-  - https://wbxpress.com/lakshmir-bhandar-prakalpa/
 - slug: bhabanipur_bypoll_candidate_announcement
   date: '2021-09-10'
   temporal: episodic
   scope: AC
   intensity: 5
-  headline: BJP fields Priyanka Tibrewal; CPI(M) fields Srijib Biswas for Bhabanipur
-    bypoll
-  summary: 'BJP announced Priyanka Tibrewal, a Bengali-speaking Marwari lawyer known
-    for petitions on
+  headline: BJP fields Priyanka Tibrewal; CPI(M) fields Srijib Biswas for Bhabanipur bypoll
+  summary: 'BJP announced Priyanka Tibrewal, a Bengali-speaking Marwari lawyer known for petitions
+    on
 
-    post-poll violence, as its candidate. Tibrewal''s Marwari identity was intended
-    to appeal to
+    post-poll violence, as its candidate. Tibrewal''s Marwari identity was intended to appeal
+    to
 
-    the Gujarati-Marwari trader community in Bhabanipur''s wards 70-72. CPI(M) fielded
-    Srijib
+    the Gujarati-Marwari trader community in Bhabanipur''s wards 70-72. CPI(M) fielded Srijib
 
     Biswas to contest the seat Mamata needed to retain her Chief Ministership.
 
@@ -619,19 +102,15 @@ events:
   temporal: episodic
   scope: AC
   intensity: 4
-  headline: Mamata personally meets Gujarati and Marwari traders in Bhabanipur ahead
-    of bypoll
-  summary: 'Recognising the decisive role of the Gujarati and Marwari voter bloc,
-    Mamata Banerjee held
+  headline: Mamata personally meets Gujarati and Marwari traders in Bhabanipur ahead of bypoll
+  summary: 'Recognising the decisive role of the Gujarati and Marwari voter bloc, Mamata Banerjee
+    held
 
-    targeted meetings with traders in Bhabanipur wards 70-72. Her pitch emphasised
-    state
+    targeted meetings with traders in Bhabanipur wards 70-72. Her pitch emphasised state
 
-    protection for business against COVID disruption and GST complexity, countering
-    BJP''s
+    protection for business against COVID disruption and GST complexity, countering BJP''s
 
-    appeal to this traditionally BJP-leaning community. Many traders, who had suffered
-    lockdown
+    appeal to this traditionally BJP-leaning community. Many traders, who had suffered lockdown
 
     losses, ultimately voted for Mamata.
 
@@ -647,23 +126,56 @@ events:
   broadcast: true
   sources:
   - https://toofaanexpress.com/business-end-of-bhabanipur-bypoll-local-traders-put-their-money-on-mamata-after-lockdown-losses/
+- slug: bhabanipur_bypoll_sep2021_polling
+  date: '2021-09-30'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: 'Bhabanipur by-election: 53.3% voter turnout amid heavy security; Mamata votes
+    in home constituency'
+  summary: 'The Bhabanipur by-election was held on 30 September 2021 with tight security and
+    a 53.3%
+
+    voter turnout. Mamata Banerjee personally cast her vote in Bhabanipur, the constituency
+
+    she has represented since 2011. Scuffles broke out between BJP and TMC workers. The
+
+    election was existential for Mamata — a loss would have forced her to vacate the Chief
+
+    Minister''s post.
+
+    '
+  tags:
+  - bhadralok
+  - upper_caste_hindu
+  - muslim_voter
+  - urban_trader
+  - woman
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    tmc_supporter: positive
+    bjp_supporter: positive
+    bhadralok: ambient
+    muslim_voter: positive
+    woman: positive
+    urban_trader: ambient
+  broadcast: true
+  sources:
+  - https://www.business-standard.com/article/current-affairs/bhabanipur-byelection-results-2021-live-vote-count-to-begin-in-must-win-by-election-for-mamata-121100300055_1.html
 - slug: bhabanipur_bypoll_mamata_wins_58k_margin
   date: '2021-10-03'
   temporal: episodic
   scope: AC
   intensity: 5
   headline: Mamata wins Bhabanipur bypoll by record 58,389 votes; retains Chief Ministership
-  summary: 'Mamata Banerjee won the Bhabanipur by-election by 58,389 votes (85,263
-    vs Tibrewal''s
+  summary: 'Mamata Banerjee won the Bhabanipur by-election by 58,389 votes (85,263 vs Tibrewal''s
 
-    26,428; CPI(M)''s Srijib Biswas polled 4,226). The margin — larger than any previous
-    win
+    26,428; CPI(M)''s Srijib Biswas polled 4,226). The margin — larger than any previous win
 
-    in the constituency — was driven by near-unanimous Muslim support, strong women
-    turnout,
+    in the constituency — was driven by near-unanimous Muslim support, strong women turnout,
 
-    and significant portion of the Gujarati-Marwari community voting for Mamata. The
-    result
+    and significant portion of the Gujarati-Marwari community voting for Mamata. The result
 
     secured her third term as Chief Minister and established Bhabanipur as her citadel.
 
@@ -692,13 +204,11 @@ events:
   temporal: episodic
   scope: district
   intensity: 3
-  headline: TMC sweeps KMC elections Dec 2021; wins 134/144 wards including Bhabanipur
-    wards
-  summary: 'The Kolkata Municipal Corporation election saw TMC win 134 of 144 wards,
-    with BJP managing
+  headline: TMC sweeps KMC elections Dec 2021; wins 134/144 wards including Bhabanipur wards
+  summary: 'The Kolkata Municipal Corporation election saw TMC win 134 of 144 wards, with
+    BJP managing
 
-    only 3. All Bhabanipur constituency wards returned to TMC control, giving Mamata''s
-    local
+    only 3. All Bhabanipur constituency wards returned to TMC control, giving Mamata''s local
 
     party machinery complete control of the KMC apparatus in her home constituency.
 
@@ -718,123 +228,51 @@ events:
   broadcast: true
   sources:
   - https://en.wikipedia.org/wiki/2021_Kolkata_Municipal_Corporation_election
-- slug: ssc_scam_partha_arrested_jul2022
-  date: '2022-07-23'
-  temporal: episodic
-  scope: state
-  intensity: 5
-  headline: Partha Chatterjee, WB Education Minister, arrested by ED in SSC teacher
-    recruitment scam
-  summary: 'TMC Education Minister Partha Chatterjee was arrested by the ED on 23
-    July 2022 in the
-
-    SSC teacher recruitment scam. Cash and jewellery worth crores were recovered.
-    In
-
-    Bhabanipur, home to a high concentration of educated aspirant families and school
-    teachers,
-
-    the scam struck at the bhadralok''s trust in TMC governance. It became a persistent
-    anti-TMC
-
-    attack vector through the 2024 and 2026 elections.
-
-    '
-  tags:
-  - bhadralok
-  - school_age_household
-  - upper_caste_hindu
-  - tmc_supporter
-  valence:
-    bhadralok: negative
-    school_age_household: negative
-    upper_caste_hindu: negative
-    bjp_supporter: positive
-    tmc_supporter: negative
-  broadcast: true
-  sources:
-  - https://en.wikipedia.org/wiki/2022_West_Bengal_School_Service_Commission_recruitment_scam
-  - https://m.thewire.in/article/rights/tmc-ssc-scam-bengal-mamata-banerjee-teachers
-- slug: kolkata_metro_purple_line_inauguration
-  date: '2022-12-30'
-  temporal: episodic
+- slug: kolkata_waterlogging_chronic
+  date_start: '2022-06-01'
+  date_end: '2022-09-30'
+  temporal: chronic
   scope: district
   intensity: 3
-  headline: PM Modi inaugurates Joka-Taratala Metro Purple Line stretch; south Kolkata
-    connectivity improves
-  summary: 'Prime Minister Modi inaugurated the Joka-Taratala segment of the new metro
-    Purple Line.
+  headline: Recurring monsoon waterlogging in south Kolkata; Bhabanipur roads flood repeatedly
+  summary: 'Monsoon 2022 again inundated multiple roads in and around Bhabanipur due to Kolkata''s
 
-    The line''s eventual extension to Esplanade will benefit south Kolkata commuters
-    including
+    aging colonial-era drainage system and unplanned construction. The issue ranked among
+    the
 
-    Bhabanipur''s professional class. Both BJP and TMC claimed credit, with BJP citing
-    central
+    top voter complaints in urban south Kolkata — a direct indictment of KMC governance under
 
-    funding and TMC highlighting state facilitation. Urban connectivity remained a
-    positive
+    TMC. Opposition parties highlighted KMC''s failure to upgrade drainage infrastructure
 
-    shared narrative.
+    despite repeated promises.
 
     '
   tags:
   - bhadralok
   - urban_trader
-  - school_age_household
+  - woman
   valence:
-    bhadralok: positive
-    urban_trader: positive
-    school_age_household: positive
+    bhadralok: negative
+    urban_trader: negative
+    woman: negative
     bjp_supporter: positive
-    tmc_supporter: positive
-  broadcast: true
+    tmc_supporter: negative
+  broadcast: false
   sources:
-  - https://en.wikipedia.org/wiki/Purple_Line_(Kolkata_Metro)
-- slug: durga_puja_grant_hike_2022
-  date: '2022-09-01'
-  temporal: episodic
-  scope: state
-  intensity: 3
-  headline: WB govt hikes Durga Puja club grants to Rs 60,000 per committee
-  summary: 'The TMC government hiked the grant to Durga Puja organising clubs to Rs
-    60,000 with a
-
-    60% electricity rebate. In Bhabanipur, famous for its neighbourhood puja committees,
-
-    the increase was welcomed by puja organisers who form a key TMC social network.
-    BJP and
-
-    a PIL in Calcutta HC questioned the use of public funds for religious festivities.
-
-    '
-  tags:
-  - bhadralok
-  - upper_caste_hindu
-  - tmc_supporter
-  valence:
-    bhadralok: positive
-    upper_caste_hindu: positive
-    bjp_supporter: negative
-    tmc_supporter: positive
-  broadcast: true
-  sources:
-  - https://www.outlookindia.com/national/mamata-banerjee-hikes-financial-assistance-for-durga-puja-clubs-by-rs-10k-news-218203
+  - https://thefederal.com/category/states/east/west-bengal/what-caused-kolkata-floods-a-near-cloudburst-outdated-drainage-ecological-apathy-208382
 - slug: kolkata_waterlogging_chronic_2022
   date_start: '2022-06-01'
   date_end: '2022-09-30'
   temporal: chronic
   scope: district
   intensity: 3
-  headline: Recurring monsoon waterlogging in south Kolkata; Bhabanipur roads flood
-    repeatedly
-  summary: 'Monsoon 2022 again inundated multiple roads in and around Bhabanipur due
-    to Kolkata''s
+  headline: Recurring monsoon waterlogging in south Kolkata; Bhabanipur roads flood repeatedly
+  summary: 'Monsoon 2022 again inundated multiple roads in and around Bhabanipur due to Kolkata''s
 
-    aging colonial-era drainage system and unplanned construction. The issue ranked
-    among the
+    aging colonial-era drainage system and unplanned construction. The issue ranked among
+    the
 
-    top voter complaints in urban south Kolkata — a direct indictment of KMC governance
-    under
+    top voter complaints in urban south Kolkata — a direct indictment of KMC governance under
 
     TMC. Opposition parties highlighted KMC''s persistent failure to upgrade drainage
 
@@ -854,342 +292,50 @@ events:
   broadcast: false
   sources:
   - https://thefederal.com/category/states/east/west-bengal/what-caused-kolkata-floods-a-near-cloudburst-outdated-drainage-ecological-apathy-208382
-- slug: ssc_calcutta_hc_verdict_2023
-  date: '2023-04-12'
+- slug: kolkata_metro_purple_line_inauguration
+  date: '2022-12-30'
   temporal: episodic
-  scope: state
-  intensity: 4
-  headline: Calcutta HC orders cancellation of 25,753 illegal SSC teacher appointments;
-    CBI probe
-  summary: 'The Calcutta High Court ordered cancellation of all fraudulent appointments
-    in the SSC
-
-    teacher recruitment and directed a CBI investigation. In Bhabanipur, the educated
-    bhadralok
-
-    class — with many families in teaching or aspirant-teacher households — saw the
-    SSC scam
-
-    as emblematic of TMC corruption, deepening the party''s credibility problem heading
-    into
-
-    the 2024 LS and 2026 AE cycles.
-
-    '
-  tags:
-  - bhadralok
-  - school_age_household
-  - upper_caste_hindu
-  valence:
-    bhadralok: negative
-    school_age_household: negative
-    upper_caste_hindu: negative
-    bjp_supporter: positive
-    tmc_supporter: negative
-  broadcast: true
-  sources:
-  - https://en.wikipedia.org/wiki/2022_West_Bengal_School_Service_Commission_recruitment_scam
-- slug: panchayat_election_jul2023_violence
-  date: '2023-07-08'
-  temporal: episodic
-  scope: state
-  intensity: 4
-  headline: WB Panchayat elections marred by violence; 55 deaths statewide, TMC dominates
-  summary: 'The July 2023 panchayat elections were conducted amid widespread violence,
-    with 55 deaths
-
-    reported statewide and allegations of booth capture. While Bhabanipur is urban
-    and not a
-
-    panchayat constituency, the violence narrative reinforced BJP''s ''goonda raj''
-    charge against
-
-    TMC. Bhabanipur''s bhadralok voters, heavy media consumers, were extensively exposed
-    to
-
-    coverage of the violence.
-
-    '
-  tags:
-  - bhadralok
-  - tmc_supporter
-  - bjp_supporter
-  - upper_caste_hindu
-  valence:
-    bhadralok: negative
-    tmc_supporter: ambient
-    bjp_supporter: positive
-    upper_caste_hindu: negative
-  broadcast: true
-  sources:
-  - https://en.wikipedia.org/wiki/2023_West_Bengal_local_elections_violence
-- slug: lakshmir_bhandar_enhanced_2023
-  date: '2023-04-01'
-  temporal: episodic
-  scope: state
+  scope: district
   intensity: 3
-  headline: WB govt enhances Lakshmir Bhandar to Rs 1,000/month (general) and Rs 1,200/month
-    (SC/ST)
-  summary: 'The TMC government enhanced Lakshmir Bhandar monthly payment for general
-    category women
+  headline: PM Modi inaugurates Joka-Taratala Metro Purple Line stretch; south Kolkata connectivity
+    improves
+  summary: 'Prime Minister Modi inaugurated the Joka-Taratala segment of the new metro Purple
+    Line.
 
-    to Rs 1,000 and SC/ST women to Rs 1,200. By 2023, the scheme had over 2.11 crore
+    The line''s eventual extension to Esplanade will benefit south Kolkata commuters including
 
-    beneficiaries statewide. In urban Bhabanipur, women homemakers and domestic workers
+    Bhabanipur''s professional class. Both BJP and TMC claimed credit, with BJP citing central
 
-    continued receiving the transfer, keeping the welfare-delivery narrative alive
-    ahead of
+    funding and TMC highlighting state facilitation. Urban connectivity remained a positive
 
-    the 2024 LS election.
-
-    '
-  tags:
-  - woman
-  - lakshmir_bhandar_beneficiary
-  valence:
-    woman: positive
-    lakshmir_bhandar_beneficiary: positive
-    bjp_supporter: ambient
-    tmc_supporter: positive
-  broadcast: true
-  sources:
-  - https://cleartax.in/s/lakshmir-bhandar-scheme
-- slug: ram_mandir_inauguration_jan2024
-  date: '2024-01-22'
-  temporal: episodic
-  scope: national
-  intensity: 4
-  headline: Ram Mandir consecrated; Mamata leads 'Harmony Rally' from Hazra Crossing
-    near Bhabanipur
-  summary: 'On 22 January 2024, PM Modi consecrated the Ram Mandir in Ayodhya, a galvanising
-    BJP
-
-    event. In Bhabanipur, Gujarati and Marwari Hindu traders celebrated. Mamata led
-    a
-
-    ''Harmony Rally'' from Hazra Crossing — within Bhabanipur — to Park Circus, touching
-
-    Kali temple, mosque, church and gurudwara, explicitly countering BJP''s Hindu
-
-    consolidation strategy in her home seat.
+    shared narrative.
 
     '
   tags:
-  - upper_caste_hindu
-  - urban_trader
-  - muslim_voter
   - bhadralok
+  - urban_trader
+  - school_age_household
   valence:
-    upper_caste_hindu: positive
+    bhadralok: positive
     urban_trader: positive
-    muslim_voter: positive
-    bhadralok: ambient
+    school_age_household: positive
     bjp_supporter: positive
     tmc_supporter: positive
   broadcast: true
   sources:
-  - https://www.freepressjournal.in/india/west-bengal-mamata-banerjee-leads-harmony-rally-in-kolkata-on-ram-mandir-inauguration-day
-- slug: sandeshkhali_women_protest_2024
-  date: '2024-02-08'
-  temporal: episodic
-  scope: state
-  intensity: 4
-  headline: Sandeshkhali women protest TMC's Shahjahan Sheikh; BJP deploys issue nationally
-  summary: 'Women in Sandeshkhali (North 24-Parganas) protested allegations of land
-    grab and sexual
-
-    harassment by TMC-linked Shahjahan Sheikh. BJP elevated the issue as evidence
-    of ''TMC''s
-
-    culture of violence against women.'' In urban Bhabanipur, the Sandeshkhali narrative
-
-    reinforced BJP''s anti-TMC charge among women voters, though subsequent revelations
-    of
-
-    coached testimony complicated the political salience of the issue.
-
-    '
-  tags:
-  - woman
-  - bhadralok
-  - bjp_supporter
-  - tmc_supporter
-  valence:
-    woman: negative
-    bhadralok: negative
-    bjp_supporter: positive
-    tmc_supporter: negative
-  broadcast: true
-  sources:
-  - https://theprint.in/opinion/sandeshkhali-protest-is-not-tmc-vs-bjp-its-the-arrival-of-sc-st-women-to-the-mainstream/1982821/
-- slug: rg_kar_rape_murder_aug2024
-  date: '2024-08-09'
-  temporal: episodic
-  scope: state
-  intensity: 5
-  headline: Woman trainee doctor raped and murdered at RG Kar Medical College, Kolkata;
-    doctors strike
-  summary: 'A woman trainee doctor was raped and murdered inside RG Kar Medical College
-    and Hospital
-
-    in Kolkata on 9 August 2024. Junior doctors launched a complete ''ceasework''
-    and nationwide
-
-    strikes erupted. In Bhabanipur — home to Kolkata''s highest concentration of bhadralok
-
-    professionals, doctors and students — the case was deeply personal. The constituency''s
-
-    educated class was at the epicentre of the ''Reclaim the Night'' protests and
-    political
-
-    outrage against the Mamata government.
-
-    '
-  tags:
-  - bhadralok
-  - woman
-  - school_age_household
-  - upper_caste_hindu
-  - swasthya_sathi_beneficiary
-  valence:
-    bhadralok: negative
-    woman: negative
-    school_age_household: negative
-    upper_caste_hindu: negative
-    bjp_supporter: positive
-    tmc_supporter: negative
-  broadcast: true
-  sources:
-  - https://en.wikipedia.org/wiki/2024_Kolkata_rape_and_murder
-  - https://www.business-standard.com/india-news/rg-kar-medic-rape-murder-unprecedented-protests-and-the-quest-for-justice-124123100524_1.html
-- slug: rg_kar_protests_kolkata_sustained
-  date_start: '2024-08-14'
-  date_end: '2024-09-21'
-  temporal: chronic
-  scope: state
-  intensity: 5
-  headline: '''Reclaim the Night'' protests sweep Kolkata; Bhabanipur women and students
-    at the forefront'
-  summary: 'The ''Women, Reclaim the Night'' protest on 14 August 2024 brought thousands
-    onto Kolkata
-
-    streets. Junior doctors marched from College Square to Lalbazar on 2 September
-    demanding
-
-    the CP''s resignation. The 42-day ceasework ended 21 September after state assurances.
-
-    Bhabanipur''s bhadralok, women and student community — living near the protest
-    corridors —
-
-    were active participants. RG Kar became the defining political wound for Mamata
-    ahead of
-
-    the 2026 election cycle.
-
-    '
-  tags:
-  - woman
-  - bhadralok
-  - school_age_household
-  - upper_caste_hindu
-  valence:
-    woman: negative
-    bhadralok: negative
-    school_age_household: negative
-    bjp_supporter: positive
-    tmc_supporter: negative
-  broadcast: true
-  sources:
-  - https://www.business-standard.com/india-news/rg-kar-medic-rape-murder-unprecedented-protests-and-the-quest-for-justice-124123100524_1.html
-  - https://en.wikipedia.org/wiki/2024_R._G._Kar_Medical_College_and_Hospital_rape_and_murder
-- slug: durga_puja_grants_refused_rg_kar_2024
-  date: '2024-09-15'
-  temporal: episodic
-  scope: state
-  intensity: 3
-  headline: Multiple Durga Puja committees in Kolkata refuse WB govt grants in solidarity
-    with RG Kar victim
-  summary: 'In an extraordinary act of protest, several Durga Puja committees in Kolkata
-    refused
-
-    the West Bengal government''s enhanced grant of Rs 85,000 per committee as solidarity
-
-    with the RG Kar rape-murder victim. In Bhabanipur — where Durga Puja committees
-    form
-
-    a key TMC social network — even a handful of refusals signalled the depth of bhadralok
-
-    and middle-class anger at the Mamata government.
-
-    '
-  tags:
-  - bhadralok
-  - upper_caste_hindu
-  - woman
-  - tmc_supporter
-  valence:
-    bhadralok: negative
-    upper_caste_hindu: negative
-    woman: negative
-    bjp_supporter: positive
-    tmc_supporter: negative
-  broadcast: true
-  sources:
-  - https://theprint.in/india/bengals-durga-puja-committees-are-refusing-mamata-govt-grants-as-act-of-solidarity-with-rg-kar-victim/2239905/
-- slug: bangladesh_hasina_fall_aug2024
-  date: '2024-08-05'
-  temporal: episodic
-  scope: national
-  intensity: 4
-  headline: Sheikh Hasina flees Bangladesh; Hindu minority violence erupts; Bengal
-    border anxious
-  summary: 'Bangladesh PM Sheikh Hasina fled to India on 5 August 2024 after student-led
-    mass
-
-    protests. Attacks against Hindu minorities spiked — over 2,000 incidents of violence
-
-    in 16 days, including temple desecrations. In Bhabanipur, the bhadralok community
-    and
-
-    Hindu upper-caste traders watched closely; BJP leveraged the violence to push
-    a ''Hindu
-
-    under siege'' narrative. The development reinforced Hindu consolidation dynamics
-    ahead of
-
-    the 2026 WB election.
-
-    '
-  tags:
-  - upper_caste_hindu
-  - bhadralok
-  - urban_trader
-  - muslim_voter
-  valence:
-    upper_caste_hindu: negative
-    bhadralok: negative
-    urban_trader: negative
-    muslim_voter: ambient
-    bjp_supporter: positive
-    tmc_supporter: negative
-  broadcast: true
-  sources:
-  - https://en.wikipedia.org/wiki/2024_Bangladesh_anti-Hindu_violence
-  - https://en.wikipedia.org/wiki/Bangladesh_post-resignation_violence_(2024%E2%80%93present)
+  - https://en.wikipedia.org/wiki/Purple_Line_(Kolkata_Metro)
 - slug: ls_2024_kolkata_dakshin_result
   date: '2024-05-25'
   temporal: episodic
   scope: AC
   intensity: 5
   headline: TMC's Mala Roy wins Kolkata Dakshin LS 2024 by 1,36,427 votes
-  summary: 'In the Phase-7 Lok Sabha election on 25 May 2024, TMC''s Mala Roy won
-    Kolkata Dakshin
+  summary: 'In the Phase-7 Lok Sabha election on 25 May 2024, TMC''s Mala Roy won Kolkata
+    Dakshin
 
-    with 5,73,119 votes against BJP''s Debasree Chaudhuri''s 4,17,927 — a margin of
-    1,36,427.
+    with 5,73,119 votes against BJP''s Debasree Chaudhuri''s 4,17,927 — a margin of 1,36,427.
 
-    Within Bhabanipur, Mamata''s strong personal connection, Lakshmir Bhandar delivery
-    and
+    Within Bhabanipur, Mamata''s strong personal connection, Lakshmir Bhandar delivery and
 
     Muslim consolidation drove TMC above its 2021 by-election performance. The result
 
@@ -1213,68 +359,26 @@ events:
   broadcast: true
   sources:
   - https://newsable.asianetnews.com/india/kolkata-dakshin-west-bengal-lok-sabha-election-results-2024-winning-candidates-mala-roy-debasree-chaudhuri-sej7yh
-- slug: sc_ssc_verdict_april2025
-  date: '2025-04-03'
-  temporal: episodic
-  scope: state
-  intensity: 5
-  headline: Supreme Court upholds cancellation of all 25,753 SSC appointments; 'vitiated'
-    process
-  summary: 'On 3 April 2025, the Supreme Court upheld the Calcutta HC verdict cancelling
-    the entire
-
-    SSC teacher recruitment as ''vitiated and tainted.'' 25,753 teachers and staff
-    became
-
-    jobless. Mamata Banerjee received a contempt notice for remarks criticising the
-    verdict.
-
-    In Bhabanipur, the judgment dramatically intensified the bhadralok''s anti-TMC
-    sentiment
-
-    on the eve of the 2026 election campaign, crystallising the corruption narrative.
-
-    '
-  tags:
-  - bhadralok
-  - school_age_household
-  - upper_caste_hindu
-  - tmc_supporter
-  valence:
-    bhadralok: negative
-    school_age_household: negative
-    upper_caste_hindu: negative
-    bjp_supporter: positive
-    tmc_supporter: negative
-  broadcast: true
-  sources:
-  - https://www.scconline.com/blog/post/2025/04/09/supreme-court-verdict-west-bengal-ssc-teacher-recruitment-scam/
-  - https://lawtrend.in/supreme-court-upholds-dismissal-of-25000-west-bengal-teachers-over-recruitment-irregularities/
 - slug: sir_voter_roll_bhabanipur_deletions
   date_start: '2025-10-27'
   date_end: '2026-02-15'
   temporal: chronic
   scope: AC
   intensity: 5
-  headline: SIR deletes 47,094 voters from Bhabanipur rolls; ~40% reportedly Muslim;
-    TMC alleges targeting
-  summary: 'The ECI''s Special Intensive Revision (SIR) of West Bengal electoral rolls
-    resulted in
-
-    47,094 voter deletions in Bhabanipur constituency — 44,786 at draft stage and
-    2,324 at
-
-    final publication — with over 14,000 under adjudication. Analysis by Alt News
-    and others
-
-    suggested a higher proportion of Muslim voters were deleted, potentially altering
-    the
-
-    Muslim-heavy ward balance. Mamata launched a ''vote-for-revenge'' campaign around
-    the
-
-    deletions. The issue became one of the most contested pre-election narratives
+  headline: SIR deletes 47,094 voters from Bhabanipur rolls; ~40% reportedly Muslim; TMC alleges
+    targeting
+  summary: 'The ECI''s Special Intensive Revision (SIR) of West Bengal electoral rolls resulted
     in
+
+    47,094 voter deletions in Bhabanipur constituency — 44,786 at draft stage and 2,324 at
+
+    final publication — with over 14,000 under adjudication. Analysis by Alt News and others
+
+    suggested a higher proportion of Muslim voters were deleted, potentially altering the
+
+    Muslim-heavy ward balance. Mamata launched a ''vote-for-revenge'' campaign around the
+
+    deletions. The issue became one of the most contested pre-election narratives in
 
     Bhabanipur''s 2026 campaign.
 
@@ -1295,140 +399,47 @@ events:
   sources:
   - https://zeenews.india.com/india/west-bengal-assembly-elections-2026-how-revised-voter-list-after-sir-turns-suvendu-vs-mamata-battle-interesting-in-bhabanipur-explained-3034506.html
   - https://thefederal.com/elections-2026/west-bengal-voter-purge-90-lakh-deletions-impact-bjp-tmc-monideepa-banerjie-238680
-- slug: rg_kar_trial_conviction_2025
-  date: '2025-01-18'
+- slug: ae_2026_candidates_bhabanipur
+  date: '2026-03-17'
   temporal: episodic
-  scope: state
-  intensity: 4
-  headline: RG Kar convict Sanjay Roy sentenced to life imprisonment; IMA notes 'inadequate'
-    punishment
-  summary: 'A Kolkata additional sessions court sentenced Sanjay Roy to life imprisonment
-    for the
-
-    RG Kar rape-murder on 18 January 2025. The IMA and junior doctors'' unions expressed
-
-    dissatisfaction, arguing the death penalty was warranted and that the full conspiracy
-
-    was not probed. In Bhabanipur''s doctor and student community, the verdict provided
-    limited
-
-    closure; questions about institutional cover-up and Mamata''s role in the post-crime
-
-    handling continued to fester ahead of the 2026 election.
-
-    '
+  scope: AC
+  intensity: 5
+  headline: '2026 AE Bhabanipur (AC-159): Mamata Banerjee (TMC) vs Suvendu Adhikari (BJP);
+    CPI(M) Shrijeeb Biswas; INC Pradip Prasad'
+  summary: 'Source: Wikipedia 2026 WB AE PDF (AC-159 confirmed). TMC fields CM Mamata Banerjee;
+    BJP fields LoP Suvendu Adhikari (simultaneously contesting Nandigram AC-210). CPI(M) fields
+    Shrijeeb Biswas; INC fields Pradip Prasad. The personal Mamata-vs-Suvendu rivalry reaches
+    Kolkata''s most visible urban seat. SIR deletions (~47,094 in Bhabanipur), RG Kar case,
+    and Lakshmir Bhandar raised to Rs 1,500 are decisive frames.'
   tags:
   - bhadralok
+  - urban_trader
+  - muslim_voter
   - woman
-  - school_age_household
-  - upper_caste_hindu
+  - bjp_supporter
+  - tmc_supporter
   valence:
-    bhadralok: negative
-    woman: negative
-    school_age_household: negative
     bjp_supporter: positive
-    tmc_supporter: negative
-  broadcast: true
-  sources:
-  - https://en.wikipedia.org/wiki/2024_Kolkata_rape_and_murder
-- slug: tmc_manifesto_2026_lakshmir_bhandar_hike
-  date: '2026-03-15'
-  temporal: episodic
-  scope: state
-  intensity: 4
-  headline: 'TMC 2026 manifesto: Lakshmir Bhandar raised to Rs 1,500 (general) and
-    Rs 1,700 (SC/ST)'
-  summary: 'The TMC released its 2026 ''Bikoshito Bangla'' manifesto promising to
-    raise Lakshmir
-
-    Bhandar monthly payments to Rs 1,500 for general category and Rs 1,700 for SC/ST
-    women.
-
-    The increase was the centrepiece of TMC''s re-election pitch to the woman voter
-    bloc.
-
-    In Bhabanipur, where Lakshmir Bhandar penetration is high among homemakers and
-    domestic
-
-    workers, the promise was a direct bid to consolidate the female vote against the
-    BJP
-
-    challenge.
-
-    '
-  tags:
-  - woman
-  - lakshmir_bhandar_beneficiary
-  - bhadralok
-  valence:
-    woman: positive
-    lakshmir_bhandar_beneficiary: positive
-    bhadralok: ambient
-    bjp_supporter: ambient
     tmc_supporter: positive
   broadcast: true
   sources:
-  - https://voterlist.co.in/tmc-manifesto-2026-pdf/
-  - https://www.bikoshitopaschimbanga2026.com/en/index.html
-- slug: bjp_manifesto_2026_bhoroshar_shopoth
-  date: '2026-03-25'
-  temporal: episodic
-  scope: state
-  intensity: 4
-  headline: 'BJP 2026 ''Bhoroshar Shopoth'' manifesto: Rs 3,000/month to women, UCC
-    within 6 months'
-  summary: 'The BJP released its 2026 ''Bhoroshar Shopoth'' manifesto promising Rs
-    3,000/month to every
-
-    woman in Bengal (directly countering Lakshmir Bhandar), free bus travel, 33% reservation
-
-    for women in government jobs, and Uniform Civil Code within six months of forming
-
-    government. In Bhabanipur, the Rs 3,000 promise was a direct attempt to detach
-    women
-
-    voters from TMC''s welfare platform. The UCC pledge resonated with Hindu traders
-    but
-
-    alarmed Muslim voters.
-
-    '
-  tags:
-  - woman
-  - upper_caste_hindu
-  - urban_trader
-  - muslim_voter
-  - bhadralok
-  valence:
-    woman: positive
-    upper_caste_hindu: positive
-    urban_trader: positive
-    muslim_voter: negative
-    bhadralok: ambient
-    bjp_supporter: positive
-    tmc_supporter: negative
-  broadcast: true
-  sources:
-  - https://www.bjp.org/pressreleases/west-bengal-election-manifesto-2026
-  - https://www.bjp.org/files/inline-documents/Bhoroshar-Shopoth-EN-WB.pdf
+  - https://en.wikipedia.org/wiki/2026_West_Bengal_Legislative_Assembly_election
 - slug: suvendu_bhabanipur_nomination_roadshow
   date: '2026-04-02'
   temporal: episodic
   scope: AC
   intensity: 5
-  headline: Suvendu Adhikari files Bhabanipur nomination with Amit Shah roadshow;
-    direct Mamata challenge
-  summary: 'Leader of Opposition Suvendu Adhikari filed his nomination for Bhabanipur
-    from a high-
+  headline: Suvendu Adhikari files Bhabanipur nomination with Amit Shah roadshow; direct Mamata
+    challenge
+  summary: 'Leader of Opposition Suvendu Adhikari filed his nomination for Bhabanipur from
+    a high-
 
-    profile roadshow on 2 April 2026 attended by Union Home Minister Amit Shah. The
-    move
+    profile roadshow on 2 April 2026 attended by Union Home Minister Amit Shah. The move
 
-    confirmed BJP''s ''Bhabanipur as the prestige battle'' strategy — bringing the
-    state''s top
+    confirmed BJP''s ''Bhabanipur as the prestige battle'' strategy — bringing the state''s
+    top
 
-    BJP leader to challenge Mamata on her home turf. The roadshow drew large crowds
-    from
+    BJP leader to challenge Mamata on her home turf. The roadshow drew large crowds from
 
     BJP''s Gujarati-Marwari voter base in the constituency.
 
@@ -1453,19 +464,16 @@ events:
   temporal: episodic
   scope: AC
   intensity: 5
-  headline: Mamata Banerjee files nomination from Bhabanipur for 2026 WB Assembly
-    elections
+  headline: Mamata Banerjee files nomination from Bhabanipur for 2026 WB Assembly elections
   summary: 'Chief Minister Mamata Banerjee filed her nomination from Bhabanipur constituency
     for the
 
-    2026 West Bengal Assembly elections, officially confirming the high-stakes Mamata
-    vs
+    2026 West Bengal Assembly elections, officially confirming the high-stakes Mamata vs
 
-    Suvendu battle. The filing was accompanied by large TMC mobilisation in south
-    Kolkata.
+    Suvendu battle. The filing was accompanied by large TMC mobilisation in south Kolkata.
 
-    Mamata framed the election as a contest for Bengal''s identity against ''outsider
-    BJP rule.''
+    Mamata framed the election as a contest for Bengal''s identity against ''outsider BJP
+    rule.''
 
     '
   tags:
@@ -1489,17 +497,14 @@ events:
   scope: AC
   intensity: 4
   headline: Mamata leaves Bhabanipur rally midway as TMC and BJP supporters clash
-  summary: 'Chief Minister Mamata Banerjee was forced to leave a campaign rally in
-    Bhabanipur midway
+  summary: 'Chief Minister Mamata Banerjee was forced to leave a campaign rally in Bhabanipur
+    midway
 
-    when clashes broke out between TMC and BJP supporters, reportedly triggered by
-    BJP workers
+    when clashes broke out between TMC and BJP supporters, reportedly triggered by BJP workers
 
-    disrupting the event. Mamata alleged BJP deliberately disrupted her rally; Suvendu
-    Adhikari
+    disrupting the event. Mamata alleged BJP deliberately disrupted her rally; Suvendu Adhikari
 
-    claimed she was ''nervous'' about losing. The incident signalled the intense,
-    potentially
+    claimed she was ''nervous'' about losing. The incident signalled the intense, potentially
 
     volatile atmosphere of the Mamata vs Suvendu Bhabanipur contest.
 
@@ -1518,238 +523,19 @@ events:
   sources:
   - https://www.dnaindia.com/india/report-west-bengal-elections-2026-mamata-banerjee-leaves-rally-midway-in-bhabanipur-as-tmc-and-bjp-supporters-clash-ahead-of-polls-3207816
   - https://www.deccanherald.com/elections/west-bengal/west-bengal-assembly-elections-2026-mamata-banerjee-alleges-bjp-disrupted-her-bhabanipur-rally-suvendu-adhikari-claims-shes-nervous-3981060
-- slug: capf_deployment_2026_unprecedented
-  date: '2026-04-01'
-  temporal: episodic
-  scope: state
-  intensity: 4
-  headline: ECI deploys 2,407 CAPF companies for WB 2026 election; 100% webcasting,
-    'no man's land' at booths
-  summary: 'The Election Commission deployed 2,407 CAPF companies (~2.4 lakh personnel)
-    for the 2026
-
-    WB Assembly elections — an unprecedented security presence for a state election.
-    All
-
-    polling booths would be under 100-metre CAPF ''no man''s land'' and 100% webcasting.
-
-    In Bhabanipur, whose history includes allegations of booth-level violence in 2021,
-    the
-
-    massive security presence was intended to ensure free polling in the Mamata vs
-    Suvendu
-
-    prestige contest. CRPF''s armoured WhAP vehicles were deployed in Kolkata.
-
-    '
-  tags:
-  - bhadralok
-  - upper_caste_hindu
-  - muslim_voter
-  - woman
-  - bjp_supporter
-  - tmc_supporter
-  valence:
-    bhadralok: positive
-    upper_caste_hindu: positive
-    muslim_voter: positive
-    woman: positive
-    bjp_supporter: positive
-    tmc_supporter: ambient
-  broadcast: true
-  sources:
-  - https://www.newsonair.gov.in/home-ministry-to-deploy-480-companies-of-paramilitary-forces-in-west-bengal-before-assembly-election/
-  - https://newsable.asianetnews.com/india/wb-elections-2026-capf-dgs-meet-in-kolkata-for-foolproof-security-articleshow-2up52xp
-- slug: bjp_rg_kar_mother_candidate_pitch
-  date: '2026-04-10'
-  temporal: episodic
-  scope: state
-  intensity: 4
-  headline: PM Modi highlights BJP fielding RG Kar victim's mother as candidate; women's
-    safety pitch
-  summary: 'Prime Minister Modi publicised that BJP had fielded the mother of the
-    RG Kar rape-murder
-
-    victim as a candidate for the 2026 WB elections, calling it proof of BJP''s commitment
-    to
-
-    women''s safety. The move directly targeted Bhabanipur''s bhadralok and woman
-    voter base,
-
-    where the RG Kar case had created acute anger at the Mamata government. It combined
-
-    symbolic justice with electoral calculation in a constituency where educated women''s
-
-    sentiment was in play.
-
-    '
-  tags:
-  - woman
-  - bhadralok
-  - upper_caste_hindu
-  - school_age_household
-  valence:
-    woman: positive
-    bhadralok: positive
-    upper_caste_hindu: positive
-    bjp_supporter: positive
-    tmc_supporter: negative
-  broadcast: true
-  sources:
-  - https://www.latestly.com/india/politics/west-bengal-assembly-elections-2026-making-rg-kar-victims-mother-candidate-proves-bjps-commitment-towards-womens-safety-says-pm-narendra-modi-7408048.html
-- slug: sir_deletions_mamata_revenge_vote_campaign
-  date: '2026-03-20'
-  temporal: episodic
-  scope: state
-  intensity: 3
-  headline: Mamata calls on voters to 'vote to take revenge' for deleted names in
-    SIR process
-  summary: 'Mamata Banerjee appealed to voters whose names were deleted in the SIR
-    process to ''vote
-
-    to take revenge'' against the Election Commission and BJP. In Bhabanipur, where
-    47,094
-
-    deletions occurred with a reportedly disproportionate Muslim impact, TMC mobilised
-
-    community networks to register voter grievances. The campaign gave Muslim and
-    minority
-
-    voters a direct grievance narrative for the 2026 election.
-
-    '
-  tags:
-  - muslim_voter
-  - bhadralok
-  - woman
-  - tmc_supporter
-  valence:
-    muslim_voter: positive
-    bhadralok: positive
-    woman: positive
-    bjp_supporter: negative
-    tmc_supporter: positive
-  broadcast: true
-  sources:
-  - https://dailypioneer.com/news/vote-to-take-revenge-for-deleted-voter-names-says-mamata
-  - https://zeenews.india.com/india/west-bengal-assembly-elections-2026-how-revised-voter-list-after-sir-turns-suvendu-vs-mamata-battle-interesting-in-bhabanipur-explained-3034506.html
-- slug: durga_angan_foundation_stone_dec2025
-  date: '2025-12-29'
-  temporal: episodic
-  scope: state
-  intensity: 2
-  headline: Mamata lays foundation stone for Rs 262 crore Durga Angan; BJP calls it
-    Hindu vote appeasement
-  summary: 'Mamata Banerjee laid the foundation stone for a Rs 262 crore ''Durga Angan''
-    cultural
-
-    complex in Kolkata ahead of the 2026 elections. BJP called it election-eve appeasement
-
-    politics targeting Hindu voters. In Bhabanipur, the move was seen as Mamata signalling
-
-    to the upper-caste Hindu bhadralok that TMC was not ''anti-Hindu,'' a defensive
-    measure
-
-    against BJP''s cultural consolidation strategy.
-
-    '
-  tags:
-  - upper_caste_hindu
-  - bhadralok
-  - tmc_supporter
-  valence:
-    upper_caste_hindu: positive
-    bhadralok: ambient
-    bjp_supporter: negative
-    tmc_supporter: positive
-  broadcast: false
-  sources:
-  - https://www.theweek.in/news/india/2025/12/29/mamata-banerjee-lays-foundation-stone-for-rs-262-crore-durga-angan-bjp-calls-it-appeasement-politics.html
-- slug: gst_complexity_urban_traders_ongoing
-  date_start: '2021-01-01'
-  date_end: '2022-12-31'
-  temporal: chronic
-  scope: national
-  intensity: 2
-  headline: GST compliance complexity continues to stress Bhabanipur's Marwari-Gujarati
-    small traders
-  summary: 'Small and medium traders in Bhabanipur''s Gujarati-Marwari community continued
-    to face
-
-    challenges with GST return filing, input tax credit claims, and e-invoice mandates
-    through
-
-    2021-22. The community, which had historically supported BJP for its business-friendly
-
-    image, increasingly complained that ''ease of doing business'' promises had not
-    materialised
-
-    for small urban traders. This eroded BJP''s automatic trader support base in wards
-    70-72.
-
-    '
-  tags:
-  - urban_trader
-  - bhadralok
-  valence:
-    urban_trader: negative
-    bhadralok: negative
-    bjp_supporter: negative
-    tmc_supporter: ambient
-  broadcast: false
-  sources:
-  - https://en.wikipedia.org/wiki/Goods_and_Services_Tax_(India)
-- slug: lakshmir_bhandar_2_crore_milestone
-  date: '2022-08-16'
-  temporal: episodic
-  scope: state
-  intensity: 3
-  headline: Lakshmir Bhandar reaches 2.11 crore beneficiaries statewide on first anniversary
-  summary: 'On the first anniversary of Lakshmir Bhandar (Independence Day 2022),
-    the West Bengal
-
-    government reported 2.11 crore women beneficiaries statewide, with Kolkata Municipal
-
-    Corporation areas covered through the KMC sanctioning authority. In Bhabanipur,
-    the
-
-    scheme''s penetration among homemakers and domestic workers had consolidated into
-    a
-
-    reliable TMC voter retention mechanism by 2022.
-
-    '
-  tags:
-  - woman
-  - lakshmir_bhandar_beneficiary
-  - bhadralok
-  valence:
-    woman: positive
-    lakshmir_bhandar_beneficiary: positive
-    bjp_supporter: ambient
-    tmc_supporter: positive
-  broadcast: false
-  sources:
-  - https://wbxpress.com/lakshmir-bhandar-prakalpa/
-  - https://cleartax.in/s/lakshmir-bhandar-scheme
 - slug: phase2_polling_day_bhabanipur_2026
   date: '2026-04-26'
   temporal: episodic
   scope: AC
   intensity: 5
-  headline: Bhabanipur votes in Phase-2 WB AE 2026; Mamata vs Suvendu under massive
-    CAPF cover
-  summary: 'Bhabanipur (AC-159) is scheduled to vote in Phase-2 of the 2026 West Bengal
-    Assembly
+  headline: Bhabanipur votes in Phase-2 WB AE 2026; Mamata vs Suvendu under massive CAPF cover
+  summary: 'Bhabanipur (AC-159) is scheduled to vote in Phase-2 of the 2026 West Bengal Assembly
 
-    elections on 29 April 2026 — the day after this file''s cutoff. The contest pits
-    incumbent
+    elections on 29 April 2026 — the day after this file''s cutoff. The contest pits incumbent
 
-    CM Mamata Banerjee (TMC) against Leader of Opposition Suvendu Adhikari (BJP) in
-    the most
+    CM Mamata Banerjee (TMC) against Leader of Opposition Suvendu Adhikari (BJP) in the most
 
-    watched seat of the 2026 election. Voter turnout in the 2026 election was reported
-    at
+    watched seat of the 2026 election. Voter turnout in the 2026 election was reported at
 
     91.58% statewide — the highest ever. Results are due on 4 May 2026.
 
@@ -1773,29 +559,3 @@ events:
   sources:
   - https://www.outlookindia.com/national/bhabanipur-elections-mamata-banerjee-faces-suvendu-adhikari-in-high-stakes-electoral-battle
   - https://www.newsx.com/elections/mamata-banerjee-vs-suvendu-adhikari-bhabanipur-candidates-2026-full-list-and-key-battle-201276/
-- slug: ae_2026_candidates_bhabanipur
-  date: '2026-03-17'
-  temporal: episodic
-  scope: AC
-  intensity: 5
-  headline: '2026 AE Bhabanipur (AC-159): Mamata Banerjee (TMC) vs Suvendu Adhikari
-    (BJP); CPI(M) Shrijeeb Biswas; INC Pradip Prasad'
-  summary: 'Source: Wikipedia 2026 WB AE PDF (AC-159 confirmed). TMC fields CM Mamata
-    Banerjee; BJP fields LoP Suvendu Adhikari (simultaneously contesting Nandigram
-    AC-210). CPI(M) fields Shrijeeb Biswas; INC fields Pradip Prasad. The personal
-    Mamata-vs-Suvendu rivalry reaches Kolkata''s most visible urban seat. SIR deletions
-    (~47,094 in Bhabanipur), RG Kar case, and Lakshmir Bhandar raised to Rs 1,500
-    are decisive frames.'
-  tags:
-  - bhadralok
-  - urban_trader
-  - muslim_voter
-  - woman
-  - bjp_supporter
-  - tmc_supporter
-  valence:
-    bjp_supporter: positive
-    tmc_supporter: positive
-  broadcast: true
-  sources:
-  - https://en.wikipedia.org/wiki/2026_West_Bengal_Legislative_Assembly_election

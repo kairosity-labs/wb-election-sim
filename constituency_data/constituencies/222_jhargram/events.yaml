@@ -1,4 +1,1574 @@
-# Constituency-specific events timeline
-# Format: date | headline | scope | tags
-# Populate when local events data is available.
-events: []
+cutoff_date: '2026-04-26'
+events:
+- slug: ls_2019_jhargram_bjp_kunar_hembram_win
+  date: '2019-05-23'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: BJP's Kunar Hembram wins Jhargram LS 2019 by 11,767; tribal-belt swing shocks
+    TMC
+  summary: 'BJP fielded IIT-educated tribal candidate Kunar Hembram against TMC''s Birbaha
+    Soren
+
+    in the ST-reserved Jhargram Lok Sabha seat; Hembram won 626,583 vs 614,816 — a
+
+    narrow but seismic swing reversing TMC''s 2014 hold. The result signalled BJP as a
+
+    credible adivasi-identity party in Jangal Mahal and opened the 2021 AE contest
+
+    as genuinely competitive in Jhargram.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: negative
+    ag_labourer: ambient
+  broadcast: true
+  sources:
+  - https://www.dnaindia.com/india/report-jhargram-lok-sabha-election-results-2019-west-bengal-bjp-s-kunar-hembram-ahead-against-tmc-s-beerbaha-soren-2751200
+  - https://en.wikipedia.org/wiki/Kunar_Hembram
+- slug: bjp_ghar_wapsi_temple_tribal_junglemahal_2019
+  date: '2019-07-15'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: BJP ramps up Ghar Wapsi and temple-building drives in Jangal Mahal after LS 2019
+    win
+  summary: 'Emboldened by the Lok Sabha result, BJP affiliates VHP and Bajrang Dal intensified
+
+    Ghar Wapsi (reconversion) campaigns and organised temple-building activities among
+
+    Santali and Munda villages in Jhargram district, framing tribal identity as Hindu
+
+    identity to counter Sarna/adivasi-distinctiveness narratives. This cultural push
+
+    was backed by BJP state president Dilip Ghosh''s outreach in Jangal Mahal and
+
+    created significant counter-mobilisation among Sarna adherents.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    ag_labourer: ambient
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://theprint.in/opinion/junglemahal-is-a-west-bengal-bjp-bastion-now-ghar-wapsi-temple-prayers-for-tribals/1405733/
+- slug: bjp_ghar_wapsi_tribal_2019
+  date: '2019-07-15'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: BJP launches Ghar Wapsi and temple-building campaigns in Jangal Mahal post-LS
+    win
+  summary: 'Emboldened by the 2019 Lok Sabha result, BJP affiliates VHP and Bajrang Dal
+
+    intensified Ghar Wapsi campaigns and temple-building in Santali and Munda villages
+
+    in Jhargram district, framing tribal identity as Hindu identity. This cultural push
+
+    created significant counter-mobilisation among Sarna adherents and Santal cultural
+
+    organisations, who resisted Hindu-absorption narratives.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    bjp_supporter: positive
+    ag_labourer: ambient
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://theprint.in/opinion/junglemahal-is-a-west-bengal-bjp-bastion-now-ghar-wapsi-temple-prayers-for-tribals/1405733/
+- slug: bjp_ghar_wapsi_temple_tribal_2019
+  date: '2019-07-15'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: BJP/VHP launch Ghar Wapsi and temple-building in Jangal Mahal tribal villages
+    post-LS 2019
+  summary: 'Emboldened by the 2019 LS win, BJP affiliates VHP and Bajrang Dal intensified
+
+    Ghar Wapsi campaigns and temple-building in Santali and Munda villages in Jhargram,
+
+    framing tribal identity as Hindu. This cultural push generated significant
+
+    counter-mobilisation among Sarna adherents, setting the stage for the Sarna
+
+    religion-code debate that dominated 2020–26 adivasi politics.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    bjp_supporter: positive
+    ag_labourer: ambient
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://theprint.in/opinion/junglemahal-is-a-west-bengal-bjp-bastion-now-ghar-wapsi-temple-prayers-for-tribals/1405733/
+- slug: fra_patta_distribution_jhargram_2019
+  date: '2019-09-10'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Jhargram distributes 14,594 Van Adhikar Pattas covering ~3,500 acres; thousands
+    of claims remain pending
+  summary: 'By late 2019 Jhargram had recognised Individual Forest Rights for 14,594 tribal
+
+    households covering 3,508 acres and 72 Community Forest Rights, yet rights activists
+
+    documented massive pendency — tens of thousands of Santali, Munda, and Lodha
+
+    household claims remained unadjudicated. The gap between claims filed and pattas
+
+    issued became a persistent grievance exploited by both BJP and TMC.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://adibasikalyan.gov.in/forest-right-act
+  - https://www.sciencedirect.com/science/article/abs/pii/S0264837723004064
+- slug: fra_patta_pendency_jhargram_2019
+  date: '2019-09-10'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Jhargram issues 14,594 Van Adhikar Pattas but tens of thousands of tribal claims
+    still pending
+  summary: 'By late 2019 Jhargram had recognised Individual Forest Rights for 14,594 tribal
+
+    households covering 3,508 acres and 72 Community Forest Rights. Rights activists
+
+    documented massive pendency — tens of thousands of Santali, Munda, and Lodha
+
+    household claims unadjudicated. The gap between claims filed and pattas issued
+
+    became a persistent multi-election grievance against all governing parties.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://adibasikalyan.gov.in/forest-right-act
+  - https://www.sciencedirect.com/science/article/abs/pii/S0264837723004064
+- slug: mgnrega_jhargram_chronic_deprivation_2019
+  date: '2019-10-01'
+  temporal: chronic
+  scope: district
+  intensity: 4
+  headline: MGNREGA delivers fewer than 40 days of work annually to Jhargram tribal households;
+    wage delays endemic
+  summary: 'Jhargram''s tribal households depend critically on MGNREGA as a survival income
+
+    during the dry season (March–June) when agricultural work disappears. Chronic
+
+    underfunding, muster-roll manipulation, and delayed wage transfer meant most
+
+    households received far fewer than the 100-day entitlement. A 2019 civil-society
+
+    survey in the district found median MGNREGA days per household at 38, with many
+
+    reporting non-payment stretching 60–90 days — deepening resentment toward
+
+    the incumbent TMC state machinery.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    tmc_supporter: negative
+    bjp_supporter: ambient
+  broadcast: false
+  sources:
+  - https://www.indiaspend.com/cover-story/election2024-rural-jobs-programme-remains-underfunded-despite-high-demand-905310
+- slug: mgnrega_chronic_deprivation_jhargram_2019
+  date: '2019-10-01'
+  temporal: chronic
+  scope: district
+  intensity: 4
+  headline: MGNREGA delivers fewer than 40 days annually to Jhargram tribal households; wage
+    delays of 60–90 days endemic
+  summary: 'Jhargram''s tribal households depend critically on MGNREGA as a survival income
+
+    during the dry season. Chronic underfunding, muster-roll manipulation, and delayed
+
+    wage transfer meant most households received far fewer than the 100-day entitlement.
+
+    A 2019 civil-society survey found median MGNREGA days per household at 38, deepening
+
+    resentment toward the incumbent TMC state machinery.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://www.indiaspend.com/cover-story/election2024-rural-jobs-programme-remains-underfunded-despite-high-demand-905310
+- slug: mgnrega_chronic_deprivation_2019
+  date: '2019-10-01'
+  temporal: chronic
+  scope: district
+  intensity: 4
+  headline: MGNREGA delivers median 38 days per household in Jhargram; wage delays of 60–90
+    days endemic before 2019 elections
+  summary: 'Jhargram''s tribal households depend critically on MGNREGA as dry-season survival
+
+    income. Chronic underfunding and muster-roll manipulation meant most received far
+
+    fewer than the 100-day entitlement; civil-society surveys found median days at 38
+
+    with many reporting non-payment stretching 60–90 days, deepening anti-incumbency
+
+    toward TMC''s state machinery.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://www.indiaspend.com/cover-story/election2024-rural-jobs-programme-remains-underfunded-despite-high-demand-905310
+- slug: seasonal_migration_brick_kilns_jhargram
+  date: '2019-11-15'
+  temporal: chronic
+  scope: AC
+  intensity: 3
+  headline: Tens of thousands of Jhargram tribal workers migrate annually to Gujarat/Rajasthan
+    brick kilns as dry-season survival strategy
+  summary: 'Every October–November, young Santali, Munda, and Bhumij men from Jhargram travel
+
+    to brick kilns in Gujarat, Rajasthan, Odisha, and Andhra Pradesh, often lured by
+
+    contractors with cash advances (a form of debt bondage). Out-migrant households
+
+    constitute a large share of Jhargram''s electorate; during elections many return
+
+    or cast postal votes. Their grievances — unpaid MGNREGA, no local industry,
+
+    and absent Van Adhikar Pattas — shaped the 2019 anti-incumbency against TMC.
+
+    '
+  tags:
+  - out_migrant_household
+  - ag_labourer
+  - cultivator
+  valence:
+    out_migrant_household: negative
+    ag_labourer: negative
+  broadcast: false
+  sources:
+  - https://journalofsocialsciences.org/vol7no1/lived-experiences-of-interstate-migrant-workers-during-covid-19-lockdown-an-oral-history-in-west-bengal/
+- slug: seasonal_migration_jhargram_chronic
+  date: '2019-11-15'
+  temporal: chronic
+  scope: AC
+  intensity: 3
+  headline: Tens of thousands of Jhargram tribal workers migrate annually to brick kilns;
+    out-migrant households define the electorate
+  summary: 'Every October–November, young Santali, Munda, and Bhumij men migrate to brick
+    kilns
+
+    in Gujarat, Rajasthan, and Odisha under debt-bondage contractor arrangements. Their
+
+    grievances — absent MGNREGA work, no Van Adhikar Pattas, no local industry — shape
+
+    anti-incumbency sentiment in Jhargram and create a large postal-vote constituency.
+
+    '
+  tags:
+  - out_migrant_household
+  - ag_labourer
+  - cultivator
+  valence:
+    out_migrant_household: negative
+    ag_labourer: negative
+  broadcast: false
+  sources:
+  - https://journalofsocialsciences.org/vol7no1/lived-experiences-of-interstate-migrant-workers-during-covid-19-lockdown-an-oral-history-in-west-bengal/
+- slug: seasonal_migration_brick_kilns_chronic
+  date: '2019-11-15'
+  temporal: chronic
+  scope: AC
+  intensity: 3
+  headline: Tens of thousands of Jhargram tribal workers migrate annually to brick kilns;
+    out-migrant households are a large electoral segment
+  summary: 'Every October–November, young Santali, Munda, and Bhumij men migrate to brick
+    kilns
+
+    in Gujarat, Rajasthan, and Odisha under debt-bondage contractor arrangements.
+
+    Out-migrant households constitute a significant share of Jhargram''s electorate;
+
+    their absent-income grievances — lack of MGNREGA, Van Adhikar Pattas, local industry
+
+    — define anti-incumbency patterns across the constituency''s multiple election cycles.
+
+    '
+  tags:
+  - out_migrant_household
+  - ag_labourer
+  - cultivator
+  valence:
+    out_migrant_household: negative
+    ag_labourer: negative
+  broadcast: false
+  sources:
+  - https://journalofsocialsciences.org/vol7no1/lived-experiences-of-interstate-migrant-workers-during-covid-19-lockdown-an-oral-history-in-west-bengal/
+- slug: jangal_mahal_forest_fire_dry_season_2020
+  date: '2020-03-15'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Dry-season forest fires sweep Jhargram's sal-forest belt; tribal livelihoods disrupted
+  summary: 'Jhargram''s sal-dominated forests are among the most fire-prone in southwest Bengal,
+
+    with major fire events occurring every March–May. The 2020 fire season was
+
+    compounded by the COVID lockdown — forest-dependent tribal households lost income
+
+    from NTFP collection (tendu patta, mahua, sal seeds) as fires damaged forest patches
+
+    and lockdown restrictions prevented movement. Repeated annual fires deepened
+
+    the constituency''s chronic livelihood vulnerability.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    out_migrant_household: negative
+  broadcast: false
+  sources:
+  - https://onlinelibrary.wiley.com/doi/10.1002/ldr.5335?af=R
+  - https://www.sciencedirect.com/science/article/abs/pii/S0264837723004064
+- slug: jangal_mahal_forest_fire_2020
+  date: '2020-03-15'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Dry-season forest fires sweep Jhargram's sal-forest belt; tribal NTFP livelihoods
+    disrupted during COVID lockdown
+  summary: 'Jhargram''s sal-dominated forests are among the most fire-prone in southwest Bengal,
+
+    with major fire events March–May annually. The 2020 fire season was compounded by
+
+    the COVID lockdown — tribal households lost income from NTFP collection as fires
+
+    damaged forest patches and lockdown restricted movement. Repeated annual fires
+
+    deepen the constituency''s chronic livelihood vulnerability.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+  broadcast: false
+  sources:
+  - https://onlinelibrary.wiley.com/doi/10.1002/ldr.5335?af=R
+  - https://www.sciencedirect.com/science/article/abs/pii/S0264837723004064
+- slug: lodha_sabar_pvtg_pandemic_distress_2020
+  date: '2020-05-15'
+  temporal: chronic
+  scope: district
+  intensity: 4
+  headline: Lodha and Sabar PVTG settlements in Jhargram face acute hunger during COVID lockdown
+  summary: 'Particularly Vulnerable Tribal Groups (PVTGs) — Lodha and Sabar communities in
+
+    Jhargram''s deep forest fringe — were among the most exposed to COVID food insecurity.
+
+    With no migration income and collection of tendu patta, mahua, and other minor
+
+    forest produce banned under lockdown restrictions, Lodha-Sabar households fell back
+
+    on MGNREGA and PDS, both of which were severely disrupted. State relief camps and
+
+    PVTG-specific welfare transfers came weeks late, and civil society organisations
+
+    documented hunger cases in Belpahari and Sankrail blocks.
+
+    '
+  tags:
+  - ag_labourer
+  - out_migrant_household
+  - khadya_sathi_beneficiary
+  valence:
+    ag_labourer: negative
+    out_migrant_household: negative
+    khadya_sathi_beneficiary: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://prd.wb.gov.in/schemes/detail/92e3135c-3db5-4440-b5b8-3bbe45dd3533
+- slug: lodha_sabar_pvtg_covid_food_insecurity_2020
+  date: '2020-05-15'
+  temporal: chronic
+  scope: district
+  intensity: 4
+  headline: Lodha-Sabar PVTG settlements in Jhargram face acute hunger; tendu patta and NTFP
+    collection blocked during lockdown
+  summary: 'Particularly Vulnerable Tribal Groups — Lodha and Sabar communities in Jhargram''s
+
+    forest fringe — were acutely exposed to COVID food insecurity. With no migration
+
+    income and minor forest produce collection banned under lockdown, these households
+
+    fell back on MGNREGA and PDS, both severely disrupted. Civil society documented
+
+    hunger cases in Belpahari and Sankrail blocks, while state PVTG relief transfers
+
+    arrived weeks late.
+
+    '
+  tags:
+  - ag_labourer
+  - out_migrant_household
+  - khadya_sathi_beneficiary
+  valence:
+    ag_labourer: negative
+    out_migrant_household: negative
+    khadya_sathi_beneficiary: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://prd.wb.gov.in/schemes/detail/92e3135c-3db5-4440-b5b8-3bbe45dd3533
+- slug: lodha_sabar_pvtg_covid_hunger_2020
+  date: '2020-05-15'
+  temporal: chronic
+  scope: district
+  intensity: 4
+  headline: Lodha-Sabar PVTG settlements face acute hunger during COVID lockdown; NTFP collection
+    banned
+  summary: 'Particularly Vulnerable Tribal Groups — Lodha and Sabar communities in Jhargram''s
+
+    forest fringe — faced acute food insecurity during the lockdown. With no migration
+
+    income and collection of tendu patta, mahua, and sal seeds banned, these households
+
+    depended on MGNREGA and PDS, both severely disrupted. Civil society documented
+
+    hunger cases in Belpahari and Sankrail blocks; state PVTG relief transfers arrived
+
+    weeks late.
+
+    '
+  tags:
+  - ag_labourer
+  - out_migrant_household
+  - khadya_sathi_beneficiary
+  valence:
+    ag_labourer: negative
+    out_migrant_household: negative
+    khadya_sathi_beneficiary: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://prd.wb.gov.in/schemes/detail/92e3135c-3db5-4440-b5b8-3bbe45dd3533
+- slug: anandadhara_shg_jhargram_tribal_women_2021
+  date: '2021-03-10'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Anandadhara SHGs among tribal women in Jhargram act as TMC's ground-level campaign
+    network
+  summary: 'West Bengal''s Anandadhara (NRLM) programme had formed thousands of self-help
+    groups
+
+    (SHGs) across Jhargram district''s tribal blocks including Jhargram, Binpur, Sankrail,
+
+    and Belpahari, with a specific focus on PVTG and tribal women. By the 2021 election,
+
+    SHG meetings served as informal TMC outreach forums: members discussed Lakshmir
+
+    Bhandar, Swasthya Sathi enrollment, and state welfare — with TMC workers attending
+
+    as ''resource persons''. This SHG network was a critical soft-power advantage for TMC
+
+    in the tribal interior.
+
+    '
+  tags:
+  - woman
+  - ag_labourer
+  - lakshmir_bhandar_beneficiary
+  - swasthya_sathi_beneficiary
+  - tmc_supporter
+  valence:
+    woman: positive
+    ag_labourer: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: false
+  sources:
+  - https://anandadhara.wb.gov.in/index.php/about/salient
+  - https://prd.wb.gov.in/projects/a217b1cf-796c-4d0f-bce2-fb02442c052d
+- slug: anandadhara_shg_tmc_ground_network_2021
+  date: '2021-03-10'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Anandadhara SHGs in Jhargram's tribal blocks function as TMC's soft campaign network
+    ahead of AE 2021
+  summary: 'West Bengal''s Anandadhara (NRLM) SHGs across Jhargram''s tribal blocks —
+
+    Jhargram, Binpur, Sankrail, Belpahari — served as informal TMC outreach forums,
+
+    with members discussing Lakshmir Bhandar, Swasthya Sathi enrollment, and state
+
+    welfare at monthly meetings attended by TMC workers. This SHG network was a
+
+    critical soft-power advantage for TMC in the tribal interior where formal
+
+    party organisation was weaker.
+
+    '
+  tags:
+  - woman
+  - ag_labourer
+  - lakshmir_bhandar_beneficiary
+  - swasthya_sathi_beneficiary
+  - tmc_supporter
+  valence:
+    woman: positive
+    ag_labourer: positive
+    tmc_supporter: positive
+  broadcast: false
+  sources:
+  - https://anandadhara.wb.gov.in/index.php/about/salient
+  - https://prd.wb.gov.in/projects/a217b1cf-796c-4d0f-bce2-fb02442c052d
+- slug: birbaha_hansda_tmc_candidate_jhargram_2021
+  date: '2021-03-15'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: TMC fields Birbaha Hansda — Santali film actress and daughter of tribal MLAs —
+    as candidate for Jhargram AC
+  summary: 'TMC''s candidate selection was a masterstroke of identity politics: Birbaha Hansda,
+
+    a celebrated Santali-language actress and daughter of former MLAs, carried both
+
+    cultural capital and grassroots tribal credibility. Her Santal identity, fluency
+
+    in Ol Chiki script, and visible celebration of adivasi culture made her the
+
+    preferred face against BJP''s Sukhamoy Satpathy. BJP countered with Satpathy''s
+
+    development record claims, but the cultural resonance of a Santali actress-MLA
+
+    proved decisive in mobilising tribal women voters especially.
+
+    '
+  tags:
+  - woman
+  - ag_labourer
+  - cultivator
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    woman: positive
+    ag_labourer: positive
+    cultivator: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.india.com/states/jhargram-assembly-election-result-2021-live-tmc-candidate-birbaha-hansda-leading-4616992/amp/
+  - https://en.wikipedia.org/wiki/Birbaha_Hansda
+- slug: birbaha_hansda_tmc_candidate_2021
+  date: '2021-03-15'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: TMC fields Santali actress Birbaha Hansda for Jhargram AC; identity-politics masterstroke
+    against BJP
+  summary: 'TMC''s Birbaha Hansda — celebrated Santali-language film actress, daughter of
+    tribal
+
+    ex-MLAs, fluent in Ol Chiki — carried both cultural capital and grassroots credibility.
+
+    Her Santal identity, village-level roadshows in Santali, and visible celebration of
+
+    adivasi culture mobilised tribal women voters decisively against BJP''s Sukhamoy
+
+    Satpathy''s development-centred campaign.
+
+    '
+  tags:
+  - woman
+  - ag_labourer
+  - cultivator
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    woman: positive
+    ag_labourer: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Birbaha_Hansda
+  - https://www.india.com/states/jhargram-assembly-election-result-2021-live-tmc-candidate-birbaha-hansda-leading-4616992/amp/
+- slug: amit_shah_dilip_ghosh_jhargram_rally_2021
+  date: '2021-03-25'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Amit Shah and Dilip Ghosh hold joint rally in Jhargram; BJP pledges Jangal Mahal
+    development and Van Adhikar Pattas
+  summary: 'Union Home Minister Amit Shah addressed a large public rally in Jhargram alongside
+
+    BJP state president Dilip Ghosh during the WB 2021 election campaign season.
+
+    Shah promised accelerated Van Adhikar Patta distribution, MGNREGA reform, and
+
+    a tribal-welfare focus under a BJP state government. The rally drew large crowds
+
+    from Santali and Munda villages, reflecting BJP''s genuine organisational strength
+
+    in the region after the 2019 LS win. TMC countered with Birbaha Hansda''s village-
+
+    level roadshows, using Santali songs and community dialect outreach.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    ag_labourer: positive
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://theprint.in/opinion/junglemahal-is-a-west-bengal-bjp-bastion-now-ghar-wapsi-temple-prayers-for-tribals/1405733/
+- slug: amit_shah_jhargram_rally_2021
+  date: '2021-03-25'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Amit Shah and Dilip Ghosh hold joint rally in Jhargram; BJP pledges Van Adhikar
+    Pattas and MGNREGA reform
+  summary: 'Union Home Minister Amit Shah addressed a large public meeting in Jhargram alongside
+
+    BJP state president Dilip Ghosh. Shah promised accelerated Van Adhikar Patta
+
+    distribution and MGNREGA reform under a BJP state government, drawing large crowds
+
+    from Santali and Munda villages. TMC countered with Birbaha Hansda''s Santali-dialect
+
+    village-level outreach and SHG network mobilisation.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    bjp_supporter: positive
+    ag_labourer: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://theprint.in/opinion/junglemahal-is-a-west-bengal-bjp-bastion-now-ghar-wapsi-temple-prayers-for-tribals/1405733/
+- slug: wb_ae_2021_jhargram_birbaha_hansda_wins
+  date: '2021-05-02'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Birbaha Hansda (TMC) wins Jhargram AC by 38,240 votes; BJP's Sukhamoy Satpathy
+    routed
+  summary: 'TMC''s Birbaha Hansda polled 109,493 votes against BJP''s Sukhamoy Satpathy''s
+    71,253
+
+    — a decisive 38,240-vote margin in the ST-reserved Jhargram assembly constituency.
+
+    The result reversed the BJP''s 2019 LS momentum and re-established TMC''s dominance
+
+    in the tribal belt, driven by Hansda''s Santali cultural identity, the Lakshmir
+
+    Bhandar pre-poll promise, and TMC''s Anandadhara SHG mobilisation. BJP''s Jangal Mahal
+
+    temple-Hindutva strategy was rejected by a majority of Santali-Munda voters.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - woman
+  - bjp_supporter
+  - tmc_supporter
+  - out_migrant_household
+  valence:
+    ag_labourer: positive
+    cultivator: positive
+    woman: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.india.com/states/jhargram-assembly-election-result-2021-live-tmc-candidate-birbaha-hansda-leading-4616992/amp/
+  - https://www.indiatvnews.com/west-bengal/news-jhargram-constituency-west-bengal-assembly-election-2026-profile-past-winners-vote-margin-and-party-wise-candidates-2026-03-05-1032754
+- slug: post_poll_violence_jhargram_bjp_party_office_2021
+  date: '2021-05-02'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: BJP party office in Jhargram ransacked in post-poll violence; BJP workers flee
+    homes
+  summary: 'Within 24 hours of TMC''s sweeping state victory, BJP workers in Jhargram reported
+
+    targeted violence — the local BJP party office was ransacked by suspected TMC
+
+    supporters, and BJP booth workers from tribal villages reported being driven from
+
+    their homes. Jhargram featured in opposition petitions to the Governor and subsequent
+
+    NHRC investigations. The violence deepened tribal BJP supporters'' grievances but
+
+    did not dislodge TMC''s administrative control. NIA custody of Chhatradhar Mahato
+
+    on 28 March 2021 also added a charged pre-election legal backdrop.
+
+    '
+  tags:
+  - bjp_supporter
+  - tmc_supporter
+  - ag_labourer
+  valence:
+    bjp_supporter: negative
+    tmc_supporter: negative
+    ag_labourer: negative
+  broadcast: true
+  sources:
+  - https://www.youtube.com/watch?v=nq7ZyDanGGE
+  - https://en.wikipedia.org/wiki/2021_West_Bengal_post-poll_violence
+- slug: wb_ae_2021_jhargram_birbaha_wins
+  date: '2021-05-02'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Birbaha Hansda (TMC) wins Jhargram AC 2021 by 38,240 votes; BJP's Junglemahal
+    strategy fails
+  summary: 'TMC''s Birbaha Hansda won 109,493 votes against BJP''s Sukhamoy Satpathy''s 71,253
+
+    — a decisive 38,240-vote majority. The result reversed BJP''s 2019 LS momentum,
+
+    driven by Hansda''s Santali cultural identity, the Lakshmir Bhandar pre-poll promise,
+
+    and Anandadhara SHG mobilisation. BJP''s temple-Hindutva strategy was rejected
+
+    by a majority of Santali-Munda voters in this ST-reserved constituency.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - woman
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    ag_labourer: positive
+    woman: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.india.com/states/jhargram-assembly-election-result-2021-live-tmc-candidate-birbaha-hansda-leading-4616992/amp/
+  - https://www.indiatvnews.com/west-bengal/news-jhargram-constituency-west-bengal-assembly-election-2026-profile-past-winners-vote-margin-and-party-wise-candidates-2026-03-05-1032754
+- slug: post_poll_violence_jhargram_2021
+  date: '2021-05-03'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: BJP party office ransacked in Jhargram post-poll; BJP tribal workers driven from
+    villages
+  summary: 'Within 24 hours of TMC''s sweeping victory, BJP workers in Jhargram reported targeted
+
+    violence — the local BJP party office was ransacked and tribal BJP booth workers
+
+    reported being driven from their homes. Jhargram featured in opposition petitions
+
+    to the Governor and NHRC investigations into post-poll violence. The violence deepened
+
+    BJP tribal supporters'' alienation without dislodging TMC administrative control.
+
+    '
+  tags:
+  - bjp_supporter
+  - tmc_supporter
+  - ag_labourer
+  valence:
+    bjp_supporter: negative
+    tmc_supporter: negative
+    ag_labourer: negative
+  broadcast: true
+  sources:
+  - https://www.youtube.com/watch?v=nq7ZyDanGGE
+  - https://en.wikipedia.org/wiki/2021_West_Bengal_post-poll_violence
+- slug: jangal_mahal_drought_crop_failure_2022
+  date: '2022-07-01'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Erratic monsoon 2022 hits Jhargram single-crop tribal cultivators; MGNREGA freeze
+    leaves no fallback
+  summary: 'Jhargram''s tribal farmers are predominantly single-crop cultivators, heavily
+
+    dependent on monsoon rains. The 2022 monsoon was erratic, with dry spells in
+
+    August reducing paddy yields across the district''s tribal blocks. With MGNREGA
+
+    frozen since March 2022 and no fallback wage employment, affected households
+
+    turned to distress migration to brick kilns earlier than usual — intensifying
+
+    the out-migrant household problem that already defined the constituency.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    out_migrant_household: negative
+  broadcast: false
+  sources:
+  - https://thefederal.com/elections-2026/west-bengal-elections-2026-jangalmahal-development-irrigation-jobs-tmc-bjp-maoists-238715
+- slug: jangalmahal_drought_crop_2022
+  date: '2022-07-01'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Erratic 2022 monsoon reduces paddy yields in Jhargram; MGNREGA freeze leaves no
+    fallback income
+  summary: 'Jhargram''s tribal cultivators depend on a single paddy crop from monsoon rains.
+
+    The 2022 monsoon was erratic with dry spells in August reducing yields across
+
+    tribal blocks. With MGNREGA frozen since March 2022, affected households turned to
+
+    distress migration to brick kilns earlier than usual — intensifying seasonal
+
+    migration without any wage-employment safety net at home.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    out_migrant_household: negative
+  broadcast: false
+  sources:
+  - https://thefederal.com/elections-2026/west-bengal-elections-2026-jangalmahal-development-irrigation-jobs-tmc-bjp-maoists-238715
+- slug: jangalmahal_drought_single_crop_failure_2022
+  date: '2022-07-01'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Erratic 2022 monsoon hits Jhargram single-crop tribal cultivators; MGNREGA freeze
+    eliminates fallback income
+  summary: 'Jhargram''s tribal farmers are predominantly single-crop cultivators dependent
+    on
+
+    monsoon rains. The 2022 monsoon was erratic with dry spells in August reducing
+
+    paddy yields. With MGNREGA frozen since March 2022 and no fallback wage employment,
+
+    affected households turned to distress migration to brick kilns earlier than usual,
+
+    intensifying the out-migrant household dynamic in the constituency.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    out_migrant_household: negative
+  broadcast: false
+  sources:
+  - https://thefederal.com/elections-2026/west-bengal-elections-2026-jangalmahal-development-irrigation-jobs-tmc-bjp-maoists-238715
+- slug: kunar_hembram_resigns_bjp_2022
+  date: '2022-08-01'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: Tribal MP Kunar Hembram resigns from BJP; BJP organisational weakening in Jhargram's
+    tribal network
+  summary: 'Jhargram''s sitting BJP Member of Parliament Kunar Hembram, the tribal IIT engineer
+
+    who won the 2019 LS election, resigned from the BJP citing disillusionment over the
+
+    party''s failure to deliver Van Adhikar Pattas and MGNREGA relief despite holding
+
+    power at the Centre. His exit dealt a blow to BJP''s grassroots tribal credibility
+
+    and organisational capacity in the constituency.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    bjp_supporter: negative
+    ag_labourer: ambient
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://theprint.in/politics/days-after-losing-mla-to-tmc-bengal-bjp-hit-by-resignation-of-mp-from-jhargram/1994555/
+- slug: mgnrega_starvation_death_jhargram_2022
+  date: '2022-09-01'
+  temporal: episodic
+  scope: district
+  intensity: 5
+  headline: Starvation death in Jhargram district linked directly to MGNREGA freeze; tribal
+    family unable to get job card
+  summary: 'Civil society and media reported a starvation death in Jhargram during the MGNREGA
+
+    freeze, with the victim unable to obtain a new job card as the scheme was at a
+
+    standstill in West Bengal. The case became a flashpoint for opposition demands
+
+    to resume MGNREGA funding and symbolised for Jhargram''s tribal voters the human
+
+    cost of the Centre-state political standoff.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    bjp_supporter: negative
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://vajiramandravi.com/current-affairs/mgnregs-in-west-bengal-why-it-was-halted-and-how-it-could-restart/
+- slug: panchayat_2023_violence_jhargram
+  date: '2023-07-08'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Jhargram Panchayat 2023 marred by violence; BJP candidate beaten; TMC sweeps Zila
+    Parishad
+  summary: 'The July 2023 panchayat elections saw widespread violence in West Bengal with
+
+    55 deaths statewide. In Jhargram, BJP candidate Suvankar Mahato was allegedly
+
+    manhandled by the Sankrail OC on 26 June. TMC won all 20 Zila Parishads and swept
+
+    Jhargram. Opposition alleged uncontested TMC dominance through intimidation.
+
+    The violence reinforced perceptions of TMC-police nexus in tribal areas.
+
+    '
+  tags:
+  - bjp_supporter
+  - tmc_supporter
+  - ag_labourer
+  - cultivator
+  valence:
+    bjp_supporter: negative
+    tmc_supporter: ambient
+    ag_labourer: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2023_West_Bengal_local_elections_violence
+  - https://organiser.org/2023/07/03/181798/bharat/west-bengal-panchayat-polls-trail-of-violence-by-tmc/
+- slug: chhatradhar_mahato_tmc_factional_tensions_2023
+  date: '2023-10-01'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Chhatradhar Mahato's Lalgarh martyrs rally reveals TMC factional tensions in Jangal
+    Mahal
+  summary: 'Chhatradhar Mahato organised a large rally in Lalgarh honouring three PCAPA
+
+    ''martyrs'', drawing around 5,000 people and visibly challenging the mainstream
+
+    TMC district leadership in Jhargram. The event exposed internal TMC rifts
+
+    between the Mahato faction (with deep Jangal Mahal roots) and party regulars
+
+    aligned with the state machinery. These tensions created uncertainty about TMC''s
+
+    booth-level cohesion in Jhargram heading into 2024.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - tmc_supporter
+  valence:
+    ag_labourer: ambient
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: false
+  sources:
+  - https://newsarenaindia.com/states/tmc-faces-internal-strife-in-jungle-mahal-due-to-mahato-s-rise/35843
+  - https://www.awazthevoice.in/india-news/internal-rifts-threaten-to-blur-tmc-s-development-record-in-once-maoist-hotbed-of-jhargram-57232.html
+- slug: chhatradhar_mahato_tmc_factional_crisis_2023
+  date: '2023-10-01'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Chhatradhar Mahato's Lalgarh martyrs rally reveals internal TMC rifts in Jangal
+    Mahal; 5,000 attend
+  summary: 'Chhatradhar Mahato organised a large rally in Lalgarh honouring PCAPA ''martyrs'',
+
+    drawing ~5,000 people and visibly challenging the mainstream TMC district leadership.
+
+    The event exposed TMC internal rifts between the Mahato faction (with deep Jangal
+
+    Mahal roots) and party regulars aligned with the state machinery, creating uncertainty
+
+    about TMC booth-level cohesion heading into 2024.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - tmc_supporter
+  valence:
+    ag_labourer: ambient
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: false
+  sources:
+  - https://newsarenaindia.com/states/tmc-faces-internal-strife-in-jungle-mahal-due-to-mahato-s-rise/35843
+  - https://www.awazthevoice.in/india-news/internal-rifts-threaten-to-blur-tmc-s-development-record-in-once-maoist-hotbed-of-jhargram-57232.html
+- slug: adivasi_groups_boycott_jangalmahal_utsav_2023
+  date: '2023-12-01'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: Tribal organisations boycott Jangal Mahal Utsav; demand real development not cultural
+    events
+  summary: 'A coalition of tribal organisations in Jhargram boycotted the government-organised
+
+    Jangal Mahal Utsav, stating they wanted real development — jobs, irrigation,
+
+    Van Adhikar Pattas, and MGNREGA — rather than festivals. The boycott drew national
+
+    media attention and reflected deep grassroots disillusionment with both TMC and
+
+    BJP''s failure to deliver structural change despite repeated promises since 2011.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    ag_labourer: negative
+    tmc_supporter: negative
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://m.thewire.in/article/rights/we-want-real-development-not-festivals-adivasi-groups-boycott-jangal-mahal-utsav
+- slug: adivasi_boycott_jangalmahal_utsav_2023
+  date: '2023-12-01'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: Tribal organisations boycott Jangal Mahal Utsav; demand real development over
+    cultural festivals
+  summary: 'A coalition of tribal organisations in Jhargram boycotted the government-organised
+
+    Jangal Mahal Utsav, demanding real development — jobs, irrigation, Van Adhikar
+
+    Pattas, and MGNREGA — rather than cultural festivals. The boycott drew national
+
+    media coverage and reflected deep grassroots disillusionment with both TMC and BJP''s
+
+    failure to deliver structural economic change in Jangal Mahal since 2011.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    tmc_supporter: negative
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://m.thewire.in/article/rights/we-want-real-development-not-festivals-adivasi-groups-boycott-jangal-mahal-utsav
+- slug: jangalmahal_unemployment_narrative_2023_2024
+  date: '2023-12-15'
+  temporal: chronic
+  scope: district
+  intensity: 4
+  headline: 'Ground reports from Jhargram: ''Peace came to Jangal Mahal but prosperity did
+    not''; unemployment dominates voter concern'
+  summary: 'Extensive ground reporting from Jhargram in 2023–24 documented the central
+
+    constituency narrative: the post-Maoist peace dividend had not translated into
+
+    structural economic change. No major industry, inadequate irrigation, single-crop
+
+    agriculture, and mass youth migration — both educated and uneducated — defined
+
+    the reality. Both TMC and BJP were blamed for unkept promises since 2011.
+
+    This ''peace without prosperity'' frame was the key driver of voter ambivalence
+
+    heading into LS 2024.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  - school_age_household
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    out_migrant_household: negative
+    tmc_supporter: negative
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://thefederal.com/elections-2026/west-bengal-elections-2026-jangalmahal-development-irrigation-jobs-tmc-bjp-maoists-238715
+  - https://thefederal.com/elections-2026/west-bengal-jangalmahal-elections-peace-unemployment-voter-concerns-240084
+- slug: kurmis_jangalmahal_dent_bjp_2024
+  date: '2024-04-15'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: Kurmi community demands OBC-ST recognition; Jangal Mahal political calculus shifts
+    ahead of LS 2024
+  summary: 'Kurmi communities in Jhargram and the broader Jangal Mahal belt were demanding
+
+    inclusion in the ST list and recognition of Kurmali in the Eighth Schedule.
+
+    Neither TMC nor BJP had resolved the issue, with both parties including the demand
+
+    in manifestos but not delivering. The Kurmi swing was seen as potentially denting
+
+    BJP''s Jangal Mahal support ahead of the Lok Sabha 2024 polling.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    bjp_supporter: negative
+    tmc_supporter: negative
+    ag_labourer: ambient
+  broadcast: false
+  sources:
+  - https://www.newslaundry.com/2024/05/21/no-one-is-serious-about-us-in-jangal-mahal-the-kurmis-may-dent-bjps-chances
+  - https://www.outlookindia.com/elections/bengal-elections-2026-in-jhargrams-assembly-constituencies-kurmis-caught-between-recognition-and-reality
+- slug: kurmis_jangalmahal_st_demand_2024
+  date: '2024-04-15'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: Kurmi community demands ST status; Jangal Mahal political calculus shifts ahead
+    of LS 2024
+  summary: 'Kurmi communities in Jhargram and wider Jangal Mahal belt demanded inclusion in
+
+    the ST list and recognition of Kurmali in the Eighth Schedule. Neither TMC nor BJP
+
+    had delivered on earlier promises. The Kurmi swing was identified as potentially
+
+    denting BJP''s Jangal Mahal support ahead of Lok Sabha 2024 Phase 4 polling.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    bjp_supporter: negative
+    tmc_supporter: negative
+    ag_labourer: ambient
+  broadcast: false
+  sources:
+  - https://www.newslaundry.com/2024/05/21/no-one-is-serious-about-us-in-jangal-mahal-the-kurmis-may-dent-bjps-chances
+- slug: ls_2024_jhargram_kalipada_saren_tmc_wins
+  date: '2024-05-25'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: TMC's Kalipada Saren wins Jhargram LS 2024 by 1,74,048 votes; BJP collapses in
+    tribal belt
+  summary: 'TMC''s Kalipada Saren won the Jhargram ST-reserved Lok Sabha seat with 743,478
+    votes,
+
+    defeating BJP''s Dr. Pranat Tudu by a massive 1,74,048 margin. The result confirmed
+
+    the reversal of BJP''s 2019 Jhargram gain — a decisive tribal rejection of BJP''s
+
+    Hindutva approach after five years of MGNREGA freeze, unfulfilled Van Adhikar Patta
+
+    promises, and the exit of tribal MP Kunar Hembram. TMC''s welfare narrative —
+
+    Lakshmir Bhandar, Duare Sarkar, Sarna recognition — dominated.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - woman
+  - bjp_supporter
+  - tmc_supporter
+  - out_migrant_household
+  valence:
+    ag_labourer: positive
+    woman: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.oneindia.com/jhargram-lok-sabha-election-result-534/
+  - https://timesofindia-indiatimes-com.translate.goog/city/kolkata/jhargram-st-election-results-2024-west-bengal-jhargram-st-lok-sabha-elections-poll-result-updates-kalipada-saren-tmc-sonamani-tudu-cpm-pranat-tudu-bjp/articleshow/110672754.cms?_x_tr_sl=en&_x_tr_tl=hi&_x_tr_hl=hi&_x_tr_pto=tc
+- slug: jangalmahal_unemployment_chronic_2025
+  date: '2025-01-01'
+  temporal: chronic
+  scope: district
+  intensity: 4
+  headline: Unemployment in Jangal Mahal remains the defining voter concern in 2025; educated
+    and uneducated alike compelled to migrate
+  summary: 'Jhargram''s development deficit remained stark in 2025: no major industry, irrigation
+
+    covering less than half of agricultural land, a single paddy crop for most cultivators,
+
+    and young men from tribal villages routinely migrating to Delhi, Gujarat, Maharashtra,
+
+    and southern states for work. Even educated tribal youth found no local jobs.
+
+    The peace dividend of the post-Maoist normalisation had not translated into
+
+    structural economic change — the central unresolved narrative heading into 2026.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  - school_age_household
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    out_migrant_household: negative
+    tmc_supporter: negative
+    bjp_supporter: negative
+  broadcast: false
+  sources:
+  - https://thefederal.com/elections-2026/west-bengal-elections-2026-jangalmahal-development-irrigation-jobs-tmc-bjp-maoists-238715
+  - https://thefederal.com/elections-2026/west-bengal-jangalmahal-elections-peace-unemployment-voter-concerns-240084
+- slug: fake_st_certificate_tribal_grievance_2026
+  date: '2026-01-10'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Tribals in Jangal Mahal demand action on fake ST certificates eroding reserved
+    benefits; issue raised ahead of 2026 election
+  summary: 'Tribal welfare organisations in Jhargram and Jangal Mahal raised the persistent
+
+    issue of fake Scheduled Tribe certificates being used by non-tribal persons to
+
+    claim ST-reserved seats in education and government jobs, effectively depriving
+
+    genuine tribal communities of their constitutional entitlements. The demand for
+
+    strict enforcement of ST certificate verification became a campaign issue raised
+
+    against the TMC state government''s administrative performance.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - school_age_household
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    school_age_household: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://m.thewire.in/article/caste/stop-depriving-us-jangal-mahal-tribals-demand-action-on-fake-st-certificates-erosion-of-rights
+- slug: mgnrega_partial_restart_local_impact_2026
+  date: '2026-01-15'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: MGNREGA partially restarted in Jhargram but tribal households report bureaucratic
+    delays and low work-day generation in 2026 election year
+  summary: 'Despite the December 2025 MGNREGA restart, Jhargram tribal labourers reported
+    in
+
+    early 2026 that biometric attendance requirements, slow job-card renewal, and limited
+
+    work-day generation meant the actual benefit remained far below the 100-day
+
+    entitlement. The Centre''s stringent compliance conditions were blamed by TMC;
+
+    BJP argued the state''s administration was deliberately underperforming to
+
+    blame the Centre. The issue remained live and unresolved on the eve of voting.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    tmc_supporter: negative
+    bjp_supporter: negative
+  broadcast: false
+  sources:
+  - https://www.business-standard.com/economy/news/centre-resumes-mgnrega-works-in-west-bengal-but-with-stringent-riders-125120901284_1.html
+- slug: jangalmahal_peace_no_prosperity_narrative_2026
+  date: '2026-02-01'
+  temporal: chronic
+  scope: district
+  intensity: 4
+  headline: 'Media and civil society ground reports: ''Peace came to Jangal Mahal but prosperity
+    did not'' frames 2026 election debate'
+  summary: 'Extensive ground reporting in early 2026 documented a powerful and widely-shared
+
+    narrative in Jhargram: the post-Maoist peace had arrived but economic development
+
+    had not followed. Unemployment remained the biggest concern; migration was a
+
+    necessity; single-crop agriculture dominated; irrigation infrastructure was absent;
+
+    and both TMC and BJP were blamed for promises not kept. This narrative —
+
+    ''peace without prosperity'' — was the central emotional frame for floating voters
+
+    in Jhargram heading into the 2026 election.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - out_migrant_household
+  - school_age_household
+  valence:
+    ag_labourer: negative
+    cultivator: negative
+    out_migrant_household: negative
+    tmc_supporter: negative
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://thefederal.com/elections-2026/west-bengal-elections-2026-jangalmahal-development-irrigation-jobs-tmc-bjp-maoists-238715
+  - https://thefederal.com/elections-2026/west-bengal-jangalmahal-elections-peace-unemployment-voter-concerns-240084
+- slug: tmc_mangal_soren_candidate_2026
+  date: '2026-03-05'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: TMC fields Mangal Soren (tribal law officer, JMM 2004 veteran) for Jhargram 2026;
+    new tribal face replaces Birbaha Hansda
+  summary: 'TMC announced Mangal Soren — a tribal law officer at Sadhu Ramchand Murmu University
+
+    and a former Jharkhand Mukti Morcha (JMM) candidate from Jhargram in 2004 — as its
+
+    2026 candidate for Jhargram AC, replacing the outgoing MLA-cum-minister Birbaha
+
+    Hansda who moved to a different constituency. Soren''s tribal identity and legal
+
+    background were presented as credentials; BJP fielded Lakshmikant Sahu. For tribal
+
+    voters the contest of Soren (ST) vs Sahu (non-tribal) reinforced the identity-
+
+    politics frame that Birbaha Hansda had established in 2021.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - woman
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    ag_labourer: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.millenniumpost.in/bengal/jhargram-to-see-high-stakes-contest-in-polls-656788
+  - https://www.indiatvnews.com/west-bengal/news-jhargram-constituency-west-bengal-assembly-election-2026-profile-past-winners-vote-margin-and-party-wise-candidates-2026-03-05-1032754
+- slug: ae_2026_candidates_jhargram
+  date: '2026-03-16'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: '2026 AE Jhargram (AC-222): TMC Mangal Saren vs BJP Lakshmikant Sahu; CPI(M) Arjun
+    Mahato'
+  summary: 'Source: Wikipedia 2026 WB AE PDF (PDF AC-222; sometimes listed as AC-236 in older
+    delimitation). TMC fields Mangal Saren (replacing 2021 winner Birbaha Hansda who moved
+    to state cabinet); BJP fields Lakshmikant Sahu (non-tribal, Sahu community). CPI(M) fields
+    Arjun Mahato; INC fields Utpal Dutta. TMC''s tribal-identity advantage vs BJP''s non-tribal
+    candidate gives TMC symbolic edge; MGNREGA restoration and Sarna-code commitment are key
+    hooks.'
+  tags:
+  - ag_labourer
+  - cultivator
+  - bjp_supporter
+  - tmc_supporter
+  - woman
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2026_West_Bengal_Legislative_Assembly_election
+- slug: tmc_tmc_nomination_rally_jhargram_april_2026
+  date: '2026-04-01'
+  temporal: episodic
+  scope: AC
+  intensity: 3
+  headline: TMC candidates hold large nomination rally in Jhargram; Shatabdi Roy roadshow
+    for Mangal Soren draws tribal crowds
+  summary: 'TMC candidates and supporters took out a large rally before filing nominations
+    in
+
+    Jhargram in early April 2026. Actor-MP Shatabdi Roy held a roadshow for TMC
+
+    candidate Mangal Soren in Jhargram town on 14 April 2026, drawing tribal voters
+
+    from surrounding blocks. The campaign combined welfare-delivery messaging —
+
+    Lakshmir Bhandar, partial MGNREGA restart, Duare Sarkar — with Soren''s own
+
+    tribal identity credentials.
+
+    '
+  tags:
+  - ag_labourer
+  - cultivator
+  - woman
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    tmc_supporter: positive
+    bjp_supporter: negative
+    ag_labourer: positive
+  broadcast: true
+  sources:
+  - https://www.socialnews.xyz/2026/04/14/jhargram-shatabdi-roy-holds-roadshow-for-tmc-candidate-mangal-soren-gallery/
+  - https://www.socialnews.xyz/2026/04/01/jhargram-tmc-candidates-take-out-rally-before-filing-nominations-gallery/
+- slug: tribal_women_shg_tmc_campaign_2026
+  date: '2026-04-05'
+  temporal: episodic
+  scope: AC
+  intensity: 3
+  headline: Anandadhara SHG networks in Jhargram mobilise tribal women for TMC ahead of 2026
+    AE; Lakshmir Bhandar continuity a key message
+  summary: 'As the 2026 election campaign intensified, TMC used its Anandadhara SHG network
+
+    in Jhargram''s tribal blocks as a soft-campaign infrastructure. SHG meetings
+
+    emphasised continuity of Lakshmir Bhandar Rs 1,000/month transfers, the partial
+
+    MGNREGA restart, and the tribal-identity credentials of candidate Mangal Soren.
+
+    For tribal women who had received Rs 1,000/month since 2021, the welfare-continuity
+
+    argument was a concrete, household-level reason to vote TMC.
+
+    '
+  tags:
+  - woman
+  - ag_labourer
+  - lakshmir_bhandar_beneficiary
+  - swasthya_sathi_beneficiary
+  - tmc_supporter
+  valence:
+    woman: positive
+    ag_labourer: positive
+    lakshmir_bhandar_beneficiary: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: false
+  sources:
+  - https://anandadhara.wb.gov.in/index.php/about/salient

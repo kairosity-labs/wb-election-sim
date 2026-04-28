@@ -1,4 +1,1625 @@
-# Constituency-specific events timeline
-# Format: date | headline | scope | tags
-# Populate when local events data is available.
-events: []
+cutoff_date: '2026-04-26'
+events:
+- slug: ls_2019_berhampore_adhir_wins
+  date: '2019-05-23'
+  temporal: episodic
+  scope: district
+  intensity: 5
+  headline: Adhir Ranjan Chowdhury wins Berhampore Lok Sabha for fifth consecutive time; Congress
+    dominance in Murshidabad at peak
+  summary: 'Congress veteran Adhir Ranjan Chowdhury retained the Berhampore LS seat for a
+    fifth
+
+    straight term in 2019, defeating TMC and BJP candidates and cementing Congress dominance
+
+    in the Muslim-majority Murshidabad district. Within the Murshidabad AC segment, Congress
+
+    retained strong street-level organisation through mosque networks and block-level workers.
+
+    This victory set Adhir up as the unchallenged protector of Muslim interests in the district
+    —
+
+    a position he would lose entirely by 2024.
+
+    '
+  tags:
+  - muslim_voter
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    muslim_voter: positive
+    tmc_supporter: negative
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Adhir_Ranjan_Chowdhury
+  - https://www.thequint.com/elections/adhir-ranjan-chowdhury-berhampore-congress-trinamool-bjp-2024-lok-sabha-elections
+- slug: murshidabad_anti_caa_protests_december_2019
+  date: '2019-12-14'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Mass anti-CAA demonstrations sweep Murshidabad town; thousands gather near Hazarduari
+  summary: 'Within days of CAA''s passage, thousands of Muslim residents, madrassa students
+    and
+
+    civil society activists staged large demonstrations in Murshidabad town near the
+
+    Hazarduari complex. The protests were peaceful but intense, with imams leading prayers
+
+    for constitutional protection. Congress and Left leaders joined the rallies, positioning
+
+    against BJP''s citizenship agenda.
+
+    '
+  tags:
+  - muslim_voter
+  - bhadralok
+  - urban_trader
+  valence:
+    muslim_voter: negative
+    bhadralok: negative
+    bjp_supporter: positive
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Citizenship_Amendment_Act_protests
+  - https://www.nationalheraldindia.com/india/bharat-bandh-today-caa-nrc-protest-shaheen-bagh-delhi-live-updates
+- slug: murshidabad_anti_caa_protests_dec_2019
+  date: '2019-12-14'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Mass anti-CAA demonstrations sweep Murshidabad town; thousands gather near Hazarduari
+  summary: 'Within days of CAA''s passage, thousands of Muslim residents, madrassa students
+    and
+
+    civil society activists staged large demonstrations near the Hazarduari complex.
+
+    Protests were intense, with imams leading prayers for constitutional protection.
+
+    Congress and Left leaders joined rallies. The scale of mobilisation reflected the
+
+    constituency''s deep political consciousness on citizenship rights.
+
+    '
+  tags:
+  - muslim_voter
+  - bhadralok
+  - urban_trader
+  valence:
+    muslim_voter: negative
+    bhadralok: negative
+    bjp_supporter: positive
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Citizenship_Amendment_Act_protests
+  - https://www.nationalheraldindia.com/india/bharat-bandh-today-caa-nrc-protest-shaheen-bagh-delhi-live-updates
+- slug: anti_caa_bandh_deaths_jalangi_january_2020
+  date: '2020-01-29'
+  temporal: episodic
+  scope: district
+  intensity: 5
+  headline: Two killed in Jalangi, Murshidabad during anti-CAA Bharat Bandh; protesters shot
+    allegedly by TMC convoy
+  summary: 'Two people — Anarul Biswas (50) and Slauddin Sheikh (17) — were killed at Sahebnagar
+
+    village in Jalangi block, Murshidabad, when anti-CAA protesters were allegedly shot by
+
+    a convoy of cars led by the local TMC block president. Three others were injured. The
+
+    incident shocked Murshidabad''s Muslim community and created a sharp rupture between
+
+    TMC and the anti-CAA movement. Congress and CPI(M) accused TMC of repressing
+
+    Muslim protesters to maintain political dominance.
+
+    '
+  tags:
+  - muslim_voter
+  - tmc_supporter
+  valence:
+    muslim_voter: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.nationalheraldindia.com/india/bharat-bandh-today-caa-nrc-protest-shaheen-bagh-delhi-live-updates
+  - https://scroll.in/latest/951481/citizenship-act-protest-two-killed-in-west-bengals-murshidabad-district-after-violence-erupts
+  - https://www.deccanherald.com/national/east-and-northeast/west-bengal-two-killed-in-clash-during-anti-caa-protest-799378.html
+- slug: anti_caa_bandh_deaths_jalangi_2020
+  date: '2020-01-29'
+  temporal: episodic
+  scope: district
+  intensity: 5
+  headline: Two anti-CAA protesters killed in Jalangi, Murshidabad allegedly by TMC convoy;
+    community trust in TMC fractured
+  summary: 'Two people — Anarul Biswas (50) and Slauddin Sheikh (17) — were killed at Sahebnagar
+
+    village in Jalangi block when anti-CAA protesters were allegedly shot by a convoy led
+
+    by the local TMC block president. Three others were injured. The incident shocked
+
+    Murshidabad''s Muslim community and created a sharp rupture between TMC and the
+
+    anti-CAA movement. Congress and CPI(M) accused TMC of repressing Muslim protesters
+
+    to maintain political dominance.
+
+    '
+  tags:
+  - muslim_voter
+  - tmc_supporter
+  valence:
+    muslim_voter: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.nationalheraldindia.com/india/bharat-bandh-today-caa-nrc-protest-shaheen-bagh-delhi-live-updates
+  - https://scroll.in/latest/951481/citizenship-act-protest-two-killed-in-west-bengals-murshidabad-district-after-violence-erupts
+  - https://www.deccanherald.com/national/east-and-northeast/west-bengal-two-killed-in-clash-during-anti-caa-protest-799378.html
+- slug: silk_weaving_crisis_covid_2020
+  date: '2020-04-20'
+  temporal: chronic
+  scope: district
+  intensity: 4
+  headline: Murshidabad silk weavers face existential crisis as COVID kills demand; weavers
+    sit idle beside looms
+  summary: 'The lockdown-induced collapse of wholesale demand devastated Murshidabad''s
+
+    centuries-old silk weaving industry. Muslim families in Jiaganj, Azimganj and
+
+    Murshidabad town who depend on the Baluchar silk trade found themselves with
+
+    no orders and no wages. NGO surveys documented weavers sitting idle beside
+
+    their pit-looms, unable to access social security schemes. The crisis deepened
+
+    a pre-existing structural decline marked by low wages driving youth away from weaving.
+
+    '
+  tags:
+  - muslim_voter
+  - urban_trader
+  - out_migrant_household
+  valence:
+    muslim_voter: negative
+    urban_trader: negative
+    tmc_supporter: negative
+    bjp_supporter: negative
+  broadcast: false
+  sources:
+  - https://thefederal.com/the-eighth-column/lockdown-leaves-handloom-weavers-hanging-by-a-thread
+  - https://www.academia.edu/77463194/Murshidabad_Silk_Industry_in_West_Bengal_A_Study_of_Its_Glorious_Past_and_amp_Present_Crisis
+- slug: silk_weaving_covid_crisis_2020
+  date: '2020-04-20'
+  temporal: chronic
+  scope: district
+  intensity: 4
+  headline: Murshidabad silk weavers face existential crisis; weavers sit idle beside looms
+    with no orders and no social security
+  summary: 'The lockdown collapse of wholesale demand devastated the centuries-old silk weaving
+
+    industry. Muslim families in Jiaganj and Murshidabad town who produce Baluchar sarees
+
+    found themselves with no orders and no wages. NGO surveys documented weavers idle
+
+    beside pit-looms, unable to access social security schemes due to institutional failures.
+
+    The COVID crisis deepened a pre-existing structural decline with low wages driving
+
+    youth away from weaving.
+
+    '
+  tags:
+  - muslim_voter
+  - urban_trader
+  - out_migrant_household
+  valence:
+    muslim_voter: negative
+    urban_trader: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://thefederal.com/the-eighth-column/lockdown-leaves-handloom-weavers-hanging-by-a-thread
+  - https://www.academia.edu/77463194/Murshidabad_Silk_Industry_in_West_Bengal_A_Study_of_Its_Glorious_Past_and_amp_Present_Crisis
+- slug: migrant_return_shramik_trains_2020
+  date: '2020-05-10'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Thousands of Murshidabad migrants return by Shramik Special trains from Maharashtra
+    and Kerala; relief camp shortfalls
+  summary: 'Murshidabad, which has the highest out-migration rate in West Bengal, saw
+
+    thousands of workers return by special trains from southern and western states
+
+    in May 2020. Many returned to find their silk-weaving enterprises shuttered and
+
+    agricultural land waterlogged from late-season rains. Relief camps organised by
+
+    both state government and local Congress panchayat bodies were documented as
+
+    inadequate, providing limited food and no cash. The experience hardened
+
+    out_migrant_household grievances about safety nets.
+
+    '
+  tags:
+  - out_migrant_household
+  - muslim_voter
+  - ag_labourer
+  valence:
+    out_migrant_household: negative
+    muslim_voter: negative
+    tmc_supporter: ambient
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://citizenmatters.in/migrant-workers-murshidabad-west-bengal-challenges-economy-labour-deaths/
+  - https://link.springer.com/chapter/10.1007/978-3-031-77596-3_8
+- slug: murshidabad_migrant_return_2020
+  date: '2020-05-10'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Thousands of Murshidabad migrants return by Shramik Special trains; relief camps
+    documented as inadequate
+  summary: 'Murshidabad — with the highest out-migration rate in West Bengal — saw thousands
+
+    of workers return by special trains from southern and western states in May 2020.
+
+    Many returned to find silk-weaving enterprises shuttered and agricultural land
+
+    flooding. Relief camps organised by state government and Congress panchayat bodies
+
+    were documented as inadequate, with limited food and no cash support. The experience
+
+    hardened out_migrant_household grievances about safety nets.
+
+    '
+  tags:
+  - out_migrant_household
+  - muslim_voter
+  - ag_labourer
+  valence:
+    out_migrant_household: negative
+    muslim_voter: negative
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://citizenmatters.in/migrant-workers-murshidabad-west-bengal-challenges-economy-labour-deaths/
+  - https://link.springer.com/chapter/10.1007/978-3-031-77596-3_8
+- slug: murshidabad_monsoon_flood_2020
+  date: '2020-07-20'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Bhagirathi and Padma rivers breach embankments; tens of thousands displaced in
+    Murshidabad district
+  summary: 'Annual monsoon floods inundated large swathes of Murshidabad district in July
+    2020,
+
+    with the Bhagirathi and Padma rivers breaching embankments at multiple points. Farming
+
+    households in low-lying areas lost standing crops of paddy and vegetables. The flood
+
+    compounded COVID-related economic distress, as no MGNREGA work had been available and
+
+    migrant remittances had collapsed. State relief delivery was patchy, reinforcing
+
+    community dependence on local Congress panchayat networks.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - muslim_voter
+  - woman
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    muslim_voter: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://floodlist.com/asia/india-west-bengal-floods-august-2021
+  - https://wbiwd.gov.in/index.php/applications/flood_mgmt
+  - https://m.thewire.in/article/environment/in-bengals-murshidabad-a-village-the-river-ate-away
+- slug: murshidabad_flood_2020
+  date: '2020-07-25'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Bhagirathi and Padma rivers flood Murshidabad in 2020 monsoon; crops destroyed
+    amid COVID economic collapse
+  summary: 'Annual monsoon floods inundated large swathes of Murshidabad district, with the
+
+    Bhagirathi and Padma rivers breaching embankments at multiple points. Farming
+
+    households lost standing paddy crops. The flood compounded COVID-related economic
+
+    distress as no MGNREGA work was available and migrant remittances had collapsed.
+
+    State relief delivery was patchy.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - muslim_voter
+  - woman
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    muslim_voter: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://wbiwd.gov.in/index.php/applications/flood_mgmt
+  - https://m.thewire.in/article/environment/in-bengals-murshidabad-a-village-the-river-ate-away
+- slug: mamata_anti_caa_campaign_murshidabad_2021
+  date: '2021-03-25'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Mamata Banerjee holds campaign rally in Murshidabad district, pledges CAA-NRC
+    will never be implemented in Bengal
+  summary: 'During the 2021 assembly election campaign, Mamata Banerjee held rallies in
+
+    Murshidabad district reiterating her pledge that CAA and NRC would not be
+
+    implemented while she is CM. The promise was the single most galvanising message
+
+    for the Muslim electorate. TMC also highlighted welfare schemes including Duare
+
+    Sarkar, Swasthya Sathi health cards, and food grain entitlements under Khadya
+
+    Sathi. Mamata''s personal credibility as protector of Muslim citizenship rights
+
+    drove significant Congress-to-TMC vote migration in the district.
+
+    '
+  tags:
+  - muslim_voter
+  - woman
+  - khadya_sathi_beneficiary
+  - swasthya_sathi_beneficiary
+  valence:
+    muslim_voter: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.outlookindia.com/elections/lok-sabha-2024-how-has-the-muslim-appeasement-debate-affected-west-bengal-politics
+  - https://theprint.in/opinion/mamatas-lakshmir-bhandar-was-a-secret-weapon-bengal-tmc-is-now-reaping-electoral-fruits/2099238/
+- slug: murshidabad_flood_2021_pre_election
+  date: '2021-04-01'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: Pre-monsoon Bhagirathi river erosion displaces families in Murshidabad sub-division
+    ahead of AE 2021 polls
+  summary: 'Annual erosion of the Bhagirathi riverbank continued to displace families in
+
+    Murshidabad town''s riverfront wards in early 2021. The river-erosion issue —
+
+    a chronic problem compounding Farakka barrage silt accumulation — became
+
+    a local campaign talking point. Congress and TMC both promised embankment
+
+    reinforcement works. Affected farming and fishing households were sensitised
+
+    by local campaign workers as the election approached.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - muslim_voter
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    muslim_voter: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://m.thewire.in/article/environment/in-bengals-murshidabad-a-village-the-river-ate-away
+  - https://wbiwd.gov.in/index.php/applications/flood_mgmt
+- slug: murshidabad_madrassa_audio_classes_2021
+  date: '2021-04-01'
+  temporal: episodic
+  scope: district
+  intensity: 2
+  headline: West Bengal Board of Madrasah Education broadcasts audio-visual classes for Murshidabad
+    students during COVID; reduced syllabus for 2021 exams
+  summary: 'The West Bengal Board of Madrasah Education (WBBME) reduced the 2021 High Madrasah
+
+    and Alim/Fazil examination syllabi for COVID-affected students. Audio-visual classes
+
+    were recorded with subject experts and uploaded to YouTube; audio classes were
+
+    broadcast through All India Radio Kolkata, Murshidabad and Malda. In Murshidabad,
+
+    where madrasas are a central educational institution for Muslim students, the
+
+    state government''s proactive support built goodwill ahead of the AE.
+
+    '
+  tags:
+  - school_age_household
+  - muslim_voter
+  - kanyashree_household
+  valence:
+    school_age_household: positive
+    muslim_voter: positive
+    tmc_supporter: positive
+  broadcast: false
+  sources:
+  - https://wbbme.org/madrasah-education-system-in-west-bengal/
+  - https://en.wikipedia.org/wiki/West_Bengal_Board_of_Madrasah_Education
+- slug: murshidabad_madrassa_covid_reduced_syllabus_2021
+  date: '2021-04-01'
+  temporal: episodic
+  scope: district
+  intensity: 2
+  headline: WBBME reduces syllabus and broadcasts lessons for Murshidabad madrassa students
+    during COVID; state signals support for Muslim education
+  summary: 'The West Bengal Board of Madrasah Education reduced the 2021 High Madrasah/Alim/Fazil
+
+    exam syllabi. Audio-visual classes were broadcast via AIR Radio Murshidabad and Malda.
+
+    In Murshidabad, where madrasas educate a large share of Muslim students, the state''s
+
+    proactive support built goodwill ahead of the AE. The gesture contrasted with BJP''s
+
+    national madrassa reform agenda.
+
+    '
+  tags:
+  - school_age_household
+  - muslim_voter
+  - kanyashree_household
+  valence:
+    school_age_household: positive
+    muslim_voter: positive
+    tmc_supporter: positive
+  broadcast: false
+  sources:
+  - https://wbbme.org/madrasah-education-system-in-west-bengal/
+  - https://en.wikipedia.org/wiki/West_Bengal_Board_of_Madrasah_Education
+- slug: wb_ae_2021_murshidabad_bjp_win
+  date: '2021-05-02'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: BJP's Mohan Haldar wins Murshidabad AC by 2,491 votes over TMC's Shaoni Singha
+    Roy in historic upset
+  summary: 'In a major upset, BJP''s Mohan Haldar won the Murshidabad Assembly seat (AC-60)
+    in the
+
+    2021 AE, defeating TMC''s Shaoni Singha Roy by just 2,491 votes out of ~2.27 lakh cast.
+
+    Haldar received 95,967 votes (42%) to Roy''s 93,476 (41.3%). It was one of only two seats
+
+    BJP captured in the entire Murshidabad district, where TMC swept 18 of 20 seats.
+
+    The result reflected Hindu bhadralok consolidation behind BJP in this mixed-composition
+
+    constituency; Congress collapsed entirely, with its base partly absorbed by TMC''s Roy
+
+    who had switched from Congress in 2021.
+
+    '
+  tags:
+  - muslim_voter
+  - bhadralok
+  - bjp_supporter
+  - tmc_supporter
+  - upper_caste_hindu
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: negative
+    muslim_voter: negative
+    bhadralok: positive
+    upper_caste_hindu: positive
+  broadcast: true
+  sources:
+  - https://www.indiavotes.com/ac/summary/45114
+  - https://www.newkerala.com/news/a/murshidabad-assembly-constituency-can-bjps-gouri-shankar-ghosh-776.htm
+  - https://www.indiatvnews.com/west-bengal/news-murshidabad-constituency-west-bengal-assembly-election-2026-profile-past-winners-vote-margin-and-party-wise-candidates-2026-02-28-1032095
+- slug: wb_2021_tmc_sweeps_district
+  date: '2021-05-02'
+  temporal: episodic
+  scope: district
+  intensity: 5
+  headline: TMC sweeps 18 of 20 Murshidabad district seats on Muslim vote consolidation; Congress
+    wiped out at assembly level
+  summary: 'TMC won 18 of 20 seats in Murshidabad district in the 2021 AE, capturing 54% of
+
+    district votes. Despite Adhir Ranjan''s dominance at the Lok Sabha level, Congress
+
+    collapsed at the state assembly level, winning zero seats and polling only 14% in
+
+    the district. The result confirmed the shift of Muslim voters from Congress to TMC,
+
+    driven by Mamata Banerjee''s strong anti-CAA/NRC stance and the welfare promises
+
+    including Duare Sarkar and Lakshmir Bhandar (announced post-election). BJP won
+
+    only Murshidabad and Baharampur ACs.
+
+    '
+  tags:
+  - muslim_voter
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    tmc_supporter: positive
+    muslim_voter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.indiavotes.com/district/ac/284/2284
+  - https://www.orfonline.org/expert-speak/bengal-elections-2021-a-factsheet
+- slug: wb_ae_2021_bjp_wins_murshidabad_ac
+  date: '2021-05-02'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: BJP's Mohan Haldar wins Murshidabad AC by 2,491 votes; TMC's Shaoni Singha Roy
+    defeated; BJP wins one of only two seats in district
+  summary: 'BJP''s Mohan Haldar won the Murshidabad Assembly seat (AC-60) defeating TMC''s
+
+    Shaoni Singha Roy by 2,491 votes (95,967 vs 93,476). BJP won only two of 20 seats
+
+    in Murshidabad district; TMC swept 18 seats on Muslim vote consolidation. Congress
+
+    won zero assembly seats in the district. The AC-60 result reflected Hindu bhadralok
+
+    consolidation behind BJP in this mixed constituency. Shaoni Singha Roy — a two-time
+
+    Congress-then-TMC MLA — lost narrowly in her third attempt.
+
+    '
+  tags:
+  - muslim_voter
+  - bhadralok
+  - bjp_supporter
+  - tmc_supporter
+  - upper_caste_hindu
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: negative
+    muslim_voter: negative
+    bhadralok: positive
+    upper_caste_hindu: positive
+  broadcast: true
+  sources:
+  - https://www.indiavotes.com/ac/summary/45114
+  - https://www.newkerala.com/news/a/murshidabad-assembly-constituency-can-bjps-gouri-shankar-ghosh-776.htm
+  - https://www.indiatvnews.com/west-bengal/news-murshidabad-constituency-west-bengal-assembly-election-2026-profile-past-winners-vote-margin-and-party-wise-candidates-2026-02-28-1032095
+- slug: murshidabad_flood_2021
+  date: '2021-08-01'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Annual monsoon floods hit Murshidabad again in 2021; riverbank erosion displaces
+    hundreds of families
+  summary: 'West Bengal experienced significant flooding in August 2021 with multiple districts
+
+    affected. In Murshidabad, annual Bhagirathi/Padma flooding displaced communities
+
+    in low-lying areas. Air Force helicopters were deployed across Bengal for rescue
+
+    operations. The chronic flooding problem remained unaddressed despite years of
+
+    political promises on embankment reinforcement.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - muslim_voter
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    muslim_voter: negative
+  broadcast: false
+  sources:
+  - https://floodlist.com/asia/india-west-bengal-floods-august-2021
+  - https://wbiwd.gov.in/uploads/anual_flood_report/ANNUAL_FLOOD_REPORT_2021.pdf
+- slug: murshidabad_wshg_networks_2022
+  date: '2022-03-01'
+  temporal: chronic
+  scope: district
+  intensity: 2
+  headline: Women's Self-Help Groups in Murshidabad become primary TMC welfare delivery conduit;
+    Muslim women in SHGs enrol for Lakshmir Bhandar
+  summary: 'Women''s Self-Help Groups (SHGs) in Murshidabad district expanded post-2021 as
+    TMC
+
+    used them as a primary conduit for Lakshmir Bhandar enrolment and welfare scheme
+
+    awareness. For Muslim women — who often lack individual documentation access —
+
+    SHG membership provided an institutionalised pathway to state welfare. The network
+
+    of SHGs, closely aligned with TMC''s panchayat structures, became an important
+
+    political mobilisation tool in Muslim-majority rural areas of the district.
+
+    '
+  tags:
+  - woman
+  - muslim_voter
+  - lakshmir_bhandar_beneficiary
+  - swasthya_sathi_beneficiary
+  valence:
+    woman: positive
+    muslim_voter: positive
+    lakshmir_bhandar_beneficiary: positive
+    tmc_supporter: positive
+  broadcast: false
+  sources:
+  - https://shgsewb.gov.in/shgportal/samajsathi
+  - https://theprint.in/opinion/mamatas-lakshmir_bhandar-was-a-secret-weapon-bengal-tmc-is-now-reaping-electoral-fruits/2099238/
+- slug: murshidabad_shg_women_network_2022
+  date: '2022-03-01'
+  temporal: chronic
+  scope: district
+  intensity: 2
+  headline: Women's SHG networks in Murshidabad expand as primary conduit for Lakshmir Bhandar
+    enrolment; Muslim women benefit
+  summary: 'Women''s Self-Help Groups expanded post-2021 as TMC used them as a primary conduit
+
+    for Lakshmir Bhandar enrolment and welfare scheme awareness in Murshidabad. For Muslim
+
+    women who lack individual documentation access, SHG membership provided an
+
+    institutionalised pathway to state welfare. The network closely aligned with TMC''s
+
+    panchayat structures and became an important political mobilisation tool.
+
+    '
+  tags:
+  - woman
+  - muslim_voter
+  - lakshmir_bhandar_beneficiary
+  - swasthya_sathi_beneficiary
+  valence:
+    woman: positive
+    muslim_voter: positive
+    lakshmir_bhandar_beneficiary: positive
+    tmc_supporter: positive
+  broadcast: false
+  sources:
+  - https://shgsewb.gov.in/shgportal/samajsathi
+- slug: murshidabad_silk_industry_crisis_2022
+  date: '2022-06-01'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Murshidabad silk weavers' crisis deepens post-COVID; low wages drive youth away
+    from looms despite GI tag effort
+  summary: 'The post-COVID recovery of Murshidabad''s silk industry remained weak. Low wages
+
+    drove younger generations away from the traditional Baluchar silk weaving even as
+
+    demand recovered partially. In 2023, WBNUJS applied for a GI tag for Murshidabad
+
+    silk products. For artisan urban_trader and Muslim weaver communities, structural
+
+    poverty persisted despite the heritage industry''s cultural value. MGNREGA remained
+
+    non-operational in the state, compounding rural unemployment.
+
+    '
+  tags:
+  - urban_trader
+  - muslim_voter
+  - cultivator
+  valence:
+    urban_trader: negative
+    muslim_voter: negative
+  broadcast: false
+  sources:
+  - https://www.newkerala.com/news/a/west-bengal-low-wages-drive-youth-away-from-251.htm
+  - https://www.academia.edu/77463194/Murshidabad_Silk_Industry_in_West_Bengal_A_Study_of_Its_Glorious_Past_and_amp_Present_Crisis
+- slug: murshidabad_silk_gi_tag_2022
+  date: '2022-07-01'
+  temporal: episodic
+  scope: district
+  intensity: 2
+  headline: Murshidabad silk weavers struggle with post-COVID structural crisis; GI tag application
+    filed in 2023
+  summary: 'Murshidabad''s silk industry continued its long-term crisis post-COVID. Low wages
+
+    drove the younger generation away from traditional silk weaving even as demand for
+
+    Baluchar sarees recovered. In 2023 WBNUJS applied for a GI tag for Murshidabad
+
+    silk products. For the urban_trader and muslim_voter artisan communities in Jiaganj
+
+    and Azimganj, structural decline meant poverty persisted despite the artisan heritage.
+
+    '
+  tags:
+  - urban_trader
+  - muslim_voter
+  - cultivator
+  valence:
+    urban_trader: negative
+    muslim_voter: negative
+  broadcast: false
+  sources:
+  - https://www.newkerala.com/news/a/west-bengal-low-wages-drive-youth-away-from-251.htm
+  - https://www.academia.edu/77463194/Murshidabad_Silk_Industry_in_West_Bengal_A_Study_of_Its_Glorious_Past_and_amp_Present_Crisis
+- slug: murshidabad_monsoon_flood_2022
+  date: '2022-08-20'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: Monsoon 2022 floods again displace farming communities along Bhagirathi in Murshidabad
+  summary: 'The annual monsoon flooding of Murshidabad district''s Bhagirathi and Padma
+
+    river systems caused displacement of farming and fishing communities in 2022.
+
+    Embankment breaches and drainage congestion inundated croplands. The chronic
+
+    annual nature of floods — exacerbated by Farakka barrage silt accumulation —
+
+    remained a political pressure point with no lasting infrastructural solution from
+
+    state or central government.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - muslim_voter
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    muslim_voter: negative
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://wbiwd.gov.in/index.php/applications/flood_mgmt
+  - https://link.springer.com/article/10.1007/s11069-022-05618-y
+- slug: murshidabad_flood_2022
+  date: '2022-08-20'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: Monsoon 2022 floods again inundate Murshidabad; Bhagirathi embankment breaches
+    displace farming households
+  summary: 'The annual monsoon flooding of Murshidabad''s Bhagirathi and Padma river systems
+
+    caused displacement of farming and fishing communities in 2022. Embankment breaches
+
+    and drainage congestion inundated croplands. The chronic annual flooding — exacerbated
+
+    by Farakka barrage silt accumulation — remained a political pressure point with no
+
+    lasting infrastructural solution from state or central government.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - muslim_voter
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    muslim_voter: negative
+  broadcast: false
+  sources:
+  - https://wbiwd.gov.in/index.php/applications/flood_mgmt
+  - https://link.springer.com/article/10.1007/s11069-022-05618-y
+- slug: ssc_scam_murshidabad_teachers_dismissed_2023
+  date: '2023-06-01'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: Murshidabad schools face teacher dismissals in SSC scam probe; Bhangwangola HS
+    loses 21 of 62 teachers
+  summary: 'CBI investigations into the SSC teacher recruitment scam led to dismissals of
+
+    teachers across Bengal including Murshidabad. Bhangwangola High School in
+
+    Murshidabad lost 21 of 62 teachers. Teachers from Manindranagar Girls'' School
+
+    in Murshidabad also protested. The disruption to secondary education hit
+
+    school_age_household families hard and sustained anti-TMC sentiment among
+
+    middle-class bhadralok and Muslim educated households.
+
+    '
+  tags:
+  - school_age_household
+  - bhadralok
+  - muslim_voter
+  valence:
+    school_age_household: negative
+    bhadralok: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://m.thewire.in/article/rights/tmc-ssc-scam-bengal-mamata-banerjee-teachers
+  - https://m.thewire.in/article/education/west-bengal-ssc-scam-thousands-of-dismissed-teachers-continue-protest-on-third-consecutive-day
+- slug: murshidabad_muslim_out_migration_chronic
+  date: '2023-06-01'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Murshidabad remains West Bengal's highest out-migration district; Muslim youth
+    seeking work face discrimination in destination states
+  summary: 'Murshidabad has the highest percentage of out-migrant workers among all Bengal
+
+    districts. Migrant workers — predominantly Muslim — faced discrimination and hunger
+
+    in destination states like Kerala and Maharashtra. The Wire documented Bengali Muslim
+
+    migrant workers at Wadala facing hunger and communal discrimination during COVID. The
+
+    ongoing out-migration reflects structural economic failure: collapse of silk weaving,
+
+    MGNREGA shutdown, and limited local employment creation. Out_migrant_household
+
+    remittances remain the primary income source for many AC-60 households.
+
+    '
+  tags:
+  - out_migrant_household
+  - muslim_voter
+  - ag_labourer
+  valence:
+    out_migrant_household: negative
+    muslim_voter: negative
+  broadcast: false
+  sources:
+  - https://citizenmatters.in/migrant-workers-murshidabad-west-bengal-challenges-economy-labour-deaths/
+  - https://thewire.in/rights/bengali-muslim-migrant-workers-lockdown-wadala
+- slug: ssc_scam_murshidabad_teachers_2023
+  date: '2023-06-01'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: Murshidabad schools face SSC scam teacher dismissals; Bhangwangola HS loses 21
+    of 62 teachers
+  summary: 'CBI investigations led to teacher dismissals across Bengal including Murshidabad.
+
+    Bhangwangola High School lost 21 of 62 teachers. Teachers from Manindranagar
+
+    Girls'' School protested the government''s handling. The disruption to secondary
+
+    education hit school_age_household families hard and sustained anti-TMC sentiment
+
+    among educated households.
+
+    '
+  tags:
+  - school_age_household
+  - bhadralok
+  - muslim_voter
+  valence:
+    school_age_household: negative
+    bhadralok: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://m.thewire.in/article/rights/tmc-ssc-scam-bengal-mamata-banerjee-teachers
+- slug: murshidabad_out_migration_discrimination_chronic
+  date: '2023-06-01'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Murshidabad remains WB's highest out-migration district; Muslim migrant workers
+    face discrimination and hunger in destination states
+  summary: 'Murshidabad has the highest out-migrant worker percentage of all Bengal districts.
+
+    Migrant workers — predominantly Muslim — faced discrimination and hunger in destination
+
+    states. The Wire documented Bengali Muslim migrants at Wadala (Mumbai) facing communal
+
+    discrimination during COVID. Ongoing out-migration reflects structural economic failure:
+
+    silk weaving collapse, MGNREGA shutdown, and limited local employment. Remittances
+
+    remain the primary income source for many AC-60 households.
+
+    '
+  tags:
+  - out_migrant_household
+  - muslim_voter
+  - ag_labourer
+  valence:
+    out_migrant_household: negative
+    muslim_voter: negative
+  broadcast: false
+  sources:
+  - https://citizenmatters.in/migrant-workers-murshidabad-west-bengal-challenges-economy-labour-deaths/
+  - https://thewire.in/rights/bengali-muslim-migrant-workers-lockdown-wadala
+- slug: panchayat_2023_violence_murshidabad
+  date: '2023-07-08'
+  temporal: episodic
+  scope: district
+  intensity: 5
+  headline: 'Panchayat election 2023: TMC-Congress clash kills workers in Murshidabad; district
+    is the main theatre of political violence'
+  summary: 'Murshidabad was one of the main theatres of violence during the 2023 West Bengal
+
+    panchayat elections. TMC worker Sateshuddin Sheikh and Congress worker Fulchand
+
+    Sheikh were killed in Khargram. A TMC-Congress clash broke out in Shamsherganj.
+
+    Despite violence, Congress won 1,067 panchayat seats in Murshidabad — more than
+
+    anywhere else in Bengal — demonstrating residual Muslim voter loyalty to Adhir''s
+
+    organisation at grassroots level.
+
+    '
+  tags:
+  - muslim_voter
+  - tmc_supporter
+  valence:
+    muslim_voter: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.youtube.com/watch?v=zbshkyvZlgY
+  - https://www.outlookindia.com/national/bengal-panchayat-election-tmc-sweeps-violence-marred-bengal-panchayat-polls-bjp-distant-second-news-302150
+- slug: congress_murshidabad_panchayat_gains_2023
+  date: '2023-07-12'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: Congress retains significant panchayat presence in Murshidabad post-2023 polls;
+    1,067 seats won in district
+  summary: 'Despite TMC''s statewide sweep in the 2023 panchayat elections, Congress won
+
+    1,067 panchayat seats in Murshidabad, more than anywhere else in Bengal. This
+
+    demonstrated that at the grassroots level, Adhir Ranjan''s Congress organisation
+
+    retained significant Muslim voter loyalty in Murshidabad district. The result
+
+    set up a competitive Congress-TMC fight for the 2024 Lok Sabha Berhampore seat.
+
+    '
+  tags:
+  - muslim_voter
+  - tmc_supporter
+  valence:
+    muslim_voter: positive
+    tmc_supporter: negative
+  broadcast: false
+  sources:
+  - https://www.outlookindia.com/national/bengal-panchayat-election-tmc-sweeps-violence-marred-bengal-panchayat-polls-bjp-distant-second-news-302150
+- slug: murshidabad_river_erosion_chronic_2023
+  date: '2023-09-01'
+  temporal: chronic
+  scope: district
+  intensity: 3
+  headline: Chronic Padma/Bhagirathi erosion displaces Murshidabad families; some households
+    moved 16 times in two decades
+  summary: 'The Wire documented that Padma river erosion continued to displace communities
+    in
+
+    Murshidabad, with some families moving up to 16 times in two decades. Hundreds of
+
+    houses washed away at Taranagar. Farakka barrage silt accumulation raised the Ganga
+
+    water level ~8 metres upstream, perpetuating the crisis. This perennial displacement
+
+    affected Muslim farming and fishing households most severely with no political solution
+
+    in sight from state or central government.
+
+    '
+  tags:
+  - cultivator
+  - ag_labourer
+  - muslim_voter
+  - woman
+  valence:
+    cultivator: negative
+    ag_labourer: negative
+    muslim_voter: negative
+  broadcast: false
+  sources:
+  - https://m.thewire.in/article/environment/in-bengals-murshidabad-a-village-the-river-ate-away
+  - https://link.springer.com/article/10.1007/s11069-022-05618-y
+- slug: berhampore_ls_2024_adhir_loses_to_yusuf_pathan
+  date: '2024-05-13'
+  temporal: episodic
+  scope: district
+  intensity: 5
+  headline: 'Murshidabad district votes in LS Phase 4; TMC''s Yusuf Pathan poised to end Adhir
+    Ranjan''s 25-year Berhampore reign (result: Pathan wins by 85,022)'
+  summary: 'Murshidabad district voted on May 13, 2024 in Phase 4 of the Lok Sabha election.
+
+    TMC fielded former cricketer Yusuf Pathan — a Muslim celebrity face — against
+
+    Congress''s five-time MP Adhir Ranjan Chowdhury in Berhampore. Exit polls strongly
+
+    signalled a TMC wave driven by Muslim vote consolidation. When results came June 4,
+
+    Pathan won by 85,022 votes (5,24,516 to 4,39,494), ending Congress''s 25-year
+
+    dominance. Adhir resigned as WB Congress President. The vote confirmed TMC had
+
+    permanently captured Adhir''s Muslim vote bank in Murshidabad.
+
+    '
+  tags:
+  - muslim_voter
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    muslim_voter: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.indiatvnews.com/west-bengal/news-baharampur-lok-sabha-election-results-2024-congress-adhir-ranjan-chowdhury-tmc-yusuf-pathan-bjp-vote-counting-winning-losing-candidates-2024-06-04-934528
+  - https://www.lokmattimes.com/national/lok-sabha-election-results-2024-yusuf-pathan-defeats-5-time-mp-adhir-ranjan-chowdhury-to-win-baharampur-seat-a507/
+  - https://www.republicworld.com/elections/lok-sabha-elections-2024/baharampur-berhampore-lok-sabha-election-results-2024-live-updates-adhir-ranjan-chowdhury-yusuf-pathan-latest-trends/?amp=1
+- slug: murshidabad_ls_2024_tmc_wins
+  date: '2024-05-13'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: 'Murshidabad LS constituency votes Phase 4; TMC''s Abu Taher Khan projected to
+    beat CPI(M)''s Salim and BJP''s Ghosh (result: Khan wins by 1,64,215)'
+  summary: 'Murshidabad LS constituency voted on May 13, 2024 in Phase 4. TMC''s Abu Taher
+    Khan
+
+    contested against CPI(M)''s Mohammed Salim and BJP''s Gauri Sankar Ghosh (the sitting
+
+    Murshidabad AC MLA). When counted June 4, Khan won by 1,64,215 votes (44.3% of vote
+
+    share; Salim 33.6%; BJP a distant third). The result confirmed overwhelming Muslim
+
+    vote consolidation behind TMC in the district, with Congress effectively eliminated
+
+    at the national level and the Left reduced to second place.
+
+    '
+  tags:
+  - muslim_voter
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    muslim_voter: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://timelinedaily.com/lok-sabha-election-2024/lok-sabha-election-results-2024-tmc-abu-taher-khan-wins-murshidabad-seat
+  - https://www.etvbharat.com/en/!state/murshidabad-lok-sabha-election-results-2024-left-hope-rests-on-mohammed-salim-latest-updates-enn24060402429
+  - https://www.indiavotes.com/lok-sabha-details/2024/west-bengal/murshidabad/10359/9/18
+- slug: berhampore_ls_adhir_loses_2024
+  date: '2024-06-04'
+  temporal: episodic
+  scope: district
+  intensity: 5
+  headline: 'Historic defeat: Yusuf Pathan (TMC) beats 5-time MP Adhir Ranjan Chowdhury by
+    85,022 votes; Congress era in Murshidabad ends'
+  summary: 'TMC''s cricketer Yusuf Pathan defeated Congress''s Adhir Ranjan Chowdhury in
+
+    Berhampore by 85,022 votes (Pathan 5,24,516; Chowdhury 4,39,494 votes). The defeat
+
+    ended Congress''s 25-year Lok Sabha dominance in Murshidabad. Adhir resigned as WB
+
+    Congress President. For AC-60 Murshidabad, the result confirmed TMC had permanently
+
+    captured the Muslim vote bank that Adhir had built — effectively eliminating Congress
+
+    as a viable force in the district for the foreseeable future.
+
+    '
+  tags:
+  - muslim_voter
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    muslim_voter: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.indiatvnews.com/west-bengal/news-baharampur-lok-sabha-election-results-2024-congress-adhir-ranjan-chowdhury-tmc-yusuf-pathan-bjp-vote-counting-winning-losing-candidates-2024-06-04-934528
+  - https://www.lokmattimes.com/national/lok-sabha-election-results-2024-yusuf-pathan-defeats-5-time-mp-adhir-ranjan-chowdhury-to-win-baharampur-seat-a507/
+  - https://www.republicworld.com/elections/lok-sabha-elections-2024/baharampur-berhampore-lok-sabha-election-results-2024-live-updates-adhir-ranjan-chowdhury-yusuf-pathan-latest-trends/?amp=1
+- slug: murshidabad_ls_tmc_wins_2024
+  date: '2024-06-04'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: TMC's Abu Taher Khan wins Murshidabad LS constituency by 1,64,215 votes; BJP's
+    Gouri Sankar Ghosh a distant third
+  summary: 'TMC''s Abu Taher Khan won the Murshidabad Lok Sabha constituency by 1,64,215 votes
+
+    over CPI(M)''s Mohammed Salim (44.3% vs 33.6%). BJP''s sitting Murshidabad AC MLA
+
+    Gouri Sankar Ghosh finished third. The result confirmed overwhelming Muslim vote
+
+    consolidation behind TMC in the district. The LS result set the stage for the
+
+    2026 AE where Ghosh faces TMC''s Shaoni Singha Roy in a rematch.
+
+    '
+  tags:
+  - muslim_voter
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    muslim_voter: positive
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://timelinedaily.com/lok-sabha-election-2024/lok-sabha-election-results-2024-tmc-abu-taher-khan-wins-murshidabad-seat
+  - https://www.etvbharat.com/en/!state/murshidabad-lok-sabha-election-results-2024-left-hope-rests-on-mohammed-salim-latest-updates-enn24060402429
+- slug: waqf_act_protests_murshidabad_violence_2025
+  date: '2025-04-11'
+  temporal: episodic
+  scope: district
+  intensity: 5
+  headline: Waqf Act protests turn deadly in Murshidabad; 3 killed, 400+ Hindus displaced,
+    central forces deployed
+  summary: 'Anti-Waqf Amendment Act protests in Murshidabad district erupted into deadly violence
+
+    on April 11-12, 2025. Two members of a Hindu family — Hargobind Das and his son Chandan
+
+    Das — were killed when their home was attacked, and a 17-year-old Muslim youth was shot.
+
+    Over 400 Hindu residents fled to Malda. Central forces were deployed after the Calcutta
+
+    High Court order; internet was suspended. The violence deepened communal polarisation
+
+    and gave BJP a sharp political opportunity to denounce TMC''s "appeasement" policy.
+
+    '
+  tags:
+  - muslim_voter
+  - bhadralok
+  - upper_caste_hindu
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    muslim_voter: negative
+    bhadralok: negative
+    upper_caste_hindu: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/Murshidabad_violence
+  - https://www.business-standard.com/india-news/west-bengal-murshidabad-waqf-act-protests-violence-arrests-deaths-tmc-bjp-125041300242_1.html
+  - https://www.aljazeera.com/news/2025/4/13/3-dead-over-150-arrested-in-india-protests-over-muslim-properties-bill
+  - https://m.thewire.in/article/communalism/murshidabad-violence-communal-clash-fact-finding-team-report
+- slug: murshidabad_violence_calcutta_hc_response_2025
+  date: '2025-04-14'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Calcutta High Court orders CAPF deployment in Murshidabad after Waqf violence;
+    opposition demands President's Rule
+  summary: 'The Calcutta High Court ordered deployment of Central Armed Police Forces in
+
+    Murshidabad following the Waqf Act violence. BJP demanded President''s Rule in
+
+    Bengal, with Union Home Minister Amit Shah intervening. A fact-finding report
+
+    described the violence as "deeply organised, politically driven" with state inaction
+
+    and police repression enabling it. The episode crystallised as a major flashpoint
+
+    ahead of the 2026 AE, with communal polarisation at historic levels in the district.
+
+    '
+  tags:
+  - muslim_voter
+  - bhadralok
+  - upper_caste_hindu
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    bhadralok: negative
+    upper_caste_hindu: negative
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://m.thewire.in/article/rights/murshidabad-violence-communal-clash-fact-finding-team-report
+  - https://www.deccanherald.com/india/west-bengal/waqf-act-row-no-fresh-escalation-but-violence-hit-murshidabad-remains-tense-3492287
+  - https://www.nationalheraldindia.com/national/decoding-murshidabad-violence-and-clamour-for-presidents-rule
+- slug: sir_voter_roll_deletions_murshidabad_2026
+  date: '2026-02-01'
+  temporal: episodic
+  scope: district
+  intensity: 5
+  headline: 'SIR voter roll revision: Murshidabad tops state in deletions with 4.5 lakh voters
+    removed; Muslim voters disproportionately affected'
+  summary: 'West Bengal''s Special Intensive Revision (SIR) of electoral rolls removed nearly
+
+    91 lakh voters statewide; Murshidabad district recorded the highest deletions at
+
+    4.5 lakh. In Muslim-majority constituencies of the district, approximately 90% of
+
+    individuals excluded during the "adjudication phase" were Muslim. Of 27.16 lakh
+
+    names excluded statewide due to "logical discrepancies," about 17 lakh were Muslim.
+
+    In Shamsherganj constituency alone, ~75,000 names were struck off. Opposition parties
+
+    accused the Election Commission of systematic disenfranchisement of Muslim voters.
+
+    '
+  tags:
+  - muslim_voter
+  - bhadralok
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    muslim_voter: negative
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.theresearchers.us/2026/04/07/91-lakh-voters-sir-west-bengal/
+  - https://www.outlookindia.com/elections/how-does-sir-impact-bengals-muslim-majority-constituencies
+  - https://www.aljazeera.com/news/2026/4/16/muslims-the-target-fury-as-millions-lose-voting-rights-in-indias-bengal
+  - https://www.theweek.in/news/india/2026/04/14/more-muslim-voters-deleted-than-hindus-in-west-bengals-sir-list.html
+  - https://thefederal.com/elections-2026/west-bengal-voter-purge-90-lakh-deletions-impact-bjp-tmc-monideepa-banerjie-238680
+- slug: humayun_kabir_babri_masjid_beldanga_2026
+  date: '2026-02-15'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: Suspended TMC MLA Humayun Kabir announces Babri Masjid construction in Beldanga,
+    Murshidabad; communal tension spikes
+  summary: 'Humayun Kabir, a suspended TMC MLA, announced plans to build a replica Babri Masjid
+
+    in Beldanga, Murshidabad. Videos of supporters carrying bricks circulated widely.
+
+    BJP framed this as evidence of Muslim appeasement by TMC. The announcement added
+
+    to communal polarisation in the district ahead of elections. TMC distanced itself
+
+    from Kabir''s statement while facing BJP accusations of enabling radical Muslim politics.
+
+    '
+  tags:
+  - muslim_voter
+  - bjp_supporter
+  - tmc_supporter
+  - bhadralok
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: negative
+    muslim_voter: ambient
+    bhadralok: negative
+  broadcast: true
+  sources:
+  - https://www.tribuneindia.com/news/assembly-elections-2026/bengal-battle-humayun-kabirs-babri-masjid-pitch-puts-mamatas-muslim-vote-bank-to-test/
+  - https://thefederal.com/elections-2026/babri-mosque-politics-murshidabad-belt-2026-bengal-elections-237784
+- slug: aimim_ajup_alliance_murshidabad_2026
+  date: '2026-03-15'
+  temporal: episodic
+  scope: district
+  intensity: 3
+  headline: AIMIM-Humayun Kabir AJUP alliance forms to contest in Murshidabad; alliance collapses
+    after sting video
+  summary: 'AIMIM (Owaisi) allied with Humayun Kabir''s Aam Janata Unnayan Party to contest
+
+    Muslim-majority seats in Murshidabad and Malda, threatening to split TMC''s Muslim
+
+    vote. However, a sting video emerged showing Kabir allegedly claiming he took Rs 1,000
+
+    crore from BJP to mislead Muslims, causing AIMIM to snap the alliance. The episode
+
+    reinforced TMC''s narrative that AIMIM-AJUP were BJP proxies designed to split the
+
+    Muslim vote and benefit BJP in key constituencies.
+
+    '
+  tags:
+  - muslim_voter
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    muslim_voter: negative
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.deccanchronicle.com/nation/bengal-polls-owaisi-kabir-alliance-threatens-to-split-tmcs-core-muslim-vote-bank-1949376
+  - https://www.theweek.in/news/india/2026/04/10/sting-video-sparks-political-fallout-aimim-snaps-ties-with-humayun-kabirs-party.html
+  - https://thefederal.com/elections-2026/bengal-aimim-ajup-alliance-congress-muslim-vote-bjp-237612
+- slug: ae_2026_candidates_murshidabad
+  date: '2026-03-16'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: '2026 AE Murshidabad (AC-64): TMC Shaoni Singha Roy vs BJP Gouri Shankar Ghosh
+    rematch'
+  summary: 'Source: Wikipedia 2026 WB AE PDF (PDF AC-64; sometimes listed as AC-60 in older
+    delimitation). TMC fields Shaoni Singha Roy (2021 runner-up, lost by 2,491); BJP fields
+    Gouri Shankar Ghosh. AIFB fields Abdul Mannan; INC fields Siddiqui Ali. Congress collapse
+    post-Adhir''s 2024 Berhampore loss, SIR deletions (4.5 lakh in Murshidabad, disproportionately
+    Muslim), and Waqf Act violence dominate 2026 frames.'
+  tags:
+  - bjp_supporter
+  - tmc_supporter
+  - muslim_voter
+  - upper_caste_hindu
+  valence:
+    bjp_supporter: positive
+    tmc_supporter: positive
+  broadcast: true
+  sources:
+  - https://en.wikipedia.org/wiki/2026_West_Bengal_Legislative_Assembly_election
+- slug: ram_navami_violence_murshidabad_march_2026
+  date: '2026-03-27'
+  temporal: episodic
+  scope: district
+  intensity: 5
+  headline: Ram Navami procession sparks communal violence in Murshidabad's Raghunathganj;
+    ~40 shops burned, 30 arrested including RSS leader
+  summary: 'Communal clashes erupted during a Ram Navami procession on March 27, 2026 in
+
+    Raghunathganj under Jangipur sub-division, Murshidabad. Stone-pelting, arson
+
+    and vandalism occurred, with ~40 Muslim-owned shops and stalls burned in Fultala.
+
+    Approximately 15 people were injured. Among 30 arrested were RSS leader Kingshuk
+
+    Bhattacharya. Section 144 was imposed. The violence — weeks before polling day —
+
+    dramatically heightened communal polarisation in the district, with BJP accusing
+
+    TMC of "appeasement" and Muslim voters feeling targeted.
+
+    '
+  tags:
+  - muslim_voter
+  - bhadralok
+  - upper_caste_hindu
+  - bjp_supporter
+  - tmc_supporter
+  - urban_trader
+  valence:
+    muslim_voter: negative
+    urban_trader: negative
+    bjp_supporter: positive
+    tmc_supporter: negative
+    bhadralok: negative
+    upper_caste_hindu: negative
+  broadcast: true
+  sources:
+  - https://thefederal.com/category/states/east/west-bengal/ram-navami-clashes-rock-murshidabad-poll-bound-west-bengal-elections-2026-236428
+  - https://www.deccanherald.com/india/west-bengal/ram-navami-in-west-bengal-clashes-in-murshidabad-harmony-gestures-in-nandigram-3947234
+  - https://www.indiatvnews.com/west-bengal/news-west-bengal-murshidabad-raghunathganj-violence-ram-navami-procession-security-assembly-elections-latest-updates-2026-03-27-1035360
+  - https://maktoobmedia.com/india/murshidabad-ram-navami-violence-rss-leader-among-30-detained-police-says-situation-under-control/
+- slug: adhir_ranjan_returns_berhampore_assembly_2026
+  date: '2026-03-30'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Adhir Ranjan Chowdhury returns to state politics, contests Berhampore assembly
+    seat against BJP's Subrata Maitra
+  summary: 'After losing Berhampore LS in 2024, Adhir Ranjan Chowdhury made a comeback bid
+
+    by contesting the Berhampore Assembly constituency in the 2026 AE, facing BJP''s
+
+    sitting MLA Subrata Maitra and TMC''s Naru Gopal Mukherjee in a three-way fight.
+
+    Adhir''s return to state politics signalled Congress''s attempt to rebuild in its
+
+    last stronghold territory, though his influence on AC-60 Murshidabad was much
+
+    diminished after the 2024 LS collapse.
+
+    '
+  tags:
+  - muslim_voter
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    muslim_voter: ambient
+    tmc_supporter: negative
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://newsable.asianetnews.com/india/adhir-chowdhury-eyes-state-return-after-lok-sabha-loss-in-berhampore-articleshow-n97kdqa
+  - https://aninews.in/news/national/general-news/adhir-ranjan-chowdhury-returns-to-state-politics-faces-incumbent-bjp-mla-subrata-maitra-in-fight-for-survival-at-berhampore20260413082158/
+- slug: murshidabad_2026_candidates_announced
+  date: '2026-04-01'
+  temporal: episodic
+  scope: AC
+  intensity: 4
+  headline: '2026 AE: BJP fields Gouri Sankar Ghosh vs TMC''s Shaoni Singha Roy rematch in
+    Murshidabad AC; Congress irrelevant'
+  summary: 'The Murshidabad AC-60 2026 contest pits BJP''s incumbent MLA-equivalent Gouri
+    Sankar
+
+    Ghosh (who holds the seat won by Mohan Haldar in 2021 and has been the effective BJP
+
+    face) against TMC''s Shaoni Singha Roy in a direct rematch. Shaoni Singha Roy — a
+
+    two-time MLA (2011 Congress, 2016 Congress) who contested TMC in 2021 — is attempting
+
+    her comeback. Congress has marginal presence in AC-60. BJP Ghosh must defend a 2,491
+
+    vote margin against a highly polarised electorate with massive SIR voter deletions.
+
+    '
+  tags:
+  - muslim_voter
+  - bhadralok
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    bjp_supporter: ambient
+    tmc_supporter: ambient
+    muslim_voter: ambient
+  broadcast: true
+  sources:
+  - https://www.aninews.in/news/national/politics/murshidabad-assembly-constituency-can-bjps-gouri-shankar-ghosh-hold-off-tmc-candidate-shaoni-singha-roys-comeback-push20260411122709/
+  - https://www.newkerala.com/news/a/murshidabad-assembly-constituency-can-bjps-gouri-shankar-ghosh-776.htm
+  - https://www.indiatvnews.com/west-bengal/news-murshidabad-constituency-west-bengal-assembly-election-2026-profile-past-winners-vote-margin-and-party-wise-candidates-2026-02-28-1032095
+- slug: murshidabad_sir_voter_imam_response_2026
+  date: '2026-04-16'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Imam associations in Murshidabad mobilise to restore deleted Muslim voters; Al
+    Jazeera covers 'voter purge' in Muslim-majority Bengal
+  summary: 'Following the SIR voter roll deletions that disproportionately affected Muslim
+    voters
+
+    in Murshidabad, imam associations and the All India Imam Association established
+
+    helplines to help deleted voters approach electoral tribunals. Al Jazeera published
+
+    a major report on Muslim disenfranchisement in Bengal titled "Muslims the target?
+
+    Fury as millions lose voting rights in India''s Bengal." The issue became the central
+
+    Muslim community grievance in the 2026 campaign, galvanising mosque networks and
+
+    community gatekeepers into voter registration drives.
+
+    '
+  tags:
+  - muslim_voter
+  - tmc_supporter
+  - bjp_supporter
+  valence:
+    muslim_voter: negative
+    tmc_supporter: positive
+    bjp_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.aljazeera.com/news/2026/4/16/muslims-the-target-fury-as-millions-lose-voting-rights-in-indias-bengal
+  - https://www.freepressjournal.in/analysis/west-bengal-sir-controversy-is-voter-roll-cleanup-quietly-disenfranchising-millions
+  - https://www.csmonitor.com/World/Asia-South-Central/2026/0423/India-voter-purge-West-Bengal-elections
+- slug: murshidabad_capf_deployment_2026
+  date: '2026-04-19'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: 316 CAPF companies deployed in Murshidabad for Phase 1 polls; 219 QRTs with all-CAPF
+    composition for sensitive booths
+  summary: 'For the 2026 AE Phase 1 polls, 316 of 2,407 total companies (13%) were deployed
+
+    in Murshidabad district alone — the highest allocation of any district. 240 companies
+
+    were for Murshidabad police district and 76 for Jangipur. Murshidabad received the
+
+    maximum 219 Quick Response Teams, all composed of CAPF personnel. Booth-level security
+
+    required two-stage voter verification before entry. The unprecedented deployment
+
+    reflected Murshidabad''s record of violence in past elections.
+
+    '
+  tags:
+  - muslim_voter
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    muslim_voter: ambient
+    bjp_supporter: positive
+    tmc_supporter: negative
+  broadcast: true
+  sources:
+  - https://www.newkerala.com/news/a/bengal-polls-maximum-security-forces-deployment-murshidabad-april-443.htm
+  - https://www.w3epapers.com/latest-news/eci-central-force-deployment-west-bengal-election-2026-phase-1/
+  - https://theshillongtimes.com/2026/04/21/bengal-1st-phase-polls-seven-districts-under-ecis-special-security-scanner/
+- slug: murshidabad_sensitised_district_2026
+  date: '2026-04-21'
+  temporal: episodic
+  scope: district
+  intensity: 4
+  headline: Murshidabad designated most sensitive district in WB AE 2026; ECI special scanner
+    applied to all 20 seats
+  summary: 'Election Commission designated Murshidabad as the most sensitive district for
+    the
+
+    2026 West Bengal Assembly elections, placing all 20 assembly segments under special
+
+    security scanner. The designation followed the Waqf Act violence of April 2025,
+
+    the Ram Navami clashes of March 2026, and the SIR voter deletion controversy.
+
+    Mamata Banerjee held multiple rallies in the district alleging BJP was orchestrating
+
+    communal violence to polarise voters. BJP countered with demands for stronger
+
+    central oversight.
+
+    '
+  tags:
+  - muslim_voter
+  - bhadralok
+  - bjp_supporter
+  - tmc_supporter
+  valence:
+    muslim_voter: ambient
+    tmc_supporter: negative
+    bjp_supporter: positive
+  broadcast: true
+  sources:
+  - https://www.freepressjournal.in/politics/west-bengal-assembly-election-2026-murshidabad-bjp-trinamool-congress-tmc-nawda-sir-muslim-voters
+  - https://theshillongtimes.com/2026/04/21/bengal-1st-phase-polls-seven-districts-under-ecis-special-security-scanner/
+- slug: murshidabad_ac60_phase1_polling_2026
+  date: '2026-04-23'
+  temporal: episodic
+  scope: AC
+  intensity: 5
+  headline: Murshidabad AC-60 goes to polls in Phase 1; BJP's Gouri Sankar Ghosh faces TMC's
+    Shaoni Singha Roy under CAPF oversight
+  summary: 'Murshidabad AC-60 voted in Phase 1 of the 2026 WB Assembly Elections on April
+    23,
+
+    with BJP''s Gouri Sankar Ghosh defending the 2021 margin of 2,491 votes against
+
+    TMC''s Shaoni Singha Roy. The election was conducted under unprecedented CAPF security
+
+    coverage. Key issues in the constituency included SIR voter roll deletions (with
+
+    Murshidabad topping the state in deletions), the Waqf Act violence, the Ram Navami
+
+    clashes, and the welfare scheme continuation question. West Bengal recorded a
+
+    highest-ever 91.58% voter turnout statewide in Phase 1.
+
+    '
+  tags:
+  - muslim_voter
+  - bhadralok
+  - bjp_supporter
+  - tmc_supporter
+  - upper_caste_hindu
+  - woman
+  valence:
+    muslim_voter: ambient
+    bjp_supporter: ambient
+    tmc_supporter: ambient
+  broadcast: true
+  sources:
+  - https://www.aninews.in/news/national/politics/murshidabad-assembly-constituency-can-bjps-gouri-shankar-ghosh-hold-off-tmc-candidate-shaoni-singha-roys-comeback-push20260411122709/
+  - https://www.deccanchronicle.com/assembly-elections-2026/west-bengal-assembly-elections-2026-live-updates-bjp-tmc-voting-voter1952202
+  - https://www.outlookindia.com/elections/assembly-elections-2026-voting-live-west-bengal-phase-1-tamil-nadu-bjp-vs-congress-vs-tmc
