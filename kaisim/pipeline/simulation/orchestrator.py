@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import asdict, dataclass, field
 from datetime import date
 from pathlib import Path
@@ -117,10 +118,15 @@ class Orchestrator:
         self.reflector = ReflectionUpdater(
             self.provider, **{**self.llm_kwargs, "max_tokens": 1500}
         )
+        # Qwen 3.5 9B emits ~1500-2000 tokens of <think>...</think> before the
+        # JSON vote — sglang strips it from `message.content` (with
+        # --reasoning-parser qwen3) but it still counts toward max_tokens.
+        # Budget 8000 so the JSON tail is never truncated.
         self.final_query = FinalVoteQuery(
             self.provider, **{**self.llm_kwargs,
-                              "max_tokens": 2000,
-                              "reasoning": "medium"}
+                              "max_tokens": int(config.get("llm.final_vote_max_tokens", 8000)),
+                              "reasoning": "medium",
+                              "election_context": config.get("election_context", {})}
         )
 
         # Ticker
@@ -145,9 +151,26 @@ class Orchestrator:
         )
 
         # Concurrency
-        self.semaphore = asyncio.Semaphore(
-            int(config.get("execution.max_concurrent_personas", 10))
-        )
+        self._max_concurrent = int(config.get("execution.max_concurrent_personas", 10))
+        self.semaphore = asyncio.Semaphore(self._max_concurrent)
+
+        # Bump the default thread pool used by `asyncio.to_thread(...)` —
+        # otherwise it caps at min(32, cpu_count+4) and you only ever get
+        # 32 concurrent LLM HTTP calls regardless of `max_concurrent_personas`.
+        # Park-minimal updater + final-vote query both use to_thread, so this
+        # is the actual bottleneck that limits in-flight requests on sglang.
+        # We size it to comfortably exceed the semaphore so threads never
+        # become the binding constraint.
+        try:
+            asyncio.get_event_loop().set_default_executor(
+                ThreadPoolExecutor(max_workers=max(self._max_concurrent + 32, 256),
+                                   thread_name_prefix="orch_llm")
+            )
+        except RuntimeError:
+            # No running loop (called outside `asyncio.run`); the loop
+            # created by `asyncio.run` will pick up our executor when we
+            # set it again at run() time.
+            pass
 
         self.usage_total: dict[str, int] = {}
 

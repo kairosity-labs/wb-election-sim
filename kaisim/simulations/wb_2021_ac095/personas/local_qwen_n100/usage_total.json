@@ -1,0 +1,12 @@
+{
+  "provider": "openai",
+  "model": "Qwen/Qwen3.5-9B",
+  "reasoning": null,
+  "batches_run": 13,
+  "usage_total": {
+    "input_tokens": 179122,
+    "output_tokens": 160199,
+    "reasoning_tokens": 0,
+    "cached_input_tokens": 0
+  }
+}

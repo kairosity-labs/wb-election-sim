@@ -1,0 +1,1 @@
+../../../../constituency_data/constituencies/123_sandeshkhali/2019/narrative.md

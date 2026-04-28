@@ -1,0 +1,63 @@
+simulation:
+  name: 210_nandigram_2021_blind_to_prior
+  description: tag_match, but bjp/tmc/left_inc supporter tags masked from agent.
+ac_id: 210_nandigram
+input:
+  persona_set: local_qwen_n100
+clock:
+  start_date: '2020-01-01'
+  end_date: '2021-04-01'
+  tick_unit: month
+  tick_size: 1
+  reflection_every_n_ticks: 6
+targeting:
+  strategy: tag_match
+  config:
+    mask_tags:
+    - bjp_supporter
+    - tmc_supporter
+    - left_inc_supporter
+update:
+  style: park_minimal
+reflection:
+  enabled: true
+  every_n_ticks: 6
+  compression_target_tokens: 200
+llm:
+  provider: openai
+  model: Qwen/Qwen3.5-9B
+  base_url: http://localhost:30000/v1
+  api_key: EMPTY
+  reasoning: null
+  temperature: 0.7
+  max_tokens: 4000
+  cache_system_prompt: true
+execution:
+  async: true
+  max_concurrent_personas: 100
+output:
+  runs_dir: runs
+  save_raw_responses: true
+  save_feeds_audit: true
+election_context:
+  ac_name: Nandigram
+  poll_date_human: 1 April 2021
+  election_label: 2021 West Bengal Legislative Assembly Election
+  candidates:
+    BJP:
+      name: Suvendu Adhikari
+      note: winner
+    AITC:
+      name: Mamata Banerjee
+    LF:
+      name: Minakshi Mukherjee (CPI(M))
+    INC:
+      name: "\u2014"
+    Other:
+      name: Other / NOTA
+ground_truth:
+  BJP: 48.49
+  AITC: 47.64
+  LF: 2.74
+  INC: 0.5
+  Other: 0.63

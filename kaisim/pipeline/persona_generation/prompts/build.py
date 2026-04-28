@@ -172,10 +172,109 @@ def _persona_schema_block(ctx: SimulationContext, vote_field: str) -> str:
         "  It will be used downstream as a system prompt for that persona in a simulation.\n"
         "  Style: vivid, specific, ~200–350 words, written like an actor's character brief.\n"
         "  Cover: name, family/refugee history if relevant, daily life, household relationships,\n"
-        "  political affiliation reasoning, what news/issues animate them, how they would explain\n"
-        "  their 2019 LS vote choice in their own words. Use details from the pre-period context.\n"
+        "  what news/issues animate them, what local figures they admire or distrust, what daily\n"
+        "  pressures and welfare touch-points shape their politics. Use details from the\n"
+        "  pre-period context.\n"
+        "  **DO NOT** explain or rationalize their 2019 LS vote choice in the narrative — that\n"
+        "  vote is recorded separately in the `fields` dict. The narrative should describe the\n"
+        "  identity and pressures that PRODUCE political views, not lock in a frozen\n"
+        "  rationalization of the 2019 outcome. (When the persona later answers a 2021/2024 vote\n"
+        "  query, the answer should emerge from these biographical pressures + what they've\n"
+        "  lived through since 2019, not from a frozen self-justification.)\n"
         "  DO NOT reference any event after the pre-period cutoff specified in the context.\n"
     )
+
+
+def build_persona_json_schema(
+    ctx: SimulationContext, vote_field: str, batch_size: int | None = None
+) -> dict:
+    """Build a strict JSON schema for the LLM's `response_format`.
+
+    sglang/vLLM/OpenAI all support `response_format = {"type":"json_schema",
+    "json_schema":{"name":..., "schema":..., "strict":True}}`. Constrained
+    decoding (xgrammar-backed in sglang) GUARANTEES the model emits valid
+    JSON with the exact shape we want — every category becomes an enum, all
+    required fields are present, no preamble. Schema-violation drops at the
+    validator should fall to ~0 with this in place.
+
+    Each `fields.<axis>` is typed:
+      partition / derived-with-categories  → string with `enum`
+      flag / derived-with-flags            → object with all flags as
+                                             required boolean properties
+    """
+    fields_props: dict[str, Any] = {}
+    fields_required: list[str] = []
+    for a in ctx.axes:
+        if not a.is_sampleable() or a.kind == "scalar":
+            continue
+        if a.kind == "partition" or (a.kind == "derived" and a.categories):
+            cats = list(a.categories or [])
+            # Match validate_persona's special-cases.
+            if a.name in {"occupation", "class_of_worker", "welfare_dominant"}:
+                if "None" not in cats:
+                    cats = cats + ["None"]
+            fields_props[a.name] = {"type": "string", "enum": cats}
+            fields_required.append(a.name)
+        elif a.kind == "flag" or (a.kind == "derived" and a.flags):
+            flags = list(a.flags or [])
+            fields_props[a.name] = {
+                "type": "object",
+                "properties": {f: {"type": "boolean"} for f in flags},
+                "required": flags,
+                "additionalProperties": False,
+            }
+            fields_required.append(a.name)
+
+    # Vote field: enum over parties seen in any vote_conditional joint.
+    parties: list[str] = []
+    for j in ctx.joints:
+        if j.semantics == "vote_conditional" and j.parties:
+            for p in j.parties:
+                if p not in parties:
+                    parties.append(p)
+    if not parties:
+        parties = ["BJP", "AITC", "INC", "LF", "Other"]
+    fields_props[vote_field] = {"type": "string", "enum": parties}
+    fields_required.append(vote_field)
+
+    persona_schema = {
+        "type": "object",
+        "properties": {
+            "fields": {
+                "type": "object",
+                "properties": fields_props,
+                "required": fields_required,
+                "additionalProperties": False,
+            },
+            "narrative": {
+                "type": "object",
+                "properties": {
+                    "self_prompt": {"type": "string", "minLength": 200},
+                },
+                "required": ["self_prompt"],
+                "additionalProperties": False,
+            },
+        },
+        "required": ["fields", "narrative"],
+        "additionalProperties": False,
+    }
+
+    array_constraint: dict[str, Any] = {
+        "type": "array",
+        "items": persona_schema,
+    }
+    if batch_size is not None:
+        # Soft bound — encourages exactly batch_size items but doesn't
+        # block decode at upper edge.
+        array_constraint["minItems"] = max(1, batch_size - 2)
+        array_constraint["maxItems"] = batch_size + 4
+
+    return {
+        "type": "object",
+        "properties": {"personas": array_constraint},
+        "required": ["personas"],
+        "additionalProperties": False,
+    }
 
 
 def build_system_prompt(ctx: SimulationContext, persona_config: PersonaConfig) -> str:
@@ -286,7 +385,18 @@ def build_batch_user_prompt(
     parts.append(
         f"Generate exactly **{batch_size}** new personas as a JSON object of the shape "
         "shown in the system prompt's Output schema section. Bias your picks to close "
-        "the gaps above. Return ONLY the JSON — no prose, no markdown fences."
+        "the gaps above. Return ONLY the JSON — no prose, no markdown fences.\n\n"
+        "**HARD REQUIREMENTS** (drop one and the persona is rejected):\n"
+        "  1. Top-level shape: `{\"personas\": [ {...}, {...}, ... ]}`.\n"
+        "  2. Each persona has BOTH `fields` AND `narrative.self_prompt`.\n"
+        "  3. Every value in `fields` must be EXACTLY a canonical code from the\n"
+        "     axes section of the system prompt. No new codes, no relabeling,\n"
+        "     no plain-English variants. Examples of common errors to avoid:\n"
+        "       `bagdi` → use `Bagdi`; `Main worker` → use `Main_worker`;\n"
+        "       `25_27` is NOT an age cohort (use `23_27` or `28_32`);\n"
+        "       `Employee` is a class_of_worker code, not occupation/workforce_status;\n"
+        "       `Sheikh` is NOT a caste leaf (Muslim sub-castes pooled to `Muslim`).\n"
+        "  4. `narrative.self_prompt` is a single 200-350 word English string."
     )
     return "\n".join(parts)
 
@@ -356,8 +466,38 @@ def _extract_personas_iteratively(text: str) -> list[dict]:
     return personas
 
 
+def _norm_code(s: str) -> str:
+    """Normalize a category code for fuzzy lookup: lowercase, only alnum kept."""
+    return re.sub(r"[^a-z0-9]+", "", s.lower())
+
+
+def _fuzzy_resolve(value: str, canonicals: set[str]) -> str | None:
+    """Try to canonicalize a malformed category value.
+
+    The 9B local LLM frequently produces casing/punctuation drift
+    (e.g. `bagdi` vs `Bagdi`, `Main worker` vs `Main_worker`,
+    `Higher Secondary (Class 11-12)` vs `Higher_Secondary`). Canonical-
+    code normalization rescues those cases without loosening real schema
+    violations like `Sheikh` for caste (which legitimately doesn't exist
+    after our Muslim sub-caste pooling).
+    """
+    if value in canonicals:
+        return value
+    nv = _norm_code(value)
+    if not nv:
+        return None
+    for c in canonicals:
+        if _norm_code(c) == nv:
+            return c
+    return None
+
+
 def validate_persona(d: dict, ctx: SimulationContext, vote_field: str) -> tuple[bool, str | None]:
-    """Check a parsed persona dict matches the schema. Returns (ok, error_msg)."""
+    """Check (and lightly normalize) a parsed persona. Returns (ok, error_msg).
+
+    Mutates `d['fields']` in place when fuzzy normalization recovers a value
+    so downstream code (vote sampler, verifier) sees the canonical code.
+    """
     if not isinstance(d, dict):
         return False, "persona is not a dict"
     fields = d.get("fields")
@@ -376,13 +516,27 @@ def validate_persona(d: dict, ctx: SimulationContext, vote_field: str) -> tuple[
             if axis.name == "welfare_dominant":
                 cats.add("None")
             if v not in cats:
-                return False, f"field {axis.name!r} value {v!r} not in categories"
+                resolved = _fuzzy_resolve(str(v), cats)
+                if resolved is None:
+                    return False, f"field {axis.name!r} value {v!r} not in categories"
+                fields[axis.name] = resolved
         elif axis.kind == "flag" or (axis.kind == "derived" and axis.flags):
             if not isinstance(v, dict):
                 return False, f"field {axis.name!r} must be a dict of flags"
-            for flag in (axis.flags or []):
-                if flag not in v:
+            # Allow case/punctuation drift in flag KEYS, e.g. `tv`/`Television`.
+            flag_set = set(axis.flags or [])
+            normalized: dict[str, bool] = {}
+            for k, val in v.items():
+                if k in flag_set:
+                    normalized[k] = bool(val)
+                    continue
+                resolved = _fuzzy_resolve(str(k), flag_set)
+                if resolved is not None:
+                    normalized[resolved] = bool(val)
+            for flag in flag_set:
+                if flag not in normalized:
                     return False, f"field {axis.name!r} missing flag {flag!r}"
+            fields[axis.name] = normalized
     if vote_field not in fields:
         return False, f"missing vote field {vote_field!r}"
     narrative = d.get("narrative", {})

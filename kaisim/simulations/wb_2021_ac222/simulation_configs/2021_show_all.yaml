@@ -1,0 +1,59 @@
+simulation:
+  name: 222_jhargram_2021_show_all
+  description: "show_all targeting \u2014 every agent receives every event. No cap."
+ac_id: 222_jhargram
+input:
+  persona_set: local_qwen_n100
+clock:
+  start_date: '2020-01-01'
+  end_date: '2021-03-27'
+  tick_unit: month
+  tick_size: 1
+  reflection_every_n_ticks: 6
+targeting:
+  strategy: show_all
+  config: {}
+update:
+  style: park_minimal
+reflection:
+  enabled: true
+  every_n_ticks: 6
+  compression_target_tokens: 200
+llm:
+  provider: openai
+  model: Qwen/Qwen3.5-9B
+  base_url: http://localhost:30000/v1
+  api_key: EMPTY
+  reasoning: null
+  temperature: 0.7
+  max_tokens: 4000
+  cache_system_prompt: true
+execution:
+  async: true
+  max_concurrent_personas: 100
+output:
+  runs_dir: runs
+  save_raw_responses: true
+  save_feeds_audit: true
+election_context:
+  ac_name: Jhargram
+  poll_date_human: 27 March 2021
+  election_label: 2021 West Bengal Legislative Assembly Election
+  candidates:
+    AITC:
+      name: Birbaha Hansda
+      note: winner
+    BJP:
+      name: Sukhmoy Satpati
+    LF:
+      name: Madhuja Sen Roy (CPI(M))
+    INC:
+      name: "\u2014"
+    Other:
+      name: Other / NOTA
+ground_truth:
+  AITC: 54.31
+  BJP: 35.34
+  LF: 5.17
+  INC: 1.5
+  Other: 3.68

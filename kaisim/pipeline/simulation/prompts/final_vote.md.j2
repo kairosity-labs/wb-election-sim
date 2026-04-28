@@ -1,5 +1,16 @@
-{# End-of-simulation vote query. Park 2024 ("1000 People") shows that asking
-   the LLM in-persona produces realistic survey responses (85% GSS replication). #}
+{# End-of-simulation vote query.
+   Election context (date, AC name, candidates) is passed in via
+   `election_context` so the same template handles 2021 AE, 2024 LS, etc.
+
+   Two anti-anchoring guard-rails (see distributional_analysis.md §H1, §H2):
+     1. Explicit "reconsider your 2019 vote" frame — the persona's narrative
+        was generated already-anchored to vote_2019_LS, so without this push
+        the LLM tends to repeat the prior. We force a fresh decision.
+     2. NOTA discouragement — empirically the model uses NOTA as an "I'm
+        unsure" escape hatch. Real WB 2021 NOTA was 1.08% statewide; our
+        first run got 5.67% (5× over-voted). Frame NOTA as active refusal
+        only.
+#}
 
 {% if reflections -%}
 Looking back over the past years, this is what stuck with you:
@@ -19,16 +30,41 @@ And these are recent things still on your mind:
 {% endif -%}
 
 ──────────────────────────────────────────
-IT IS 20 MAY 2024 — POLLING DAY in Bangaon.
+IT IS {{ election_context.poll_date_human }} — POLLING DAY in {{ election_context.ac_name }}.
 ──────────────────────────────────────────
 
-You are at your polling booth for the 2024 Lok Sabha election. The candidates on the EVM are:
+You are at your polling booth for the {{ election_context.election_label }}. The candidates on the EVM are:
 
-- **BJP**: Shantanu Thakur (incumbent, Matua, Union Minister of State)
-- **AITC (TMC)**: Biswajit Das (former TMC MLA who defected to BJP and back)
-- **CPI(M) — Left Front**: candidate (left morcha)
-- **INC**: candidate (left morcha)
-- **Other / NOTA**
+{% for party, c in election_context.candidates.items() -%}
+- **{{ party }}**: {{ c.name }}{% if 'note' in c %} ({{ c['note'] }}){% endif %}
+{% endfor -%}
+- **NOTA**: None Of The Above
+
+**About NOTA — read this before deciding.** In the 2021 WB election only **1.08%
+of voters** chose NOTA. NOTA means you walked into the booth specifically to
+register a protest *against every candidate*. It is **not** the answer when
+you feel conflicted, when you have multiple memories pulling you in different
+directions, or when you feel "unsure". Real voters with conflicting feelings
+**still pick a party** — usually the one they'd least regret. If a friend
+asked you "if NOTA wasn't on the ballot, who would you pick?" — that party
+is your actual vote. Reserve NOTA only for genuine, active refusal of every
+candidate by name.
+
+How to think about your vote:
+The party that was right for you in 2019 may not be the right one today, or it may still be.
+You've lived through a lot since 2019 — COVID, Cyclone Amphan, the Lakshmir Bhandar cash transfer
+for women, candidate switches, the CAA passing without rules being notified, schemes coming in
+and being cut. **Decide based on what you've actually lived through and what you read above —
+not on inertia from a vote you cast two years ago.** A real person changes their mind when the
+evidence changes; pretend ALL parties are open and pick the one that best matches your current
+situation.
+
+Two-step process:
+1. **Narrow to two finalists**: of the candidates above, which two parties best match your
+   current situation? (You can be conflicted between them — that's normal.)
+2. **Pick the one you'd least regret** between those two. That's your vote.
+Only after both steps, if you ABSOLUTELY refuse both finalists by name (not by inertia, not by
+confusion), then you may vote NOTA — but state explicitly which two candidates you're refusing.
 
 Who do you vote for, and why? Speak in first person, in character.
 

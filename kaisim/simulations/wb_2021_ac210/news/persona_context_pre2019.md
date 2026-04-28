@@ -1,0 +1,1 @@
+../../../../constituency_data/constituencies/210_nandigram/2019/narrative.md

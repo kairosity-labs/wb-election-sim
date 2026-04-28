@@ -1,0 +1,21 @@
+{
+  "name": "local_qwen_n100",
+  "created_at": "2026-04-28T15:22:47+00:00",
+  "n": 100,
+  "sampler": "llm_batch",
+  "config_hash": "sha256:23a1ec1fee29f83d",
+  "schema_version": "1.0",
+  "verifier": {
+    "n": 100,
+    "composite_score": 392.81,
+    "within_tolerance": false,
+    "max_axis_z": 2.46,
+    "max_joint_z": 3.1,
+    "aggregate_vote_max_z": 0.51,
+    "max_axis_gap_pp": 10.0,
+    "max_joint_cell_gap_pp": 100.0,
+    "aggregate_vote_max_gap_pp": 2.5,
+    "skipped_joints": 2,
+    "skipped_buckets": 3
+  }
+}

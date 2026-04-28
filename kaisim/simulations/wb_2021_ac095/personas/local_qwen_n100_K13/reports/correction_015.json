@@ -1,0 +1,4360 @@
+{
+  "n": 114,
+  "composite_score": 1457.9,
+  "within_tolerance": false,
+  "tolerance_used": {
+    "cell_z_max": 2.5,
+    "composite_chisq_max": 800.0,
+    "tier_A_axis_pp": 2.0,
+    "tier_BC_axis_pp": 3.0,
+    "tier_DE_axis_pp": 4.0,
+    "joint_cell_pp": 5.0,
+    "aggregate_vote_pp": 2.0
+  },
+  "tier_weights_used": {
+    "A": 4.0,
+    "B": 3.0,
+    "C": 2.0,
+    "D": 1.5,
+    "E": 1.0,
+    "null": 1.0
+  },
+  "axis_gaps": [
+    {
+      "axis": "religion",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 2.333333333333343,
+      "max_abs_z": 1.0730867399773196,
+      "chisq_sum": 1.6921153723321785,
+      "n_out_of_tol": 0,
+      "rows": [
+        {
+          "category": "Hindu",
+          "target_pct": 81.0,
+          "observed_pct": 83.33,
+          "gap_pp": 2.33,
+          "se_pp": 3.674,
+          "z": 0.64,
+          "in_tol": true
+        },
+        {
+          "category": "Muslim",
+          "target_pct": 18.0,
+          "observed_pct": 16.67,
+          "gap_pp": -1.33,
+          "se_pp": 3.598,
+          "z": -0.37,
+          "in_tol": true
+        },
+        {
+          "category": "Other",
+          "target_pct": 1.0,
+          "observed_pct": 0.0,
+          "gap_pp": -1.0,
+          "se_pp": 0.932,
+          "z": -1.07,
+          "in_tol": true
+        }
+      ]
+    },
+    {
+      "axis": "caste",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 11.937719298245616,
+      "max_abs_z": 2.8760370612367865,
+      "chisq_sum": 24.7885468827674,
+      "n_out_of_tol": 1,
+      "rows": [
+        {
+          "category": "Namasudra_Matua",
+          "target_pct": 39.5,
+          "observed_pct": 50.0,
+          "gap_pp": 10.5,
+          "se_pp": 4.579,
+          "z": 2.29,
+          "in_tol": true
+        },
+        {
+          "category": "Bagdi",
+          "target_pct": 1.5,
+          "observed_pct": 0.0,
+          "gap_pp": -1.5,
+          "se_pp": 1.138,
+          "z": -1.32,
+          "in_tol": true
+        },
+        {
+          "category": "Poundra",
+          "target_pct": 0.7,
+          "observed_pct": 0.0,
+          "gap_pp": -0.7,
+          "se_pp": 0.781,
+          "z": -0.9,
+          "in_tol": true
+        },
+        {
+          "category": "Other_SC",
+          "target_pct": 1.3,
+          "observed_pct": 0.88,
+          "gap_pp": -0.42,
+          "se_pp": 1.061,
+          "z": -0.4,
+          "in_tol": true
+        },
+        {
+          "category": "ST_total",
+          "target_pct": 3.6,
+          "observed_pct": 2.63,
+          "gap_pp": -0.97,
+          "se_pp": 1.745,
+          "z": -0.56,
+          "in_tol": true
+        },
+        {
+          "category": "UC_bhadralok",
+          "target_pct": 10.0,
+          "observed_pct": 9.65,
+          "gap_pp": -0.35,
+          "se_pp": 2.81,
+          "z": -0.12,
+          "in_tol": true
+        },
+        {
+          "category": "OBC_specific",
+          "target_pct": 2.0,
+          "observed_pct": 5.26,
+          "gap_pp": 3.26,
+          "se_pp": 1.311,
+          "z": 2.49,
+          "in_tol": true
+        },
+        {
+          "category": "Other_Hindu_middle_castes",
+          "target_pct": 26.85,
+          "observed_pct": 14.91,
+          "gap_pp": -11.94,
+          "se_pp": 4.151,
+          "z": -2.88,
+          "in_tol": false
+        },
+        {
+          "category": "Muslim",
+          "target_pct": 13.58,
+          "observed_pct": 16.67,
+          "gap_pp": 3.09,
+          "se_pp": 3.209,
+          "z": 0.96,
+          "in_tol": true
+        },
+        {
+          "category": "Christian_plus_Sarna_plus_Other",
+          "target_pct": 0.97,
+          "observed_pct": 0.0,
+          "gap_pp": -0.97,
+          "se_pp": 0.918,
+          "z": -1.06,
+          "in_tol": true
+        },
+        {
+          "category": "SC_total (rollup)",
+          "target_pct": 43.0,
+          "observed_pct": 50.88,
+          "gap_pp": 7.88,
+          "se_pp": 4.637,
+          "z": 1.7,
+          "in_tol": true,
+          "is_rollup": true
+        }
+      ]
+    },
+    {
+      "axis": "age_cohort",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 5.860373684210526,
+      "max_abs_z": 2.092331732659482,
+      "chisq_sum": 9.644713962739239,
+      "n_out_of_tol": 0,
+      "rows": [
+        {
+          "category": "18_22",
+          "target_pct": 12.77,
+          "observed_pct": 8.77,
+          "gap_pp": -3.99,
+          "se_pp": 3.125,
+          "z": -1.28,
+          "in_tol": true
+        },
+        {
+          "category": "23_27",
+          "target_pct": 13.48,
+          "observed_pct": 10.53,
+          "gap_pp": -2.95,
+          "se_pp": 3.198,
+          "z": -0.92,
+          "in_tol": true
+        },
+        {
+          "category": "28_32",
+          "target_pct": 13.48,
+          "observed_pct": 13.16,
+          "gap_pp": -0.32,
+          "se_pp": 3.198,
+          "z": -0.1,
+          "in_tol": true
+        },
+        {
+          "category": "33_37",
+          "target_pct": 12.06,
+          "observed_pct": 14.04,
+          "gap_pp": 1.98,
+          "se_pp": 3.05,
+          "z": 0.65,
+          "in_tol": true
+        },
+        {
+          "category": "38_42",
+          "target_pct": 10.64,
+          "observed_pct": 10.53,
+          "gap_pp": -0.11,
+          "se_pp": 2.888,
+          "z": -0.04,
+          "in_tol": true
+        },
+        {
+          "category": "43_47",
+          "target_pct": 9.93,
+          "observed_pct": 15.79,
+          "gap_pp": 5.86,
+          "se_pp": 2.801,
+          "z": 2.09,
+          "in_tol": true
+        },
+        {
+          "category": "48_52",
+          "target_pct": 8.51,
+          "observed_pct": 5.26,
+          "gap_pp": -3.25,
+          "se_pp": 2.613,
+          "z": -1.24,
+          "in_tol": true
+        },
+        {
+          "category": "53_57",
+          "target_pct": 7.09,
+          "observed_pct": 7.02,
+          "gap_pp": -0.07,
+          "se_pp": 2.404,
+          "z": -0.03,
+          "in_tol": true
+        },
+        {
+          "category": "58_62",
+          "target_pct": 5.67,
+          "observed_pct": 7.02,
+          "gap_pp": 1.34,
+          "se_pp": 2.167,
+          "z": 0.62,
+          "in_tol": true
+        },
+        {
+          "category": "63_67",
+          "target_pct": 3.55,
+          "observed_pct": 4.39,
+          "gap_pp": 0.84,
+          "se_pp": 1.732,
+          "z": 0.48,
+          "in_tol": true
+        },
+        {
+          "category": "68plus",
+          "target_pct": 2.84,
+          "observed_pct": 3.51,
+          "gap_pp": 0.67,
+          "se_pp": 1.555,
+          "z": 0.43,
+          "in_tol": true
+        }
+      ]
+    },
+    {
+      "axis": "gender",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 15.356666666666655,
+      "max_abs_z": 3.280412730347126,
+      "chisq_sum": 21.50945930504917,
+      "n_out_of_tol": 2,
+      "rows": [
+        {
+          "category": "Male",
+          "target_pct": 51.31,
+          "observed_pct": 66.67,
+          "gap_pp": 15.36,
+          "se_pp": 4.681,
+          "z": 3.28,
+          "in_tol": false
+        },
+        {
+          "category": "Female",
+          "target_pct": 48.68,
+          "observed_pct": 33.33,
+          "gap_pp": -15.35,
+          "se_pp": 4.681,
+          "z": -3.28,
+          "in_tol": false
+        },
+        {
+          "category": "Third_gender",
+          "target_pct": 0.01,
+          "observed_pct": 0.0,
+          "gap_pp": -0.01,
+          "se_pp": 0.296,
+          "z": -0.03,
+          "in_tol": true
+        }
+      ]
+    },
+    {
+      "axis": "mother_tongue",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 1.2000000000000028,
+      "max_abs_z": 1.1766968108291065,
+      "chisq_sum": 2.7597267633483353,
+      "n_out_of_tol": 0,
+      "rows": [
+        {
+          "category": "Bengali",
+          "target_pct": 98.8,
+          "observed_pct": 100.0,
+          "gap_pp": 1.2,
+          "se_pp": 1.02,
+          "z": 1.18,
+          "in_tol": true
+        },
+        {
+          "category": "Hindi",
+          "target_pct": 0.7,
+          "observed_pct": 0.0,
+          "gap_pp": -0.7,
+          "se_pp": 0.781,
+          "z": -0.9,
+          "in_tol": true
+        },
+        {
+          "category": "Urdu",
+          "target_pct": 0.3,
+          "observed_pct": 0.0,
+          "gap_pp": -0.3,
+          "se_pp": 0.512,
+          "z": -0.59,
+          "in_tol": true
+        },
+        {
+          "category": "Other",
+          "target_pct": 0.2,
+          "observed_pct": 0.0,
+          "gap_pp": -0.2,
+          "se_pp": 0.418,
+          "z": -0.48,
+          "in_tol": true
+        }
+      ]
+    },
+    {
+      "axis": "education",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 11.175438596491226,
+      "max_abs_z": 4.16941429874052,
+      "chisq_sum": 30.943779257233306,
+      "n_out_of_tol": 1,
+      "rows": [
+        {
+          "category": "Illiterate",
+          "target_pct": 14.0,
+          "observed_pct": 9.65,
+          "gap_pp": -4.35,
+          "se_pp": 3.25,
+          "z": -1.34,
+          "in_tol": true
+        },
+        {
+          "category": "Primary",
+          "target_pct": 23.0,
+          "observed_pct": 15.79,
+          "gap_pp": -7.21,
+          "se_pp": 3.941,
+          "z": -1.83,
+          "in_tol": true
+        },
+        {
+          "category": "Middle",
+          "target_pct": 22.0,
+          "observed_pct": 14.04,
+          "gap_pp": -7.96,
+          "se_pp": 3.88,
+          "z": -2.05,
+          "in_tol": true
+        },
+        {
+          "category": "Secondary",
+          "target_pct": 18.0,
+          "observed_pct": 20.18,
+          "gap_pp": 2.18,
+          "se_pp": 3.598,
+          "z": 0.6,
+          "in_tol": true
+        },
+        {
+          "category": "Higher_Secondary",
+          "target_pct": 11.0,
+          "observed_pct": 16.67,
+          "gap_pp": 5.67,
+          "se_pp": 2.93,
+          "z": 1.93,
+          "in_tol": true
+        },
+        {
+          "category": "Graduate",
+          "target_pct": 9.0,
+          "observed_pct": 20.18,
+          "gap_pp": 11.18,
+          "se_pp": 2.68,
+          "z": 4.17,
+          "in_tol": false
+        },
+        {
+          "category": "Postgraduate",
+          "target_pct": 3.0,
+          "observed_pct": 3.51,
+          "gap_pp": 0.51,
+          "se_pp": 1.598,
+          "z": 0.32,
+          "in_tol": true
+        }
+      ]
+    },
+    {
+      "axis": "workforce_status",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 20.0,
+      "max_abs_z": 4.65985898008574,
+      "chisq_sum": 39.04907890322833,
+      "n_out_of_tol": 2,
+      "rows": [
+        {
+          "category": "Main_worker",
+          "target_pct": 30.0,
+          "observed_pct": 50.0,
+          "gap_pp": 20.0,
+          "se_pp": 4.292,
+          "z": 4.66,
+          "in_tol": false
+        },
+        {
+          "category": "Marginal_worker",
+          "target_pct": 8.0,
+          "observed_pct": 3.51,
+          "gap_pp": -4.49,
+          "se_pp": 2.541,
+          "z": -1.77,
+          "in_tol": true
+        },
+        {
+          "category": "Non_worker",
+          "target_pct": 48.0,
+          "observed_pct": 35.96,
+          "gap_pp": -12.04,
+          "se_pp": 4.679,
+          "z": -2.57,
+          "in_tol": false
+        },
+        {
+          "category": "Student",
+          "target_pct": 6.0,
+          "observed_pct": 8.77,
+          "gap_pp": 2.77,
+          "se_pp": 2.224,
+          "z": 1.25,
+          "in_tol": true
+        },
+        {
+          "category": "Unemployed",
+          "target_pct": 8.0,
+          "observed_pct": 1.75,
+          "gap_pp": -6.25,
+          "se_pp": 2.541,
+          "z": -2.46,
+          "in_tol": true
+        }
+      ]
+    },
+    {
+      "axis": "occupation",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 11.344262295081968,
+      "max_abs_z": 1.9929347862268139,
+      "chisq_sum": 15.43771916642449,
+      "n_out_of_tol": 0,
+      "rows": [
+        {
+          "category": "Cultivator",
+          "target_pct": 18.0,
+          "observed_pct": 8.2,
+          "gap_pp": -9.8,
+          "se_pp": 4.919,
+          "z": -1.99,
+          "in_tol": true
+        },
+        {
+          "category": "Agricultural_labourer",
+          "target_pct": 28.0,
+          "observed_pct": 39.34,
+          "gap_pp": 11.34,
+          "se_pp": 5.749,
+          "z": 1.97,
+          "in_tol": true
+        },
+        {
+          "category": "Household_industry",
+          "target_pct": 4.0,
+          "observed_pct": 3.28,
+          "gap_pp": -0.72,
+          "se_pp": 2.509,
+          "z": -0.29,
+          "in_tol": true
+        },
+        {
+          "category": "Manufacturing",
+          "target_pct": 4.0,
+          "observed_pct": 0.0,
+          "gap_pp": -4.0,
+          "se_pp": 2.509,
+          "z": -1.59,
+          "in_tol": true
+        },
+        {
+          "category": "Construction",
+          "target_pct": 6.0,
+          "observed_pct": 3.28,
+          "gap_pp": -2.72,
+          "se_pp": 3.041,
+          "z": -0.89,
+          "in_tol": true
+        },
+        {
+          "category": "Trade_retail",
+          "target_pct": 12.0,
+          "observed_pct": 16.39,
+          "gap_pp": 4.39,
+          "se_pp": 4.161,
+          "z": 1.06,
+          "in_tol": true
+        },
+        {
+          "category": "Transport",
+          "target_pct": 6.0,
+          "observed_pct": 8.2,
+          "gap_pp": 2.2,
+          "se_pp": 3.041,
+          "z": 0.72,
+          "in_tol": true
+        },
+        {
+          "category": "Services",
+          "target_pct": 12.0,
+          "observed_pct": 8.2,
+          "gap_pp": -3.8,
+          "se_pp": 4.161,
+          "z": -0.91,
+          "in_tol": true
+        },
+        {
+          "category": "Government_services_teachers",
+          "target_pct": 4.0,
+          "observed_pct": 3.28,
+          "gap_pp": -0.72,
+          "se_pp": 2.509,
+          "z": -0.29,
+          "in_tol": true
+        },
+        {
+          "category": "Out_migrant_worker",
+          "target_pct": 6.0,
+          "observed_pct": 9.84,
+          "gap_pp": 3.84,
+          "se_pp": 3.041,
+          "z": 1.26,
+          "in_tol": true
+        }
+      ]
+    },
+    {
+      "axis": "class_of_worker",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 16.524590163934427,
+      "max_abs_z": 2.874420825482451,
+      "chisq_sum": 13.574439611910345,
+      "n_out_of_tol": 1,
+      "rows": [
+        {
+          "category": "Employer",
+          "target_pct": 2.0,
+          "observed_pct": 3.28,
+          "gap_pp": 1.28,
+          "se_pp": 1.793,
+          "z": 0.71,
+          "in_tol": true
+        },
+        {
+          "category": "Employee",
+          "target_pct": 28.0,
+          "observed_pct": 11.48,
+          "gap_pp": -16.52,
+          "se_pp": 5.749,
+          "z": -2.87,
+          "in_tol": false
+        },
+        {
+          "category": "Single_worker",
+          "target_pct": 50.0,
+          "observed_pct": 63.93,
+          "gap_pp": 13.93,
+          "se_pp": 6.402,
+          "z": 2.18,
+          "in_tol": true
+        },
+        {
+          "category": "Family_worker",
+          "target_pct": 20.0,
+          "observed_pct": 21.31,
+          "gap_pp": 1.31,
+          "se_pp": 5.121,
+          "z": 0.26,
+          "in_tol": true
+        }
+      ]
+    },
+    {
+      "axis": "economic_status",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 7.8245614035087705,
+      "max_abs_z": 2.0167579934525874,
+      "chisq_sum": 5.73821731375804,
+      "n_out_of_tol": 0,
+      "rows": [
+        {
+          "category": "BPL_household",
+          "target_pct": 22.0,
+          "observed_pct": 29.82,
+          "gap_pp": 7.82,
+          "se_pp": 3.88,
+          "z": 2.02,
+          "in_tol": true
+        },
+        {
+          "category": "Above_Poverty_Line_low_income",
+          "target_pct": 38.0,
+          "observed_pct": 35.96,
+          "gap_pp": -2.04,
+          "se_pp": 4.546,
+          "z": -0.45,
+          "in_tol": true
+        },
+        {
+          "category": "Lower_middle",
+          "target_pct": 25.0,
+          "observed_pct": 22.81,
+          "gap_pp": -2.19,
+          "se_pp": 4.056,
+          "z": -0.54,
+          "in_tol": true
+        },
+        {
+          "category": "Middle",
+          "target_pct": 12.0,
+          "observed_pct": 8.77,
+          "gap_pp": -3.23,
+          "se_pp": 3.044,
+          "z": -1.06,
+          "in_tol": true
+        },
+        {
+          "category": "Upper_middle_well_off",
+          "target_pct": 3.0,
+          "observed_pct": 2.63,
+          "gap_pp": -0.37,
+          "se_pp": 1.598,
+          "z": -0.23,
+          "in_tol": true
+        }
+      ]
+    },
+    {
+      "axis": "gp_location",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 13.271929824561411,
+      "max_abs_z": 2.8456570096798677,
+      "chisq_sum": 16.195527633480324,
+      "n_out_of_tol": 2,
+      "rows": [
+        {
+          "category": "U1_Muni",
+          "target_pct": 54.5,
+          "observed_pct": 41.23,
+          "gap_pp": -13.27,
+          "se_pp": 4.664,
+          "z": -2.85,
+          "in_tol": false
+        },
+        {
+          "category": "U2_CDB_rural",
+          "target_pct": 45.5,
+          "observed_pct": 58.77,
+          "gap_pp": 13.27,
+          "se_pp": 4.664,
+          "z": 2.85,
+          "in_tol": false
+        }
+      ]
+    },
+    {
+      "axis": "household_type",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 11.228070175438589,
+      "max_abs_z": 4.795585046040383,
+      "chisq_sum": 29.861110409468974,
+      "n_out_of_tol": 2,
+      "rows": [
+        {
+          "category": "Nuclear_HH",
+          "target_pct": 70.0,
+          "observed_pct": 58.77,
+          "gap_pp": -11.23,
+          "se_pp": 4.292,
+          "z": -2.62,
+          "in_tol": false
+        },
+        {
+          "category": "Joint_HH",
+          "target_pct": 24.0,
+          "observed_pct": 24.56,
+          "gap_pp": 0.56,
+          "se_pp": 4.0,
+          "z": 0.14,
+          "in_tol": true
+        },
+        {
+          "category": "Extended_multi_generation",
+          "target_pct": 6.0,
+          "observed_pct": 16.67,
+          "gap_pp": 10.67,
+          "se_pp": 2.224,
+          "z": 4.8,
+          "in_tol": false
+        }
+      ]
+    },
+    {
+      "axis": "marital_status",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 6.157894736842104,
+      "max_abs_z": 2.576879984313052,
+      "chisq_sum": 9.316809940907987,
+      "n_out_of_tol": 1,
+      "rows": [
+        {
+          "category": "Never_married",
+          "target_pct": 28.0,
+          "observed_pct": 22.81,
+          "gap_pp": -5.19,
+          "se_pp": 4.205,
+          "z": -1.23,
+          "in_tol": true
+        },
+        {
+          "category": "Currently_married",
+          "target_pct": 64.0,
+          "observed_pct": 64.04,
+          "gap_pp": 0.04,
+          "se_pp": 4.496,
+          "z": 0.01,
+          "in_tol": true
+        },
+        {
+          "category": "Widowed",
+          "target_pct": 7.0,
+          "observed_pct": 13.16,
+          "gap_pp": 6.16,
+          "se_pp": 2.39,
+          "z": 2.58,
+          "in_tol": false
+        },
+        {
+          "category": "Separated_divorced",
+          "target_pct": 1.0,
+          "observed_pct": 0.0,
+          "gap_pp": -1.0,
+          "se_pp": 0.932,
+          "z": -1.07,
+          "in_tol": true
+        }
+      ]
+    },
+    {
+      "axis": "asset_media",
+      "kind": "flag",
+      "tier": "C",
+      "max_abs_gap_pp": 11.491228070175438,
+      "max_abs_z": 2.5723388059733514,
+      "chisq_sum": 15.626090743533242,
+      "n_out_of_tol": 1,
+      "rows": [
+        {
+          "category": "TV",
+          "target_pct": 80.0,
+          "observed_pct": 88.6,
+          "gap_pp": 8.6,
+          "se_pp": 3.746,
+          "z": 2.29,
+          "in_tol": true
+        },
+        {
+          "category": "Radio",
+          "target_pct": 5.0,
+          "observed_pct": 3.51,
+          "gap_pp": -1.49,
+          "se_pp": 2.041,
+          "z": -0.73,
+          "in_tol": true
+        },
+        {
+          "category": "Mobile",
+          "target_pct": 88.0,
+          "observed_pct": 85.96,
+          "gap_pp": -2.04,
+          "se_pp": 3.044,
+          "z": -0.67,
+          "in_tol": true
+        },
+        {
+          "category": "Smartphone",
+          "target_pct": 50.0,
+          "observed_pct": 43.86,
+          "gap_pp": -6.14,
+          "se_pp": 4.683,
+          "z": -1.31,
+          "in_tol": true
+        },
+        {
+          "category": "Computer",
+          "target_pct": 12.0,
+          "observed_pct": 14.04,
+          "gap_pp": 2.04,
+          "se_pp": 3.044,
+          "z": 0.67,
+          "in_tol": true
+        },
+        {
+          "category": "TwoWheeler",
+          "target_pct": 35.0,
+          "observed_pct": 46.49,
+          "gap_pp": 11.49,
+          "se_pp": 4.467,
+          "z": 2.57,
+          "in_tol": false
+        },
+        {
+          "category": "FourWheeler",
+          "target_pct": 8.0,
+          "observed_pct": 7.02,
+          "gap_pp": -0.98,
+          "se_pp": 2.541,
+          "z": -0.39,
+          "in_tol": true
+        },
+        {
+          "category": "Banking",
+          "target_pct": 88.0,
+          "observed_pct": 85.96,
+          "gap_pp": -2.04,
+          "se_pp": 3.044,
+          "z": -0.67,
+          "in_tol": true
+        }
+      ]
+    },
+    {
+      "axis": "amenities",
+      "kind": "flag",
+      "tier": "C",
+      "max_abs_gap_pp": 11.14035087719298,
+      "max_abs_z": 2.9583181976008106,
+      "chisq_sum": 33.02312239457187,
+      "n_out_of_tol": 2,
+      "rows": [
+        {
+          "category": "Improved_drinking_water_source",
+          "target_pct": 86.0,
+          "observed_pct": 95.61,
+          "gap_pp": 9.61,
+          "se_pp": 3.25,
+          "z": 2.96,
+          "in_tol": false
+        },
+        {
+          "category": "Improved_sanitation_latrine",
+          "target_pct": 75.0,
+          "observed_pct": 85.96,
+          "gap_pp": 10.96,
+          "se_pp": 4.056,
+          "z": 2.7,
+          "in_tol": false
+        },
+        {
+          "category": "LPG",
+          "target_pct": 50.0,
+          "observed_pct": 43.86,
+          "gap_pp": -6.14,
+          "se_pp": 4.683,
+          "z": -1.31,
+          "in_tol": true
+        },
+        {
+          "category": "Wood",
+          "target_pct": 45.0,
+          "observed_pct": 56.14,
+          "gap_pp": 11.14,
+          "se_pp": 4.659,
+          "z": 2.39,
+          "in_tol": true
+        },
+        {
+          "category": "Other_fuel",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": 2.041,
+          "z": -2.45,
+          "in_tol": true
+        },
+        {
+          "category": "Electricity",
+          "target_pct": 97.0,
+          "observed_pct": 100.0,
+          "gap_pp": 3.0,
+          "se_pp": 1.598,
+          "z": 1.88,
+          "in_tol": true
+        }
+      ]
+    },
+    {
+      "axis": "migration",
+      "kind": "partition",
+      "tier": "E",
+      "max_abs_gap_pp": 21.087719298245617,
+      "max_abs_z": 8.538115092181554,
+      "chisq_sum": 122.87239116045713,
+      "n_out_of_tol": 4,
+      "rows": [
+        {
+          "category": "Native",
+          "target_pct": 64.0,
+          "observed_pct": 85.09,
+          "gap_pp": 21.09,
+          "se_pp": 4.496,
+          "z": 4.69,
+          "in_tol": false
+        },
+        {
+          "category": "WB_other_district",
+          "target_pct": 9.0,
+          "observed_pct": 0.88,
+          "gap_pp": -8.12,
+          "se_pp": 2.68,
+          "z": -3.03,
+          "in_tol": false
+        },
+        {
+          "category": "Other_Indian_state",
+          "target_pct": 3.0,
+          "observed_pct": 0.0,
+          "gap_pp": -3.0,
+          "se_pp": 1.598,
+          "z": -1.88,
+          "in_tol": true
+        },
+        {
+          "category": "Bangladesh",
+          "target_pct": 23.0,
+          "observed_pct": 7.89,
+          "gap_pp": -15.11,
+          "se_pp": 3.941,
+          "z": -3.83,
+          "in_tol": false
+        },
+        {
+          "category": "Outside_India",
+          "target_pct": 0.5,
+          "observed_pct": 0.0,
+          "gap_pp": -0.5,
+          "se_pp": 0.661,
+          "z": -0.76,
+          "in_tol": true
+        },
+        {
+          "category": "Out_migrant",
+          "target_pct": 0.5,
+          "observed_pct": 6.14,
+          "gap_pp": 5.64,
+          "se_pp": 0.661,
+          "z": 8.54,
+          "in_tol": false
+        }
+      ]
+    },
+    {
+      "axis": "welfare_exposure",
+      "kind": "derived",
+      "tier": null,
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    },
+    {
+      "axis": "welfare_dominant",
+      "kind": "derived",
+      "tier": null,
+      "max_abs_gap_pp": 0.0,
+      "max_abs_z": 0.0,
+      "chisq_sum": 0.0,
+      "n_out_of_tol": 0,
+      "rows": []
+    }
+  ],
+  "joint_gaps": [
+    {
+      "joint": "religion_given_gp",
+      "parents": [
+        "gp_location"
+      ],
+      "child": "religion",
+      "semantics": "conditional",
+      "tier": "E",
+      "max_abs_cell_gap_pp": 12.744680851063833,
+      "max_abs_z": 2.3260250447293505,
+      "chisq_sum": 12.737970391907108,
+      "n_out_of_tol": 0,
+      "skipped_reason": null,
+      "cells": [
+        {
+          "parent_values": [
+            "U1_Muni"
+          ],
+          "child": "Hindu",
+          "target_pct": 83.0,
+          "observed_pct": 95.74,
+          "gap_pp": 12.74,
+          "se_pp": 5.479,
+          "z": 2.33,
+          "in_tol": true,
+          "n_in_cell": 47
+        },
+        {
+          "parent_values": [
+            "U1_Muni"
+          ],
+          "child": "Muslim",
+          "target_pct": 16.0,
+          "observed_pct": 4.26,
+          "gap_pp": -11.74,
+          "se_pp": 5.347,
+          "z": -2.2,
+          "in_tol": true,
+          "n_in_cell": 47
+        },
+        {
+          "parent_values": [
+            "U1_Muni"
+          ],
+          "child": "Other",
+          "target_pct": 1.0,
+          "observed_pct": 0.0,
+          "gap_pp": -1.0,
+          "se_pp": 1.451,
+          "z": -0.69,
+          "in_tol": true,
+          "n_in_cell": 47
+        },
+        {
+          "parent_values": [
+            "U2_CDB_rural"
+          ],
+          "child": "Hindu",
+          "target_pct": 78.2,
+          "observed_pct": 74.63,
+          "gap_pp": -3.57,
+          "se_pp": 5.044,
+          "z": -0.71,
+          "in_tol": true,
+          "n_in_cell": 67
+        },
+        {
+          "parent_values": [
+            "U2_CDB_rural"
+          ],
+          "child": "Muslim",
+          "target_pct": 20.8,
+          "observed_pct": 25.37,
+          "gap_pp": 4.57,
+          "se_pp": 4.959,
+          "z": 0.92,
+          "in_tol": true,
+          "n_in_cell": 67
+        },
+        {
+          "parent_values": [
+            "U2_CDB_rural"
+          ],
+          "child": "Other",
+          "target_pct": 1.0,
+          "observed_pct": 0.0,
+          "gap_pp": -1.0,
+          "se_pp": 1.216,
+          "z": -0.82,
+          "in_tol": true,
+          "n_in_cell": 67
+        }
+      ]
+    },
+    {
+      "joint": "caste_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "caste",
+      "semantics": "conditional",
+      "tier": "E",
+      "max_abs_cell_gap_pp": 100.0,
+      "max_abs_z": 2.8547506892303973,
+      "chisq_sum": 25.140058760057695,
+      "n_out_of_tol": 3,
+      "skipped_reason": null,
+      "cells": [
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child": "Namasudra_Matua",
+          "target_pct": 46.2,
+          "observed_pct": 60.0,
+          "gap_pp": 13.8,
+          "se_pp": 5.115,
+          "z": 2.7,
+          "in_tol": false,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child": "Bagdi",
+          "target_pct": 1.8,
+          "observed_pct": 0.0,
+          "gap_pp": -1.8,
+          "se_pp": 1.364,
+          "z": -1.32,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child": "Poundra",
+          "target_pct": 0.8,
+          "observed_pct": 0.0,
+          "gap_pp": -0.8,
+          "se_pp": 0.914,
+          "z": -0.88,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child": "Other_SC",
+          "target_pct": 1.5,
+          "observed_pct": 1.05,
+          "gap_pp": -0.45,
+          "se_pp": 1.247,
+          "z": -0.36,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child": "ST_total",
+          "target_pct": 4.2,
+          "observed_pct": 3.16,
+          "gap_pp": -1.04,
+          "se_pp": 2.058,
+          "z": -0.51,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child": "UC_bhadralok",
+          "target_pct": 11.7,
+          "observed_pct": 11.58,
+          "gap_pp": -0.12,
+          "se_pp": 3.298,
+          "z": -0.04,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child": "OBC_specific",
+          "target_pct": 2.3,
+          "observed_pct": 6.32,
+          "gap_pp": 4.02,
+          "se_pp": 1.538,
+          "z": 2.61,
+          "in_tol": false,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child": "Other_Hindu_middle_castes",
+          "target_pct": 31.5,
+          "observed_pct": 17.89,
+          "gap_pp": -13.61,
+          "se_pp": 4.766,
+          "z": -2.85,
+          "in_tol": false,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child": "Muslim",
+          "target_pct": 100.0,
+          "observed_pct": 100.0,
+          "gap_pp": 0.0,
+          "se_pp": 0.725,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "child": "Christian_plus_Sarna_plus_Other",
+          "target_pct": 100.0,
+          "observed_pct": 0.0,
+          "gap_pp": -100.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        }
+      ]
+    },
+    {
+      "joint": "lang_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "mother_tongue",
+      "semantics": "conditional",
+      "tier": "E",
+      "max_abs_cell_gap_pp": 75.0,
+      "max_abs_z": 0.9999999999999994,
+      "chisq_sum": 3.1183690280685368,
+      "n_out_of_tol": 0,
+      "skipped_reason": null,
+      "cells": [
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child": "Bengali",
+          "target_pct": 99.4,
+          "observed_pct": 100.0,
+          "gap_pp": 0.6,
+          "se_pp": 0.792,
+          "z": 0.76,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child": "Hindi",
+          "target_pct": 0.5,
+          "observed_pct": 0.0,
+          "gap_pp": -0.5,
+          "se_pp": 0.724,
+          "z": -0.69,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child": "Urdu",
+          "target_pct": 0.0,
+          "observed_pct": 0.0,
+          "gap_pp": 0.0,
+          "se_pp": 0.324,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child": "Other",
+          "target_pct": 0.1,
+          "observed_pct": 0.0,
+          "gap_pp": -0.1,
+          "se_pp": 0.324,
+          "z": -0.31,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child": "Bengali",
+          "target_pct": 95.0,
+          "observed_pct": 100.0,
+          "gap_pp": 5.0,
+          "se_pp": 5.0,
+          "z": 1.0,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child": "Hindi",
+          "target_pct": 1.5,
+          "observed_pct": 0.0,
+          "gap_pp": -1.5,
+          "se_pp": 2.789,
+          "z": -0.54,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child": "Urdu",
+          "target_pct": 3.0,
+          "observed_pct": 0.0,
+          "gap_pp": -3.0,
+          "se_pp": 3.914,
+          "z": -0.77,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child": "Other",
+          "target_pct": 0.5,
+          "observed_pct": 0.0,
+          "gap_pp": -0.5,
+          "se_pp": 1.618,
+          "z": -0.31,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "child": "Bengali",
+          "target_pct": 75.0,
+          "observed_pct": 0.0,
+          "gap_pp": -75.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "child": "Hindi",
+          "target_pct": 17.5,
+          "observed_pct": 0.0,
+          "gap_pp": -17.5,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "child": "Urdu",
+          "target_pct": 0.0,
+          "observed_pct": 0.0,
+          "gap_pp": 0.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "child": "Other",
+          "target_pct": 7.5,
+          "observed_pct": 0.0,
+          "gap_pp": -7.5,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        }
+      ]
+    },
+    {
+      "joint": "migration_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "migration",
+      "semantics": "conditional",
+      "tier": "D",
+      "max_abs_cell_gap_pp": 65.0,
+      "max_abs_z": 4.397966037062804,
+      "chisq_sum": 48.54247551582441,
+      "n_out_of_tol": 2,
+      "skipped_reason": null,
+      "cells": [
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child": "Native",
+          "target_pct": 60.0,
+          "observed_pct": 82.11,
+          "gap_pp": 22.11,
+          "se_pp": 5.026,
+          "z": 4.4,
+          "in_tol": false,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child": "WB_other_district",
+          "target_pct": 8.0,
+          "observed_pct": 1.05,
+          "gap_pp": -6.95,
+          "se_pp": 2.783,
+          "z": -2.5,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child": "Other_Indian_state",
+          "target_pct": 2.0,
+          "observed_pct": 0.0,
+          "gap_pp": -2.0,
+          "se_pp": 1.436,
+          "z": -1.39,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child": "Bangladesh",
+          "target_pct": 30.0,
+          "observed_pct": 9.47,
+          "gap_pp": -20.53,
+          "se_pp": 4.702,
+          "z": -4.37,
+          "in_tol": false,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child": "Outside_India",
+          "target_pct": 0.0,
+          "observed_pct": 0.0,
+          "gap_pp": 0.0,
+          "se_pp": 0.324,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child": "Native",
+          "target_pct": 95.0,
+          "observed_pct": 100.0,
+          "gap_pp": 5.0,
+          "se_pp": 5.0,
+          "z": 1.0,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child": "WB_other_district",
+          "target_pct": 3.0,
+          "observed_pct": 0.0,
+          "gap_pp": -3.0,
+          "se_pp": 3.914,
+          "z": -0.77,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child": "Other_Indian_state",
+          "target_pct": 1.0,
+          "observed_pct": 0.0,
+          "gap_pp": -1.0,
+          "se_pp": 2.283,
+          "z": -0.44,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child": "Bangladesh",
+          "target_pct": 1.0,
+          "observed_pct": 0.0,
+          "gap_pp": -1.0,
+          "se_pp": 2.283,
+          "z": -0.44,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child": "Outside_India",
+          "target_pct": 0.0,
+          "observed_pct": 0.0,
+          "gap_pp": 0.0,
+          "se_pp": 0.725,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "child": "Native",
+          "target_pct": 65.0,
+          "observed_pct": 0.0,
+          "gap_pp": -65.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "child": "WB_other_district",
+          "target_pct": 15.0,
+          "observed_pct": 0.0,
+          "gap_pp": -15.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "child": "Other_Indian_state",
+          "target_pct": 15.0,
+          "observed_pct": 0.0,
+          "gap_pp": -15.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "child": "Bangladesh",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "child": "Outside_India",
+          "target_pct": 0.0,
+          "observed_pct": 0.0,
+          "gap_pp": 0.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        }
+      ]
+    },
+    {
+      "joint": "asset_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "asset_media",
+      "semantics": "flag_rate_conditional",
+      "tier": "C",
+      "max_abs_cell_gap_pp": 95.0,
+      "max_abs_z": 2.939408619919979,
+      "chisq_sum": 22.225250375670853,
+      "n_out_of_tol": 2,
+      "skipped_reason": null,
+      "cells": [
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child_flag": "TV",
+          "target_pct": 81.0,
+          "observed_pct": 86.32,
+          "gap_pp": 5.32,
+          "se_pp": 4.025,
+          "z": 1.32,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child_flag": "Smartphone",
+          "target_pct": 51.0,
+          "observed_pct": 50.53,
+          "gap_pp": -0.47,
+          "se_pp": 5.129,
+          "z": -0.09,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "child_flag": "Banking",
+          "target_pct": 89.0,
+          "observed_pct": 84.21,
+          "gap_pp": -4.79,
+          "se_pp": 3.21,
+          "z": -1.49,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child_flag": "TV",
+          "target_pct": 73.0,
+          "observed_pct": 100.0,
+          "gap_pp": 27.0,
+          "se_pp": 10.185,
+          "z": 2.65,
+          "in_tol": false,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child_flag": "Smartphone",
+          "target_pct": 44.0,
+          "observed_pct": 10.53,
+          "gap_pp": -33.47,
+          "se_pp": 11.388,
+          "z": -2.94,
+          "in_tol": false,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child_flag": "Banking",
+          "target_pct": 80.0,
+          "observed_pct": 94.74,
+          "gap_pp": 14.74,
+          "se_pp": 9.177,
+          "z": 1.61,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "child_flag": "TV",
+          "target_pct": 90.0,
+          "observed_pct": 0.0,
+          "gap_pp": -90.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "child_flag": "Smartphone",
+          "target_pct": 65.0,
+          "observed_pct": 0.0,
+          "gap_pp": -65.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "child_flag": "Banking",
+          "target_pct": 95.0,
+          "observed_pct": 0.0,
+          "gap_pp": -95.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        }
+      ]
+    },
+    {
+      "joint": "education_given_caste",
+      "parents": [
+        "caste"
+      ],
+      "child": "education",
+      "semantics": "conditional",
+      "tier": "E",
+      "max_abs_cell_gap_pp": 78.0,
+      "max_abs_z": 3.6556307750696555,
+      "chisq_sum": 93.49326498050534,
+      "n_out_of_tol": 4,
+      "skipped_reason": null,
+      "cells": [
+        {
+          "parent_values": [
+            "UC_bhadralok"
+          ],
+          "child": "Illiterate",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": 6.571,
+          "z": -0.76,
+          "in_tol": true,
+          "n_in_cell": 11
+        },
+        {
+          "parent_values": [
+            "UC_bhadralok"
+          ],
+          "child": "Primary",
+          "target_pct": 10.0,
+          "observed_pct": 0.0,
+          "gap_pp": -10.0,
+          "se_pp": 9.045,
+          "z": -1.11,
+          "in_tol": true,
+          "n_in_cell": 11
+        },
+        {
+          "parent_values": [
+            "UC_bhadralok"
+          ],
+          "child": "Middle",
+          "target_pct": 12.0,
+          "observed_pct": 0.0,
+          "gap_pp": -12.0,
+          "se_pp": 9.798,
+          "z": -1.22,
+          "in_tol": true,
+          "n_in_cell": 11
+        },
+        {
+          "parent_values": [
+            "UC_bhadralok"
+          ],
+          "child": "Secondary",
+          "target_pct": 18.0,
+          "observed_pct": 0.0,
+          "gap_pp": -18.0,
+          "se_pp": 11.584,
+          "z": -1.55,
+          "in_tol": true,
+          "n_in_cell": 11
+        },
+        {
+          "parent_values": [
+            "UC_bhadralok"
+          ],
+          "child": "Higher_Secondary",
+          "target_pct": 18.0,
+          "observed_pct": 0.0,
+          "gap_pp": -18.0,
+          "se_pp": 11.584,
+          "z": -1.55,
+          "in_tol": true,
+          "n_in_cell": 11
+        },
+        {
+          "parent_values": [
+            "UC_bhadralok"
+          ],
+          "child": "Graduate",
+          "target_pct": 25.0,
+          "observed_pct": 72.73,
+          "gap_pp": 47.73,
+          "se_pp": 13.056,
+          "z": 3.66,
+          "in_tol": false,
+          "n_in_cell": 11
+        },
+        {
+          "parent_values": [
+            "UC_bhadralok"
+          ],
+          "child": "Postgraduate",
+          "target_pct": 12.0,
+          "observed_pct": 27.27,
+          "gap_pp": 15.27,
+          "se_pp": 9.798,
+          "z": 1.56,
+          "in_tol": true,
+          "n_in_cell": 11
+        },
+        {
+          "parent_values": [
+            "Namasudra_Matua"
+          ],
+          "child": "Illiterate",
+          "target_pct": 12.0,
+          "observed_pct": 15.79,
+          "gap_pp": 3.79,
+          "se_pp": 4.304,
+          "z": 0.88,
+          "in_tol": true,
+          "n_in_cell": 57
+        },
+        {
+          "parent_values": [
+            "Namasudra_Matua"
+          ],
+          "child": "Primary",
+          "target_pct": 22.0,
+          "observed_pct": 14.04,
+          "gap_pp": -7.96,
+          "se_pp": 5.487,
+          "z": -1.45,
+          "in_tol": true,
+          "n_in_cell": 57
+        },
+        {
+          "parent_values": [
+            "Namasudra_Matua"
+          ],
+          "child": "Middle",
+          "target_pct": 23.0,
+          "observed_pct": 5.26,
+          "gap_pp": -17.74,
+          "se_pp": 5.574,
+          "z": -3.18,
+          "in_tol": false,
+          "n_in_cell": 57
+        },
+        {
+          "parent_values": [
+            "Namasudra_Matua"
+          ],
+          "child": "Secondary",
+          "target_pct": 19.0,
+          "observed_pct": 22.81,
+          "gap_pp": 3.81,
+          "se_pp": 5.196,
+          "z": 0.73,
+          "in_tol": true,
+          "n_in_cell": 57
+        },
+        {
+          "parent_values": [
+            "Namasudra_Matua"
+          ],
+          "child": "Higher_Secondary",
+          "target_pct": 12.0,
+          "observed_pct": 24.56,
+          "gap_pp": 12.56,
+          "se_pp": 4.304,
+          "z": 2.92,
+          "in_tol": false,
+          "n_in_cell": 57
+        },
+        {
+          "parent_values": [
+            "Namasudra_Matua"
+          ],
+          "child": "Graduate",
+          "target_pct": 9.0,
+          "observed_pct": 17.54,
+          "gap_pp": 8.54,
+          "se_pp": 3.791,
+          "z": 2.25,
+          "in_tol": true,
+          "n_in_cell": 57
+        },
+        {
+          "parent_values": [
+            "Namasudra_Matua"
+          ],
+          "child": "Postgraduate",
+          "target_pct": 3.0,
+          "observed_pct": 0.0,
+          "gap_pp": -3.0,
+          "se_pp": 2.259,
+          "z": -1.33,
+          "in_tol": true,
+          "n_in_cell": 57
+        },
+        {
+          "parent_values": [
+            "Bagdi_other_SC"
+          ],
+          "child": "Illiterate",
+          "target_pct": 22.0,
+          "observed_pct": 0.0,
+          "gap_pp": -22.0,
+          "se_pp": 41.425,
+          "z": -0.53,
+          "in_tol": true,
+          "n_in_cell": 1
+        },
+        {
+          "parent_values": [
+            "Bagdi_other_SC"
+          ],
+          "child": "Primary",
+          "target_pct": 28.0,
+          "observed_pct": 0.0,
+          "gap_pp": -28.0,
+          "se_pp": 44.9,
+          "z": -0.62,
+          "in_tol": true,
+          "n_in_cell": 1
+        },
+        {
+          "parent_values": [
+            "Bagdi_other_SC"
+          ],
+          "child": "Middle",
+          "target_pct": 22.0,
+          "observed_pct": 100.0,
+          "gap_pp": 78.0,
+          "se_pp": 41.425,
+          "z": 1.88,
+          "in_tol": true,
+          "n_in_cell": 1
+        },
+        {
+          "parent_values": [
+            "Bagdi_other_SC"
+          ],
+          "child": "Secondary",
+          "target_pct": 15.0,
+          "observed_pct": 0.0,
+          "gap_pp": -15.0,
+          "se_pp": 35.707,
+          "z": -0.42,
+          "in_tol": true,
+          "n_in_cell": 1
+        },
+        {
+          "parent_values": [
+            "Bagdi_other_SC"
+          ],
+          "child": "Higher_Secondary",
+          "target_pct": 8.0,
+          "observed_pct": 0.0,
+          "gap_pp": -8.0,
+          "se_pp": 27.129,
+          "z": -0.29,
+          "in_tol": true,
+          "n_in_cell": 1
+        },
+        {
+          "parent_values": [
+            "Bagdi_other_SC"
+          ],
+          "child": "Graduate",
+          "target_pct": 4.0,
+          "observed_pct": 0.0,
+          "gap_pp": -4.0,
+          "se_pp": 19.596,
+          "z": -0.2,
+          "in_tol": true,
+          "n_in_cell": 1
+        },
+        {
+          "parent_values": [
+            "Bagdi_other_SC"
+          ],
+          "child": "Postgraduate",
+          "target_pct": 1.0,
+          "observed_pct": 0.0,
+          "gap_pp": -1.0,
+          "se_pp": 9.95,
+          "z": -0.1,
+          "in_tol": true,
+          "n_in_cell": 1
+        },
+        {
+          "parent_values": [
+            "ST"
+          ],
+          "child": "Illiterate",
+          "target_pct": 25.0,
+          "observed_pct": 0.0,
+          "gap_pp": -25.0,
+          "se_pp": 25.0,
+          "z": -1.0,
+          "in_tol": true,
+          "n_in_cell": 3
+        },
+        {
+          "parent_values": [
+            "ST"
+          ],
+          "child": "Primary",
+          "target_pct": 30.0,
+          "observed_pct": 66.67,
+          "gap_pp": 36.67,
+          "se_pp": 26.458,
+          "z": 1.39,
+          "in_tol": true,
+          "n_in_cell": 3
+        },
+        {
+          "parent_values": [
+            "ST"
+          ],
+          "child": "Middle",
+          "target_pct": 20.0,
+          "observed_pct": 0.0,
+          "gap_pp": -20.0,
+          "se_pp": 23.094,
+          "z": -0.87,
+          "in_tol": true,
+          "n_in_cell": 3
+        },
+        {
+          "parent_values": [
+            "ST"
+          ],
+          "child": "Secondary",
+          "target_pct": 13.0,
+          "observed_pct": 33.33,
+          "gap_pp": 20.33,
+          "se_pp": 19.416,
+          "z": 1.05,
+          "in_tol": true,
+          "n_in_cell": 3
+        },
+        {
+          "parent_values": [
+            "ST"
+          ],
+          "child": "Higher_Secondary",
+          "target_pct": 7.0,
+          "observed_pct": 0.0,
+          "gap_pp": -7.0,
+          "se_pp": 14.731,
+          "z": -0.48,
+          "in_tol": true,
+          "n_in_cell": 3
+        },
+        {
+          "parent_values": [
+            "ST"
+          ],
+          "child": "Graduate",
+          "target_pct": 4.0,
+          "observed_pct": 0.0,
+          "gap_pp": -4.0,
+          "se_pp": 11.314,
+          "z": -0.35,
+          "in_tol": true,
+          "n_in_cell": 3
+        },
+        {
+          "parent_values": [
+            "ST"
+          ],
+          "child": "Postgraduate",
+          "target_pct": 1.0,
+          "observed_pct": 0.0,
+          "gap_pp": -1.0,
+          "se_pp": 5.745,
+          "z": -0.17,
+          "in_tol": true,
+          "n_in_cell": 3
+        },
+        {
+          "parent_values": [
+            "OBC_specific"
+          ],
+          "child": "Illiterate",
+          "target_pct": 14.0,
+          "observed_pct": 0.0,
+          "gap_pp": -14.0,
+          "se_pp": 14.166,
+          "z": -0.99,
+          "in_tol": true,
+          "n_in_cell": 6
+        },
+        {
+          "parent_values": [
+            "OBC_specific"
+          ],
+          "child": "Primary",
+          "target_pct": 22.0,
+          "observed_pct": 0.0,
+          "gap_pp": -22.0,
+          "se_pp": 16.912,
+          "z": -1.3,
+          "in_tol": true,
+          "n_in_cell": 6
+        },
+        {
+          "parent_values": [
+            "OBC_specific"
+          ],
+          "child": "Middle",
+          "target_pct": 22.0,
+          "observed_pct": 16.67,
+          "gap_pp": -5.33,
+          "se_pp": 16.912,
+          "z": -0.32,
+          "in_tol": true,
+          "n_in_cell": 6
+        },
+        {
+          "parent_values": [
+            "OBC_specific"
+          ],
+          "child": "Secondary",
+          "target_pct": 18.0,
+          "observed_pct": 33.33,
+          "gap_pp": 15.33,
+          "se_pp": 15.684,
+          "z": 0.98,
+          "in_tol": true,
+          "n_in_cell": 6
+        },
+        {
+          "parent_values": [
+            "OBC_specific"
+          ],
+          "child": "Higher_Secondary",
+          "target_pct": 12.0,
+          "observed_pct": 16.67,
+          "gap_pp": 4.67,
+          "se_pp": 13.266,
+          "z": 0.35,
+          "in_tol": true,
+          "n_in_cell": 6
+        },
+        {
+          "parent_values": [
+            "OBC_specific"
+          ],
+          "child": "Graduate",
+          "target_pct": 9.0,
+          "observed_pct": 16.67,
+          "gap_pp": 7.67,
+          "se_pp": 11.683,
+          "z": 0.66,
+          "in_tol": true,
+          "n_in_cell": 6
+        },
+        {
+          "parent_values": [
+            "OBC_specific"
+          ],
+          "child": "Postgraduate",
+          "target_pct": 3.0,
+          "observed_pct": 16.67,
+          "gap_pp": 13.67,
+          "se_pp": 6.964,
+          "z": 1.96,
+          "in_tol": true,
+          "n_in_cell": 6
+        },
+        {
+          "parent_values": [
+            "Other_Hindu_middle"
+          ],
+          "child": "Illiterate",
+          "target_pct": 13.0,
+          "observed_pct": 5.88,
+          "gap_pp": -7.12,
+          "se_pp": 8.157,
+          "z": -0.87,
+          "in_tol": true,
+          "n_in_cell": 17
+        },
+        {
+          "parent_values": [
+            "Other_Hindu_middle"
+          ],
+          "child": "Primary",
+          "target_pct": 22.0,
+          "observed_pct": 11.76,
+          "gap_pp": -10.24,
+          "se_pp": 10.047,
+          "z": -1.02,
+          "in_tol": true,
+          "n_in_cell": 17
+        },
+        {
+          "parent_values": [
+            "Other_Hindu_middle"
+          ],
+          "child": "Middle",
+          "target_pct": 22.0,
+          "observed_pct": 52.94,
+          "gap_pp": 30.94,
+          "se_pp": 10.047,
+          "z": 3.08,
+          "in_tol": false,
+          "n_in_cell": 17
+        },
+        {
+          "parent_values": [
+            "Other_Hindu_middle"
+          ],
+          "child": "Secondary",
+          "target_pct": 18.0,
+          "observed_pct": 5.88,
+          "gap_pp": -12.12,
+          "se_pp": 9.318,
+          "z": -1.3,
+          "in_tol": true,
+          "n_in_cell": 17
+        },
+        {
+          "parent_values": [
+            "Other_Hindu_middle"
+          ],
+          "child": "Higher_Secondary",
+          "target_pct": 12.0,
+          "observed_pct": 5.88,
+          "gap_pp": -6.12,
+          "se_pp": 7.881,
+          "z": -0.78,
+          "in_tol": true,
+          "n_in_cell": 17
+        },
+        {
+          "parent_values": [
+            "Other_Hindu_middle"
+          ],
+          "child": "Graduate",
+          "target_pct": 10.0,
+          "observed_pct": 17.65,
+          "gap_pp": 7.65,
+          "se_pp": 7.276,
+          "z": 1.05,
+          "in_tol": true,
+          "n_in_cell": 17
+        },
+        {
+          "parent_values": [
+            "Other_Hindu_middle"
+          ],
+          "child": "Postgraduate",
+          "target_pct": 3.0,
+          "observed_pct": 0.0,
+          "gap_pp": -3.0,
+          "se_pp": 4.137,
+          "z": -0.73,
+          "in_tol": true,
+          "n_in_cell": 17
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child": "Illiterate",
+          "target_pct": 18.0,
+          "observed_pct": 5.26,
+          "gap_pp": -12.74,
+          "se_pp": 8.814,
+          "z": -1.45,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child": "Primary",
+          "target_pct": 24.0,
+          "observed_pct": 31.58,
+          "gap_pp": 7.58,
+          "se_pp": 9.798,
+          "z": 0.77,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child": "Middle",
+          "target_pct": 23.0,
+          "observed_pct": 10.53,
+          "gap_pp": -12.47,
+          "se_pp": 9.655,
+          "z": -1.29,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child": "Secondary",
+          "target_pct": 18.0,
+          "observed_pct": 31.58,
+          "gap_pp": 13.58,
+          "se_pp": 8.814,
+          "z": 1.54,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child": "Higher_Secondary",
+          "target_pct": 10.0,
+          "observed_pct": 15.79,
+          "gap_pp": 5.79,
+          "se_pp": 6.882,
+          "z": 0.84,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child": "Graduate",
+          "target_pct": 6.0,
+          "observed_pct": 5.26,
+          "gap_pp": -0.74,
+          "se_pp": 5.448,
+          "z": -0.14,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "child": "Postgraduate",
+          "target_pct": 1.0,
+          "observed_pct": 0.0,
+          "gap_pp": -1.0,
+          "se_pp": 2.283,
+          "z": -0.44,
+          "in_tol": true,
+          "n_in_cell": 19
+        }
+      ]
+    },
+    {
+      "joint": "asset_given_occupation",
+      "parents": [
+        "occupation"
+      ],
+      "child": "asset_media",
+      "semantics": "flag_rate_conditional",
+      "tier": "C",
+      "max_abs_cell_gap_pp": 85.0,
+      "max_abs_z": 3.166907644580757,
+      "chisq_sum": 31.275605024214514,
+      "n_out_of_tol": 2,
+      "skipped_reason": null,
+      "cells": [
+        {
+          "parent_values": [
+            "Cultivator"
+          ],
+          "child_flag": "Smartphone",
+          "target_pct": 38.0,
+          "observed_pct": 20.0,
+          "gap_pp": -18.0,
+          "se_pp": 21.707,
+          "z": -0.83,
+          "in_tol": true,
+          "n_in_cell": 5
+        },
+        {
+          "parent_values": [
+            "Cultivator"
+          ],
+          "child_flag": "TV",
+          "target_pct": 75.0,
+          "observed_pct": 100.0,
+          "gap_pp": 25.0,
+          "se_pp": 19.365,
+          "z": 1.29,
+          "in_tol": true,
+          "n_in_cell": 5
+        },
+        {
+          "parent_values": [
+            "Agricultural_labourer"
+          ],
+          "child_flag": "Smartphone",
+          "target_pct": 28.0,
+          "observed_pct": 0.0,
+          "gap_pp": -28.0,
+          "se_pp": 9.165,
+          "z": -3.06,
+          "in_tol": false,
+          "n_in_cell": 24
+        },
+        {
+          "parent_values": [
+            "Agricultural_labourer"
+          ],
+          "child_flag": "TV",
+          "target_pct": 65.0,
+          "observed_pct": 95.83,
+          "gap_pp": 30.83,
+          "se_pp": 9.736,
+          "z": 3.17,
+          "in_tol": false,
+          "n_in_cell": 24
+        },
+        {
+          "parent_values": [
+            "Household_industry"
+          ],
+          "child_flag": "Smartphone",
+          "target_pct": 42.0,
+          "observed_pct": 0.0,
+          "gap_pp": -42.0,
+          "se_pp": 34.9,
+          "z": -1.2,
+          "in_tol": true,
+          "n_in_cell": 2
+        },
+        {
+          "parent_values": [
+            "Household_industry"
+          ],
+          "child_flag": "TV",
+          "target_pct": 78.0,
+          "observed_pct": 100.0,
+          "gap_pp": 22.0,
+          "se_pp": 29.292,
+          "z": 0.75,
+          "in_tol": true,
+          "n_in_cell": 2
+        },
+        {
+          "parent_values": [
+            "Manufacturing"
+          ],
+          "child_flag": "Smartphone",
+          "target_pct": 55.0,
+          "observed_pct": 0.0,
+          "gap_pp": -55.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        },
+        {
+          "parent_values": [
+            "Manufacturing"
+          ],
+          "child_flag": "TV",
+          "target_pct": 85.0,
+          "observed_pct": 0.0,
+          "gap_pp": -85.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        },
+        {
+          "parent_values": [
+            "Construction"
+          ],
+          "child_flag": "Smartphone",
+          "target_pct": 50.0,
+          "observed_pct": 50.0,
+          "gap_pp": 0.0,
+          "se_pp": 35.355,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 2
+        },
+        {
+          "parent_values": [
+            "Construction"
+          ],
+          "child_flag": "TV",
+          "target_pct": 78.0,
+          "observed_pct": 100.0,
+          "gap_pp": 22.0,
+          "se_pp": 29.292,
+          "z": 0.75,
+          "in_tol": true,
+          "n_in_cell": 2
+        },
+        {
+          "parent_values": [
+            "Trade_retail"
+          ],
+          "child_flag": "Smartphone",
+          "target_pct": 70.0,
+          "observed_pct": 90.0,
+          "gap_pp": 20.0,
+          "se_pp": 14.491,
+          "z": 1.38,
+          "in_tol": true,
+          "n_in_cell": 10
+        },
+        {
+          "parent_values": [
+            "Trade_retail"
+          ],
+          "child_flag": "TV",
+          "target_pct": 90.0,
+          "observed_pct": 100.0,
+          "gap_pp": 10.0,
+          "se_pp": 9.487,
+          "z": 1.05,
+          "in_tol": true,
+          "n_in_cell": 10
+        },
+        {
+          "parent_values": [
+            "Transport"
+          ],
+          "child_flag": "Smartphone",
+          "target_pct": 65.0,
+          "observed_pct": 60.0,
+          "gap_pp": -5.0,
+          "se_pp": 21.331,
+          "z": -0.23,
+          "in_tol": true,
+          "n_in_cell": 5
+        },
+        {
+          "parent_values": [
+            "Transport"
+          ],
+          "child_flag": "TV",
+          "target_pct": 85.0,
+          "observed_pct": 100.0,
+          "gap_pp": 15.0,
+          "se_pp": 15.969,
+          "z": 0.94,
+          "in_tol": true,
+          "n_in_cell": 5
+        },
+        {
+          "parent_values": [
+            "Services"
+          ],
+          "child_flag": "Smartphone",
+          "target_pct": 75.0,
+          "observed_pct": 100.0,
+          "gap_pp": 25.0,
+          "se_pp": 19.365,
+          "z": 1.29,
+          "in_tol": true,
+          "n_in_cell": 5
+        },
+        {
+          "parent_values": [
+            "Services"
+          ],
+          "child_flag": "TV",
+          "target_pct": 92.0,
+          "observed_pct": 100.0,
+          "gap_pp": 8.0,
+          "se_pp": 12.133,
+          "z": 0.66,
+          "in_tol": true,
+          "n_in_cell": 5
+        },
+        {
+          "parent_values": [
+            "Government_services_teachers"
+          ],
+          "child_flag": "Smartphone",
+          "target_pct": 88.0,
+          "observed_pct": 100.0,
+          "gap_pp": 12.0,
+          "se_pp": 22.978,
+          "z": 0.52,
+          "in_tol": true,
+          "n_in_cell": 2
+        },
+        {
+          "parent_values": [
+            "Government_services_teachers"
+          ],
+          "child_flag": "TV",
+          "target_pct": 95.0,
+          "observed_pct": 100.0,
+          "gap_pp": 5.0,
+          "se_pp": 15.411,
+          "z": 0.32,
+          "in_tol": true,
+          "n_in_cell": 2
+        },
+        {
+          "parent_values": [
+            "Out_migrant_worker"
+          ],
+          "child_flag": "Smartphone",
+          "target_pct": 70.0,
+          "observed_pct": 83.33,
+          "gap_pp": 13.33,
+          "se_pp": 18.708,
+          "z": 0.71,
+          "in_tol": true,
+          "n_in_cell": 6
+        },
+        {
+          "parent_values": [
+            "Out_migrant_worker"
+          ],
+          "child_flag": "TV",
+          "target_pct": 80.0,
+          "observed_pct": 83.33,
+          "gap_pp": 3.33,
+          "se_pp": 16.33,
+          "z": 0.2,
+          "in_tol": true,
+          "n_in_cell": 6
+        }
+      ]
+    },
+    {
+      "joint": "asset_given_gp",
+      "parents": [
+        "gp_location"
+      ],
+      "child": "asset_media",
+      "semantics": "flag_rate_conditional",
+      "tier": "C",
+      "max_abs_cell_gap_pp": 24.36170212765957,
+      "max_abs_z": 3.519916991598472,
+      "chisq_sum": 45.00687333548031,
+      "n_out_of_tol": 3,
+      "skipped_reason": null,
+      "cells": [
+        {
+          "parent_values": [
+            "U1_Muni"
+          ],
+          "child_flag": "TV",
+          "target_pct": 92.0,
+          "observed_pct": 93.62,
+          "gap_pp": 1.62,
+          "se_pp": 3.957,
+          "z": 0.41,
+          "in_tol": true,
+          "n_in_cell": 47
+        },
+        {
+          "parent_values": [
+            "U1_Muni"
+          ],
+          "child_flag": "Smartphone",
+          "target_pct": 65.0,
+          "observed_pct": 89.36,
+          "gap_pp": 24.36,
+          "se_pp": 6.957,
+          "z": 3.5,
+          "in_tol": false,
+          "n_in_cell": 47
+        },
+        {
+          "parent_values": [
+            "U1_Muni"
+          ],
+          "child_flag": "Computer",
+          "target_pct": 22.0,
+          "observed_pct": 34.04,
+          "gap_pp": 12.04,
+          "se_pp": 6.042,
+          "z": 1.99,
+          "in_tol": true,
+          "n_in_cell": 47
+        },
+        {
+          "parent_values": [
+            "U1_Muni"
+          ],
+          "child_flag": "Banking",
+          "target_pct": 95.0,
+          "observed_pct": 97.87,
+          "gap_pp": 2.87,
+          "se_pp": 3.179,
+          "z": 0.9,
+          "in_tol": true,
+          "n_in_cell": 47
+        },
+        {
+          "parent_values": [
+            "U2_CDB_rural"
+          ],
+          "child_flag": "TV",
+          "target_pct": 65.0,
+          "observed_pct": 85.07,
+          "gap_pp": 20.07,
+          "se_pp": 5.827,
+          "z": 3.45,
+          "in_tol": false,
+          "n_in_cell": 67
+        },
+        {
+          "parent_values": [
+            "U2_CDB_rural"
+          ],
+          "child_flag": "Smartphone",
+          "target_pct": 32.0,
+          "observed_pct": 11.94,
+          "gap_pp": -20.06,
+          "se_pp": 5.699,
+          "z": -3.52,
+          "in_tol": false,
+          "n_in_cell": 67
+        },
+        {
+          "parent_values": [
+            "U2_CDB_rural"
+          ],
+          "child_flag": "Computer",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": 2.663,
+          "z": -1.88,
+          "in_tol": true,
+          "n_in_cell": 67
+        },
+        {
+          "parent_values": [
+            "U2_CDB_rural"
+          ],
+          "child_flag": "Banking",
+          "target_pct": 78.0,
+          "observed_pct": 77.61,
+          "gap_pp": -0.39,
+          "se_pp": 5.061,
+          "z": -0.08,
+          "in_tol": true,
+          "n_in_cell": 67
+        }
+      ]
+    },
+    {
+      "joint": "amenity_given_gp",
+      "parents": [
+        "gp_location"
+      ],
+      "child": "amenities",
+      "semantics": "flag_rate_conditional",
+      "tier": "C",
+      "max_abs_cell_gap_pp": 22.611940298507463,
+      "max_abs_z": 3.7203828168529745,
+      "chisq_sum": 46.45150230128159,
+      "n_out_of_tol": 3,
+      "skipped_reason": null,
+      "cells": [
+        {
+          "parent_values": [
+            "U1_Muni"
+          ],
+          "child_flag": "LPG",
+          "target_pct": 78.0,
+          "observed_pct": 95.74,
+          "gap_pp": 17.74,
+          "se_pp": 6.042,
+          "z": 2.94,
+          "in_tol": false,
+          "n_in_cell": 47
+        },
+        {
+          "parent_values": [
+            "U1_Muni"
+          ],
+          "child_flag": "Improved_sanitation_latrine",
+          "target_pct": 92.0,
+          "observed_pct": 97.87,
+          "gap_pp": 5.87,
+          "se_pp": 3.957,
+          "z": 1.48,
+          "in_tol": true,
+          "n_in_cell": 47
+        },
+        {
+          "parent_values": [
+            "U1_Muni"
+          ],
+          "child_flag": "Improved_drinking_water_source",
+          "target_pct": 95.0,
+          "observed_pct": 100.0,
+          "gap_pp": 5.0,
+          "se_pp": 3.179,
+          "z": 1.57,
+          "in_tol": true,
+          "n_in_cell": 47
+        },
+        {
+          "parent_values": [
+            "U1_Muni"
+          ],
+          "child_flag": "Electricity",
+          "target_pct": 99.0,
+          "observed_pct": 100.0,
+          "gap_pp": 1.0,
+          "se_pp": 1.451,
+          "z": 0.69,
+          "in_tol": true,
+          "n_in_cell": 47
+        },
+        {
+          "parent_values": [
+            "U2_CDB_rural"
+          ],
+          "child_flag": "LPG",
+          "target_pct": 17.0,
+          "observed_pct": 7.46,
+          "gap_pp": -9.54,
+          "se_pp": 4.589,
+          "z": -2.08,
+          "in_tol": true,
+          "n_in_cell": 67
+        },
+        {
+          "parent_values": [
+            "U2_CDB_rural"
+          ],
+          "child_flag": "Improved_sanitation_latrine",
+          "target_pct": 55.0,
+          "observed_pct": 77.61,
+          "gap_pp": 22.61,
+          "se_pp": 6.078,
+          "z": 3.72,
+          "in_tol": false,
+          "n_in_cell": 67
+        },
+        {
+          "parent_values": [
+            "U2_CDB_rural"
+          ],
+          "child_flag": "Improved_drinking_water_source",
+          "target_pct": 75.0,
+          "observed_pct": 92.54,
+          "gap_pp": 17.54,
+          "se_pp": 5.29,
+          "z": 3.32,
+          "in_tol": false,
+          "n_in_cell": 67
+        },
+        {
+          "parent_values": [
+            "U2_CDB_rural"
+          ],
+          "child_flag": "Electricity",
+          "target_pct": 95.0,
+          "observed_pct": 100.0,
+          "gap_pp": 5.0,
+          "se_pp": 2.663,
+          "z": 1.88,
+          "in_tol": true,
+          "n_in_cell": 67
+        }
+      ]
+    },
+    {
+      "joint": "caste_given_gp",
+      "parents": [
+        "gp_location"
+      ],
+      "child": "caste",
+      "semantics": "conditional",
+      "tier": "E",
+      "max_abs_cell_gap_pp": 14.595744680851062,
+      "max_abs_z": 2.061519958138408,
+      "chisq_sum": 21.898405742526727,
+      "n_out_of_tol": 0,
+      "skipped_reason": null,
+      "cells": [
+        {
+          "parent_values": [
+            "U1_Muni"
+          ],
+          "child": "UC",
+          "target_pct": 14.0,
+          "observed_pct": 23.4,
+          "gap_pp": 9.4,
+          "se_pp": 5.061,
+          "z": 1.86,
+          "in_tol": true,
+          "n_in_cell": 47
+        },
+        {
+          "parent_values": [
+            "U1_Muni"
+          ],
+          "child": "Namasudra_Matua",
+          "target_pct": 38.0,
+          "observed_pct": 46.81,
+          "gap_pp": 8.81,
+          "se_pp": 7.08,
+          "z": 1.24,
+          "in_tol": true,
+          "n_in_cell": 47
+        },
+        {
+          "parent_values": [
+            "U1_Muni"
+          ],
+          "child": "Other_SC",
+          "target_pct": 3.0,
+          "observed_pct": 2.13,
+          "gap_pp": -0.87,
+          "se_pp": 2.488,
+          "z": -0.35,
+          "in_tol": true,
+          "n_in_cell": 47
+        },
+        {
+          "parent_values": [
+            "U1_Muni"
+          ],
+          "child": "ST",
+          "target_pct": 1.0,
+          "observed_pct": 0.0,
+          "gap_pp": -1.0,
+          "se_pp": 1.451,
+          "z": -0.69,
+          "in_tol": true,
+          "n_in_cell": 47
+        },
+        {
+          "parent_values": [
+            "U1_Muni"
+          ],
+          "child": "OBC_Other_Hindu",
+          "target_pct": 38.0,
+          "observed_pct": 23.4,
+          "gap_pp": -14.6,
+          "se_pp": 7.08,
+          "z": -2.06,
+          "in_tol": true,
+          "n_in_cell": 47
+        },
+        {
+          "parent_values": [
+            "U1_Muni"
+          ],
+          "child": "Muslim",
+          "target_pct": 7.0,
+          "observed_pct": 4.26,
+          "gap_pp": -2.74,
+          "se_pp": 3.722,
+          "z": -0.74,
+          "in_tol": true,
+          "n_in_cell": 47
+        },
+        {
+          "parent_values": [
+            "U2_CDB_rural"
+          ],
+          "child": "UC",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": 2.663,
+          "z": -1.88,
+          "in_tol": true,
+          "n_in_cell": 67
+        },
+        {
+          "parent_values": [
+            "U2_CDB_rural"
+          ],
+          "child": "Namasudra_Matua",
+          "target_pct": 41.0,
+          "observed_pct": 52.24,
+          "gap_pp": 11.24,
+          "se_pp": 6.009,
+          "z": 1.87,
+          "in_tol": true,
+          "n_in_cell": 67
+        },
+        {
+          "parent_values": [
+            "U2_CDB_rural"
+          ],
+          "child": "Other_SC",
+          "target_pct": 3.0,
+          "observed_pct": 0.0,
+          "gap_pp": -3.0,
+          "se_pp": 2.084,
+          "z": -1.44,
+          "in_tol": true,
+          "n_in_cell": 67
+        },
+        {
+          "parent_values": [
+            "U2_CDB_rural"
+          ],
+          "child": "ST",
+          "target_pct": 6.0,
+          "observed_pct": 4.48,
+          "gap_pp": -1.52,
+          "se_pp": 2.901,
+          "z": -0.52,
+          "in_tol": true,
+          "n_in_cell": 67
+        },
+        {
+          "parent_values": [
+            "U2_CDB_rural"
+          ],
+          "child": "OBC_Other_Hindu",
+          "target_pct": 24.0,
+          "observed_pct": 17.91,
+          "gap_pp": -6.09,
+          "se_pp": 5.218,
+          "z": -1.17,
+          "in_tol": true,
+          "n_in_cell": 67
+        },
+        {
+          "parent_values": [
+            "U2_CDB_rural"
+          ],
+          "child": "Muslim",
+          "target_pct": 21.0,
+          "observed_pct": 25.37,
+          "gap_pp": 4.37,
+          "se_pp": 4.976,
+          "z": 0.88,
+          "in_tol": true,
+          "n_in_cell": 67
+        }
+      ]
+    },
+    {
+      "joint": "vote_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "vote_2019_LS",
+      "semantics": "vote_conditional",
+      "tier": "C",
+      "max_abs_cell_gap_pp": 40.0,
+      "max_abs_z": 3.8709843869278275,
+      "chisq_sum": 40.80525022375939,
+      "n_out_of_tol": 2,
+      "skipped_reason": null,
+      "cells": [
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "party": "BJP",
+          "target_pct": 57.0,
+          "observed_pct": 46.32,
+          "gap_pp": -10.68,
+          "se_pp": 5.079,
+          "z": -2.1,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "party": "AITC",
+          "target_pct": 32.0,
+          "observed_pct": 50.53,
+          "gap_pp": 18.53,
+          "se_pp": 4.786,
+          "z": 3.87,
+          "in_tol": false,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "party": "INC",
+          "target_pct": 4.0,
+          "observed_pct": 2.11,
+          "gap_pp": -1.89,
+          "se_pp": 2.01,
+          "z": -0.94,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "party": "LF",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": 2.236,
+          "z": -2.24,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Hindu"
+          ],
+          "party": "Other",
+          "target_pct": 2.0,
+          "observed_pct": 1.05,
+          "gap_pp": -0.95,
+          "se_pp": 1.436,
+          "z": -0.66,
+          "in_tol": true,
+          "n_in_cell": 95
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "party": "BJP",
+          "target_pct": 4.0,
+          "observed_pct": 0.0,
+          "gap_pp": -4.0,
+          "se_pp": 4.496,
+          "z": -0.89,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "party": "AITC",
+          "target_pct": 70.0,
+          "observed_pct": 100.0,
+          "gap_pp": 30.0,
+          "se_pp": 10.513,
+          "z": 2.85,
+          "in_tol": false,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "party": "INC",
+          "target_pct": 22.0,
+          "observed_pct": 0.0,
+          "gap_pp": -22.0,
+          "se_pp": 9.503,
+          "z": -2.31,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "party": "LF",
+          "target_pct": 3.0,
+          "observed_pct": 0.0,
+          "gap_pp": -3.0,
+          "se_pp": 3.914,
+          "z": -0.77,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "party": "Other",
+          "target_pct": 1.0,
+          "observed_pct": 0.0,
+          "gap_pp": -1.0,
+          "se_pp": 2.283,
+          "z": -0.44,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "party": "BJP",
+          "target_pct": 40.0,
+          "observed_pct": 0.0,
+          "gap_pp": -40.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "party": "AITC",
+          "target_pct": 40.0,
+          "observed_pct": 0.0,
+          "gap_pp": -40.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "party": "INC",
+          "target_pct": 10.0,
+          "observed_pct": 0.0,
+          "gap_pp": -10.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "party": "LF",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        },
+        {
+          "parent_values": [
+            "Other"
+          ],
+          "party": "Other",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": Infinity,
+          "z": 0.0,
+          "in_tol": true,
+          "n_in_cell": 0
+        }
+      ]
+    },
+    {
+      "joint": "vote_given_caste",
+      "parents": [
+        "caste"
+      ],
+      "child": "vote_2019_LS",
+      "semantics": "vote_conditional",
+      "tier": "C",
+      "max_abs_cell_gap_pp": 64.0,
+      "max_abs_z": 5.326794721224386,
+      "chisq_sum": 79.12652407737012,
+      "n_out_of_tol": 3,
+      "skipped_reason": null,
+      "cells": [
+        {
+          "parent_values": [
+            "UC"
+          ],
+          "party": "BJP",
+          "target_pct": 60.0,
+          "observed_pct": 72.73,
+          "gap_pp": 12.73,
+          "se_pp": 14.771,
+          "z": 0.86,
+          "in_tol": true,
+          "n_in_cell": 11
+        },
+        {
+          "parent_values": [
+            "UC"
+          ],
+          "party": "AITC",
+          "target_pct": 28.0,
+          "observed_pct": 18.18,
+          "gap_pp": -9.82,
+          "se_pp": 13.538,
+          "z": -0.73,
+          "in_tol": true,
+          "n_in_cell": 11
+        },
+        {
+          "parent_values": [
+            "UC"
+          ],
+          "party": "INC",
+          "target_pct": 5.0,
+          "observed_pct": 9.09,
+          "gap_pp": 4.09,
+          "se_pp": 6.571,
+          "z": 0.62,
+          "in_tol": true,
+          "n_in_cell": 11
+        },
+        {
+          "parent_values": [
+            "UC"
+          ],
+          "party": "LF",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": 6.571,
+          "z": -0.76,
+          "in_tol": true,
+          "n_in_cell": 11
+        },
+        {
+          "parent_values": [
+            "UC"
+          ],
+          "party": "Other",
+          "target_pct": 2.0,
+          "observed_pct": 0.0,
+          "gap_pp": -2.0,
+          "se_pp": 4.221,
+          "z": -0.47,
+          "in_tol": true,
+          "n_in_cell": 11
+        },
+        {
+          "parent_values": [
+            "OBC"
+          ],
+          "party": "BJP",
+          "target_pct": 41.0,
+          "observed_pct": 33.33,
+          "gap_pp": -7.67,
+          "se_pp": 20.079,
+          "z": -0.38,
+          "in_tol": true,
+          "n_in_cell": 6
+        },
+        {
+          "parent_values": [
+            "OBC"
+          ],
+          "party": "AITC",
+          "target_pct": 36.0,
+          "observed_pct": 66.67,
+          "gap_pp": 30.67,
+          "se_pp": 19.596,
+          "z": 1.56,
+          "in_tol": true,
+          "n_in_cell": 6
+        },
+        {
+          "parent_values": [
+            "OBC"
+          ],
+          "party": "INC",
+          "target_pct": 8.0,
+          "observed_pct": 0.0,
+          "gap_pp": -8.0,
+          "se_pp": 11.075,
+          "z": -0.72,
+          "in_tol": true,
+          "n_in_cell": 6
+        },
+        {
+          "parent_values": [
+            "OBC"
+          ],
+          "party": "LF",
+          "target_pct": 12.0,
+          "observed_pct": 0.0,
+          "gap_pp": -12.0,
+          "se_pp": 13.266,
+          "z": -0.9,
+          "in_tol": true,
+          "n_in_cell": 6
+        },
+        {
+          "parent_values": [
+            "OBC"
+          ],
+          "party": "Other",
+          "target_pct": 3.0,
+          "observed_pct": 0.0,
+          "gap_pp": -3.0,
+          "se_pp": 6.964,
+          "z": -0.43,
+          "in_tol": true,
+          "n_in_cell": 6
+        },
+        {
+          "parent_values": [
+            "Namasudra_Matua"
+          ],
+          "party": "BJP",
+          "target_pct": 60.0,
+          "observed_pct": 33.33,
+          "gap_pp": -26.67,
+          "se_pp": 6.489,
+          "z": -4.11,
+          "in_tol": false,
+          "n_in_cell": 57
+        },
+        {
+          "parent_values": [
+            "Namasudra_Matua"
+          ],
+          "party": "AITC",
+          "target_pct": 32.0,
+          "observed_pct": 64.91,
+          "gap_pp": 32.91,
+          "se_pp": 6.179,
+          "z": 5.33,
+          "in_tol": false,
+          "n_in_cell": 57
+        },
+        {
+          "parent_values": [
+            "Namasudra_Matua"
+          ],
+          "party": "INC",
+          "target_pct": 3.0,
+          "observed_pct": 0.0,
+          "gap_pp": -3.0,
+          "se_pp": 2.259,
+          "z": -1.33,
+          "in_tol": true,
+          "n_in_cell": 57
+        },
+        {
+          "parent_values": [
+            "Namasudra_Matua"
+          ],
+          "party": "LF",
+          "target_pct": 3.0,
+          "observed_pct": 0.0,
+          "gap_pp": -3.0,
+          "se_pp": 2.259,
+          "z": -1.33,
+          "in_tol": true,
+          "n_in_cell": 57
+        },
+        {
+          "parent_values": [
+            "Namasudra_Matua"
+          ],
+          "party": "Other",
+          "target_pct": 2.0,
+          "observed_pct": 1.75,
+          "gap_pp": -0.25,
+          "se_pp": 1.854,
+          "z": -0.13,
+          "in_tol": true,
+          "n_in_cell": 57
+        },
+        {
+          "parent_values": [
+            "Other_SC"
+          ],
+          "party": "BJP",
+          "target_pct": 50.0,
+          "observed_pct": 0.0,
+          "gap_pp": -50.0,
+          "se_pp": 50.0,
+          "z": -1.0,
+          "in_tol": true,
+          "n_in_cell": 1
+        },
+        {
+          "parent_values": [
+            "Other_SC"
+          ],
+          "party": "AITC",
+          "target_pct": 36.0,
+          "observed_pct": 100.0,
+          "gap_pp": 64.0,
+          "se_pp": 48.0,
+          "z": 1.33,
+          "in_tol": true,
+          "n_in_cell": 1
+        },
+        {
+          "parent_values": [
+            "Other_SC"
+          ],
+          "party": "INC",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": 21.794,
+          "z": -0.23,
+          "in_tol": true,
+          "n_in_cell": 1
+        },
+        {
+          "parent_values": [
+            "Other_SC"
+          ],
+          "party": "LF",
+          "target_pct": 7.0,
+          "observed_pct": 0.0,
+          "gap_pp": -7.0,
+          "se_pp": 25.515,
+          "z": -0.27,
+          "in_tol": true,
+          "n_in_cell": 1
+        },
+        {
+          "parent_values": [
+            "Other_SC"
+          ],
+          "party": "Other",
+          "target_pct": 2.0,
+          "observed_pct": 0.0,
+          "gap_pp": -2.0,
+          "se_pp": 14.0,
+          "z": -0.14,
+          "in_tol": true,
+          "n_in_cell": 1
+        },
+        {
+          "parent_values": [
+            "ST"
+          ],
+          "party": "BJP",
+          "target_pct": 45.0,
+          "observed_pct": 33.33,
+          "gap_pp": -11.67,
+          "se_pp": 28.723,
+          "z": -0.41,
+          "in_tol": true,
+          "n_in_cell": 3
+        },
+        {
+          "parent_values": [
+            "ST"
+          ],
+          "party": "AITC",
+          "target_pct": 35.0,
+          "observed_pct": 33.33,
+          "gap_pp": -1.67,
+          "se_pp": 27.538,
+          "z": -0.06,
+          "in_tol": true,
+          "n_in_cell": 3
+        },
+        {
+          "parent_values": [
+            "ST"
+          ],
+          "party": "INC",
+          "target_pct": 5.0,
+          "observed_pct": 33.33,
+          "gap_pp": 28.33,
+          "se_pp": 12.583,
+          "z": 2.25,
+          "in_tol": true,
+          "n_in_cell": 3
+        },
+        {
+          "parent_values": [
+            "ST"
+          ],
+          "party": "LF",
+          "target_pct": 12.0,
+          "observed_pct": 0.0,
+          "gap_pp": -12.0,
+          "se_pp": 18.762,
+          "z": -0.64,
+          "in_tol": true,
+          "n_in_cell": 3
+        },
+        {
+          "parent_values": [
+            "ST"
+          ],
+          "party": "Other",
+          "target_pct": 3.0,
+          "observed_pct": 0.0,
+          "gap_pp": -3.0,
+          "se_pp": 9.849,
+          "z": -0.3,
+          "in_tol": true,
+          "n_in_cell": 3
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "party": "BJP",
+          "target_pct": 4.0,
+          "observed_pct": 0.0,
+          "gap_pp": -4.0,
+          "se_pp": 4.496,
+          "z": -0.89,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "party": "AITC",
+          "target_pct": 70.0,
+          "observed_pct": 100.0,
+          "gap_pp": 30.0,
+          "se_pp": 10.513,
+          "z": 2.85,
+          "in_tol": false,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "party": "INC",
+          "target_pct": 22.0,
+          "observed_pct": 0.0,
+          "gap_pp": -22.0,
+          "se_pp": 9.503,
+          "z": -2.31,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "party": "LF",
+          "target_pct": 3.0,
+          "observed_pct": 0.0,
+          "gap_pp": -3.0,
+          "se_pp": 3.914,
+          "z": -0.77,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Muslim"
+          ],
+          "party": "Other",
+          "target_pct": 1.0,
+          "observed_pct": 0.0,
+          "gap_pp": -1.0,
+          "se_pp": 2.283,
+          "z": -0.44,
+          "in_tol": true,
+          "n_in_cell": 19
+        }
+      ]
+    },
+    {
+      "joint": "vote_given_gender",
+      "parents": [
+        "gender"
+      ],
+      "child": "vote_2019_LS",
+      "semantics": "vote_conditional",
+      "tier": "C",
+      "max_abs_cell_gap_pp": 36.842105263157904,
+      "max_abs_z": 4.542199791661352,
+      "chisq_sum": 41.4468312849372,
+      "n_out_of_tol": 2,
+      "skipped_reason": null,
+      "cells": [
+        {
+          "parent_values": [
+            "Male"
+          ],
+          "party": "BJP",
+          "target_pct": 47.0,
+          "observed_pct": 51.32,
+          "gap_pp": 4.32,
+          "se_pp": 5.725,
+          "z": 0.75,
+          "in_tol": true,
+          "n_in_cell": 76
+        },
+        {
+          "parent_values": [
+            "Male"
+          ],
+          "party": "AITC",
+          "target_pct": 41.0,
+          "observed_pct": 44.74,
+          "gap_pp": 3.74,
+          "se_pp": 5.642,
+          "z": 0.66,
+          "in_tol": true,
+          "n_in_cell": 76
+        },
+        {
+          "parent_values": [
+            "Male"
+          ],
+          "party": "INC",
+          "target_pct": 5.0,
+          "observed_pct": 2.63,
+          "gap_pp": -2.37,
+          "se_pp": 2.5,
+          "z": -0.95,
+          "in_tol": true,
+          "n_in_cell": 76
+        },
+        {
+          "parent_values": [
+            "Male"
+          ],
+          "party": "LF",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": 2.5,
+          "z": -2.0,
+          "in_tol": true,
+          "n_in_cell": 76
+        },
+        {
+          "parent_values": [
+            "Male"
+          ],
+          "party": "Other",
+          "target_pct": 2.0,
+          "observed_pct": 1.32,
+          "gap_pp": -0.68,
+          "se_pp": 1.606,
+          "z": -0.43,
+          "in_tol": true,
+          "n_in_cell": 76
+        },
+        {
+          "parent_values": [
+            "Female"
+          ],
+          "party": "BJP",
+          "target_pct": 38.0,
+          "observed_pct": 13.16,
+          "gap_pp": -24.84,
+          "se_pp": 7.874,
+          "z": -3.15,
+          "in_tol": false,
+          "n_in_cell": 38
+        },
+        {
+          "parent_values": [
+            "Female"
+          ],
+          "party": "AITC",
+          "target_pct": 50.0,
+          "observed_pct": 86.84,
+          "gap_pp": 36.84,
+          "se_pp": 8.111,
+          "z": 4.54,
+          "in_tol": false,
+          "n_in_cell": 38
+        },
+        {
+          "parent_values": [
+            "Female"
+          ],
+          "party": "INC",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": 3.536,
+          "z": -1.41,
+          "in_tol": true,
+          "n_in_cell": 38
+        },
+        {
+          "parent_values": [
+            "Female"
+          ],
+          "party": "LF",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": 3.536,
+          "z": -1.41,
+          "in_tol": true,
+          "n_in_cell": 38
+        },
+        {
+          "parent_values": [
+            "Female"
+          ],
+          "party": "Other",
+          "target_pct": 2.0,
+          "observed_pct": 0.0,
+          "gap_pp": -2.0,
+          "se_pp": 2.271,
+          "z": -0.88,
+          "in_tol": true,
+          "n_in_cell": 38
+        }
+      ]
+    },
+    {
+      "joint": "vote_given_welfare",
+      "parents": [
+        "welfare_dominant"
+      ],
+      "child": "vote_2019_LS",
+      "semantics": "vote_conditional",
+      "tier": "C",
+      "max_abs_cell_gap_pp": 45.0,
+      "max_abs_z": 3.9427724440366254,
+      "chisq_sum": 47.786665637864544,
+      "n_out_of_tol": 2,
+      "skipped_reason": null,
+      "cells": [
+        {
+          "parent_values": [
+            "Krishak_Bandhu"
+          ],
+          "party": "BJP",
+          "target_pct": 28.0,
+          "observed_pct": 50.0,
+          "gap_pp": 22.0,
+          "se_pp": 15.875,
+          "z": 1.39,
+          "in_tol": true,
+          "n_in_cell": 8
+        },
+        {
+          "parent_values": [
+            "Krishak_Bandhu"
+          ],
+          "party": "AITC",
+          "target_pct": 60.0,
+          "observed_pct": 50.0,
+          "gap_pp": -10.0,
+          "se_pp": 17.321,
+          "z": -0.58,
+          "in_tol": true,
+          "n_in_cell": 8
+        },
+        {
+          "parent_values": [
+            "Krishak_Bandhu"
+          ],
+          "party": "INC",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": 7.706,
+          "z": -0.65,
+          "in_tol": true,
+          "n_in_cell": 8
+        },
+        {
+          "parent_values": [
+            "Krishak_Bandhu"
+          ],
+          "party": "LF",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": 7.706,
+          "z": -0.65,
+          "in_tol": true,
+          "n_in_cell": 8
+        },
+        {
+          "parent_values": [
+            "Kanyashree"
+          ],
+          "party": "BJP",
+          "target_pct": 32.0,
+          "observed_pct": 0.0,
+          "gap_pp": -32.0,
+          "se_pp": 10.702,
+          "z": -2.99,
+          "in_tol": false,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Kanyashree"
+          ],
+          "party": "AITC",
+          "target_pct": 55.0,
+          "observed_pct": 100.0,
+          "gap_pp": 45.0,
+          "se_pp": 11.413,
+          "z": 3.94,
+          "in_tol": false,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Kanyashree"
+          ],
+          "party": "INC",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": 5.0,
+          "z": -1.0,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Kanyashree"
+          ],
+          "party": "LF",
+          "target_pct": 6.0,
+          "observed_pct": 0.0,
+          "gap_pp": -6.0,
+          "se_pp": 5.448,
+          "z": -1.1,
+          "in_tol": true,
+          "n_in_cell": 19
+        },
+        {
+          "parent_values": [
+            "Swasthya_Sathi"
+          ],
+          "party": "BJP",
+          "target_pct": 38.0,
+          "observed_pct": 52.0,
+          "gap_pp": 14.0,
+          "se_pp": 9.708,
+          "z": 1.44,
+          "in_tol": true,
+          "n_in_cell": 25
+        },
+        {
+          "parent_values": [
+            "Swasthya_Sathi"
+          ],
+          "party": "AITC",
+          "target_pct": 50.0,
+          "observed_pct": 40.0,
+          "gap_pp": -10.0,
+          "se_pp": 10.0,
+          "z": -1.0,
+          "in_tol": true,
+          "n_in_cell": 25
+        },
+        {
+          "parent_values": [
+            "Swasthya_Sathi"
+          ],
+          "party": "INC",
+          "target_pct": 5.0,
+          "observed_pct": 4.0,
+          "gap_pp": -1.0,
+          "se_pp": 4.359,
+          "z": -0.23,
+          "in_tol": true,
+          "n_in_cell": 25
+        },
+        {
+          "parent_values": [
+            "Swasthya_Sathi"
+          ],
+          "party": "LF",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": 4.359,
+          "z": -1.15,
+          "in_tol": true,
+          "n_in_cell": 25
+        },
+        {
+          "parent_values": [
+            "Sabuj_Sathi"
+          ],
+          "party": "BJP",
+          "target_pct": 35.0,
+          "observed_pct": 33.33,
+          "gap_pp": -1.67,
+          "se_pp": 27.538,
+          "z": -0.06,
+          "in_tol": true,
+          "n_in_cell": 3
+        },
+        {
+          "parent_values": [
+            "Sabuj_Sathi"
+          ],
+          "party": "AITC",
+          "target_pct": 52.0,
+          "observed_pct": 66.67,
+          "gap_pp": 14.67,
+          "se_pp": 28.844,
+          "z": 0.51,
+          "in_tol": true,
+          "n_in_cell": 3
+        },
+        {
+          "parent_values": [
+            "Sabuj_Sathi"
+          ],
+          "party": "INC",
+          "target_pct": 5.0,
+          "observed_pct": 0.0,
+          "gap_pp": -5.0,
+          "se_pp": 12.583,
+          "z": -0.4,
+          "in_tol": true,
+          "n_in_cell": 3
+        },
+        {
+          "parent_values": [
+            "Sabuj_Sathi"
+          ],
+          "party": "LF",
+          "target_pct": 6.0,
+          "observed_pct": 0.0,
+          "gap_pp": -6.0,
+          "se_pp": 13.711,
+          "z": -0.44,
+          "in_tol": true,
+          "n_in_cell": 3
+        },
+        {
+          "parent_values": [
+            "Khadya_Sathi"
+          ],
+          "party": "BJP",
+          "target_pct": 42.0,
+          "observed_pct": 38.0,
+          "gap_pp": -4.0,
+          "se_pp": 6.98,
+          "z": -0.57,
+          "in_tol": true,
+          "n_in_cell": 50
+        },
+        {
+          "parent_values": [
+            "Khadya_Sathi"
+          ],
+          "party": "AITC",
+          "target_pct": 48.0,
+          "observed_pct": 62.0,
+          "gap_pp": 14.0,
+          "se_pp": 7.065,
+          "z": 1.98,
+          "in_tol": true,
+          "n_in_cell": 50
+        },
+        {
+          "parent_values": [
+            "Khadya_Sathi"
+          ],
+          "party": "INC",
+          "target_pct": 4.0,
+          "observed_pct": 0.0,
+          "gap_pp": -4.0,
+          "se_pp": 2.771,
+          "z": -1.44,
+          "in_tol": true,
+          "n_in_cell": 50
+        },
+        {
+          "parent_values": [
+            "Khadya_Sathi"
+          ],
+          "party": "LF",
+          "target_pct": 4.0,
+          "observed_pct": 0.0,
+          "gap_pp": -4.0,
+          "se_pp": 2.771,
+          "z": -1.44,
+          "in_tol": true,
+          "n_in_cell": 50
+        },
+        {
+          "parent_values": [
+            "None"
+          ],
+          "party": "BJP",
+          "target_pct": 55.0,
+          "observed_pct": 77.78,
+          "gap_pp": 22.78,
+          "se_pp": 16.583,
+          "z": 1.37,
+          "in_tol": true,
+          "n_in_cell": 9
+        },
+        {
+          "parent_values": [
+            "None"
+          ],
+          "party": "AITC",
+          "target_pct": 30.0,
+          "observed_pct": 11.11,
+          "gap_pp": -18.89,
+          "se_pp": 15.275,
+          "z": -1.24,
+          "in_tol": true,
+          "n_in_cell": 9
+        },
+        {
+          "parent_values": [
+            "None"
+          ],
+          "party": "INC",
+          "target_pct": 6.0,
+          "observed_pct": 11.11,
+          "gap_pp": 5.11,
+          "se_pp": 7.916,
+          "z": 0.65,
+          "in_tol": true,
+          "n_in_cell": 9
+        },
+        {
+          "parent_values": [
+            "None"
+          ],
+          "party": "LF",
+          "target_pct": 7.0,
+          "observed_pct": 0.0,
+          "gap_pp": -7.0,
+          "se_pp": 8.505,
+          "z": -0.82,
+          "in_tol": true,
+          "n_in_cell": 9
+        }
+      ]
+    }
+  ],
+  "aggregate_gaps": [
+    {
+      "name": "vote_aggregate_2019_LS",
+      "field": "vote_2019_LS",
+      "tier": "D",
+      "max_abs_gap_pp": 18.77192982456141,
+      "max_abs_z": 4.09124725402502,
+      "chisq_sum": 29.443343088570305,
+      "n_out_of_tol": 1,
+      "buckets": [
+        {
+          "name": "BJP",
+          "vote_values": [
+            "BJP"
+          ],
+          "target_pct": 50.0,
+          "observed_pct": 38.6,
+          "gap_pp": -11.4,
+          "se_pp": 4.683,
+          "z": -2.44,
+          "in_tol": true
+        },
+        {
+          "name": "AITC",
+          "vote_values": [
+            "AITC"
+          ],
+          "target_pct": 40.0,
+          "observed_pct": 58.77,
+          "gap_pp": 18.77,
+          "se_pp": 4.588,
+          "z": 4.09,
+          "in_tol": false
+        },
+        {
+          "name": "Left_INC_combined",
+          "vote_values": [
+            "INC",
+            "LF"
+          ],
+          "target_pct": 8.0,
+          "observed_pct": 1.75,
+          "gap_pp": -6.25,
+          "se_pp": 2.541,
+          "z": -2.46,
+          "in_tol": true
+        },
+        {
+          "name": "Other_NOTA",
+          "vote_values": [
+            "Other"
+          ],
+          "target_pct": 2.0,
+          "observed_pct": 0.88,
+          "gap_pp": -1.12,
+          "se_pp": 1.311,
+          "z": -0.86,
+          "in_tol": true
+        }
+      ]
+    },
+    {
+      "name": "vote_2019_LS_share",
+      "field": "vote_2019_LS",
+      "tier": "D",
+      "max_abs_gap_pp": 14.771929824561411,
+      "max_abs_z": 3.1773811135096137,
+      "chisq_sum": 23.737563557152438,
+      "n_out_of_tol": 2,
+      "buckets": [
+        {
+          "name": "BJP",
+          "vote_values": [
+            "BJP"
+          ],
+          "target_pct": 48.0,
+          "observed_pct": 38.6,
+          "gap_pp": -9.4,
+          "se_pp": 4.679,
+          "z": -2.01,
+          "in_tol": true
+        },
+        {
+          "name": "AITC",
+          "vote_values": [
+            "AITC"
+          ],
+          "target_pct": 44.0,
+          "observed_pct": 58.77,
+          "gap_pp": 14.77,
+          "se_pp": 4.649,
+          "z": 3.18,
+          "in_tol": false
+        },
+        {
+          "name": "CPI_INC",
+          "vote_values": [
+            "CPI_INC"
+          ],
+          "target_pct": 6.0,
+          "observed_pct": 0.0,
+          "gap_pp": -6.0,
+          "se_pp": 2.224,
+          "z": -2.7,
+          "in_tol": false
+        },
+        {
+          "name": "Other_NOTA",
+          "vote_values": [
+            "Other_NOTA"
+          ],
+          "target_pct": 2.0,
+          "observed_pct": 0.0,
+          "gap_pp": -2.0,
+          "se_pp": 1.311,
+          "z": -1.53,
+          "in_tol": true
+        }
+      ]
+    }
+  ]
+}
