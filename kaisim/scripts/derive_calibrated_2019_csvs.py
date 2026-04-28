@@ -25,8 +25,15 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CAL_DIR = ROOT / "data" / "calibrated_2019"
-OUT_DIR = CAL_DIR / "csv"
+CONSTS_DIR = ROOT.parent / "constituency_data" / "constituencies"
+
+
+def _ac_2019_dir(ac: str) -> Path:
+    """Return constituency_data/constituencies/{ac}_*/2019 for a 3-digit AC id."""
+    matches = sorted(CONSTS_DIR.glob(f"{ac}_*"))
+    if not matches:
+        raise FileNotFoundError(f"No constituency folder for AC {ac!r}")
+    return matches[0] / "2019"
 
 
 # Section blueprint. The structure is identical across all 2019-calibrated ACs;
@@ -148,9 +155,9 @@ def parse_md_table(md: str, section_id: str) -> tuple[list[str], list[list[str]]
     return header_cells, rows
 
 
-def write_marginal_csv(records: list[dict], ac: str) -> Path:
+def write_marginal_csv(records: list[dict], ac: str, out_dir: Path) -> Path:
     """Write the consolidated long-format marginals CSV."""
-    out = OUT_DIR / f"{ac}_marginals.csv"
+    out = out_dir / f"{ac}_marginals.csv"
     fieldnames = ["axis", "category", "pct", "tier", "source", "is_subgroup"]
     with out.open("w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fieldnames)
@@ -159,8 +166,8 @@ def write_marginal_csv(records: list[dict], ac: str) -> Path:
     return out
 
 
-def write_wide_csv(name: str, header: list[str], rows: list[list[str]]) -> Path:
-    out = OUT_DIR / name
+def write_wide_csv(name: str, header: list[str], rows: list[list[str]], out_dir: Path) -> Path:
+    out = out_dir / name
     with out.open("w", newline="") as f:
         w = csv.writer(f)
         w.writerow(header)
@@ -206,11 +213,12 @@ def parse_calibration_target(md: str) -> tuple[list[str], list[list[str]]]:
 
 
 def find_md_for_ac(ac: str) -> Path:
-    """Find <ac>_*_2019.md inside calibrated_2019/."""
-    matches = sorted(CAL_DIR.glob(f"{ac}_*_2019.md"))
+    """Find <ac>_*_2019.md inside constituency_data/constituencies/{ac}_*/2019/."""
+    ac_2019 = _ac_2019_dir(ac)
+    matches = sorted(ac_2019.glob(f"{ac}_*_2019.md"))
     if not matches:
         raise FileNotFoundError(
-            f"No MD file matching '{ac}_*_2019.md' in {CAL_DIR}")
+            f"No MD file matching '{ac}_*_2019.md' in {ac_2019}")
     if len(matches) > 1:
         raise ValueError(f"Multiple MDs match '{ac}_*_2019.md': {matches}")
     return matches[0]
@@ -218,7 +226,8 @@ def find_md_for_ac(ac: str) -> Path:
 
 def derive_one(ac: str, verbose: bool = True) -> dict:
     """Parse the AC's MD and write its CSVs. Return a per-AC summary."""
-    OUT_DIR.mkdir(parents=True, exist_ok=True)
+    out_dir = _ac_2019_dir(ac) / "csv"
+    out_dir.mkdir(parents=True, exist_ok=True)
     md_path = find_md_for_ac(ac)
     md = md_path.read_text()
     sections = build_sections(ac)
@@ -259,17 +268,17 @@ def derive_one(ac: str, verbose: bool = True) -> dict:
             if axis not in summary["marginal_axes_written"]:
                 summary["marginal_axes_written"].append(axis)
         elif cfg["kind"] == "wide":
-            out = write_wide_csv(cfg["csv"], header, rows)
+            out = write_wide_csv(cfg["csv"], header, rows, out_dir)
             summary["joint_csvs_written"].append(out.name)
 
     if marginal_records:
-        marg_path = write_marginal_csv(marginal_records, ac)
+        marg_path = write_marginal_csv(marginal_records, ac, out_dir)
         if verbose:
             print(f"  wrote {marg_path.name} ({len(marginal_records)} rows)")
 
     cal_header, cal_rows = parse_calibration_target(md)
     if cal_rows and cal_header:
-        cal_out = OUT_DIR / f"{ac}_calibration_target_2019.csv"
+        cal_out = out_dir / f"{ac}_calibration_target_2019.csv"
         with cal_out.open("w", newline="") as f:
             w = csv.writer(f)
             w.writerow(cal_header)        # preserve verbatim per-AC schema
@@ -291,9 +300,9 @@ def derive_one(ac: str, verbose: bool = True) -> dict:
 
 
 def discover_acs() -> list[str]:
-    """Return all 3-digit AC numbers found as <NNN>_*_2019.md in CAL_DIR."""
+    """Return all 3-digit AC numbers found as <NNN>_*_2019.md in constituency_data/."""
     out = []
-    for p in sorted(CAL_DIR.glob("*_2019.md")):
+    for p in sorted(CONSTS_DIR.glob("*/2019/*_2019.md")):
         m = re.match(r"^(\d{3})_", p.name)
         if m:
             out.append(m.group(1))

@@ -35,9 +35,16 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CAL_DIR = ROOT / "data" / "calibrated_2019"
-CSV_DIR = CAL_DIR / "csv"
+CONSTS_DIR = ROOT.parent / "constituency_data" / "constituencies"
 SIMS_DIR = ROOT / "simulations"
+
+
+def _ac_csv_dir(ac: str) -> Path:
+    """Return constituency_data/constituencies/{ac}_*/2019/csv for a 3-digit AC id."""
+    matches = sorted(CONSTS_DIR.glob(f"{ac}_*"))
+    if not matches:
+        raise FileNotFoundError(f"No constituency folder for AC {ac!r}")
+    return matches[0] / "2019" / "csv"
 PER_AC_DIR = ROOT / "scripts" / "per_ac"
 
 # Axes that ARE marginals but where rows are independent ownership rates,
@@ -66,7 +73,7 @@ def to_snake(label: str) -> str:
 
 def load_marginals(ac: str) -> dict[str, list[dict]]:
     """Group marginal CSV rows by axis."""
-    path = CSV_DIR / f"{ac}_marginals.csv"
+    path = _ac_csv_dir(ac) / f"{ac}_marginals.csv"
     if not path.exists():
         raise FileNotFoundError(f"{path.name}")
     by_axis: dict[str, list[dict]] = {}
@@ -199,7 +206,7 @@ def build_joint(ac: str, file_stem: str) -> dict | None:
     """Build one joint JSON entry from a wide CSV."""
     if file_stem not in JOINT_FILE_TO_NAME:
         return None
-    path = CSV_DIR / f"{ac}_{file_stem}.csv"
+    path = _ac_csv_dir(ac) / f"{ac}_{file_stem}.csv"
     if not path.exists():
         return None
     name, parents, child, semantics = JOINT_FILE_TO_NAME[file_stem]
@@ -312,7 +319,7 @@ def _load_axis_leaves(ac: str, axis_name: str) -> set[str]:
     """Read just-built marginal CSV → return the set of leaf category codes
     that the auto-builder will declare on this axis. Used to align D.2."""
     import csv as _csv
-    p = CSV_DIR / f"{ac}_marginals.csv"
+    p = _ac_csv_dir(ac) / f"{ac}_marginals.csv"
     if not p.exists():
         return set()
     leaves = set()
@@ -440,7 +447,7 @@ def _detect_pct_column(header: list[str], rows: list[list[str]]) -> int | None:
 
 
 def build_aggregate_target(ac: str) -> dict | None:
-    path = CSV_DIR / f"{ac}_calibration_target_2019.csv"
+    path = _ac_csv_dir(ac) / f"{ac}_calibration_target_2019.csv"
     if not path.exists():
         return None
     with path.open() as f:
@@ -577,7 +584,7 @@ def build_one(ac: str, force: bool = False) -> dict:
 
 def discover_acs() -> list[str]:
     out = []
-    for p in sorted(CAL_DIR.glob("*_2019.md")):
+    for p in sorted(CONSTS_DIR.glob("*/2019/*_2019.md")):
         m = re.match(r"^(\d{3})_", p.name)
         if m: out.append(m.group(1))
     return out

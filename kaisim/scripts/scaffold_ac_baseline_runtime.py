@@ -253,7 +253,8 @@ if __name__ == "__main__":
 def _read_party_set(ac: str) -> list[str]:
     """Read parties present in this AC's vote_given_religion CSV header."""
     import csv as _csv
-    p = ROOT / "data" / "calibrated_2019" / "csv" / f"{ac}_vote_religion_2019.csv"
+    _matches = sorted((ROOT.parent / "constituency_data" / "constituencies").glob(f"{ac}_*"))
+    p = _matches[0] / "2019" / "csv" / f"{ac}_vote_religion_2019.csv" if _matches else Path("__missing__")
     if not p.exists():
         return ["BJP", "AITC", "INC", "LF", "Other"]
     with p.open() as f:

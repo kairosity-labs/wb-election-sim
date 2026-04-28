@@ -20,7 +20,7 @@ import re
 from pathlib import Path
 
 ROOT = Path(__file__).parent
-CSV_DIR = ROOT.parent.parent / "data" / "calibrated_2019" / "csv"
+CSV_DIR = ROOT.parent.parent.parent / "constituency_data" / "constituencies" / "095_bangaon_uttar" / "2019" / "csv"
 OUT_DIR = ROOT / "structures"
 
 

@@ -39,9 +39,16 @@ import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-CAL_DIR = ROOT / "data" / "calibrated_2019"
-CSV_DIR = CAL_DIR / "csv"
-AUDIT_DIR = CAL_DIR / "audit"
+CONSTS_DIR = ROOT.parent / "constituency_data" / "constituencies"
+METHODOLOGY_MD = ROOT.parent / "constituency_data" / "methodology_2019.md"
+
+
+def _ac_2019_dir(ac: str) -> Path:
+    """Return constituency_data/constituencies/{ac}_*/2019 for a 3-digit AC id."""
+    matches = sorted(CONSTS_DIR.glob(f"{ac}_*"))
+    if not matches:
+        raise FileNotFoundError(f"No constituency folder for AC {ac!r}")
+    return matches[0] / "2019"
 
 # Axes whose rows are independent ownership %s (do not sum to 100).
 SKIP_SUM_AXES = {"asset_media", "amenities"}
@@ -124,7 +131,7 @@ def _label_match(a: str, b: str) -> bool:
 
 
 def find_md(ac: str) -> Path:
-    matches = sorted(CAL_DIR.glob(f"{ac}_*_2019.md"))
+    matches = sorted(_ac_2019_dir(ac).glob(f"{ac}_*_2019.md"))
     if not matches:
         raise FileNotFoundError(f"No MD file for AC {ac}")
     return matches[0]
@@ -135,7 +142,7 @@ def find_md(ac: str) -> Path:
 # ---------------------------------------------------------------------------
 
 def gate1_marginal_sums(ac: str) -> tuple[bool, list[str]]:
-    path = CSV_DIR / f"{ac}_marginals.csv"
+    path = _ac_2019_dir(ac) / "csv" / f"{ac}_marginals.csv"
     if not path.exists():
         return False, [f"Missing {path.name}"]
     by_axis: dict[str, float] = {}
@@ -166,8 +173,8 @@ def gate2_joint_marginal_recovery(ac: str) -> tuple[bool, list[str]]:
     """Test D.1 Religion×MotherTongue: recover language marginal from joint."""
     msgs: list[str] = []
 
-    marg_path = CSV_DIR / f"{ac}_marginals.csv"
-    joint_path = CSV_DIR / f"{ac}_joint_religion_lang.csv"
+    marg_path = _ac_2019_dir(ac) / "csv" / f"{ac}_marginals.csv"
+    joint_path = _ac_2019_dir(ac) / "csv" / f"{ac}_joint_religion_lang.csv"
     if not (marg_path.exists() and joint_path.exists()):
         return False, [f"Missing {marg_path.name} or {joint_path.name}"]
 
@@ -258,9 +265,10 @@ def gate3_population_calibration(ac: str) -> tuple[bool, list[str]]:
 
 def gate4_vote_calibration(ac: str) -> tuple[bool, list[str]]:
     msgs: list[str] = []
-    marg_path = CSV_DIR / f"{ac}_marginals.csv"
-    vote_path = CSV_DIR / f"{ac}_vote_religion_2019.csv"
-    target_path = CSV_DIR / f"{ac}_calibration_target_2019.csv"
+    _csv_dir = _ac_2019_dir(ac) / "csv"
+    marg_path = _csv_dir / f"{ac}_marginals.csv"
+    vote_path = _csv_dir / f"{ac}_vote_religion_2019.csv"
+    target_path = _csv_dir / f"{ac}_calibration_target_2019.csv"
     for p in (marg_path, vote_path, target_path):
         if not p.exists():
             return False, [f"Missing {p.name}"]
@@ -361,8 +369,8 @@ def _strip_section_h(md_text: str) -> str:
 def gate5_no_future_leakage(ac: str) -> tuple[bool, list[str]]:
     msgs: list[str] = []
     md = find_md(ac)
-    files = [md] + sorted(CSV_DIR.glob(f"{ac}_*.csv"))
-    files.append(CAL_DIR / "methodology_2019.md")
+    files = [md] + sorted((_ac_2019_dir(ac) / "csv").glob(f"{ac}_*.csv"))
+    files.append(METHODOLOGY_MD)
     for f in files:
         if not f.exists():
             continue
@@ -467,8 +475,9 @@ def validate_one(ac: str, write_md: bool = False) -> dict:
             md_lines.append(f"    - `{m.strip()}`")
 
     if write_md:
-        AUDIT_DIR.mkdir(parents=True, exist_ok=True)
-        out = AUDIT_DIR / f"{ac}_gate_report.md"
+        audit_dir = _ac_2019_dir(ac) / "audit"
+        audit_dir.mkdir(parents=True, exist_ok=True)
+        out = audit_dir / f"{ac}_gate_report.md"
         out.write_text("\n".join(md_lines) + "\n")
 
     return summary
@@ -476,7 +485,7 @@ def validate_one(ac: str, write_md: bool = False) -> dict:
 
 def discover_acs() -> list[str]:
     out = []
-    for p in sorted(CAL_DIR.glob("*_2019.md")):
+    for p in sorted(CONSTS_DIR.glob("*/2019/*_2019.md")):
         m = re.match(r"^(\d{3})_", p.name)
         if m:
             out.append(m.group(1))
