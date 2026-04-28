@@ -15,6 +15,7 @@ they're versioned with the codebase.
 | [`analyze-run`](analyze-run/SKILL.md) | Generate the full analysis pack for a completed run |
 | [`add-news-event`](add-news-event/SKILL.md) | Add a single news event to an existing simulation's events YAML |
 | [`compare-runs`](compare-runs/SKILL.md) | Side-by-side diff two simulation runs (ablation studies) |
+| [`generate-narrative`](generate-narrative/SKILL.md) | Research and write a constituency narrative.md — the frozen opinion-climate seed that LLM personas draw on during simulation |
 
 ## How to use
 
