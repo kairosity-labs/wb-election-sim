@@ -10,6 +10,7 @@ they're versioned with the codebase.
 |---|---|
 | [`new-constituency`](new-constituency/SKILL.md) | Scaffold a brand-new (region, election) simulation under `simulations/<sim_name>/` |
 | [`run-calibration`](run-calibration/SKILL.md) | Run pre-LLM rule-based persona generation + verifier audit |
+| [`calibrate-ac-baseline`](calibrate-ac-baseline/SKILL.md) | Take an auto-built AC's baseline from "way over budget" to composite ≤ 800 by working through the alignment-fix checklist |
 | [`run-simulation`](run-simulation/SKILL.md) | Launch the full LLM belief-evolution simulation |
 | [`analyze-run`](analyze-run/SKILL.md) | Generate the full analysis pack for a completed run |
 | [`add-news-event`](add-news-event/SKILL.md) | Add a single news event to an existing simulation's events YAML |

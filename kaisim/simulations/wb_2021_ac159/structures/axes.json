@@ -1,0 +1,574 @@
+{
+  "$schema_version": "1.0",
+  "axes": [
+    {
+      "name": "religion",
+      "kind": "partition",
+      "categories": [
+        "Hindu",
+        "Muslim",
+        "Sikh",
+        "Jain",
+        "Christian"
+      ],
+      "marginal": {
+        "Hindu": 73.5,
+        "Muslim": 24.0,
+        "Sikh": 1.5,
+        "Jain": 0.8,
+        "Christian": 0.2
+      },
+      "display_names": {
+        "Hindu": "Hindu",
+        "Muslim": "Muslim",
+        "Sikh": "Sikh",
+        "Jain": "Jain",
+        "Christian": "Christian"
+      },
+      "tier": "D",
+      "source_csv": "159_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "caste",
+      "kind": "partition",
+      "categories": [
+        "SC_total",
+        "ST_total",
+        "Bengali_bhadralok_UC",
+        "Bengali_OBC_middle_caste_Hindu",
+        "Marwari",
+        "Gujarati_Hindu",
+        "Bihari_UP_migrant_Hindu",
+        "Sikh",
+        "Oriya_Hindu",
+        "Jain",
+        "Other_non_Bengali_Hindu_South_Indian_Anglo_Indian",
+        "Muslim",
+        "Christian_Buddhist_other_religion"
+      ],
+      "marginal": {
+        "SC_total": 2.23,
+        "ST_total": 0.26,
+        "Bengali_bhadralok_UC": 25.0,
+        "Bengali_OBC_middle_caste_Hindu": 15.0,
+        "Marwari": 10.4,
+        "Gujarati_Hindu": 8.0,
+        "Bihari_UP_migrant_Hindu": 7.0,
+        "Sikh": 1.5,
+        "Oriya_Hindu": 2.0,
+        "Jain": 0.8,
+        "Other_non_Bengali_Hindu_South_Indian_Anglo_Indian": 3.6,
+        "Muslim": 24.0,
+        "Christian_Buddhist_other_religion": 0.21
+      },
+      "display_names": {
+        "SC_total": "SC total",
+        "ST_total": "ST total",
+        "Bengali_bhadralok_UC": "Bengali bhadralok UC (Brahmin / Kayastha / Baidya)",
+        "Bengali_OBC_middle_caste_Hindu": "Bengali OBC / middle-caste Hindu (Sadgop / Tili / Subarnabanik / Tanti / unclassified)",
+        "Marwari": "Marwari (Rajasthani Hindu)",
+        "Gujarati_Hindu": "Gujarati Hindu",
+        "Bihari_UP_migrant_Hindu": "Bihari / UP migrant Hindu",
+        "Sikh": "Sikh",
+        "Oriya_Hindu": "Oriya Hindu",
+        "Jain": "Jain",
+        "Other_non_Bengali_Hindu_South_Indian_Anglo_Indian": "Other non-Bengali Hindu / South Indian / Anglo-Indian",
+        "Muslim": "Muslim (all sub-groups)",
+        "Christian_Buddhist_other_religion": "Christian + Buddhist + other religion"
+      },
+      "tier": "D",
+      "source_csv": "159_marginals.csv",
+      "needs_review": true,
+      "notes": "[AC 159: caste palette includes trader communities (Marwari/Gujarati/Bihari) as leaf cats; do NOT cross-map to non-Kolkata ACs]"
+    },
+    {
+      "name": "age_cohort",
+      "kind": "partition",
+      "categories": [
+        "18_22",
+        "23_27",
+        "28_32",
+        "33_37",
+        "38_42",
+        "43_47",
+        "48_52",
+        "53_57",
+        "58_62",
+        "63_67",
+        "68"
+      ],
+      "marginal": {
+        "18_22": 12.8378,
+        "23_27": 14.1892,
+        "28_32": 13.5135,
+        "33_37": 12.1622,
+        "38_42": 10.8108,
+        "43_47": 10.1351,
+        "48_52": 8.7838,
+        "53_57": 6.7568,
+        "58_62": 5.4054,
+        "63_67": 3.3784,
+        "68": 2.027
+      },
+      "display_names": {
+        "0_4": "0–4",
+        "5_9": "5–9",
+        "10_14": "10–14",
+        "15_17": "15–17 (pre-voter)",
+        "18_22": "18–22 (first-time voters at 2019)",
+        "23_27": "23–27",
+        "28_32": "28–32",
+        "33_37": "33–37",
+        "38_42": "38–42",
+        "43_47": "43–47",
+        "48_52": "48–52",
+        "53_57": "53–57",
+        "58_62": "58–62",
+        "63_67": "63–67",
+        "68": "68+"
+      },
+      "tier": "E",
+      "source_csv": "159_marginals.csv",
+      "needs_review": true,
+      "notes": "[restricted to adults 18+ for Phase-2 voter sim]"
+    },
+    {
+      "name": "gender",
+      "kind": "partition",
+      "categories": [
+        "Male",
+        "Female",
+        "Third_gender"
+      ],
+      "marginal": {
+        "Male": 51.53,
+        "Female": 48.46,
+        "Third_gender": 0.01
+      },
+      "display_names": {
+        "Male": "Male",
+        "Female": "Female",
+        "Third_gender": "Third gender"
+      },
+      "tier": "E",
+      "source_csv": "159_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "mother_tongue",
+      "kind": "partition",
+      "categories": [
+        "Bengali",
+        "Hindi",
+        "Gujarati",
+        "Urdu",
+        "Punjabi",
+        "Odia",
+        "English_dominant",
+        "Other"
+      ],
+      "marginal": {
+        "Bengali": 58.0,
+        "Hindi": 20.0,
+        "Gujarati": 7.0,
+        "Urdu": 8.0,
+        "Punjabi": 1.5,
+        "Odia": 2.0,
+        "English_dominant": 0.5,
+        "Other": 3.0
+      },
+      "display_names": {
+        "Bengali": "Bengali",
+        "Hindi": "Hindi",
+        "Gujarati": "Gujarati",
+        "Urdu": "Urdu",
+        "Punjabi": "Punjabi",
+        "Odia": "Odia",
+        "English_dominant": "English-dominant (Anglo-Indian / expat / elite school)",
+        "Other": "Other (Tamil/Marathi/Sindhi/Nepali)"
+      },
+      "tier": "D",
+      "source_csv": "159_marginals.csv",
+      "needs_review": true,
+      "notes": "[AC 159: 6+ language palette — Bengali/Hindi/Gujarati/Urdu/Punjabi/Odia. Bilingualism rate ~25% (vs 6% in 095)]"
+    },
+    {
+      "name": "education",
+      "kind": "partition",
+      "categories": [
+        "Illiterate",
+        "Primary",
+        "Middle",
+        "Secondary",
+        "Higher_Secondary",
+        "Graduate",
+        "Postgraduate"
+      ],
+      "marginal": {
+        "Illiterate": 7.0,
+        "Primary": 10.0,
+        "Middle": 13.0,
+        "Secondary": 19.0,
+        "Higher_Secondary": 20.0,
+        "Graduate": 22.0,
+        "Postgraduate": 9.0
+      },
+      "display_names": {
+        "Illiterate": "Illiterate",
+        "Primary": "Primary (Class 1–5)",
+        "Middle": "Middle (Class 6–8)",
+        "Secondary": "Secondary (Class 9–10)",
+        "Higher_Secondary": "Higher Secondary (Class 11–12)",
+        "Graduate": "Graduate",
+        "Postgraduate": "Postgraduate"
+      },
+      "tier": "E",
+      "source_csv": "159_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "workforce_status",
+      "kind": "partition",
+      "categories": [
+        "Main_worker",
+        "Marginal_worker",
+        "Non_worker",
+        "Student",
+        "Unemployed"
+      ],
+      "marginal": {
+        "Main_worker": 42.0,
+        "Marginal_worker": 5.0,
+        "Non_worker": 35.0,
+        "Student": 10.0,
+        "Unemployed": 8.0
+      },
+      "display_names": {
+        "Main_worker": "Main worker",
+        "Marginal_worker": "Marginal worker",
+        "Non_worker": "Non-worker (housewife / retired / elderly)",
+        "Student": "Student (18–22, in education)",
+        "Unemployed": "Unemployed (educated, actively seeking)"
+      },
+      "tier": "E",
+      "source_csv": "159_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "occupation",
+      "kind": "partition",
+      "categories": [
+        "Cultivator",
+        "Agricultural_labourer",
+        "Household_industry",
+        "Manufacturing",
+        "Construction",
+        "Trade_retail",
+        "Transport",
+        "Services_banking_IT_hospitality",
+        "Government_services_teachers",
+        "Domestic_workers",
+        "Petty_vendor_street_commerce",
+        "Other_professionals"
+      ],
+      "marginal": {
+        "Cultivator": 0.0,
+        "Agricultural_labourer": 0.0,
+        "Household_industry": 3.0,
+        "Manufacturing": 6.0,
+        "Construction": 4.0,
+        "Trade_retail": 22.0,
+        "Transport": 8.0,
+        "Services_banking_IT_hospitality": 22.0,
+        "Government_services_teachers": 18.0,
+        "Domestic_workers": 5.0,
+        "Petty_vendor_street_commerce": 7.0,
+        "Other_professionals": 5.0
+      },
+      "display_names": {
+        "Cultivator": "Cultivator",
+        "Agricultural_labourer": "Agricultural labourer",
+        "Household_industry": "Household industry",
+        "Manufacturing": "Manufacturing (organised)",
+        "Construction": "Construction",
+        "Trade_retail": "Trade / retail",
+        "Transport": "Transport (auto, taxi, logistics)",
+        "Services_banking_IT_hospitality": "Services (private) — banking, IT, hospitality",
+        "Government_services_teachers": "Government services / teachers",
+        "Domestic_workers": "Domestic workers",
+        "Petty_vendor_street_commerce": "Petty vendor / street commerce",
+        "Other_professionals": "Other professionals (doctor, lawyer, CA)"
+      },
+      "tier": "E",
+      "source_csv": "159_marginals.csv",
+      "needs_review": true,
+      "verify_condition": {
+        "field": "workforce_status",
+        "values": [
+          "Main_worker",
+          "Marginal_worker"
+        ]
+      }
+    },
+    {
+      "name": "class_of_worker",
+      "kind": "partition",
+      "categories": [
+        "Employer",
+        "Employee",
+        "Single_worker",
+        "Family_worker"
+      ],
+      "marginal": {
+        "Employer": 8.0,
+        "Employee": 52.0,
+        "Single_worker": 32.0,
+        "Family_worker": 8.0
+      },
+      "display_names": {
+        "Employer": "Employer",
+        "Employee": "Employee (regular wage / salary)",
+        "Single_worker": "Single worker (own-account)",
+        "Family_worker": "Family worker (unpaid)"
+      },
+      "tier": "E",
+      "source_csv": "159_marginals.csv",
+      "needs_review": true,
+      "verify_condition": {
+        "field": "workforce_status",
+        "values": [
+          "Main_worker",
+          "Marginal_worker"
+        ]
+      }
+    },
+    {
+      "name": "economic_status",
+      "kind": "partition",
+      "categories": [
+        "BPL_household",
+        "Above_Poverty_Line_low_income",
+        "Lower_middle",
+        "Middle",
+        "Upper_middle",
+        "Well_off_affluent"
+      ],
+      "marginal": {
+        "BPL_household": 8.0,
+        "Above_Poverty_Line_low_income": 22.0,
+        "Lower_middle": 28.0,
+        "Middle": 25.0,
+        "Upper_middle": 12.0,
+        "Well_off_affluent": 5.0
+      },
+      "display_names": {
+        "BPL_household": "BPL household",
+        "Above_Poverty_Line_low_income": "Above-Poverty-Line, low-income",
+        "Lower_middle": "Lower-middle",
+        "Middle": "Middle",
+        "Upper_middle": "Upper-middle",
+        "Well_off_affluent": "Well-off / affluent"
+      },
+      "tier": "E",
+      "source_csv": "159_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "gp_location",
+      "kind": "partition",
+      "categories": [
+        "U1_North_ward_cluster",
+        "U2_South_west_ward_cluster"
+      ],
+      "marginal": {
+        "U1_North_ward_cluster": 52.0,
+        "U2_South_west_ward_cluster": 48.0
+      },
+      "display_names": {
+        "U1_North_ward_cluster": "U1: North ward cluster (Wards 63, 70, 71, 72 — Bhowanipore core, Hazra Rd, Naktala fringe)",
+        "U2_South_west_ward_cluster": "U2: South-west ward cluster (Wards 73, 74, 77, 82 — Kalighat, Patuapara, Elgin Rd, Kidderpur fringe)"
+      },
+      "tier": "E",
+      "source_csv": "159_marginals.csv",
+      "needs_review": true,
+      "notes": "[AC 159: sub-units are KMC ward clusters, not GPs — see MD §A for ward composition]"
+    },
+    {
+      "name": "household_composition",
+      "kind": "partition",
+      "categories": [
+        "Nuclear_HH",
+        "Joint_HH",
+        "Extended_multi_generation"
+      ],
+      "marginal": {
+        "Nuclear_HH": 75.0,
+        "Joint_HH": 18.0,
+        "Extended_multi_generation": 7.0
+      },
+      "display_names": {
+        "Nuclear_HH": "Nuclear HH",
+        "Joint_HH": "Joint HH",
+        "Extended_multi_generation": "Extended / multi-generation"
+      },
+      "tier": "E",
+      "source_csv": "159_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "marital_status",
+      "kind": "partition",
+      "categories": [
+        "Never_married",
+        "Currently_married",
+        "Widowed",
+        "Separated_divorced"
+      ],
+      "marginal": {
+        "Never_married": 30.0,
+        "Currently_married": 61.0,
+        "Widowed": 7.5,
+        "Separated_divorced": 1.5
+      },
+      "display_names": {
+        "Never_married": "Never married",
+        "Currently_married": "Currently married",
+        "Widowed": "Widowed",
+        "Separated_divorced": "Separated / divorced"
+      },
+      "tier": "E",
+      "source_csv": "159_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "asset_media",
+      "kind": "flag",
+      "flags": [
+        "Television",
+        "Radio",
+        "Mobile_phone",
+        "Smartphone_with_internet",
+        "Computer_laptop",
+        "Two_wheeler",
+        "Four_wheeler",
+        "Banking_access",
+        "Cable_satellite_TV_subscription"
+      ],
+      "rates": {
+        "Television": 95.0,
+        "Radio": 6.0,
+        "Mobile_phone": 97.0,
+        "Smartphone_with_internet": 78.0,
+        "Computer_laptop": 38.0,
+        "Two_wheeler": 30.0,
+        "Four_wheeler": 20.0,
+        "Banking_access": 98.0,
+        "Cable_satellite_TV_subscription": 85.0
+      },
+      "display_names": {
+        "Television": "Television",
+        "Radio": "Radio",
+        "Mobile_phone": "Mobile phone (any)",
+        "Smartphone_with_internet": "Smartphone with internet",
+        "Computer_laptop": "Computer / laptop",
+        "Two_wheeler": "Two-wheeler",
+        "Four_wheeler": "Four-wheeler",
+        "Banking_access": "Banking access (any)",
+        "Cable_satellite_TV_subscription": "Cable / satellite TV subscription"
+      },
+      "tier": "C",
+      "source_csv": "159_marginals.csv",
+      "needs_review": true,
+      "notes": "Independent ownership rates — see calibrated_2019 MD."
+    },
+    {
+      "name": "amenities",
+      "kind": "flag",
+      "flags": [
+        "Improved_drinking_water",
+        "Improved_sanitation",
+        "LPG_clean_cooking_fuel",
+        "Kerosene_biomass_fuel",
+        "Other_fuel",
+        "Electricity"
+      ],
+      "rates": {
+        "Improved_drinking_water": 98.0,
+        "Improved_sanitation": 97.0,
+        "LPG_clean_cooking_fuel": 90.0,
+        "Kerosene_biomass_fuel": 8.0,
+        "Other_fuel": 2.0,
+        "Electricity": 99.5
+      },
+      "display_names": {
+        "Improved_drinking_water": "Improved drinking water (piped municipal)",
+        "Improved_sanitation": "Improved sanitation (flush latrine)",
+        "LPG_clean_cooking_fuel": "LPG / clean cooking fuel",
+        "Kerosene_biomass_fuel": "Kerosene / biomass fuel",
+        "Other_fuel": "Other fuel",
+        "Electricity": "Electricity (metered)"
+      },
+      "tier": "C",
+      "source_csv": "159_marginals.csv",
+      "needs_review": true,
+      "notes": "Independent ownership rates — see calibrated_2019 MD."
+    },
+    {
+      "name": "migration",
+      "kind": "partition",
+      "categories": [
+        "Native_Kolkata_born",
+        "WB_other_district",
+        "Hindi_belt_in_migrant",
+        "Other_Indian_state",
+        "Bangladesh_origin_Hindu",
+        "Outside_India",
+        "Out_migrant"
+      ],
+      "marginal": {
+        "Native_Kolkata_born": 50.0,
+        "WB_other_district": 10.0,
+        "Hindi_belt_in_migrant": 28.0,
+        "Other_Indian_state": 8.0,
+        "Bangladesh_origin_Hindu": 2.5,
+        "Outside_India": 0.5,
+        "Out_migrant": 1.0
+      },
+      "display_names": {
+        "Native_Kolkata_born": "Native Kolkata-born (born in Kolkata or KMC area)",
+        "WB_other_district": "WB other district (in-migrant from rest of WB)",
+        "Hindi_belt_in_migrant": "Hindi belt (UP/Bihar/Rajasthan/Gujarat) in-migrant",
+        "Other_Indian_state": "Other Indian state (Orissa, South India, Maharashtra, Punjab)",
+        "Bangladesh_origin_Hindu": "Bangladesh-origin Hindu",
+        "Outside_India": "Outside India (other)",
+        "Out_migrant": "Out-migrant (registered here but working elsewhere)"
+      },
+      "tier": "D",
+      "source_csv": "159_marginals.csv",
+      "needs_review": true,
+      "notes": "[AC 159: distinct Hindi-belt + other-state in-migration cohorts — load-bearing for trader-class persona narratives]"
+    },
+    {
+      "name": "linguistic_community",
+      "kind": "derived",
+      "parents": [
+        "mother_tongue",
+        "caste",
+        "migration"
+      ],
+      "module": "derived.linguistic_community",
+      "function": "compute",
+      "categories": [
+        "bengali_native",
+        "marwari_gujarati_trader",
+        "bihari_hindi_belt",
+        "punjabi_other_minority",
+        "muslim_urdu_speaking"
+      ],
+      "tier": "D",
+      "needs_review": true,
+      "notes": "AC 159 specific. Bhabanipur trader-class identity is a major political-behavior signal. Marwari-Gujarati BJP leaning, Bengali-bhadralok TMC leaning is well-documented."
+    }
+  ]
+}

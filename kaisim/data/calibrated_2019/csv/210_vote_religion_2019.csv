@@ -1,0 +1,4 @@
+Religion,BJP,AITC,INC,LF,Other,Tier,Source
+Hindu,45,44,3,6,2,C/D,"CSDS 2019 WB state average Hindu: BJP 57%, TMC 32%; but Nandigram AC-level result implies significantly lower BJP share among Hindu (AC result 30% BJP vs 63% AITC). AC-specific calibration lowers BJP Hindu share to ~45%. Tier C+D composite."
+Muslim,3,82,8,6,1,C,"CSDS 2019 WB Muslim: BJP ~4%, TMC ~70%; AC-level result consistent with higher AITC-Muslim consolidation (Dibyendu Adhikari family stronghold). Muslim ~26% of electorate × 82% AITC ≈ 21.3pp AITC; Hindu 73.5% × 44% AITC ≈ 32.3pp; sum ~53.6%→ reconciles toward 63% with turnout differential."
+Other,30,50,10,5,5,E,Small base

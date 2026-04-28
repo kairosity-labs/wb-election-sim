@@ -1,0 +1,20 @@
+{
+  "n": 500,
+  "composite_score": 6398.58,
+  "within_tolerance": false,
+  "skipped_joints": 13,
+  "skipped_buckets": 8,
+  "headline_from_generate_py": {
+    "n": 500,
+    "composite_score": 6398.58,
+    "within_tolerance": false,
+    "max_axis_z": 17.56,
+    "max_joint_z": 46.17,
+    "aggregate_vote_max_z": 0.59,
+    "max_axis_gap_pp": 37.2,
+    "max_joint_cell_gap_pp": 93.0,
+    "aggregate_vote_max_gap_pp": 1.31,
+    "skipped_joints": 13,
+    "skipped_buckets": 8
+  }
+}

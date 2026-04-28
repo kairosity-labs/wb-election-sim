@@ -1,0 +1,60 @@
+{
+  "$schema_version": "1.0",
+  "aggregate_targets": [
+    {
+      "name": "vote_2019_LS_share",
+      "field": "vote_2019_LS",
+      "buckets": [
+        {
+          "name": "AITC",
+          "display_name": "AITC",
+          "target_pct": 52.86,
+          "vote_values": [
+            "AITC"
+          ],
+          "tier": "A"
+        },
+        {
+          "name": "BJP",
+          "display_name": "BJP",
+          "target_pct": 35.69,
+          "vote_values": [
+            "BJP"
+          ],
+          "tier": "A"
+        },
+        {
+          "name": "CPI",
+          "display_name": "CPI(M)",
+          "target_pct": 8.19,
+          "vote_values": [
+            "CPI_LF"
+          ],
+          "tier": "A"
+        },
+        {
+          "name": "INC",
+          "display_name": "INC",
+          "target_pct": 0.99,
+          "vote_values": [
+            "INC"
+          ],
+          "tier": "A"
+        },
+        {
+          "name": "Others",
+          "display_name": "Others (BSP, SUCI, SHS, BNARP, IND×2)",
+          "target_pct": 1.21,
+          "vote_values": [
+            "Other"
+          ],
+          "tier": "A"
+        }
+      ],
+      "tier": "A",
+      "source_csv": "143_calibration_target_2019.csv",
+      "needs_review": true,
+      "notes": "[AC 143: §E uses combined CPI(M)+LF bucket — reflects 2019 LF residual strength here]"
+    }
+  ]
+}

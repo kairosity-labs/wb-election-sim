@@ -1,0 +1,764 @@
+{
+  "$schema_version": "1.0",
+  "joints": [
+    {
+      "name": "lang_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "mother_tongue",
+      "semantics": "conditional",
+      "table": {
+        "Hindu": {
+          "Bengali": 97.0,
+          "Hindi": 2.0,
+          "Urdu": 0.0,
+          "Santali": 0.5,
+          "Other": 0.5
+        },
+        "Muslim": {
+          "Bengali": 95.5,
+          "Hindi": 0.5,
+          "Urdu": 3.0,
+          "Santali": 0.5,
+          "Other": 0.5
+        },
+        "Jain": {
+          "Bengali": 75.0,
+          "Hindi": 20.0,
+          "Urdu": 0.0,
+          "Santali": 0.0,
+          "Other": 5.0
+        },
+        "Christian": {
+          "Bengali": 90.0,
+          "Hindi": 5.0,
+          "Urdu": 0.0,
+          "Santali": 0.0,
+          "Other": 5.0
+        }
+      },
+      "tier": "E",
+      "source_csv": "064_joint_religion_lang.csv",
+      "needs_review": true
+    },
+    {
+      "name": "caste_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "caste",
+      "semantics": "conditional",
+      "table": {
+        "Hindu": {
+          "SC_total": 34.51327433628318,
+          "ST_total": 3.893805309734514,
+          "UC_bhadralok": 9.734513274336283,
+          "OBC_Hindu": 14.15929203539823,
+          "Other_Hindu_middle": 37.876106194690266
+        },
+        "Muslim": {
+          "Muslim_Sheikh": 48.0,
+          "Muslim_Ansari_Jolaha": 30.0,
+          "Muslim_Syed_Pathan_Mughal": 8.0,
+          "Muslim_other_OBC_Muslim": 14.0
+        },
+        "Christian": {
+          "Christian_Jain_Other": 100.0
+        },
+        "Jain": {
+          "Christian_Jain_Other": 100.0
+        },
+        "Sikh_Other_Buddhist": {
+          "Christian_Jain_Other": 100.0
+        },
+        "Not_stated": {
+          "Other_Hindu_middle": 100.0
+        }
+      },
+      "tier": "E",
+      "source_csv": "064_joint_religion_caste.csv",
+      "needs_review": true,
+      "notes": "D.2 is a 1D 'Hindu sub-caste % of Hindu' table; wrapped into a religion-keyed conditional. Sub-caste rows aggregated onto this AC's caste-axis leaves via prefix-matching. Unmapped (dropped): ['Jain (religious minority, included in Hindu-voting bloc in some analyses)', 'Kumbhakar / Subarnabanik / Tanti (Hindu weaver-related)']. "
+    },
+    {
+      "name": "migration_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "migration",
+      "semantics": "conditional",
+      "table": {
+        "Hindu": {
+          "Native": 84.0,
+          "WB_other_district": 6.0,
+          "Other_Indian_state": 5.0,
+          "Bangladesh_origin": 4.0,
+          "Outside_India": 1.0
+        },
+        "Muslim": {
+          "Native": 95.0,
+          "WB_other_district": 3.0,
+          "Other_Indian_state": 1.0,
+          "Bangladesh_origin": 1.0,
+          "Outside_India": 0.0
+        },
+        "Jain": {
+          "Native": 70.0,
+          "WB_other_district": 10.0,
+          "Other_Indian_state": 20.0,
+          "Bangladesh_origin": 0.0,
+          "Outside_India": 0.0
+        },
+        "Christian": {
+          "Native": 80.0,
+          "WB_other_district": 10.0,
+          "Other_Indian_state": 5.0,
+          "Bangladesh_origin": 5.0,
+          "Outside_India": 0.0
+        }
+      },
+      "tier": "E",
+      "source_csv": "064_joint_religion_migration.csv",
+      "needs_review": true
+    },
+    {
+      "name": "asset_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "asset_media",
+      "semantics": "flag_rate_conditional",
+      "table": {
+        "Hindu": {
+          "Television": 76.0,
+          "Smartphone_with_internet": 48.0,
+          "Banking_access": 89.0
+        },
+        "Muslim": {
+          "Television": 66.0,
+          "Smartphone_with_internet": 34.0,
+          "Banking_access": 79.0
+        },
+        "Jain": {
+          "Television": 95.0,
+          "Smartphone_with_internet": 80.0,
+          "Banking_access": 98.0
+        },
+        "Christian": {
+          "Television": 80.0,
+          "Smartphone_with_internet": 55.0,
+          "Banking_access": 90.0
+        }
+      },
+      "tier": "E",
+      "source_csv": "064_joint_religion_asset.csv",
+      "needs_review": true
+    },
+    {
+      "name": "education_given_caste",
+      "parents": [
+        "caste"
+      ],
+      "child": "education",
+      "semantics": "conditional",
+      "table": {
+        "UC_bhadralok": {
+          "Illiterate": 5.0,
+          "Primary": 10.0,
+          "Middle": 12.0,
+          "Secondary": 20.0,
+          "Higher_Secondary": 18.0,
+          "Graduate": 25.0,
+          "Postgraduate": 10.0
+        },
+        "Christian_Jain_Other": {
+          "Illiterate": 3.0,
+          "Primary": 8.0,
+          "Middle": 12.0,
+          "Secondary": 20.0,
+          "Higher_Secondary": 22.0,
+          "Graduate": 28.0,
+          "Postgraduate": 7.0
+        },
+        "OBC_Hindu": {
+          "Illiterate": 16.0,
+          "Primary": 22.0,
+          "Middle": 22.0,
+          "Secondary": 18.0,
+          "Higher_Secondary": 12.0,
+          "Graduate": 8.0,
+          "Postgraduate": 2.0
+        },
+        "Other_Hindu_middle": {
+          "Illiterate": 17.0,
+          "Primary": 22.0,
+          "Middle": 21.0,
+          "Secondary": 18.0,
+          "Higher_Secondary": 12.0,
+          "Graduate": 8.0,
+          "Postgraduate": 2.0
+        },
+        "SC_total": {
+          "Middle": 21.0,
+          "Higher_Secondary": 6.5,
+          "Postgraduate": 0.5,
+          "Secondary": 13.5,
+          "Graduate": 2.5,
+          "Illiterate": 29.0,
+          "Primary": 27.0
+        },
+        "ST_total": {
+          "Illiterate": 32.0,
+          "Primary": 28.0,
+          "Middle": 20.0,
+          "Secondary": 12.0,
+          "Higher_Secondary": 6.0,
+          "Graduate": 2.0,
+          "Postgraduate": 0.0
+        },
+        "Muslim_Ansari_Jolaha": {
+          "Illiterate": 25.0,
+          "Primary": 26.0,
+          "Middle": 22.0,
+          "Secondary": 16.0,
+          "Higher_Secondary": 8.0,
+          "Graduate": 3.0,
+          "Postgraduate": 0.0
+        },
+        "Muslim_Sheikh": {
+          "Illiterate": 22.0,
+          "Primary": 25.0,
+          "Middle": 23.0,
+          "Secondary": 18.0,
+          "Higher_Secondary": 8.0,
+          "Graduate": 4.0,
+          "Postgraduate": 0.0
+        },
+        "Muslim_Syed_Pathan_Mughal": {
+          "Illiterate": 8.0,
+          "Primary": 12.0,
+          "Middle": 18.0,
+          "Secondary": 22.0,
+          "Higher_Secondary": 20.0,
+          "Graduate": 16.0,
+          "Postgraduate": 4.0
+        }
+      },
+      "tier": "E",
+      "source_csv": "064_joint_caste_education.csv",
+      "needs_review": true
+    },
+    {
+      "name": "education_given_age_gender",
+      "parents": [
+        "age_cohort",
+        "gender"
+      ],
+      "child": "education",
+      "semantics": "flag_rate_conditional",
+      "table": {
+        "18_22": {
+          "Male_grad": 16.0,
+          "Female_grad": 14.0
+        },
+        "23_27": {
+          "Male_grad": 14.0,
+          "Female_grad": 11.0
+        },
+        "28_32": {
+          "Male_grad": 12.0,
+          "Female_grad": 8.0
+        },
+        "33_37": {
+          "Male_grad": 9.0,
+          "Female_grad": 4.0
+        },
+        "38_42": {
+          "Male_grad": 9.0,
+          "Female_grad": 4.0
+        },
+        "43_47": {
+          "Male_grad": 7.0,
+          "Female_grad": 2.0
+        },
+        "48_52": {
+          "Male_grad": 7.0,
+          "Female_grad": 2.0
+        },
+        "53_57": {
+          "Male_grad": 7.0,
+          "Female_grad": 2.0
+        },
+        "58_62": {
+          "Male_grad": 5.0,
+          "Female_grad": 1.0
+        },
+        "63_67": {
+          "Male_grad": 5.0,
+          "Female_grad": 1.0
+        },
+        "68": {
+          "Male_grad": 5.0,
+          "Female_grad": 1.0
+        }
+      },
+      "tier": "E",
+      "source_csv": "064_joint_age_gender_education.csv",
+      "needs_review": true,
+      "use": "verifier_only"
+    },
+    {
+      "name": "married_given_age_gender",
+      "parents": [
+        "age_cohort",
+        "gender"
+      ],
+      "child": "marital_status",
+      "semantics": "flag_rate_conditional",
+      "table": {
+        "18_22": {
+          "Male_married": 8.0,
+          "Female_married": 32.0
+        },
+        "23_27": {
+          "Male_married": 42.0,
+          "Female_married": 82.0
+        },
+        "28_32": {
+          "Male_married": 82.0,
+          "Female_married": 93.0
+        },
+        "33_37": {
+          "Male_married": 93.0,
+          "Female_married": 91.0
+        },
+        "38_42": {
+          "Male_married": 93.0,
+          "Female_married": 91.0
+        },
+        "43_47": {
+          "Male_married": 93.0,
+          "Female_married": 91.0
+        },
+        "48_52": {
+          "Male_married": 91.0,
+          "Female_married": 80.0
+        },
+        "53_57": {
+          "Male_married": 91.0,
+          "Female_married": 80.0
+        },
+        "58_62": {
+          "Male_married": 91.0,
+          "Female_married": 80.0
+        },
+        "63_67": {
+          "Male_married": 76.0,
+          "Female_married": 32.0
+        },
+        "68": {
+          "Male_married": 76.0,
+          "Female_married": 32.0
+        }
+      },
+      "tier": "E (widows concentrate here)",
+      "source_csv": "064_joint_marital_age_gender.csv",
+      "needs_review": true
+    },
+    {
+      "name": "asset_given_occupation",
+      "parents": [
+        "occupation"
+      ],
+      "child": "asset_media",
+      "semantics": "flag_rate_conditional",
+      "table": {
+        "Cultivator": {
+          "Smartphone_with_internet": 28.0,
+          "Television": 62.0
+        },
+        "Agricultural_labourer": {
+          "Smartphone_with_internet": 20.0,
+          "Television": 52.0
+        },
+        "Household_industry": {
+          "Smartphone_with_internet": 30.0,
+          "Television": 65.0
+        },
+        "Manufacturing": {
+          "Smartphone_with_internet": 45.0,
+          "Television": 78.0
+        },
+        "Construction": {
+          "Smartphone_with_internet": 42.0,
+          "Television": 72.0
+        },
+        "Trade_retail": {
+          "Smartphone_with_internet": 68.0,
+          "Television": 88.0
+        },
+        "Transport": {
+          "Smartphone_with_internet": 55.0,
+          "Television": 80.0
+        },
+        "Services": {
+          "Smartphone_with_internet": 72.0,
+          "Television": 90.0
+        },
+        "Government_services_teachers": {
+          "Smartphone_with_internet": 85.0,
+          "Television": 95.0
+        },
+        "Out_migrant_worker": {
+          "Smartphone_with_internet": 65.0,
+          "Television": 75.0
+        }
+      },
+      "tier": "D",
+      "source_csv": "064_joint_occupation_asset.csv",
+      "needs_review": true
+    },
+    {
+      "name": "workforce_given_education",
+      "parents": [
+        "education"
+      ],
+      "child": "workforce_status",
+      "semantics": "two_indicator_rates",
+      "table": {
+        "Illiterate": {
+          "Unemployed_seeking": 3.0,
+          "Main_worker_rate": 32.0
+        },
+        "Primary": {
+          "Unemployed_seeking": 5.0,
+          "Main_worker_rate": 35.0
+        },
+        "Middle": {
+          "Unemployed_seeking": 7.0,
+          "Main_worker_rate": 33.0
+        },
+        "Secondary": {
+          "Unemployed_seeking": 11.0,
+          "Main_worker_rate": 28.0
+        },
+        "Higher_Secondary": {
+          "Unemployed_seeking": 16.0,
+          "Main_worker_rate": 22.0
+        },
+        "Graduate": {
+          "Unemployed_seeking": 18.0,
+          "Main_worker_rate": 25.0
+        },
+        "Postgraduate": {
+          "Unemployed_seeking": 13.0,
+          "Main_worker_rate": 36.0
+        }
+      },
+      "tier": "E",
+      "source_csv": "064_joint_education_workforce.csv",
+      "needs_review": true
+    },
+    {
+      "name": "religion_given_gp",
+      "parents": [
+        "gp_location"
+      ],
+      "child": "religion",
+      "semantics": "conditional",
+      "table": {
+        "U1_Murshidabad_municipality": {
+          "Hindu": 75.09,
+          "Muslim": 23.86,
+          "Jain": 0.735,
+          "Christian": 0.1575,
+          "Sikh_Other_Buddhist": 0.1575
+        },
+        "U2_Jiaganj_Azimganj_municipality": {
+          "Hindu": 88.23,
+          "Muslim": 9.74,
+          "Jain": 1.4209999999999998,
+          "Christian": 0.30449999999999994,
+          "Sikh_Other_Buddhist": 0.30449999999999994
+        },
+        "U3_Murshidabad_Jiaganj_CDB_rural": {
+          "Hindu": 44.61,
+          "Muslim": 54.52,
+          "Jain": 0.609,
+          "Christian": 0.1305,
+          "Sikh_Other_Buddhist": 0.1305
+        }
+      },
+      "tier": "A",
+      "source_csv": "064_joint_gp_religion.csv",
+      "needs_review": true
+    },
+    {
+      "name": "caste_given_gp",
+      "parents": [
+        "gp_location"
+      ],
+      "child": "caste",
+      "semantics": "conditional",
+      "table": {
+        "U1_Murshidabad_municipality": {
+          "SC_total": 31.26,
+          "ST_total": 0.69,
+          "UC_bhadralok": 8.0,
+          "OBC_Hindu": 10.5,
+          "Other_Hindu_middle": 24.5,
+          "Muslim_Sheikh": 11.4528,
+          "Muslim_Ansari_Jolaha": 7.1579999999999995,
+          "Muslim_Syed_Pathan_Mughal": 1.9088,
+          "Muslim_other_OBC_Muslim": 3.3404000000000003
+        },
+        "U2_Jiaganj_Azimganj_municipality": {
+          "SC_total": 28.12,
+          "ST_total": 0.83,
+          "UC_bhadralok": 12.0,
+          "OBC_Hindu": 14.399999999999999,
+          "Other_Hindu_middle": 33.599999999999994,
+          "Muslim_Sheikh": 4.6752,
+          "Muslim_Ansari_Jolaha": 2.922,
+          "Muslim_Syed_Pathan_Mughal": 0.7792,
+          "Muslim_other_OBC_Muslim": 1.3636000000000001
+        },
+        "U3_Murshidabad_Jiaganj_CDB_rural": {
+          "SC_total": 17.24,
+          "ST_total": 5.25,
+          "UC_bhadralok": 4.0,
+          "OBC_Hindu": 5.3999999999999995,
+          "Other_Hindu_middle": 12.6,
+          "Muslim_Sheikh": 26.1696,
+          "Muslim_Ansari_Jolaha": 16.356,
+          "Muslim_Syed_Pathan_Mughal": 4.3616,
+          "Muslim_other_OBC_Muslim": 7.632800000000001
+        }
+      },
+      "tier": "A (SC/ST tier A); E (internal Hindu split)",
+      "source_csv": "064_joint_gp_caste.csv",
+      "needs_review": true
+    },
+    {
+      "name": "asset_given_gp",
+      "parents": [
+        "gp_location"
+      ],
+      "child": "asset_media",
+      "semantics": "flag_rate_conditional",
+      "table": {
+        "U1_Murshidabad_municipality": {
+          "Television": 85.0,
+          "Smartphone_with_internet": 55.0,
+          "Computer": 15.0,
+          "Banking_access": 92.0
+        },
+        "U2_Jiaganj_Azimganj_municipality": {
+          "Television": 88.0,
+          "Smartphone_with_internet": 58.0,
+          "Computer": 18.0,
+          "Banking_access": 93.0
+        },
+        "U3_Murshidabad_Jiaganj_CDB_rural": {
+          "Television": 62.0,
+          "Smartphone_with_internet": 33.0,
+          "Computer": 4.0,
+          "Banking_access": 80.0
+        }
+      },
+      "tier": "C",
+      "source_csv": "064_joint_gp_asset.csv",
+      "needs_review": true
+    },
+    {
+      "name": "amenities_given_gp",
+      "parents": [
+        "gp_location"
+      ],
+      "child": "amenities",
+      "semantics": "flag_rate_conditional",
+      "table": {
+        "U1_Murshidabad_municipality": {
+          "LPG_clean_cooking_fuel": 68.0,
+          "Improved_sanitation": 85.0,
+          "Improved_drinking_water_source": 92.0,
+          "Electricity": 97.0
+        },
+        "U2_Jiaganj_Azimganj_municipality": {
+          "LPG_clean_cooking_fuel": 70.0,
+          "Improved_sanitation": 88.0,
+          "Improved_drinking_water_source": 94.0,
+          "Electricity": 98.0
+        },
+        "U3_Murshidabad_Jiaganj_CDB_rural": {
+          "LPG_clean_cooking_fuel": 28.0,
+          "Improved_sanitation": 47.0,
+          "Improved_drinking_water_source": 78.0,
+          "Electricity": 90.0
+        }
+      },
+      "tier": "C",
+      "source_csv": "064_joint_gp_amenities.csv",
+      "needs_review": true
+    },
+    {
+      "name": "vote_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "vote_2019_LS",
+      "semantics": "vote_conditional",
+      "table": {
+        "Hindu": {
+          "BJP": 62.0,
+          "AITC": 25.0,
+          "INC": 9.0,
+          "CPI": 2.0,
+          "Other_NOTA": 2.0
+        },
+        "Muslim": {
+          "BJP": 3.0,
+          "AITC": 52.0,
+          "INC": 32.0,
+          "CPI": 10.0,
+          "Other_NOTA": 3.0
+        },
+        "Jain": {
+          "BJP": 45.0,
+          "AITC": 28.0,
+          "INC": 15.0,
+          "CPI": 5.0,
+          "Other_NOTA": 7.0
+        }
+      },
+      "tier": "E",
+      "source_csv": "064_vote_religion_2019.csv",
+      "needs_review": true,
+      "parties": [
+        "BJP",
+        "AITC",
+        "INC",
+        "CPI",
+        "Other_NOTA"
+      ]
+    },
+    {
+      "name": "vote_given_caste",
+      "parents": [
+        "caste"
+      ],
+      "child": "vote_2019_LS",
+      "semantics": "vote_conditional",
+      "table": {
+        "UC_bhadralok": {
+          "BJP": 62.0,
+          "AITC": 22.0,
+          "INC": 10.0,
+          "CPI": 4.0,
+          "Other_NOTA": 2.0
+        },
+        "Christian_Jain_Other": {
+          "BJP": 45.0,
+          "AITC": 28.0,
+          "INC": 15.0,
+          "CPI": 5.0,
+          "Other_NOTA": 7.0
+        },
+        "OBC_Hindu": {
+          "BJP": 58.0,
+          "AITC": 25.0,
+          "INC": 11.0,
+          "CPI": 4.0,
+          "Other_NOTA": 2.0
+        },
+        "Other_Hindu_middle": {
+          "BJP": 62.0,
+          "AITC": 24.0,
+          "INC": 10.0,
+          "CPI": 2.0,
+          "Other_NOTA": 2.0
+        },
+        "SC_total": {
+          "BJP": 57.5,
+          "Other_NOTA": 1.0,
+          "CPI": 3.5,
+          "INC": 8.0,
+          "AITC": 30.0
+        },
+        "ST_total": {
+          "BJP": 40.0,
+          "AITC": 35.0,
+          "INC": 12.0,
+          "CPI": 10.0,
+          "Other_NOTA": 3.0
+        },
+        "Muslim_Ansari_Jolaha": {
+          "BJP": 3.0,
+          "AITC": 50.0,
+          "INC": 36.0,
+          "CPI": 8.0,
+          "Other_NOTA": 3.0
+        },
+        "Muslim_Sheikh": {
+          "BJP": 3.0,
+          "AITC": 54.0,
+          "INC": 30.0,
+          "CPI": 10.0,
+          "Other_NOTA": 3.0
+        },
+        "Muslim_Syed_Pathan_Mughal": {
+          "BJP": 4.0,
+          "AITC": 48.0,
+          "INC": 32.0,
+          "CPI": 12.0,
+          "Other_NOTA": 4.0
+        }
+      },
+      "tier": "E",
+      "source_csv": "064_vote_caste_2019.csv",
+      "needs_review": true,
+      "parties": [
+        "BJP",
+        "AITC",
+        "INC",
+        "CPI",
+        "Other_NOTA"
+      ]
+    },
+    {
+      "name": "vote_given_gender",
+      "parents": [
+        "gender"
+      ],
+      "child": "vote_2019_LS",
+      "semantics": "vote_conditional",
+      "table": {
+        "Male": {
+          "BJP": 41.0,
+          "AITC": 34.0,
+          "INC": 16.0,
+          "CPI": 7.0,
+          "Other": 2.0
+        },
+        "Female": {
+          "BJP": 33.0,
+          "AITC": 38.0,
+          "INC": 20.0,
+          "CPI": 7.0,
+          "Other": 2.0
+        }
+      },
+      "tier": "C",
+      "source_csv": "064_vote_gender_2019.csv",
+      "needs_review": true,
+      "parties": [
+        "BJP",
+        "AITC",
+        "INC",
+        "CPI",
+        "Other"
+      ]
+    }
+  ]
+}

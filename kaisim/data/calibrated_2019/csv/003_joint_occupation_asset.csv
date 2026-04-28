@@ -1,0 +1,12 @@
+Occupation,Smartphone-internet,TV,Tier,Source
+Cultivator,30,68,C,Rural ag baseline — North Bengal lower than state avg
+Ag-labourer,22,58,C,Lowest income; low asset base
+Household industry,35,70,C,Tobacco / handloom workers
+Manufacturing,48,78,C,
+Construction,42,72,C,
+Trade / retail,62,88,C,Census-town commercial cluster
+Transport,56,80,C,Road transport workers
+Services (private),65,85,C,
+Govt services,80,92,C,Highest; teachers + administrators
+Out-migrant,65,75,D,"Seasonal migrants, smartphone-heavy"
+Pisciculture / fisheries,28,64,E,"CDB-II has 17,863 fisheries workers; below-median asset base"

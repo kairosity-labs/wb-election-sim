@@ -1,0 +1,21 @@
+{
+  "name": "baseline_rule_n500",
+  "created_at": "2026-04-28T07:48:34+00:00",
+  "n": 500,
+  "sampler": "rule_based",
+  "config_hash": "sha256:9183c42e2f0aec7c",
+  "schema_version": "1.0",
+  "verifier": {
+    "n": 500,
+    "composite_score": 590.54,
+    "within_tolerance": false,
+    "max_axis_z": 2.64,
+    "max_joint_z": 4.69,
+    "aggregate_vote_max_z": 1.15,
+    "max_axis_gap_pp": 4.32,
+    "max_joint_cell_gap_pp": 95.0,
+    "aggregate_vote_max_gap_pp": 1.69,
+    "skipped_joints": 0,
+    "skipped_buckets": 0
+  }
+}

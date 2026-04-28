@@ -1,0 +1,10 @@
+Occupation,Smartphone-internet,TV,Tier,Source
+Cultivator,35,70,C,Rural ag baseline
+Ag-labourer,22,58,C,Lowest income bracket
+Household industry,38,72,C,
+Manufacturing,52,82,C,
+Construction,45,74,C,
+Trade / retail,68,88,C,Temple-economy traders; Muni concentrated
+Transport (railway-linked),62,82,C,
+"Services (private, Kolkata commuter)",75,90,C,Commuter workforce has high smartphone access
+Govt services / teachers,85,92,C,Highest

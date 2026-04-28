@@ -1,0 +1,59 @@
+{
+  "$schema_version": "1.0",
+  "aggregate_targets": [
+    {
+      "name": "vote_2019_LS_share",
+      "field": "vote_2019_LS",
+      "buckets": [
+        {
+          "name": "AITC",
+          "display_name": "AITC",
+          "target_pct": 52.46,
+          "vote_values": [
+            "AITC"
+          ],
+          "tier": null
+        },
+        {
+          "name": "BJP",
+          "display_name": "BJP",
+          "target_pct": 38.83,
+          "vote_values": [
+            "BJP"
+          ],
+          "tier": null
+        },
+        {
+          "name": "CPI",
+          "display_name": "CPI",
+          "target_pct": 2.81,
+          "vote_values": [
+            "CPI"
+          ],
+          "tier": null
+        },
+        {
+          "name": "INC",
+          "display_name": "INC",
+          "target_pct": 1.43,
+          "vote_values": [
+            "INC"
+          ],
+          "tier": null
+        },
+        {
+          "name": "Others",
+          "display_name": "Others (SUCI+BSP+IND+NOTA)",
+          "target_pct": 4.47,
+          "vote_values": [
+            "Others"
+          ],
+          "tier": null
+        }
+      ],
+      "tier": null,
+      "source_csv": "123_calibration_target_2019.csv",
+      "needs_review": true
+    }
+  ]
+}

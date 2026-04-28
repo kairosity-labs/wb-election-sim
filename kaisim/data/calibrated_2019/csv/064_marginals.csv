@@ -1,0 +1,107 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,56.5,D,"Pop-weighted: U1 Muni (44,019 × 75.09%) + U2 JA-Muni (51,790 × 88.23%) + U3 CDB-rural (194,565 × 44.61%) = 33,065 + 45,695 + 86,795 = 165,555 / 290,374 = 57.0% at 2011; projected slightly lower to 2019 due to Muslim relative growth ~−0.5pp; rounded 56.5%",no
+religion,Muslim,42.0,D,"Pop-weighted: U1 (44,019 × 23.86%) + U2 (51,790 × 9.74%) + U3 (194,565 × 54.52%) = 10,503 + 5,044 + 106,066 = 121,613 / 290,374 = 41.9% at 2011; projected to 2019 +0.5pp relative gain → 42.0%",no
+religion,Christian,0.10,E,Murshidabad Muni 0.04% (A); Jiaganj-Azimganj Muni trace; CDB rural trace; AC-level ~0.10%,no
+religion,Jain,0.90,D,Jiaganj-Azimganj has significant Sheherwali Jain merchant community (~1.3% of JA-Muni at 2001 census); Murshidabad Muni trace; CDB rural negligible; AC-level ~0.9%,no
+religion,Sikh / Other / Buddhist,0.40,E,"Murshidabad Muni 0.04% Sikh, trace Buddhist/Jain; residual",no
+religion,Not stated,0.10,E,Residual,no
+caste,SC total,19.5,D,Murshidabad Muni 31.26% (A); JA-Muni 28.12% (A); CDB rural 17.24% (A); pop-weighted composite ≈ 19.5%; weighted by sub-unit shares,no
+caste,Bagdi / Bauri (dominant SC in Murshidabad belt),9.0,E,Bagdi is the numerically dominant SC in Murshidabad / Lalbag belt; est ~45% of SC pool,yes
+caste,Rajbanshi,2.0,E,Some presence in CDB rural; minor in urban,yes
+caste,Dom / Chamar / Mochi,2.5,E,"Urban SC fringe; leather, manual labor",yes
+caste,"Other SC (Pod, Poundra, Hari, etc.)",6.0,E,Residual SC sub-groups in AC,yes
+caste,ST total,2.2,D,CDB rural 5.25% (A); Murshidabad Muni 0.69% (A); JA-Muni 0.83% (A); pop-weighted ~2.2%,no
+caste,UC bhadralok (Brahmin / Kayastha / Baidya),5.5,E,Urban concentration in Murshidabad Muni; historic administrative/scholarly class; ~10% of Hindu pop in urban units; AC-weighted 5.5% of total pop,no
+caste,OBC Hindu (Teli / Goala / Sutradhar / Sadgop / Kurmi),8.0,E,Middle-Hindu castes; artisan and trade; present in both Muni and CDB,no
+caste,Other Hindu middle (Kayeth / Napit / Koiborto / unclassified General),21.4,E,"Residual within Hindu after SC (19.5), ST (2.2), UC (5.5), OBC (8.0): Hindu_total − components = 56.6 − 35.2 = 21.4",no
+caste,Muslim — Ansari / Jolaha (weaver),12.0,D,Silk weaving economy of Murshidabad; significant Muslim weaver (Ansari/Julaha) population concentrated in CDB rural belt; est 28–30% of Muslim pop,no
+caste,Muslim — Sheikh (Bengali Muslim cultivator/peasantry),20.0,D,Dominant Muslim sub-group in CDB rural; ~48% of Muslim pop,no
+caste,Muslim — Syed / Pathan / Mughal,3.5,E,Historic ashraf minority; some resident in urban Murshidabad,no
+caste,"Muslim — other OBC Muslim (Nai, Darzi, Kasai, etc.)",6.5,E,Residual Muslim sub-groups; CDB rural and urban,no
+caste,Christian + Jain + Other,1.4,E,Sheherwali Jain (JA-Muni business families) + Christian trace + Sikh trace,no
+caste,Arithmetic check,19.5 SC + 2.2 ST + 5.5 UC-Hindu + 8.0 OBC-Hindu + 10.8 Other-Hindu + (12+20+3.5+6.5) Muslim + 1.4 Other = 89.9 + 1.4 = ≈ 100,—,self-check (Hindu sub-groups: 56.5%; Muslim sub-groups: 42%),no
+age_cohort,0–4,7.5,E,Projected from Census 2011 Murshidabad district age pyramid; urban bias reduces child share vs district,no
+age_cohort,5–9,8.0,E,,no
+age_cohort,10–14,8.5,E,,no
+age_cohort,15–17 (pre-voter),5.5,E,,no
+age_cohort,18–22 (first-time voters at 2019),9.0,E,,no
+age_cohort,23–27,9.5,E,,no
+age_cohort,28–32,9.5,E,,no
+age_cohort,33–37,8.5,E,,no
+age_cohort,38–42,7.5,E,,no
+age_cohort,43–47,7.0,E,,no
+age_cohort,48–52,6.0,E,,no
+age_cohort,53–57,5.0,E,,no
+age_cohort,58–62,4.0,E,,no
+age_cohort,63–67,2.5,E,,no
+age_cohort,68+,2.0,E,,no
+gender,Male,50.50,E,"Murshidabad Muni SR 985, JA-Muni SR 980, CDB rural SR ~957; pop-weighted AC-level SR ~975 → 50.50% M / 49.49% F",no
+gender,Female,49.49,E,,no
+gender,Third gender,0.01,E,Standard ECI roll share,no
+mother_tongue,Bengali,96.5,A,Murshidabad-Jiaganj CDB: 96.06% Bengali (A); Murshidabad Muni urban ~96%; AC-level Bengali dominant,no
+mother_tongue,Hindi,1.25,A,CDB 1.25% Hindi (A); Marwari/Bihari trader fringe in urban Murshidabad,no
+mother_tongue,Santali,0.80,A,CDB 1.07% Santali (A); ST population in CDB rural; diluted by urban units,no
+mother_tongue,Urdu,0.80,E,Urdu-speaking Muslim ashraf minority in historic Murshidabad town; estimate,no
+mother_tongue,Other (Santhali / Rajbangshi / Punjabi / Jain Prakrit),0.65,E,"Sheherwali Jain linguistic trace, other minority",no
+education,Illiterate,22.0,D,"Murshidabad Muni literacy 81.94% (A), JA-Muni 80.75% (A), CDB literacy 69.12% (A); pop-weighted illiteracy ~27% at 2011; projected -5pp by 2019 → ~22%",no
+education,Primary (Class 1–5),22.0,E,Census 2011 WB education distribution scaled to Murshidabad literacy baseline,no
+education,Middle (Class 6–8),20.0,E,,no
+education,Secondary (Class 9–10),17.0,E,,no
+education,Higher Secondary (Class 11–12),10.0,E,,no
+education,Graduate,7.0,E,Urban Muni anchor raises graduate share vs district average,no
+education,Postgraduate,2.0,E,,no
+workforce_status,Main worker,33.0,E,"Murshidabad Muni workforce 15,616 / 44,019 = 35.5% (A); JA-Muni similar; CDB rural lower female participation; AC weighted ~33%",no
+workforce_status,Marginal worker,10.0,E,Census 2011 marginal worker share for Murshidabad Muni: 15.82% of workers = ~5.6% of pop; CDB rural higher marginal agriculture → AC ~10%,no
+workforce_status,Non-worker (housewife / elderly / retired),37.0,E,Female non-workforce majority; elderly,no
+workforce_status,"Student (18–22 only, in education)",11.0,E,Urban AC has higher student retention post-18,no
+workforce_status,"Unemployed (educated, actively seeking)",9.0,E,Historic commercial center with educated class; high educated unemployment,no
+occupation,Cultivator,12.0,E,CDB rural fraction; diluted by two urban Munis; below WB rural average,no
+occupation,Agricultural labourer,18.0,E,CDB rural seasonal labour; urban dilution,no
+occupation,Household industry (weaving / sericulture),14.0,D,"Murshidabad silk economy; est 38,040 sericulture farmers + 25,778 weavers at 2002, declining to ~15,000 weavers by 2012; concentrated in CDB rural and peri-urban; ~14% of workforce",no
+occupation,Manufacturing (organised),5.0,E,Small scale; biri / food processing,no
+occupation,Construction,7.0,E,Urban construction + male migrant labour,no
+occupation,Trade / retail,16.0,D,Historic commercial hub; Murshidabad and JA-Muni are regional market centers; Jain business families prominent,no
+occupation,Transport,5.0,E,"Bhagirathi river transport, road; lower than port-adjacent ACs",no
+occupation,Services (private),12.0,E,"Tourism (Hazarduari palace), hotels, financial services",no
+occupation,Government services / teachers,6.0,E,District headquarter functions; higher govt employment ratio than rural ACs,no
+occupation,Out-migrant worker (working outside WB),5.0,D,Some male labour migration to construction elsewhere; lower than borderland ACs,no
+class_of_worker,Employer,3.0,E,Trade / Jain merchant families; higher than rural ACs,no
+class_of_worker,Employee (regular wage),30.0,E,Govt + organised private; urban AC higher share,no
+class_of_worker,Single worker (own-account),47.0,E,Weaver + small trader + own-account artisan,no
+class_of_worker,Family worker (unpaid),20.0,E,Weaving household assistants; agricultural family workers in CDB rural,no
+economic_status,BPL household,30.0,D,"Murshidabad district rural poverty ~46% (NSS 55th round 1999-2000, D); WB improvement trend; Murshidabad remains economically backward (Backward Regions Grant Fund listed); urban AC sub-districts lower BPL than district rural average; AC estimate ~30% by 2019",no
+economic_status,"Above-Poverty-Line, low-income",30.0,E,,no
+economic_status,Lower-middle,23.0,E,,no
+economic_status,Middle,13.0,E,Urban trade / service class,no
+economic_status,Upper-middle / well-off,4.0,E,"Jain merchant families, bhadralok professional class",no
+gp_location,U1: Murshidabad municipality (urban),14.5,D,"44,019 / 303,374 estimated AC 2011 pop = 14.5% (pop-weighted); note: 303,374 = 44,019 + 51,790 + 207,565 CDB-rural-component; v0 uses this as the primary AC-composition estimate",no
+gp_location,U2: Jiaganj-Azimganj municipality (urban),17.1,D,"51,790 / 303,374 = 17.1%",no
+gp_location,U3: Murshidabad-Jiaganj CDB rural (8 GPs),68.4,D,"207,565 / 303,374 = 68.4%; CDB total pop 234,565 minus ~27,000 estimated municipal overlap → v0 approximation",no
+household_composition,Avg HH size,4.6 persons,E,WB 2011: 4.3; Murshidabad Muslim households slightly larger; AC estimate 4.6,no
+household_composition,Nuclear HH,65.0,E,"NFHS-4 WB urban ~68%, rural ~63%; AC weighted",no
+household_composition,Joint HH,27.0,E,,no
+household_composition,Extended / multi-generation,8.0,E,Muslim multi-generational households common in CDB rural,no
+marital_status,Never married,25.0,E,Census 2011 WB pattern; urban higher share of young unmarried,no
+marital_status,Currently married,66.0,E,,no
+marital_status,Widowed,7.5,E,Female-skewed; concentrated 60+,no
+marital_status,Separated / divorced,1.5,E,Slightly higher urban share,no
+asset_media,Television,72.0,C,"NFHS-4 WB Murshidabad district: backward district, lower than state average; NFHS-4 WB rural ~55%, urban ~88%; AC-level mixed urban-rural weighted ~72%",no
+asset_media,Radio,6.0,C,Declining; slightly higher in rural CDB,no
+asset_media,Mobile phone (any),82.0,C,"NFHS-4 WB trend; Murshidabad lagging state average; ~75% by 2015, +7pp to 2019 Jio rollout",no
+asset_media,Smartphone with internet,42.0,C,Below WB average; Murshidabad economically backward; +Jio 2016-19 rollout; est ~42% by 2019,no
+asset_media,Computer,8.0,C,Urban AC segments higher; CDB rural very low; weighted ~8%,no
+asset_media,Two-wheeler,28.0,C,"NFHS-4 WB rural ~14%, urban ~36%; AC weighted",no
+asset_media,Four-wheeler,4.0,E,Low-income district; limited four-wheeler ownership,no
+asset_media,Banking access (any),85.0,B,PMJDY 2014- rollout; WB near-saturation by 2019; Murshidabad slightly lagging state; est ~85%,no
+amenities,Improved drinking water source,84.0,C,"NFHS-4 WB rural 84%, urban 93%; AC mixed-urban weighted ~84–87%; rounded 84%",no
+amenities,Improved sanitation (latrine),62.0,C,"NFHS-4 WB Murshidabad district lower than state; rural 45%, urban 80%; Swachh Bharat 2014-19 rural +15pp; AC weighted ~62%",no
+amenities,LPG / clean cooking fuel,42.0,C,"NFHS-4 Murshidabad backward district; rural ~20%, urban ~72%; Ujjwala 2016-19 +10pp rural; AC weighted ~42%",no
+amenities,Wood / biomass fuel,52.0,C,CDB rural majority cooking fuel,no
+amenities,"Other fuel (kerosene, dung, etc.)",6.0,C,,no
+amenities,Electricity,93.0,C,WB Saubhagya 2017-19 + Census 2011 baseline; AC ~93% by 2019,no
+migration,Native (born in Murshidabad district),88.0,D,"Murshidabad is a high-emigration, low-in-migration district; most residents are locally-born; Sheherwali Jains historically settled from Rajasthan centuries ago but are ""native"" in current identity",no
+migration,WB other district (in-migrant),5.0,D,Some Kolkata and Berhampore service-class migrants in urban units,no
+migration,Other Indian state,3.0,D,Hindi-speaking Marwari / Bihari trader class in Murshidabad Muni and JA-Muni commercial areas,no
+migration,Bangladesh-origin (Hindu refugee),2.5,D,Much smaller than N24P/Bangaon belt; some Namasudra / Bagdi SC households in CDB rural,no
+migration,Outside India (other than Bangladesh),0.5,E,Negligible,no
+migration,"Out-migrant (registered here, working outside)",1.0,E,Male labour migration to Kolkata / construction centres,no

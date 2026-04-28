@@ -1,0 +1,716 @@
+{
+  "$schema_version": "1.0",
+  "joints": [
+    {
+      "name": "lang_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "mother_tongue",
+      "semantics": "conditional",
+      "table": {
+        "Hindu": {
+          "Sadri_Nagpuri": 30.6,
+          "Nepali": 30.4,
+          "Bengali": 12.0,
+          "Kurukh": 3.5,
+          "Other": 8.5,
+          "Hindi": 7.260000000000001,
+          "Bhojpuri": 3.74,
+          "Boro": 2.4,
+          "Rabha": 1.6
+        },
+        "Christian": {
+          "Sadri_Nagpuri": 48.0,
+          "Nepali": 12.0,
+          "Bengali": 8.0,
+          "Kurukh": 8.0,
+          "Other": 14.0,
+          "Hindi": 3.96,
+          "Bhojpuri": 2.04,
+          "Boro": 2.4,
+          "Rabha": 1.6
+        },
+        "Muslim": {
+          "Sadri_Nagpuri": 2.0,
+          "Nepali": 2.0,
+          "Bengali": 60.0,
+          "Kurukh": 0.0,
+          "Other": 4.0,
+          "Hindi": 24.240000000000002,
+          "Bhojpuri": 4.760000000000001,
+          "Boro": 1.7999999999999998,
+          "Rabha": 1.2000000000000002
+        },
+        "Buddhist": {
+          "Sadri_Nagpuri": 3.0,
+          "Nepali": 90.0,
+          "Bengali": 4.0,
+          "Kurukh": 0.0,
+          "Other": 0.0,
+          "Hindi": 1.32,
+          "Bhojpuri": 0.68,
+          "Boro": 0.6,
+          "Rabha": 0.4
+        },
+        "Sarna_Tribal_ORP": {
+          "Sadri_Nagpuri": 60.0,
+          "Nepali": 0.0,
+          "Bengali": 5.0,
+          "Kurukh": 15.0,
+          "Other": 10.0,
+          "Hindi": 3.3000000000000003,
+          "Bhojpuri": 1.7000000000000002,
+          "Boro": 3.0,
+          "Rabha": 2.0
+        }
+      },
+      "tier": "E",
+      "source_csv": "011_joint_religion_lang.csv",
+      "needs_review": true
+    },
+    {
+      "name": "caste_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "caste",
+      "semantics": "conditional",
+      "table": {
+        "Hindu": {
+          "ST_total": 48.0,
+          "SC_total": 15.0,
+          "Nepali_Gorkha": 10.0,
+          "Bengali": 13.0,
+          "Bengali_OBC_Rajbanshi": 9.0,
+          "Other_Sarna_Buddhist": 5.0
+        },
+        "Muslim": {
+          "Muslim": 100.0
+        },
+        "Christian": {
+          "Christian": 47.0,
+          "ST_total": 45.0,
+          "Other_Sarna_Buddhist": 5.0,
+          "Bengali_OBC_Rajbanshi": 3.0
+        },
+        "Buddhist": {
+          "Nepali_Gorkha": 75.0,
+          "Other_Sarna_Buddhist": 15.0,
+          "Bengali": 10.0
+        },
+        "Sarna_Tribal_ORP": {
+          "ST_total": 80.0,
+          "Other_Sarna_Buddhist": 15.0,
+          "Bengali_OBC_Rajbanshi": 5.0
+        },
+        "Sikh": {
+          "Other_Sarna_Buddhist": 50.0,
+          "Nepali_Gorkha": 50.0
+        },
+        "Other_Not_stated": {
+          "Other_Sarna_Buddhist": 100.0
+        }
+      },
+      "tier": "E",
+      "source_csv": "011_joint_religion_caste.csv",
+      "needs_review": true,
+      "notes": "D.2 is a 1D 'Hindu sub-caste % of Hindu' table; wrapped into a religion-keyed conditional. Sub-caste rows aggregated onto this AC's caste-axis leaves via prefix-matching. Unmapped (dropped): ['Other Hindu middle (Bihari/Hindi-belt Hindu)']. "
+    },
+    {
+      "name": "migration_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "migration",
+      "semantics": "conditional",
+      "table": {
+        "Hindu": {
+          "Native": 60.0,
+          "WB_other_district": 5.0,
+          "Jharkhand_Chhattisgarh_Odisha_origin": 24,
+          "Bihar_UP": 7.0,
+          "Nepal_origin": 4.0
+        },
+        "Christian": {
+          "Native": 55.0,
+          "WB_other_district": 3.0,
+          "Jharkhand_Chhattisgarh_Odisha_origin": 38.0,
+          "Bihar_UP": 3.0,
+          "Nepal_origin": 1.0
+        },
+        "Muslim": {
+          "Native": 80.0,
+          "WB_other_district": 8.0,
+          "Jharkhand_Chhattisgarh_Odisha_origin": 0.0,
+          "Bihar_UP": 10.0,
+          "Nepal_origin": 0.0
+        },
+        "Buddhist": {
+          "Native": 68.0,
+          "WB_other_district": 2.0,
+          "Jharkhand_Chhattisgarh_Odisha_origin": 0.0,
+          "Bihar_UP": 0.0,
+          "Nepal_origin": 30.0
+        },
+        "Sarna_Tribal_ORP": {
+          "Native": 45.0,
+          "WB_other_district": 3.0,
+          "Jharkhand_Chhattisgarh_Odisha_origin": 50.0,
+          "Bihar_UP": 2.0,
+          "Nepal_origin": 0.0
+        }
+      },
+      "tier": "D",
+      "source_csv": "011_joint_religion_migration.csv",
+      "needs_review": true
+    },
+    {
+      "name": "asset_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "asset_media",
+      "semantics": "flag_rate_conditional",
+      "table": {
+        "Hindu": {
+          "Television": 55.0,
+          "Smartphone_with_internet": 32.0,
+          "Banking_access": 80.0
+        },
+        "Christian": {
+          "Television": 42.0,
+          "Smartphone_with_internet": 22.0,
+          "Banking_access": 65.0
+        },
+        "Muslim": {
+          "Television": 58.0,
+          "Smartphone_with_internet": 30.0,
+          "Banking_access": 72.0
+        },
+        "Buddhist": {
+          "Television": 62.0,
+          "Smartphone_with_internet": 35.0,
+          "Banking_access": 80.0
+        },
+        "Sarna_Tribal_ORP": {
+          "Television": 30.0,
+          "Smartphone_with_internet": 15.0,
+          "Banking_access": 55.0
+        }
+      },
+      "tier": null,
+      "source_csv": "011_joint_religion_asset.csv",
+      "needs_review": true
+    },
+    {
+      "name": "education_given_caste",
+      "parents": [
+        "caste"
+      ],
+      "child": "education",
+      "semantics": "conditional",
+      "table": {
+        "Bengali": {
+          "Illiterate": 8.0,
+          "Primary": 10.0,
+          "Middle": 12.0,
+          "Secondary": 20.0,
+          "Higher_Secondary": 20.0,
+          "Graduate": 23.0,
+          "Postgraduate": 10.0
+        },
+        "Bengali_OBC_Rajbanshi": {
+          "Illiterate": 20.0,
+          "Primary": 22.0,
+          "Middle": 22.0,
+          "Secondary": 20.0,
+          "Higher_Secondary": 12.0,
+          "Graduate": 7.0,
+          "Postgraduate": 2.0
+        },
+        "Nepali_Gorkha": {
+          "Illiterate": 22.0,
+          "Primary": 22.0,
+          "Middle": 22.0,
+          "Secondary": 18.0,
+          "Higher_Secondary": 12.0,
+          "Graduate": 6.0,
+          "Postgraduate": 2.0
+        },
+        "ST_total": {
+          "Illiterate": 32.0,
+          "Primary": 30.0,
+          "Middle": 25.0,
+          "Secondary": 15.0,
+          "Higher_Secondary": 7.0,
+          "Graduate": 3.0,
+          "Postgraduate": 0.0
+        },
+        "SC_total": {
+          "Illiterate": 35.0,
+          "Primary": 27.0,
+          "Middle": 22.0,
+          "Secondary": 14.0,
+          "Higher_Secondary": 6.0,
+          "Graduate": 2.0,
+          "Postgraduate": 1.0
+        },
+        "Muslim": {
+          "Illiterate": 28.0,
+          "Primary": 26.0,
+          "Middle": 24.0,
+          "Secondary": 18.0,
+          "Higher_Secondary": 7.0,
+          "Graduate": 3.0,
+          "Postgraduate": 0.0
+        },
+        "Christian": {
+          "Illiterate": 32.0,
+          "Primary": 30.0,
+          "Middle": 25.0,
+          "Secondary": 15.0,
+          "Higher_Secondary": 7.0,
+          "Graduate": 3.0,
+          "Postgraduate": 0.0
+        },
+        "Other_Sarna_Buddhist": {
+          "Illiterate": 32.0,
+          "Primary": 30.0,
+          "Middle": 25.0,
+          "Secondary": 15.0,
+          "Higher_Secondary": 7.0,
+          "Graduate": 3.0,
+          "Postgraduate": 0.0
+        }
+      },
+      "tier": "E",
+      "source_csv": "011_joint_caste_education.csv",
+      "needs_review": true
+    },
+    {
+      "name": "education_given_age_gender",
+      "parents": [
+        "age_cohort",
+        "gender"
+      ],
+      "child": "education",
+      "semantics": "flag_rate_conditional",
+      "table": {
+        "18_22": {
+          "Male_grad": 8.0,
+          "Female_grad": 6.0
+        },
+        "23_27": {
+          "Male_grad": 7.0,
+          "Female_grad": 4.0
+        },
+        "28_32": {
+          "Male_grad": 5.0,
+          "Female_grad": 2.0
+        },
+        "33_37": {
+          "Male_grad": 4.0,
+          "Female_grad": 1.0
+        },
+        "38_42": {
+          "Male_grad": 4.0,
+          "Female_grad": 1.0
+        },
+        "43_47": {
+          "Male_grad": 3.0,
+          "Female_grad": 1.0
+        },
+        "48_52": {
+          "Male_grad": 3.0,
+          "Female_grad": 1.0
+        },
+        "53_57": {
+          "Male_grad": 3.0,
+          "Female_grad": 1.0
+        },
+        "58_62": {
+          "Male_grad": 2.0,
+          "Female_grad": 0.5
+        },
+        "63_67": {
+          "Male_grad": 2.0,
+          "Female_grad": 0.5
+        },
+        "68": {
+          "Male_grad": 2.0,
+          "Female_grad": 0.5
+        }
+      },
+      "tier": "E",
+      "source_csv": "011_joint_age_gender_education.csv",
+      "needs_review": true,
+      "use": "verifier_only"
+    },
+    {
+      "name": "married_given_age_gender",
+      "parents": [
+        "age_cohort",
+        "gender"
+      ],
+      "child": "marital_status",
+      "semantics": "flag_rate_conditional",
+      "table": {
+        "18_22": {
+          "Male": 9.200000000000001,
+          "Female": 41.4
+        },
+        "23_27": {
+          "Male": 50.6,
+          "Female": 78.2
+        },
+        "28_32": {
+          "Male": 78.2,
+          "Female": 85.56
+        },
+        "33_37": {
+          "Male": 84.64,
+          "Female": 82.8
+        },
+        "38_42": {
+          "Male": 84.64,
+          "Female": 82.8
+        },
+        "43_47": {
+          "Male": 84.64,
+          "Female": 82.8
+        },
+        "48_52": {
+          "Male": 80.96000000000001,
+          "Female": 69.0
+        },
+        "53_57": {
+          "Male": 80.96000000000001,
+          "Female": 69.0
+        },
+        "58_62": {
+          "Male": 80.96000000000001,
+          "Female": 69.0
+        },
+        "63_67": {
+          "Male": 66.24000000000001,
+          "Female": 27.6
+        },
+        "68": {
+          "Male": 66.24000000000001,
+          "Female": 27.6
+        }
+      },
+      "tier": "E (high widowhood: occupational male premature mortality)",
+      "source_csv": "011_joint_marital_age_gender.csv",
+      "needs_review": true
+    },
+    {
+      "name": "asset_given_occupation",
+      "parents": [
+        "occupation"
+      ],
+      "child": "asset_media",
+      "semantics": "flag_rate_conditional",
+      "table": {
+        "Tea_garden_plucking_processing": {
+          "Smartphone_with_internet": 14.25,
+          "Television": 35.0
+        },
+        "Cultivator": {
+          "Smartphone_with_internet": 25.0,
+          "Television": 50.0
+        },
+        "Trade_retail": {
+          "Smartphone_with_internet": 65.0,
+          "Television": 85.0
+        },
+        "Government_services_teachers": {
+          "Smartphone_with_internet": 80.0,
+          "Television": 90.0
+        },
+        "Transport_border_logistics": {
+          "Smartphone_with_internet": 55.0,
+          "Television": 75.0
+        }
+      },
+      "tier": "D",
+      "source_csv": "011_joint_occupation_asset.csv",
+      "needs_review": true
+    },
+    {
+      "name": "religion_given_gp",
+      "parents": [
+        "gp_location"
+      ],
+      "child": "religion",
+      "semantics": "conditional",
+      "table": {
+        "U1_Kalchini_CDB_core": {
+          "Hindu": 65.5,
+          "Christian": 15.5,
+          "Muslim": 7.5,
+          "Buddhist": 7.5,
+          "Sarna_Tribal_ORP": 3.5
+        },
+        "U2_Majherdabri_GP": {
+          "Hindu": 84.4,
+          "Christian": 8.6,
+          "Muslim": 6.5,
+          "Buddhist": 0.0,
+          "Sarna_Tribal_ORP": 0.5
+        }
+      },
+      "tier": "E",
+      "source_csv": "011_joint_gp_religion.csv",
+      "needs_review": true
+    },
+    {
+      "name": "caste_given_gp",
+      "parents": [
+        "gp_location"
+      ],
+      "child": "caste",
+      "semantics": "conditional",
+      "table": {
+        "U1_Kalchini_CDB_core": {
+          "ST_total": 38.0,
+          "SC_total": 9.0,
+          "Nepali_Gorkha": 12.0,
+          "Bengali": 10.0,
+          "Muslim": 8.0,
+          "Bengali_OBC_Rajbanshi": 7.0,
+          "Christian": 8.0,
+          "Other_Sarna_Buddhist": 8.0
+        },
+        "U2_Majherdabri_GP": {
+          "ST_total": 18.0,
+          "SC_total": 42.0,
+          "Nepali_Gorkha": 3.0,
+          "Bengali": 15.0,
+          "Muslim": 6.5,
+          "Bengali_OBC_Rajbanshi": 8.0,
+          "Christian": 4.5,
+          "Other_Sarna_Buddhist": 3.0
+        }
+      },
+      "tier": "E",
+      "source_csv": "011_joint_gp_caste.csv",
+      "needs_review": true,
+      "use": "sampling_only"
+    },
+    {
+      "name": "asset_given_gp",
+      "parents": [
+        "gp_location"
+      ],
+      "child": "asset_media",
+      "semantics": "flag_rate_conditional",
+      "table": {
+        "U1_Kalchini_CDB_core": {
+          "Television": 48.0,
+          "Smartphone_with_internet": 26.0,
+          "Banking_access": 73.0
+        },
+        "U2_Majherdabri_GP": {
+          "Television": 62.0,
+          "Smartphone_with_internet": 38.0,
+          "Banking_access": 82.0
+        }
+      },
+      "tier": "E",
+      "source_csv": "011_joint_gp_asset.csv",
+      "needs_review": true
+    },
+    {
+      "name": "amenities_given_gp",
+      "parents": [
+        "gp_location"
+      ],
+      "child": "amenities",
+      "semantics": "flag_rate_conditional",
+      "table": {
+        "U1_Kalchini_CDB_core": {
+          "LPG_clean_cooking_fuel": 22.0,
+          "Improved_sanitation": 22.0,
+          "Improved_drinking_water_source": 58.0,
+          "Electricity": 78.0
+        },
+        "U2_Majherdabri_GP": {
+          "LPG_clean_cooking_fuel": 35.0,
+          "Improved_sanitation": 40.0,
+          "Improved_drinking_water_source": 72.0,
+          "Electricity": 88.0
+        }
+      },
+      "tier": "E",
+      "source_csv": "011_joint_gp_amenities.csv",
+      "needs_review": true
+    },
+    {
+      "name": "vote_given_religion",
+      "parents": [
+        "religion"
+      ],
+      "child": "vote_2019_LS",
+      "semantics": "vote_conditional",
+      "table": {
+        "Hindu": {
+          "BJP": 60.0,
+          "AITC": 30.0,
+          "RSP": 3.0,
+          "INC": 3.0,
+          "Other_NOTA": 4.0
+        },
+        "Christian": {
+          "BJP": 48.0,
+          "AITC": 36.0,
+          "RSP": 5.0,
+          "INC": 6.0,
+          "Other_NOTA": 5.0
+        },
+        "Muslim": {
+          "BJP": 10.0,
+          "AITC": 65.0,
+          "RSP": 5.0,
+          "INC": 15.0,
+          "Other_NOTA": 5.0
+        },
+        "Buddhist": {
+          "BJP": 55.0,
+          "AITC": 28.0,
+          "RSP": 3.0,
+          "INC": 4.0,
+          "Other_NOTA": 10.0
+        },
+        "Sarna_Tribal_ORP": {
+          "BJP": 55.0,
+          "AITC": 30.0,
+          "RSP": 5.0,
+          "INC": 3.0,
+          "Other_NOTA": 7.0
+        }
+      },
+      "tier": "D",
+      "source_csv": "011_vote_religion_2019.csv",
+      "needs_review": true,
+      "parties": [
+        "BJP",
+        "AITC",
+        "RSP",
+        "INC",
+        "Other_NOTA"
+      ]
+    },
+    {
+      "name": "vote_given_caste",
+      "parents": [
+        "caste"
+      ],
+      "child": "vote_2019_LS",
+      "semantics": "vote_conditional",
+      "table": {
+        "ST_total": {
+          "BJP": 52.0,
+          "AITC": 32.0,
+          "RSP": 6.0,
+          "INC": 6.0,
+          "Other_NOTA": 4.0
+        },
+        "SC_total": {
+          "BJP": 38.0,
+          "AITC": 45.0,
+          "RSP": 5.0,
+          "INC": 8.0,
+          "Other_NOTA": 4.0
+        },
+        "Nepali_Gorkha": {
+          "BJP": 58.0,
+          "AITC": 25.0,
+          "RSP": 3.0,
+          "INC": 3.0,
+          "Other_NOTA": 11.0
+        },
+        "Bengali": {
+          "BJP": 55.0,
+          "AITC": 35.0,
+          "RSP": 3.0,
+          "INC": 4.0,
+          "Other_NOTA": 3.0
+        },
+        "Bengali_OBC_Rajbanshi": {
+          "BJP": 45.0,
+          "AITC": 40.0,
+          "RSP": 5.0,
+          "INC": 6.0,
+          "Other_NOTA": 4.0
+        },
+        "Muslim": {
+          "BJP": 10.0,
+          "AITC": 65.0,
+          "RSP": 5.0,
+          "INC": 15.0,
+          "Other_NOTA": 5.0
+        },
+        "Christian": {
+          "BJP": 50.0,
+          "AITC": 35.0,
+          "RSP": 5.0,
+          "INC": 6.0,
+          "Other_NOTA": 4.0
+        },
+        "Other_Sarna_Buddhist": {
+          "BJP": 52.0,
+          "AITC": 32.0,
+          "RSP": 6.0,
+          "INC": 6.0,
+          "Other_NOTA": 4.0
+        }
+      },
+      "tier": "D",
+      "source_csv": "011_vote_caste_2019.csv",
+      "needs_review": true,
+      "parties": [
+        "BJP",
+        "AITC",
+        "RSP",
+        "INC",
+        "Other_NOTA"
+      ]
+    },
+    {
+      "name": "vote_given_gender",
+      "parents": [
+        "gender"
+      ],
+      "child": "vote_2019_LS",
+      "semantics": "vote_conditional",
+      "table": {
+        "Male": {
+          "BJP": 60.0,
+          "AITC": 30.0,
+          "RSP": 3.0,
+          "INC": 3.0,
+          "Other_NOTA": 4.0
+        },
+        "Female": {
+          "BJP": 56.0,
+          "AITC": 38.0,
+          "RSP": 2.0,
+          "INC": 2.0,
+          "Other_NOTA": 2.0
+        }
+      },
+      "tier": "D",
+      "source_csv": "011_vote_gender_2019.csv",
+      "needs_review": true,
+      "parties": [
+        "BJP",
+        "AITC",
+        "RSP",
+        "INC",
+        "Other_NOTA"
+      ]
+    }
+  ]
+}

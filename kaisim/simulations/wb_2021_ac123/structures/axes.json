@@ -1,0 +1,549 @@
+{
+  "$schema_version": "1.0",
+  "axes": [
+    {
+      "name": "religion",
+      "kind": "partition",
+      "categories": [
+        "Hindu",
+        "Muslim",
+        "Christian",
+        "Sarna_ORP",
+        "Other"
+      ],
+      "marginal": {
+        "Hindu": 72.42,
+        "Muslim": 27.15,
+        "Christian": 0.25,
+        "Sarna_ORP": 0.1,
+        "Other": 0.08
+      },
+      "display_names": {
+        "Hindu": "Hindu (incl. ST population census-classified as Hindu)",
+        "Muslim": "Muslim",
+        "Christian": "Christian",
+        "Sarna_ORP": "Sarna / ORP",
+        "Other": "Other (Sikh / Jain / Buddhist)"
+      },
+      "tier": "A/E",
+      "source_csv": "123_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "caste",
+      "kind": "partition",
+      "categories": [
+        "ST_total",
+        "SC_total",
+        "UC_bhadralok",
+        "OBC_specific",
+        "Other_Hindu_middle_castes",
+        "Muslim",
+        "Christian_Sarna_Other"
+      ],
+      "marginal": {
+        "ST_total": 24.78,
+        "SC_total": 37.36,
+        "UC_bhadralok": 3.0,
+        "OBC_specific": 5.0,
+        "Other_Hindu_middle_castes": 2.28,
+        "Muslim": 27.15,
+        "Christian_Sarna_Other": 0.43
+      },
+      "display_names": {
+        "ST_total": "ST total",
+        "SC_total": "SC total",
+        "UC_bhadralok": "UC bhadralok (Brahmin / Kayastha / Baidya)",
+        "OBC_specific": "OBC specific (Mahishya / Sadgop / Teli / Kurmi)",
+        "Other_Hindu_middle_castes": "Other Hindu middle castes (Goala / Sutradhar / other unclassified)",
+        "Muslim": "Muslim (all sub-castes pooled)",
+        "Christian_Sarna_Other": "Christian + Sarna + Other"
+      },
+      "tier": "E",
+      "source_csv": "123_marginals.csv",
+      "needs_review": true,
+      "subgroup_rollups": {
+        "SC_total": [
+          "Santhal",
+          "Munda",
+          "Oraon_Bhumij_Other_ST",
+          "Bagdi",
+          "Namasudra",
+          "Halpati_Hari_Dom_other_SC"
+        ]
+      }
+    },
+    {
+      "name": "age_cohort",
+      "kind": "partition",
+      "categories": [
+        "18_22",
+        "23_27",
+        "28_32",
+        "33_37",
+        "38_42",
+        "43_47",
+        "48_52",
+        "53_57",
+        "58_62",
+        "63_67",
+        "68"
+      ],
+      "marginal": {
+        "18_22": 12.8571,
+        "23_27": 13.5714,
+        "28_32": 13.5714,
+        "33_37": 12.1429,
+        "38_42": 10.7143,
+        "43_47": 10.0,
+        "48_52": 8.5714,
+        "53_57": 7.1429,
+        "58_62": 5.0,
+        "63_67": 3.5714,
+        "68": 2.8571
+      },
+      "display_names": {
+        "0_4": "0–4",
+        "5_9": "5–9",
+        "10_14": "10–14",
+        "15_17": "15–17 (pre-voter)",
+        "18_22": "18–22 (first-time voters at 2019 LS)",
+        "23_27": "23–27",
+        "28_32": "28–32",
+        "33_37": "33–37",
+        "38_42": "38–42",
+        "43_47": "43–47",
+        "48_52": "48–52",
+        "53_57": "53–57",
+        "58_62": "58–62",
+        "63_67": "63–67",
+        "68": "68+"
+      },
+      "tier": "E",
+      "source_csv": "123_marginals.csv",
+      "needs_review": true,
+      "notes": "[restricted to adults 18+ for Phase-2 voter sim; child cohorts dropped + renormalized]"
+    },
+    {
+      "name": "gender",
+      "kind": "partition",
+      "categories": [
+        "Male",
+        "Female",
+        "Third_gender"
+      ],
+      "marginal": {
+        "Male": 50.96,
+        "Female": 49.03,
+        "Third_gender": 0.01
+      },
+      "display_names": {
+        "Male": "Male",
+        "Female": "Female",
+        "Third_gender": "Third gender"
+      },
+      "tier": "A/E",
+      "source_csv": "123_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "mother_tongue",
+      "kind": "partition",
+      "categories": [
+        "Bengali",
+        "Sadri",
+        "Santali",
+        "Urdu",
+        "Other"
+      ],
+      "marginal": {
+        "Bengali": 97.8,
+        "Sadri": 1.5,
+        "Santali": 0.4,
+        "Urdu": 0.2,
+        "Other": 0.1
+      },
+      "display_names": {
+        "Bengali": "Bengali",
+        "Sadri": "Sadri (Sadani / Sadri-Nagpuri)",
+        "Santali": "Santali",
+        "Urdu": "Urdu",
+        "Other": "Other"
+      },
+      "tier": "E",
+      "source_csv": "123_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "education",
+      "kind": "partition",
+      "categories": [
+        "Illiterate",
+        "Primary",
+        "Middle",
+        "Secondary",
+        "Higher_Secondary",
+        "Graduate",
+        "Postgraduate"
+      ],
+      "marginal": {
+        "Illiterate": 25.0,
+        "Primary": 25.0,
+        "Middle": 20.0,
+        "Secondary": 14.0,
+        "Higher_Secondary": 9.0,
+        "Graduate": 5.5,
+        "Postgraduate": 1.5
+      },
+      "display_names": {
+        "Illiterate": "Illiterate",
+        "Primary": "Primary (Class 1–5)",
+        "Middle": "Middle (Class 6–8)",
+        "Secondary": "Secondary (Class 9–10)",
+        "Higher_Secondary": "Higher Secondary (Class 11–12)",
+        "Graduate": "Graduate",
+        "Postgraduate": "Postgraduate"
+      },
+      "tier": "E",
+      "source_csv": "123_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "workforce_status",
+      "kind": "partition",
+      "categories": [
+        "Main_worker",
+        "Marginal_worker",
+        "Non_worker",
+        "Student",
+        "Unemployed"
+      ],
+      "marginal": {
+        "Main_worker": 28.0,
+        "Marginal_worker": 14.0,
+        "Non_worker": 42.0,
+        "Student": 10.0,
+        "Unemployed": 6.0
+      },
+      "display_names": {
+        "Main_worker": "Main worker",
+        "Marginal_worker": "Marginal worker",
+        "Non_worker": "Non-worker (housewife / elderly / retired)",
+        "Student": "Student (18–22, in education)",
+        "Unemployed": "Unemployed (educated, seeking)"
+      },
+      "tier": "E",
+      "source_csv": "123_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "occupation",
+      "kind": "partition",
+      "categories": [
+        "Cultivator",
+        "Agricultural_labourer",
+        "Household_industry",
+        "Fishing_prawn_bheri",
+        "Trade_retail",
+        "Construction_building_labour",
+        "Transport",
+        "Services",
+        "Other_worker"
+      ],
+      "marginal": {
+        "Cultivator": 14.4,
+        "Agricultural_labourer": 50.5,
+        "Household_industry": 3.5,
+        "Fishing_prawn_bheri": 10.0,
+        "Trade_retail": 6.0,
+        "Construction_building_labour": 5.0,
+        "Transport": 3.0,
+        "Services": 7.0,
+        "Other_worker": 0.6
+      },
+      "display_names": {
+        "Cultivator": "Cultivator",
+        "Agricultural_labourer": "Agricultural labourer",
+        "Household_industry": "Household industry",
+        "Fishing_prawn_bheri": "Fishing / prawn / bheri (aquaculture)",
+        "Trade_retail": "Trade / retail (small)",
+        "Construction_building_labour": "Construction / building labour",
+        "Transport": "Transport",
+        "Services": "Services (private / government)",
+        "Other_worker": "Other worker (unclassified)"
+      },
+      "tier": "E",
+      "source_csv": "123_marginals.csv",
+      "needs_review": true,
+      "notes": "[AC 123: bheri (brackish fish-farm) economy concentrated in eastern blocks; not a separate occupation row in C.8 but flagged via bheri_economy_dependent]",
+      "verify_condition": {
+        "field": "workforce_status",
+        "values": [
+          "Main_worker",
+          "Marginal_worker"
+        ]
+      }
+    },
+    {
+      "name": "class_of_worker",
+      "kind": "partition",
+      "categories": [
+        "Employer",
+        "Employee",
+        "Single_worker",
+        "Family_worker"
+      ],
+      "marginal": {
+        "Employer": 1.0,
+        "Employee": 12.0,
+        "Single_worker": 52.0,
+        "Family_worker": 35.0
+      },
+      "display_names": {
+        "Employer": "Employer",
+        "Employee": "Employee (regular wage — govt + organised)",
+        "Single_worker": "Single worker (own-account — cultivator, fisherman, bheri operator)",
+        "Family_worker": "Family worker (unpaid — within ag / fishing HH)"
+      },
+      "tier": "E",
+      "source_csv": "123_marginals.csv",
+      "needs_review": true,
+      "verify_condition": {
+        "field": "workforce_status",
+        "values": [
+          "Main_worker",
+          "Marginal_worker"
+        ]
+      }
+    },
+    {
+      "name": "economic_status",
+      "kind": "partition",
+      "categories": [
+        "BPL_household",
+        "Above_Poverty_Line_low_income",
+        "Lower_middle",
+        "Middle",
+        "Upper_middle_well_off"
+      ],
+      "marginal": {
+        "BPL_household": 32.0,
+        "Above_Poverty_Line_low_income": 35.0,
+        "Lower_middle": 22.0,
+        "Middle": 9.0,
+        "Upper_middle_well_off": 2.0
+      },
+      "display_names": {
+        "BPL_household": "BPL household",
+        "Above_Poverty_Line_low_income": "Above-Poverty-Line, low-income",
+        "Lower_middle": "Lower-middle",
+        "Middle": "Middle",
+        "Upper_middle_well_off": "Upper-middle / well-off"
+      },
+      "tier": "E",
+      "source_csv": "123_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "gp_location",
+      "kind": "partition",
+      "categories": [
+        "U1_CDB_Sandeshkhali_I",
+        "U2_CDB_Sandeshkhali_II_AC_share"
+      ],
+      "marginal": {
+        "U1_CDB_Sandeshkhali_I": 53.9,
+        "U2_CDB_Sandeshkhali_II_AC_share": 46.1
+      },
+      "display_names": {
+        "U1_CDB_Sandeshkhali_I": "U1: CDB Sandeshkhali-I (all 8 GPs)",
+        "U2_CDB_Sandeshkhali_II_AC_share": "U2: CDB Sandeshkhali-II AC-share (7 of 8 GPs; excl. Khulna)"
+      },
+      "tier": "E",
+      "source_csv": "123_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "household_composition",
+      "kind": "partition",
+      "categories": [
+        "Nuclear_HH",
+        "Joint_HH",
+        "Extended_multi_generation"
+      ],
+      "marginal": {
+        "Nuclear_HH": 72.0,
+        "Joint_HH": 22.0,
+        "Extended_multi_generation": 6.0
+      },
+      "display_names": {
+        "Nuclear_HH": "Nuclear HH",
+        "Joint_HH": "Joint HH",
+        "Extended_multi_generation": "Extended / multi-generation"
+      },
+      "tier": "E",
+      "source_csv": "123_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "marital_status",
+      "kind": "partition",
+      "categories": [
+        "Never_married",
+        "Currently_married",
+        "Widowed",
+        "Separated_divorced"
+      ],
+      "marginal": {
+        "Never_married": 26.0,
+        "Currently_married": 65.0,
+        "Widowed": 8.0,
+        "Separated_divorced": 1.0
+      },
+      "display_names": {
+        "Never_married": "Never married",
+        "Currently_married": "Currently married",
+        "Widowed": "Widowed",
+        "Separated_divorced": "Separated / divorced"
+      },
+      "tier": "E",
+      "source_csv": "123_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "asset_media",
+      "kind": "flag",
+      "flags": [
+        "Television",
+        "Radio",
+        "Mobile_phone",
+        "Smartphone_with_internet",
+        "Computer",
+        "Two_wheeler",
+        "Four_wheeler",
+        "Banking_access"
+      ],
+      "rates": {
+        "Television": 60.0,
+        "Radio": 8.0,
+        "Mobile_phone": 78.0,
+        "Smartphone_with_internet": 32.0,
+        "Computer": 4.0,
+        "Two_wheeler": 18.0,
+        "Four_wheeler": 2.0,
+        "Banking_access": 82.0
+      },
+      "display_names": {
+        "Television": "Television",
+        "Radio": "Radio",
+        "Mobile_phone": "Mobile phone (any)",
+        "Smartphone_with_internet": "Smartphone with internet",
+        "Computer": "Computer",
+        "Two_wheeler": "Two-wheeler",
+        "Four_wheeler": "Four-wheeler",
+        "Banking_access": "Banking access (any)"
+      },
+      "tier": "C",
+      "source_csv": "123_marginals.csv",
+      "needs_review": true,
+      "notes": "Independent ownership rates — see calibrated_2019 MD."
+    },
+    {
+      "name": "amenities",
+      "kind": "flag",
+      "flags": [
+        "Improved_drinking_water_source",
+        "Improved_sanitation",
+        "LPG_clean_cooking_fuel",
+        "Wood_biomass_fuel",
+        "Other_fuel",
+        "Electricity"
+      ],
+      "rates": {
+        "Improved_drinking_water_source": 76.0,
+        "Improved_sanitation": 55.0,
+        "LPG_clean_cooking_fuel": 35.0,
+        "Wood_biomass_fuel": 58.0,
+        "Other_fuel": 7.0,
+        "Electricity": 88.0
+      },
+      "display_names": {
+        "Improved_drinking_water_source": "Improved drinking water source",
+        "Improved_sanitation": "Improved sanitation (latrine)",
+        "LPG_clean_cooking_fuel": "LPG / clean cooking fuel",
+        "Wood_biomass_fuel": "Wood / biomass fuel",
+        "Other_fuel": "Other fuel (kerosene / dung / other)",
+        "Electricity": "Electricity"
+      },
+      "tier": "C",
+      "source_csv": "123_marginals.csv",
+      "needs_review": true,
+      "notes": "Independent ownership rates — see calibrated_2019 MD."
+    },
+    {
+      "name": "migration",
+      "kind": "partition",
+      "categories": [
+        "Native",
+        "WB_other_district",
+        "Other_Indian_state",
+        "Bangladesh_origin",
+        "Outside_India",
+        "Out_migrant"
+      ],
+      "marginal": {
+        "Native": 78.0,
+        "WB_other_district": 8.0,
+        "Other_Indian_state": 1.0,
+        "Bangladesh_origin": 10.0,
+        "Outside_India": 0.0,
+        "Out_migrant": 3.0
+      },
+      "display_names": {
+        "Native": "Native (born in Sandeshkhali / N24P or same village)",
+        "WB_other_district": "WB other district (in-migrant)",
+        "Other_Indian_state": "Other Indian state",
+        "Bangladesh_origin": "Bangladesh-origin (long-term Hindu/Muslim settlers)",
+        "Outside_India": "Outside India (other than Bangladesh)",
+        "Out_migrant": "Out-migrant (registered here, working outside)"
+      },
+      "tier": "D",
+      "source_csv": "123_marginals.csv",
+      "needs_review": true,
+      "notes": "[AC 123: includes Cyclone-Aila-displacement (2009) cohort as a distinct origin — tier D, anchored to embankment-rebuild rosters]"
+    },
+    {
+      "name": "aila_displacement_status",
+      "kind": "derived",
+      "parents": [
+        "migration"
+      ],
+      "module": "derived.aila_displacement",
+      "function": "compute",
+      "categories": [
+        "aila_displaced_2009",
+        "non_displaced"
+      ],
+      "tier": "D",
+      "needs_review": true,
+      "notes": "AC 123 specific. Aila-2009 is a load-bearing narrative anchor for embankment-zone personas."
+    },
+    {
+      "name": "bheri_economy_dependent",
+      "kind": "derived",
+      "parents": [
+        "occupation",
+        "gp_location"
+      ],
+      "module": "derived.bheri_economy",
+      "function": "compute",
+      "categories": [
+        "bheri_dependent",
+        "non_bheri"
+      ],
+      "tier": "E",
+      "needs_review": true,
+      "notes": "AC 123 specific. True iff agri/fishery occupation in eastern bheri-zone blocks (per MD §A spatial notes)."
+    }
+  ]
+}

@@ -1,0 +1,107 @@
+persona_set:
+  name: baseline_rule_n500
+  description: Rule-based baseline persona set for AC 159, n=500.
+generation:
+  sampler: rule_based
+  target_n: 500
+  batch_size: 500
+  seed: 42
+sampling_spec:
+  gp_location:
+    method: marginal
+  age_cohort:
+    method: marginal
+  gender:
+    method: marginal
+  household_composition:
+    method: marginal
+  economic_status:
+    method: marginal
+  religion:
+    method: conditional_categorical
+    joint: religion_given_gp
+  caste:
+    method: conditional_categorical
+    joint: caste_given_religion
+  mother_tongue:
+    method: conditional_categorical
+    joint: lang_given_religion
+  migration:
+    method: conditional_categorical
+    joint: migration_given_religion
+  education:
+    method: conditional_categorical
+    joint: education_given_caste
+  marital_status:
+    method: plugin
+    module: derived.marital_sampling
+    function: sample
+    after:
+    - age_cohort
+    - gender
+  workforce_status:
+    method: plugin
+    module: derived.workforce_sampling
+    function: sample
+    after:
+    - age_cohort
+    - gender
+    - education
+  occupation:
+    method: plugin
+    module: derived.occupation_sampling
+    function: sample
+    after:
+    - workforce_status
+  class_of_worker:
+    method: plugin
+    module: derived.occupation_sampling
+    function: class_of_worker
+    after:
+    - workforce_status
+  asset_media:
+    method: plugin
+    module: derived.asset_sampling
+    function: sample
+    after:
+    - gp_location
+    - religion
+    - occupation
+  amenities:
+    method: plugin
+    module: derived.amenity_sampling
+    function: sample
+    after:
+    - gp_location
+vote:
+  enabled: true
+  field_name: vote_2019_LS
+  parties:
+  - BJP
+  - AITC
+  - CPI
+  - INC
+  - Others_SHS_7_IND
+  - NOTA
+  blending:
+    method: log_odds_mean
+    inputs:
+    - table: vote_given_caste
+      parent: caste
+      weight: 3.0
+    - table: vote_given_religion
+      parent: religion
+      weight: 0.5
+    - table: vote_given_gender
+      parent: gender
+      weight: 0.5
+verifier:
+  tolerance:
+    cell_z_max: 2.5
+    composite_chisq_max: 800.0
+  tier_weights:
+    A: 4.0
+    B: 3.0
+    C: 2.0
+    D: 1.5
+    E: 1.0

@@ -69,9 +69,9 @@
 | └ Dom / Chamar / Mochi | 2.5 | E | Urban SC fringe; leather, manual labor |
 | └ Other SC (Pod, Poundra, Hari, etc.) | 6.0 | E | Residual SC sub-groups in AC |
 | **ST total** | 2.2 | D | CDB rural 5.25% (A); Murshidabad Muni 0.69% (A); JA-Muni 0.83% (A); pop-weighted ~2.2% |
-| **UC bhadralok** (Brahmin / Kayastha / Baidya) | 10.0 | E | Urban concentration in Murshidabad Muni; historic administrative/scholarly class; ~10% of Hindu pop in urban units; AC-weighted ~5.5% of total pop |
+| **UC bhadralok** (Brahmin / Kayastha / Baidya) | 5.5 | E | Urban concentration in Murshidabad Muni; historic administrative/scholarly class; ~10% of Hindu pop in urban units; AC-weighted 5.5% of total pop |
 | **OBC Hindu** (Teli / Goala / Sutradhar / Sadgop / Kurmi) | 8.0 | E | Middle-Hindu castes; artisan and trade; present in both Muni and CDB |
-| **Other Hindu middle** (Kayeth / Napit / Koiborto / unclassified General) | 10.8 | E | Residual within Hindu after SC, ST, UC, OBC |
+| **Other Hindu middle** (Kayeth / Napit / Koiborto / unclassified General) | 21.4 | E | Residual within Hindu after SC (19.5), ST (2.2), UC (5.5), OBC (8.0): Hindu_total − components = 56.6 − 35.2 = 21.4 |
 | **Muslim — Ansari / Jolaha (weaver)** | 12.0 | D | Silk weaving economy of Murshidabad; significant Muslim weaver (Ansari/Julaha) population concentrated in CDB rural belt; est 28–30% of Muslim pop |
 | **Muslim — Sheikh (Bengali Muslim cultivator/peasantry)** | 20.0 | D | Dominant Muslim sub-group in CDB rural; ~48% of Muslim pop |
 | **Muslim — Syed / Pathan / Mughal** | 3.5 | E | Historic ashraf minority; some resident in urban Murshidabad |

@@ -1,0 +1,68 @@
+{
+  "$schema_version": "1.0",
+  "aggregate_targets": [
+    {
+      "name": "vote_2019_LS_share",
+      "field": "vote_2019_LS",
+      "buckets": [
+        {
+          "name": "AITC",
+          "display_name": "AITC",
+          "target_pct": 63.14,
+          "vote_values": [
+            "AITC"
+          ],
+          "tier": "A"
+        },
+        {
+          "name": "BJP",
+          "display_name": "BJP",
+          "target_pct": 30.09,
+          "vote_values": [
+            "BJP"
+          ],
+          "tier": "A"
+        },
+        {
+          "name": "CPI",
+          "display_name": "CPI(M)",
+          "target_pct": 4.52,
+          "vote_values": [
+            "CPI"
+          ],
+          "tier": "A"
+        },
+        {
+          "name": "INC",
+          "display_name": "INC",
+          "target_pct": 0.86,
+          "vote_values": [
+            "INC"
+          ],
+          "tier": "A"
+        },
+        {
+          "name": "BSP",
+          "display_name": "BSP",
+          "target_pct": 0.44,
+          "vote_values": [
+            "BSP"
+          ],
+          "tier": "A"
+        },
+        {
+          "name": "NOTA",
+          "display_name": "NOTA",
+          "target_pct": 0.59,
+          "vote_values": [
+            "NOTA"
+          ],
+          "tier": "A"
+        }
+      ],
+      "tier": "A",
+      "source_csv": "210_calibration_target_2019.csv",
+      "needs_review": true
+    }
+  ]
+}

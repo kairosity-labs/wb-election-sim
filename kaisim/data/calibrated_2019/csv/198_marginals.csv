@@ -1,0 +1,109 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,86.78,E,"2011 weighted (Tarakeswar CDB 88.94% + Muni 93.22% + Dhaniakhali-5GP 80.85%) = 86.97% base; projected 2011→2019 religion-differential growth (+1.0%/yr Hindu, +1.3%/yr Muslim over 8yr) → small shift; see methodology §4",no
+religion,Muslim,11.74,E,2011 weighted base 11.49%; projected to 11.74% after differential growth,no
+religion,Sarna / Tribal religion,0.90,E,ST-heavy Dhaniakhali fringe; some Santali practitioners; weighted from CDB and Dhaniakhali,no
+religion,Christian,0.30,E,Very small; missionary presence in Dhaniakhali fringe,no
+religion,Other (Jain/Sikh/Buddhist),0.28,E,"Residual; Tarakeswar Muni has small Jain (0.17%), Sikh (0.11%) populations",no
+caste,SC total,25.5,E,Weighted 2011: Tarakeswar CDB 23.63% + Muni 14.26% + Dhaniakhali-5GP ~33% → ~25.45%; projected stable (SC share changes slowly),no
+caste,Bagdi,9.5,C,"Dominant SC in Hooghly district (Hooghly SC breakout: Bagdi 630,219 = ~11.4% of district pop); primary SC in this AC",yes
+caste,Bauri,4.5,C,"Major SC sub-group in Hooghly; Hooghly Bauri 125,849 (~2.3% district), higher in rural CDB",yes
+caste,Namasudra,3.5,C,Present but not dominant (unlike N24P); smaller share in Hooghly than in Bangaon belt,yes
+caste,"Chamar / other SC (Hari, Jalia, Rajbanshi etc.)",7.5,E,"Residual SC sub-groups; Hooghly has Chamar 62k, Jalia 57k, Rajbanshi 44k, Hari 41k",yes
+caste,ST total,7.3,E,Weighted 2011: CDB 5.04% + Muni 0.50% + Dhaniakhali 14.26% → ~7.31%; Santal dominant,no
+caste,Santal,5.5,C,"Dominant ST group in Hooghly (153,809 in district); rural CDB and Dhaniakhali fringe",yes
+caste,"Other ST (Munda, Bhumij, Lodha)",1.8,E,Residual,yes
+caste,OBC Hindu (combined),30.0,D,"Load-bearing parameter. Mahishya + Sadgop + Kurmi + Tili combined; Hooghly's ""cultivating middle castes"" — no OBC census; estimate from journalistic-academic sources (tier D)",no
+caste,Mahishya,18.0,D,"Single largest caste in Hooghly (Wikipedia/India Today: ""single most important middle-caste in south-western Bengal; very numerous in Midnapore, 24-Parganas, Hooghly, Howrah""); in General category (not OBC) but functionally dominant cultivating caste; ~18% of constituency estimate",yes
+caste,Sadgop,6.0,D,Second-tier cultivating caste in Hooghly; OBC-B classified since ~2010s state order; significant in Tarakeswar area,yes
+caste,Kurmi,3.5,D,"OBC-A; cultivating caste, present in rural GPs",yes
+caste,Tili (oil-presser caste) / other OBC,2.5,D,Temple-town trade economy has Tili/teleseller; other OBC sub-groups,yes
+caste,UC bhadralok (Brahmin / Kayastha / Baidya),8.0,D,Temple-town educated Bengali professional class concentrated in Tarakeswar Muni; temple priests (Brahmin) significant,no
+caste,"Other Hindu (Goala, Tanti, Sutradhar, unclassified middle)",15.9,E,Residual within Hindu: 86.78% − 25.5 SC − 7.3 ST − 30.0 OBC − 8.0 UC = 15.98%,no
+caste,Muslim (all sub-castes pooled),11.74,E,See C.1; sub-structure in D.2,no
+caste,Christian + Sarna-only + Other,1.46,E,See C.1,no
+age_cohort,0–4,7.5,E,Projected from Census 2011 Hooghly district age pyramid,no
+age_cohort,5–9,8.0,E,,no
+age_cohort,10–14,8.5,E,,no
+age_cohort,15–17 (pre-voter),5.5,E,,no
+age_cohort,18–22 (first-time voters in 2019),9.0,E,,no
+age_cohort,23–27,9.5,E,,no
+age_cohort,28–32,9.5,E,,no
+age_cohort,33–37,8.5,E,,no
+age_cohort,38–42,7.5,E,,no
+age_cohort,43–47,7.0,E,,no
+age_cohort,48–52,6.0,E,,no
+age_cohort,53–57,5.0,E,,no
+age_cohort,58–62,4.0,E,,no
+age_cohort,63–67,2.5,E,,no
+age_cohort,68+,2.0,E,,no
+gender,Male,50.89,E,Weighted sex ratio ~965 F/1000M → 50.89% M / 49.11% F,no
+gender,Female,49.11,E,,no
+gender,Third gender,0.00,E,Negligible; consistent with WB AC pattern,no
+mother_tongue,Bengali,92.5,E,Weighted 2011: Tarakeswar CDB 96.93% Bengali + Muni 83.8% + Dhaniakhali fringe ~93% est → ~94.4% base; adjusted down slightly for Hindi-speaker growth from pilgrims/traders in Muni; ~92.5% by 2019,no
+mother_tongue,Santali,2.5,E,CDB 2.26% Santali; Dhaniakhali ST fringe adds more; weighted ~2.5%,no
+mother_tongue,Hindi,3.5,E,Tarakeswar Muni shows 15.2% Hindi in Wikipedia town article (unusual — partly pilgrimage-season workers registered?); likely inflated by temporary pilgrims; stable resident Hindi ~3.5%,no
+mother_tongue,Urdu,0.8,E,Muslim pocket in Dhaniakhali GPs; small,no
+mother_tongue,Other (Kurukh/Munda/Bhumij),0.7,E,ST fringe,no
+education,Illiterate,13.5,E,Weighted 2011 literacy: ~79.1% literate; +0.5pp/yr → 2019 ~83% literate → ~17% illiterate at age 7+; 13.5% illiterate of total pop (age 7+ is ~80% of pop),no
+education,Primary (Class 1–5),22.5,E,Census 2011 WB education distribution; scaled to local literacy level,no
+education,Middle (Class 6–8),21.5,E,,no
+education,Secondary (Class 9–10),19.0,E,,no
+education,Higher Secondary (Class 11–12),12.0,E,,no
+education,Graduate,8.5,E,Tarakeswar Muni literacy 83.9% (higher); some graduate class in town,no
+education,Postgraduate,3.0,E,Small professional class; temple-associated educated community,no
+workforce_status,Main worker,33.0,E,Tarakeswar CDB and Dhaniakhali census worker rates; rural agricultural area with moderate main-worker share,no
+workforce_status,Marginal worker,12.0,E,Agricultural seasonality drives high marginal-worker share,no
+workforce_status,Non-worker (housewife / elderly / retired),37.0,E,Female housewife fraction dominant in rural OBC households,no
+workforce_status,"Student (18–22 only, in education)",11.0,E,,no
+workforce_status,"Unemployed (educated, actively seeking)",7.0,E,Educated job-aspirant pool; moderate in Hooghly compared to urban ACs,no
+occupation,Cultivator,18.0,E,Weighted 2011 across CDB+Muni+Dhaniakhali: ~17.95% (methodology computation); stable to 2019,no
+occupation,Agricultural labourer,40.0,E,Weighted 2011: ~39.63%; rounds to 40%,no
+occupation,Household industry,4.5,E,Weighted 2011: ~4.55%,no
+occupation,"Manufacturing (organised, incl. jute)",5.0,E,Some jute industry in Dhaniakhali fringe; moderate organised sector,no
+occupation,Construction,6.0,E,Rural and town construction activity,no
+occupation,Trade / retail,10.0,E,"Tarakeswar Muni hub + temple economy (shops, accommodation, food)",no
+occupation,Transport,4.5,E,Railway station economy; Kolkata commuter-logistics chain,no
+occupation,Services (private),8.0,E,Kolkata commuter workforce; substantial given railway access,no
+occupation,Government services / teachers,4.0,E,,no
+class_of_worker,Employer,2.0,E,Census B-04 WB rural pattern; small landowner-employers,no
+class_of_worker,Employee (regular wage),25.0,E,Govt + organised + service employees; commuter workforce,no
+class_of_worker,Single worker (own-account),53.0,E,Cultivator + own-account artisan + small trader; dominant in rural OBC economy,no
+class_of_worker,Family worker (unpaid),20.0,E,Within agri-household; heavy in SC agricultural labourer households,no
+economic_status,BPL household,20.0,C,Hooghly district poverty historically below WB average; rural blocks ~25% BPL in early 2000s; trend decline by 2019 → ~20%,no
+economic_status,"Above-Poverty-Line, low-income",38.0,E,Rural cultivating-OBC and SC labourer households,no
+economic_status,Lower-middle,26.0,E,,no
+economic_status,Middle,13.0,E,Commuter workforce + Tarakeswar Muni middle class + small traders,no
+economic_status,Upper-middle / well-off,3.0,E,Limited affluent fringe in Muni; some temple-economy business families,no
+economic_status,PM Kisan Samman Nidhi exposure,0%,A,"WB government declined PM Kisan until FY2021-22 (joined at 8th installment, Apr-Jul 2021). Zero PM Kisan enrollment in end-2019. Central scheme existed from Dec 2018 but WB did not participate — BJP used this as a grievance lever in 2019 campaign. Source: PIB press release + PM Kisan Wikipedia",no
+economic_status,"Krishak Bandhu (TMC, Jan 2019) enrolled cultivators",~18,D,"Scheme launched Jan 2019; enrollment camps from 28 Jan 2019. ~18% of AC HH are cultivator-category, most enrolled by May 2019. First installment delivered May 2019 (Kharif). TMC flagship welfare-credit item in 2019 LS. Source: Krishak Bandhu website + WBXPress",no
+gp_location,U1: Tarakeswar Municipality (urban core),10.3,E,"2011: 30,947 / 299,132 = 10.3%; held stable to 2019",no
+gp_location,"U2: Tarakeswar CDB (rural, 10 GPs)",59.9,E,"2011: 179,148 / 299,132 = 59.9%",no
+gp_location,U3: Dhaniakhali 5 GPs,29.8,E,"2011: 89,037 / 299,132 = 29.8%; v0 collapses all 5 GPs into single cell",no
+household_composition,Avg HH size,4.5 persons,E,WB 2011: 4.3; rural Hooghly slightly higher; minor upward projection,no
+household_composition,Nuclear HH,68.0,E,NFHS-4 WB rural pattern,no
+household_composition,Joint HH,26.0,E,Higher in OBC cultivating-caste households,no
+household_composition,Extended / multi-generation,6.0,E,,no
+marital_status,Never married,26.0,E,Census 2011 Hooghly pattern; first-time-voter cohort 18–22,no
+marital_status,Currently married,65.0,E,,no
+marital_status,Widowed,8.0,E,"Concentrated in 60+, female-skewed; consistent with WB pattern",no
+marital_status,Separated / divorced,1.0,E,,no
+asset_media,Television,76.0,C,NFHS-4 WB rural baseline ~60% + urban 89%; AC weighted (mostly rural) ~76%; +3-5pp growth 2016–2019,no
+asset_media,Radio,5.0,C,Declining nationally,no
+asset_media,Mobile phone (any),85.0,C,NFHS-4 WB ~78% + Jio diffusion 2016–2019 → ~85% by 2019,no
+asset_media,Smartphone with internet,45.0,C,Jio rollout (Sep 2016) + rural WB growth; ~45% by end-2019 (slightly below N24P urban ACs),no
+asset_media,Computer,8.0,C,"NFHS-4 WB rural 4%, Muni higher; AC weighted ~8%",no
+asset_media,Two-wheeler,30.0,C,NFHS-4 WB rural 18%; growing; ~30% by 2019,no
+asset_media,Four-wheeler,5.0,C,Limited in rural Hooghly,no
+asset_media,Banking access (any),88.0,B,PMJDY 2014 saturation + Jan Dhan enrollment; WB NFHS-4 baseline + rollout,no
+amenities,Improved drinking water source,84.0,C,NFHS-4 WB rural 84% baseline; Hooghly slightly better than state average,no
+amenities,Improved sanitation (latrine),65.0,C,NFHS-4 WB rural 51%; +Swachh Bharat 2014-19 (+15pp rural) → ~65% by 2019 in Hooghly,no
+amenities,LPG / clean cooking fuel,42.0,C,NFHS-4 WB rural ~24%; +Ujjwala PMUY 2016–19 (+15pp rural) → ~42%,no
+amenities,Wood / biomass fuel,53.0,C,Declining as LPG rises,no
+amenities,"Other fuel (kerosene, dung etc.)",5.0,C,,no
+amenities,Electricity,97.0,A,Census 2011 + Saubhagya 2017–19 saturation; Hooghly well-electrified,no
+migration,Native (born in Hooghly or same village/town),82.0,D,Hooghly is a non-refugee district; overwhelmingly native population; no large refugee/migrant influx unlike N24P,no
+migration,WB other district (in-migrant),8.0,D,Some Kolkata service-class in-migrants in Muni; seasonal pilgrimage workers,no
+migration,Other Indian state,4.5,D,Pilgrimage economy attracts some permanent Hindi-belt settlers; temple service workers; Tarakeswar Muni 15.2% Hindi-speaker likely includes some; stable residents ~4.5%,no
+migration,"Bangladesh-origin (Hindu refugee, post-partition / 1971)",4.0,D,Much smaller than N24P/Bangaon belt; some Namasudra/refugee families in Dhaniakhali fringe; not the dominant migration story here,no
+migration,Outside India (other than Bangladesh),0.5,E,Negligible,no
+migration,"Out-migrant (registered here, working elsewhere)",1.0,E,Some Kolkata commuters registered at home address,no

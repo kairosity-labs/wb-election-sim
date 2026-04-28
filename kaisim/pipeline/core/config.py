@@ -40,13 +40,19 @@ class SimulationContext:
         sim_dir = Path(sim_dir)
         axes_doc = json.loads((sim_dir / "structures" / "axes.json").read_text())
         joints_doc = json.loads((sim_dir / "structures" / "joints.json").read_text())
+        # Aggregate targets may live either inline in joints.json (legacy)
+        # or as their own structures/aggregate_targets.json file (preferred —
+        # generated per AC by scripts/build_ac_verifier_configs.py).
+        agg_doc_path = sim_dir / "structures" / "aggregate_targets.json"
+        agg_targets_raw: list[dict] = list(joints_doc.get("aggregate_targets", []))
+        if agg_doc_path.exists():
+            agg_doc = json.loads(agg_doc_path.read_text())
+            agg_targets_raw.extend(agg_doc.get("aggregate_targets", []))
         return cls(
             sim_dir=sim_dir,
             axes=[Axis.from_json(a) for a in axes_doc["axes"]],
             joints=[Joint.from_json(j) for j in joints_doc["joints"]],
-            aggregate_targets=[
-                AggregateTarget.from_json(t) for t in joints_doc.get("aggregate_targets", [])
-            ],
+            aggregate_targets=[AggregateTarget.from_json(t) for t in agg_targets_raw],
         )
 
     # ---- lookup helpers ----

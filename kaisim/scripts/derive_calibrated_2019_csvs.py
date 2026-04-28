@@ -1,79 +1,96 @@
 #!/usr/bin/env python3
 """
 derive_calibrated_2019_csvs.py
-Parse the MD tables in `data/calibrated_2019/095_bangaon_uttar_2019.md` and
-emit companion CSVs to `data/calibrated_2019/csv/`.
+Parse a 2019-calibrated MD's tables and emit companion CSVs.
 
 The MD is the canonical source of truth; CSVs are derived. Re-run after any
 MD edit to keep CSVs in sync.
 
-Output structure:
-  csv/095_marginals.csv         — all 15 marginal axes in long format:
-                                  axis, category, pct, tier, source
-  csv/095_joint_<id>.csv        — one CSV per joint table:
-                                  for D.1-style 2-axis tables — wide format
-                                  for vote-tables — wide format with party cols
-  csv/095_calibration_target_2019.csv — section E aggregate
+Output structure (per AC NN):
+  csv/NN_marginals.csv                — all 16 marginal axes (long format)
+  csv/NN_joint_<id>.csv               — one CSV per joint table (wide format)
+  csv/NN_vote_<axis>_2019.csv         — vote × demographic joints
+  csv/NN_calibration_target_2019.csv  — section E aggregate
 
 Run:
-    python3 scripts/derive_calibrated_2019_csvs.py
+    python3 scripts/derive_calibrated_2019_csvs.py 095        # one AC
+    python3 scripts/derive_calibrated_2019_csvs.py --all      # every *_2019.md
 """
 from __future__ import annotations
 
+import argparse
 import csv
 import re
+import sys
 from pathlib import Path
 
 ROOT = Path(__file__).resolve().parent.parent
-MD_PATH = ROOT / "data" / "calibrated_2019" / "095_bangaon_uttar_2019.md"
-OUT_DIR = ROOT / "data" / "calibrated_2019" / "csv"
+CAL_DIR = ROOT / "data" / "calibrated_2019"
+OUT_DIR = CAL_DIR / "csv"
 
 
-# Map section header → (csv filename, kind, axis labels)
-# kind ∈ {"marginal_long", "wide", "skip"}
-# For marginals: rows go into one big long CSV.
-# For joints: each gets its own wide CSV (one row per category of axis_x).
-SECTIONS: dict[str, dict] = {
-    # Marginals — written into one long-format CSV
-    "C.1": {"csv": None, "kind": "marginal_long", "axis": "religion"},
-    "C.2": {"csv": None, "kind": "marginal_long", "axis": "caste"},
-    "C.3": {"csv": None, "kind": "marginal_long", "axis": "age_cohort"},
-    "C.4": {"csv": None, "kind": "marginal_long", "axis": "gender"},
-    "C.5": {"csv": None, "kind": "marginal_long", "axis": "mother_tongue"},
-    "C.6": {"csv": None, "kind": "marginal_long", "axis": "education"},
-    "C.7": {"csv": None, "kind": "marginal_long", "axis": "workforce_status"},
-    "C.8": {"csv": None, "kind": "marginal_long", "axis": "occupation"},
-    "C.9": {"csv": None, "kind": "marginal_long", "axis": "class_of_worker"},
-    "C.10": {"csv": None, "kind": "marginal_long", "axis": "economic_status"},
-    "C.11": {"csv": None, "kind": "marginal_long", "axis": "gp_location"},
-    "C.12": {"csv": None, "kind": "marginal_long", "axis": "household_composition"},
-    "C.13": {"csv": None, "kind": "marginal_long", "axis": "marital_status"},
-    "C.14": {"csv": None, "kind": "marginal_long", "axis": "asset_media"},
-    "C.15": {"csv": None, "kind": "marginal_long", "axis": "amenities"},
-    "C.16": {"csv": None, "kind": "marginal_long", "axis": "migration"},
-    # Joints — each gets its own CSV (wide format preserved as parsed)
-    "D.1": {"csv": "095_joint_religion_lang.csv", "kind": "wide"},
-    "D.2": {"csv": "095_joint_religion_caste.csv", "kind": "wide"},
-    "D.3": {"csv": "095_joint_religion_migration.csv", "kind": "wide"},
-    "D.4": {"csv": "095_joint_religion_asset.csv", "kind": "wide"},
-    "D.5": {"csv": "095_joint_caste_education.csv", "kind": "wide"},
-    "D.6": {"csv": "095_joint_age_gender_education.csv", "kind": "wide"},
-    "D.7": {"csv": "095_joint_marital_age_gender.csv", "kind": "wide"},
-    "D.8": {"csv": "095_joint_occupation_asset.csv", "kind": "wide"},
-    "D.9": {"csv": "095_joint_education_workforce.csv", "kind": "wide"},
-    "D.10": {"csv": "095_joint_asset_bilingualism.csv", "kind": "wide"},
-    "D.11": {"csv": "095_joint_gp_religion.csv", "kind": "wide"},
-    "D.12": {"csv": "095_joint_gp_caste.csv", "kind": "wide"},
-    "D.13": {"csv": "095_joint_gp_asset.csv", "kind": "wide"},
-    "D.14": {"csv": "095_joint_gp_amenities.csv", "kind": "wide"},
-    "D.15": {"csv": "095_vote_religion_2019.csv", "kind": "wide"},
-    "D.16": {"csv": "095_vote_caste_2019.csv", "kind": "wide"},
-    "D.17": {"csv": "095_vote_gender_2019.csv", "kind": "wide"},
-    "D.18": {"csv": "095_vote_welfare_2019.csv", "kind": "wide"},
+# Section blueprint. The structure is identical across all 2019-calibrated ACs;
+# only the AC-number prefix on the CSV filename changes.
+MARGINAL_AXES: dict[str, str] = {
+    "C.1":  "religion",
+    "C.2":  "caste",
+    "C.3":  "age_cohort",
+    "C.4":  "gender",
+    "C.5":  "mother_tongue",
+    "C.6":  "education",
+    "C.7":  "workforce_status",
+    "C.8":  "occupation",
+    "C.9":  "class_of_worker",
+    "C.10": "economic_status",
+    "C.11": "gp_location",
+    "C.12": "household_composition",
+    "C.13": "marital_status",
+    "C.14": "asset_media",
+    "C.15": "amenities",
+    "C.16": "migration",
 }
+JOINT_FILE_STEMS: dict[str, str] = {
+    "D.1":  "joint_religion_lang",
+    "D.2":  "joint_religion_caste",
+    "D.3":  "joint_religion_migration",
+    "D.4":  "joint_religion_asset",
+    "D.5":  "joint_caste_education",
+    "D.6":  "joint_age_gender_education",
+    "D.7":  "joint_marital_age_gender",
+    "D.8":  "joint_occupation_asset",
+    "D.9":  "joint_education_workforce",
+    "D.10": "joint_asset_bilingualism",
+    "D.11": "joint_gp_religion",
+    "D.12": "joint_gp_caste",
+    "D.13": "joint_gp_asset",
+    "D.14": "joint_gp_amenities",
+    "D.15": "vote_religion_2019",
+    "D.16": "vote_caste_2019",
+    "D.17": "vote_gender_2019",
+    "D.18": "vote_welfare_2019",
+}
+
+
+def build_sections(ac: str) -> dict[str, dict]:
+    """Return SECTIONS dict with AC-prefixed filenames."""
+    sections: dict[str, dict] = {}
+    for sid, axis in MARGINAL_AXES.items():
+        sections[sid] = {"csv": None, "kind": "marginal_long", "axis": axis}
+    for sid, stem in JOINT_FILE_STEMS.items():
+        sections[sid] = {"csv": f"{ac}_{stem}.csv", "kind": "wide"}
+    return sections
 
 META_ROW_MARKERS = ("sum", "note", "marginal recovery",
                     "population-wide", "(these are independent")
+
+# Substrings (lowercased) in the first cell that mark a row as meta —
+# i.e. an ECI Form-20 totals/electors/turnout/margin row, not a real datum.
+META_ROW_SUBSTRINGS = (
+    "marginal recovery", "population-wide", "(these are independent",
+    "total polled", "total valid", "total votes", "total electors",
+    "registered electors", "turnout", "lead over", "margin over",
+    "bjp lead", "aitc margin", "bjp margin", "tmc margin",
+)
 
 
 def strip_md(text: str) -> str:
@@ -91,11 +108,9 @@ def is_meta_row(cells: list[str]) -> bool:
     if not cells:
         return True
     first = cells[0].lower().strip()
-    # Whole-cell exact match for "sum"/"note" (these are stand-alone meta rows)
     if first in {"sum", "note", ""}:
         return True
-    # Substring match for the longer markers
-    for marker in ("marginal recovery", "population-wide", "(these are independent"):
+    for marker in META_ROW_SUBSTRINGS:
         if marker in first:
             return True
     return False
@@ -133,9 +148,9 @@ def parse_md_table(md: str, section_id: str) -> tuple[list[str], list[list[str]]
     return header_cells, rows
 
 
-def write_marginal_csv(records: list[dict]) -> Path:
+def write_marginal_csv(records: list[dict], ac: str) -> Path:
     """Write the consolidated long-format marginals CSV."""
-    out = OUT_DIR / "095_marginals.csv"
+    out = OUT_DIR / f"{ac}_marginals.csv"
     fieldnames = ["axis", "category", "pct", "tier", "source", "is_subgroup"]
     with out.open("w", newline="") as f:
         w = csv.DictWriter(f, fieldnames=fieldnames)
@@ -153,20 +168,17 @@ def write_wide_csv(name: str, header: list[str], rows: list[list[str]]) -> Path:
     return out
 
 
-def parse_calibration_target(md: str) -> list[list[str]]:
-    """Section E: AC 95 segment estimate table."""
-    # Find the AC 95 segment table specifically (the second table in section E,
-    # has header containing "AC 95 segment 2019 %").
+def parse_calibration_target(md: str) -> tuple[list[str], list[list[str]]]:
+    """Section E: AC segment estimate table (always the LAST table in §E).
+    Returns (header, rows). Header is the verbatim MD column names."""
     e_match = re.search(r"^##\s+E\.", md, re.MULTILINE)
     if not e_match:
-        return []
+        return [], []
     section_text = md[e_match.end():]
-    # Stop at next H2.
     next_h2 = re.search(r"^##\s+", section_text, re.MULTILINE)
     if next_h2:
         section_text = section_text[:next_h2.start()]
-    # Extract all tables; keep the second (segment estimate).
-    tables = []
+    tables: list[list[str]] = []
     lines = section_text.split("\n")
     current_table: list[str] = []
     for line in lines:
@@ -179,31 +191,53 @@ def parse_calibration_target(md: str) -> list[list[str]]:
     if current_table:
         tables.append(current_table)
     if not tables:
-        return []
-    # Use the LAST table (AC 95 segment estimate) — that's the calibration target.
+        return [], []
     target = tables[-1]
     if len(target) < 3:
-        return []
+        return [], []
+    header = [strip_md(c) for c in target[0].strip().strip("|").split("|")]
     rows = []
     for line in target[2:]:
         cells = [strip_md(c) for c in line.strip().strip("|").split("|")]
         if is_meta_row(cells):
             continue
         rows.append(cells)
-    return rows
+    return header, rows
 
 
-def main() -> None:
+def find_md_for_ac(ac: str) -> Path:
+    """Find <ac>_*_2019.md inside calibrated_2019/."""
+    matches = sorted(CAL_DIR.glob(f"{ac}_*_2019.md"))
+    if not matches:
+        raise FileNotFoundError(
+            f"No MD file matching '{ac}_*_2019.md' in {CAL_DIR}")
+    if len(matches) > 1:
+        raise ValueError(f"Multiple MDs match '{ac}_*_2019.md': {matches}")
+    return matches[0]
+
+
+def derive_one(ac: str, verbose: bool = True) -> dict:
+    """Parse the AC's MD and write its CSVs. Return a per-AC summary."""
     OUT_DIR.mkdir(parents=True, exist_ok=True)
-    md = MD_PATH.read_text()
+    md_path = find_md_for_ac(ac)
+    md = md_path.read_text()
+    sections = build_sections(ac)
+
+    summary = {
+        "ac": ac,
+        "md": md_path.name,
+        "missing_sections": [],
+        "marginal_axes_written": [],
+        "joint_csvs_written": [],
+        "calibration_target_rows": 0,
+    }
 
     marginal_records: list[dict] = []
-    joint_csvs_written = []
 
-    for section_id, cfg in SECTIONS.items():
+    for section_id, cfg in sections.items():
         parsed = parse_md_table(md, section_id)
         if not parsed:
-            print(f"WARN: section {section_id} table not found")
+            summary["missing_sections"].append(section_id)
             continue
         header, rows = parsed
         if cfg["kind"] == "marginal_long":
@@ -211,45 +245,104 @@ def main() -> None:
             for r in rows:
                 if len(r) < 4:
                     continue
-                # Detect sub-row indent ("└" prefix in MD) before stripping it.
                 category_raw = r[0].strip()
                 is_subgroup = "yes" if category_raw.startswith("└") else "no"
                 category = category_raw.lstrip("└ ").strip()
-                pct = r[1]
-                tier = r[2]
-                source = r[3] if len(r) > 3 else ""
                 marginal_records.append({
                     "axis": axis,
                     "category": category,
-                    "pct": pct,
-                    "tier": tier,
-                    "source": source,
+                    "pct": r[1],
+                    "tier": r[2],
+                    "source": r[3] if len(r) > 3 else "",
                     "is_subgroup": is_subgroup,
                 })
+            if axis not in summary["marginal_axes_written"]:
+                summary["marginal_axes_written"].append(axis)
         elif cfg["kind"] == "wide":
             out = write_wide_csv(cfg["csv"], header, rows)
-            joint_csvs_written.append(out.name)
+            summary["joint_csvs_written"].append(out.name)
 
     if marginal_records:
-        marg_path = write_marginal_csv(marginal_records)
-        print(f"Wrote {marg_path.name} ({len(marginal_records)} rows)")
+        marg_path = write_marginal_csv(marginal_records, ac)
+        if verbose:
+            print(f"  wrote {marg_path.name} ({len(marginal_records)} rows)")
 
-    # Calibration target
-    cal_rows = parse_calibration_target(md)
-    if cal_rows:
-        cal_out = OUT_DIR / "095_calibration_target_2019.csv"
+    cal_header, cal_rows = parse_calibration_target(md)
+    if cal_rows and cal_header:
+        cal_out = OUT_DIR / f"{ac}_calibration_target_2019.csv"
         with cal_out.open("w", newline="") as f:
             w = csv.writer(f)
-            w.writerow(["party", "ac95_segment_pct_estimate", "tier", "note"])
+            w.writerow(cal_header)        # preserve verbatim per-AC schema
             for r in cal_rows:
-                if len(r) >= 4:
-                    w.writerow(r[:4])
-        print(f"Wrote {cal_out.name} ({len(cal_rows)} rows)")
+                # Pad/truncate to header length for clean CSV.
+                if len(r) < len(cal_header):
+                    r = r + [""] * (len(cal_header) - len(r))
+                w.writerow(r[:len(cal_header)])
+        summary["calibration_target_rows"] = len(cal_rows)
+        if verbose:
+            print(f"  wrote {cal_out.name} ({len(cal_rows)} rows)")
 
-    print(f"Wrote {len(joint_csvs_written)} joint CSVs:")
-    for n in joint_csvs_written:
-        print(f"  - {n}")
+    if verbose:
+        print(f"  wrote {len(summary['joint_csvs_written'])} joint CSVs")
+        if summary["missing_sections"]:
+            print(f"  ⚠ missing sections: {summary['missing_sections']}")
+
+    return summary
+
+
+def discover_acs() -> list[str]:
+    """Return all 3-digit AC numbers found as <NNN>_*_2019.md in CAL_DIR."""
+    out = []
+    for p in sorted(CAL_DIR.glob("*_2019.md")):
+        m = re.match(r"^(\d{3})_", p.name)
+        if m:
+            out.append(m.group(1))
+    return out
+
+
+def main() -> int:
+    p = argparse.ArgumentParser(description=__doc__)
+    p.add_argument("ac", nargs="?", default=None,
+                    help="3-digit AC number (e.g. 095). Omit with --all.")
+    p.add_argument("--all", action="store_true",
+                    help="Derive for every <NNN>_*_2019.md in calibrated_2019/")
+    args = p.parse_args()
+
+    if args.all:
+        targets = discover_acs()
+    elif args.ac:
+        targets = [args.ac.zfill(3)]
+    else:
+        p.error("provide an AC number or --all")
+        return 2
+
+    print(f"Deriving CSVs for {len(targets)} AC(s): {targets}")
+    summaries = []
+    for ac in targets:
+        print(f"\n=== AC {ac} ===")
+        try:
+            s = derive_one(ac)
+            summaries.append(s)
+        except (FileNotFoundError, ValueError) as e:
+            print(f"  ✗ {e}")
+            summaries.append({"ac": ac, "error": str(e)})
+
+    print("\n" + "=" * 72)
+    print(f"SUMMARY ({len(summaries)} ACs)")
+    print("=" * 72)
+    for s in summaries:
+        if "error" in s:
+            print(f"  AC {s['ac']:>3}: ✗ {s['error']}")
+            continue
+        miss = len(s["missing_sections"])
+        marg = len(s["marginal_axes_written"])
+        joint = len(s["joint_csvs_written"])
+        flag = "✓" if miss == 0 else "⚠"
+        print(f"  AC {s['ac']:>3} {flag} marginals={marg}/16 "
+              f"joints={joint}/18 cal_rows={s['calibration_target_rows']}"
+              + (f"  missing={s['missing_sections']}" if miss else ""))
+    return 0
 
 
 if __name__ == "__main__":
-    main()
+    sys.exit(main())

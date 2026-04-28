@@ -66,28 +66,13 @@
 | └ Bauri | 2.0 | E | ~12% of SC pool |
 | └ Other SC (Hari, Kora, etc.) | 2.96 | E | Residual SC sub-groups; ~18% of SC pool |
 | **ST total** | 0.10 | A | Census 2011 block aggregate: 335 / 331,054; negligible ST presence |
-| **Mahishya (general caste, dominant)** | 27.0 | D | Mahishya is the numerically dominant middle caste in coastal Purba Medinipur; not SC/ST/OBC — general category. Estimated ~45–50% of non-SC, non-ST, non-Muslim Hindu = ~27% of total AC population. Tier D: no caste census post-1931. Sources: Wikipedia "Mahishya", journalistic analysis of Purba Medinipur caste dynamics |
-| **Tili / Teli (OBC)** | 3.0 | E | Secondary OBC in coastal Medinipur context |
-| **Kayastha / Brahmin / UC bhadralok** | 5.0 | E | Modest upper-caste presence; concentrated in Nandigram census town |
-| **Other Hindu middle castes** (Goala, Kumbhar, Sutradhar, Sadgop, etc.) | 20.29 | E | Residual within Hindu non-SC non-ST non-Mahishya non-OBC (73.51 − 16.46 − 0.10 − 27.0 − 3.0 − 5.0 = 21.95, minus Muslim 26.35 already excluded → residual general Hindu middle) |
+| **Mahishya (general caste, dominant)** | 27.00 | D | Mahishya is the numerically dominant middle caste in coastal Purba Medinipur; not SC/ST/OBC — general category. Estimated ~45–50% of non-SC, non-ST, non-Muslim Hindu = ~27% of total AC population. Tier D: no caste census post-1931. Sources: Wikipedia "Mahishya", journalistic analysis of Purba Medinipur caste dynamics |
+| **Tili / Teli (OBC)** | 3.00 | E | Secondary OBC in coastal Medinipur context |
+| **Kayastha / Brahmin / UC bhadralok** | 5.00 | E | Modest upper-caste presence; concentrated in Nandigram census town |
+| **Other Hindu middle castes** (Goala, Kumbhar, Sutradhar, Sadgop, etc.) | 21.95 | E | Residual general Hindu after subtracting SC+ST+Mahishya+OBC+UC: 100 − 16.46 − 0.10 − 27.00 − 3.00 − 5.00 − 26.35 − 0.14 = 21.95 |
 | **Muslim** (all sub-castes pooled) | 26.35 | A/E | See C.1; sub-structure in D.2 |
 | Christian + Other | 0.14 | E | See C.1 |
-| **Unclassified / data gap** | −1.34 | — | Note: residual arithmetic gap absorbed in "Other Hindu middle" — see v0 known gaps |
-| **Sum** | **100.00** | — | self-check (Mahishya 27 + Tili/OBC 3 + UC 5 + Other Hindu middle 22.95 + SC 16.46 + ST 0.10 + Muslim 26.35 + Other 0.14 = 101.00 — rounding; adjusted below) |
-
-*Adjusted sum-to-100 caste table:*
-
-| Category | % | Tier | Source / Note |
-|---|---|---|---|
-| SC total | 16.46 | A | Census 2011 aggregate |
-| ST total | 0.10 | A | Census 2011 aggregate |
-| Mahishya (general, dominant) | 27.00 | D | See note above |
-| Tili / Teli (OBC) | 3.00 | E | |
-| UC bhadralok (Brahmin/Kayastha) | 5.00 | E | |
-| Other Hindu middle castes | 21.95 | E | Residual general Hindu after subtracting Mahishya+OBC+UC from non-SC-ST Hindu |
-| Muslim (all sub-castes) | 26.35 | A/E | See C.1 |
-| Christian + Other | 0.14 | E | |
-| **Sum** | **100.00** | — | self-check |
+| **Sum** | **100.00** | — | self-check (16.46 + 0.10 + 27.00 + 3.00 + 5.00 + 21.95 + 26.35 + 0.14 = 100.00) |
 
 ### C.3 Age cohort (2019, all ages)
 

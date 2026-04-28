@@ -1,0 +1,532 @@
+{
+  "$schema_version": "1.0",
+  "axes": [
+    {
+      "name": "religion",
+      "kind": "partition",
+      "categories": [
+        "Hindu",
+        "Muslim",
+        "Christian",
+        "Other"
+      ],
+      "marginal": {
+        "Hindu": 82.3,
+        "Muslim": 17.2,
+        "Christian": 0.18,
+        "Other": 0.32
+      },
+      "display_names": {
+        "Hindu": "Hindu",
+        "Muslim": "Muslim",
+        "Christian": "Christian",
+        "Other": "Other (Sarna / Sikh / Jain / Buddhist)"
+      },
+      "tier": "E",
+      "source_csv": "003_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "caste",
+      "kind": "partition",
+      "categories": [
+        "SC_total",
+        "ST_total",
+        "UC_bhadralok",
+        "OBC",
+        "Other_Hindu_forward_middle",
+        "Muslim",
+        "Christian_Other"
+      ],
+      "marginal": {
+        "SC_total": 45.2,
+        "ST_total": 1.0,
+        "UC_bhadralok": 4.5,
+        "OBC": 10.0,
+        "Other_Hindu_forward_middle": 21.6,
+        "Muslim": 17.2,
+        "Christian_Other": 0.5
+      },
+      "display_names": {
+        "SC_total": "SC total",
+        "ST_total": "ST total",
+        "UC_bhadralok": "UC bhadralok (Brahmin / Kayastha / Baidya)",
+        "OBC": "OBC (Saha / Teli / Nai / Kurmi / Sutradhar)",
+        "Other_Hindu_forward_middle": "Other Hindu forward / middle (Goala / Barman / Malo / unclassified)",
+        "Muslim": "Muslim (all sub-castes pooled)",
+        "Christian_Other": "Christian + Other"
+      },
+      "tier": "E",
+      "source_csv": "003_marginals.csv",
+      "needs_review": true,
+      "subgroup_rollups": {
+        "SC_total": [
+          "Rajbanshi_SC",
+          "Bagdi_SC",
+          "Namasudra_SC",
+          "Bagdi_Hari_Jhalo_Malo_SC",
+          "Other_SC"
+        ],
+        "ST_total": [
+          "ST"
+        ]
+      },
+      "notes": "[AC 003: Rajbanshi (Koch) is dominant SC; do NOT cross-map to Namasudra-Matua belts]"
+    },
+    {
+      "name": "age_cohort",
+      "kind": "partition",
+      "categories": [
+        "18_22",
+        "23_27",
+        "28_32",
+        "33_37",
+        "38_42",
+        "43_47",
+        "48_52",
+        "53_57",
+        "58_62",
+        "63_67",
+        "68"
+      ],
+      "marginal": {
+        "18_22": 12.9496,
+        "23_27": 13.6691,
+        "28_32": 13.6691,
+        "33_37": 12.2302,
+        "38_42": 10.7914,
+        "43_47": 10.0719,
+        "48_52": 7.9137,
+        "53_57": 6.4748,
+        "58_62": 5.036,
+        "63_67": 3.5971,
+        "68": 3.5971
+      },
+      "display_names": {
+        "0_4": "0–4",
+        "5_9": "5–9",
+        "10_14": "10–14",
+        "15_17": "15–17 (pre-voter)",
+        "18_22": "18–22 (first-time voters at 2019)",
+        "23_27": "23–27",
+        "28_32": "28–32",
+        "33_37": "33–37",
+        "38_42": "38–42",
+        "43_47": "43–47",
+        "48_52": "48–52",
+        "53_57": "53–57",
+        "58_62": "58–62",
+        "63_67": "63–67",
+        "68": "68+"
+      },
+      "tier": "E",
+      "source_csv": "003_marginals.csv",
+      "needs_review": true,
+      "notes": "[restricted to adults 18+ for Phase-2 voter simulation; child cohorts dropped + remaining cohorts renormalized to sum 100]"
+    },
+    {
+      "name": "gender",
+      "kind": "partition",
+      "categories": [
+        "Male",
+        "Female"
+      ],
+      "marginal": {
+        "Male": 52.0,
+        "Female": 48.0
+      },
+      "display_names": {
+        "Male": "Male",
+        "Female": "Female"
+      },
+      "tier": "E",
+      "source_csv": "003_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "mother_tongue",
+      "kind": "partition",
+      "categories": [
+        "Bengali",
+        "Rajbongshi_Rajbanshi",
+        "Hindi",
+        "Urdu",
+        "Other"
+      ],
+      "marginal": {
+        "Bengali": 93.49,
+        "Rajbongshi_Rajbanshi": 1.23,
+        "Hindi": 1.85,
+        "Urdu": 1.0,
+        "Other": 2.43
+      },
+      "display_names": {
+        "Bengali": "Bengali",
+        "Rajbongshi_Rajbanshi": "Rajbongshi / Rajbanshi",
+        "Hindi": "Hindi",
+        "Urdu": "Urdu",
+        "Other": "Other (Mech / Koch / Nepali / Santhali)"
+      },
+      "tier": "A",
+      "source_csv": "003_marginals.csv",
+      "needs_review": true,
+      "notes": "[AC 003: Rajbongshi listed as distinct MT — a Bengali register, not a separate language]"
+    },
+    {
+      "name": "education",
+      "kind": "partition",
+      "categories": [
+        "Illiterate",
+        "Primary",
+        "Middle",
+        "Secondary",
+        "Higher_Secondary",
+        "Graduate",
+        "Postgraduate"
+      ],
+      "marginal": {
+        "Illiterate": 12.0,
+        "Primary": 22.0,
+        "Middle": 22.0,
+        "Secondary": 19.0,
+        "Higher_Secondary": 12.0,
+        "Graduate": 9.0,
+        "Postgraduate": 4.0
+      },
+      "display_names": {
+        "Illiterate": "Illiterate",
+        "Primary": "Primary (Class 1–5)",
+        "Middle": "Middle (Class 6–8)",
+        "Secondary": "Secondary (Class 9–10)",
+        "Higher_Secondary": "Higher Secondary (Class 11–12)",
+        "Graduate": "Graduate",
+        "Postgraduate": "Postgraduate"
+      },
+      "tier": "E",
+      "source_csv": "003_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "workforce_status",
+      "kind": "partition",
+      "categories": [
+        "Main_worker",
+        "Marginal_worker",
+        "Non_worker",
+        "Student",
+        "Unemployed"
+      ],
+      "marginal": {
+        "Main_worker": 32.0,
+        "Marginal_worker": 12.0,
+        "Non_worker": 36.0,
+        "Student": 11.0,
+        "Unemployed": 9.0
+      },
+      "display_names": {
+        "Main_worker": "Main worker",
+        "Marginal_worker": "Marginal worker",
+        "Non_worker": "Non-worker (housewife / elderly / retired)",
+        "Student": "Student (18–22 only, in education)",
+        "Unemployed": "Unemployed (educated, actively seeking)"
+      },
+      "tier": "E",
+      "source_csv": "003_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "occupation",
+      "kind": "partition",
+      "categories": [
+        "Cultivator",
+        "Agricultural_labourer",
+        "Household_industry",
+        "Manufacturing",
+        "Construction",
+        "Trade_retail",
+        "Transport_logistics",
+        "Services",
+        "Government_services_teachers",
+        "Out_migrant_worker"
+      ],
+      "marginal": {
+        "Cultivator": 20.0,
+        "Agricultural_labourer": 32.0,
+        "Household_industry": 4.0,
+        "Manufacturing": 3.0,
+        "Construction": 6.0,
+        "Trade_retail": 12.0,
+        "Transport_logistics": 5.0,
+        "Services": 10.0,
+        "Government_services_teachers": 5.0,
+        "Out_migrant_worker": 3.0
+      },
+      "display_names": {
+        "Cultivator": "Cultivator",
+        "Agricultural_labourer": "Agricultural labourer",
+        "Household_industry": "Household industry",
+        "Manufacturing": "Manufacturing (organised)",
+        "Construction": "Construction",
+        "Trade_retail": "Trade / retail",
+        "Transport_logistics": "Transport / logistics",
+        "Services": "Services (private)",
+        "Government_services_teachers": "Government services / teachers",
+        "Out_migrant_worker": "Out-migrant worker (working outside WB)"
+      },
+      "tier": "E",
+      "source_csv": "003_marginals.csv",
+      "needs_review": true,
+      "verify_condition": {
+        "field": "workforce_status",
+        "values": [
+          "Main_worker",
+          "Marginal_worker"
+        ]
+      }
+    },
+    {
+      "name": "class_of_worker",
+      "kind": "partition",
+      "categories": [
+        "Employer",
+        "Employee",
+        "Single_worker",
+        "Family_worker"
+      ],
+      "marginal": {
+        "Employer": 2.0,
+        "Employee": 25.0,
+        "Single_worker": 48.0,
+        "Family_worker": 25.0
+      },
+      "display_names": {
+        "Employer": "Employer",
+        "Employee": "Employee (regular wage)",
+        "Single_worker": "Single worker (own-account)",
+        "Family_worker": "Family worker (unpaid)"
+      },
+      "tier": "E",
+      "source_csv": "003_marginals.csv",
+      "needs_review": true,
+      "verify_condition": {
+        "field": "workforce_status",
+        "values": [
+          "Main_worker",
+          "Marginal_worker"
+        ]
+      }
+    },
+    {
+      "name": "economic_status",
+      "kind": "partition",
+      "categories": [
+        "BPL_household",
+        "Above_Poverty_Line_low_income",
+        "Lower_middle",
+        "Middle",
+        "Upper_middle_well_off"
+      ],
+      "marginal": {
+        "BPL_household": 24.0,
+        "Above_Poverty_Line_low_income": 36.0,
+        "Lower_middle": 24.0,
+        "Middle": 12.0,
+        "Upper_middle_well_off": 4.0
+      },
+      "display_names": {
+        "BPL_household": "BPL household",
+        "Above_Poverty_Line_low_income": "Above-Poverty-Line, low-income",
+        "Lower_middle": "Lower-middle",
+        "Middle": "Middle",
+        "Upper_middle_well_off": "Upper-middle / well-off"
+      },
+      "tier": "E",
+      "source_csv": "003_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "gp_location",
+      "kind": "partition",
+      "categories": [
+        "Census_towns_cluster",
+        "CDB_II_rural_GPs"
+      ],
+      "marginal": {
+        "Census_towns_cluster": 15.7,
+        "CDB_II_rural_GPs": 84.3
+      },
+      "display_names": {
+        "Census_towns_cluster": "U1: Census-towns cluster (Khagrabari 23,122 + Takagachh 12,414 + Chakchaka 8,582 + Baisguri 5,021 + Baneswar 4,841)",
+        "CDB_II_rural_GPs": "U2: CDB-II rural GPs (13 GPs: Ambari, Baneswar-GP, Bararangras, Chakchaka-GP, Dhandhingguri, Gopalpur, Khagrabari-GP, Khapaidanga, Madhupur, Marichbari Kholta, Patlakhawa, Pundibari, Takagachh Rajarhat)"
+      },
+      "tier": "A",
+      "source_csv": "003_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "household_composition",
+      "kind": "partition",
+      "categories": [
+        "Nuclear_HH",
+        "Joint_HH",
+        "Extended_multi_generation"
+      ],
+      "marginal": {
+        "Nuclear_HH": 65.0,
+        "Joint_HH": 28.0,
+        "Extended_multi_generation": 7.0
+      },
+      "display_names": {
+        "Nuclear_HH": "Nuclear HH",
+        "Joint_HH": "Joint HH",
+        "Extended_multi_generation": "Extended / multi-generation"
+      },
+      "tier": "E",
+      "source_csv": "003_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "marital_status",
+      "kind": "partition",
+      "categories": [
+        "Never_married",
+        "Currently_married",
+        "Widowed",
+        "Separated_divorced"
+      ],
+      "marginal": {
+        "Never_married": 27.0,
+        "Currently_married": 64.0,
+        "Widowed": 8.0,
+        "Separated_divorced": 1.0
+      },
+      "display_names": {
+        "Never_married": "Never married",
+        "Currently_married": "Currently married",
+        "Widowed": "Widowed",
+        "Separated_divorced": "Separated / divorced"
+      },
+      "tier": "E",
+      "source_csv": "003_marginals.csv",
+      "needs_review": true
+    },
+    {
+      "name": "asset_media",
+      "kind": "flag",
+      "flags": [
+        "Television",
+        "Radio",
+        "Mobile_phone",
+        "Smartphone_with_internet",
+        "Computer",
+        "Two_wheeler",
+        "Four_wheeler",
+        "Banking_access"
+      ],
+      "rates": {
+        "Television": 74.0,
+        "Radio": 4.0,
+        "Mobile_phone": 84.0,
+        "Smartphone_with_internet": 40.0,
+        "Computer": 6.0,
+        "Two_wheeler": 30.0,
+        "Four_wheeler": 5.0,
+        "Banking_access": 88.0
+      },
+      "display_names": {
+        "Television": "Television",
+        "Radio": "Radio",
+        "Mobile_phone": "Mobile phone (any)",
+        "Smartphone_with_internet": "Smartphone with internet",
+        "Computer": "Computer",
+        "Two_wheeler": "Two-wheeler",
+        "Four_wheeler": "Four-wheeler",
+        "Banking_access": "Banking access (any)"
+      },
+      "tier": "C",
+      "source_csv": "003_marginals.csv",
+      "needs_review": true,
+      "notes": "Independent ownership rates — see calibrated_2019 MD."
+    },
+    {
+      "name": "amenities",
+      "kind": "flag",
+      "flags": [
+        "Improved_drinking_water_source",
+        "Improved_sanitation",
+        "LPG_clean_cooking_fuel",
+        "Wood_biomass_fuel",
+        "Other_fuel",
+        "Electricity"
+      ],
+      "rates": {
+        "Improved_drinking_water_source": 85.0,
+        "Improved_sanitation": 68.0,
+        "LPG_clean_cooking_fuel": 38.0,
+        "Wood_biomass_fuel": 57.0,
+        "Other_fuel": 5.0,
+        "Electricity": 94.0
+      },
+      "display_names": {
+        "Improved_drinking_water_source": "Improved drinking water source",
+        "Improved_sanitation": "Improved sanitation (latrine)",
+        "LPG_clean_cooking_fuel": "LPG / clean cooking fuel",
+        "Wood_biomass_fuel": "Wood / biomass fuel",
+        "Other_fuel": "Other fuel (kerosene / dung)",
+        "Electricity": "Electricity"
+      },
+      "tier": "C",
+      "source_csv": "003_marginals.csv",
+      "needs_review": true,
+      "notes": "Independent ownership rates — see calibrated_2019 MD."
+    },
+    {
+      "name": "migration",
+      "kind": "partition",
+      "categories": [
+        "Native",
+        "WB_other_district",
+        "Other_Indian_state",
+        "Bangladesh_origin",
+        "Nepal_Bhutan_origin",
+        "Out_migrant"
+      ],
+      "marginal": {
+        "Native": 84.0,
+        "WB_other_district": 6.0,
+        "Other_Indian_state": 4.0,
+        "Bangladesh_origin": 4.0,
+        "Nepal_Bhutan_origin": 1.0,
+        "Out_migrant": 1.0
+      },
+      "display_names": {
+        "Native": "Native (born in Cooch Behar district or same village/town)",
+        "WB_other_district": "WB other district (in-migrant)",
+        "Other_Indian_state": "Other Indian state",
+        "Bangladesh_origin": "Bangladesh-origin (refugee / border community)",
+        "Nepal_Bhutan_origin": "Nepal / Bhutan-origin",
+        "Out_migrant": "Out-migrant (registered here but working outside)"
+      },
+      "tier": "D",
+      "source_csv": "003_marginals.csv",
+      "needs_review": true,
+      "notes": "[AC 003: Bangladesh-origin + Nepal/Bhutan-origin are both salient — border with both countries]"
+    },
+    {
+      "name": "rajbanshi_status",
+      "kind": "derived",
+      "parents": [
+        "caste"
+      ],
+      "module": "derived.rajbanshi_status",
+      "function": "compute",
+      "categories": [
+        "rajbanshi_sc",
+        "non_rajbanshi"
+      ],
+      "tier": "E",
+      "needs_review": true,
+      "notes": "AC 003 specific. True iff caste ∈ {Rajbanshi, Koch}. Used by LLM persona narratives for Cooch Behar identity."
+    }
+  ]
+}

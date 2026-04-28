@@ -1,0 +1,101 @@
+axis,category,pct,tier,source,is_subgroup
+religion,Hindu,58.11,B,Weighted 2011 data: Muni 85.98% + CDB-I 47.72% + CDB-II 59.77%; projected 2011→2019 with Hindu +1.0%/yr (Pew India 2021),no
+religion,Muslim,41.57,B,Weighted 2011 data: Muni 13.75% + CDB-I 52.16% + CDB-II 39.68%; projected Muslim +1.3%/yr,no
+religion,Christian,0.20,E,South 24P fringe; CDB data shows negligible Christian,no
+religion,Other (Sikh / Jain / Buddhist / Sarna),0.12,E,"CDB-II ""Others"" 0.55%; CDB-I 0.12%; weighted down at AC level",no
+caste,SC total,21.46,B,Weighted from Census 2011: Muni 12.49% + CDB-I 18.63% + CDB-II 26.55%; GP-equal-weight assumption within each CDB,no
+caste,Namasudra / Bagdi,9.0,D,"South 24P coastal SC: Namasudra (fishers/farmers), Bagdi (agricultural labourers) are primary SC communities; Namasudra dominant in river-delta belt",yes
+caste,Munda / other SC,3.0,E,Munda and other SC in CDB-II rural pockets,yes
+caste,Scheduled Caste unclassified,9.46,E,Residual within SC total,yes
+caste,ST total,0.05,A,Census 2011 CDB-I ST 0.01%; CDB-II ST 0.04%; weighted AC ~0.05% (negligible),no
+caste,Upper-caste bhadralok (Brahmin / Kayastha / Baidya),5.0,E,Concentrated in Diamond Harbour Municipality; smaller presence than North 24P border ACs,no
+caste,OBC specific (Mahishya / Sadgop / Teli / Kurmi),6.0,E,Mahishya fishing caste historically significant in Hugli delta areas; Sadgop farming OBC,no
+caste,Other Hindu middle castes (Goala / Pod / Sutradhar / Kaibarta / unclassified Hindu),25.60,E,Residual within Hindu (58.11 − 21.46 SC − 0.05 ST − 5.0 UC − 6.0 OBC = 25.60% other Hindu middle castes; Kaibarta fishing caste significant in Hugli delta),no
+caste,Muslim (all sub-castes pooled),41.57,B,See C.1; sub-structure in joint table D.2,no
+caste,Christian + Other,0.32,E,See C.1,no
+age_cohort,0–4,8.0,E,Projected from S24P district Census 2011 age pyramid; higher fertility in Muslim-majority rural CDB-I,no
+age_cohort,5–9,8.5,E,,no
+age_cohort,10–14,8.5,E,,no
+age_cohort,15–17 (pre-voter),5.5,E,,no
+age_cohort,18–22 (first-time voters at 2019),9.0,E,,no
+age_cohort,23–27,9.5,E,,no
+age_cohort,28–32,9.0,E,,no
+age_cohort,33–37,8.0,E,,no
+age_cohort,38–42,7.5,E,,no
+age_cohort,43–47,6.5,E,,no
+age_cohort,48–52,6.0,E,,no
+age_cohort,53–57,5.0,E,,no
+age_cohort,58–62,3.5,E,,no
+age_cohort,63–67,2.5,E,,no
+age_cohort,68+,3.0,E,Slightly higher 68+ vs N24P (S24P older rural cohort),no
+gender,Male,51.06,E,Sex ratio 959 → F/total = 959/1959 = 48.95%; M = 51.05% — rounded to 51.06 for sum,no
+gender,Female,48.93,E,,no
+gender,Third gender,0.01,E,WB state rate from 2011 Census,no
+mother_tongue,Bengali,99.44,A,CDB-I 99.83% Bengali (A); CDB-II 99.7% Bengali (A); Muni ~98.5% Bengali (E); weighted AC ~99.4%,no
+mother_tongue,Urdu,0.30,E,Small Muslim Urdu-speaker pocket in municipality and CDB-II; CDB data shows 0.02% Urdu — slightly higher in urban fraction,no
+mother_tongue,Hindi,0.20,E,"CDB-I 0.14%, CDB-II 0.32%; Muni trader/migrant Hindi fringe",no
+mother_tongue,Other,0.06,E,Residual,no
+education,Illiterate,20.5,E,AC 2011 literacy weighted 77.70% (B); age-7+ base → illiteracy ~22.3%; improve +1pp/yr for 8 yrs → ~20.5% illiterate by 2019,no
+education,Primary (Class 1–5),25.0,E,Census 2011 S24P education distribution scaled,no
+education,Middle (Class 6–8),22.0,E,,no
+education,Secondary (Class 9–10),16.0,E,,no
+education,Higher Secondary (Class 11–12),9.5,E,,no
+education,Graduate,5.5,E,Lower than North 24P; rural-delta deprivation,no
+education,Postgraduate,1.5,E,,no
+workforce_status,Main worker,30.0,E,CDB-I+II combined main-worker share; lower female workforce participation,no
+workforce_status,Marginal worker,13.0,E,Higher marginal worker share than N24P due to fishing seasonality,no
+workforce_status,Non-worker (housewife / elderly / retired),38.0,E,Heavy female non-worker share in Muslim-majority rural blocks,no
+workforce_status,"Student (18–22 only, in education)",11.0,E,,no
+workforce_status,"Unemployed (educated, actively seeking)",8.0,E,Job-aspirant pool concentrated in Muni and educated CDB-II youth,no
+occupation,Cultivator (own-land),6.5,B,Census 2011 CDB-I 6.87% + CDB-II 7.27%; Muni minimal ~2%; AC weighted ~6.5% by 2019,no
+occupation,Agricultural labourer,19.0,B,Census 2011 CDB-I 22.32% + CDB-II 21.69%; Muni dilution; AC weighted ~19%,no
+occupation,Fishing / pisciculture,12.0,D,"River-delta economy: Hugli tidal fishing, prawn cultivation, brackish-water aquaculture; S24P has >4.5L pisciculture workers (2001 state data); Coastal Frontiers blog; Namasudra + Mahishya caste occupational pattern",no
+occupation,"Household industry (mat-weaving, coir, bidi)",6.5,B,Census 2011 CDB-I 7.22% + CDB-II 6.24%; weighted ~6.5%,no
+occupation,Construction,5.0,E,Includes seasonal out-migrant returnees,no
+occupation,Trade / retail,11.0,E,Diamond Harbour Muni commercial hub; river-trade,no
+occupation,Transport (ferry / road / river),7.0,D,River ferry economy significant; Hugli crossings; auto-rickshaw,no
+occupation,Services (private),10.0,E,,no
+occupation,Government services / teachers,6.0,E,Slightly higher than N24P rural average due to subdivisional HQ,no
+occupation,"Out-migrant (registered here, working outside)",13.0,D,"South 24P out-migration for fishing labour (deep-sea), Kolkata daily commuters, construction migrant workers; S24P district MIS + journalistic; higher than N24P due to deep-sea fishing seasonal absence",no
+occupation,Tourism / hospitality,2.0,D,Diamond Harbour waterfront tourism (Kolkata day-trip destination),no
+occupation,Manufacturing / other organised,2.0,E,Small-scale factory and organised sector in Muni fringe,no
+class_of_worker,Employer,1.5,E,Census B-04 WB rural pattern; lower in fishing-dependent AC,no
+class_of_worker,Employee (regular wage),24.0,E,Govt + organised + services employees,no
+class_of_worker,Single worker / own-account,52.0,E,"Fishermen (own boat/net), cultivator-owners, small traders",no
+class_of_worker,Family worker (unpaid),22.5,E,Fishing household family helpers; female family workers in cultivation,no
+economic_status,BPL household,28.0,D,S24P district BPL share historically ~30%; river-delta ACs with fishery dependence and Muslim-majority rural blocks have above-district BPL rates; ~28% projected 2019,no
+economic_status,"Above-Poverty-Line, low-income",36.0,E,,no
+economic_status,Lower-middle,22.0,E,,no
+economic_status,Middle,11.0,E,,no
+economic_status,Upper-middle / well-off,3.0,E,Diamond Harbour Muni small affluent/service-class fringe,no
+gp_location,U1: Diamond Harbour Municipality (urban),13.9,E,"2011 Muni 41,802 / AC total ~299,423 = 13.97%; projected slightly declining share as rural grows faster",no
+gp_location,U2: CDB-I rural GP share (7 of 8 GPs of CDB Diamond Harbour I),39.5,E,"118,265 / 299,423 = 39.5%; Note: CDB-I is Muslim-majority (52% Muslim) — this is the load-bearing heterogeneity cell",no
+gp_location,U3: CDB-II rural GP share (6 of 8 GPs of CDB Diamond Harbour II),46.6,E,"139,356 / 299,423 = 46.5%; CDB-II Hindu majority (60% Hindu) but with 40% Muslim; Sarisa, Nurpur, Khorda, Mathur, Patra, Kamarpole GPs",no
+household_composition,Avg HH size,4.5 persons,E,"S24P 2011: HH size ~4.5 (higher than state avg of 4.3 due to rural Muslim HH); Muni closer to 4.2 (10,048 HH / 41,802 pop = 4.16 — A)",no
+household_composition,Nuclear HH,65.0,E,NFHS-4 WB rural pattern; slightly lower nuclear in Muslim-dominant CDB-I,no
+household_composition,Joint HH,26.0,E,,no
+household_composition,Extended / multi-generation,9.0,E,Higher than N24P due to fishing economy household structure,no
+marital_status,Never married,25.0,E,Census 2011 S24P pattern; slightly lower than N24P due to younger marriage age in rural Muslim communities,no
+marital_status,Currently married,66.0,E,,no
+marital_status,Widowed,8.0,E,Concentrated in 60+; higher widow share in fishing families (occupational hazard),no
+marital_status,Separated / divorced,1.0,E,,no
+asset_media,Television,72.0,C,"NFHS-4 WB rural ~60%, urban 89%; AC weighted ~66% baseline + growth; Muslim-majority CDB-I slightly lower → ~72% AC",no
+asset_media,Radio,5.0,C,Declining nationally,no
+asset_media,Mobile phone (any),85.0,C,NFHS-4 WB ~78%; +growth via Jio 2016-19 → ~85% by 2019; slightly lower than N24P due to rural depth,no
+asset_media,Smartphone with internet,42.0,C,NFHS-4 baseline + Jio rollout 2016-19; Muslim-majority rural CDB-I dampens to ~42% AC weighted,no
+asset_media,Computer,8.0,C,"NFHS-4 WB rural 4%, urban 27%; AC weighted lower than N24P (no Petrapole port bonus)",no
+asset_media,Two-wheeler,25.0,C,"NFHS-4 WB rural 18%, urban 41%; lower than N24P — boat/ferry more salient than bike in delta",no
+asset_media,Four-wheeler,5.0,C,Limited,no
+asset_media,Banking access (any),82.0,B,PMJDY 2014- saturation; S24P lower banking density than N24P historically; ~82% by 2019,no
+amenities,Improved drinking water source,82.0,C,"NFHS-4 WB rural 84%, urban 93%; AC slightly lower due to riverine geography (well + river water common)",no
+amenities,Improved sanitation (latrine),65.0,C,"NFHS-4 WB rural 51%, urban 84%; +Swachh Bharat 2014-19 (+12pp rural); Muslim-majority CDB-I slightly lower uptake",no
+amenities,LPG / clean cooking fuel,42.0,C,"NFHS-4 WB rural 24%, urban 81%; +Ujjwala 2016-19 (+14pp rural); lower than N24P — fishing economy uses wood/coal more",no
+amenities,Wood / biomass fuel,50.0,C,Higher biomass than N24P due to delta mangrove-fringe firewood access,no
+amenities,"Other fuel (kerosene, dung, etc.)",8.0,C,,no
+amenities,Electricity,92.0,C,Census 2011 + Saubhagya 2017-19; slightly lower than N24P rural (~95%) due to delta geography connectivity gap,no
+migration,Native (born in S24P or same village/town),80.0,D,"Diamond Harbour sub-division is predominantly native-rooted; Muslim peasantry is indigenous to this riverine delta; unlike N24P border ACs, there is minimal refugee-resettlement stream",no
+migration,WB other district (in-migrant),6.0,D,Kolkata suburb commuter class in Muni; some Kolkata-overspill in CDB-II,no
+migration,Other Indian state,2.0,D,Marwari/Bihari trader fringe in Muni; construction migrant workers,no
+migration,"Bangladesh-origin (migrant Hindu, small stream)",3.0,D,Much smaller Bangladesh-origin fraction than N24P border ACs; mainly pre-1971 Namasudra fraction in CDB-II; no Matua concentration,no
+migration,Outside India (other than Bangladesh),0.5,E,Negligible,no
+migration,"Seasonal out-migrant (registered here, currently absent)",8.5,D,"Load-bearing: significant seasonal fishing-labour out-migration from S24P coast (deep-sea fishing boats, Kolkata daily commuters, construction migrants); registered voter but seasonally absent — affects actual polling booth presence",no
