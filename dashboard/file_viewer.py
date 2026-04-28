@@ -4,6 +4,7 @@ from pathlib import Path
 import streamlit as st
 
 from csv_viewer import render_csv_viewer
+from events_viewer import render_events
 
 CONSTITUENCIES_DIR = Path(__file__).parent.parent / "constituency_data" / "constituencies"
 YEARS = ["2019", "2021", "2024"]
@@ -55,7 +56,10 @@ def render_file_viewer(ac_no: int, ac_name: str) -> None:
         st.warning("No year data found for this constituency.")
         return
 
-    year_tabs = st.tabs(available_years)
+    # Top-level tabs: one per year + a shared Events tab
+    top_tabs = st.tabs(available_years + ["Events"])
+    year_tabs = top_tabs[: len(available_years)]
+    events_tab = top_tabs[-1]
 
     for tab, year in zip(year_tabs, available_years):
         with tab:
@@ -87,3 +91,6 @@ def render_file_viewer(ac_no: int, ac_name: str) -> None:
                     render_csv_viewer(csv_dir)
                 else:
                     st.info("No CSV folder for this year.")
+
+    with events_tab:
+        render_events(folder)

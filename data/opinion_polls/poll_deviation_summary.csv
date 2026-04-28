@@ -1,0 +1,31 @@
+election,poll_id,poll_type,media_house,agency,pub_date,tmc_projected_mid,tmc_actual,tmc_seat_error,bjp_projected_mid,bjp_actual,bjp_seat_error,tmc_vote_pct_projected,tmc_vote_pct_actual,tmc_vote_pct_error,bjp_vote_pct_projected,bjp_vote_pct_actual,bjp_vote_pct_error,notes
+2021_assembly,1,pre-poll,ABP Ananda,CVoter,2021-01-18,158,213,-55,102,77,+25,43.0,47.9,-4.9,37.5,38.1,-0.6,
+2021_assembly,2,pre-poll,India TV,Peoples Pulse,2020-12-01,95,213,-118,183,77,+106,,47.9,,,38.1,,Worst pre-poll for BJP overestimate
+2021_assembly,3,pre-poll,ABP Ananda,CVoter,2021-02-15,158,213,-55,106,77,+29,43.4,47.9,-4.5,38.4,38.1,+0.3,Range midpoint
+2021_assembly,4,pre-poll,India TV,CNX,2021-02-15,151,213,-62,117,77,+40,,47.9,,,38.1,,
+2021_assembly,5,pre-poll,NK Digital,In-house,2021-02-14,192,213,-21,69,77,-8,49.0,47.9,+1.1,39.0,38.1,+0.9,Closest overall pre-poll
+2021_assembly,6,pre-poll,India TV,CNX,2021-03-08,159,213,-54,107,77,+30,,47.9,,,38.1,,
+2021_assembly,7,pre-poll,Polstrat,Polstrat,2021-03-15,163,213,-50,102,77,+25,44.4,47.9,-3.5,37.4,38.1,-0.7,10k CATI sample
+2021_assembly,9,pre-poll,ABP Ananda,CNX,2021-03-23,141,213,-72,135,77,+58,40.0,47.9,-7.9,38.0,38.1,-0.1,
+2021_assembly,11,pre-poll,India News,Jan Ki Baat,2021-03-23,126,213,-87,156,77,+79,44.1,47.9,-3.8,,,38.1,40k sample; BJP win predicted
+2021_assembly,12,pre-poll,Times Now,CVoter,2021-03-24,160,213,-53,112,77,+35,42.0,47.9,-5.9,37.0,38.1,-1.1,
+2021_assembly,13,pre-poll,DB Live,In-house,2021-03-25,172,213,-41,77,77,0,39.6,47.9,-8.3,37.1,38.1,-1.0,BJP seats exactly right
+2021_assembly,14,pre-poll,P-Marq,P-Marq,2021-03-25,126,213,-87,154,77,+77,43.0,47.9,-4.9,42.0,38.1,+3.9,
+2021_assembly,15,exit-poll,India Today,Axis My India,2021-04-29,143,213,-70,147,77,+70,,47.9,,,38.1,,
+2021_assembly,16,exit-poll,Republic TV,Jan Ki Baat,2021-04-29,113,213,-100,174,77,+97,,47.9,,,38.1,,Worst exit poll
+2021_assembly,17,exit-poll,Times Now,CVoter,2021-04-29,158,213,-55,115,77,+38,,47.9,,,38.1,,
+2021_assembly,18,exit-poll,ABP Ananda,CVoter,2021-04-29,160,213,-53,112,77,+35,,47.9,,,38.1,,
+2021_assembly,19,exit-poll,News24,Today's Chanakya,2021-04-29,180,213,-33,108,77,+31,,47.9,,,38.1,,Closest exit poll
+2024_loksabha,1,pre-poll,India TV,CNX,2023-10-05,30,29,+1,10,12,-2,48.0,46.1,+1.9,36.0,38.7,-2.7,Closest overall; 8 months before election
+2024_loksabha,5,pre-poll,India Today,CVoter (MOTN),2024-02-08,22,29,-7,19,12,+7,53.0,46.1,+6.9,40.0,38.7,+1.3,Vote share overstates TMC
+2024_loksabha,6,pre-poll,Zee News,Matrize,2024-02-27,24,29,-5,17,12,+5,,46.1,,,38.7,,
+2024_loksabha,7,pre-poll,India TV,CNX,2024-03-01,21,29,-8,20,12,+8,,46.1,,,38.7,,
+2024_loksabha,8,pre-poll,ABP News,CVoter,2024-03-01,23,29,-6,19,12,+7,42.5,46.1,-3.6,40.9,38.7,+2.2,Vote share closer to actual
+2024_loksabha,9,pre-poll,India TV,CNX,2024-04-03,19,29,-10,22,12,+10,,46.1,,,38.7,,
+2024_loksabha,11,pre-poll,News18,In-house,2024-03-01,17,29,-12,25,12,+13,,46.1,,,38.7,,
+2024_loksabha,10,pre-poll,India TV,CNX,2024-04-16,19,29,-10,23,12,+11,,46.1,,,38.7,,
+2024_loksabha,12,exit-poll,India Today,Axis My India,2024-06-01,12,29,-17,28,12,+16,40.0,46.1,-6.1,46.0,38.7,+7.3,Worst exit poll; predicted BJP landslide
+2024_loksabha,13,exit-poll,ABP Ananda,CVoter,2024-06-01,15,29,-14,25,12,+13,,46.1,,,38.7,,
+2024_loksabha,14,exit-poll,Republic TV,Matrize,2024-06-01,18,29,-11,23,12,+11,,46.1,,,38.7,,
+2024_loksabha,15,exit-poll,News24,Today's Chanakya,2024-06-01,17,29,-12,24,12,+12,,46.1,,,38.7,,
+2024_loksabha,16,exit-poll,Times Now,ETG Research,2024-06-01,20,29,-9,21,12,+9,,46.1,,,38.7,,Closest 2024 exit poll

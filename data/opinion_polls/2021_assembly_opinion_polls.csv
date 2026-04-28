@@ -1,0 +1,21 @@
+poll_id,poll_type,media_house,agency,field_date_start,field_date_end,pub_date,sample_size,tmc_seats_low,tmc_seats_high,tmc_seats_mid,bjp_seats_low,bjp_seats_high,bjp_seats_mid,left_cong_seats_low,left_cong_seats_high,left_cong_seats_mid,others_seats,tmc_vote_pct,bjp_vote_pct,left_cong_vote_pct,source,notes
+1,pre-poll,ABP Ananda,CVoter,,2021-01-18,2021-01-18,,158,158,158,102,102,102,30,30,30,,43.0,37.5,11.8,The Quint,
+2,pre-poll,India TV,Peoples Pulse,,2020-12-01,2020-12-01,,95,95,95,183,183,183,16,16,16,,,,,India TV News,
+3,pre-poll,ABP Ananda,CVoter,,2021-02-15,2021-02-15,,150,166,158,98,114,106,23,31,27,,43.4,38.4,12.0,Wikipedia,Range reported
+4,pre-poll,India TV,CNX,,2021-02-15,2021-02-15,,151,151,151,117,117,117,24,24,24,,,,,India TV News,
+5,pre-poll,NK Digital,In-house,2021-02-13,2021-02-14,2021-02-14,,192,192,192,69,69,69,30,30,30,,49.0,39.0,,NK Digital Magazine,
+6,pre-poll,India TV,CNX,,2021-03-08,2021-03-08,,159,159,159,107,107,107,26,26,26,,,,,India TV News,
+7,pre-poll,Polstrat,Polstrat,2021-03-12,2021-03-15,2021-03-15,10000,163,163,163,102,102,102,29,29,29,,44.4,37.4,12.5,Polstrat/Medium,CATI methodology
+8,pre-poll,ABP Ananda,CVoter,,2021-03-15,2021-03-15,,150,166,158,98,114,106,23,31,27,,43.0,38.0,12.0,Wikipedia,Range reported
+9,pre-poll,ABP Ananda,CNX,,2021-03-23,2021-03-23,,136,146,141,130,140,135,14,18,16,,40.0,38.0,,Wikipedia,Range reported
+10,pre-poll,India TV,Peoples Pulse,,2021-03-23,2021-03-23,,95,95,95,183,183,183,16,16,16,,,,,Wikipedia,
+11,pre-poll,India News,Jan Ki Baat,,2021-03-23,2021-03-23,40000,118,134,126,150,162,156,10,14,12,,44.1,,,MediaInfoline/AdGully,BJP win predicted
+12,pre-poll,Times Now,CVoter,,2021-03-24,2021-03-24,,152,168,160,104,120,112,18,26,22,,42.0,37.0,,Wikipedia,Range reported
+13,pre-poll,DB Live,In-house,,2021-03-25,2021-03-25,,170,175,172,74,79,77,42,47,44,,39.6,37.1,,Wikipedia,Range reported
+14,pre-poll,P-Marq,P-Marq,,2021-03-25,2021-03-25,,121,130,126,149,158,154,11,15,13,,43.0,42.0,,Wikipedia,Range reported
+15,exit-poll,India Today,Axis My India,,2021-04-29,2021-04-29,,130,156,143,134,160,147,4,10,7,,,,,The Federal,
+16,exit-poll,Republic TV,Jan Ki Baat,,2021-04-29,2021-04-29,,104,121,113,162,185,174,3,9,6,,,,,The Federal,
+17,exit-poll,Times Now,CVoter,,2021-04-29,2021-04-29,,152,164,158,109,121,115,18,26,22,,,,,The Federal,
+18,exit-poll,ABP Ananda,CVoter,,2021-04-29,2021-04-29,,152,168,160,104,120,112,18,26,22,,,,,The Quint,
+19,exit-poll,News24 / India News,Today's Chanakya,,2021-04-29,2021-04-29,,169,191,180,97,119,108,0,8,4,,,,,Today's Chanakya/Oneindia,Margin of error ±11
+ACTUAL,actual,EC India,ECI,2021-04-27,2021-05-02,2021-05-02,,213,213,213,77,77,77,0,0,0,4,47.9,38.1,8.6,ECI,Left 5.7% + Cong 2.9%
