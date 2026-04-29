@@ -1,0 +1,1 @@
+../../../../constituency_data/constituencies/143_diamond_harbour/2019/narrative.md

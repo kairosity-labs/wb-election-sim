@@ -1,0 +1,1 @@
+../../../../constituency_data/constituencies/064_murshidabad/2019/narrative.md

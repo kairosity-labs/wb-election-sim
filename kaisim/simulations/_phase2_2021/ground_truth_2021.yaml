@@ -1,0 +1,108 @@
+# 2021 West Bengal Assembly Election — per-AC ground truth.
+# Sourced from each AC's constituency_data/<ac>/2019/<NN>_<name>_2019.md §H.
+# All percentages are AC-level (not LS segment) — direct ECI Form-20.
+#
+# Per-AC poll dates from WB AE 2021 phase schedule (8 phases, March 27 - April 29).
+# Used as the simulation cutoff_date so each agent only sees events up to their
+# own poll day (more realistic than a uniform end_date).
+
+constituencies:
+  003_cooch_behar_uttar:
+    name: "Cooch Behar Uttar"
+    poll_date: "2021-04-10"   # Phase 4
+    candidates:
+      BJP:  {name: "Sukumar Roy",            pct: 49.4, votes: 120483, won: true}
+      AITC: {name: "Binay Krishna Barman",   pct: 43.4, votes: 105868}
+      LF:   {name: "Nagendra Nath Roy (AIFB)", pct: 4.7, votes: 11600}
+      INC:  {name: "—",                       pct: 1.0}
+      Other: {name: "Other / NOTA",           pct: 1.5}
+
+  011_kalchini:
+    name: "Kalchini"
+    poll_date: "2021-04-10"   # Phase 4
+    candidates:
+      BJP:  {name: "Bishal Lama",      pct: 52.65, votes: 103104, won: true}
+      AITC: {name: "Passang Lama",     pct: 38.06, votes: 74528}
+      INC:  {name: "—",                pct: 2.83, votes: 5548}
+      LF:   {name: "—",                pct: 2.0}
+      Other: {name: "Other / NOTA",    pct: 4.46}
+
+  064_murshidabad:
+    name: "Murshidabad"
+    poll_date: "2021-04-26"   # Phase 7
+    candidates:
+      BJP:  {name: "Gouri Sankar Ghosh", pct: 41.86, votes: 95967, won: true}
+      AITC: {name: "Shaoni Singha Roy",  pct: 40.78, votes: 93476}
+      INC:  {name: "Sheikh Nejauddin",   pct: 12.58, votes: 28835}
+      LF:   {name: "—",                  pct: 2.5}
+      Other: {name: "Other / NOTA",      pct: 2.28}
+
+  095_bangaon_uttar:
+    name: "Bangaon Uttar"
+    poll_date: "2021-04-17"   # Phase 5
+    candidates:
+      BJP:  {name: "Ashok Kirtania",  pct: 47.65, votes: 97761, won: true}
+      AITC: {name: "Biswanath Das",   pct: 42.54, votes: 87273}
+      LF:   {name: "CPI(M) candidate", pct: 5.0}
+      INC:  {name: "—",               pct: 1.0}
+      Other: {name: "Other / NOTA",   pct: 3.81}
+
+  123_sandeshkhali:
+    name: "Sandeshkhali"
+    poll_date: "2021-04-29"   # Phase 8
+    candidates:
+      AITC: {name: "Sukumar Mahata", pct: 54.64, votes: 112450, won: true}
+      BJP:  {name: "Bhaskar Sardar", pct: 35.36, votes: 72765}
+      LF:   {name: "—",              pct: 4.5}
+      INC:  {name: "—",              pct: 1.5}
+      Other: {name: "Other / NOTA",  pct: 4.0}
+
+  143_diamond_harbour:
+    name: "Diamond Harbour"
+    poll_date: "2021-04-22"   # Phase 6
+    candidates:
+      AITC: {name: "Pannalal Halder",      pct: 43.69, votes: 98478, won: true}
+      BJP:  {name: "Dipak Kumar Halder",   pct: 36.15, votes: 81482}
+      LF:   {name: "Pratik Ur Rahaman (CPI(M))", pct: 17.18, votes: 38719}
+      INC:  {name: "—",                    pct: 1.0}
+      Other: {name: "Other / NOTA",        pct: 1.98}
+
+  159_bhabanipur:
+    name: "Bhabanipur"
+    poll_date: "2021-04-26"   # Phase 7 (main AE; bypoll later in Sep)
+    candidates:
+      AITC: {name: "Sobhandeb Chattopadhyay", pct: 57.7, votes: 73505, won: true}
+      BJP:  {name: "Rudranil Ghosh",          pct: 35.2, votes: 44786}
+      LF:   {name: "—",                       pct: 3.5}
+      INC:  {name: "—",                       pct: 2.0}
+      Other: {name: "Other / NOTA",           pct: 1.6}
+
+  198_tarakeswar:
+    name: "Tarakeswar"
+    poll_date: "2021-04-10"   # Phase 4
+    candidates:
+      AITC: {name: "Ramendu Sinharay",        pct: 46.96, votes: 96698, won: true}
+      BJP:  {name: "Swapan Dasgupta",         pct: 43.33, votes: 89214}
+      LF:   {name: "Surajit Ghosh (CPI(M))",  pct: 7.1, votes: 14000}
+      INC:  {name: "—",                       pct: 1.0}
+      Other: {name: "Other / NOTA",           pct: 1.61}
+
+  210_nandigram:
+    name: "Nandigram"
+    poll_date: "2021-04-01"   # Phase 2 (Mamata vs Suvendu)
+    candidates:
+      BJP:  {name: "Suvendu Adhikari", pct: 48.49, votes: 110764, won: true}
+      AITC: {name: "Mamata Banerjee",  pct: 47.64, votes: 108808}
+      LF:   {name: "Minakshi Mukherjee (CPI(M))", pct: 2.74, votes: 6267}
+      INC:  {name: "—",                pct: 0.5}
+      Other: {name: "Other / NOTA",    pct: 0.63}
+
+  222_jhargram:
+    name: "Jhargram"
+    poll_date: "2021-03-27"   # Phase 1
+    candidates:
+      AITC: {name: "Birbaha Hansda",          pct: 54.31, votes: 109493, won: true}
+      BJP:  {name: "Sukhmoy Satpati",         pct: 35.34, votes: 71253}
+      LF:   {name: "Madhuja Sen Roy (CPI(M))", pct: 5.17, votes: 10430}
+      INC:  {name: "—",                       pct: 1.5}
+      Other: {name: "Other / NOTA",           pct: 3.68}

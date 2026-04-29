@@ -1,0 +1,20 @@
+{
+  "2021_targeted": {
+    "n_acs": 10,
+    "winners_correct": "9/10",
+    "mean_winner_pp_gap": 8.01,
+    "mean_top2_pp_gap": 17.03
+  },
+  "2021_show_all": {
+    "n_acs": 0,
+    "winners_correct": 0,
+    "mean_winner_pp_gap": null,
+    "mean_top2_pp_gap": null
+  },
+  "2021_blind_to_prior": {
+    "n_acs": 0,
+    "winners_correct": 0,
+    "mean_winner_pp_gap": null,
+    "mean_top2_pp_gap": null
+  }
+}

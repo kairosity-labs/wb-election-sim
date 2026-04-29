@@ -19,6 +19,7 @@ from __future__ import annotations
 
 import asyncio
 import json
+from concurrent.futures import ThreadPoolExecutor
 from dataclasses import asdict, dataclass, field
 from datetime import date
 from pathlib import Path
@@ -32,7 +33,7 @@ from .core.config import SimulationConfig
 from .core.event import NewsEvent, NewsPool
 from .core.memory import MemoryItem
 from .targeting import ScoredEvent, make_targeting
-from .updaters import FinalVoteQuery, ParkMinimalUpdater, ReflectionUpdater, make_updater
+from .updaters import FinalVoteQuery, ParkMinimalUpdater, ReflectionUpdater, VoteIntentionProbe, make_updater
 
 
 @dataclass
@@ -117,10 +118,25 @@ class Orchestrator:
         self.reflector = ReflectionUpdater(
             self.provider, **{**self.llm_kwargs, "max_tokens": 1500}
         )
+        # Qwen 3.5 9B emits ~1500-2000 tokens of <think>...</think> before the
+        # JSON vote — sglang strips it from `message.content` (with
+        # --reasoning-parser qwen3) but it still counts toward max_tokens.
+        # Budget 8000 so the JSON tail is never truncated.
         self.final_query = FinalVoteQuery(
             self.provider, **{**self.llm_kwargs,
-                              "max_tokens": 2000,
-                              "reasoning": "medium"}
+                              "max_tokens": int(config.get("llm.final_vote_max_tokens", 8000)),
+                              "reasoning": "medium",
+                              "election_context": config.get("election_context", {})}
+        )
+        # Mid-run vote-intention probe (A2). Runs at configured tick indices
+        # (1-based) — default at months 8 and 12 of a 16-month run, before
+        # the final vote. Each probe writes a "today I lean X" memory item.
+        self.intention_probe = VoteIntentionProbe(
+            self.provider, **{**self.llm_kwargs,
+                              "max_tokens": int(config.get("llm.intention_probe_max_tokens", 4000))}
+        )
+        self.intention_probe_at_ticks = list(
+            config.get("intention_probe.at_ticks", [8, 12]) or []
         )
 
         # Ticker
@@ -145,9 +161,26 @@ class Orchestrator:
         )
 
         # Concurrency
-        self.semaphore = asyncio.Semaphore(
-            int(config.get("execution.max_concurrent_personas", 10))
-        )
+        self._max_concurrent = int(config.get("execution.max_concurrent_personas", 10))
+        self.semaphore = asyncio.Semaphore(self._max_concurrent)
+
+        # Bump the default thread pool used by `asyncio.to_thread(...)` —
+        # otherwise it caps at min(32, cpu_count+4) and you only ever get
+        # 32 concurrent LLM HTTP calls regardless of `max_concurrent_personas`.
+        # Park-minimal updater + final-vote query both use to_thread, so this
+        # is the actual bottleneck that limits in-flight requests on sglang.
+        # We size it to comfortably exceed the semaphore so threads never
+        # become the binding constraint.
+        try:
+            asyncio.get_event_loop().set_default_executor(
+                ThreadPoolExecutor(max_workers=max(self._max_concurrent + 32, 256),
+                                   thread_name_prefix="orch_llm")
+            )
+        except RuntimeError:
+            # No running loop (called outside `asyncio.run`); the loop
+            # created by `asyncio.run` will pick up our executor when we
+            # set it again at run() time.
+            pass
 
         self.usage_total: dict[str, int] = {}
 
@@ -191,13 +224,18 @@ class Orchestrator:
             print(f"Targeting: {self.targeting.name}")
             print()
 
-        for period in self.ticker.periods():
-            events_in_period = news_pool.first_appearances_in(period.start, period.end)
+        for tick_idx, period in enumerate(self.ticker.periods(), start=1):
+            # B3 — `events_for_period` returns (event, first_appearance) tuples
+            # so chronic recurring events redeliver each active tick.
+            events_with_first = news_pool.events_for_period(period.start, period.end)
             if self.verbose:
-                print(f"=== {period.label} ({len(events_in_period)} candidate events) ===")
+                n_first = sum(1 for _, f in events_with_first if f)
+                n_recur = len(events_with_first) - n_first
+                print(f"=== {period.label} ({len(events_with_first)} candidate events; "
+                      f"{n_first} first, {n_recur} recurring) ===")
 
             await asyncio.gather(*[
-                self._process_agent_period(state, period, events_in_period)
+                self._process_agent_period(state, period, events_with_first)
                 for state in states
             ])
 
@@ -207,6 +245,16 @@ class Orchestrator:
                 await asyncio.gather(*[
                     self._reflect_agent(state, period)
                     for state in states
+                ])
+
+            # A2: vote-intention probe at configured ticks (default: months 8, 12).
+            # Each agent commits to a "today I lean X" memory; appended to
+            # memory_stream so subsequent ticks (and final vote) can read it.
+            if tick_idx in self.intention_probe_at_ticks:
+                if self.verbose:
+                    print(f"  intention probe trigger (tick {tick_idx})")
+                await asyncio.gather(*[
+                    self._probe_intention(state, period) for state in states
                 ])
 
         # Final vote query
@@ -253,16 +301,21 @@ class Orchestrator:
 
     # ----- per-agent processing -----
     async def _process_agent_period(self, state: AgentRunState, period: Period,
-                                     events: list[NewsEvent]) -> None:
+                                     events_with_first: list[tuple[NewsEvent, bool]]) -> None:
         async with self.semaphore:
+            # Strip first_appearance flag for targeting; preserve via slug map.
+            first_by_slug = {e.slug: f for e, f in events_with_first}
+            events = [e for e, _ in events_with_first]
             scored = self.targeting.select(
                 state.agent, events,
                 period.start.isoformat(), period.end.isoformat(),
             )
             for se in scored:
                 memory_id = f"{state.agent.id}_m{len(state.agent.memory_stream):03d}"
+                first_appearance = first_by_slug.get(se.event.slug, True)
                 item, parsed, raw = await self.update_fn.update(
                     state.agent, se.event, period.end, memory_id,
+                    first_appearance=first_appearance,
                 )
                 state.n_llm_calls += 1
                 fr = FeedRecord(
@@ -302,6 +355,24 @@ class Orchestrator:
                 state.agent.memory_stream.to_jsonl(
                     state.agent_dir / "memory_stream.jsonl"
                 )
+
+    async def _probe_intention(self, state: AgentRunState, period: Period) -> None:
+        """A2: ask the agent who they'd vote for today, write to memory.
+        The recorded memory item (kind='intention') is read back by the
+        final-vote query, providing an explicit accumulating belief signal
+        instead of forcing the model to re-derive a vote from raw reactions.
+        """
+        async with self.semaphore:
+            n_intent = sum(1 for m in state.agent.memory_stream.items
+                           if m.kind == "intention")
+            memory_id = f"{state.agent.id}_i{n_intent:02d}"
+            item = await self.intention_probe.probe(
+                state.agent, period.end, memory_id,
+            )
+            state.n_llm_calls += 1
+            if item:
+                state.agent.memory_stream.add(item)
+                state.append_memory_to_disk(item)
 
     async def _final_vote(self, state: AgentRunState) -> None:
         async with self.semaphore:

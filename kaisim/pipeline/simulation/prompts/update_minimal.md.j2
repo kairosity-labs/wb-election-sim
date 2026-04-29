@@ -30,12 +30,24 @@ the start of 2020. Your priors come from your background.
 IT IS NOW {{ event_date }}.
 ──────────────────────────────────────────
 
+{% if first_appearance is defined and not first_appearance -%}
+This is something that has been happening for a while now and is still going on:
+
+**{{ event.headline }}**
+
+{{ event.summary }}
+{% else -%}
 The following news event has reached you:
 
 **{{ event.headline }}**
 
 {{ event.summary }}
+{% endif -%}
 
+{% if event.party_direction_summary is defined and event.party_direction_summary -%}
+({{ event.party_direction_summary }} You may agree or disagree with that read; what matters is how *you* take it.)
+
+{% endif -%}
 React in character. Be honest — most news doesn't change real people's minds. Only say something shifted if it genuinely would for *you*, given who you are and what you remember.
 
 Output ONLY a JSON object (no preamble, no markdown fences):

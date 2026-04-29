@@ -1,0 +1,34 @@
+# 2024 Lok Sabha Election — per-AC PC-level proxy ground truth.
+#
+# AC-level Form-20 segmented results were not transcribed into csv/ at the time
+# of writing. We use PC-wide vote shares as proxies, with caveat:
+#   - AC 095 (Bangaon Uttar) is the Matua heart of Bangaon LS — its BJP share
+#     historically runs +3 to +6 pp above the PC average. So PC-level BJP 50.2%
+#     understates AC-95 BJP. Used as a soft floor.
+#   - AC 159 (Bhabanipur) sits inside Kolkata Dakshin LS but is Mamata's home
+#     ward — TMC share is meaningfully above PC average. PC-level TMC 53.4%
+#     understates AC-159 TMC. Used as a soft floor.
+#
+# Sources: Wikipedia / ECI 2024 LS results pages.
+constituencies:
+  095_bangaon_uttar:
+    name: "Bangaon Uttar"
+    pc_name: "Bangaon"
+    poll_date: "2024-05-20"     # Phase 5
+    candidates:
+      BJP:  {name: "Shantanu Thakur",       pct: 50.2, votes: 740672, won: true}
+      AITC: {name: "Biswajit Das",          pct: 45.3, votes: 667930}
+      LF:   {name: "Pradip Biswas (CPIM)",  pct: 3.4}
+      INC:  {name: "—",                     pct: 0.5}
+      Other: {name: "Other / NOTA",         pct: 0.6}
+
+  159_bhabanipur:
+    name: "Bhabanipur"
+    pc_name: "Kolkata Dakshin"
+    poll_date: "2024-06-01"     # Phase 7
+    candidates:
+      AITC: {name: "Mala Roy",                  pct: 53.4, votes: 573119, won: true}
+      BJP:  {name: "Debasree Chaudhuri",        pct: 38.9, votes: 417927}
+      LF:   {name: "Saira Shah Halim (CPI(M))", pct: 5.9}
+      INC:  {name: "—",                         pct: 0.8}
+      Other: {name: "Other / NOTA",             pct: 1.0}
