@@ -149,9 +149,13 @@ def _persona_schema_block(ctx: SimulationContext, vote_field: str) -> str:
             "narrative": {
                 "self_prompt": (
                     "You are <Name>, a <age> year old <religion> <caste> "
-                    "<gender> living in <gp_location>. Your psychology... "
-                    "Your political affiliation... When asked about voting "
-                    "in the 2019 Lok Sabha you would say..."
+                    "<gender> living in <gp_location>. Your household "
+                    "situation... The pressures shaping your daily life... "
+                    "Local figures and institutions you trust or distrust... "
+                    "What you watch/read and which neighbours' opinions you "
+                    "weigh. In 2019 your household voted <party>. (Just one "
+                    "brief clause — do NOT explain or justify why the vote "
+                    "went that way; the rest is biography.)"
                 )
             }
         }]
@@ -175,12 +179,16 @@ def _persona_schema_block(ctx: SimulationContext, vote_field: str) -> str:
         "  what news/issues animate them, what local figures they admire or distrust, what daily\n"
         "  pressures and welfare touch-points shape their politics. Use details from the\n"
         "  pre-period context.\n"
-        "  **DO NOT** explain or rationalize their 2019 LS vote choice in the narrative — that\n"
-        "  vote is recorded separately in the `fields` dict. The narrative should describe the\n"
-        "  identity and pressures that PRODUCE political views, not lock in a frozen\n"
-        "  rationalization of the 2019 outcome. (When the persona later answers a 2021/2024 vote\n"
-        "  query, the answer should emerge from these biographical pressures + what they've\n"
-        "  lived through since 2019, not from a frozen self-justification.)\n"
+        "  Mention the 2019 LS vote choice ONLY as a brief one-clause biographical fact —\n"
+        "  e.g., 'in 2019 your household voted BJP' or 'you went with TMC in 2019'.\n"
+        "  **DO NOT rationalize or explain WHY** that vote happened (no 'because of CAA',\n"
+        "  no 'because Mamata understood me', no detailed justification narrative). The\n"
+        "  narrative should set up the household / community / livelihood pressures that\n"
+        "  PRODUCE political views going forward — the 2019 vote is a starting anchor, not\n"
+        "  a frozen self-justifying story. (When the persona later answers a 2021/2024 vote\n"
+        "  query, the answer should emerge from those pressures + what they've lived\n"
+        "  through since 2019, weighted by the brief 2019 anchor — not from a frozen\n"
+        "  rationalization that prevents updating.)\n"
         "  DO NOT reference any event after the pre-period cutoff specified in the context.\n"
     )
 

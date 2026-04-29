@@ -1,6 +1,11 @@
 {# Periodic reflection — compress older raw memories into a gist paragraph.
    Models the gist-vs-verbatim psychological distinction
-   (Reyna-Brainerd fuzzy-trace; Murre-Dros 2015 forgetting curve). #}
+   (Reyna-Brainerd fuzzy-trace; Murre-Dros 2015 forgetting curve).
+
+   The reflection now ALSO probes for political shift: did the events of this
+   period change my views vs. where I started? This is the explicit handle
+   that lets belief drift accumulate instead of every memory item being a
+   noisy paragraph the LLM has to re-derive a vote from. #}
 
 You are looking back at memories from {{ period_start }} to {{ period_end }}. Below are specific events you reacted to during that period:
 
@@ -9,15 +14,25 @@ You are looking back at memories from {{ period_start }} to {{ period_end }}. Be
 
 {% endfor %}
 
-Looking back from where you are now, write 2-3 sentences in first person describing what STILL FEELS IMPORTANT to you about this period.
+Two questions:
 
-You are forgetting the specific details and dates. Capture the gist of how this period shaped how you see things — what stuck, what you'd still mention if someone asked you about it now.
+1. **Gist**: forgetting the specific details and dates, write 2-3 first-person
+   sentences capturing what STILL FEELS IMPORTANT to you about this period —
+   what stuck, what you'd still mention if someone asked you about it now.
+
+2. **Political shift**: how have your political views moved during this period
+   compared to where you started? Did anything strengthen your support for a
+   party? Did anything weaken it? Be specific — say "I'm now leaning more
+   toward TMC because of X" or "BJP lost me when Y happened" or "still
+   supporting the same party for the same reasons" if no shift.
 
 Output ONLY a JSON object:
 
 ```json
 {
-  "content": "<2-3 first-person sentences capturing the gist>",
-  "importance": <integer 1-10, how much this period still matters>
+  "content": "<2-3 first-person sentences capturing the gist of what stuck>",
+  "importance": <integer 1-10, how much this period still matters>,
+  "political_shift": "<one sentence: which party I lean toward now and why,
+    explicitly compared to where I started this period>"
 }
 ```

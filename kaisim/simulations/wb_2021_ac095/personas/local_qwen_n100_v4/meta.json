@@ -1,0 +1,21 @@
+{
+  "name": "local_qwen_n100_v4",
+  "created_at": "2026-04-28T23:29:12+00:00",
+  "n": 100,
+  "sampler": "llm_batch",
+  "config_hash": "sha256:364641b87cfe22af",
+  "schema_version": "1.0",
+  "verifier": {
+    "n": 100,
+    "composite_score": 436.35,
+    "within_tolerance": false,
+    "max_axis_z": 2.13,
+    "max_joint_z": 3.74,
+    "aggregate_vote_max_z": 2.53,
+    "max_axis_gap_pp": 10.31,
+    "max_joint_cell_gap_pp": 100.0,
+    "aggregate_vote_max_gap_pp": 6.0
+  },
+  "provider": "openai",
+  "model": "Qwen/Qwen3.5-9B"
+}

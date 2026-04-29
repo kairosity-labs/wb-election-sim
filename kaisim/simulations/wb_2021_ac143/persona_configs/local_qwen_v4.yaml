@@ -1,0 +1,81 @@
+# Local-LLM persona generation via sglang serving openai/gpt-oss-20b (DP=8 on B200).
+# Run with:  python kaisim/simulations/wb_2021_ac<NN>/generate.py local_qwen
+#
+# Model: openai/gpt-oss-20b (MoE, 21B total / 3.6B active per token, MXFP4-native).
+# Reasoning level "medium" — gpt-oss respects reasoning_effort and emits chain-of-
+# thought before the final reply. The harmony chat template handles parsing so
+# the OpenAI client only sees `message.content` (the actual answer); the thinking
+# tokens stay on the server side.
+#
+# Pipeline notes:
+#   - batch_size=12 paired with max_tokens=20000 fits a 12-persona JSON output
+#     comfortably (~1500 tok/persona for gpt-oss; cleaner JSON than Qwen 9B).
+#   - max_consecutive_zero_batches=3 keeps the run going through the rare bad
+#     batch (validator drops or parse failure).
+#   - cache_system_prompt=true: sglang RadixAttention reuses the ~13k-tok system
+#     prompt across calls per replica.
+
+persona_set:
+  name: "local_qwen_n100_v4"
+  description: "gpt-oss-20b (sglang DP=8, reasoning=medium) generated personas, n=100, with verifier feedback."
+
+generation:
+  sampler: "llm_batch"
+  target_n: 100
+  batch_size: 12
+  parallel_calls: 2          # K=2 parallel HTTP calls per round per AC.
+                             # 10 ACs × K=2 = 20 in-flight requests total
+                             # (~2.5 per replica) — the throughput sweet
+                             # spot from our benchmarks. Calibration quality:
+                             # smoke at K=2 hit composite ~200-500 vs K=13's
+                             # ~1140, because each round's gap report only
+                             # informs 2 calls (not 13).
+  max_correction_batches: 3
+  max_consecutive_zero_batches: 3
+  seed: 42
+
+vote:
+  enabled: true
+  field_name: "vote_2019_LS"
+  parties: ["BJP", "AITC", "INC", "LF", "Other"]
+  blending:
+    method: "log_odds_mean"
+    inputs:
+      - {table: "vote_given_religion", parent: "religion",         weight: 1.5}
+      - {table: "vote_given_caste",    parent: "caste",            weight: 1.5}
+      - {table: "vote_given_gender",   parent: "gender",           weight: 0.7}
+      - {table: "vote_given_welfare",  parent: "welfare_dominant", weight: 1.0}
+  welfare_overlap:
+    method: "precedence"
+    precedence: ["Krishak_Bandhu", "Kanyashree", "Sabuj_Sathi",
+                 "Swasthya_Sathi", "Khadya_Sathi"]
+
+verifier:
+  tolerance:
+    cell_z_max:            2.5
+    composite_chisq_max:   800.0
+    tier_A_axis_pp:        2.0
+    tier_BC_axis_pp:       3.0
+    tier_DE_axis_pp:       4.0
+    joint_cell_pp:         5.0
+    aggregate_vote_pp:     2.0
+  tier_weights:
+    A: 4.0
+    B: 3.0
+    C: 2.0
+    D: 1.5
+    E: 1.0
+
+llm:
+  provider: "openai"                    # OpenAI-compatible (sglang)
+  model: "Qwen/Qwen3.5-9B"
+  base_url: "http://localhost:30000/v1"
+  api_key: "EMPTY"
+  reasoning: null                   # low | medium | high — sglang forwards to chat_template
+  temperature: 0.7                      # ignored by reasoning-model branch; kept for completeness
+  max_tokens: 20000                     # 12 personas × ~1500 tok + thinking headroom
+  cache_system_prompt: true             # sglang RadixAttention handles automatically
+
+prompts:
+  batch_guidance: "prompts/batch_guidance.md"
+  news_context:   "news/persona_context_pre2019.md"
