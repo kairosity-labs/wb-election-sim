@@ -16,6 +16,23 @@ from typing import Any, Iterator
 import yaml
 
 
+_PARTY_TAG_TO_PARTY = {
+    "bjp_supporter": "BJP",
+    "tmc_supporter": "AITC",
+    "aitc_supporter": "AITC",
+    "left_supporter": "LF",
+    "inc_supporter": "INC",
+    "congress_supporter": "INC",
+}
+
+_VALENCE_TO_DIR = {
+    "positive": "favorable",
+    "negative": "unfavorable",
+    "ambient": "ambient",
+    "neutral": "ambient",
+}
+
+
 @dataclass
 class NewsEvent:
     slug: str
@@ -33,6 +50,9 @@ class NewsEvent:
     date: date | None = None
     date_start: date | None = None
     date_end: date | None = None
+    # B3 — chronic events default to redelivering each active tick. Episodic
+    # always single-fire. YAML may opt out with `recurring: false`.
+    recurring: bool | None = None
 
     @classmethod
     def from_dict(cls, d: dict) -> "NewsEvent":
@@ -57,7 +77,59 @@ class NewsEvent:
             date=_parse_date(d.get("date")),
             date_start=_parse_date(d.get("date_start")),
             date_end=_parse_date(d.get("date_end")),
+            recurring=d.get("recurring"),
         )
+
+    @property
+    def is_recurring(self) -> bool:
+        """B3 — should this event redeliver on each active tick?
+
+        Default: chronic events recur, episodic do not. YAML can override
+        either way with an explicit `recurring: true|false`.
+        """
+        if self.recurring is not None:
+            return bool(self.recurring)
+        return self.temporal == "chronic"
+
+    @property
+    def party_direction_hint(self) -> dict[str, str]:
+        """B2 — derive per-party directionality from the event's `valence` map.
+
+        Returns e.g. {"BJP": "favorable", "AITC": "unfavorable"}.
+        Only parties with non-ambient valence are included so the prompt
+        stays specific. The agent sees this as observational context — it
+        does NOT force a state change; the LLM still decides whether to
+        accept the framing.
+        """
+        out: dict[str, str] = {}
+        for tag, val in (self.valence or {}).items():
+            party = _PARTY_TAG_TO_PARTY.get(tag)
+            if not party:
+                continue
+            d = _VALENCE_TO_DIR.get((val or "").lower())
+            if d in (None, "ambient"):
+                continue
+            # Last write wins on conflict (rare); deterministic via dict order.
+            out[party] = d
+        return out
+
+    @property
+    def party_direction_summary(self) -> str:
+        """One-sentence English version of `party_direction_hint` for prompts.
+        Empty string if the event has no party-directional valence."""
+        hint = self.party_direction_hint
+        if not hint:
+            return ""
+        favorable = sorted(p for p, d in hint.items() if d == "favorable")
+        unfavorable = sorted(p for p, d in hint.items() if d == "unfavorable")
+        parts = []
+        if favorable:
+            parts.append("favorable to " + " and ".join(favorable))
+        if unfavorable:
+            parts.append("unfavorable to " + " and ".join(unfavorable))
+        if not parts:
+            return ""
+        return "Most observers read this as " + ", ".join(parts) + "."
 
     @property
     def primary_date(self) -> date:
@@ -155,6 +227,37 @@ class NewsPool:
     def first_appearances_in(self, period_start: date, period_end: date) -> list[NewsEvent]:
         """Episodic events on date in window + chronic events that START in window."""
         return [e for e in self.events if e.is_first_appearance_in(period_start, period_end)]
+
+    def events_for_period(self, period_start: date, period_end: date
+                          ) -> list[tuple["NewsEvent", bool]]:
+        """B3 — events delivered to agents this tick, with first-appearance flag.
+
+        Returns a list of `(event, first_appearance)` tuples:
+          * Episodic events: included on the tick their date falls in.
+            `first_appearance=True` (always — episodic events fire once).
+          * Chronic events with `is_recurring=True`: included on every tick
+            where they are active. `first_appearance=True` only on the first
+            such tick; subsequent ticks pass `False` so the prompt can frame
+            the event as "still ongoing" rather than "you just heard about
+            this".
+          * Chronic events with `is_recurring=False`: only on first
+            appearance (legacy behavior).
+        """
+        out: list[tuple[NewsEvent, bool]] = []
+        for e in self.events:
+            first = e.is_first_appearance_in(period_start, period_end)
+            if e.temporal == "episodic":
+                if first:
+                    out.append((e, True))
+            elif e.temporal == "chronic":
+                active = e.is_active_in(period_start, period_end)
+                if not active:
+                    continue
+                if first:
+                    out.append((e, True))
+                elif e.is_recurring:
+                    out.append((e, False))
+        return out
 
     def __iter__(self) -> Iterator[NewsEvent]:
         return iter(self.events)

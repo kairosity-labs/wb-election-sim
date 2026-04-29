@@ -1,0 +1,61 @@
+simulation:
+  name: 143_diamond_harbour_2021_targeted_v3
+  description: "tag_match: pure agent_tags \u2229 event_tags delivery. No cap."
+ac_id: 143_diamond_harbour
+input:
+  persona_set: local_qwen_n100_v3
+clock:
+  start_date: '2020-01-01'
+  end_date: '2021-04-22'
+  tick_unit: month
+  tick_size: 1
+  reflection_every_n_ticks: 6
+targeting:
+  strategy: tag_match
+  config: {}
+update:
+  style: park_minimal
+reflection:
+  enabled: true
+  every_n_ticks: 6
+  compression_target_tokens: 200
+llm:
+  provider: openai
+  model: Qwen/Qwen3.5-9B
+  base_url: http://localhost:30000/v1
+  api_key: EMPTY
+  reasoning: null
+  temperature: 0.7
+  max_tokens: 4000
+  cache_system_prompt: true
+execution:
+  async: true
+  max_concurrent_personas: 100
+output:
+  runs_dir: runs
+  save_raw_responses: true
+  save_feeds_audit: true
+election_context:
+  ac_name: Diamond Harbour
+  poll_date_human: 22 April 2021
+  election_label: 2021 West Bengal Legislative Assembly Election
+  candidates:
+    AITC:
+      name: Pannalal Halder
+      note: winner
+    BJP:
+      name: Dipak Kumar Halder
+    LF:
+      name: Pratik Ur Rahaman (CPI(M))
+    INC:
+      name: "\u2014"
+    Other:
+      name: Other / NOTA
+ground_truth:
+  AITC: 43.69
+  BJP: 36.15
+  LF: 17.18
+  INC: 1.0
+  Other: 1.98
+intention_probe:
+  at_ticks: [8, 12]

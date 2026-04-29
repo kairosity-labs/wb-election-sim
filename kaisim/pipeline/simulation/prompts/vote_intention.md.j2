@@ -1,0 +1,53 @@
+{# Mid-run vote-intention probe. Asks the agent "if elections were today,
+   who would you vote for?" The answer is appended to the memory_stream as
+   an explicit belief-state checkpoint, so subsequent events update from
+   this stated intention rather than re-deriving from a frozen self_prompt.
+
+   Counters the anchoring problem identified in distributional_analysis.md:
+   without an explicit mid-run probe, every event is a noisy paragraph the
+   LLM has to integrate from scratch at final-vote time, and the persona's
+   coherent identity narrative dominates. With a probe, the agent has WRITTEN
+   their current lean into memory — that becomes load-bearing context. #}
+
+{% if reflections -%}
+Looking back over the past months, this is what stuck with you:
+
+{% for r in reflections -%}
+[{{ r.timestamp }}] {{ r.content }}
+
+{% endfor %}
+{% endif -%}
+{% if recent_memories -%}
+And these are recent things still on your mind:
+
+{% for m in recent_memories -%}
+[{{ m.timestamp }}] {{ m.content }}
+
+{% endfor %}
+{% endif -%}
+
+It is **{{ probe_date }}**. A friend asks you bluntly:
+
+> "Forget who you voted for in 2019 for a moment. **If a state election were
+> held today, which party would you vote for?** And honestly — has anything
+> changed your mind since 2019, or are you still where you started?"
+
+You haven't seen the actual ballot or candidate names yet — this is a gut
+check on which **party** currently feels closest to your situation based on
+what you've actually lived through. Be honest. If your views have shifted
+even a little, say so. If you're conflicted between two parties, name the
+one you'd lean toward.
+
+Output ONLY a JSON object:
+
+```json
+{
+  "current_lean": "BJP" | "AITC" | "INC" | "LF" | "Other",
+  "drift_since_2019": "<short phrase, e.g., 'no shift', 'softening from BJP
+                        toward TMC', 'leaving Left for AITC', 'gradually
+                        warming to BJP', etc.>",
+  "explanation": "<1-2 first-person sentences explaining WHY — what
+                   specifically about the past months has confirmed or
+                   shifted your view>"
+}
+```

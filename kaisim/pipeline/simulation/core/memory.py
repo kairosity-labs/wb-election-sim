@@ -68,6 +68,21 @@ class MemoryStream:
     def raw_reactions(self) -> list[MemoryItem]:
         return [i for i in self.items if i.kind == "reaction"]
 
+    def intentions(self) -> list[MemoryItem]:
+        """Mid-run vote-intention probe results (kind='intention').
+        Distinct from reactions/reflections so consumers can include them
+        explicitly in recent-memory windows when they want belief drift
+        signal vs raw event reactions."""
+        return [i for i in self.items if i.kind == "intention"]
+
+    def recent_inputs(self, n: int) -> list[MemoryItem]:
+        """Last n items that count as 'agent's belief inputs' — reactions +
+        intentions. Excludes reflections (they're shown separately, and
+        their content is already a compressed form of the underlying
+        reactions). Sorted chronologically."""
+        eligible = [i for i in self.items if i.kind in ("reaction", "intention")]
+        return eligible[-n:] if n else []
+
     def __len__(self) -> int:
         return len(self.items)
 

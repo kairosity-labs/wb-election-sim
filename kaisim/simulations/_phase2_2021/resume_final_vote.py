@@ -126,7 +126,7 @@ async def run_resume(run_root: Path, max_concurrent: int = 100):
     # Persist summary.json (orchestrator usually does this)
     summary_path = run_root / "summary.json"
     summary_doc = {
-        "n_agents": len(agents),
+        "n_agents": len(all_agents),
         "resumed_final_vote": True,
         "vote_distribution": summary["vote_distribution"],
     }

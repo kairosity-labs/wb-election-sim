@@ -54,7 +54,9 @@ class FinalVoteQuery:
                  "Stay in character. Speak in first person."
 
         reflections = agent.memory_stream.reflections()
-        raw_recent = agent.memory_stream.raw_reactions()[-_RECENT_MEMORY_WINDOW:]
+        # Include intention probes — those carry the explicit "today I lean X"
+        # signal that we want the final-vote query to re-read.
+        raw_recent = agent.memory_stream.recent_inputs(_RECENT_MEMORY_WINDOW)
 
         user = render_template(
             "final_vote.md.j2",
